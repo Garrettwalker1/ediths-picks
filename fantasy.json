@@ -1,0 +1,902 @@
+{
+  "updated_at": "2026-09-01T21:53:39.537Z",
+  "refresh_note": "Preseason snapshot. Live matchup scores will appear after the platforms post them.",
+  "providers": [
+    {
+      "name": "ESPN",
+      "account": {
+        "display_name": "Garrett authenticated ESPN account"
+      },
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "status": "ok"
+    },
+    {
+      "name": "Sleeper",
+      "account": {
+        "display_name": "garrettwalker1"
+      },
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "status": "ok"
+    }
+  ],
+  "leagues": [
+    {
+      "id": "espn-416480692",
+      "provider": "ESPN",
+      "account": "Garrett authenticated ESPN account",
+      "league_id": "416480692",
+      "league_name": "#HORNDOGS #DBAP 3.0",
+      "team": {
+        "team_id": 7,
+        "name": "Gibbs Me Head"
+      },
+      "status": "pre_draft",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "ESPN Fantasy",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "matchup": null,
+      "players": []
+    },
+    {
+      "id": "espn-184489982",
+      "provider": "ESPN",
+      "account": "Garrett authenticated ESPN account",
+      "league_id": "184489982",
+      "league_name": "Dirty Mike and the Boys",
+      "team": {
+        "team_id": 1,
+        "name": "Tennessee Tickle Monsters"
+      },
+      "status": "pre_draft",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "ESPN Fantasy",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "matchup": null,
+      "players": [
+        {
+          "id": "espn-184489982-1",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "nfl_team": "ARI",
+          "slot": "QB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-2",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "nfl_team": "GB",
+          "slot": "RB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-3",
+          "name": "James Cook III",
+          "position": "RB",
+          "nfl_team": "BUF",
+          "slot": "RB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-4",
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "nfl_team": "MIN",
+          "slot": "WR",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-5",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "nfl_team": "TEN",
+          "slot": "WR",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-6",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "nfl_team": "CLE",
+          "slot": "TE",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-7",
+          "name": "Bucky Irving",
+          "position": null,
+          "nfl_team": "TB",
+          "slot": "FLEX",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-8",
+          "name": "Broncos",
+          "position": "D/ST",
+          "nfl_team": "DEN",
+          "slot": "D/ST",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-9",
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "nfl_team": "TB",
+          "slot": "K",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-10",
+          "name": "DK Metcalf",
+          "position": null,
+          "nfl_team": "PIT",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-11",
+          "name": "T.J. Hockenson",
+          "position": null,
+          "nfl_team": "MIN",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-12",
+          "name": "Jacory Croskey-Merritt",
+          "position": null,
+          "nfl_team": "WSH",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-13",
+          "name": "Jayden Reed",
+          "position": null,
+          "nfl_team": "GB",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-14",
+          "name": "Zach Charbonnet",
+          "position": null,
+          "nfl_team": "SEA",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-15",
+          "name": "Kyle Monangai",
+          "position": null,
+          "nfl_team": "CHI",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-184489982-16",
+          "name": "Adonai Mitchell",
+          "position": null,
+          "nfl_team": "NYJ",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        }
+      ],
+      "draft_at": "2026-09-08T19:00:00-05:00",
+      "roster_note": "Carried-over pool before the September 8 draft; James Cook III is the keeper at 3.12. This roster will change."
+    },
+    {
+      "id": "espn-1242450525",
+      "provider": "ESPN",
+      "account": "Garrett authenticated ESPN account",
+      "league_id": "1242450525",
+      "league_name": "O'Brien Fantasy Football",
+      "team": {
+        "team_id": 8,
+        "name": "Tennessee Tickle Monsters"
+      },
+      "status": "preseason",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "ESPN Fantasy",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "matchup": null,
+      "players": [
+        {
+          "id": "espn-1242450525-1",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "nfl_team": "LAC",
+          "slot": "QB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-2",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "nfl_team": "MIA",
+          "slot": "RB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-3",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "nfl_team": "DAL",
+          "slot": "RB",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-4",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "nfl_team": "SEA",
+          "slot": "WR",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-5",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "nfl_team": "TB",
+          "slot": "WR",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-6",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "nfl_team": "NYG",
+          "slot": "TE",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-7",
+          "name": "Bhayshul Tuten",
+          "position": null,
+          "nfl_team": "JAX",
+          "slot": "FLEX",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-8",
+          "name": "Terry McLaurin",
+          "position": null,
+          "nfl_team": "WSH",
+          "slot": "FLEX",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-9",
+          "name": "Rams",
+          "position": "D/ST",
+          "nfl_team": "LAR",
+          "slot": "D/ST",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-10",
+          "name": "Harrison Butker",
+          "position": "K",
+          "nfl_team": "KC",
+          "slot": "K",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-11",
+          "name": "Luther Burden III",
+          "position": null,
+          "nfl_team": "CHI",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-12",
+          "name": "Rico Dowdle",
+          "position": null,
+          "nfl_team": "PIT",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-13",
+          "name": "Chuba Hubbard",
+          "position": null,
+          "nfl_team": "CAR",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-14",
+          "name": "De'Zhaun Stribling",
+          "position": null,
+          "nfl_team": "SF",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-15",
+          "name": "Jalen Coker",
+          "position": null,
+          "nfl_team": "CAR",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-16",
+          "name": "Kenyon Sadiq",
+          "position": null,
+          "nfl_team": "NYJ",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-17",
+          "name": "Ja'Kobi Lane",
+          "position": null,
+          "nfl_team": "BAL",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "espn-1242450525-18",
+          "name": "Jonah Coleman",
+          "position": null,
+          "nfl_team": "DEN",
+          "slot": "BENCH",
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        }
+      ]
+    },
+    {
+      "id": "sleeper-1395822791856525312",
+      "provider": "Sleeper",
+      "account": "garrettwalker1",
+      "league_id": "1395822791856525312",
+      "league_name": "FTB Fantasy Re-Draft",
+      "team": {
+        "roster_id": 8,
+        "name": "garrettwalker1"
+      },
+      "status": "pre_draft",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "Sleeper",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312",
+      "matchup": null,
+      "players": [],
+      "draft_at": "2026-09-07T18:30:00-05:00"
+    },
+    {
+      "id": "sleeper-1389357500502917120",
+      "provider": "Sleeper",
+      "account": "garrettwalker1",
+      "league_id": "1389357500502917120",
+      "league_name": "Billions ",
+      "team": {
+        "roster_id": 4,
+        "name": "Hock Tua"
+      },
+      "status": "pre_draft",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "Sleeper",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120",
+      "matchup": null,
+      "players": []
+    },
+    {
+      "id": "sleeper-1387915755609157632",
+      "provider": "Sleeper",
+      "account": "garrettwalker1",
+      "league_id": "1387915755609157632",
+      "league_name": "National Choochers Association",
+      "team": {
+        "roster_id": 4,
+        "name": "garrettwalker1"
+      },
+      "status": "preseason",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "Sleeper",
+      "source_url": "https://api.sleeper.app/v1/league/1387915755609157632",
+      "matchup": null,
+      "players": [
+        {
+          "id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "nfl_team": "KC",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11533",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "nfl_team": "DAL",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "nfl_team": "WAS",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "nfl_team": "KC",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "nfl_team": "CLE",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12526",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "nfl_team": "CAR",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "nfl_team": "NE",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "nfl_team": "NO",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "13281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "nfl_team": "NO",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "nfl_team": "NO",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "nfl_team": "IND",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "nfl_team": "MIA",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "nfl_team": "JAX",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "nfl_team": "LAC",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "SEA",
+          "name": "Seattle Seahawks",
+          "position": "DEF",
+          "nfl_team": "SEA",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        }
+      ]
+    },
+    {
+      "id": "sleeper-1386111628138782720",
+      "provider": "Sleeper",
+      "account": "garrettwalker1",
+      "league_id": "1386111628138782720",
+      "league_name": "For The Boys: Fantasy",
+      "team": {
+        "roster_id": 5,
+        "name": "I Chase Young Kids"
+      },
+      "status": "preseason",
+      "season": "2026",
+      "observed_at": "2026-09-01T21:53:39.537Z",
+      "source": "Sleeper",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720",
+      "matchup": null,
+      "players": [
+        {
+          "id": "11575",
+          "name": "Ray Davis",
+          "position": "RB",
+          "nfl_team": "BUF",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11618",
+          "name": "Jalen McMillan",
+          "position": "WR",
+          "nfl_team": "TB",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11626",
+          "name": "Xavier Legette",
+          "position": "WR",
+          "nfl_team": "CAR",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11627",
+          "name": "Troy Franklin",
+          "position": "WR",
+          "nfl_team": "DEN",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "nfl_team": "NO",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12470",
+          "name": "Riley Leonard",
+          "position": "QB",
+          "nfl_team": "IND",
+          "slot": "TAXI",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12476",
+          "name": "Devin Neal",
+          "position": "RB",
+          "nfl_team": "NO",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "nfl_team": "GB",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "nfl_team": "NYG",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "nfl_team": "CLE",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "nfl_team": "CHI",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "12523",
+          "name": "Jimmy Horn",
+          "position": "WR",
+          "nfl_team": "CAR",
+          "slot": "TAXI",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "13330",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "nfl_team": "NYJ",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "13404",
+          "name": "Garrett Nussmeier",
+          "position": "QB",
+          "nfl_team": "KC",
+          "slot": "TAXI",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "3271",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "nfl_team": "LAR",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "nfl_team": "SF",
+          "slot": "IR",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "nfl_team": "NE",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "nfl_team": "HOU",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "6039",
+          "name": "Ty Johnson",
+          "position": "RB",
+          "nfl_team": "BUF",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "nfl_team": "CIN",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "nfl_team": "IND",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "6826",
+          "name": "Cole Kmet",
+          "position": "TE",
+          "nfl_team": "CHI",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "nfl_team": "NE",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "nfl_team": "DET",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "8259",
+          "name": "Cameron Dicker",
+          "position": "K",
+          "nfl_team": "LAC",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "nfl_team": "LAR",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9511",
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "nfl_team": "LAC",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "nfl_team": "SEA",
+          "slot": "IR",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "SF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "nfl_team": "SF",
+          "slot": "BENCH",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        },
+        {
+          "id": "WAS",
+          "name": "Washington Commanders",
+          "position": "DEF",
+          "nfl_team": "WAS",
+          "slot": "START",
+          "source": "Sleeper",
+          "observed_at": "2026-09-01T21:53:39.537Z"
+        }
+      ]
+    }
+  ]
+}

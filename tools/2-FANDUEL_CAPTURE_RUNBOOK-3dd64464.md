@@ -13,3 +13,16 @@ Fail closed if state is not VA, the feed shape changes, eligible capture is empt
 Current limitation: FanDuel's payload does not expose a durable player ID in these market objects, so `player_id` remains blank; identity is retained through market ID + selection ID and player name. Do not invent an ID from the name.
 
 Tennessee is not reachable from the Virginia browser. The TN config and TN market-price host exist, but VA market IDs return an empty list on TN; URL paths, query parameters and the region cookie do not steer this browser away from its geolocated VA catalog.
+
+
+## Tennessee eligibility gate
+
+Use `fanduel_tn_market_policy.json` as the UI and capture policy. The capture admits only six objective professional NFL types that are not prohibited by Tennessee rule: passing yards, passing touchdowns, rushing yards, receiving yards, receptions and anytime touchdown. This classification means the market type is not prohibited; it does not prove that the exact VA market is currently offered in FanDuel Tennessee. Label displayed rows "VA price / TN-eligible market type" and tell the user to check the exact TN market and price in the FanDuel app. Hide all unknown or prohibited types.
+
+Never ingest college player props. The CFB pipeline remains sides and totals only. Tennessee prohibits individual actions/events/statistics in college events and in-game team propositions. Virginia broadly prohibits college propositions.
+
+Primary sources:
+- Tennessee current SWC rules: https://publications.tnsosfiles.com/rules_all/2018/1350-01.20250630.pdf
+- Tennessee SWC FAQ: https://www.tn.gov/swac/about/faqs.html
+- Tennessee SWC glossary: https://www.tn.gov/swac/inquires/glossary.html
+- Virginia Lottery Sports Betting Catalog: https://www.valottery.com/aboutus/casinosandsportsbetting/sportsbetting

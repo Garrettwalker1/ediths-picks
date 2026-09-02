@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "frozen_base": "../3-fanduel_player_props_ledger-4fcf98af.csv",
+  "parts": [
+    "props_2026-09-02T1239Z.csv"
+  ],
+  "note": "The first part is also present in the frozen base; consumers must use base_through to avoid duplication.",
+  "base_through": "2026-09-02T02:40:28Z"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "registered_at": "2026-09-02T09:20:00-05:00",
+  "status": "prospective_measurement_only",
+  "season": 2026,
+  "starting_week": 1,
+  "model_version": "player-pregame-prior-v1.1.0-w1-2026",
+  "leakage_rule": "A forecast is eligible only when its numeric model snapshot was frozen before the compared book quote. No refit, player removal, threshold selection, or metric change after outcomes.",
+  "identity_rule": "Exact sport, event, player, market type, side and line only. No loose player matching. Duplicate retries are removed by quote_id; the last eligible pre-kick quote is the close.",
+  "samples": {
+    "continuous_player_props": {
+      "markets": ["passing_yards", "rushing_yards", "receiving_yards", "receptions", "passing_touchdowns"],
+      "eligibility": "NFL regular-season pregame rows with an exact frozen model prediction, an audited FanDuel quote, a final official result and no void/push unless the metric explicitly retains pushes.",
+      "primary_comparison": "Paired absolute error: abs(model median - result) minus abs(FanDuel closing line - result). Negative favors the model.",
+      "secondary": ["RMSE difference", "median absolute error difference", "directional over/under record at the captured price", "closing-line movement after the frozen signal"],
+      "inference": "Paired game-cluster bootstrap 95% interval. Player rows in one game are not treated as independent games."
+    },
+    "anytime_touchdown": {
+      "eligibility": "Exact RB/WR/TE NFL pregame rows with a frozen model probability, audited FanDuel quote and settled binary result.",
+      "primary_comparison": ["Brier score model minus book benchmark", "log loss model minus book benchmark"],
+      "book_benchmark": "Use no-vig probability only when both sides needed to remove vig were captured. If only Yes is available, raw implied probability is reported as a vigged benchmark and cannot establish betting edge.",
+      "secondary": ["calibration intercept and slope", "AUC as ranking context only", "game-cluster bootstrap intervals"]
+    }
+  },
+  "gates": {
+    "week_1": "Always descriptive. One week cannot establish an edge, regardless of the point estimate.",
+    "predictive_signal": "After at least 100 settled NFL games and 500 exact player-market outcomes, both registered primary deltas for a market family must favor the model and their paired game-bootstrap 95% upper bounds must be below zero.",
+    "betting_edge": "Predictive signal plus prospective positive closing-line value after vig and a positive lower 95% bound for net return on pre-registered recommendations. Until then, no edge label and no model-price difference in the UI.",
+    "failed_or_unsettled": "If either primary metric loses or either interval crosses zero, label the result weak/unsettled and continue measurement without tuning on the test set."
+  },
+  "reporting": ["eligible and excluded counts with reasons", "games and player-market outcomes", "point estimates and 95% intervals", "calibration by market and probability bucket", "CLV and net units only for genuinely prospective recommendations", "all model and market timestamps"],
+  "known_limits": ["Week 1 is a thin, high-roster-uncertainty sample.", "Current matchup features are descriptive and are not used to move numeric player projections.", "A vigged one-sided implied probability is not a fair-probability benchmark.", "No result may be promoted from research to picks by looking only at favorable subgroups after the fact."]
+}

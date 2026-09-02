@@ -1,42 +1,314 @@
 {
-  "updated_at": "2026-09-01T21:55:49Z",
-  "refresh_note": "Preseason snapshot. Scores and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.",
+  "updated_at": "2026-09-02T00:06:20Z",
+  "refresh_note": "Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.",
   "providers": [
     {
       "name": "ESPN",
-      "account": {
-        "display_name": "Garrett authenticated ESPN account"
-      },
-      "observed_at": "2026-09-01T21:53:39.537Z",
-      "status": "ok"
+      "status": "ok",
+      "observed_at": "2026-09-02T00:06:20Z"
     },
     {
       "name": "Sleeper",
-      "account": {
-        "display_name": "garrettwalker1"
-      },
-      "observed_at": "2026-09-01T21:53:39.537Z",
-      "status": "ok"
+      "status": "ok",
+      "observed_at": "2026-09-02T00:06:20Z"
     }
   ],
+  "injury_check": {
+    "status": "checked",
+    "checked_at": "2026-09-02T00:06:20Z",
+    "source": "ESPN NFL injury tracker with attributed national, team and beat reporting",
+    "source_url": "https://www.espn.com/nfl/injuries",
+    "rostered_player_flags": 21
+  },
   "leagues": [
     {
-      "id": "espn-416480692",
+      "id": "espn-1242450525",
       "provider": "ESPN",
       "account": "Garrett authenticated ESPN account",
-      "league_id": "416480692",
-      "league_name": "#HORNDOGS #DBAP 3.0",
+      "league_id": "1242450525",
+      "league_name": "O'Brien Fantasy Football",
       "team": {
-        "team_id": 7,
-        "name": "Gibbs Me Head"
+        "team_id": 8,
+        "name": "Tennessee Tickle Monsters"
       },
-      "status": "pre_draft",
+      "status": "preseason",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "ESPN Fantasy",
-      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "matchup": null,
-      "players": []
+      "players": [
+        {
+          "id": "espn-1242450525-1",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "nfl_team": "LAC",
+          "slot": "QB",
+          "points": null,
+          "projected": 19.0,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-2",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "nfl_team": "MIA",
+          "slot": "RB",
+          "points": null,
+          "projected": 16.3,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-3",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "nfl_team": "DAL",
+          "slot": "RB",
+          "points": null,
+          "projected": 14.1,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-4",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "nfl_team": "SEA",
+          "slot": "WR",
+          "points": null,
+          "projected": 15.5,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-5",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "nfl_team": "TB",
+          "slot": "WR",
+          "points": null,
+          "projected": 11.9,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Sep 1: Egbuka (toe) is not practicing Tuesday, per Pewter Report.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to Pewter Report",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-09-01"
+        },
+        {
+          "id": "espn-1242450525-6",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "nfl_team": "NYG",
+          "slot": "TE",
+          "points": null,
+          "projected": 7.5,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-7",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "nfl_team": "JAX",
+          "slot": "FLEX",
+          "points": null,
+          "projected": 11.4,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-8",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "nfl_team": "WSH",
+          "slot": "FLEX",
+          "points": null,
+          "projected": 10.0,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-9",
+          "name": "Rams",
+          "position": "D/ST",
+          "nfl_team": "LAR",
+          "slot": "D/ST",
+          "points": null,
+          "projected": 6.9,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-10",
+          "name": "Harrison Butker",
+          "position": "K",
+          "nfl_team": "KC",
+          "slot": "K",
+          "points": null,
+          "projected": 8.6,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-12",
+          "name": "Luther Burden III",
+          "position": "WR",
+          "nfl_team": "CHI",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 9.8,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Sep 1: Coach Ben Johnson said Burden (groin) will participate in Tuesday's practice, Zack Pearson of BearReport reports.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to Zack Pearson",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-09-01"
+        },
+        {
+          "id": "espn-1242450525-13",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "nfl_team": "PIT",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 11.6,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-14",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "nfl_team": "CAR",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 10.0,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Sep 1: Hubbard (hamstring) returned to practice Tuesday, Joe Person of The Athletic reports.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to Joe Person",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-09-01"
+        },
+        {
+          "id": "espn-1242450525-15",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "nfl_team": "SF",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 7.9,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Aug 27: Stribling (shoulder) won't suit up for Thursday's preseason contest at Las Vegas, David Lombardi of SFStandard.com reports.",
+          "injury_estimated_return": "Sep 10",
+          "injury_source": "ESPN NFL injury tracker",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-08-27"
+        },
+        {
+          "id": "espn-1242450525-16",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "nfl_team": "CAR",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 7.4,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-17",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "nfl_team": "NYJ",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 4.0,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Aug 31: Coach Aaron Glenn said Monday that Sadiq (hernia) remains on track to play Week 1 against the Titans, Zack Rosenblatt of The Athletic reports.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to Zack Rosenblatt",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-08-31"
+        },
+        {
+          "id": "espn-1242450525-18",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "nfl_team": "BAL",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 5.5,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-1242450525-19",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "nfl_team": "DEN",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 3.6,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        }
+      ]
     },
     {
       "id": "espn-184489982",
@@ -50,7 +322,8 @@
       },
       "status": "pre_draft",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "ESPN Fantasy",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "matchup": null,
@@ -61,9 +334,12 @@
           "position": "QB",
           "nfl_team": "ARI",
           "slot": "QB",
+          "points": null,
+          "projected": 13.2,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-2",
@@ -71,15 +347,18 @@
           "position": "RB",
           "nfl_team": "GB",
           "slot": "RB",
+          "points": null,
+          "projected": 0.0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Out",
           "injury_detail": "Sep 1: General manager Brian Gutekunst said Tuesday that he anticipates Jacobs (personal) playing for the Packers at some point in 2026, Matt Schneidman of The Athletic reports.",
           "injury_estimated_return": "Sep 27",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Matt Schneidman",
+          "injury_source": "ESPN NFL injury tracker · attributed to Matt Schneidman",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-09-01"
         },
         {
@@ -88,9 +367,12 @@
           "position": "RB",
           "nfl_team": "BUF",
           "slot": "RB",
+          "points": null,
+          "projected": 14.9,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-4",
@@ -98,9 +380,12 @@
           "position": "WR",
           "nfl_team": "MIN",
           "slot": "WR",
+          "points": null,
+          "projected": 6.7,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-5",
@@ -108,9 +393,12 @@
           "position": "WR",
           "nfl_team": "TEN",
           "slot": "WR",
+          "points": null,
+          "projected": 2.4,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-6",
@@ -118,19 +406,25 @@
           "position": "TE",
           "nfl_team": "CLE",
           "slot": "TE",
+          "points": null,
+          "projected": 11.1,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-7",
           "name": "Bucky Irving",
-          "position": null,
+          "position": "RB",
           "nfl_team": "TB",
           "slot": "FLEX",
+          "points": null,
+          "projected": 12.4,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-8",
@@ -138,9 +432,12 @@
           "position": "D/ST",
           "nfl_team": "DEN",
           "slot": "D/ST",
+          "points": null,
+          "projected": 5.9,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-9",
@@ -148,345 +445,154 @@
           "position": "K",
           "nfl_team": "TB",
           "slot": "K",
+          "points": null,
+          "projected": 8.4,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-184489982-10",
-          "name": "DK Metcalf",
-          "position": null,
-          "nfl_team": "PIT",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Aug 31: Metcalf (undisclosed) is expected to be ready for Week 1 against the Falcons, Brooke Pryor of ESPN.com reports.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Brooke Pryor",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-08-31"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-11",
-          "name": "T.J. Hockenson",
-          "position": null,
-          "nfl_team": "MIN",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "nfl_team": "PIT",
           "slot": "BENCH",
+          "points": null,
+          "projected": 12.2,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-184489982-12",
-          "name": "Jacory Croskey-Merritt",
-          "position": null,
-          "nfl_team": "WSH",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
-          "injury_detail": "Aug 31: Croskey-Merritt (lower body) is expected to return to practice next week, John Keim of ESPN.com reports.",
+          "injury_detail": "Aug 31: Metcalf (undisclosed) is expected to be ready for Week 1 against the Falcons, Brooke Pryor of ESPN.com reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to John Keim",
+          "injury_source": "ESPN NFL injury tracker · attributed to Brooke Pryor",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-31"
         },
         {
-          "id": "espn-184489982-13",
-          "name": "Jayden Reed",
-          "position": null,
-          "nfl_team": "GB",
+          "id": "espn-184489982-12",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "nfl_team": "MIN",
           "slot": "BENCH",
+          "points": null,
+          "projected": 9.2,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "espn-184489982-13",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "nfl_team": "WSH",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 8.3,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Aug 31: Croskey-Merritt (lower body) is expected to return to practice next week, John Keim of ESPN.com reports.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to John Keim",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-08-31"
         },
         {
           "id": "espn-184489982-14",
-          "name": "Zach Charbonnet",
-          "position": null,
-          "nfl_team": "SEA",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "nfl_team": "GB",
           "slot": "BENCH",
+          "points": null,
+          "projected": 10.2,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Out",
-          "injury_detail": "Aug 30: The Seahawks moved Charbonnet (knee) from the active/PUP list to the reserve/PUP list Sunday, Curtis Crabtree of Fox 13 Seattle reports.",
-          "injury_estimated_return": "Oct 11",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Curtis Crabtree",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-08-30"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "espn-184489982-15",
-          "name": "Kyle Monangai",
-          "position": null,
-          "nfl_team": "CHI",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "nfl_team": "SEA",
           "slot": "BENCH",
+          "points": null,
+          "projected": 0.0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 1: Coach Ben Johnson said Tuesday that Monangai is \"week-to-week\" due to the right knee injury that he sustained in practice back on Sunday, Aug. 16, Chris Emma of 670TheScore.com reports.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Chris Emma",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Out",
+          "injury_detail": "Aug 30: The Seahawks moved Charbonnet (knee) from the active/PUP list to the reserve/PUP list Sunday, Curtis Crabtree of Fox 13 Seattle reports.",
+          "injury_estimated_return": "Oct 11",
+          "injury_source": "ESPN NFL injury tracker · attributed to Curtis Crabtree",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-09-01"
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-08-30"
         },
         {
           "id": "espn-184489982-16",
-          "name": "Adonai Mitchell",
-          "position": null,
-          "nfl_team": "NYJ",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "nfl_team": "CHI",
           "slot": "BENCH",
+          "points": null,
+          "projected": 10.3,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Sep 1: Coach Ben Johnson said Tuesday that Monangai is \"week-to-week\" due to the right knee injury that he sustained in practice back on Sunday, Aug. 16, Chris Emma of 670TheScore.com reports.",
+          "injury_estimated_return": "Sep 13",
+          "injury_source": "ESPN NFL injury tracker · attributed to Chris Emma",
+          "injury_source_url": "https://www.espn.com/nfl/injuries",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
+          "injury_provider_updated_at": "2026-09-01"
+        },
+        {
+          "id": "espn-184489982-17",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "nfl_team": "NYJ",
+          "slot": "BENCH",
+          "points": null,
+          "projected": 8.1,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         }
       ],
       "draft_at": "2026-09-08T19:00:00-05:00",
       "roster_note": "Carried-over pool before the September 8 draft; James Cook III is the keeper at 3.12. This roster will change."
     },
     {
-      "id": "espn-1242450525",
+      "id": "espn-416480692",
       "provider": "ESPN",
       "account": "Garrett authenticated ESPN account",
-      "league_id": "1242450525",
-      "league_name": "O'Brien Fantasy Football",
+      "league_id": "416480692",
+      "league_name": "#HORNDOGS #DBAP 3.0",
       "team": {
-        "team_id": 8,
-        "name": "Tennessee Tickle Monsters"
+        "team_id": 7,
+        "name": "Gibbs Me Head"
       },
-      "status": "preseason",
+      "status": "pre_draft",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "ESPN Fantasy",
-      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "matchup": null,
-      "players": [
-        {
-          "id": "espn-1242450525-1",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "nfl_team": "LAC",
-          "slot": "QB",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-2",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "nfl_team": "MIA",
-          "slot": "RB",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-3",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "nfl_team": "DAL",
-          "slot": "RB",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-4",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "nfl_team": "SEA",
-          "slot": "WR",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-5",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "nfl_team": "TB",
-          "slot": "WR",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 1: Egbuka (toe) is not practicing Tuesday, per Pewter Report.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Pewter Report",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-09-01"
-        },
-        {
-          "id": "espn-1242450525-6",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "nfl_team": "NYG",
-          "slot": "TE",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-7",
-          "name": "Bhayshul Tuten",
-          "position": null,
-          "nfl_team": "JAX",
-          "slot": "FLEX",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-8",
-          "name": "Terry McLaurin",
-          "position": null,
-          "nfl_team": "WSH",
-          "slot": "FLEX",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-9",
-          "name": "Rams",
-          "position": "D/ST",
-          "nfl_team": "LAR",
-          "slot": "D/ST",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-10",
-          "name": "Harrison Butker",
-          "position": "K",
-          "nfl_team": "KC",
-          "slot": "K",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-11",
-          "name": "Luther Burden III",
-          "position": null,
-          "nfl_team": "CHI",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 1: Coach Ben Johnson said Burden (groin) will participate in Tuesday's practice, Zack Pearson of BearReport reports.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Zack Pearson",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-09-01"
-        },
-        {
-          "id": "espn-1242450525-12",
-          "name": "Rico Dowdle",
-          "position": null,
-          "nfl_team": "PIT",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-13",
-          "name": "Chuba Hubbard",
-          "position": null,
-          "nfl_team": "CAR",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 1: Hubbard (hamstring) returned to practice Tuesday, Joe Person of The Athletic reports.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Joe Person",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-09-01"
-        },
-        {
-          "id": "espn-1242450525-14",
-          "name": "De'Zhaun Stribling",
-          "position": null,
-          "nfl_team": "SF",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Aug 27: Stribling (shoulder) won't suit up for Thursday's preseason contest at Las Vegas, David Lombardi of SFStandard.com reports.",
-          "injury_estimated_return": "Sep 10",
-          "injury_source": "ESPN injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-08-27"
-        },
-        {
-          "id": "espn-1242450525-15",
-          "name": "Jalen Coker",
-          "position": null,
-          "nfl_team": "CAR",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-16",
-          "name": "Kenyon Sadiq",
-          "position": null,
-          "nfl_team": "NYJ",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z",
-          "injury_status": "Questionable",
-          "injury_detail": "Aug 31: Coach Aaron Glenn said Monday that Sadiq (hernia) remains on track to play Week 1 against the Titans, Zack Rosenblatt of The Athletic reports.",
-          "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Zack Rosenblatt",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
-          "injury_provider_updated_at": "2026-08-31"
-        },
-        {
-          "id": "espn-1242450525-17",
-          "name": "Ja'Kobi Lane",
-          "position": null,
-          "nfl_team": "BAL",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        },
-        {
-          "id": "espn-1242450525-18",
-          "name": "Jonah Coleman",
-          "position": null,
-          "nfl_team": "DEN",
-          "slot": "BENCH",
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-01T21:53:39.537Z"
-        }
-      ]
+      "players": []
     },
     {
       "id": "sleeper-1395822791856525312",
@@ -500,7 +606,8 @@
       },
       "status": "pre_draft",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312",
       "matchup": null,
@@ -519,7 +626,8 @@
       },
       "status": "pre_draft",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120",
       "matchup": null,
@@ -535,12 +643,23 @@
         "roster_id": 4,
         "name": "garrettwalker1"
       },
-      "status": "preseason",
+      "status": "in_season",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632",
-      "matchup": null,
+      "matchup": {
+        "week": 1,
+        "opponent": "sammywilde",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "live",
+        "source": "Sleeper",
+        "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/matchups/1",
+        "observed_at": "2026-09-02T00:06:20Z",
+        "provider_updated_at": null
+      },
       "players": [
         {
           "id": "10229",
@@ -549,7 +668,9 @@
           "nfl_team": "KC",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "11533",
@@ -558,7 +679,9 @@
           "nfl_team": "DAL",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "11566",
@@ -567,7 +690,9 @@
           "nfl_team": "WAS",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "11624",
@@ -576,7 +701,9 @@
           "nfl_team": "KC",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12506",
@@ -585,7 +712,9 @@
           "nfl_team": "CLE",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12526",
@@ -594,7 +723,9 @@
           "nfl_team": "CAR",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12529",
@@ -603,13 +734,15 @@
           "nfl_team": "NE",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Sep 1: Henderson continues to rehab a right ankle injury and hasn't been cleared for full participation in practice, Mike Reiss of ESPN.com reports.",
           "injury_estimated_return": "Sep 9",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-09-01"
         },
         {
@@ -619,7 +752,9 @@
           "nfl_team": "NO",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "13281",
@@ -628,13 +763,15 @@
           "nfl_team": "NO",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": "Aug 30: Tyson (hamstring) was placed on injured reserve with a designation to return by New Orleans on Sunday.",
           "injury_estimated_return": "Oct 11",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-30"
         },
         {
@@ -644,13 +781,15 @@
           "nfl_team": "NO",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 19: Kamara (knee) is expected to be out for at least one month after sustaining an MCL sprain during Tuesday's joint practice with the Cowboys, Adam Schefter of ESPN reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Adam Schefter",
+          "injury_source": "ESPN NFL injury tracker · attributed to Adam Schefter",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-19"
         },
         {
@@ -660,7 +799,9 @@
           "nfl_team": "IND",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "9226",
@@ -669,7 +810,9 @@
           "nfl_team": "MIA",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "9480",
@@ -678,7 +821,9 @@
           "nfl_team": "JAX",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "9754",
@@ -687,7 +832,9 @@
           "nfl_team": "LAC",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "SEA",
@@ -696,7 +843,9 @@
           "nfl_team": "SEA",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         }
       ]
     },
@@ -710,12 +859,23 @@
         "roster_id": 5,
         "name": "I Chase Young Kids"
       },
-      "status": "preseason",
+      "status": "in_season",
       "season": "2026",
-      "observed_at": "2026-09-01T21:53:39.537Z",
+      "week": 1,
+      "observed_at": "2026-09-02T00:06:20Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720",
-      "matchup": null,
+      "matchup": {
+        "week": 1,
+        "opponent": "chadgoesdeep",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "live",
+        "source": "Sleeper",
+        "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/matchups/1",
+        "observed_at": "2026-09-02T00:06:20Z",
+        "provider_updated_at": null
+      },
       "players": [
         {
           "id": "11575",
@@ -724,7 +884,9 @@
           "nfl_team": "BUF",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "11618",
@@ -733,13 +895,15 @@
           "nfl_team": "TB",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Sep 1: McMillan (knee) remains sidelined at Tuesday's practice, PewterReport.com reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-09-01"
         },
         {
@@ -749,13 +913,15 @@
           "nfl_team": "CAR",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 24: Legette (ankle) will remain in a walking boot on his foot until Thursday, Steve Reed of the Associated Press reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-24"
         },
         {
@@ -765,7 +931,9 @@
           "nfl_team": "DEN",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "11834",
@@ -774,7 +942,9 @@
           "nfl_team": "NO",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12470",
@@ -783,7 +953,9 @@
           "nfl_team": "IND",
           "slot": "TAXI",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12476",
@@ -792,13 +964,15 @@
           "nfl_team": "NO",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": "Aug 30: The Saints placed Neal (hamstring) on injured reserve Sunday, Nick Underhill of NewOrleans.Football reports.",
           "injury_estimated_return": "Feb 15",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Nick Underhill",
+          "injury_source": "ESPN NFL injury tracker · attributed to Nick Underhill",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-30"
         },
         {
@@ -808,7 +982,9 @@
           "nfl_team": "GB",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12508",
@@ -817,7 +993,9 @@
           "nfl_team": "NYG",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12512",
@@ -826,7 +1004,9 @@
           "nfl_team": "CLE",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12519",
@@ -835,7 +1015,9 @@
           "nfl_team": "CHI",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "12523",
@@ -844,7 +1026,9 @@
           "nfl_team": "CAR",
           "slot": "TAXI",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "13330",
@@ -853,13 +1037,15 @@
           "nfl_team": "NYJ",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 31: Coach Aaron Glenn said Monday that Sadiq (hernia) remains on track to play Week 1 against the Titans, Zack Rosenblatt of The Athletic reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Zack Rosenblatt",
+          "injury_source": "ESPN NFL injury tracker · attributed to Zack Rosenblatt",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-31"
         },
         {
@@ -869,7 +1055,9 @@
           "nfl_team": "KC",
           "slot": "TAXI",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "3271",
@@ -878,7 +1066,9 @@
           "nfl_team": "LAR",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "4217",
@@ -887,13 +1077,15 @@
           "nfl_team": "SF",
           "slot": "IR",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 31: Kittle (Achilles) will be eased back into practice this week, Matt Barrows of The Athletic reports.",
           "injury_estimated_return": "Sep 10",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-31"
         },
         {
@@ -903,7 +1095,9 @@
           "nfl_team": "NE",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "5892",
@@ -912,7 +1106,9 @@
           "nfl_team": "HOU",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "6039",
@@ -921,13 +1117,15 @@
           "nfl_team": "BUF",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Sep 1: Johnson (lower leg) remains sidelined at Tuesday's practice, Joe Buscaglia of The Athletic reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-09-01"
         },
         {
@@ -937,7 +1135,9 @@
           "nfl_team": "CIN",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "6813",
@@ -946,7 +1146,9 @@
           "nfl_team": "IND",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "6826",
@@ -955,7 +1157,9 @@
           "nfl_team": "CHI",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "8121",
@@ -964,7 +1168,9 @@
           "nfl_team": "NE",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "8148",
@@ -973,7 +1179,9 @@
           "nfl_team": "DET",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "8259",
@@ -982,13 +1190,15 @@
           "nfl_team": "LAC",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 28: Dicker is \"working through something,\" but head coach Jim Harbaugh is not concerned about his status, according to Alex Insdorf of BoltBeat.com.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-28"
         },
         {
@@ -998,13 +1208,15 @@
           "nfl_team": "LAR",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 31: Nacua (groin) was off to the side for team drills at Monday's practice, Nate Atkins of The Athletic reports.",
           "injury_estimated_return": "Sep 10",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-31"
         },
         {
@@ -1014,13 +1226,15 @@
           "nfl_team": "LAC",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_detail": "Aug 31: Mitchell (undisclosed) is not practicing Monday but is working off to the side with a trainer, Kris Rhim of ESPN.com reports.",
           "injury_estimated_return": "Sep 13",
-          "injury_source": "ESPN injury tracker",
+          "injury_source": "ESPN NFL injury tracker",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-31"
         },
         {
@@ -1030,13 +1244,15 @@
           "nfl_team": "SEA",
           "slot": "IR",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z",
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null,
           "injury_status": "Out",
           "injury_detail": "Aug 30: The Seahawks moved Charbonnet (knee) from the active/PUP list to the reserve/PUP list Sunday, Curtis Crabtree of Fox 13 Seattle reports.",
           "injury_estimated_return": "Oct 11",
-          "injury_source": "ESPN injury tracker \u00b7 attributed to Curtis Crabtree",
+          "injury_source": "ESPN NFL injury tracker · attributed to Curtis Crabtree",
           "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-01T21:55:49Z",
+          "injury_observed_at": "2026-09-02T00:06:20Z",
           "injury_provider_updated_at": "2026-08-30"
         },
         {
@@ -1046,7 +1262,9 @@
           "nfl_team": "SF",
           "slot": "BENCH",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         },
         {
           "id": "WAS",
@@ -1055,16 +1273,11 @@
           "nfl_team": "WAS",
           "slot": "START",
           "source": "Sleeper",
-          "observed_at": "2026-09-01T21:53:39.537Z"
+          "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+          "observed_at": "2026-09-02T00:06:20Z",
+          "provider_updated_at": null
         }
       ]
     }
-  ],
-  "injury_check": {
-    "status": "checked",
-    "checked_at": "2026-09-01T21:55:49Z",
-    "source": "ESPN NFL injury tracker with attributed national, team and beat reporting",
-    "source_url": "https://www.espn.com/nfl/injuries",
-    "rostered_player_flags": 21
-  }
+  ]
 }

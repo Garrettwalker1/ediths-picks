@@ -3,6 +3,7 @@ import csv,json,re,sys,uuid,datetime,os,tempfile
 FIELDS='capture_id quote_id captured_at source source_updated_at state sport event_id event_name kickoff book market_id market_type market_name player_id player_name selection_id selection line american_price decimal_price implied_probability quote_status opening_line opening_price first_observed closing_line closing_price result net_units model_version'.split()
 NORMAL=[('passing_touchdowns',r'passing (?:tds|touchdowns)'),('passing_yards',r'passing yards'),('rushing_yards',r'rushing yards'),('receiving_yards',r'receiving yards'),('receptions',r'(?:^| )receptions(?: |$)'),('anytime_touchdown',r'anytime touchdown')]
 LINE_REQUIRED={'passing_yards','passing_touchdowns','rushing_yards','receiving_yards','receptions'}
+TN_NOT_PROHIBITED=set(LINE_REQUIRED)|{'anytime_touchdown'}
 def norm(name):
  s=name.lower()
  for k,p in NORMAL:
@@ -25,6 +26,7 @@ def extract(doc,state='VA',captured=None):
  for mid,m in markets.items():
   mt=norm(str(m.get('marketName','')))
   if not mt:continue
+  if mt not in TN_NOT_PROHIBITED:raise ValueError(f'Fail closed: unknown TN eligibility for {mt}')
   eid=m.get('eventId'); ev=events.get(str(eid),{})
   required=[state,eid,mid,m.get('marketName'),ev.get('name'),m.get('marketTime') or ev.get('openDate')]
   if any(x in (None,'') for x in required):raise ValueError(f'Fail closed: incomplete identity for market {mid}')

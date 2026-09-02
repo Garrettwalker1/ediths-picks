@@ -1,5 +1,50 @@
 {
-  "unit_definition": "User-defined stake unit",
-  "updated_at": "2026-09-01T21:22:00Z",
-  "bets": []
+  "unit_definition": "1 unit = $5.00",
+  "unit_value_usd": 5.0,
+  "updated_at": "2026-09-02T18:58:00Z",
+  "bets": [
+    {
+      "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
+      "date": "2026-09-02T18:58:00Z",
+      "placed_at": "2026-09-02T18:58:00Z",
+      "sport": "CFB",
+      "game": "UCLA @ California",
+      "kickoff": "2026-09-06T02:30:00Z",
+      "bet": "California moneyline",
+      "market": "moneyline",
+      "selection": "California",
+      "line": null,
+      "price": 105,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 10.25,
+      "potential_profit_usd": 5.25,
+      "cashout_value_usd_at_capture": 5.0,
+      "result": "pending",
+      "status": "open",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": false,
+        "model_version": "v3-ridge-market-residual-locked",
+        "reason": "No frozen 2026 CFB moneyline forecast existed for UCLA @ California at placement. Existing v3 CFB artifacts are historical residual backtests and line observations; no game-level win probability or fair moneyline was frozen.",
+        "post_bet_backfill_allowed": false
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "SportsbookReview seven-book capture",
+        "observed_at": "2026-09-02T12:39:33Z",
+        "game_id": "377725",
+        "FanDuel_spread_at_last_capture": "California +1.5 (-106) / UCLA -1.5 (-114)",
+        "note": "Context only; not a model prediction and not the user TN moneyline price."
+      },
+      "grading": {
+        "source": "official final score",
+        "graded_at": null,
+        "net_units": null,
+        "net_usd": null
+      }
+    }
+  ]
 }

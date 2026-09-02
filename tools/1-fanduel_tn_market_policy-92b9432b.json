@@ -1,0 +1,27 @@
+{
+  "policy_version": "2026-09-01",
+  "jurisdiction": "TN",
+  "scope": "FanDuel VA catalog used as a research proxy for a Tennessee bettor",
+  "sources": [
+    "https://publications.tnsosfiles.com/rules_all/2018/1350-01.20250630.pdf",
+    "https://www.tn.gov/swac/about/faqs.html",
+    "https://www.tn.gov/swac/inquires/glossary.html",
+    "https://www.valottery.com/aboutus/casinosandsportsbetting/sportsbetting"
+  ],
+  "professional_nfl": {
+    "passing_yards": "not_prohibited_professional_prop",
+    "passing_touchdowns": "not_prohibited_professional_prop",
+    "rushing_yards": "not_prohibited_professional_prop",
+    "receiving_yards": "not_prohibited_professional_prop",
+    "receptions": "not_prohibited_professional_prop",
+    "anytime_touchdown": "not_prohibited_professional_prop"
+  },
+  "college": {
+    "player_props": "prohibited",
+    "individual_stat_props": "prohibited",
+    "in_game_team_props": "prohibited_in_tn",
+    "pipeline_policy": "game_lines_only_side_and_total"
+  },
+  "display_rule": "Show only NFL rows mapped to not_prohibited_professional_prop. Label them VA price / TN-eligible market type, and state that exact TN FanDuel availability and price must be checked in the app. Hide unknown, prohibited, injury, penalty, officiating, subjective-award and draft markets.",
+  "important_limit": "Regulator rules define categories. They do not prove that a specific VA market is in FanDuel TN's approved/current catalog."
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "status": "research_only_no_picks",
+  "protocol": {
+    "train": "2023-2024 regular seasons",
+    "validation": "2025 weeks 1-9, one pass selecting allocation L2 alpha from [0.1,1,10]",
+    "locked_test": "2025 weeks 10+; untouched until model freeze",
+    "selected_alpha": 0.1
+  },
+  "model": {
+    "stage_1": "Poisson team offensive TD expectation from pregame consensus implied total plus lagged team TD and opponent TD allowed",
+    "stage_2": "Within-team softmax allocation of team TD expectation from lagged opportunity, red-zone/goal-line share, target/carry share, TD rate and position",
+    "probability": "1-exp(-team_lambda*player_allocation)"
+  },
+  "limitations": [
+    "No historical FanDuel anytime-TD prices or closes exist, so edge, CLV and ROI are untestable.",
+    "Historical player-week rows come from end-of-season nflverse files; point-in-time inactive/depth-chart history is unavailable.",
+    "Participation source is not true routes run and was not represented as routes.",
+    "Schedule total/spread is market context, but source does not provide a timestamped FanDuel provenance for these historical values."
+  ],
+  "sources": [
+    "https://nflreadr.nflverse.com/reference/load_pbp.html",
+    "https://nflreadr.nflverse.com/",
+    "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv"
+  ],
+  "splits": {
+    "validation_2025_w1_9": {
+      "p_model": {
+        "n": 2798,
+        "events": 550,
+        "event_rate": 0.19656897784131522,
+        "brier": 0.14099476481935785,
+        "log_loss": 0.4410563581078963,
+        "auc": 0.7325558071821416,
+        "calibration_intercept": 0.10343654168108503,
+        "calibration_slope": 1.0296821131231553,
+        "mean_probability": 0.18750775079574594
+      },
+      "p_naive": {
+        "n": 2798,
+        "events": 550,
+        "event_rate": 0.19656897784131522,
+        "brier": 0.1436802513225497,
+        "log_loss": 0.45298264085804313,
+        "auc": 0.7169686185700421,
+        "calibration_intercept": -0.21066859419046666,
+        "calibration_slope": 0.7579358432752522,
+        "mean_probability": 0.18309312207741588
+      },
+      "p_position": {
+        "n": 2798,
+        "events": 550,
+        "event_rate": 0.19656897784131522,
+        "brier": 0.15770582755846996,
+        "log_loss": 0.4952126430535379,
+        "auc": 0.535135878356519,
+        "calibration_intercept": -0.6232020445092683,
+        "calibration_slope": 0.542124948036389,
+        "mean_probability": 0.1919790416768612
+      }
+    },
+    "locked_test_2025_w10_plus": {
+      "p_model": {
+        "n": 2979,
+        "events": 526,
+        "event_rate": 0.17656931856327626,
+        "brier": 0.13162333680641763,
+        "log_loss": 0.41823552775840483,
+        "auc": 0.7297764512763916,
+        "calibration_intercept": -0.07737842679017076,
+        "calibration_slope": 0.964655929230405,
+        "mean_probability": 0.18064680251656373
+      },
+      "p_naive": {
+        "n": 2979,
+        "events": 526,
+        "event_rate": 0.17656931856327626,
+        "brier": 0.1322953031334401,
+        "log_loss": 0.42227760359493316,
+        "auc": 0.7278016830481493,
+        "calibration_intercept": -0.29058544191099867,
+        "calibration_slope": 0.7760347257864673,
+        "mean_probability": 0.17648181875291352
+      },
+      "p_position": {
+        "n": 2979,
+        "events": 526,
+        "event_rate": 0.17656931856327626,
+        "brier": 0.14412240039806531,
+        "log_loss": 0.4619671034746087,
+        "auc": 0.5689990839183494,
+        "calibration_intercept": -0.10697612588240736,
+        "calibration_slope": 0.9974858882558256,
+        "mean_probability": 0.19194594023077619
+      }
+    }
+  },
+  "verdict": {
+    "beats_naive_opportunity_baseline_on_brier_and_log_loss": true,
+    "improvement_statistically_settled_at_paired_95pct": false,
+    "honest_conclusion": "Prototype is numerically better than the naive opportunity baseline on locked-test Brier and log loss, but the paired game-bootstrap 95% intervals cross zero. The improvement is not settled. Keep measurement only; no picks."
+  },
+  "locked_test_paired_game_bootstrap": {
+    "brier_delta_model_minus_naive": {
+      "estimate": -0.0006719663270224607,
+      "ci95": [
+        -0.002252315604073344,
+        0.000995601568177293
+      ]
+    },
+    "log_loss_delta_model_minus_naive": {
+      "estimate": -0.004042075836528325,
+      "ci95": [
+        -0.009426109078791593,
+        0.001221203906917693
+      ]
+    }
+  }
+}

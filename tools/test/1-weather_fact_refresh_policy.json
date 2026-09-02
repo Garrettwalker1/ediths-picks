@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "model_family": "v3-ridge-market-residual-locked",
+  "standing_rule": "Model inputs never change because a sportsbook line or price moves.",
+  "eligible_fact_inputs": ["temperature_2m_f", "wind_speed_10m_mph"],
+  "forecast_window_hours": 48,
+  "source": {
+    "kind": "native weather forecast",
+    "upstream": "Open-Meteo",
+    "required_provenance": ["latitude", "longitude", "timezone", "forecast_observed_at", "forecast_valid_at"]
+  },
+  "roof_rule": "For a confirmed closed fixed roof or confirmed closed retractable roof, weather is logged but does not trigger or enter v3. Unknown retractable-roof status fails closed and retains the prior model version.",
+  "material_bins": {
+    "temperature_2m_f": {"edges": [-100, 20, 30, 40, 50, 60, 70, 80, 90, 200], "label": "10F bands, with one lower extreme band"},
+    "wind_speed_10m_mph": {"edges": [-1, 5, 10, 15, 20, 25, 200], "label": "5 mph bands"}
+  },
+  "trigger": "Inside 48 hours of kickoff, rerun only when an eligible input crosses a locked bin relative to the last validated weather snapshot, or when the first validated inside-48h forecast replaces the preseason median default.",
+  "frozen_nonweather_inputs": "All nonweather v3 inputs, including the market spread and total used by the original frozen forecast, remain fixed at the model freeze values.",
+  "version_format": "v3-weather-YYYYMMDDTHHMMSSZ",
+  "history": "Append every validated rerun to an immutable timestamped model-history part; atomically update the current model catalog/feed only after all intended games validate.",
+  "fail_closed": ["missing kickoff", "missing stadium coordinates", "missing or ambiguous roof status", "forecast does not cover kickoff", "malformed forecast", "model/catalog join miss"],
+  "personnel_rule": "Official injury, inactive, transaction and starter facts are logged with provenance only. They do not change v3 because v3 has no specified and backtested personnel layer."
+}

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-02T18:58:00Z",
+  "updated_at": "2026-09-03T21:58:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
@@ -38,6 +38,50 @@
         "game_id": "377725",
         "FanDuel_spread_at_last_capture": "California +1.5 (-106) / UCLA -1.5 (-114)",
         "note": "Context only; not a model prediction and not the user TN moneyline price."
+      },
+      "grading": {
+        "source": "official final score",
+        "graded_at": null,
+        "net_units": null,
+        "net_usd": null
+      }
+    },
+    {
+      "bet_id": "us-tn:01m1mjd7jpfqysyjj32rw9rkw6",
+      "date": "2026-09-03T21:22:00Z",
+      "placed_at": "2026-09-03T21:22:00Z",
+      "sport": "CFB",
+      "game": "Colorado @ Georgia Tech",
+      "kickoff": "2026-09-04T00:00:00Z",
+      "bet": "Georgia Tech -6.5",
+      "market": "spread",
+      "selection": "Georgia Tech",
+      "line": -6.5,
+      "price": 119,
+      "price_note": "30% FanDuel profit boost applied; base price -110 boosted to +119",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 21.9,
+      "potential_profit_usd": 11.9,
+      "result": "pending",
+      "status": "open",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": false,
+        "model_version": "v3-ridge-market-residual-locked",
+        "reason": "No frozen 2026 CFB spread forecast existed for Colorado @ Georgia Tech at placement. The frozen v3 catalog covers NFL week 1 moneyline only; existing CFB artifacts are historical residual backtests and line observations, not frozen game-level forecasts.",
+        "post_bet_backfill_allowed": false
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "SportsbookReview seven-book capture",
+        "observed_at": "2026-09-02T12:39:33Z",
+        "game_id": "377622",
+        "FanDuel_spread_at_last_capture": "Georgia Tech -6.5 (-120)",
+        "consensus_spread_at_last_capture": "Georgia Tech -6.5 across 7 books",
+        "note": "Context only; not a model prediction. User's TN slip price is the boosted +119, not the VA proxy or this consensus capture."
       },
       "grading": {
         "source": "official final score",

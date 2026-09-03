@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "frozen_base": "../3-fanduel_player_props_ledger-4fcf98af.csv",
+  "base_through": "2026-09-02T02:40:28Z",
+  "parts": [
+    "2-props_2026-09-02T1239Z.csv",
+    "2-props_2026-09-02T184232Z.csv",
+    "2-props_2026-09-03T220540Z.csv"
+  ],
+  "reader": "7-read_ledger_manifest.py"
+}

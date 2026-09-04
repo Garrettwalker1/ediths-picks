@@ -1,0 +1,91 @@
+{
+  "selected_alpha": 0.1,
+  "splits": {
+    "validation_2024": {
+      "p_model": {
+        "n": 5639,
+        "events": 1086,
+        "event_rate": 0.19258733818052845,
+        "brier": 0.13919010137657845,
+        "log_loss": 0.4386716556955269,
+        "mean_probability": 0.19119185821541884,
+        "auc": 0.7312321950718343,
+        "calibration_intercept": 0.21762742407146068,
+        "calibration_slope": 1.1616656878351963
+      },
+      "p_naive": {
+        "n": 5639,
+        "events": 1086,
+        "event_rate": 0.19258733818052845,
+        "brier": 0.1405389251149876,
+        "log_loss": 0.44586861433679087,
+        "mean_probability": 0.18404079029506545,
+        "auc": 0.7230478437101961,
+        "calibration_intercept": -0.22325797141915316,
+        "calibration_slope": 0.7758709430002575
+      },
+      "p_position": {
+        "n": 5639,
+        "events": 1086,
+        "event_rate": 0.19258733818052845,
+        "brier": 0.15377839215227077,
+        "log_loss": 0.48443693035561386,
+        "mean_probability": 0.1934792408828978,
+        "auc": 0.5740486813988227,
+        "calibration_intercept": 0.29750596527896733,
+        "calibration_slope": 1.215132501275489
+      }
+    },
+    "locked_test_2025": {
+      "p_model": {
+        "n": 5798,
+        "events": 1076,
+        "event_rate": 0.18558123490858916,
+        "brier": 0.13600330541014455,
+        "log_loss": 0.43076402642668504,
+        "mean_probability": 0.18966267225541064,
+        "auc": 0.7307902068778744,
+        "calibration_intercept": 0.1322031247300651,
+        "calibration_slope": 1.1256812614953275
+      },
+      "p_naive": {
+        "n": 5798,
+        "events": 1076,
+        "event_rate": 0.18558123490858916,
+        "brier": 0.13734139861127084,
+        "log_loss": 0.4392183556416726,
+        "mean_probability": 0.1825316831636525,
+        "auc": 0.7238448439559194,
+        "calibration_intercept": -0.3150662327924511,
+        "calibration_slope": 0.7341258363785772
+      },
+      "p_position": {
+        "n": 5798,
+        "events": 1076,
+        "event_rate": 0.18558123490858916,
+        "brier": 0.15013687060616007,
+        "log_loss": 0.4765338833007421,
+        "mean_probability": 0.1933854074530348,
+        "auc": 0.5566829866999208,
+        "calibration_intercept": -0.10700789556936885,
+        "calibration_slope": 0.9606973239962991
+      }
+    }
+  },
+  "locked_test_bootstrap": {
+    "brier_delta_model_minus_naive": {
+      "estimate": -0.0013452056263599085,
+      "ci95": [
+        -0.0024519113480698422,
+        -0.00027247839165057427
+      ]
+    },
+    "log_loss_delta_model_minus_naive": {
+      "estimate": -0.008488404624239615,
+      "ci95": [
+        -0.013784819454655768,
+        -0.003928950728576134
+      ]
+    }
+  }
+}

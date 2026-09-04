@@ -1,0 +1,251 @@
+{
+  "passing_yards": {
+    "n": {
+      "train": 2147,
+      "validation": 626,
+      "locked_test": 612
+    },
+    "features": [
+      "passing_yards_r6",
+      "passing_tds_r6",
+      "attempts_r6",
+      "passing_epa_r6",
+      "passing_cpoe_r6",
+      "passing_interceptions_r6",
+      "qb_att_r6",
+      "qb_yards_r6",
+      "qb_tds_r6",
+      "qb_epa_per_att_r6",
+      "qb_int_r6",
+      "al_pass_yds_r6",
+      "al_ypa_r6",
+      "al_pass_tds_r6",
+      "al_tds_r6",
+      "is_home"
+    ],
+    "baseline_r6": {
+      "validation": {
+        "mae": 71.88256123535677
+      },
+      "locked_test": {
+        "mae": 72.44090413943356,
+        "rmse": 92.67618134058063,
+        "r2": 0.13477999189853673
+      }
+    },
+    "ridge": {
+      "validation": {
+        "mae": 68.55042737258238
+      },
+      "locked_test": {
+        "mae": 70.63589068340293,
+        "rmse": 88.59435448377799,
+        "r2": 0.2093170229271717
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": -1.875305330631345,
+        "ci95": [
+          -3.296679052904802,
+          -0.5620443629426336
+        ]
+      }
+    },
+    "hgb": {
+      "validation": {
+        "mae": 70.69494523298052
+      },
+      "locked_test": {
+        "mae": 73.22535386195538,
+        "rmse": 92.48359735980694,
+        "r2": 0.13837216374734607
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": 0.6856041584145552,
+        "ci95": [
+          -1.7110302855873634,
+          3.4254263120506407
+        ]
+      }
+    },
+    "selected_on_validation": "ridge",
+    "props_universe": {
+      "filter": "attempts_r6>=10.0",
+      "n_locked_test": 582,
+      "baseline_r6_mae": 72.278264604811,
+      "model_mae": 69.96858966277809,
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": -2.310597897466612,
+        "ci95": [
+          -3.7820526428447154,
+          -0.9090697072068445
+        ]
+      }
+    }
+  },
+  "rushing_yards": {
+    "n": {
+      "train": 20208,
+      "validation": 5545,
+      "locked_test": 5686
+    },
+    "features": [
+      "carries_r6",
+      "rushing_yards_r6",
+      "rushing_tds_r6",
+      "target_share_r6",
+      "wopr_r6",
+      "qb_att_r6",
+      "qb_yards_r6",
+      "qb_tds_r6",
+      "qb_epa_per_att_r6",
+      "qb_int_r6",
+      "al_rush_yds_r6",
+      "al_ypc_r6",
+      "al_rush_tds_r6",
+      "al_tds_r6",
+      "is_home"
+    ],
+    "baseline_r6": {
+      "validation": {
+        "mae": 7.56780583107905
+      },
+      "locked_test": {
+        "mae": 7.172057099308242,
+        "rmse": 16.329998644144073,
+        "r2": 0.5601062441982001
+      }
+    },
+    "ridge": {
+      "validation": {
+        "mae": 7.9047028776991155
+      },
+      "locked_test": {
+        "mae": 7.489106378422173,
+        "rmse": 15.884742343896033,
+        "r2": 0.5837676321975256
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": 0.3166956677542648,
+        "ci95": [
+          0.24873315569976498,
+          0.38632827191498625
+        ]
+      }
+    },
+    "hgb": {
+      "validation": {
+        "mae": 7.678038144148694
+      },
+      "locked_test": {
+        "mae": 7.314766435740092,
+        "rmse": 16.025559639635862,
+        "r2": 0.5763551713239853
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": 0.1428435553251665,
+        "ci95": [
+          0.06304214374055354,
+          0.22581296369648665
+        ]
+      }
+    },
+    "selected_on_validation": "hgb",
+    "props_universe": {
+      "filter": "carries_r6>=3.0",
+      "n_locked_test": 1423,
+      "baseline_r6_mae": 22.51391426563598,
+      "model_mae": 22.08034843675125,
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": -0.42475459741321475,
+        "ci95": [
+          -0.7637749414207945,
+          -0.06751502646568656
+        ]
+      }
+    }
+  },
+  "receiving_yards": {
+    "n": {
+      "train": 17985,
+      "validation": 4909,
+      "locked_test": 5064
+    },
+    "features": [
+      "targets_r6",
+      "receptions_r6",
+      "receiving_yards_r6",
+      "receiving_tds_r6",
+      "target_share_r6",
+      "air_yards_share_r6",
+      "wopr_r6",
+      "qb_att_r6",
+      "qb_yards_r6",
+      "qb_tds_r6",
+      "qb_epa_per_att_r6",
+      "qb_int_r6",
+      "al_rec_yds_r6",
+      "al_ypt_r6",
+      "al_rec_tds_r6",
+      "al_tds_r6",
+      "is_home"
+    ],
+    "baseline_r6": {
+      "validation": {
+        "mae": 17.16629320296055
+      },
+      "locked_test": {
+        "mae": 16.477471695629276,
+        "rmse": 23.94320449938936,
+        "r2": 0.3437918848113911
+      }
+    },
+    "ridge": {
+      "validation": {
+        "mae": 16.949228502213437
+      },
+      "locked_test": {
+        "mae": 16.306766332017922,
+        "rmse": 23.177324687077764,
+        "r2": 0.3851011841213323
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": -0.1673410695286776,
+        "ci95": [
+          -0.294851285339384,
+          -0.03576541065597775
+        ]
+      }
+    },
+    "hgb": {
+      "validation": {
+        "mae": 17.095010238743498
+      },
+      "locked_test": {
+        "mae": 16.4947680250506,
+        "rmse": 23.245884846510965,
+        "r2": 0.3814579756026961
+      },
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": 0.020714216649482104,
+        "ci95": [
+          -0.12364221977637077,
+          0.15925582144704434
+        ]
+      }
+    },
+    "selected_on_validation": "ridge",
+    "props_universe": {
+      "filter": "targets_r6>=3.0",
+      "n_locked_test": 2279,
+      "baseline_r6_mae": 24.137596899224807,
+      "model_mae": 23.358624434022946,
+      "mae_delta_vs_r6_baseline_bootstrap": {
+        "estimate": -0.7742654960013418,
+        "ci95": [
+          -1.0135317652279556,
+          -0.5463794466804217
+        ]
+      }
+    }
+  }
+}

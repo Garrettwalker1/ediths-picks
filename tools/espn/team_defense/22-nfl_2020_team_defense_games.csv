@@ -1,0 +1,539 @@
+event_id,league,season,date,team,opponent,home_away,points_allowed,pass_yds_allowed,rush_yds_allowed,total_yds_allowed,interceptions_forced,fumbles_forced,turnovers_forced
+401220225,NFL,2020,2020-09-11,Houston Texans,Kansas City Chiefs,away,34.0,211.0,166.0,377.0,0,0,0
+401220225,NFL,2020,2020-09-11,Kansas City Chiefs,Houston Texans,home,20.0,253.0,118.0,371.0,1.0,0,1.0
+401220116,NFL,2020,2020-09-13,New York Jets,Buffalo Bills,away,27.0,312.0,98.0,410.0,0,2.0,2.0
+401220116,NFL,2020,2020-09-13,Buffalo Bills,New York Jets,home,17.0,215.0,52.0,267.0,1.0,1.0,2.0
+401220131,NFL,2020,2020-09-13,Miami Dolphins,New England Patriots,away,21.0,155.0,217.0,372.0,0,1.0,1.0
+401220131,NFL,2020,2020-09-13,New England Patriots,Miami Dolphins,home,11.0,191.0,87.0,278.0,3.0,0,3.0
+401220147,NFL,2020,2020-09-13,Cleveland Browns,Baltimore Ravens,away,38.0,284.0,111.0,395.0,0,1.0,1.0
+401220147,NFL,2020,2020-09-13,Baltimore Ravens,Cleveland Browns,home,6.0,189.0,138.0,327.0,1.0,2.0,3.0
+401220195,NFL,2020,2020-09-13,Indianapolis Colts,Jacksonville Jaguars,away,27.0,173.0,91.0,264.0,0,0,0
+401220195,NFL,2020,2020-09-13,Jacksonville Jaguars,Indianapolis Colts,home,20.0,363.0,88.0,451.0,2.0,0,2.0
+401220268,NFL,2020,2020-09-13,Philadelphia Eagles,Washington,away,27.0,178.0,80.0,258.0,0,0,0
+401220268,NFL,2020,2020-09-13,Washington,Philadelphia Eagles,home,17.0,270.0,57.0,327.0,2.0,1.0,3.0
+401220282,NFL,2020,2020-09-13,Chicago Bears,Detroit Lions,away,23.0,297.0,138.0,435.0,1.0,0,1.0
+401220282,NFL,2020,2020-09-13,Detroit Lions,Chicago Bears,home,27.0,242.0,149.0,391.0,0,0,0
+401220300,NFL,2020,2020-09-13,Green Bay Packers,Minnesota Vikings,away,34.0,259.0,134.0,393.0,1.0,0,1.0
+401220300,NFL,2020,2020-09-13,Minnesota Vikings,Green Bay Packers,home,43.0,364.0,158.0,522.0,0,0,0
+401220313,NFL,2020,2020-09-13,Seattle Seahawks,Atlanta Falcons,away,25.0,450.0,72.0,522.0,1.0,1.0,2.0
+401220313,NFL,2020,2020-09-13,Atlanta Falcons,Seattle Seahawks,home,38.0,322.0,84.0,406.0,0,0,0
+401220370,NFL,2020,2020-09-13,Las Vegas Raiders,Carolina Panthers,away,30.0,269.0,129.0,398.0,0,0,0
+401220370,NFL,2020,2020-09-13,Carolina Panthers,Las Vegas Raiders,home,34.0,239.0,133.0,372.0,0,0,0
+401220161,NFL,2020,2020-09-13,Los Angeles Chargers,Cincinnati Bengals,away,13.0,193.0,122.0,315.0,1.0,1.0,2.0
+401220161,NFL,2020,2020-09-13,Cincinnati Bengals,Los Angeles Chargers,home,16.0,208.0,155.0,363.0,0,0,0
+401220352,NFL,2020,2020-09-13,Arizona Cardinals,San Francisco 49ers,away,20.0,259.0,123.0,382.0,0,0,0
+401220352,NFL,2020,2020-09-13,San Francisco 49ers,Arizona Cardinals,home,24.0,230.0,180.0,410.0,1.0,0,1.0
+401220369,NFL,2020,2020-09-13,Tampa Bay Buccaneers,New Orleans Saints,away,34.0,198.0,82.0,280.0,0,0,0
+401220369,NFL,2020,2020-09-13,New Orleans Saints,Tampa Bay Buccaneers,home,23.0,239.0,86.0,325.0,2.0,1.0,3.0
+401220347,NFL,2020,2020-09-14,Dallas Cowboys,Los Angeles Rams,away,20.0,275.0,153.0,428.0,1.0,0,1.0
+401220347,NFL,2020,2020-09-14,Los Angeles Rams,Dallas Cowboys,home,17.0,266.0,136.0,402.0,0,0,0
+401220256,NFL,2020,2020-09-14,Pittsburgh Steelers,New York Giants,away,16.0,279.0,29.0,308.0,2.0,0,2.0
+401220256,NFL,2020,2020-09-14,New York Giants,Pittsburgh Steelers,home,26.0,229.0,141.0,370.0,0,1.0,1.0
+401220217,NFL,2020,2020-09-15,Tennessee Titans,Denver Broncos,away,14.0,216.0,107.0,323.0,0,1.0,1.0
+401220217,NFL,2020,2020-09-15,Denver Broncos,Tennessee Titans,home,16.0,249.0,130.0,379.0,0,0,0
+401220163,NFL,2020,2020-09-18,Cincinnati Bengals,Cleveland Browns,away,35.0,219.0,215.0,434.0,1.0,0,1.0
+401220163,NFL,2020,2020-09-18,Cleveland Browns,Cincinnati Bengals,home,30.0,316.0,68.0,384.0,0,1.0,1.0
+401220122,NFL,2020,2020-09-20,Buffalo Bills,Miami Dolphins,away,28.0,328.0,99.0,427.0,0,0,0
+401220122,NFL,2020,2020-09-20,Miami Dolphins,Buffalo Bills,home,31.0,417.0,111.0,528.0,0,1.0,1.0
+401220144,NFL,2020,2020-09-20,San Francisco 49ers,New York Jets,away,13.0,179.0,104.0,283.0,0,0,0
+401220144,NFL,2020,2020-09-20,New York Jets,San Francisco 49ers,home,31.0,202.0,182.0,384.0,1.0,0,1.0
+401220177,NFL,2020,2020-09-20,Denver Broncos,Pittsburgh Steelers,away,26.0,311.0,109.0,420.0,1.0,1.0,2.0
+401220177,NFL,2020,2020-09-20,Pittsburgh Steelers,Denver Broncos,home,21.0,276.0,104.0,380.0,1.0,1.0,2.0
+401220192,NFL,2020,2020-09-20,Minnesota Vikings,Indianapolis Colts,away,28.0,214.0,151.0,365.0,1.0,0,1.0
+401220192,NFL,2020,2020-09-20,Indianapolis Colts,Minnesota Vikings,home,11.0,113.0,80.0,193.0,3.0,0,3.0
+401220204,NFL,2020,2020-09-20,Jacksonville Jaguars,Tennessee Titans,away,33.0,239.0,123.0,362.0,0,0,0
+401220204,NFL,2020,2020-09-20,Tennessee Titans,Jacksonville Jaguars,home,30.0,339.0,165.0,504.0,2.0,0,2.0
+401220249,NFL,2020,2020-09-20,Atlanta Falcons,Dallas Cowboys,away,40.0,450.0,125.0,575.0,0,3.0,3.0
+401220249,NFL,2020,2020-09-20,Dallas Cowboys,Atlanta Falcons,home,39.0,273.0,113.0,386.0,0,0,0
+401220261,NFL,2020,2020-09-20,Los Angeles Rams,Philadelphia Eagles,away,19.0,242.0,121.0,363.0,2.0,1.0,3.0
+401220261,NFL,2020,2020-09-20,Philadelphia Eagles,Los Angeles Rams,home,37.0,267.0,191.0,458.0,0,1.0,1.0
+401220281,NFL,2020,2020-09-20,New York Giants,Chicago Bears,away,17.0,190.0,135.0,325.0,2.0,0,2.0
+401220281,NFL,2020,2020-09-20,Chicago Bears,New York Giants,home,13.0,241.0,75.0,316.0,1.0,1.0,2.0
+401220291,NFL,2020,2020-09-20,Detroit Lions,Green Bay Packers,away,42.0,240.0,259.0,499.0,0,0,0
+401220291,NFL,2020,2020-09-20,Green Bay Packers,Detroit Lions,home,21.0,244.0,89.0,333.0,1.0,0,1.0
+401220329,NFL,2020,2020-09-20,Carolina Panthers,Tampa Bay Buccaneers,away,31.0,217.0,122.0,339.0,1.0,1.0,2.0
+401220329,NFL,2020,2020-09-20,Tampa Bay Buccaneers,Carolina Panthers,home,17.0,367.0,87.0,454.0,2.0,2.0,4.0
+401220340,NFL,2020,2020-09-20,Washington,Arizona Cardinals,away,30.0,286.0,160.0,446.0,1.0,0,1.0
+401220340,NFL,2020,2020-09-20,Arizona Cardinals,Washington,home,15.0,223.0,117.0,340.0,0,2.0,2.0
+401220181,NFL,2020,2020-09-20,Baltimore Ravens,Houston Texans,away,16.0,275.0,51.0,326.0,1.0,1.0,2.0
+401220181,NFL,2020,2020-09-20,Houston Texans,Baltimore Ravens,home,33.0,204.0,230.0,434.0,0,0,0
+401220235,NFL,2020,2020-09-20,Kansas City Chiefs,Los Angeles Chargers,away,20.0,311.0,183.0,494.0,1.0,0,1.0
+401220235,NFL,2020,2020-09-20,Los Angeles Chargers,Kansas City Chiefs,home,23.0,302.0,125.0,427.0,0,0,0
+401220365,NFL,2020,2020-09-21,New England Patriots,Seattle Seahawks,away,35.0,288.0,154.0,442.0,1.0,0,1.0
+401220365,NFL,2020,2020-09-21,Seattle Seahawks,New England Patriots,home,30.0,397.0,67.0,464.0,1.0,0,1.0
+401220231,NFL,2020,2020-09-22,New Orleans Saints,Las Vegas Raiders,away,34.0,284.0,116.0,400.0,0,1.0,1.0
+401220231,NFL,2020,2020-09-22,Las Vegas Raiders,New Orleans Saints,home,24.0,312.0,112.0,424.0,1.0,0,1.0
+401220201,NFL,2020,2020-09-25,Miami Dolphins,Jacksonville Jaguars,away,13.0,275.0,72.0,347.0,1.0,1.0,2.0
+401220201,NFL,2020,2020-09-25,Jacksonville Jaguars,Miami Dolphins,home,31.0,160.0,138.0,298.0,0,0,0
+401220119,NFL,2020,2020-09-27,Los Angeles Rams,Buffalo Bills,away,35.0,311.0,101.0,412.0,1.0,1.0,2.0
+401220119,NFL,2020,2020-09-27,Buffalo Bills,Los Angeles Rams,home,32.0,321.0,167.0,488.0,1.0,1.0,2.0
+401220134,NFL,2020,2020-09-27,Las Vegas Raiders,New England Patriots,away,36.0,162.0,250.0,412.0,1.0,0,1.0
+401220134,NFL,2020,2020-09-27,New England Patriots,Las Vegas Raiders,home,20.0,261.0,126.0,387.0,0,3.0,3.0
+401220168,NFL,2020,2020-09-27,Washington,Cleveland Browns,away,34.0,156.0,158.0,314.0,0,0,0
+401220168,NFL,2020,2020-09-27,Cleveland Browns,Washington,home,20.0,224.0,103.0,327.0,3.0,2.0,5.0
+401220173,NFL,2020,2020-09-27,Houston Texans,Pittsburgh Steelers,away,28.0,237.0,169.0,406.0,0,0,0
+401220173,NFL,2020,2020-09-27,Pittsburgh Steelers,Houston Texans,home,21.0,264.0,29.0,293.0,1.0,0,1.0
+401220254,NFL,2020,2020-09-27,San Francisco 49ers,New York Giants,away,9.0,179.0,66.0,245.0,1.0,2.0,3.0
+401220254,NFL,2020,2020-09-27,New York Giants,San Francisco 49ers,home,36.0,343.0,93.0,436.0,0,0,0
+401220264,NFL,2020,2020-09-27,Cincinnati Bengals,Philadelphia Eagles,away,23.0,225.0,172.0,397.0,2.0,0,2.0
+401220264,NFL,2020,2020-09-27,Philadelphia Eagles,Cincinnati Bengals,home,23.0,312.0,48.0,360.0,0,0,0
+401220304,NFL,2020,2020-09-27,Tennessee Titans,Minnesota Vikings,away,30.0,251.0,226.0,477.0,2.0,1.0,3.0
+401220304,NFL,2020,2020-09-27,Minnesota Vikings,Tennessee Titans,home,31.0,321.0,134.0,455.0,1.0,0,1.0
+401220309,NFL,2020,2020-09-27,Chicago Bears,Atlanta Falcons,away,26.0,238.0,144.0,382.0,1.0,0,1.0
+401220309,NFL,2020,2020-09-27,Atlanta Falcons,Chicago Bears,home,30.0,316.0,130.0,446.0,2.0,0,2.0
+401220193,NFL,2020,2020-09-27,New York Jets,Indianapolis Colts,away,36.0,234.0,119.0,353.0,0,0,0
+401220193,NFL,2020,2020-09-27,Indianapolis Colts,New York Jets,home,7.0,168.0,109.0,277.0,3.0,0,3.0
+401220240,NFL,2020,2020-09-27,Carolina Panthers,Los Angeles Chargers,away,16.0,330.0,117.0,447.0,1.0,3.0,4.0
+401220240,NFL,2020,2020-09-27,Los Angeles Chargers,Carolina Panthers,home,21.0,235.0,81.0,316.0,0,0,0
+401220216,NFL,2020,2020-09-27,Tampa Bay Buccaneers,Denver Broncos,away,10.0,229.0,42.0,271.0,2.0,0,2.0
+401220216,NFL,2020,2020-09-27,Denver Broncos,Tampa Bay Buccaneers,home,28.0,297.0,68.0,365.0,0,0,0
+401220343,NFL,2020,2020-09-27,Detroit Lions,Arizona Cardinals,away,23.0,270.0,109.0,379.0,3.0,0,3.0
+401220343,NFL,2020,2020-09-27,Arizona Cardinals,Detroit Lions,home,26.0,270.0,90.0,360.0,0,0,0
+401220363,NFL,2020,2020-09-27,Dallas Cowboys,Seattle Seahawks,away,38.0,315.0,117.0,432.0,0,1.0,1.0
+401220363,NFL,2020,2020-09-27,Seattle Seahawks,Dallas Cowboys,home,31.0,472.0,61.0,533.0,2.0,1.0,3.0
+401220323,NFL,2020,2020-09-28,Green Bay Packers,New Orleans Saints,away,30.0,288.0,122.0,410.0,0,1.0,1.0
+401220323,NFL,2020,2020-09-28,New Orleans Saints,Green Bay Packers,home,37.0,283.0,98.0,381.0,0,0,0
+401220153,NFL,2020,2020-09-29,Kansas City Chiefs,Baltimore Ravens,away,20.0,97.0,158.0,255.0,0,1.0,1.0
+401220153,NFL,2020,2020-09-29,Baltimore Ravens,Kansas City Chiefs,home,34.0,385.0,132.0,517.0,0,1.0,1.0
+401220141,NFL,2020,2020-10-02,Denver Broncos,New York Jets,away,28.0,246.0,129.0,375.0,0,0,0
+401220141,NFL,2020,2020-10-02,New York Jets,Denver Broncos,home,37.0,242.0,117.0,359.0,3.0,0,3.0
+401220128,NFL,2020,2020-10-04,Seattle Seahawks,Miami Dolphins,away,23.0,315.0,103.0,418.0,2.0,0,2.0
+401220128,NFL,2020,2020-10-04,Miami Dolphins,Seattle Seahawks,home,31.0,360.0,98.0,458.0,1.0,0,1.0
+401220157,NFL,2020,2020-10-04,Jacksonville Jaguars,Cincinnati Bengals,away,33.0,300.0,205.0,505.0,1.0,0,1.0
+401220157,NFL,2020,2020-10-04,Cincinnati Bengals,Jacksonville Jaguars,home,25.0,351.0,89.0,440.0,1.0,0,1.0
+401220184,NFL,2020,2020-10-04,Minnesota Vikings,Houston Texans,away,23.0,300.0,96.0,396.0,0,1.0,1.0
+401220184,NFL,2020,2020-10-04,Houston Texans,Minnesota Vikings,home,31.0,260.0,162.0,422.0,0,0,0
+401220247,NFL,2020,2020-10-04,Cleveland Browns,Dallas Cowboys,away,38.0,502.0,85.0,587.0,1.0,2.0,3.0
+401220247,NFL,2020,2020-10-04,Dallas Cowboys,Cleveland Browns,home,49.0,202.0,307.0,509.0,0,0,0
+401220271,NFL,2020,2020-10-04,Baltimore Ravens,Washington,away,17.0,314.0,69.0,383.0,0,1.0,1.0
+401220271,NFL,2020,2020-10-04,Washington,Baltimore Ravens,home,31.0,208.0,144.0,352.0,2.0,0,2.0
+401220285,NFL,2020,2020-10-04,New Orleans Saints,Detroit Lions,away,29.0,206.0,90.0,296.0,1.0,0,1.0
+401220285,NFL,2020,2020-10-04,Detroit Lions,New Orleans Saints,home,35.0,246.0,164.0,410.0,1.0,0,1.0
+401220320,NFL,2020,2020-10-04,Arizona Cardinals,Carolina Panthers,away,31.0,276.0,168.0,444.0,1.0,0,1.0
+401220320,NFL,2020,2020-10-04,Carolina Panthers,Arizona Cardinals,home,21.0,133.0,129.0,262.0,0,1.0,1.0
+401220334,NFL,2020,2020-10-04,Los Angeles Chargers,Tampa Bay Buccaneers,away,38.0,369.0,115.0,484.0,1.0,0,1.0
+401220334,NFL,2020,2020-10-04,Tampa Bay Buccaneers,Los Angeles Chargers,home,31.0,290.0,46.0,336.0,1.0,1.0,2.0
+401220348,NFL,2020,2020-10-04,New York Giants,Los Angeles Rams,away,17.0,200.0,58.0,258.0,0,1.0,1.0
+401220348,NFL,2020,2020-10-04,Los Angeles Rams,New York Giants,home,9.0,190.0,136.0,326.0,1.0,0,1.0
+401220229,NFL,2020,2020-10-04,Buffalo Bills,Las Vegas Raiders,away,23.0,311.0,86.0,397.0,0,2.0,2.0
+401220229,NFL,2020,2020-10-04,Las Vegas Raiders,Buffalo Bills,home,30.0,288.0,63.0,351.0,0,0,0
+401220280,NFL,2020,2020-10-04,Indianapolis Colts,Chicago Bears,away,11.0,249.0,28.0,277.0,1.0,0,1.0
+401220280,NFL,2020,2020-10-04,Chicago Bears,Indianapolis Colts,home,19.0,190.0,103.0,293.0,0,0,0
+401220355,NFL,2020,2020-10-05,Philadelphia Eagles,San Francisco 49ers,away,20.0,338.0,116.0,454.0,2.0,1.0,3.0
+401220355,NFL,2020,2020-10-05,San Francisco 49ers,Philadelphia Eagles,home,25.0,193.0,93.0,286.0,1.0,0,1.0
+401220221,NFL,2020,2020-10-05,New England Patriots,Kansas City Chiefs,away,26.0,236.0,94.0,330.0,0,1.0,1.0
+401220221,NFL,2020,2020-10-05,Kansas City Chiefs,New England Patriots,home,10.0,190.0,185.0,375.0,3.0,1.0,4.0
+401220293,NFL,2020,2020-10-06,Atlanta Falcons,Green Bay Packers,away,30.0,327.0,88.0,415.0,0,0,0
+401220293,NFL,2020,2020-10-06,Green Bay Packers,Atlanta Falcons,home,16.0,285.0,78.0,363.0,0,0,0
+401220278,NFL,2020,2020-10-09,Tampa Bay Buccaneers,Chicago Bears,away,20.0,243.0,35.0,278.0,1.0,0,1.0
+401220278,NFL,2020,2020-10-09,Chicago Bears,Tampa Bay Buccaneers,home,19.0,253.0,106.0,359.0,0,1.0,1.0
+401220143,NFL,2020,2020-10-11,Arizona Cardinals,New York Jets,away,10.0,195.0,123.0,318.0,0,0,0
+401220143,NFL,2020,2020-10-11,New York Jets,Arizona Cardinals,home,30.0,380.0,127.0,507.0,1.0,0,1.0
+401220146,NFL,2020,2020-10-11,Cincinnati Bengals,Baltimore Ravens,away,27.0,180.0,161.0,341.0,1.0,0,1.0
+401220146,NFL,2020,2020-10-11,Baltimore Ravens,Cincinnati Bengals,home,3.0,183.0,70.0,253.0,1.0,2.0,3.0
+401220175,NFL,2020,2020-10-11,Philadelphia Eagles,Pittsburgh Steelers,away,38.0,239.0,136.0,375.0,0,1.0,1.0
+401220175,NFL,2020,2020-10-11,Pittsburgh Steelers,Philadelphia Eagles,home,29.0,276.0,94.0,370.0,2.0,0,2.0
+401220179,NFL,2020,2020-10-11,Jacksonville Jaguars,Houston Texans,away,30.0,359.0,129.0,488.0,2.0,0,2.0
+401220179,NFL,2020,2020-10-11,Houston Texans,Jacksonville Jaguars,home,14.0,301.0,75.0,376.0,0,2.0,2.0
+401220219,NFL,2020,2020-10-11,Las Vegas Raiders,Kansas City Chiefs,away,32.0,340.0,80.0,420.0,1.0,0,1.0
+401220219,NFL,2020,2020-10-11,Kansas City Chiefs,Las Vegas Raiders,home,40.0,347.0,144.0,491.0,1.0,0,1.0
+401220269,NFL,2020,2020-10-11,Los Angeles Rams,Washington,away,10.0,111.0,38.0,149.0,0,0,0
+401220269,NFL,2020,2020-10-11,Washington,Los Angeles Rams,home,30.0,309.0,129.0,438.0,1.0,0,1.0
+401220306,NFL,2020,2020-10-11,Carolina Panthers,Atlanta Falcons,away,16.0,226.0,166.0,392.0,1.0,0,1.0
+401220306,NFL,2020,2020-10-11,Atlanta Falcons,Carolina Panthers,home,23.0,313.0,124.0,437.0,0,0,0
+401220358,NFL,2020,2020-10-11,Miami Dolphins,San Francisco 49ers,away,17.0,171.0,131.0,302.0,2.0,1.0,3.0
+401220358,NFL,2020,2020-10-11,San Francisco 49ers,Miami Dolphins,home,43.0,350.0,94.0,444.0,0,0,0
+401220166,NFL,2020,2020-10-11,Indianapolis Colts,Cleveland Browns,away,32.0,265.0,124.0,389.0,2.0,0,2.0
+401220166,NFL,2020,2020-10-11,Cleveland Browns,Indianapolis Colts,home,23.0,243.0,68.0,311.0,2.0,0,2.0
+401220242,NFL,2020,2020-10-11,New York Giants,Dallas Cowboys,away,37.0,288.0,126.0,414.0,1.0,1.0,2.0
+401220242,NFL,2020,2020-10-11,Dallas Cowboys,New York Giants,home,34.0,222.0,89.0,311.0,0,1.0,1.0
+401220367,NFL,2020,2020-10-12,Minnesota Vikings,Seattle Seahawks,away,27.0,217.0,124.0,341.0,1.0,0,1.0
+401220367,NFL,2020,2020-10-12,Seattle Seahawks,Minnesota Vikings,home,26.0,249.0,201.0,450.0,1.0,1.0,2.0
+401220326,NFL,2020,2020-10-13,Los Angeles Chargers,New Orleans Saints,away,30.0,325.0,95.0,420.0,1.0,0,1.0
+401220326,NFL,2020,2020-10-13,New Orleans Saints,Los Angeles Chargers,home,27.0,264.0,111.0,375.0,0,0,0
+401220209,NFL,2020,2020-10-13,Buffalo Bills,Tennessee Titans,away,42.0,195.0,139.0,334.0,0,0,0
+401220209,NFL,2020,2020-10-13,Tennessee Titans,Buffalo Bills,home,16.0,285.0,95.0,380.0,2.0,1.0,3.0
+401220133,NFL,2020,2020-10-18,Denver Broncos,New England Patriots,away,12.0,195.0,117.0,312.0,2.0,1.0,3.0
+401220133,NFL,2020,2020-10-18,New England Patriots,Denver Broncos,home,18.0,189.0,135.0,324.0,2.0,0,2.0
+401220172,NFL,2020,2020-10-18,Cleveland Browns,Pittsburgh Steelers,away,38.0,168.0,129.0,297.0,0,0,0
+401220172,NFL,2020,2020-10-18,Pittsburgh Steelers,Cleveland Browns,home,7.0,165.0,75.0,240.0,2.0,0,2.0
+401220190,NFL,2020,2020-10-18,Cincinnati Bengals,Indianapolis Colts,away,31.0,371.0,59.0,430.0,1.0,1.0,2.0
+401220190,NFL,2020,2020-10-18,Indianapolis Colts,Cincinnati Bengals,home,27.0,313.0,98.0,411.0,1.0,0,1.0
+401220200,NFL,2020,2020-10-18,Detroit Lions,Jacksonville Jaguars,away,16.0,243.0,44.0,287.0,1.0,1.0,2.0
+401220200,NFL,2020,2020-10-18,Jacksonville Jaguars,Detroit Lions,home,34.0,223.0,180.0,403.0,1.0,0,1.0
+401220202,NFL,2020,2020-10-18,Houston Texans,Tennessee Titans,away,42.0,366.0,263.0,629.0,1.0,1.0,2.0
+401220202,NFL,2020,2020-10-18,Tennessee Titans,Houston Texans,home,36.0,335.0,92.0,427.0,0,0,0
+401220252,NFL,2020,2020-10-18,Washington,New York Giants,away,20.0,112.0,132.0,244.0,1.0,0,1.0
+401220252,NFL,2020,2020-10-18,New York Giants,Washington,home,19.0,280.0,86.0,366.0,1.0,1.0,2.0
+401220263,NFL,2020,2020-10-18,Baltimore Ravens,Philadelphia Eagles,away,28.0,213.0,194.0,407.0,0,1.0,1.0
+401220263,NFL,2020,2020-10-18,Philadelphia Eagles,Baltimore Ravens,home,30.0,186.0,182.0,368.0,0,0,0
+401220301,NFL,2020,2020-10-18,Atlanta Falcons,Minnesota Vikings,away,23.0,343.0,32.0,375.0,3.0,0,3.0
+401220301,NFL,2020,2020-10-18,Minnesota Vikings,Atlanta Falcons,home,40.0,371.0,99.0,470.0,0,1.0,1.0
+401220317,NFL,2020,2020-10-18,Chicago Bears,Carolina Panthers,away,16.0,216.0,112.0,328.0,2.0,1.0,3.0
+401220317,NFL,2020,2020-10-18,Carolina Panthers,Chicago Bears,home,23.0,198.0,63.0,261.0,1.0,0,1.0
+401220124,NFL,2020,2020-10-18,New York Jets,Miami Dolphins,away,24.0,200.0,110.0,310.0,2.0,0,2.0
+401220124,NFL,2020,2020-10-18,Miami Dolphins,New York Jets,home,0.0,186.0,115.0,301.0,1.0,0,1.0
+401220331,NFL,2020,2020-10-18,Green Bay Packers,Tampa Bay Buccaneers,away,38.0,166.0,158.0,324.0,0,0,0
+401220331,NFL,2020,2020-10-18,Tampa Bay Buccaneers,Green Bay Packers,home,10.0,160.0,94.0,254.0,2.0,0,2.0
+401220353,NFL,2020,2020-10-19,Los Angeles Rams,San Francisco 49ers,away,24.0,268.0,122.0,390.0,0,0,0
+401220353,NFL,2020,2020-10-19,San Francisco 49ers,Los Angeles Rams,home,16.0,198.0,113.0,311.0,1.0,0,1.0
+401220117,NFL,2020,2020-10-19,Kansas City Chiefs,Buffalo Bills,away,17.0,122.0,84.0,206.0,1.0,0,1.0
+401220117,NFL,2020,2020-10-19,Buffalo Bills,Kansas City Chiefs,home,26.0,225.0,245.0,470.0,0,1.0,1.0
+401220245,NFL,2020,2020-10-20,Arizona Cardinals,Dallas Cowboys,away,10.0,266.0,97.0,363.0,2.0,2.0,4.0
+401220245,NFL,2020,2020-10-20,Dallas Cowboys,Arizona Cardinals,home,38.0,188.0,261.0,449.0,0,0,0
+401220259,NFL,2020,2020-10-23,New York Giants,Philadelphia Eagles,away,22.0,359.0,96.0,455.0,1.0,0,1.0
+401220259,NFL,2020,2020-10-23,Philadelphia Eagles,New York Giants,home,21.0,187.0,160.0,347.0,1.0,2.0,3.0
+401220138,NFL,2020,2020-10-25,Buffalo Bills,New York Jets,away,10.0,120.0,100.0,220.0,2.0,0,2.0
+401220138,NFL,2020,2020-10-25,New York Jets,Buffalo Bills,home,18.0,307.0,126.0,433.0,0,1.0,1.0
+401220155,NFL,2020,2020-10-25,Cleveland Browns,Cincinnati Bengals,away,34.0,422.0,81.0,503.0,1.0,1.0,2.0
+401220155,NFL,2020,2020-10-25,Cincinnati Bengals,Cleveland Browns,home,37.0,316.0,82.0,398.0,1.0,0,1.0
+401220183,NFL,2020,2020-10-25,Green Bay Packers,Houston Texans,away,20.0,309.0,79.0,388.0,0,1.0,1.0
+401220183,NFL,2020,2020-10-25,Houston Texans,Green Bay Packers,home,35.0,283.0,96.0,379.0,0,0,0
+401220266,NFL,2020,2020-10-25,Dallas Cowboys,Washington,away,25.0,194.0,208.0,402.0,0,0,0
+401220266,NFL,2020,2020-10-25,Washington,Dallas Cowboys,home,3.0,114.0,83.0,197.0,1.0,0,1.0
+401220310,NFL,2020,2020-10-25,Detroit Lions,Atlanta Falcons,away,22.0,338.0,66.0,404.0,0,1.0,1.0
+401220310,NFL,2020,2020-10-25,Atlanta Falcons,Detroit Lions,home,23.0,340.0,64.0,404.0,0,0,0
+401220322,NFL,2020,2020-10-25,Carolina Panthers,New Orleans Saints,away,27.0,287.0,138.0,425.0,0,1.0,1.0
+401220322,NFL,2020,2020-10-25,New Orleans Saints,Carolina Panthers,home,24.0,254.0,37.0,291.0,0,0,0
+401249063,NFL,2020,2020-10-25,Pittsburgh Steelers,Tennessee Titans,away,24.0,220.0,82.0,302.0,0,0,0
+401249063,NFL,2020,2020-10-25,Tennessee Titans,Pittsburgh Steelers,home,27.0,268.0,94.0,362.0,3.0,0,3.0
+401220232,NFL,2020,2020-10-25,Tampa Bay Buccaneers,Las Vegas Raiders,away,20.0,284.0,76.0,360.0,1.0,0,1.0
+401220232,NFL,2020,2020-10-25,Las Vegas Raiders,Tampa Bay Buccaneers,home,45.0,369.0,85.0,454.0,0,0,0
+401220136,NFL,2020,2020-10-25,San Francisco 49ers,New England Patriots,away,6.0,162.0,94.0,256.0,4.0,0,4.0
+401220136,NFL,2020,2020-10-25,New England Patriots,San Francisco 49ers,home,33.0,277.0,197.0,474.0,2.0,0,2.0
+401220210,NFL,2020,2020-10-25,Kansas City Chiefs,Denver Broncos,away,16.0,254.0,177.0,431.0,2.0,2.0,4.0
+401220210,NFL,2020,2020-10-25,Denver Broncos,Kansas City Chiefs,home,43.0,213.0,101.0,314.0,0,1.0,1.0
+401220241,NFL,2020,2020-10-25,Jacksonville Jaguars,Los Angeles Chargers,away,39.0,351.0,135.0,486.0,0,0,0
+401220241,NFL,2020,2020-10-25,Los Angeles Chargers,Jacksonville Jaguars,home,29.0,173.0,140.0,313.0,0,1.0,1.0
+401220338,NFL,2020,2020-10-26,Seattle Seahawks,Arizona Cardinals,away,37.0,360.0,159.0,519.0,1.0,1.0,2.0
+401220338,NFL,2020,2020-10-26,Arizona Cardinals,Seattle Seahawks,home,34.0,388.0,200.0,588.0,3.0,0,3.0
+401220351,NFL,2020,2020-10-27,Chicago Bears,Los Angeles Rams,away,24.0,220.0,160.0,380.0,0,1.0,1.0
+401220351,NFL,2020,2020-10-27,Los Angeles Rams,Chicago Bears,home,10.0,261.0,49.0,310.0,2.0,0,2.0
+401220314,NFL,2020,2020-10-30,Atlanta Falcons,Carolina Panthers,away,17.0,179.0,147.0,326.0,1.0,0,1.0
+401220314,NFL,2020,2020-10-30,Carolina Panthers,Atlanta Falcons,home,25.0,281.0,131.0,412.0,1.0,0,1.0
+401220115,NFL,2020,2020-11-01,New England Patriots,Buffalo Bills,away,24.0,154.0,190.0,344.0,1.0,0,1.0
+401220115,NFL,2020,2020-11-01,Buffalo Bills,New England Patriots,home,21.0,174.0,188.0,362.0,0,1.0,1.0
+401220127,NFL,2020,2020-11-01,Los Angeles Rams,Miami Dolphins,away,28.0,93.0,55.0,148.0,0,2.0,2.0
+401220127,NFL,2020,2020-11-01,Miami Dolphins,Los Angeles Rams,home,17.0,355.0,131.0,486.0,2.0,2.0,4.0
+401220148,NFL,2020,2020-11-01,Pittsburgh Steelers,Baltimore Ravens,away,24.0,208.0,265.0,473.0,2.0,2.0,4.0
+401220148,NFL,2020,2020-11-01,Baltimore Ravens,Pittsburgh Steelers,home,28.0,182.0,48.0,230.0,0,1.0,1.0
+401220158,NFL,2020,2020-11-01,Tennessee Titans,Cincinnati Bengals,away,31.0,249.0,118.0,367.0,0,0,0
+401220158,NFL,2020,2020-11-01,Cincinnati Bengals,Tennessee Titans,home,20.0,233.0,218.0,451.0,1.0,0,1.0
+401220169,NFL,2020,2020-11-01,Las Vegas Raiders,Cleveland Browns,away,6.0,122.0,101.0,223.0,0,1.0,1.0
+401220169,NFL,2020,2020-11-01,Cleveland Browns,Las Vegas Raiders,home,16.0,111.0,209.0,320.0,0,0,0
+401220222,NFL,2020,2020-11-01,New York Jets,Kansas City Chiefs,away,35.0,446.0,50.0,496.0,0,0,0
+401220222,NFL,2020,2020-11-01,Kansas City Chiefs,New York Jets,home,9.0,133.0,93.0,226.0,0,1.0,1.0
+401220288,NFL,2020,2020-11-01,Indianapolis Colts,Detroit Lions,away,21.0,336.0,29.0,365.0,1.0,1.0,2.0
+401220288,NFL,2020,2020-11-01,Detroit Lions,Indianapolis Colts,home,41.0,262.0,119.0,381.0,0,0,0
+401220292,NFL,2020,2020-11-01,Minnesota Vikings,Green Bay Packers,away,22.0,291.0,109.0,400.0,0,1.0,1.0
+401220292,NFL,2020,2020-11-01,Green Bay Packers,Minnesota Vikings,home,28.0,160.0,173.0,333.0,0,0,0
+401220212,NFL,2020,2020-11-01,Los Angeles Chargers,Denver Broncos,away,31.0,248.0,108.0,356.0,1.0,0,1.0
+401220212,NFL,2020,2020-11-01,Denver Broncos,Los Angeles Chargers,home,30.0,278.0,210.0,488.0,2.0,0,2.0
+401220277,NFL,2020,2020-11-01,New Orleans Saints,Chicago Bears,away,23.0,272.0,96.0,368.0,1.0,0,1.0
+401220277,NFL,2020,2020-11-01,Chicago Bears,New Orleans Saints,home,26.0,280.0,122.0,402.0,0,0,0
+401220361,NFL,2020,2020-11-01,San Francisco 49ers,Seattle Seahawks,away,37.0,261.0,101.0,362.0,0,0,0
+401220361,NFL,2020,2020-11-01,Seattle Seahawks,San Francisco 49ers,home,27.0,322.0,52.0,374.0,1.0,1.0,2.0
+401220258,NFL,2020,2020-11-02,Dallas Cowboys,Philadelphia Eagles,away,23.0,132.0,119.0,251.0,2.0,2.0,4.0
+401220258,NFL,2020,2020-11-02,Philadelphia Eagles,Dallas Cowboys,home,9.0,180.0,133.0,313.0,0,2.0,2.0
+401220257,NFL,2020,2020-11-03,Tampa Bay Buccaneers,New York Giants,away,23.0,274.0,101.0,375.0,2.0,0,2.0
+401220257,NFL,2020,2020-11-03,New York Giants,Tampa Bay Buccaneers,home,25.0,279.0,81.0,360.0,0,1.0,1.0
+401220359,NFL,2020,2020-11-06,Green Bay Packers,San Francisco 49ers,away,17.0,291.0,55.0,346.0,1.0,1.0,2.0
+401220359,NFL,2020,2020-11-06,San Francisco 49ers,Green Bay Packers,home,34.0,305.0,111.0,416.0,0,0,0
+401220120,NFL,2020,2020-11-08,Seattle Seahawks,Buffalo Bills,away,44.0,415.0,34.0,449.0,0,0,0
+401220120,NFL,2020,2020-11-08,Buffalo Bills,Seattle Seahawks,home,34.0,390.0,57.0,447.0,2.0,2.0,4.0
+401220189,NFL,2020,2020-11-08,Baltimore Ravens,Indianapolis Colts,away,10.0,227.0,112.0,339.0,1.0,1.0,2.0
+401220189,NFL,2020,2020-11-08,Indianapolis Colts,Baltimore Ravens,home,24.0,170.0,110.0,280.0,0,1.0,1.0
+401220194,NFL,2020,2020-11-08,Houston Texans,Jacksonville Jaguars,away,25.0,304.0,115.0,419.0,1.0,0,1.0
+401220194,NFL,2020,2020-11-08,Jacksonville Jaguars,Houston Texans,home,27.0,281.0,107.0,388.0,0,1.0,1.0
+401220207,NFL,2020,2020-11-08,Chicago Bears,Tennessee Titans,away,24.0,158.0,92.0,250.0,0,0,0
+401220207,NFL,2020,2020-11-08,Tennessee Titans,Chicago Bears,home,17.0,335.0,56.0,391.0,0,2.0,2.0
+401220224,NFL,2020,2020-11-08,Carolina Panthers,Kansas City Chiefs,away,33.0,372.0,36.0,408.0,0,1.0,1.0
+401220224,NFL,2020,2020-11-08,Kansas City Chiefs,Carolina Panthers,home,31.0,338.0,104.0,442.0,0,0,0
+401220267,NFL,2020,2020-11-08,New York Giants,Washington,away,20.0,387.0,37.0,424.0,3.0,2.0,5.0
+401220267,NFL,2020,2020-11-08,Washington,New York Giants,home,23.0,212.0,166.0,378.0,0,0,0
+401220299,NFL,2020,2020-11-08,Detroit Lions,Minnesota Vikings,away,34.0,220.0,275.0,495.0,0,0,0
+401220299,NFL,2020,2020-11-08,Minnesota Vikings,Detroit Lions,home,20.0,305.0,129.0,434.0,3.0,0,3.0
+401220311,NFL,2020,2020-11-08,Denver Broncos,Atlanta Falcons,away,34.0,284.0,92.0,376.0,1.0,0,1.0
+401220311,NFL,2020,2020-11-08,Atlanta Falcons,Denver Broncos,home,27.0,313.0,103.0,416.0,1.0,0,1.0
+401220236,NFL,2020,2020-11-08,Las Vegas Raiders,Los Angeles Chargers,away,26.0,326.0,128.0,454.0,0,1.0,1.0
+401220236,NFL,2020,2020-11-08,Los Angeles Chargers,Las Vegas Raiders,home,31.0,165.0,160.0,325.0,0,1.0,1.0
+401220248,NFL,2020,2020-11-08,Pittsburgh Steelers,Dallas Cowboys,away,19.0,243.0,144.0,387.0,1.0,1.0,2.0
+401220248,NFL,2020,2020-11-08,Dallas Cowboys,Pittsburgh Steelers,home,24.0,309.0,46.0,355.0,0,0,0
+401220342,NFL,2020,2020-11-08,Miami Dolphins,Arizona Cardinals,away,31.0,283.0,178.0,461.0,0,1.0,1.0
+401220342,NFL,2020,2020-11-08,Arizona Cardinals,Miami Dolphins,home,34.0,248.0,91.0,339.0,0,0,0
+401220330,NFL,2020,2020-11-09,New Orleans Saints,Tampa Bay Buccaneers,away,3.0,209.0,8.0,217.0,3.0,0,3.0
+401220330,NFL,2020,2020-11-09,Tampa Bay Buccaneers,New Orleans Saints,home,38.0,282.0,138.0,420.0,0,2.0,2.0
+401220140,NFL,2020,2020-11-10,New England Patriots,New York Jets,away,27.0,262.0,65.0,327.0,1.0,0,1.0
+401220140,NFL,2020,2020-11-10,New York Jets,New England Patriots,home,30.0,274.0,159.0,433.0,0,0,0
+401220203,NFL,2020,2020-11-13,Indianapolis Colts,Tennessee Titans,away,17.0,147.0,157.0,304.0,0,0,0
+401220203,NFL,2020,2020-11-13,Tennessee Titans,Indianapolis Colts,home,34.0,308.0,133.0,441.0,0,0,0
+401220165,NFL,2020,2020-11-15,Houston Texans,Cleveland Browns,away,10.0,132.0,231.0,363.0,0,0,0
+401220165,NFL,2020,2020-11-15,Cleveland Browns,Houston Texans,home,7.0,163.0,90.0,253.0,0,0,0
+401220251,NFL,2020,2020-11-15,Philadelphia Eagles,New York Giants,away,27.0,244.0,151.0,395.0,0,0,0
+401220251,NFL,2020,2020-11-15,New York Giants,Philadelphia Eagles,home,17.0,208.0,156.0,364.0,0,0,0
+401220289,NFL,2020,2020-11-15,Washington,Detroit Lions,away,30.0,276.0,105.0,381.0,0,0,0
+401220289,NFL,2020,2020-11-15,Detroit Lions,Washington,home,27.0,390.0,89.0,479.0,0,1.0,1.0
+401220295,NFL,2020,2020-11-15,Jacksonville Jaguars,Green Bay Packers,away,24.0,325.0,80.0,405.0,1.0,1.0,2.0
+401220295,NFL,2020,2020-11-15,Green Bay Packers,Jacksonville Jaguars,home,20.0,169.0,109.0,278.0,1.0,0,1.0
+401220368,NFL,2020,2020-11-15,Tampa Bay Buccaneers,Carolina Panthers,away,23.0,148.0,65.0,213.0,1.0,0,1.0
+401220368,NFL,2020,2020-11-15,Carolina Panthers,Tampa Bay Buccaneers,home,46.0,341.0,210.0,551.0,0,1.0,1.0
+401220126,NFL,2020,2020-11-15,Los Angeles Chargers,Miami Dolphins,away,29.0,169.0,111.0,280.0,0,1.0,1.0
+401220126,NFL,2020,2020-11-15,Miami Dolphins,Los Angeles Chargers,home,21.0,187.0,99.0,286.0,1.0,0,1.0
+401220226,NFL,2020,2020-11-15,Denver Broncos,Las Vegas Raiders,away,37.0,154.0,203.0,357.0,0,0,0
+401220226,NFL,2020,2020-11-15,Las Vegas Raiders,Denver Broncos,home,12.0,257.0,66.0,323.0,4.0,1.0,5.0
+401220341,NFL,2020,2020-11-15,Buffalo Bills,Arizona Cardinals,away,32.0,245.0,217.0,462.0,1.0,1.0,2.0
+401220341,NFL,2020,2020-11-15,Arizona Cardinals,Buffalo Bills,home,30.0,296.0,73.0,369.0,2.0,0,2.0
+401220171,NFL,2020,2020-11-15,Cincinnati Bengals,Pittsburgh Steelers,away,36.0,333.0,44.0,377.0,0,0,0
+401220171,NFL,2020,2020-11-15,Pittsburgh Steelers,Cincinnati Bengals,home,10.0,213.0,139.0,352.0,0,2.0,2.0
+401220327,NFL,2020,2020-11-15,San Francisco 49ers,New Orleans Saints,away,27.0,139.0,114.0,253.0,0,2.0,2.0
+401220327,NFL,2020,2020-11-15,New Orleans Saints,San Francisco 49ers,home,13.0,247.0,49.0,296.0,2.0,2.0,4.0
+401220346,NFL,2020,2020-11-15,Seattle Seahawks,Los Angeles Rams,away,23.0,302.0,106.0,408.0,0,1.0,1.0
+401220346,NFL,2020,2020-11-15,Los Angeles Rams,Seattle Seahawks,home,16.0,248.0,113.0,361.0,2.0,1.0,3.0
+401220137,NFL,2020,2020-11-16,Baltimore Ravens,New England Patriots,away,23.0,142.0,173.0,315.0,0,0,0
+401220137,NFL,2020,2020-11-16,New England Patriots,Baltimore Ravens,home,17.0,249.0,115.0,364.0,1.0,0,1.0
+401220276,NFL,2020,2020-11-17,Minnesota Vikings,Chicago Bears,away,13.0,124.0,41.0,165.0,1.0,1.0,2.0
+401220276,NFL,2020,2020-11-17,Chicago Bears,Minnesota Vikings,home,19.0,292.0,99.0,391.0,1.0,1.0,2.0
+401220360,NFL,2020,2020-11-20,Arizona Cardinals,Seattle Seahawks,away,28.0,197.0,165.0,362.0,0,0,0
+401220360,NFL,2020,2020-11-20,Seattle Seahawks,Arizona Cardinals,home,21.0,269.0,57.0,326.0,0,0,0
+401220150,NFL,2020,2020-11-22,Tennessee Titans,Baltimore Ravens,away,24.0,186.0,129.0,315.0,1.0,0,1.0
+401220150,NFL,2020,2020-11-22,Baltimore Ravens,Tennessee Titans,home,30.0,266.0,173.0,439.0,1.0,0,1.0
+401220167,NFL,2020,2020-11-22,Philadelphia Eagles,Cleveland Browns,away,22.0,204.0,137.0,341.0,0,1.0,1.0
+401220167,NFL,2020,2020-11-22,Cleveland Browns,Philadelphia Eagles,home,17.0,235.0,106.0,341.0,2.0,1.0,3.0
+401220185,NFL,2020,2020-11-22,New England Patriots,Houston Texans,away,27.0,344.0,55.0,399.0,0,0,0
+401220185,NFL,2020,2020-11-22,Houston Texans,New England Patriots,home,20.0,365.0,86.0,451.0,0,0,0
+401220198,NFL,2020,2020-11-22,Pittsburgh Steelers,Jacksonville Jaguars,away,3.0,151.0,73.0,224.0,4.0,0,4.0
+401220198,NFL,2020,2020-11-22,Jacksonville Jaguars,Pittsburgh Steelers,home,27.0,267.0,106.0,373.0,1.0,0,1.0
+401220272,NFL,2020,2020-11-22,Cincinnati Bengals,Washington,away,20.0,166.0,164.0,330.0,1.0,0,1.0
+401220272,NFL,2020,2020-11-22,Washington,Cincinnati Bengals,home,9.0,233.0,70.0,303.0,1.0,1.0,2.0
+401220318,NFL,2020,2020-11-22,Detroit Lions,Carolina Panthers,away,20.0,258.0,116.0,374.0,2.0,0,2.0
+401220318,NFL,2020,2020-11-22,Carolina Panthers,Detroit Lions,home,0.0,178.0,40.0,218.0,0,1.0,1.0
+401220321,NFL,2020,2020-11-22,Atlanta Falcons,New Orleans Saints,away,24.0,233.0,166.0,399.0,0,1.0,1.0
+401220321,NFL,2020,2020-11-22,New Orleans Saints,Atlanta Falcons,home,9.0,232.0,52.0,284.0,2.0,0,2.0
+401220214,NFL,2020,2020-11-22,Miami Dolphins,Denver Broncos,away,20.0,270.0,189.0,459.0,1.0,1.0,2.0
+401220214,NFL,2020,2020-11-22,Denver Broncos,Miami Dolphins,home,13.0,200.0,56.0,256.0,1.0,0,1.0
+401220238,NFL,2020,2020-11-22,New York Jets,Los Angeles Chargers,away,34.0,366.0,29.0,395.0,0,1.0,1.0
+401220238,NFL,2020,2020-11-22,Los Angeles Chargers,New York Jets,home,28.0,205.0,96.0,301.0,1.0,0,1.0
+401220191,NFL,2020,2020-11-22,Green Bay Packers,Indianapolis Colts,away,34.0,288.0,140.0,428.0,1.0,1.0,2.0
+401220191,NFL,2020,2020-11-22,Indianapolis Colts,Green Bay Packers,home,31.0,311.0,66.0,377.0,1.0,3.0,4.0
+401220305,NFL,2020,2020-11-22,Dallas Cowboys,Minnesota Vikings,away,28.0,314.0,125.0,439.0,0,2.0,2.0
+401220305,NFL,2020,2020-11-22,Minnesota Vikings,Dallas Cowboys,home,31.0,203.0,180.0,383.0,1.0,0,1.0
+401220227,NFL,2020,2020-11-23,Kansas City Chiefs,Las Vegas Raiders,away,31.0,275.0,89.0,364.0,1.0,0,1.0
+401220227,NFL,2020,2020-11-23,Las Vegas Raiders,Kansas City Chiefs,home,35.0,352.0,108.0,460.0,1.0,0,1.0
+401220335,NFL,2020,2020-11-24,Los Angeles Rams,Tampa Bay Buccaneers,away,24.0,216.0,42.0,258.0,2.0,0,2.0
+401220335,NFL,2020,2020-11-24,Tampa Bay Buccaneers,Los Angeles Rams,home,27.0,376.0,37.0,413.0,2.0,0,2.0
+401220287,NFL,2020,2020-11-26,Houston Texans,Detroit Lions,away,25.0,295.0,109.0,404.0,1.0,2.0,3.0
+401220287,NFL,2020,2020-11-26,Detroit Lions,Houston Texans,home,41.0,318.0,77.0,395.0,0,1.0,1.0
+401220244,NFL,2020,2020-11-26,Washington,Dallas Cowboys,away,16.0,215.0,60.0,275.0,1.0,1.0,2.0
+401220244,NFL,2020,2020-11-26,Dallas Cowboys,Washington,home,41.0,177.0,182.0,359.0,1.0,0,1.0
+401220118,NFL,2020,2020-11-29,Los Angeles Chargers,Buffalo Bills,away,27.0,177.0,172.0,349.0,1.0,2.0,3.0
+401220118,NFL,2020,2020-11-29,Buffalo Bills,Los Angeles Chargers,home,17.0,316.0,76.0,392.0,1.0,0,1.0
+401220135,NFL,2020,2020-11-29,Arizona Cardinals,New England Patriots,away,20.0,84.0,110.0,194.0,2.0,0,2.0
+401220135,NFL,2020,2020-11-29,New England Patriots,Arizona Cardinals,home,17.0,170.0,138.0,308.0,1.0,0,1.0
+401220139,NFL,2020,2020-11-29,Miami Dolphins,New York Jets,away,3.0,197.0,87.0,284.0,2.0,0,2.0
+401220139,NFL,2020,2020-11-29,New York Jets,Miami Dolphins,home,20.0,257.0,104.0,361.0,0,2.0,2.0
+401220160,NFL,2020,2020-11-29,New York Giants,Cincinnati Bengals,away,17.0,136.0,40.0,176.0,1.0,2.0,3.0
+401220160,NFL,2020,2020-11-29,Cincinnati Bengals,New York Giants,home,19.0,244.0,142.0,386.0,0,1.0,1.0
+401220188,NFL,2020,2020-11-29,Tennessee Titans,Indianapolis Colts,away,26.0,295.0,56.0,351.0,1.0,0,1.0
+401220188,NFL,2020,2020-11-29,Indianapolis Colts,Tennessee Titans,home,45.0,221.0,229.0,450.0,0,0,0
+401220197,NFL,2020,2020-11-29,Cleveland Browns,Jacksonville Jaguars,away,25.0,235.0,140.0,375.0,0,0,0
+401220197,NFL,2020,2020-11-29,Jacksonville Jaguars,Cleveland Browns,home,27.0,258.0,207.0,465.0,0,1.0,1.0
+401220302,NFL,2020,2020-11-29,Carolina Panthers,Minnesota Vikings,away,28.0,307.0,96.0,403.0,0,3.0,3.0
+401220302,NFL,2020,2020-11-29,Minnesota Vikings,Carolina Panthers,home,27.0,267.0,107.0,374.0,1.0,0,1.0
+401220312,NFL,2020,2020-11-29,Las Vegas Raiders,Atlanta Falcons,away,43.0,185.0,125.0,310.0,1.0,0,1.0
+401220312,NFL,2020,2020-11-29,Atlanta Falcons,Las Vegas Raiders,home,6.0,240.0,40.0,280.0,1.0,4.0,5.0
+401220215,NFL,2020,2020-11-29,New Orleans Saints,Denver Broncos,away,3.0,13.0,100.0,113.0,2.0,1.0,3.0
+401220215,NFL,2020,2020-11-29,Denver Broncos,New Orleans Saints,home,31.0,78.0,229.0,307.0,1.0,0,1.0
+401220345,NFL,2020,2020-11-29,San Francisco 49ers,Los Angeles Rams,away,20.0,198.0,126.0,324.0,2.0,2.0,4.0
+401220345,NFL,2020,2020-11-29,Los Angeles Rams,San Francisco 49ers,home,23.0,252.0,112.0,364.0,1.0,2.0,3.0
+401220333,NFL,2020,2020-11-29,Kansas City Chiefs,Tampa Bay Buccaneers,away,24.0,345.0,75.0,420.0,2.0,0,2.0
+401220333,NFL,2020,2020-11-29,Tampa Bay Buccaneers,Kansas City Chiefs,home,27.0,462.0,87.0,549.0,0,1.0,1.0
+401220290,NFL,2020,2020-11-30,Chicago Bears,Green Bay Packers,away,41.0,211.0,182.0,393.0,0,0,0
+401220290,NFL,2020,2020-11-30,Green Bay Packers,Chicago Bears,home,25.0,242.0,121.0,363.0,2.0,1.0,3.0
+401220262,NFL,2020,2020-12-01,Seattle Seahawks,Philadelphia Eagles,away,17.0,221.0,70.0,291.0,1.0,0,1.0
+401220262,NFL,2020,2020-12-01,Philadelphia Eagles,Seattle Seahawks,home,23.0,230.0,76.0,306.0,0,0,0
+401220170,NFL,2020,2020-12-02,Baltimore Ravens,Pittsburgh Steelers,away,19.0,266.0,68.0,334.0,1.0,1.0,2.0
+401220170,NFL,2020,2020-12-02,Pittsburgh Steelers,Baltimore Ravens,home,14.0,110.0,129.0,239.0,1.0,1.0,2.0
+401220129,NFL,2020,2020-12-06,Cincinnati Bengals,Miami Dolphins,away,19.0,296.0,110.0,406.0,0,1.0,1.0
+401220129,NFL,2020,2020-12-06,Miami Dolphins,Cincinnati Bengals,home,7.0,193.0,40.0,233.0,2.0,0,2.0
+401220142,NFL,2020,2020-12-06,Las Vegas Raiders,New York Jets,away,28.0,186.0,206.0,392.0,1.0,2.0,3.0
+401220142,NFL,2020,2020-12-06,New York Jets,Las Vegas Raiders,home,31.0,381.0,72.0,453.0,1.0,1.0,2.0
+401220178,NFL,2020,2020-12-06,Indianapolis Colts,Houston Texans,away,20.0,341.0,90.0,431.0,1.0,1.0,2.0
+401220178,NFL,2020,2020-12-06,Houston Texans,Indianapolis Colts,home,26.0,285.0,109.0,394.0,0,0,0
+401220205,NFL,2020,2020-12-06,Cleveland Browns,Tennessee Titans,away,35.0,389.0,62.0,451.0,1.0,2.0,3.0
+401220205,NFL,2020,2020-12-06,Tennessee Titans,Cleveland Browns,home,41.0,340.0,118.0,458.0,0,1.0,1.0
+401220274,NFL,2020,2020-12-06,Detroit Lions,Chicago Bears,away,30.0,267.0,140.0,407.0,0,1.0,1.0
+401220274,NFL,2020,2020-12-06,Chicago Bears,Detroit Lions,home,34.0,402.0,60.0,462.0,1.0,0,1.0
+401220303,NFL,2020,2020-12-06,Jacksonville Jaguars,Minnesota Vikings,away,27.0,305.0,145.0,450.0,1.0,1.0,2.0
+401220303,NFL,2020,2020-12-06,Minnesota Vikings,Jacksonville Jaguars,home,24.0,280.0,124.0,404.0,2.0,2.0,4.0
+401220307,NFL,2020,2020-12-06,New Orleans Saints,Atlanta Falcons,away,16.0,273.0,70.0,343.0,0,1.0,1.0
+401220307,NFL,2020,2020-12-06,Atlanta Falcons,New Orleans Saints,home,21.0,232.0,207.0,439.0,0,1.0,1.0
+401220336,NFL,2020,2020-12-06,Los Angeles Rams,Arizona Cardinals,away,28.0,173.0,92.0,265.0,1.0,1.0,2.0
+401220336,NFL,2020,2020-12-06,Arizona Cardinals,Los Angeles Rams,home,38.0,351.0,119.0,470.0,0,1.0,1.0
+401220364,NFL,2020,2020-12-06,New York Giants,Seattle Seahawks,away,12.0,263.0,111.0,374.0,1.0,1.0,2.0
+401220364,NFL,2020,2020-12-06,Seattle Seahawks,New York Giants,home,17.0,105.0,190.0,295.0,1.0,0,1.0
+401220237,NFL,2020,2020-12-06,New England Patriots,Los Angeles Chargers,away,0.0,209.0,70.0,279.0,2.0,0,2.0
+401220237,NFL,2020,2020-12-06,Los Angeles Chargers,New England Patriots,home,45.0,130.0,165.0,295.0,0,0,0
+401220297,NFL,2020,2020-12-06,Philadelphia Eagles,Green Bay Packers,away,30.0,295.0,149.0,444.0,0,0,0
+401220297,NFL,2020,2020-12-06,Green Bay Packers,Philadelphia Eagles,home,16.0,188.0,117.0,305.0,1.0,0,1.0
+401220218,NFL,2020,2020-12-07,Denver Broncos,Kansas City Chiefs,away,22.0,318.0,134.0,452.0,0,0,0
+401220218,NFL,2020,2020-12-07,Kansas City Chiefs,Denver Broncos,home,16.0,151.0,179.0,330.0,2.0,0,2.0
+401220176,NFL,2020,2020-12-07,Washington,Pittsburgh Steelers,away,17.0,305.0,21.0,326.0,1.0,0,1.0
+401220176,NFL,2020,2020-12-07,Pittsburgh Steelers,Washington,home,23.0,296.0,45.0,341.0,0,0,0
+401220357,NFL,2020,2020-12-08,Buffalo Bills,San Francisco 49ers,away,24.0,316.0,86.0,402.0,2.0,0,2.0
+401220357,NFL,2020,2020-12-08,San Francisco 49ers,Buffalo Bills,home,34.0,375.0,81.0,456.0,0,1.0,1.0
+401220151,NFL,2020,2020-12-09,Dallas Cowboys,Baltimore Ravens,away,34.0,107.0,294.0,401.0,1.0,0,1.0
+401220151,NFL,2020,2020-12-09,Baltimore Ravens,Dallas Cowboys,home,17.0,285.0,111.0,396.0,1.0,0,1.0
+401220349,NFL,2020,2020-12-11,New England Patriots,Los Angeles Rams,away,24.0,137.0,186.0,323.0,1.0,0,1.0
+401220349,NFL,2020,2020-12-11,Los Angeles Rams,New England Patriots,home,3.0,146.0,107.0,253.0,1.0,0,1.0
+401220125,NFL,2020,2020-12-13,Kansas City Chiefs,Miami Dolphins,away,27.0,316.0,80.0,396.0,1.0,0,1.0
+401220125,NFL,2020,2020-12-13,Miami Dolphins,Kansas City Chiefs,home,33.0,393.0,94.0,487.0,3.0,1.0,4.0
+401220159,NFL,2020,2020-12-13,Dallas Cowboys,Cincinnati Bengals,away,7.0,222.0,101.0,323.0,0,3.0,3.0
+401220159,NFL,2020,2020-12-13,Cincinnati Bengals,Dallas Cowboys,home,30.0,185.0,101.0,286.0,0,0,0
+401220196,NFL,2020,2020-12-13,Tennessee Titans,Jacksonville Jaguars,away,10.0,263.0,91.0,354.0,1.0,0,1.0
+401220196,NFL,2020,2020-12-13,Jacksonville Jaguars,Tennessee Titans,home,31.0,212.0,249.0,461.0,0,1.0,1.0
+401220253,NFL,2020,2020-12-13,Arizona Cardinals,New York Giants,away,7.0,145.0,78.0,223.0,0,3.0,3.0
+401220253,NFL,2020,2020-12-13,New York Giants,Arizona Cardinals,home,26.0,244.0,159.0,403.0,0,0,0
+401220279,NFL,2020,2020-12-13,Houston Texans,Chicago Bears,away,36.0,267.0,169.0,436.0,0,0,0
+401220279,NFL,2020,2020-12-13,Chicago Bears,Houston Texans,home,7.0,219.0,108.0,327.0,0,2.0,2.0
+401220319,NFL,2020,2020-12-13,Denver Broncos,Carolina Panthers,away,27.0,283.0,125.0,408.0,0,0,0
+401220319,NFL,2020,2020-12-13,Carolina Panthers,Denver Broncos,home,32.0,280.0,96.0,376.0,0,1.0,1.0
+401220332,NFL,2020,2020-12-13,Minnesota Vikings,Tampa Bay Buccaneers,away,26.0,196.0,107.0,303.0,0,0,0
+401220332,NFL,2020,2020-12-13,Tampa Bay Buccaneers,Minnesota Vikings,home,14.0,225.0,162.0,387.0,0,1.0,1.0
+401220233,NFL,2020,2020-12-13,Indianapolis Colts,Las Vegas Raiders,away,27.0,345.0,79.0,424.0,2.0,1.0,3.0
+401220233,NFL,2020,2020-12-13,Las Vegas Raiders,Indianapolis Colts,home,44.0,244.0,212.0,456.0,0,0,0
+401220366,NFL,2020,2020-12-13,New York Jets,Seattle Seahawks,away,40.0,239.0,174.0,413.0,1.0,0,1.0
+401220366,NFL,2020,2020-12-13,Seattle Seahawks,New York Jets,home,3.0,132.0,69.0,201.0,0,1.0,1.0
+401220239,NFL,2020,2020-12-13,Atlanta Falcons,Los Angeles Chargers,away,20.0,243.0,105.0,348.0,1.0,0,1.0
+401220239,NFL,2020,2020-12-13,Los Angeles Chargers,Atlanta Falcons,home,17.0,263.0,70.0,333.0,3.0,0,3.0
+401220265,NFL,2020,2020-12-13,New Orleans Saints,Philadelphia Eagles,away,24.0,167.0,246.0,413.0,0,1.0,1.0
+401220265,NFL,2020,2020-12-13,Philadelphia Eagles,New Orleans Saints,home,21.0,291.0,96.0,387.0,1.0,1.0,2.0
+401220283,NFL,2020,2020-12-13,Green Bay Packers,Detroit Lions,away,24.0,273.0,51.0,324.0,0,0,0
+401220283,NFL,2020,2020-12-13,Detroit Lions,Green Bay Packers,home,31.0,290.0,120.0,410.0,0,0,0
+401220356,NFL,2020,2020-12-13,Washington,San Francisco 49ers,away,15.0,260.0,108.0,368.0,1.0,2.0,3.0
+401220356,NFL,2020,2020-12-13,San Francisco 49ers,Washington,home,23.0,108.0,98.0,206.0,1.0,0,1.0
+401220121,NFL,2020,2020-12-14,Pittsburgh Steelers,Buffalo Bills,away,26.0,238.0,104.0,342.0,1.0,1.0,2.0
+401220121,NFL,2020,2020-12-14,Buffalo Bills,Pittsburgh Steelers,home,15.0,187.0,47.0,234.0,2.0,0,2.0
+401220162,NFL,2020,2020-12-15,Baltimore Ravens,Cleveland Browns,away,42.0,355.0,138.0,493.0,1.0,0,1.0
+401220162,NFL,2020,2020-12-15,Cleveland Browns,Baltimore Ravens,home,47.0,176.0,231.0,407.0,0,0,0
+401220228,NFL,2020,2020-12-18,Los Angeles Chargers,Las Vegas Raiders,away,27.0,279.0,173.0,452.0,1.0,0,1.0
+401220228,NFL,2020,2020-12-18,Las Vegas Raiders,Los Angeles Chargers,home,30.0,314.0,96.0,410.0,0,0,0
+401220213,NFL,2020,2020-12-19,Buffalo Bills,Denver Broncos,away,19.0,132.0,140.0,272.0,0,1.0,1.0
+401220213,NFL,2020,2020-12-19,Denver Broncos,Buffalo Bills,home,48.0,359.0,182.0,541.0,0,1.0,1.0
+401220294,NFL,2020,2020-12-20,Carolina Panthers,Green Bay Packers,away,24.0,143.0,195.0,338.0,0,0,0
+401220294,NFL,2020,2020-12-20,Green Bay Packers,Carolina Panthers,home,16.0,258.0,115.0,373.0,0,1.0,1.0
+401220123,NFL,2020,2020-12-20,New England Patriots,Miami Dolphins,away,22.0,145.0,250.0,395.0,1.0,0,1.0
+401220123,NFL,2020,2020-12-20,Miami Dolphins,New England Patriots,home,12.0,209.0,117.0,326.0,0,1.0,1.0
+401220149,NFL,2020,2020-12-20,Jacksonville Jaguars,Baltimore Ravens,away,40.0,250.0,159.0,409.0,1.0,0,1.0
+401220149,NFL,2020,2020-12-20,Baltimore Ravens,Jacksonville Jaguars,home,14.0,226.0,62.0,288.0,0,1.0,1.0
+401220186,NFL,2020,2020-12-20,Houston Texans,Indianapolis Colts,away,27.0,228.0,127.0,355.0,0,0,0
+401220186,NFL,2020,2020-12-20,Indianapolis Colts,Houston Texans,home,20.0,373.0,83.0,456.0,0,2.0,2.0
+401220208,NFL,2020,2020-12-20,Detroit Lions,Tennessee Titans,away,46.0,273.0,195.0,468.0,0,0,0
+401220208,NFL,2020,2020-12-20,Tennessee Titans,Detroit Lions,home,25.0,307.0,123.0,430.0,1.0,2.0,3.0
+401220246,NFL,2020,2020-12-20,San Francisco 49ers,Dallas Cowboys,away,41.0,221.0,87.0,308.0,0,0,0
+401220246,NFL,2020,2020-12-20,Dallas Cowboys,San Francisco 49ers,home,33.0,319.0,150.0,469.0,2.0,2.0,4.0
+401220270,NFL,2020,2020-12-20,Seattle Seahawks,Washington,away,15.0,295.0,84.0,379.0,2.0,0,2.0
+401220270,NFL,2020,2020-12-20,Washington,Seattle Seahawks,home,20.0,121.0,181.0,302.0,1.0,0,1.0
+401220298,NFL,2020,2020-12-20,Chicago Bears,Minnesota Vikings,away,27.0,271.0,158.0,429.0,1.0,0,1.0
+401220298,NFL,2020,2020-12-20,Minnesota Vikings,Chicago Bears,home,33.0,202.0,199.0,401.0,1.0,0,1.0
+401220308,NFL,2020,2020-12-20,Tampa Bay Buccaneers,Atlanta Falcons,away,27.0,356.0,37.0,393.0,0,0,0
+401220308,NFL,2020,2020-12-20,Atlanta Falcons,Tampa Bay Buccaneers,home,31.0,390.0,51.0,441.0,0,0,0
+401220339,NFL,2020,2020-12-20,Philadelphia Eagles,Arizona Cardinals,away,33.0,432.0,103.0,535.0,1.0,2.0,3.0
+401220339,NFL,2020,2020-12-20,Arizona Cardinals,Philadelphia Eagles,home,26.0,338.0,117.0,455.0,0,0,0
+401220350,NFL,2020,2020-12-20,New York Jets,Los Angeles Rams,away,20.0,209.0,114.0,323.0,1.0,0,1.0
+401220350,NFL,2020,2020-12-20,Los Angeles Rams,New York Jets,home,23.0,207.0,93.0,300.0,0,0,0
+401220325,NFL,2020,2020-12-20,Kansas City Chiefs,New Orleans Saints,away,29.0,234.0,60.0,294.0,1.0,0,1.0
+401220325,NFL,2020,2020-12-20,New Orleans Saints,Kansas City Chiefs,home,32.0,254.0,179.0,433.0,0,1.0,1.0
+401220255,NFL,2020,2020-12-21,Cleveland Browns,New York Giants,away,6.0,221.0,74.0,295.0,0,0,0
+401220255,NFL,2020,2020-12-21,New York Giants,Cleveland Browns,home,20.0,297.0,106.0,403.0,0,0,0
+401220156,NFL,2020,2020-12-22,Pittsburgh Steelers,Cincinnati Bengals,away,27.0,89.0,152.0,241.0,0,0,0
+401220156,NFL,2020,2020-12-22,Cincinnati Bengals,Pittsburgh Steelers,home,17.0,170.0,86.0,256.0,1.0,2.0,3.0
+401220324,NFL,2020,2020-12-25,Minnesota Vikings,New Orleans Saints,away,52.0,319.0,264.0,583.0,2.0,0,2.0
+401220324,NFL,2020,2020-12-25,New Orleans Saints,Minnesota Vikings,home,33.0,291.0,90.0,381.0,0,0,0
+401220286,NFL,2020,2020-12-26,Tampa Bay Buccaneers,Detroit Lions,away,7.0,152.0,73.0,225.0,1.0,1.0,2.0
+401220286,NFL,2020,2020-12-26,Detroit Lions,Tampa Bay Buccaneers,home,47.0,491.0,111.0,602.0,0,0,0
+401220337,NFL,2020,2020-12-26,San Francisco 49ers,Arizona Cardinals,away,12.0,247.0,120.0,367.0,1.0,1.0,2.0
+401220337,NFL,2020,2020-12-26,Arizona Cardinals,San Francisco 49ers,home,20.0,182.0,227.0,409.0,0,1.0,1.0
+401220230,NFL,2020,2020-12-27,Miami Dolphins,Las Vegas Raiders,away,25.0,336.0,104.0,440.0,0,1.0,1.0
+401220230,NFL,2020,2020-12-27,Las Vegas Raiders,Miami Dolphins,home,26.0,276.0,130.0,406.0,0,0,0
+401220145,NFL,2020,2020-12-27,Cleveland Browns,New York Jets,away,23.0,218.0,131.0,349.0,0,0,0
+401220145,NFL,2020,2020-12-27,New York Jets,Cleveland Browns,home,16.0,285.0,45.0,330.0,0,2.0,2.0
+401220152,NFL,2020,2020-12-27,New York Giants,Baltimore Ravens,away,27.0,183.0,249.0,432.0,0,1.0,1.0
+401220152,NFL,2020,2020-12-27,Baltimore Ravens,New York Giants,home,13.0,252.0,54.0,306.0,0,0,0
+401220174,NFL,2020,2020-12-27,Indianapolis Colts,Pittsburgh Steelers,away,28.0,341.0,22.0,363.0,0,0,0
+401220174,NFL,2020,2020-12-27,Pittsburgh Steelers,Indianapolis Colts,home,24.0,270.0,127.0,397.0,1.0,1.0,2.0
+401220182,NFL,2020,2020-12-27,Cincinnati Bengals,Houston Texans,away,31.0,324.0,166.0,490.0,0,1.0,1.0
+401220182,NFL,2020,2020-12-27,Houston Texans,Cincinnati Bengals,home,37.0,371.0,169.0,540.0,0,0,0
+401220199,NFL,2020,2020-12-27,Chicago Bears,Jacksonville Jaguars,away,17.0,211.0,76.0,287.0,2.0,0,2.0
+401220199,NFL,2020,2020-12-27,Jacksonville Jaguars,Chicago Bears,home,41.0,265.0,128.0,393.0,1.0,0,1.0
+401220223,NFL,2020,2020-12-27,Atlanta Falcons,Kansas City Chiefs,away,17.0,278.0,117.0,395.0,2.0,0,2.0
+401220223,NFL,2020,2020-12-27,Kansas City Chiefs,Atlanta Falcons,home,14.0,300.0,90.0,390.0,0,1.0,1.0
+401220234,NFL,2020,2020-12-27,Denver Broncos,Los Angeles Chargers,away,19.0,253.0,89.0,342.0,0,0,0
+401220234,NFL,2020,2020-12-27,Los Angeles Chargers,Denver Broncos,home,16.0,264.0,133.0,397.0,2.0,0,2.0
+401220273,NFL,2020,2020-12-27,Carolina Panthers,Washington,away,13.0,291.0,108.0,399.0,2.0,2.0,4.0
+401220273,NFL,2020,2020-12-27,Washington,Carolina Panthers,home,20.0,197.0,113.0,310.0,1.0,1.0,2.0
+401220243,NFL,2020,2020-12-27,Philadelphia Eagles,Dallas Cowboys,away,37.0,377.0,151.0,528.0,1.0,0,1.0
+401220243,NFL,2020,2020-12-27,Dallas Cowboys,Philadelphia Eagles,home,17.0,342.0,151.0,493.0,2.0,1.0,3.0
+401220362,NFL,2020,2020-12-27,Los Angeles Rams,Seattle Seahawks,away,20.0,225.0,95.0,320.0,0,0,0
+401220362,NFL,2020,2020-12-27,Seattle Seahawks,Los Angeles Rams,home,9.0,234.0,118.0,352.0,1.0,0,1.0
+401220296,NFL,2020,2020-12-28,Tennessee Titans,Green Bay Packers,away,40.0,231.0,234.0,465.0,1.0,0,1.0
+401220296,NFL,2020,2020-12-28,Green Bay Packers,Tennessee Titans,home,14.0,121.0,156.0,277.0,2.0,0,2.0
+401220130,NFL,2020,2020-12-29,Buffalo Bills,New England Patriots,away,9.0,78.0,145.0,223.0,0,0,0
+401220130,NFL,2020,2020-12-29,New England Patriots,Buffalo Bills,home,38.0,344.0,130.0,474.0,0,0,0
+401220114,NFL,2020,2021-01-03,Miami Dolphins,Buffalo Bills,away,56.0,388.0,78.0,466.0,2.0,0,2.0
+401220114,NFL,2020,2021-01-03,Buffalo Bills,Miami Dolphins,home,26.0,393.0,70.0,463.0,3.0,1.0,4.0
+401220132,NFL,2020,2021-01-03,New York Jets,New England Patriots,away,28.0,261.0,166.0,427.0,0,0,0
+401220132,NFL,2020,2021-01-03,New England Patriots,New York Jets,home,14.0,266.0,111.0,377.0,2.0,0,2.0
+401220154,NFL,2020,2021-01-03,Baltimore Ravens,Cincinnati Bengals,away,3.0,48.0,147.0,195.0,2.0,0,2.0
+401220154,NFL,2020,2021-01-03,Cincinnati Bengals,Baltimore Ravens,home,38.0,121.0,404.0,525.0,1.0,0,1.0
+401220164,NFL,2020,2021-01-03,Pittsburgh Steelers,Cleveland Browns,away,24.0,196.0,192.0,388.0,0,0,0
+401220164,NFL,2020,2021-01-03,Cleveland Browns,Pittsburgh Steelers,home,22.0,317.0,85.0,402.0,1.0,0,1.0
+401220250,NFL,2020,2021-01-03,Dallas Cowboys,New York Giants,away,23.0,229.0,125.0,354.0,1.0,1.0,2.0
+401220250,NFL,2020,2021-01-03,New York Giants,Dallas Cowboys,home,19.0,243.0,108.0,351.0,1.0,0,1.0
+401220284,NFL,2020,2021-01-03,Minnesota Vikings,Detroit Lions,away,35.0,293.0,129.0,422.0,1.0,1.0,2.0
+401220284,NFL,2020,2021-01-03,Detroit Lions,Minnesota Vikings,home,37.0,405.0,125.0,530.0,0,0,0
+401220328,NFL,2020,2021-01-03,Atlanta Falcons,Tampa Bay Buccaneers,away,44.0,399.0,94.0,493.0,1.0,0,1.0
+401220328,NFL,2020,2021-01-03,Tampa Bay Buccaneers,Atlanta Falcons,home,27.0,265.0,127.0,392.0,0,2.0,2.0
+401220180,NFL,2020,2021-01-03,Tennessee Titans,Houston Texans,away,38.0,385.0,96.0,481.0,1.0,0,1.0
+401220180,NFL,2020,2021-01-03,Houston Texans,Tennessee Titans,home,41.0,216.0,288.0,504.0,0,1.0,1.0
+401220187,NFL,2020,2021-01-03,Jacksonville Jaguars,Indianapolis Colts,away,28.0,164.0,273.0,437.0,1.0,0,1.0
+401220187,NFL,2020,2021-01-03,Indianapolis Colts,Jacksonville Jaguars,home,14.0,261.0,53.0,314.0,0,1.0,1.0
+401220211,NFL,2020,2021-01-03,Las Vegas Raiders,Denver Broncos,away,31.0,339.0,122.0,461.0,0,0,0
+401220211,NFL,2020,2021-01-03,Denver Broncos,Las Vegas Raiders,home,32.0,371.0,106.0,477.0,2.0,2.0,4.0
+401220220,NFL,2020,2021-01-03,Los Angeles Chargers,Kansas City Chiefs,away,21.0,218.0,51.0,269.0,0,1.0,1.0
+401220220,NFL,2020,2021-01-03,Kansas City Chiefs,Los Angeles Chargers,home,38.0,302.0,135.0,437.0,0,0,0
+401220275,NFL,2020,2021-01-03,Green Bay Packers,Chicago Bears,away,16.0,252.0,108.0,360.0,1.0,1.0,2.0
+401220275,NFL,2020,2021-01-03,Chicago Bears,Green Bay Packers,home,35.0,240.0,79.0,319.0,0,1.0,1.0
+401220315,NFL,2020,2021-01-03,New Orleans Saints,Carolina Panthers,away,7.0,271.0,74.0,345.0,5.0,0,5.0
+401220315,NFL,2020,2021-01-03,Carolina Panthers,New Orleans Saints,home,33.0,201.0,156.0,357.0,0,0,0
+401220344,NFL,2020,2021-01-03,Arizona Cardinals,Los Angeles Rams,away,18.0,231.0,110.0,341.0,1.0,1.0,2.0
+401220344,NFL,2020,2021-01-03,Los Angeles Rams,Arizona Cardinals,home,7.0,192.0,48.0,240.0,1.0,0,1.0
+401220354,NFL,2020,2021-01-03,Seattle Seahawks,San Francisco 49ers,away,23.0,273.0,86.0,359.0,0,1.0,1.0
+401220354,NFL,2020,2021-01-03,San Francisco 49ers,Seattle Seahawks,home,26.0,181.0,121.0,302.0,0,0,0
+401220260,NFL,2020,2021-01-04,Washington,Philadelphia Eagles,away,14.0,119.0,118.0,237.0,2.0,1.0,3.0
+401220260,NFL,2020,2021-01-04,Philadelphia Eagles,Washington,home,20.0,162.0,103.0,265.0,2.0,0,2.0
+401220393,NFL,2020,2021-01-09,Indianapolis Colts,Buffalo Bills,away,27.0,324.0,96.0,420.0,0,0,0
+401220393,NFL,2020,2021-01-09,Buffalo Bills,Indianapolis Colts,home,24.0,309.0,163.0,472.0,0,0,0
+401220372,NFL,2020,2021-01-09,Los Angeles Rams,Seattle Seahawks,away,20.0,174.0,136.0,310.0,1.0,1.0,2.0
+401220372,NFL,2020,2021-01-09,Seattle Seahawks,Los Angeles Rams,home,30.0,184.0,164.0,348.0,0,0,0
+401220371,NFL,2020,2021-01-10,Tampa Bay Buccaneers,Washington,away,23.0,306.0,86.0,392.0,1.0,0,1.0
+401220371,NFL,2020,2021-01-10,Washington,Tampa Bay Buccaneers,home,31.0,381.0,142.0,523.0,0,1.0,1.0
+401220396,NFL,2020,2021-01-10,Baltimore Ravens,Tennessee Titans,away,13.0,165.0,51.0,216.0,1.0,0,1.0
+401220396,NFL,2020,2021-01-10,Tennessee Titans,Baltimore Ravens,home,20.0,179.0,236.0,415.0,1.0,0,1.0
+401220395,NFL,2020,2021-01-10,Chicago Bears,New Orleans Saints,away,21.0,265.0,123.0,388.0,0,1.0,1.0
+401220395,NFL,2020,2021-01-10,New Orleans Saints,Chicago Bears,home,9.0,199.0,48.0,247.0,0,0,0
+401220394,NFL,2020,2021-01-11,Cleveland Browns,Pittsburgh Steelers,away,37.0,501.0,52.0,553.0,4.0,1.0,5.0
+401220394,NFL,2020,2021-01-11,Pittsburgh Steelers,Cleveland Browns,home,48.0,263.0,127.0,390.0,0,0,0
+401220398,NFL,2020,2021-01-16,Los Angeles Rams,Green Bay Packers,away,32.0,296.0,188.0,484.0,0,0,0
+401220398,NFL,2020,2021-01-16,Green Bay Packers,Los Angeles Rams,home,18.0,174.0,96.0,270.0,0,0,0
+401220397,NFL,2020,2021-01-17,Baltimore Ravens,Buffalo Bills,away,17.0,206.0,32.0,238.0,0,0,0
+401220397,NFL,2020,2021-01-17,Buffalo Bills,Baltimore Ravens,home,3.0,222.0,150.0,372.0,1.0,0,1.0
+401220400,NFL,2020,2021-01-17,Cleveland Browns,Kansas City Chiefs,away,22.0,321.0,123.0,444.0,1.0,0,1.0
+401220400,NFL,2020,2021-01-17,Kansas City Chiefs,Cleveland Browns,home,17.0,204.0,112.0,316.0,1.0,1.0,2.0
+401220399,NFL,2020,2021-01-17,Tampa Bay Buccaneers,New Orleans Saints,away,20.0,190.0,104.0,294.0,3.0,1.0,4.0
+401220399,NFL,2020,2021-01-17,New Orleans Saints,Tampa Bay Buccaneers,home,30.0,199.0,127.0,326.0,0,0,0
+401220402,NFL,2020,2021-01-24,Tampa Bay Buccaneers,Green Bay Packers,away,26.0,346.0,67.0,413.0,1.0,1.0,2.0
+401220402,NFL,2020,2021-01-24,Green Bay Packers,Tampa Bay Buccaneers,home,31.0,280.0,76.0,356.0,3.0,0,3.0
+401220401,NFL,2020,2021-01-24,Buffalo Bills,Kansas City Chiefs,away,38.0,325.0,114.0,439.0,0,1.0,1.0
+401220401,NFL,2020,2021-01-24,Kansas City Chiefs,Buffalo Bills,home,24.0,287.0,129.0,416.0,1.0,0,1.0
+401220403,NFL,2020,2021-02-07,Kansas City Chiefs,Tampa Bay Buccaneers,away,31.0,201.0,145.0,346.0,0,0,0
+401220403,NFL,2020,2021-02-07,Tampa Bay Buccaneers,Kansas City Chiefs,home,9.0,270.0,107.0,377.0,2.0,0,2.0

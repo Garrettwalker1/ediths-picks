@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-03T21:58:00Z",
+  "updated_at": "2026-09-04T08:34:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
@@ -65,8 +65,8 @@
       "stake_usd": 10.0,
       "potential_payout_usd": 21.9,
       "potential_profit_usd": 11.9,
-      "result": "pending",
-      "status": "open",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided FanDuel bet slip screenshot",
       "model_at_placement": {
         "available": false,
@@ -85,9 +85,11 @@
       },
       "grading": {
         "source": "official final score",
-        "graded_at": null,
-        "net_units": null,
-        "net_usd": null
+        "final_score": "Colorado 14, Georgia Tech 13",
+        "graded_at": "2026-09-04T08:34:00Z",
+        "net_units": -2.0,
+        "net_usd": -10.0,
+        "source_note": "Official result via ESPN.com game recap and AP report (Colorado 14-13, final; CU go-ahead TD with 0:42 left). The site.api.espn.com feed for event 401856776 is stuck at \"In Progress\" 10-7 2Q - an ESPN API-side defect, retried multiple times over 6+ hours."
       }
     }
   ]

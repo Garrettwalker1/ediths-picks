@@ -9,6 +9,10 @@ Rebuild root `player_projections.json` for the dashboard's Player projections ta
 - root `fantasy.json` (input, produced by the separate fantasy sync)
 - root `player_projections.json` (atomic output)
 
+## v2 pregame-prior builder (current, Week 1 2026)
+
+`tools/1-build_player_pregame_priors.py` produced `player_projections.json` model_version `player-pregame-prior-v2.0.0-w1-2026` (frozen 2026-09-03 before any Week 1 kickoff). Differences from the weekly generator above: the universe is rebuilt from the anytime-TD market board plus carryover priors and fantasy-rostered additions; joining is exact on normalized names with market spellings adopted for suffix collisions (never loosened); players without enough history carry an explicit `eligibility_reason` instead of a null; QB anytime-TD probability is a rushing-TD logit on red-zone/goal-line carry shares from play-by-play. Validation is on locked 2025 holdouts only (passing yards test MAE 67.02, median bias +2.79, n=527; QB rush-TD Brier 0.1059 vs 0.1394 naive). Book lines never adjust these numbers.
+
 ## Public inputs
 The generator downloads and caches these exact nflverse assets under `tools/player_projection_cache/`:
 - 2023-25 weekly player stats: `https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_YEAR.csv`

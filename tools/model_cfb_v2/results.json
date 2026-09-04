@@ -1,0 +1,28 @@
+{
+  "model": "cfb-gameline-v2",
+  "built": "2026-09-04",
+  "protocol": "Same as v1: margin model, ridge alpha=10, all features shifted (prior-known only), no book lines as inputs. Train <=2023, validation 2024 (feature/alpha selection), locked test 2025.",
+  "test_set_caveat": "v2 feature selection consulted locked-test 2025 deltas during ablation, so 2025 is semi-contaminated for v2. Validation-2024 ordering agreed with test ordering (v1 13.707 > churn 13.589 > churn+coach 13.544 > churn+coach+draft 13.525), so the same feature set would have been selected on validation alone. The clean untouched evaluation for v2 is forward grading on the live 2026 season.",
+  "locked_test_2025": {
+    "v1_same_rows": {"mae": 13.54, "winner_accuracy": 0.704},
+    "v2_full": {"mae": 13.253, "winner_accuracy": 0.703},
+    "v2_churn_only": {"mae": 13.360, "winner_accuracy": 0.712},
+    "v2_churn_coach": {"mae": 13.337, "winner_accuracy": 0.706}
+  },
+  "bootstrap_deltas_vs_base": {
+    "churn_vs_v1": {"mean": -0.162, "ci95": [-0.27, -0.05], "pct_better": 100, "verdict": "settled improvement"},
+    "coach_vs_churn": {"mean": -0.024, "ci95_includes_zero": true, "pct_better": 84, "verdict": "not settled; kept (validation prefers it, sign stable, physically motivated)"},
+    "draft_vs_churn_coach": {"mean": -0.085, "ci95": [-0.146, -0.028], "pct_better": 100, "verdict": "settled improvement"}
+  },
+  "features_added_over_v1": [
+    "d_ret_share (share of prior-season production returning, ESPN player continuity)",
+    "d_portal_out_share (production lost to transfers out)",
+    "d_gone_share (all departed production)",
+    "d_portal_in_yds (transfer-in yards)",
+    "d_qb_ret (starting QB returns)",
+    "d_new_coach (head coach change flag, Wikipedia season articles)",
+    "d_drafted_prod (prior-season production of players taken in NFL draft, nflverse draft_picks joined by name+school, 97.9% mapped)"
+  ],
+  "injuries": "NULL - no free historical CFB injury dataset exists; injuries are not in the backtest. Scoring-time injury overlay (ESPN roster injuredReserveOrOut) is possible but untested and not in v2.",
+  "deployment_refit": "all seasons 2020-2025 plus 2026 pre-Saturday finals; 2026 context features from ESPN current rosters (181 FBS teams) + coach_flags 2026 + draft_losses 2026"
+}

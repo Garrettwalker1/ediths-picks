@@ -16,7 +16,7 @@ def main(days_dir, tracker_path, box_dir):
     if os.path.exists(tracker_path):
         old = json.load(open(tracker_path))
         games = {g['event_id']: g for g in old.get('games', [])}
-    had_box = {f[:-5] for f in os.listdir(box_dir)} if os.path.isdir(box_dir) else set()
+    had_box = {f[:-5].split('-', 1)[-1] for f in os.listdir(box_dir) if f.endswith('.json')} if os.path.isdir(box_dir) else set()
     for fn in sorted(os.listdir(days_dir)):
         if not fn.endswith('.json'): continue
         try: d = json.load(open(os.path.join(days_dir, fn)))

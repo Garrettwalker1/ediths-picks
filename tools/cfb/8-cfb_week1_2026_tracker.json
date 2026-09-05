@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 1,
- "built_at": "2026-09-05T12:19:25Z",
+ "built_at": "2026-09-05T18:16:27Z",
  "purpose": "Track every FBS college football game from 2026 Week 1 (season started 2026-09-03) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-08-29..2026-09-08",
@@ -12,9 +12,9 @@
  "coverage": {
   "games": 99,
   "final": 27,
-  "in_progress": 0,
-  "scheduled": 72,
-  "boxscores_collected": 19
+  "in_progress": 17,
+  "scheduled": 55,
+  "boxscores_collected": 27
  },
  "games": [
   {
@@ -347,10 +347,10 @@
    "name": "East Carolina Pirates at Alabama Crimson Tide",
    "away": "East Carolina Pirates",
    "home": "Alabama Crimson Tide",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "10",
+   "home_score": "38",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -359,10 +359,10 @@
    "name": "Oregon State Beavers at Houston Cougars",
    "away": "Oregon State Beavers",
    "home": "Houston Cougars",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "7",
+   "home_score": "19",
+   "status": "Delayed",
+   "state": "in",
    "completed": false
   },
   {
@@ -371,10 +371,10 @@
    "name": "Coastal Carolina Chanticleers at West Virginia Mountaineers",
    "away": "Coastal Carolina Chanticleers",
    "home": "West Virginia Mountaineers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "7",
+   "home_score": "24",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -384,9 +384,9 @@
    "away": "New Hampshire Wildcats",
    "home": "Syracuse Orange",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "43",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -395,10 +395,10 @@
    "name": "North Texas Mean Green at Indiana Hoosiers",
    "away": "North Texas Mean Green",
    "home": "Indiana Hoosiers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "13",
+   "home_score": "24",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -407,10 +407,10 @@
    "name": "Ohio Bobcats at Nebraska Cornhuskers",
    "away": "Ohio Bobcats",
    "home": "Nebraska Cornhuskers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "13",
+   "home_score": "14",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -420,9 +420,9 @@
    "away": "Lafayette Leopards",
    "home": "UConn Huskies",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "42",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -431,10 +431,10 @@
    "name": "Bryant Bulldogs at Army Black Knights",
    "away": "Bryant Bulldogs",
    "home": "Army Black Knights",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "3",
+   "home_score": "45",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -443,10 +443,10 @@
    "name": "Tarleton State Texans at Bowling Green Falcons",
    "away": "Tarleton State Texans",
    "home": "Bowling Green Falcons",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "17",
+   "home_score": "10",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -455,10 +455,10 @@
    "name": "Liberty Flames at James Madison Dukes",
    "away": "Liberty Flames",
    "home": "James Madison Dukes",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "6",
+   "home_score": "20",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -467,10 +467,10 @@
    "name": "Miami (OH) RedHawks at Pittsburgh Panthers",
    "away": "Miami (OH) RedHawks",
    "home": "Pittsburgh Panthers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "14",
+   "home_score": "28",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -479,10 +479,10 @@
    "name": "Ball State Cardinals at Ohio State Buckeyes",
    "away": "Ball State Cardinals",
    "home": "Ohio State Buckeyes",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "3",
+   "home_score": "28",
+   "status": "Halftime",
+   "state": "in",
    "completed": false
   },
   {
@@ -492,9 +492,9 @@
    "away": "Kent State Golden Flashes",
    "home": "South Carolina Gamecocks",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "29",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -504,9 +504,9 @@
    "away": "Youngstown State Penguins",
    "home": "Kentucky Wildcats",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "28",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -516,9 +516,9 @@
    "away": "Southeast Missouri State Redhawks",
    "home": "Iowa State Cyclones",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "14",
+   "status": "End of Period",
+   "state": "in",
    "completed": false
   },
   {
@@ -528,9 +528,9 @@
    "away": "Duquesne Dukes",
    "home": "Air Force Falcons",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "20",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -539,10 +539,10 @@
    "name": "Rhode Island Rams at Temple Owls",
    "away": "Rhode Island Rams",
    "home": "Temple Owls",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "7",
+   "home_score": "7",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {

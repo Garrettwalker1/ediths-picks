@@ -1,12 +1,13 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-05T06:38:39-0500",
+ "generated_at": "2026-09-05T07:10:11-0500",
  "model": "cfb-gameline-v2 (churn+coach+draft context)",
  "label": "MEASUREMENT ONLY - not picks. Model has not been tested against book lines. Totals side is a null and is omitted.",
  "window": "2026-08-29..2026-09-07 (Week 1, FBS)",
  "notes": [
   "Saturday 2026-09-05 games carry frozen pregame numbers from tools/cfb/9-cfb_board_2026-09-05_v2.json (generated Fri 12:52 PM CT).",
   "Non-Saturday games scored at generation time; post_kickoff entries are not pregame numbers.",
+  "Team features blend prior-season stats with in-season 2026 results at weight n/(n+2) (n = games played); early-season MAE is higher (~15 vs ~13). Season openers are outside the locked test.",
   "Book lines are labeled with the state actually captured (TN primary; VA only where TN did not list the game). Post-kickoff games have no book line - they kicked off before the first full-slate capture and books delist them."
  ],
  "games": [

@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-05T00:50:34-0500",
+ "generated_at": "2026-09-05T06:18:50-0500",
  "model": "cfb-gameline-v2 (churn+coach+draft context)",
  "label": "MEASUREMENT ONLY - not picks. Model has not been tested against book lines. Totals side is a null and is omitted.",
  "window": "2026-08-29..2026-09-07 (Week 1, FBS)",
@@ -22,7 +22,8 @@
    "predicted_margin_home": 8.2,
    "predicted_winner": "TCU Horned Frogs",
    "model_home_line": -8.2,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401864494",
@@ -36,7 +37,8 @@
    "predicted_margin_home": 22.1,
    "predicted_winner": "USC Trojans",
    "model_home_line": -22.1,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401858202",
@@ -50,7 +52,8 @@
    "predicted_margin_home": 9.5,
    "predicted_winner": "Virginia Cavaliers",
    "model_home_line": -9.5,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401864577",
@@ -64,7 +67,8 @@
    "predicted_margin_home": 20.5,
    "predicted_winner": "North Dakota State Bison",
    "model_home_line": -20.5,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401866408",
@@ -78,7 +82,8 @@
    "predicted_margin_home": -1.1,
    "predicted_winner": "Sacramento State Hornets",
    "model_home_line": 1.1,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401858201",
@@ -92,7 +97,8 @@
    "predicted_margin_home": -8.3,
    "predicted_winner": "Hawai'i Rainbow Warriors",
    "model_home_line": 8.3,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401864570",
@@ -106,7 +112,8 @@
    "predicted_margin_home": 19.2,
    "predicted_winner": "Florida State Seminoles",
    "model_home_line": -19.2,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401862693",
@@ -120,7 +127,8 @@
    "predicted_margin_home": 6.5,
    "predicted_winner": "UNLV Rebels",
    "model_home_line": -6.5,
-   "book_va": null
+   "book_va": null,
+   "week": 0
   },
   {
    "event_id": "401858423",
@@ -134,7 +142,8 @@
    "predicted_margin_home": 23.0,
    "predicted_winner": "Rutgers Scarlet Knights",
    "model_home_line": -23.0,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856767",
@@ -148,7 +157,8 @@
    "predicted_margin_home": 30.5,
    "predicted_winner": "UCF Knights",
    "model_home_line": -30.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858204",
@@ -162,7 +172,8 @@
    "predicted_margin_home": 13.7,
    "predicted_winner": "Wake Forest Demon Deacons",
    "model_home_line": -13.7,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401864424",
@@ -176,7 +187,8 @@
    "predicted_margin_home": 9.5,
    "predicted_winner": "Delaware Blue Hens",
    "model_home_line": -9.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401866409",
@@ -190,7 +202,8 @@
    "predicted_margin_home": 23.9,
    "predicted_winner": "Buffalo Bulls",
    "model_home_line": -23.9,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856663",
@@ -204,7 +217,8 @@
    "predicted_margin_home": 53.5,
    "predicted_winner": "Missouri Tigers",
    "model_home_line": -53.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856776",
@@ -218,7 +232,8 @@
    "predicted_margin_home": 12.3,
    "predicted_winner": "Georgia Tech Yellow Jackets",
    "model_home_line": -12.3,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858422",
@@ -232,7 +247,8 @@
    "predicted_margin_home": 42.0,
    "predicted_winner": "Minnesota Golden Gophers",
    "model_home_line": -42.0,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856768",
@@ -246,7 +262,8 @@
    "predicted_margin_home": 25.4,
    "predicted_winner": "Utah Utes",
    "model_home_line": -25.4,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858424",
@@ -260,7 +277,8 @@
    "predicted_margin_home": 18.9,
    "predicted_winner": "Illinois Fighting Illini",
    "model_home_line": -18.9,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401864495",
@@ -274,7 +292,8 @@
    "predicted_margin_home": 7.5,
    "predicted_winner": "Eastern Michigan Eagles",
    "model_home_line": -7.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858435",
@@ -288,7 +307,8 @@
    "predicted_margin_home": 29.3,
    "predicted_winner": "Purdue Boilermakers",
    "model_home_line": -29.3,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401866623",
@@ -302,7 +322,8 @@
    "predicted_margin_home": 28.1,
    "predicted_winner": "Georgia State Panthers",
    "model_home_line": -28.1,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856664",
@@ -316,7 +337,8 @@
    "predicted_margin_home": 24.1,
    "predicted_winner": "Oklahoma Sooners",
    "model_home_line": -24.1,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856769",
@@ -330,7 +352,8 @@
    "predicted_margin_home": 17.1,
    "predicted_winner": "Kansas Jayhawks",
    "model_home_line": -17.1,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858429",
@@ -344,7 +367,8 @@
    "predicted_margin_home": -3.5,
    "predicted_winner": "Toledo Rockets",
    "model_home_line": 3.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858206",
@@ -358,7 +382,8 @@
    "predicted_margin_home": -24.5,
    "predicted_winner": "Miami Hurricanes",
    "model_home_line": 24.5,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858436",
@@ -372,7 +397,8 @@
    "predicted_margin_home": 10.4,
    "predicted_winner": "USC Trojans",
    "model_home_line": -10.4,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858425",
@@ -399,7 +425,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856634",
@@ -426,7 +453,8 @@
     "home_spread_odds": 100,
     "home_ml": -7000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856778",
@@ -453,7 +481,8 @@
     "home_spread_odds": -118,
     "home_ml": -1800,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856780",
@@ -480,7 +509,8 @@
     "home_spread_odds": -105,
     "home_ml": -2000,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858208",
@@ -507,7 +537,8 @@
     "home_spread_odds": -108,
     "home_ml": null,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858430",
@@ -534,7 +565,8 @@
     "home_spread_odds": -114,
     "home_ml": -4000,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401861962",
@@ -561,7 +593,8 @@
     "home_spread_odds": -110,
     "home_ml": -1600,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862701",
@@ -588,7 +621,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401866410",
@@ -615,7 +649,8 @@
     "home_spread_odds": -110,
     "home_ml": -134,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401869960",
@@ -629,7 +664,8 @@
    "predicted_margin_home": 11.2,
    "predicted_winner": "James Madison Dukes",
    "model_home_line": -11.2,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858432",
@@ -656,7 +692,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858207",
@@ -683,7 +720,8 @@
     "home_spread_odds": -112,
     "home_ml": -820,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856665",
@@ -710,7 +748,8 @@
     "home_spread_odds": -105,
     "home_ml": null,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856659",
@@ -737,7 +776,8 @@
     "home_spread_odds": -108,
     "home_ml": -2300,
     "under_odds": -112
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856779",
@@ -764,7 +804,8 @@
     "home_spread_odds": -105,
     "home_ml": -10000,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401864496",
@@ -791,7 +832,8 @@
     "home_spread_odds": -114,
     "home_ml": -10000,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862698",
@@ -818,7 +860,8 @@
     "home_spread_odds": -105,
     "home_ml": -720,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856658",
@@ -845,7 +888,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858433",
@@ -872,7 +916,8 @@
     "home_spread_odds": -110,
     "home_ml": -4000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856667",
@@ -899,7 +944,8 @@
     "home_spread_odds": -110,
     "home_ml": -10000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858434",
@@ -926,7 +972,8 @@
     "home_spread_odds": -102,
     "home_ml": -4000,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856666",
@@ -953,7 +1000,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -112
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856636",
@@ -980,7 +1028,8 @@
     "home_spread_odds": -105,
     "home_ml": -295,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856777",
@@ -1007,7 +1056,8 @@
     "home_spread_odds": -110,
     "home_ml": -315,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858209",
@@ -1034,7 +1084,8 @@
     "home_spread_odds": -110,
     "home_ml": -310,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862694",
@@ -1061,7 +1112,8 @@
     "home_spread_odds": -110,
     "home_ml": -1800,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862696",
@@ -1088,7 +1140,8 @@
     "home_spread_odds": -104,
     "home_ml": -20000,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401864499",
@@ -1115,7 +1168,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401866627",
@@ -1142,7 +1196,8 @@
     "home_spread_odds": -108,
     "home_ml": -1400,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856772",
@@ -1169,7 +1224,8 @@
     "home_spread_odds": -110,
     "home_ml": 440,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858426",
@@ -1196,7 +1252,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856635",
@@ -1210,7 +1267,8 @@
    "predicted_margin_home": 38.0,
    "predicted_winner": "Arkansas Razorbacks",
    "model_home_line": -38.0,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401868356",
@@ -1237,7 +1295,8 @@
     "home_spread_odds": -110,
     "home_ml": -1400,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401860878",
@@ -1264,7 +1323,8 @@
     "home_spread_odds": -102,
     "home_ml": -156,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401867973",
@@ -1278,7 +1338,8 @@
    "predicted_margin_home": 44.8,
    "predicted_winner": "Old Dominion Monarchs",
    "model_home_line": -44.8,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856668",
@@ -1305,7 +1366,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856770",
@@ -1332,7 +1394,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856669",
@@ -1359,7 +1422,8 @@
     "home_spread_odds": -105,
     "home_ml": -10000,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856771",
@@ -1386,7 +1450,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401860880",
@@ -1413,7 +1478,8 @@
     "home_spread_odds": -112,
     "home_ml": -630,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862695",
@@ -1440,7 +1506,8 @@
     "home_spread_odds": -110,
     "home_ml": -430,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862697",
@@ -1467,7 +1534,8 @@
     "home_spread_odds": -110,
     "home_ml": -4000,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401862699",
@@ -1494,7 +1562,8 @@
     "home_spread_odds": -112,
     "home_ml": -710,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401867866",
@@ -1521,7 +1590,8 @@
     "home_spread_odds": -105,
     "home_ml": -2100,
     "under_odds": -108
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401868140",
@@ -1548,7 +1618,8 @@
     "home_spread_odds": -112,
     "home_ml": -1800,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401868170",
@@ -1562,7 +1633,8 @@
    "predicted_margin_home": 17.9,
    "predicted_winner": "Georgia Southern Eagles",
    "model_home_line": -17.9,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401868316",
@@ -1589,7 +1661,8 @@
     "home_spread_odds": -110,
     "home_ml": -550,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401870763",
@@ -1616,7 +1689,8 @@
     "home_spread_odds": -115,
     "home_ml": -950,
     "under_odds": -105
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856660",
@@ -1643,7 +1717,8 @@
     "home_spread_odds": -104,
     "home_ml": -390,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858428",
@@ -1670,7 +1745,8 @@
     "home_spread_odds": -115,
     "home_ml": -7000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856662",
@@ -1697,7 +1773,8 @@
     "home_spread_odds": -105,
     "home_ml": -7000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858211",
@@ -1711,7 +1788,8 @@
    "predicted_margin_home": 32.2,
    "predicted_winner": "Virginia Tech Hokies",
    "model_home_line": -32.2,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401869129",
@@ -1738,7 +1816,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856637",
@@ -1765,7 +1844,8 @@
     "home_spread_odds": -112,
     "home_ml": -4500,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858431",
@@ -1792,7 +1872,8 @@
     "home_spread_odds": -108,
     "home_ml": -550,
     "under_odds": -106
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401869142",
@@ -1819,7 +1900,8 @@
     "home_spread_odds": -112,
     "home_ml": -1700,
     "under_odds": -112
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401870790",
@@ -1846,7 +1928,8 @@
     "home_spread_odds": -112,
     "home_ml": -10000,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856773",
@@ -1873,7 +1956,8 @@
     "home_spread_odds": -112,
     "home_ml": -30000,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401860879",
@@ -1900,7 +1984,8 @@
     "home_spread_odds": -110,
     "home_ml": null,
     "under_odds": -115
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401856774",
@@ -1927,7 +2012,8 @@
     "home_spread_odds": -115,
     "home_ml": null,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401864497",
@@ -1954,7 +2040,8 @@
     "home_spread_odds": -122,
     "home_ml": 125,
     "under_odds": -114
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401864498",
@@ -1981,7 +2068,8 @@
     "home_spread_odds": -115,
     "home_ml": -465,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858210",
@@ -2008,7 +2096,8 @@
     "home_spread_odds": -114,
     "home_ml": 106,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401864432",
@@ -2035,7 +2124,8 @@
     "home_spread_odds": -112,
     "home_ml": -102,
     "under_odds": -110
-   }
+   },
+   "week": 1
   },
   {
    "event_id": "401858437",
@@ -2049,7 +2139,8 @@
    "predicted_margin_home": 18.8,
    "predicted_winner": "Washington Huskies",
    "model_home_line": -18.8,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858438",
@@ -2063,7 +2154,8 @@
    "predicted_margin_home": 19.6,
    "predicted_winner": "Notre Dame Fighting Irish",
    "model_home_line": -19.6,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401856661",
@@ -2077,7 +2169,8 @@
    "predicted_margin_home": 10.0,
    "predicted_winner": "Ole Miss Rebels",
    "model_home_line": -10.0,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   },
   {
    "event_id": "401858212",
@@ -2091,7 +2184,8 @@
    "predicted_margin_home": 4.8,
    "predicted_winner": "Florida State Seminoles",
    "model_home_line": -4.8,
-   "book_va": null
+   "book_va": null,
+   "week": 1
   }
  ],
  "errors": [
@@ -2099,31 +2193,36 @@
    "event_id": "401864425",
    "name": "West Georgia Wolves at Kennesaw State Owls",
    "date": "2026-09-03T23:00Z",
-   "error": "missing features"
+   "error": "missing features",
+   "week": 1
   },
   {
    "event_id": "401862700",
    "name": "UT Rio Grande Valley Vaqueros at UTSA Roadrunners",
    "date": "2026-09-05T19:30Z",
-   "error": "team not in FBS corpus (FCS or new program)"
+   "error": "team not in FBS corpus (FCS or new program)",
+   "week": 1
   },
   {
    "event_id": "401856775",
    "name": "Utah Tech Trailblazers at BYU Cougars",
    "date": "2026-09-06T00:00Z",
-   "error": "team not in FBS corpus (FCS or new program)"
+   "error": "team not in FBS corpus (FCS or new program)",
+   "week": 1
   },
   {
    "event_id": "401858427",
    "name": "Hampton Pirates at Maryland Terrapins",
    "date": "2026-09-06T00:00Z",
-   "error": "team not in FBS corpus (FCS or new program)"
+   "error": "team not in FBS corpus (FCS or new program)",
+   "week": 1
   },
   {
    "event_id": "401866411",
    "name": "Mississippi Valley State Delta Devils at Sacramento State Hornets",
    "date": "2026-09-06T02:00Z",
-   "error": "team not in FBS corpus (FCS or new program)"
+   "error": "team not in FBS corpus (FCS or new program)",
+   "week": 1
   }
  ]
 }

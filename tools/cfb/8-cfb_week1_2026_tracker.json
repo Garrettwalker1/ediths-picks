@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 1,
- "built_at": "2026-09-04T18:25:52Z",
+ "built_at": "2026-09-05T00:19:36Z",
  "purpose": "Track every FBS college football game from 2026 Week 1 (season started 2026-09-03) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-08-29..2026-09-08",
@@ -13,8 +13,8 @@
  "coverage": {
   "games": 99,
   "final": 19,
-  "in_progress": 0,
-  "scheduled": 80,
+  "in_progress": 6,
+  "scheduled": 74,
   "boxscores_collected": 19
  },
  "games": [
@@ -253,10 +253,10 @@
    "name": "San Jos\u00e9 State Spartans at Eastern Michigan Eagles",
    "away": "San Jos\u00e9 State Spartans",
    "home": "Eastern Michigan Eagles",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "10",
+   "home_score": "7",
+   "status": "Halftime",
+   "state": "in",
    "completed": false
   },
   {
@@ -265,10 +265,10 @@
    "name": "Indiana State Sycamores at Purdue Boilermakers",
    "away": "Indiana State Sycamores",
    "home": "Purdue Boilermakers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "6",
+   "home_score": "13",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -277,10 +277,10 @@
    "name": "North Carolina A&T Aggies at Georgia State Panthers",
    "away": "North Carolina A&T Aggies",
    "home": "Georgia State Panthers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "7",
+   "home_score": "28",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -290,9 +290,9 @@
    "away": "UTEP Miners",
    "home": "Oklahoma Sooners",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "7",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -303,8 +303,8 @@
    "home": "Kansas Jayhawks",
    "away_score": "0",
    "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -314,9 +314,9 @@
    "away": "Toledo Rockets",
    "home": "Michigan State Spartans",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "6",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {

@@ -2,19 +2,18 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 1,
- "built_at": "2026-09-05T00:19:36Z",
+ "built_at": "2026-09-05T12:19:25Z",
  "purpose": "Track every FBS college football game from 2026 Week 1 (season started 2026-09-03) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-08-29..2026-09-08",
  "known_gaps": [
-  "2026-09-02 verified: 0 FBS games (Wednesday before the Thursday kickoff slate).",
-  "401856776 (Colorado @ Georgia Tech): ESPN feed recovered 2026-09-04T18:25Z; final and boxscore now collected. Resolved."
+  "none recorded"
  ],
  "coverage": {
   "games": 99,
-  "final": 19,
-  "in_progress": 6,
-  "scheduled": 74,
+  "final": 27,
+  "in_progress": 0,
+  "scheduled": 72,
   "boxscores_collected": 19
  },
  "games": [
@@ -208,8 +207,7 @@
    "home_score": "13",
    "status": "Final",
    "state": "post",
-   "completed": true,
-   "source_note": "Official final via ESPN.com/AP (Colorado 14-13). site.api feed for this event stuck at In Progress (ESPN-side defect); boxscore pull deferred until feed recovers."
+   "completed": true
   },
   {
    "event_id": "401858422",
@@ -253,11 +251,11 @@
    "name": "San Jos\u00e9 State Spartans at Eastern Michigan Eagles",
    "away": "San Jos\u00e9 State Spartans",
    "home": "Eastern Michigan Eagles",
-   "away_score": "10",
-   "home_score": "7",
-   "status": "Halftime",
-   "state": "in",
-   "completed": false
+   "away_score": "27",
+   "home_score": "21",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858435",
@@ -265,11 +263,11 @@
    "name": "Indiana State Sycamores at Purdue Boilermakers",
    "away": "Indiana State Sycamores",
    "home": "Purdue Boilermakers",
-   "away_score": "6",
-   "home_score": "13",
-   "status": "In Progress",
-   "state": "in",
-   "completed": false
+   "away_score": "19",
+   "home_score": "44",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401866623",
@@ -277,11 +275,11 @@
    "name": "North Carolina A&T Aggies at Georgia State Panthers",
    "away": "North Carolina A&T Aggies",
    "home": "Georgia State Panthers",
-   "away_score": "7",
-   "home_score": "28",
-   "status": "In Progress",
-   "state": "in",
-   "completed": false
+   "away_score": "10",
+   "home_score": "59",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856664",
@@ -290,10 +288,10 @@
    "away": "UTEP Miners",
    "home": "Oklahoma Sooners",
    "away_score": "0",
-   "home_score": "7",
-   "status": "In Progress",
-   "state": "in",
-   "completed": false
+   "home_score": "51",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856769",
@@ -301,11 +299,11 @@
    "name": "Long Island University Sharks at Kansas Jayhawks",
    "away": "Long Island University Sharks",
    "home": "Kansas Jayhawks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "In Progress",
-   "state": "in",
-   "completed": false
+   "away_score": "6",
+   "home_score": "51",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858429",
@@ -313,11 +311,11 @@
    "name": "Toledo Rockets at Michigan State Spartans",
    "away": "Toledo Rockets",
    "home": "Michigan State Spartans",
-   "away_score": "0",
-   "home_score": "6",
-   "status": "In Progress",
-   "state": "in",
-   "completed": false
+   "away_score": "20",
+   "home_score": "30",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858206",
@@ -325,11 +323,11 @@
    "name": "Miami Hurricanes at Stanford Cardinal",
    "away": "Miami Hurricanes",
    "home": "Stanford Cardinal",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "45",
+   "home_score": "6",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858436",
@@ -338,10 +336,10 @@
    "away": "Fresno State Bulldogs",
    "home": "USC Trojans",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "39",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856634",

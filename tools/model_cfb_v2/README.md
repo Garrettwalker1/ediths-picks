@@ -32,3 +32,4 @@ train <=2023 / validation 2024 / locked test 2025.
 - features_draft_losses.csv - per team-season drafted production (2022-2026 target seasons)
 - coach_flags.json - "Team|season" -> 1 for new head coach
 - build_v2.py / score_v2.py - pipeline scripts (as run)
+- full-week board: /skills/personal/cfb-weekly-board (score_full_week.py) - full-week coverage is the standing default per Garrett 9/4

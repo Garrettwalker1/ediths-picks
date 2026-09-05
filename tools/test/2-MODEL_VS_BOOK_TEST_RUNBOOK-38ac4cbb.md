@@ -21,3 +21,7 @@ Week 1 is descriptive even if the result looks strong. Report the weak number an
 A predictive signal requires at least 100 settled NFL games and 500 exact outcomes in that market family, improvement on both registered primary metrics, and paired game-bootstrap 95% upper bounds below zero. A betting-edge label additionally requires prospective positive CLV after vig and a positive lower 95% bound on net return from recommendations whose rules were frozen before the quote.
 
 Until those gates clear, keep the dashboard's model-price differences suppressed and label outputs research only.
+
+## Coverage rule (Garrett, 2026-09-04)
+
+Every game in the week window gets a frozen model prediction - full-week coverage (Thu/Sun/Mon or whatever the window spans) is the standing default for NFL and CFB boards, not a subset. Any number generated after that game's kickoff is labeled post-kickoff and is excluded from pregame grading sets.

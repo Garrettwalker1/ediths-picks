@@ -1,8 +1,77 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-06T12:19:00Z",
+ "updated_at": "2026-09-06T17:47:00Z",
  "bets": [
+  {
+   "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
+   "date": "2026-09-06T17:47:00Z",
+   "placed_at": "2026-09-06T17:47:00Z",
+   "sport": "CFB",
+   "game": "Washington State @ Washington + Louisville @ Ole Miss + Wisconsin @ Notre Dame",
+   "kickoff": "2026-09-06T20:00:00Z",
+   "bet": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
+   "market": "parlay",
+   "selection": "Over 51.5 and Ole Miss -9.5 (alt) and Notre Dame -21.5",
+   "line": null,
+   "price": 729,
+   "price_note": "Bet Reset Token applied per slip (slip also shows 20 rewards points pending). +729 matches the three leg prices multiplied - no odds boost on this ticket.",
+   "book": "FanDuel",
+   "state": "NC",
+   "stake_units": 1.0,
+   "stake_usd": 5.0,
+   "potential_payout_usd": 41.47,
+   "potential_profit_usd": 36.47,
+   "cashout_value_usd_at_capture": 5.0,
+   "legs": [
+    {
+     "game": "Washington State @ Washington",
+     "market": "total",
+     "selection": "Over",
+     "line": 51.5,
+     "price": -115,
+     "kickoff": "2026-09-06T20:00:00Z",
+     "model_note": "Model totals side is a null by design - no totals projection exists for this game."
+    },
+    {
+     "game": "Louisville @ Ole Miss",
+     "market": "alternate spread",
+     "selection": "Ole Miss",
+     "line": -9.5,
+     "price": 124,
+     "kickoff": "2026-09-06T23:30:00Z",
+     "model_home_line_at_placement": -10.0
+    },
+    {
+     "game": "Wisconsin @ Notre Dame",
+     "market": "spread",
+     "selection": "Notre Dame",
+     "line": -21.5,
+     "price": -102,
+     "kickoff": "2026-09-06T23:30:00Z",
+     "model_home_line_at_placement": -19.2
+    }
+   ],
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "cfb-gameline-v2.1",
+    "note": "Pregame board numbers from the 2026-09-06 12:35 PM CT v2.1 refit (comparison, not a pick): Washington -19.0 (book -23.5, book 4.5 richer); Ole Miss -10.0 (alt line -9.5, model 0.5 richer); Notre Dame -19.2 (line -21.5, book 2.3 richer). Totals side is a null by design - no model read on the Over 51.5 leg. This ticket doubles exposure to the same two games as the open 2u parlay us-nc:01m1vaf4r9fqfr00a269j66tr8 (ND -20.5 / Ole Miss -6.5)."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "FanDuel TN captures through 2026-09-06T12:15Z (x-sportsbook-region: TN)",
+    "note": "User's NC slip leg prices (-115 / +124 / -102, parlay +729) may differ from TN listings; NC account. Context only, never a model input."
+   },
+   "grading": {
+    "source": "official final score",
+    "graded_at": null,
+    "net_units": null,
+    "net_usd": null
+   }
+  },
   {
    "bet_id": "us-nc:01m1vaf4r9fqfr00a269j66tr8",
    "date": "2026-09-06T13:18:00Z",

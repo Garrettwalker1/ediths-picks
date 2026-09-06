@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-06T12:28:37-0500",
+ "generated_at": "2026-09-06T13:16:39-0500",
  "model": "cfb-gameline-v2.1 (churn+coach+draft+247 talent composite)",
  "label": "MEASUREMENT ONLY - not picks. Model has not been tested against book lines. Totals side is a null and is omitted.",
  "window": "2026-08-29..2026-09-07 (Week 1, FBS)",
@@ -2964,16 +2964,16 @@
    "week": 1,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-06T12:15:35Z",
+    "captured_at": "2026-09-06T18:15:41Z",
     "away_spread": 23.5,
-    "away_spread_odds": -110,
+    "away_spread_odds": -104,
     "home_spread": -23.5,
-    "home_spread_odds": -110,
+    "home_spread_odds": -118,
     "total": 51.5,
-    "over_odds": -105,
-    "under_odds": -115,
-    "away_ml": 1160,
-    "home_ml": -2800
+    "over_odds": -115,
+    "under_odds": -105,
+    "away_ml": 1200,
+    "home_ml": -3000
    }
   },
   {
@@ -2992,16 +2992,16 @@
    "week": 1,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-06T12:15:35Z",
-    "away_spread": 20.5,
-    "away_spread_odds": -110,
-    "home_spread": -20.5,
-    "home_spread_odds": -110,
+    "captured_at": "2026-09-06T18:15:41Z",
+    "away_spread": 21.5,
+    "away_spread_odds": -120,
+    "home_spread": -21.5,
+    "home_spread_odds": -102,
     "total": 46.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": 980,
-    "home_ml": -1800
+    "away_ml": 1100,
+    "home_ml": -2200
    }
   },
   {
@@ -3020,16 +3020,16 @@
    "week": 1,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-06T12:15:35Z",
+    "captured_at": "2026-09-06T18:15:41Z",
     "away_spread": 6.5,
     "away_spread_odds": -104,
     "home_spread": -6.5,
     "home_spread_odds": -118,
-    "total": 54.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 205,
-    "home_ml": -250
+    "total": 55.5,
+    "over_odds": -105,
+    "under_odds": -115,
+    "away_ml": 200,
+    "home_ml": -245
    }
   },
   {
@@ -3048,7 +3048,7 @@
    "week": 1,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-06T12:15:35Z",
+    "captured_at": "2026-09-06T18:15:41Z",
     "away_spread": -2.5,
     "away_spread_odds": -122,
     "home_spread": 2.5,
@@ -3056,8 +3056,8 @@
     "total": 53.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": -150,
-    "home_ml": 125
+    "away_ml": -152,
+    "home_ml": 126
    }
   }
  ],

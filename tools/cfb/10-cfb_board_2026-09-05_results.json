@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "label": "MEASUREMENT ONLY - not picks. Frozen pre-kickoff model numbers vs actual final scores.",
+  "slate_date": "2026-09-05",
+  "graded_at": "2026-09-06T12:35:00-05:00",
+  "games_graded": 64,
+  "v2": {
+    "model": "cfb-gameline-v2 (frozen pre-slate artifact, tools/cfb/9-cfb_board_2026-09-05_v2.json)",
+    "mae": 19.01,
+    "rmse": 23.99,
+    "winner_correct": 57,
+    "winner_accuracy": 0.891,
+    "ats_vs_tn_closing": {
+      "wins": 26,
+      "losses": 32,
+      "graded": 58
+    },
+    "calibration_by_pred_margin_bucket": {
+      "21+": {
+        "n": 22,
+        "mae": 15.37,
+        "mean_pred_abs": 34.0,
+        "mean_actual_abs": 41.5
+      },
+      "0-7": {
+        "n": 11,
+        "mae": 29.54,
+        "mean_pred_abs": 4.2,
+        "mean_actual_abs": 31.4
+      },
+      "14-21": {
+        "n": 14,
+        "mae": 20.46,
+        "mean_pred_abs": 16.9,
+        "mean_actual_abs": 31.0
+      },
+      "7-14": {
+        "n": 17,
+        "mae": 15.7,
+        "mean_pred_abs": 10.8,
+        "mean_actual_abs": 20.6
+      }
+    },
+    "mae_by_book_line_bucket": {
+      "lines_21_plus": 20.8,
+      "lines_under_21": 16.7
+    },
+    "winner_misses": [
+      "Tarleton State Texans at Bowling Green Falcons (pred +4.4, actual -7)",
+      "The Citadel Bulldogs at Charlotte 49ers (pred +17.3, actual -2)",
+      "Wyoming Cowboys at Colorado State Rams (pred -3.2, actual +22)",
+      "Idaho State Bengals at Utah State Aggies (pred +10.3, actual -12)",
+      "UNLV Rebels at Hawai'i Rainbow Warriors (pred +3.4, actual -15)",
+      "UCLA Bruins at California Golden Bears (pred +14.8, actual -21)",
+      "Western Kentucky Hilltoppers at Nevada Wolf Pack (pred -9.0, actual +35)"
+    ]
+  },
+  "v1_side_by_side": {
+    "model": "cfb-gameline-v1 (frozen pre-slate artifact, recovered from git history commit cde754e)",
+    "mae": 18.93,
+    "rmse": 24.3,
+    "winner_correct": 57,
+    "winner_accuracy": 0.891,
+    "calibration_by_pred_margin_bucket": {
+      "7-14": {
+        "n": 17,
+        "mae": 20.94,
+        "mean_pred_abs": 10.7,
+        "mean_actual_abs": 26.2
+      },
+      "0-7": {
+        "n": 12,
+        "mae": 30.77,
+        "mean_pred_abs": 3.4,
+        "mean_actual_abs": 31.8
+      },
+      "14-21": {
+        "n": 11,
+        "mae": 15.83,
+        "mean_pred_abs": 17.0,
+        "mean_actual_abs": 23.4
+      },
+      "21+": {
+        "n": 24,
+        "mae": 13.02,
+        "mean_pred_abs": 33.7,
+        "mean_actual_abs": 40.0
+      }
+    },
+    "note": "v2 churn/coach/draft features did not improve Week 1 Saturday: MAE essentially tied (19.01 vs 18.93, inside noise), RMSE slightly better (23.99 vs 24.30), winner accuracy identical (57/64)."
+  },
+  "honest_read": "Both models badly under-predict blowouts (21+ bucket: predicted avg 34.0, actual avg 41.5) and cannot separate close games from routs (0-7 bucket actual avg margin 31.4). ATS 26-32 vs TN closing means the model did not beat the market this week. Measurement only."
+}

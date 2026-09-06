@@ -1,8 +1,68 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-06T06:47:00Z",
+ "updated_at": "2026-09-06T12:19:00Z",
  "bets": [
+  {
+   "bet_id": "us-nc:01m1vaf4r9fqfr00a269j66tr8",
+   "date": "2026-09-06T13:18:00Z",
+   "placed_at": "2026-09-06T13:18:00Z",
+   "sport": "CFB",
+   "game": "Wisconsin @ Notre Dame + Louisville @ Ole Miss",
+   "kickoff": "2026-09-06T23:30:00Z",
+   "bet": "2-leg parlay: Notre Dame -20.5, Ole Miss -6.5",
+   "market": "parlay",
+   "selection": "Notre Dame -20.5 and Ole Miss -6.5",
+   "line": null,
+   "price": 328,
+   "price_note": "30% FanDuel profit boost applied; base price +253 boosted to +328",
+   "book": "FanDuel",
+   "state": "NC",
+   "stake_units": 2.0,
+   "stake_usd": 10.0,
+   "potential_payout_usd": 42.85,
+   "potential_profit_usd": 32.85,
+   "cashout_value_usd_at_capture": 10.0,
+   "legs": [
+    {
+     "game": "Wisconsin @ Notre Dame",
+     "market": "spread",
+     "selection": "Notre Dame",
+     "line": -20.5,
+     "price": 110,
+     "kickoff": "2026-09-06T23:30:00Z",
+     "model_home_line_at_placement": -19.6
+    },
+    {
+     "game": "Louisville @ Ole Miss",
+     "market": "spread",
+     "selection": "Ole Miss",
+     "line": -6.5,
+     "price": 103,
+     "kickoff": "2026-09-06T23:30:00Z",
+     "model_home_line_at_placement": -10.0
+    }
+   ],
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "cfb-gameline-v2",
+    "note": "Frozen pregame board numbers from the 2026-09-06 refit (pregame, neutral site): Notre Dame -19.6 (book -20.5, book 0.9 richer than model); Ole Miss -10.0 (book -6.5, model 3.5 richer than book). Comparison, not a pick."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "FanDuel TN capture 2026-09-06T12:15Z (x-sportsbook-region: TN)",
+    "note": "User's NC slip prices (+110/+103 legs, boosted +328) differ slightly from the TN capture (-110/-118 legs); NC account. Context only, never a model input."
+   },
+   "grading": {
+    "source": "official final score",
+    "graded_at": null,
+    "net_units": null,
+    "net_usd": null
+   }
+  },
   {
    "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
    "date": "2026-09-02T18:58:00Z",

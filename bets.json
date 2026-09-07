@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-06T17:47:00Z",
+ "updated_at": "2026-09-07T00:16:00Z",
  "bets": [
   {
    "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
@@ -52,8 +52,8 @@
      "model_home_line_at_placement": -19.2
     }
    ],
-   "result": "pending",
-   "status": "open",
+   "result": "loss",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot",
    "model_at_placement": {
     "available": true,
@@ -67,9 +67,11 @@
    },
    "grading": {
     "source": "official final score",
-    "graded_at": null,
-    "net_units": null,
-    "net_usd": null
+    "graded_at": "2026-09-07T00:16:00Z",
+    "final_score": "Washington State 10, Washington 24 (leg 1)",
+    "net_units": -1.0,
+    "net_usd": -5.0,
+    "source_note": "Leg 1 (Over 51.5 WSU@UW) missed - combined 34. Parlay is lost regardless of the remaining legs (Ole Miss -9.5 alt, Notre Dame -21.5, both in progress at grading). Bet Reset Token was applied per the slip; any token refund is issued by FanDuel (typically as bonus bets) and is not counted here."
    }
   },
   {

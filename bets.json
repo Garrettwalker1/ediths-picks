@@ -1,8 +1,49 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-07T04:15:00Z",
+ "updated_at": "2026-09-07T23:06:00Z",
  "bets": [
+  {
+   "bet_id": "us-nc:01m1z1zd1zab42mrm12aze2ddp",
+   "date": "2026-09-07T23:05:00Z",
+   "placed_at": "2026-09-07T23:05:00Z",
+   "sport": "CFB",
+   "game": "SMU @ Florida State",
+   "kickoff": "2026-09-07T23:30:00Z",
+   "bet": "Florida State +2.5",
+   "market": "spread",
+   "selection": "Florida State",
+   "line": 2.5,
+   "price": 133,
+   "price_note": "30% FanDuel profit boost applied; base price +102 boosted to +133. Book bet ID 0/0624487/0000020.",
+   "book": "FanDuel",
+   "state": "NC",
+   "stake_units": 1.0,
+   "stake_usd": 5.0,
+   "potential_payout_usd": 11.65,
+   "potential_profit_usd": 6.65,
+   "cashout_value_usd_at_capture": 5.0,
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "cfb-gameline-v2.1",
+    "model_home_line_at_placement": -5.9,
+    "note": "Model has Florida State -5.9 (pregame, board regen 1:18 PM CT) vs book FSU +2.5 - model 8.4 pts richer on FSU than the market, the largest model-vs-book split on the Week 1 board. This bet is on the model-aligned side. Comparison, not a pick."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "FanDuel TN capture 2026-09-07T18:17Z (x-sportsbook-region: TN)",
+    "note": "TN listing: SMU -2.5 (-115) / FSU +2.5 (-105), total 54.5. User's NC slip boosted to +133; NC account. Context only, never a model input."
+   },
+   "grading": {
+    "source": "official final score",
+    "graded_at": null,
+    "net_units": null,
+    "net_usd": null
+   }
+  },
   {
    "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
    "date": "2026-09-06T17:47:00Z",

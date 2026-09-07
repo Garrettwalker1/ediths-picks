@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-07T07:16:30-0500",
+ "generated_at": "2026-09-07T13:18:34-0500",
  "model": "cfb-gameline-v2.1 (churn+coach+draft+247 talent composite)",
  "label": "MEASUREMENT ONLY - not picks. Model has not been tested against book lines. Totals side is a null and is omitted.",
  "window": "2026-08-29..2026-09-07 (Week 1, FBS)",
@@ -3048,16 +3048,16 @@
    "week": 1,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-07T12:15:50Z",
+    "captured_at": "2026-09-07T18:17:57Z",
     "away_spread": -2.5,
-    "away_spread_odds": -112,
+    "away_spread_odds": -115,
     "home_spread": 2.5,
-    "home_spread_odds": -108,
-    "total": 53.5,
-    "over_odds": -112,
-    "under_odds": -108,
-    "away_ml": -138,
-    "home_ml": 115
+    "home_spread_odds": -105,
+    "total": 54.5,
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": -144,
+    "home_ml": 120
    }
   }
  ],

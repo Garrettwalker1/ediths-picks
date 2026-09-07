@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-07T00:16:00Z",
+ "updated_at": "2026-09-07T04:15:00Z",
  "bets": [
   {
    "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
@@ -114,8 +114,8 @@
      "model_home_line_at_placement": -10.0
     }
    ],
-   "result": "pending",
-   "status": "open",
+   "result": "loss",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot",
    "model_at_placement": {
     "available": true,
@@ -129,9 +129,11 @@
    },
    "grading": {
     "source": "official final score",
-    "graded_at": null,
-    "net_units": null,
-    "net_usd": null
+    "graded_at": "2026-09-07T04:15:00Z",
+    "final_score": "Notre Dame 41, Wisconsin 13 (leg 1 COVERED: ND by 28 >= 21); Ole Miss 41, Louisville 38 (leg 2 MISSED: Ole Miss by 3 < 7)",
+    "net_units": -2.0,
+    "net_usd": -10.0,
+    "source_note": "Parlay loses on the Ole Miss leg. ND -20.5 covered comfortably; Ole Miss -6.5 needed a 7+ point win and won by 3. Finals via ESPN summary endpoints 401858438 / 401856661."
    }
   },
   {

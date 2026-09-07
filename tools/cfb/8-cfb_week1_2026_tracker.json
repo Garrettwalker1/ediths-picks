@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 1,
- "built_at": "2026-09-06T12:17:45Z",
+ "built_at": "2026-09-07T00:15:32Z",
  "purpose": "Track every FBS college football game from 2026 Week 1 (season started 2026-09-03) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-08-29..2026-09-08",
@@ -11,10 +11,10 @@
  ],
  "coverage": {
   "games": 99,
-  "final": 95,
-  "in_progress": 0,
-  "scheduled": 4,
-  "boxscores_collected": 59
+  "final": 96,
+  "in_progress": 2,
+  "scheduled": 1,
+  "boxscores_collected": 95
  },
  "games": [
   {
@@ -1163,11 +1163,11 @@
    "name": "Washington State Cougars at Washington Huskies",
    "away": "Washington State Cougars",
    "home": "Washington Huskies",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "24",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856661",
@@ -1175,10 +1175,10 @@
    "name": "Louisville Cardinals at Ole Miss Rebels",
    "away": "Louisville Cardinals",
    "home": "Ole Miss Rebels",
-   "away_score": "0",
+   "away_score": "3",
    "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -1187,10 +1187,10 @@
    "name": "Wisconsin Badgers at Notre Dame Fighting Irish",
    "away": "Wisconsin Badgers",
    "home": "Notre Dame Fighting Irish",
-   "away_score": "0",
+   "away_score": "3",
    "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {

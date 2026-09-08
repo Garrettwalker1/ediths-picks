@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-07T13:18:34-0500",
+ "generated_at": "2026-09-07T19:17:04-0500",
  "model": "cfb-gameline-v2.1 (churn+coach+draft+247 talent composite)",
  "label": "MEASUREMENT ONLY - not picks. Model has not been tested against book lines. Totals side is a null and is omitted.",
  "window": "2026-08-29..2026-09-07 (Week 1, FBS)",
@@ -3039,8 +3039,8 @@
    "away": "SMU Mustangs",
    "home": "Florida State Seminoles",
    "neutral_site": false,
-   "timing": "pregame",
-   "timing_note": "Pregame projection",
+   "timing": "post_kickoff",
+   "timing_note": "Generated after kickoff - not a pregame number",
    "predicted_margin_home": 5.9,
    "predicted_winner": "Florida State Seminoles",
    "model_home_line": -5.9,

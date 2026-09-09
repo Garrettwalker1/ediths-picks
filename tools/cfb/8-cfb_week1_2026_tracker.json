@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 1,
- "built_at": "2026-09-07T12:15:57Z",
+ "built_at": "2026-09-09T18:24:25Z",
  "purpose": "Track every FBS college football game from 2026 Week 1 (season started 2026-09-03) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-08-29..2026-09-08",
@@ -11,10 +11,10 @@
  ],
  "coverage": {
   "games": 99,
-  "final": 98,
+  "final": 99,
   "in_progress": 0,
-  "scheduled": 1,
-  "boxscores_collected": 96
+  "scheduled": 0,
+  "boxscores_collected": 98
  },
  "games": [
   {

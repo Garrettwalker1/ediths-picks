@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-10T13:50:00Z",
+ "updated_at": "2026-09-10T13:51:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m2345jy5e6m82k50h30e6qhf",
@@ -85,6 +85,45 @@
     "net_units": -1.0,
     "net_usd": -5.0,
     "source_note": "Florida State lost by 3; FSU +2.5 needed a loss by 2 or fewer (or a win). No cover. ESPN event 401858212 final."
+   }
+  },
+  {
+   "bet_id": "us-nc:01m1y11z3xe90v5ha3939dg3dd",
+   "date": "2026-09-07T13:31:00Z",
+   "placed_at": "2026-09-07T13:31:00Z",
+   "sport": "NFL",
+   "game": "New England @ Seattle",
+   "kickoff": "2026-09-10T00:15:00Z",
+   "bet": "NFL Customer Special: 1+ points scored in Patriots v Seahawks (9/9)",
+   "market": "special - 1+ points scored",
+   "selection": "1+ points scored in the game",
+   "line": null,
+   "price": 101,
+   "price_note": "10000% profit boost applied; base price +10000 boosted to +101.",
+   "book": "FanDuel",
+   "state": "NC",
+   "stake_units": 5.0,
+   "stake_usd": 25.0,
+   "potential_payout_usd": 50.25,
+   "potential_profit_usd": 25.25,
+   "result": "win",
+   "status": "settled",
+   "source": "User-provided FanDuel settled-bet screenshot (sent 2026-09-10)",
+   "model_at_placement": {
+    "available": false,
+    "note": "No model market covers this special. The only adjacent model view (game total) comes from the totals models that FAILED validation on 9/6 and are not shipped - deliberately not cited here."
+   },
+   "market_context_at_placement": {
+    "available": false,
+    "note": "Boosted special from +10000 to +101; near-certain event by construction. No book comparison meaningful."
+   },
+   "grading": {
+    "source": "FanDuel settled slip + official final score",
+    "graded_at": "2026-09-10T13:51:00Z",
+    "final_score": "Seattle 13, New England 10",
+    "net_units": 5.05,
+    "net_usd": 25.25,
+    "source_note": "Slip shows WON, $50.25 total return on $25.00 at +101. Both teams scored (13-10, ESPN event 401872656)."
    }
   },
   {

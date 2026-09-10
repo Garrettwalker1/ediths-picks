@@ -1,8 +1,78 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-10T23:26:00Z",
+ "updated_at": "2026-09-10T23:31:00Z",
  "bets": [
+  {
+   "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
+   "date": "2026-09-10T23:29:00Z",
+   "placed_at": "2026-09-10T23:29:00Z",
+   "sport": "NFL",
+   "game": "San Francisco @ Los Angeles Rams",
+   "kickoff": "2026-09-11T00:35:00Z",
+   "bet": "Straight: Puka Nacua anytime touchdown",
+   "market": "anytime touchdown scorer",
+   "selection": "Puka Nacua scores a touchdown",
+   "line": null,
+   "price": 125,
+   "price_note": "NFL Every TD Pays token used (per slip banner).",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 2.0,
+   "stake_usd": 10.0,
+   "potential_payout_usd": 22.5,
+   "potential_profit_usd": 12.5,
+   "cashout_value_usd_at_capture": 10.0,
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+    "note": "Model: Nacua anytime TD 60.5% (model's #2 tonight) vs +125 implied 44.4%. On paper that is a large model edge, but the TD model was never market-tested and this is a single pregame prior - comparison, not a pick."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "User's TN slip",
+    "note": "+125 on the slip matches the stale 9/2 VA capture price for Nacua ATD."
+   },
+   "grading": null
+  },
+  {
+   "bet_id": "us-tn:01m26tbw3vf8zbjk4hsthcdwfb",
+   "date": "2026-09-10T23:27:00Z",
+   "placed_at": "2026-09-10T23:27:00Z",
+   "sport": "NFL",
+   "game": "San Francisco @ Los Angeles Rams",
+   "kickoff": "2026-09-11T00:35:00Z",
+   "bet": "Same Game Parlay (4 legs): Matthew Stafford 225+ alt passing yards + Kyren Williams anytime touchdown + Christian McCaffrey 90+ alt rushing+receiving yards + George Kittle over 33.5 receiving yards",
+   "market": "same game parlay - alt passing yards, anytime TD, alt rush+rec yards, receiving yards",
+   "selection": "Stafford 225+ pass yds, Kyren Williams ATD, McCaffrey 90+ rush+rec yds, Kittle over 33.5 rec yds",
+   "line": null,
+   "price": 613,
+   "price_note": null,
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 2.0,
+   "stake_usd": 10.0,
+   "potential_payout_usd": 71.35,
+   "potential_profit_usd": 61.35,
+   "cashout_value_usd_at_capture": 10.0,
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+    "note": "Model medians vs legs: Stafford pass 295.8 (p20 221.5, so 225+ sits below the 20th percentile of the model distribution); Kyren Williams ATD 51.3% (model's #3 tonight); McCaffrey rush 79.2 + rec 38.9 = 118.1 combined median vs 90+ alt; Kittle rec median 61.1 vs 33.5 line, but Kittle carries an injury caveat (limited participant this week) that the model does not price. Implied +613 = 14.0%. Naive independence joint is not computed here because the model has no full yardage distributions and all four legs are same-game correlated; TD model never market-tested - comparison, not a pick."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "User's TN slip",
+    "note": "+613 displayed on the slip (implied 14.0%). Leg prices not captured (alt lines and TD market are outside the 3-tab props capture)."
+   },
+   "grading": null
+  },
   {
    "bet_id": "us-tn:01m26t66deezf91d82nt7qfa3f",
    "date": "2026-09-10T23:24:00Z",

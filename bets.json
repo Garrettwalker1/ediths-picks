@@ -1,8 +1,43 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-10T13:51:00Z",
+ "updated_at": "2026-09-10T23:26:00Z",
  "bets": [
+  {
+   "bet_id": "us-tn:01m26t66deezf91d82nt7qfa3f",
+   "date": "2026-09-10T23:24:00Z",
+   "placed_at": "2026-09-10T23:24:00Z",
+   "sport": "NFL",
+   "game": "San Francisco @ Los Angeles Rams",
+   "kickoff": "2026-09-11T00:35:00Z",
+   "bet": "Same Game Parlay: Christian McCaffrey anytime touchdown + Puka Nacua anytime touchdown",
+   "market": "same game parlay - anytime touchdown scorers",
+   "selection": "Christian McCaffrey and Puka Nacua both score a touchdown",
+   "line": null,
+   "price": 415,
+   "price_note": "50% FanDuel profit boost applied; base price +277 boosted to +415 displayed (slip payout $25.79 on $5 implies ~+416).",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 1.0,
+   "stake_usd": 5.0,
+   "potential_payout_usd": 25.79,
+   "potential_profit_usd": 20.79,
+   "cashout_value_usd_at_capture": 5.0,
+   "result": "pending",
+   "status": "open",
+   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+   "model_at_placement": {
+    "available": true,
+    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+    "note": "Both legs are the model's top-2 TD scorers for this game: McCaffrey 71.2%, Nacua 60.5%. Naive independence joint 43.1% (fair ~+132) vs boosted +415 (implied 19.4%). Same-game correlation means the true joint is not the product, and the TD model was never market-tested - comparison, not a pick."
+   },
+   "market_context_at_placement": {
+    "available": true,
+    "source": "User's TN slip",
+    "note": "Base +277 (implied 26.5%), boosted +415 (implied 19.4%). Leg prices from the stale 9/2 VA capture were CMC -160 / Nacua +125; current leg prices not captured (TD market is outside the 3-tab props capture)."
+   },
+   "grading": null
+  },
   {
    "bet_id": "us-tn:01m2345jy5e6m82k50h30e6qhf",
    "date": "2026-09-09T13:01:00Z",

@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 2,
- "built_at": "2026-09-09T18:36:29Z",
+ "built_at": "2026-09-11T00:16:01Z",
  "purpose": "Track every FBS college football game from 2026 Week 2 (window 2026-09-10..2026-09-14) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-09-10..2026-09-14",
@@ -12,8 +12,8 @@
  "coverage": {
   "games": 86,
   "final": 0,
-  "in_progress": 0,
-  "scheduled": 86,
+  "in_progress": 1,
+  "scheduled": 85,
   "boxscores_collected": 99
  },
  "games": [
@@ -24,9 +24,9 @@
    "away": "Florida A&M Rattlers",
    "home": "Miami Hurricanes",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "7",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -1050,4 +1050,4 @@
    "completed": false
   }
  ]
-  }
+}

@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 2,
- "built_at": "2026-09-11T12:16:15Z",
+ "built_at": "2026-09-11T18:16:01Z",
  "purpose": "Track every FBS college football game from 2026 Week 2 (window 2026-09-10..2026-09-14) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-09-10..2026-09-14",
@@ -14,7 +14,7 @@
   "final": 1,
   "in_progress": 0,
   "scheduled": 85,
-  "boxscores_collected": 99
+  "boxscores_collected": 100
  },
  "games": [
   {
@@ -227,6 +227,30 @@
    "name": "Wofford Terriers at Kent State Golden Flashes",
    "away": "Wofford Terriers",
    "home": "Kent State Golden Flashes",
+   "away_score": "0",
+   "home_score": "0",
+   "status": "Scheduled",
+   "state": "pre",
+   "completed": false
+  },
+  {
+   "event_id": "401867929",
+   "date": "2026-09-12T16:00Z",
+   "name": "Wagner Seahawks at James Madison Dukes",
+   "away": "Wagner Seahawks",
+   "home": "James Madison Dukes",
+   "away_score": "0",
+   "home_score": "0",
+   "status": "Scheduled",
+   "state": "pre",
+   "completed": false
+  },
+  {
+   "event_id": "401868187",
+   "date": "2026-09-12T16:00Z",
+   "name": "Gardner-Webb Runnin' Bulldogs at Liberty Flames",
+   "away": "Gardner-Webb Runnin' Bulldogs",
+   "home": "Liberty Flames",
    "away_score": "0",
    "home_score": "0",
    "status": "Scheduled",
@@ -486,18 +510,6 @@
    "completed": false
   },
   {
-   "event_id": "401867929",
-   "date": "2026-09-12T19:30Z",
-   "name": "Wagner Seahawks at James Madison Dukes",
-   "away": "Wagner Seahawks",
-   "home": "James Madison Dukes",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
-  },
-  {
    "event_id": "401862705",
    "date": "2026-09-12T19:45Z",
    "name": "UNLV Rebels at North Texas Mean Green",
@@ -611,18 +623,6 @@
    "name": "Jacksonville State Gamecocks at Ohio Bobcats",
    "away": "Jacksonville State Gamecocks",
    "home": "Ohio Bobcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
-  },
-  {
-   "event_id": "401868187",
-   "date": "2026-09-12T22:00Z",
-   "name": "Gardner-Webb Runnin' Bulldogs at Liberty Flames",
-   "away": "Gardner-Webb Runnin' Bulldogs",
-   "home": "Liberty Flames",
    "away_score": "0",
    "home_score": "0",
    "status": "Scheduled",

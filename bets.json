@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-10T23:31:00Z",
+ "updated_at": "2026-09-11T04:07:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -23,8 +23,8 @@
    "potential_payout_usd": 22.5,
    "potential_profit_usd": 12.5,
    "cashout_value_usd_at_capture": 10.0,
-   "result": "pending",
-   "status": "open",
+   "result": "loss",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
    "model_at_placement": {
     "available": true,
@@ -36,7 +36,14 @@
     "source": "User's TN slip",
     "note": "+125 on the slip matches the stale 9/2 VA capture price for Nacua ATD."
    },
-   "grading": null
+   "grading": {
+    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+    "graded_at": "2026-09-11T04:07:00Z",
+    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+    "detail": "Nacua 5 rec 74 yds, 0 TD. Loss."
+   },
+   "net_units": -2.0,
+   "net_usd": -10.0
   },
   {
    "bet_id": "us-tn:01m26tbw3vf8zbjk4hsthcdwfb",
@@ -58,8 +65,8 @@
    "potential_payout_usd": 71.35,
    "potential_profit_usd": 61.35,
    "cashout_value_usd_at_capture": 10.0,
-   "result": "pending",
-   "status": "open",
+   "result": "loss",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
    "model_at_placement": {
     "available": true,
@@ -71,7 +78,14 @@
     "source": "User's TN slip",
     "note": "+613 displayed on the slip (implied 14.0%). Leg prices not captured (alt lines and TD market are outside the 3-tab props capture)."
    },
-   "grading": null
+   "grading": {
+    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+    "graded_at": "2026-09-11T04:07:00Z",
+    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+    "detail": "1 of 4 legs hit. Kyren Williams ATD HIT (5-yd rush TD). MISSES: Stafford 155 pass yds (needed 225+); McCaffrey 68 rush + 20 rec = 88 (needed 90+); Kittle 12 rec yds (needed 34+). The injury-flagged Kittle leg and the Stafford alt both missed badly."
+   },
+   "net_units": -2.0,
+   "net_usd": -10.0
   },
   {
    "bet_id": "us-tn:01m26t66deezf91d82nt7qfa3f",
@@ -93,8 +107,8 @@
    "potential_payout_usd": 25.79,
    "potential_profit_usd": 20.79,
    "cashout_value_usd_at_capture": 5.0,
-   "result": "pending",
-   "status": "open",
+   "result": "loss",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
    "model_at_placement": {
     "available": true,
@@ -106,7 +120,14 @@
     "source": "User's TN slip",
     "note": "Base +277 (implied 26.5%), boosted +415 (implied 19.4%). Leg prices from the stale 9/2 VA capture were CMC -160 / Nacua +125; current leg prices not captured (TD market is outside the 3-tab props capture)."
    },
-   "grading": null
+   "grading": {
+    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+    "graded_at": "2026-09-11T04:07:00Z",
+    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+    "detail": "Neither leg scored. McCaffrey: 10 carries 68 yds, 5 rec 20 yds, 0 TD. Nacua: 5 rec 74 yds, 0 TD. SF TDs: Robinson, Evans, Samuel (all Purdy passes); LAR TD: Kyren Williams rush."
+   },
+   "net_units": -1.0,
+   "net_usd": -5.0
   },
   {
    "bet_id": "us-tn:01m2345jy5e6m82k50h30e6qhf",

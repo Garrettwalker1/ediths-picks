@@ -2,7 +2,7 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 2,
- "built_at": "2026-09-11T18:16:01Z",
+ "built_at": "2026-09-12T00:15:24Z",
  "purpose": "Track every FBS college football game from 2026 Week 2 (window 2026-09-10..2026-09-14) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-09-10..2026-09-14",
@@ -12,8 +12,8 @@
  "coverage": {
   "games": 86,
   "final": 1,
-  "in_progress": 0,
-  "scheduled": 85,
+  "in_progress": 5,
+  "scheduled": 80,
   "boxscores_collected": 100
  },
  "games": [
@@ -35,10 +35,10 @@
    "name": "Villanova Wildcats at Louisville Cardinals",
    "away": "Villanova Wildcats",
    "home": "Louisville Cardinals",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "10",
+   "home_score": "24",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -47,10 +47,10 @@
    "name": "Norfolk State Spartans at Virginia Cavaliers",
    "away": "Norfolk State Spartans",
    "home": "Virginia Cavaliers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "away_score": "3",
+   "home_score": "21",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -60,9 +60,9 @@
    "away": "Richmond Spiders",
    "home": "NC State Wolfpack",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "28",
+   "status": "Delayed",
+   "state": "in",
    "completed": false
   },
   {
@@ -72,9 +72,9 @@
    "away": "Rutgers Scarlet Knights",
    "home": "Boston College Eagles",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "home_score": "14",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {
@@ -85,8 +85,8 @@
    "home": "Kansas Jayhawks",
    "away_score": "0",
    "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
+   "status": "In Progress",
+   "state": "in",
    "completed": false
   },
   {

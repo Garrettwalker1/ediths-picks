@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-12T07:18:16-0500",
+ "generated_at": "2026-09-12T19:32:27-0500",
  "model": "cfb-gameline-v2.1 (churn+coach+draft+247 talent composite)",
  "label": "MEASUREMENT ONLY - not picks. Frozen INITIAL model numbers vs FanDuel TN book lines (display-only comparison). Model has not been proven against book lines. Totals side is a null and is omitted.",
  "window": "2026-09-10..2026-09-14 (Week 2, FBS)",
@@ -192,34 +192,6 @@
     "under_odds": -106,
     "away_ml": null,
     "home_ml": null
-   }
-  },
-  {
-   "event_id": "401856782",
-   "name": "Oregon Ducks at Oklahoma State Cowboys",
-   "date": "2026-09-12T16:00Z",
-   "away": "Oregon Ducks",
-   "home": "Oklahoma State Cowboys",
-   "neutral_site": false,
-   "timing": "pregame",
-   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
-   "predicted_margin_home": -25.7,
-   "predicted_winner": "Oregon Ducks",
-   "model_home_line": 25.7,
-   "frozen_initial": true,
-   "week": 2,
-   "book_tn": {
-    "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": -23.5,
-    "away_spread_odds": -105,
-    "home_spread": 23.5,
-    "home_spread_odds": -115,
-    "total": 54.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": -2100,
-    "home_ml": 1000
    }
   },
   {
@@ -548,11 +520,11 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T16:05:03Z",
     "away_spread": 40.5,
-    "away_spread_odds": -114,
+    "away_spread_odds": -110,
     "home_spread": -40.5,
-    "home_spread_odds": -106,
+    "home_spread_odds": -110,
     "total": 55.5,
     "over_odds": -112,
     "under_odds": -108,
@@ -576,11 +548,11 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T16:05:03Z",
     "away_spread": 41.5,
-    "away_spread_odds": -104,
+    "away_spread_odds": -110,
     "home_spread": -41.5,
-    "home_spread_odds": -118,
+    "home_spread_odds": -110,
     "total": 56.5,
     "over_odds": -110,
     "under_odds": -110,
@@ -604,16 +576,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 22.5,
+    "captured_at": "2026-09-12T16:05:03Z",
+    "away_spread": 19.5,
     "away_spread_odds": -110,
-    "home_spread": -22.5,
+    "home_spread": -19.5,
     "home_spread_odds": -110,
     "total": 49.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 1280,
-    "home_ml": -3500
+    "over_odds": -105,
+    "under_odds": -115,
+    "away_ml": 920,
+    "home_ml": -1800
    }
   },
   {
@@ -632,16 +604,44 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T16:05:03Z",
     "away_spread": 31.5,
     "away_spread_odds": -118,
     "home_spread": -31.5,
     "home_spread_odds": -104,
-    "total": 50.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "total": 47.5,
+    "over_odds": -108,
+    "under_odds": -112,
     "away_ml": 2200,
     "home_ml": -8000
+   }
+  },
+  {
+   "event_id": "401856782",
+   "name": "Oregon Ducks at Oklahoma State Cowboys",
+   "date": "2026-09-12T17:30Z",
+   "away": "Oregon Ducks",
+   "home": "Oklahoma State Cowboys",
+   "neutral_site": false,
+   "timing": "pregame",
+   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
+   "predicted_margin_home": -25.7,
+   "predicted_winner": "Oregon Ducks",
+   "model_home_line": 25.7,
+   "frozen_initial": true,
+   "week": 2,
+   "book_tn": {
+    "state": "TN",
+    "captured_at": "2026-09-12T16:05:03Z",
+    "away_spread": -23.5,
+    "away_spread_odds": -115,
+    "home_spread": 23.5,
+    "home_spread_odds": -105,
+    "total": 54.5,
+    "over_odds": -115,
+    "under_odds": -105,
+    "away_ml": -2800,
+    "home_ml": 1160
    }
   },
   {
@@ -660,16 +660,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T16:05:03Z",
     "away_spread": 14.5,
-    "away_spread_odds": -114,
+    "away_spread_odds": -115,
     "home_spread": -14.5,
-    "home_spread_odds": -106,
-    "total": 55.5,
-    "over_odds": -106,
-    "under_odds": -114,
-    "away_ml": 520,
-    "home_ml": -750
+    "home_spread_odds": -105,
+    "total": 52.5,
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 450,
+    "home_ml": -630
    }
   },
   {
@@ -688,14 +688,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 44.5,
     "away_spread_odds": -105,
     "home_spread": -44.5,
     "home_spread_odds": -115,
-    "total": 55.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "total": 54.5,
+    "over_odds": -115,
+    "under_odds": -105,
     "away_ml": null,
     "home_ml": null
    }
@@ -716,16 +716,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": -10.5,
-    "away_spread_odds": 100,
-    "home_spread": 10.5,
-    "home_spread_odds": -122,
-    "total": 48.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": -9.5,
+    "away_spread_odds": -105,
+    "home_spread": 9.5,
+    "home_spread_odds": -115,
+    "total": 47.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": -375,
-    "home_ml": 290
+    "away_ml": -350,
+    "home_ml": 275
    }
   },
   {
@@ -744,16 +744,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 7.5,
-    "away_spread_odds": -110,
-    "home_spread": -7.5,
-    "home_spread_odds": -110,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 6.5,
+    "away_spread_odds": 100,
+    "home_spread": -6.5,
+    "home_spread_odds": -122,
     "total": 48.5,
     "over_odds": -106,
     "under_odds": -114,
-    "away_ml": 245,
-    "home_ml": -310
+    "away_ml": 220,
+    "home_ml": -275
    }
   },
   {
@@ -772,11 +772,11 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 27.5,
-    "away_spread_odds": -105,
+    "away_spread_odds": -102,
     "home_spread": -27.5,
-    "home_spread_odds": -115,
+    "home_spread_odds": -120,
     "total": 55.5,
     "over_odds": -110,
     "under_odds": -110,
@@ -800,7 +800,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -1.5,
     "away_spread_odds": 100,
     "home_spread": 1.5,
@@ -808,8 +808,8 @@
     "total": 54.5,
     "over_odds": -115,
     "under_odds": -105,
-    "away_ml": -105,
-    "home_ml": -114
+    "away_ml": -110,
+    "home_ml": -110
    }
   },
   {
@@ -828,16 +828,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 34.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 38.5,
     "away_spread_odds": -115,
-    "home_spread": -34.5,
+    "home_spread": -38.5,
     "home_spread_odds": -105,
-    "total": 55.5,
-    "over_odds": -112,
-    "under_odds": -108,
-    "away_ml": 4000,
-    "home_ml": -30000
+    "total": 56.5,
+    "over_odds": -115,
+    "under_odds": -105,
+    "away_ml": null,
+    "home_ml": null
    }
   },
   {
@@ -856,14 +856,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 7.5,
     "away_spread_odds": -122,
     "home_spread": -7.5,
     "home_spread_odds": 100,
-    "total": 56.5,
-    "over_odds": -112,
-    "under_odds": -108,
+    "total": 55.5,
+    "over_odds": -110,
+    "under_odds": -110,
     "away_ml": 220,
     "home_ml": -275
    }
@@ -884,7 +884,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 3.5,
     "away_spread_odds": -112,
     "home_spread": -3.5,
@@ -892,8 +892,8 @@
     "total": 56.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": 146,
-    "home_ml": -178
+    "away_ml": 140,
+    "home_ml": -170
    }
   },
   {
@@ -912,7 +912,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 5.5,
     "away_spread_odds": -105,
     "home_spread": -5.5,
@@ -920,8 +920,8 @@
     "total": 51.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": 188,
-    "home_ml": -230
+    "away_ml": 190,
+    "home_ml": -235
    }
   },
   {
@@ -940,7 +940,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 17.5,
     "away_spread_odds": -114,
     "home_spread": -17.5,
@@ -968,14 +968,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -11.5,
     "away_spread_odds": -110,
     "home_spread": 11.5,
     "home_spread_odds": -110,
-    "total": 52.5,
-    "over_odds": -105,
-    "under_odds": -115,
+    "total": null,
+    "over_odds": null,
+    "under_odds": null,
     "away_ml": -465,
     "home_ml": 350
    }
@@ -996,16 +996,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 2.5,
-    "away_spread_odds": -115,
+    "away_spread_odds": -110,
     "home_spread": -2.5,
-    "home_spread_odds": -105,
-    "total": 66.5,
-    "over_odds": -105,
-    "under_odds": -115,
-    "away_ml": 105,
-    "home_ml": -126
+    "home_spread_odds": -110,
+    "total": 65.5,
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 112,
+    "home_ml": -134
    }
   },
   {
@@ -1024,16 +1024,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 9.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 8.5,
     "away_spread_odds": -110,
-    "home_spread": -9.5,
+    "home_spread": -8.5,
     "home_spread_odds": -110,
     "total": 54.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": 285,
-    "home_ml": -365
+    "away_ml": 280,
+    "home_ml": -360
    }
   },
   {
@@ -1052,16 +1052,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 27.5,
     "away_spread_odds": -106,
     "home_spread": -27.5,
     "home_spread_odds": -114,
-    "total": 43.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 2400,
-    "home_ml": -10000
+    "total": 46.5,
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 2200,
+    "home_ml": -8000
    }
   },
   {
@@ -1080,14 +1080,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 35.5,
     "away_spread_odds": -108,
     "home_spread": -35.5,
     "home_spread_odds": -112,
-    "total": 54.5,
-    "over_odds": -118,
-    "under_odds": -104,
+    "total": 52.5,
+    "over_odds": -112,
+    "under_odds": -110,
     "away_ml": null,
     "home_ml": null
    }
@@ -1108,16 +1108,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -3.5,
-    "away_spread_odds": 100,
+    "away_spread_odds": 110,
     "home_spread": 3.5,
-    "home_spread_odds": -122,
+    "home_spread_odds": -134,
     "total": 58.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": -162,
-    "home_ml": 134
+    "away_ml": -152,
+    "home_ml": 126
    }
   },
   {
@@ -1136,16 +1136,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 28.5,
-    "away_spread_odds": -105,
-    "home_spread": -28.5,
-    "home_spread_odds": -115,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 31.5,
+    "away_spread_odds": -114,
+    "home_spread": -31.5,
+    "home_spread_odds": -106,
     "total": 59.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": 2200,
-    "home_ml": -8000
+    "away_ml": 2800,
+    "home_ml": -10000
    }
   },
   {
@@ -1164,16 +1164,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 23.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 22.5,
     "away_spread_odds": -110,
-    "home_spread": -23.5,
+    "home_spread": -22.5,
     "home_spread_odds": -110,
-    "total": 46.5,
-    "over_odds": -112,
-    "under_odds": -108,
-    "away_ml": 1280,
-    "home_ml": -3500
+    "total": 43.5,
+    "over_odds": -114,
+    "under_odds": -106,
+    "away_ml": 1200,
+    "home_ml": -3000
    }
   },
   {
@@ -1192,7 +1192,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 42.5,
     "away_spread_odds": -118,
     "home_spread": -42.5,
@@ -1220,16 +1220,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 23.5,
-    "away_spread_odds": -115,
+    "away_spread_odds": -110,
     "home_spread": -23.5,
-    "home_spread_odds": -105,
-    "total": 51.5,
+    "home_spread_odds": -110,
+    "total": 52.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": 1000,
-    "home_ml": -2100
+    "away_ml": 1060,
+    "home_ml": -2300
    }
   },
   {
@@ -1248,16 +1248,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 21.5,
-    "away_spread_odds": -115,
-    "home_spread": -21.5,
-    "home_spread_odds": -105,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 20.5,
+    "away_spread_odds": -104,
+    "home_spread": -20.5,
+    "home_spread_odds": -118,
     "total": 54.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": 1000,
-    "home_ml": -2100
+    "away_ml": 920,
+    "home_ml": -1800
    }
   },
   {
@@ -1276,14 +1276,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 50.5,
     "away_spread_odds": -105,
     "home_spread": -50.5,
     "home_spread_odds": -115,
     "total": 66.5,
-    "over_odds": -114,
-    "under_odds": -106,
+    "over_odds": -110,
+    "under_odds": -110,
     "away_ml": null,
     "home_ml": null
    }
@@ -1304,16 +1304,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 9.5,
-    "away_spread_odds": -110,
+    "away_spread_odds": -115,
     "home_spread": -9.5,
-    "home_spread_odds": -110,
+    "home_spread_odds": -105,
     "total": 55.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 280,
-    "home_ml": -360
+    "over_odds": -106,
+    "under_odds": -114,
+    "away_ml": 265,
+    "home_ml": -335
    }
   },
   {
@@ -1332,16 +1332,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 10.5,
     "away_spread_odds": -114,
     "home_spread": -10.5,
     "home_spread_odds": -106,
     "total": 47.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 330,
-    "home_ml": -430
+    "over_odds": -108,
+    "under_odds": -112,
+    "away_ml": 340,
+    "home_ml": -450
    }
   },
   {
@@ -1360,16 +1360,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 2.5,
-    "away_spread_odds": -110,
+    "away_spread_odds": -115,
     "home_spread": -2.5,
-    "home_spread_odds": -110,
+    "home_spread_odds": -105,
     "total": 50.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 112,
-    "home_ml": -134
+    "over_odds": -108,
+    "under_odds": -112,
+    "away_ml": 106,
+    "home_ml": -128
    }
   },
   {
@@ -1388,16 +1388,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 27.5,
-    "away_spread_odds": -110,
-    "home_spread": -27.5,
-    "home_spread_odds": -110,
-    "total": 53.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 28.5,
+    "away_spread_odds": -105,
+    "home_spread": -28.5,
+    "home_spread_odds": -115,
+    "total": 54.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": 2000,
-    "home_ml": -7000
+    "away_ml": 2400,
+    "home_ml": -10000
    }
   },
   {
@@ -1416,7 +1416,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -11.5,
     "away_spread_odds": -118,
     "home_spread": 11.5,
@@ -1444,14 +1444,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 51.5,
-    "away_spread_odds": -112,
+    "away_spread_odds": -110,
     "home_spread": -51.5,
-    "home_spread_odds": -108,
+    "home_spread_odds": -110,
     "total": 61.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "over_odds": -115,
+    "under_odds": -105,
     "away_ml": null,
     "home_ml": null
    }
@@ -1472,14 +1472,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 43.5,
     "away_spread_odds": -105,
     "home_spread": -43.5,
     "home_spread_odds": -115,
-    "total": 55.5,
-    "over_odds": -115,
-    "under_odds": -105,
+    "total": 57.5,
+    "over_odds": -110,
+    "under_odds": -110,
     "away_ml": null,
     "home_ml": null
    }
@@ -1500,14 +1500,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 37.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 35.5,
     "away_spread_odds": -110,
-    "home_spread": -37.5,
+    "home_spread": -35.5,
     "home_spread_odds": -110,
     "total": 61.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "over_odds": -106,
+    "under_odds": -114,
     "away_ml": 2400,
     "home_ml": -10000
    }
@@ -1528,7 +1528,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 30.5,
     "away_spread_odds": -110,
     "home_spread": -30.5,
@@ -1556,16 +1556,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": -13.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": -11.5,
     "away_spread_odds": -110,
-    "home_spread": 13.5,
+    "home_spread": 11.5,
     "home_spread_odds": -110,
     "total": 51.5,
     "over_odds": -108,
     "under_odds": -112,
-    "away_ml": -610,
-    "home_ml": 440
+    "away_ml": -490,
+    "home_ml": 365
    }
   },
   {
@@ -1584,16 +1584,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": -4.5,
-    "away_spread_odds": -110,
-    "home_spread": 4.5,
-    "home_spread_odds": -110,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": -3.5,
+    "away_spread_odds": 106,
+    "home_spread": 3.5,
+    "home_spread_odds": -130,
     "total": 47.5,
     "over_odds": -115,
     "under_odds": -105,
-    "away_ml": -194,
-    "home_ml": 160
+    "away_ml": -146,
+    "home_ml": 122
    }
   },
   {
@@ -1612,16 +1612,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 9.5,
-    "away_spread_odds": -102,
+    "away_spread_odds": -112,
     "home_spread": -9.5,
-    "home_spread_odds": -120,
+    "home_spread_odds": -108,
     "total": 48.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 310,
-    "home_ml": -400
+    "over_odds": -104,
+    "under_odds": -118,
+    "away_ml": 275,
+    "home_ml": -350
    }
   },
   {
@@ -1640,16 +1640,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 8.5,
-    "away_spread_odds": -115,
-    "home_spread": -8.5,
-    "home_spread_odds": -105,
-    "total": 54.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 250,
-    "home_ml": -320
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 7.5,
+    "away_spread_odds": -110,
+    "home_spread": -7.5,
+    "home_spread_odds": -110,
+    "total": 55.5,
+    "over_odds": -106,
+    "under_odds": -114,
+    "away_ml": 245,
+    "home_ml": -310
    }
   },
   {
@@ -1668,14 +1668,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 13.5,
     "away_spread_odds": -115,
     "home_spread": -13.5,
     "home_spread_odds": -105,
-    "total": 56.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "total": 55.5,
+    "over_odds": -112,
+    "under_odds": -108,
     "away_ml": 390,
     "home_ml": -530
    }
@@ -1696,7 +1696,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 16.5,
     "away_spread_odds": -110,
     "home_spread": -16.5,
@@ -1724,16 +1724,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 12.5,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 13.5,
     "away_spread_odds": -110,
-    "home_spread": -12.5,
+    "home_spread": -13.5,
     "home_spread_odds": -110,
     "total": 54.5,
     "over_odds": -106,
     "under_odds": -114,
-    "away_ml": 400,
-    "home_ml": -550
+    "away_ml": 450,
+    "home_ml": -630
    }
   },
   {
@@ -1752,14 +1752,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 40.5,
-    "away_spread_odds": -110,
-    "home_spread": -40.5,
-    "home_spread_odds": -110,
-    "total": 50.5,
-    "over_odds": -108,
-    "under_odds": -112,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 42.5,
+    "away_spread_odds": -120,
+    "home_spread": -42.5,
+    "home_spread_odds": -102,
+    "total": 51.5,
+    "over_odds": -115,
+    "under_odds": -105,
     "away_ml": null,
     "home_ml": null
    }
@@ -1780,16 +1780,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 1.5,
-    "away_spread_odds": -108,
+    "away_spread_odds": -110,
     "home_spread": -1.5,
-    "home_spread_odds": -112,
+    "home_spread_odds": -110,
     "total": 49.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 104,
-    "home_ml": -122
+    "over_odds": -118,
+    "under_odds": -104,
+    "away_ml": 102,
+    "home_ml": -120
    }
   },
   {
@@ -1808,7 +1808,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 35.5,
     "away_spread_odds": -122,
     "home_spread": -35.5,
@@ -1836,7 +1836,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -26.5,
     "away_spread_odds": -102,
     "home_spread": 26.5,
@@ -1864,16 +1864,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 13.5,
-    "away_spread_odds": 100,
-    "home_spread": -13.5,
-    "home_spread_odds": -122,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 14.5,
+    "away_spread_odds": -120,
+    "home_spread": -14.5,
+    "home_spread_odds": -102,
     "total": 41.5,
-    "over_odds": -104,
-    "under_odds": -118,
-    "away_ml": 490,
-    "home_ml": -710
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 460,
+    "home_ml": -650
    }
   },
   {
@@ -1892,14 +1892,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": 19.5,
     "away_spread_odds": -110,
     "home_spread": -19.5,
     "home_spread_odds": -110,
     "total": 54.5,
-    "over_odds": -115,
-    "under_odds": -105,
+    "over_odds": -108,
+    "under_odds": -112,
     "away_ml": 800,
     "home_ml": -1400
    }
@@ -1920,7 +1920,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": -4.5,
     "away_spread_odds": -110,
     "home_spread": 4.5,
@@ -1948,11 +1948,11 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 35.5,
-    "away_spread_odds": -120,
+    "away_spread_odds": -114,
     "home_spread": -35.5,
-    "home_spread_odds": -102,
+    "home_spread_odds": -106,
     "total": 53.5,
     "over_odds": -110,
     "under_odds": -110,
@@ -1976,44 +1976,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 45.5,
-    "away_spread_odds": -118,
-    "home_spread": -45.5,
-    "home_spread_odds": -104,
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 44.5,
+    "away_spread_odds": -110,
+    "home_spread": -44.5,
+    "home_spread_odds": -110,
     "total": 59.5,
     "over_odds": -105,
     "under_odds": -115,
     "away_ml": null,
     "home_ml": null
-   }
-  },
-  {
-   "event_id": "401856671",
-   "name": "Southern Miss Golden Eagles at Auburn Tigers",
-   "date": "2026-09-12T23:45Z",
-   "away": "Southern Miss Golden Eagles",
-   "home": "Auburn Tigers",
-   "neutral_site": false,
-   "timing": "pregame",
-   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
-   "predicted_margin_home": 21.2,
-   "predicted_winner": "Auburn Tigers",
-   "model_home_line": -21.2,
-   "frozen_initial": true,
-   "week": 2,
-   "book_tn": {
-    "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 32.5,
-    "away_spread_odds": -105,
-    "home_spread": -32.5,
-    "home_spread_odds": -115,
-    "total": 56.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 2400,
-    "home_ml": -10000
    }
   },
   {
@@ -2032,14 +2004,14 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 44.5,
     "away_spread_odds": -110,
     "home_spread": -44.5,
     "home_spread_odds": -110,
     "total": 55.5,
-    "over_odds": -108,
-    "under_odds": -112,
+    "over_odds": -115,
+    "under_odds": -105,
     "away_ml": null,
     "home_ml": null
    }
@@ -2060,7 +2032,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-12T18:24:40Z",
     "away_spread": 37.5,
     "away_spread_odds": -104,
     "home_spread": -37.5,
@@ -2070,6 +2042,34 @@
     "under_odds": -105,
     "away_ml": null,
     "home_ml": null
+   }
+  },
+  {
+   "event_id": "401856671",
+   "name": "Southern Miss Golden Eagles at Auburn Tigers",
+   "date": "2026-09-13T00:50Z",
+   "away": "Southern Miss Golden Eagles",
+   "home": "Auburn Tigers",
+   "neutral_site": false,
+   "timing": "pregame",
+   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
+   "predicted_margin_home": 21.2,
+   "predicted_winner": "Auburn Tigers",
+   "model_home_line": -21.2,
+   "frozen_initial": true,
+   "week": 2,
+   "book_tn": {
+    "state": "TN",
+    "captured_at": "2026-09-12T18:24:40Z",
+    "away_spread": 32.5,
+    "away_spread_odds": -105,
+    "home_spread": -32.5,
+    "home_spread_odds": -115,
+    "total": 56.5,
+    "over_odds": -115,
+    "under_odds": -105,
+    "away_ml": 2400,
+    "home_ml": -10000
    }
   },
   {
@@ -2103,7 +2103,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": 25.5,
     "away_spread_odds": -106,
     "home_spread": -25.5,
@@ -2111,8 +2111,8 @@
     "total": 53.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": 2000,
-    "home_ml": -7000
+    "away_ml": 1600,
+    "home_ml": -4500
    }
   },
   {
@@ -2131,16 +2131,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": -2.5,
-    "away_spread_odds": -105,
+    "away_spread_odds": -102,
     "home_spread": 2.5,
-    "home_spread_odds": -115,
+    "home_spread_odds": -120,
     "total": 47.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": -128,
-    "home_ml": 106
+    "away_ml": -118,
+    "home_ml": -102
    }
   },
   {
@@ -2159,7 +2159,7 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": 12.5,
     "away_spread_odds": -110,
     "home_spread": -12.5,
@@ -2187,16 +2187,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": 17.5,
-    "away_spread_odds": -108,
+    "away_spread_odds": -115,
     "home_spread": -17.5,
-    "home_spread_odds": -112,
+    "home_spread_odds": -105,
     "total": 44.5,
     "over_odds": -115,
     "under_odds": -105,
-    "away_ml": 680,
-    "home_ml": -1100
+    "away_ml": 660,
+    "home_ml": -1050
    }
   },
   {
@@ -2215,16 +2215,16 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": -3.5,
-    "away_spread_odds": 100,
+    "away_spread_odds": -115,
     "home_spread": 3.5,
-    "home_spread_odds": -122,
-    "total": 50.5,
-    "over_odds": -108,
-    "under_odds": -112,
-    "away_ml": -162,
-    "home_ml": 134
+    "home_spread_odds": -105,
+    "total": 51.5,
+    "over_odds": -112,
+    "under_odds": -108,
+    "away_ml": -192,
+    "home_ml": 158
    }
   },
   {
@@ -2243,11 +2243,11 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
-    "away_spread": 31.5,
-    "away_spread_odds": -118,
-    "home_spread": -31.5,
-    "home_spread_odds": -104,
+    "captured_at": "2026-09-13T00:17:34Z",
+    "away_spread": 30.5,
+    "away_spread_odds": -105,
+    "home_spread": -30.5,
+    "home_spread_odds": -115,
     "total": 59.5,
     "over_odds": -105,
     "under_odds": -115,
@@ -2271,27 +2271,20 @@
    "week": 2,
    "book_tn": {
     "state": "TN",
-    "captured_at": "2026-09-12T12:16:38Z",
+    "captured_at": "2026-09-13T00:17:34Z",
     "away_spread": 7.5,
-    "away_spread_odds": -120,
+    "away_spread_odds": -122,
     "home_spread": -7.5,
-    "home_spread_odds": -102,
+    "home_spread_odds": 100,
     "total": 49.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 235,
-    "home_ml": -295
+    "over_odds": -114,
+    "under_odds": -106,
+    "away_ml": 230,
+    "home_ml": -285
    }
   }
  ],
  "errors": [
-  {
-   "event_id": "401866420",
-   "name": "Sacred Heart Pioneers at Massachusetts Minutemen",
-   "date": "2026-09-12T19:30Z",
-   "error": "team not in FBS corpus (FCS or new program)",
-   "week": 2
-  },
   {
    "event_id": "401860882",
    "name": "Southern Utah Thunderbirds at Colorado State Rams",
@@ -2303,6 +2296,13 @@
    "event_id": "401868241",
    "name": "West Georgia Wolves at Arkansas State Red Wolves",
    "date": "2026-09-12T23:00Z",
+   "error": "missing features",
+   "week": 2
+  },
+  {
+   "event_id": "401866420",
+   "name": "Sacred Heart Pioneers at Massachusetts Minutemen",
+   "date": "2026-09-12T19:30Z",
    "error": "missing features",
    "week": 2
   }

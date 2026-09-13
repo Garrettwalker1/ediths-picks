@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-09-12T19:32:27-0500",
+ "generated_at": "2026-09-13T10:59:06-0500",
  "model": "cfb-gameline-v2.1 (churn+coach+draft+247 talent composite)",
  "label": "MEASUREMENT ONLY - not picks. Frozen INITIAL model numbers vs FanDuel TN book lines (display-only comparison). Model has not been proven against book lines. Totals side is a null and is omitted.",
  "window": "2026-09-10..2026-09-14 (Week 2, FBS)",
@@ -1877,34 +1877,6 @@
    }
   },
   {
-   "event_id": "401858219",
-   "name": "Georgia Southern Eagles at Clemson Tigers",
-   "date": "2026-09-12T23:30Z",
-   "away": "Georgia Southern Eagles",
-   "home": "Clemson Tigers",
-   "neutral_site": false,
-   "timing": "pregame",
-   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
-   "predicted_margin_home": 19.1,
-   "predicted_winner": "Clemson Tigers",
-   "model_home_line": -19.1,
-   "frozen_initial": true,
-   "week": 2,
-   "book_tn": {
-    "state": "TN",
-    "captured_at": "2026-09-13T00:17:34Z",
-    "away_spread": 19.5,
-    "away_spread_odds": -110,
-    "home_spread": -19.5,
-    "home_spread_odds": -110,
-    "total": 54.5,
-    "over_odds": -108,
-    "under_odds": -112,
-    "away_ml": 800,
-    "home_ml": -1400
-   }
-  },
-  {
    "event_id": "401862703",
    "name": "Navy Midshipmen at Florida Atlantic Owls",
    "date": "2026-09-12T23:30Z",
@@ -2116,6 +2088,34 @@
    }
   },
   {
+   "event_id": "401858219",
+   "name": "Georgia Southern Eagles at Clemson Tigers",
+   "date": "2026-09-13T01:30Z",
+   "away": "Georgia Southern Eagles",
+   "home": "Clemson Tigers",
+   "neutral_site": false,
+   "timing": "pregame",
+   "timing_note": "INITIAL pre-book number, frozen 2026-09-08 ~12:31 AM CT before any Week 2 book capture. Never rescored.",
+   "predicted_margin_home": 19.1,
+   "predicted_winner": "Clemson Tigers",
+   "model_home_line": -19.1,
+   "frozen_initial": true,
+   "week": 2,
+   "book_tn": {
+    "state": "TN",
+    "captured_at": "2026-09-13T00:17:34Z",
+    "away_spread": 19.5,
+    "away_spread_odds": -110,
+    "home_spread": -19.5,
+    "home_spread_odds": -110,
+    "total": 54.5,
+    "over_odds": -108,
+    "under_odds": -112,
+    "away_ml": 800,
+    "home_ml": -1400
+   }
+  },
+  {
    "event_id": "401864502",
    "name": "North Dakota State Bison at Air Force Falcons",
    "date": "2026-09-13T02:00Z",
@@ -2146,7 +2146,7 @@
   {
    "event_id": "401856670",
    "name": "Arkansas Razorbacks at Utah Utes",
-   "date": "2026-09-13T02:15Z",
+   "date": "2026-09-13T02:30Z",
    "away": "Arkansas Razorbacks",
    "home": "Utah Utes",
    "neutral_site": false,
@@ -2286,23 +2286,23 @@
  ],
  "errors": [
   {
+   "event_id": "401866420",
+   "name": "Sacred Heart Pioneers at Massachusetts Minutemen",
+   "date": "2026-09-12T19:30Z",
+   "error": "missing features",
+   "week": 2
+  },
+  {
    "event_id": "401860882",
    "name": "Southern Utah Thunderbirds at Colorado State Rams",
    "date": "2026-09-12T23:00Z",
-   "error": "team not in FBS corpus (FCS or new program)",
+   "error": "missing features",
    "week": 2
   },
   {
    "event_id": "401868241",
    "name": "West Georgia Wolves at Arkansas State Red Wolves",
    "date": "2026-09-12T23:00Z",
-   "error": "missing features",
-   "week": 2
-  },
-  {
-   "event_id": "401866420",
-   "name": "Sacred Heart Pioneers at Massachusetts Minutemen",
-   "date": "2026-09-12T19:30Z",
    "error": "missing features",
    "week": 2
   }

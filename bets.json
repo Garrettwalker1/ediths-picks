@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-11T04:07:00Z",
+ "updated_at": "2026-09-13T16:52:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -475,6 +475,147 @@
     "net_usd": -10.0,
     "source_note": "Official result via ESPN.com game recap and AP report (Colorado 14-13, final; CU go-ahead TD with 0:42 left). The site.api.espn.com feed for event 401856776 is stuck at \"In Progress\" 10-7 2Q - an ESPN API-side defect, retried multiple times over 6+ hours."
    }
+  },
+  {
+   "bet_id": "not_captured",
+   "date": "2026-09-13T15:45:00Z",
+   "placed_at": "2026-09-13T15:45:00Z",
+   "sport": "NFL",
+   "game": "Multi-game anytime-TD parlay",
+   "kickoff": "2026-09-13T17:01:00Z",
+   "bet": "4-leg anytime-TD parlay: Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
+   "market": "anytime_touchdown_parlay",
+   "selection": "Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
+   "line": null,
+   "price": 2798,
+   "price_note": "50% FanDuel profit boost applied; base price +2798 boosted to +4196",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 0.6,
+   "stake_usd": 3.0,
+   "potential_payout_usd": 128.91,
+   "potential_profit_usd": 125.91,
+   "result": "pending",
+   "status": "pending",
+   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+   "legs": [
+    {
+     "player": "Emeka Egbuka",
+     "price": 203,
+     "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.125
+    },
+    {
+     "player": "Tony Pollard",
+     "price": 164,
+     "game": "New York Jets @ Tennessee Titans",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.401
+    },
+    {
+     "player": "Jonathan Taylor",
+     "price": -143,
+     "game": "Baltimore Ravens @ Indianapolis Colts",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.462
+    },
+    {
+     "player": "Christian Watson",
+     "price": 214,
+     "game": "Green Bay Packers @ Minnesota Vikings",
+     "kickoff": "2026-09-13T20:25:00Z",
+     "model_td_probability": 0.297
+    }
+   ],
+   "notes": "NOT model-backed names. Model TD probs (v3, frozen 9/3): Egbuka 12.5%, Pollard 40.1%, Taylor 46.2%, Watson 29.7%. None are model top names; Egbuka at 12.5% is far below his +203 implied (33.1%). Bet ID cut off in screenshot, not captured."
+  },
+  {
+   "bet_id": "us-tn:01m2dpw6wpetb9bny3ef5vds2x",
+   "date": "2026-09-13T15:41:00Z",
+   "placed_at": "2026-09-13T15:41:00Z",
+   "sport": "NFL",
+   "game": "Multi-game anytime-TD parlay",
+   "kickoff": "2026-09-13T17:01:00Z",
+   "bet": "2-leg anytime-TD parlay: Trey McBride ATD +235 + Cam Skattebo ATD +123",
+   "market": "anytime_touchdown_parlay",
+   "selection": "Trey McBride ATD +235 + Cam Skattebo ATD +123",
+   "line": null,
+   "price": 500,
+   "price_note": "30% FanDuel profit boost applied; base price +500 boosted to +650",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 1.0,
+   "stake_usd": 5.0,
+   "potential_payout_usd": 37.5,
+   "potential_profit_usd": 32.5,
+   "result": "pending",
+   "status": "pending",
+   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+   "legs": [
+    {
+     "player": "Trey McBride",
+     "price": 235,
+     "game": "Arizona Cardinals @ Los Angeles Chargers",
+     "kickoff": "2026-09-13T20:26:00Z",
+     "model_td_probability": 0.408
+    },
+    {
+     "player": "Cam Skattebo",
+     "price": 123,
+     "game": "Dallas Cowboys @ New York Giants",
+     "kickoff": "2026-09-14T00:20:00Z",
+     "model_td_probability": 0.479
+    }
+   ],
+   "notes": "NOT model-backed names. Model TD probs: McBride 40.8% (book implied 29.9% - model HIGHER), Skattebo 47.9% (implied 44.8%). Neither is a model top-3 name. Bet ID from slip; placed 10:41 AM CT. SNF leg settles after 7:20 PM CT game."
+  },
+  {
+   "bet_id": "not_captured",
+   "date": "2026-09-13T15:45:00Z",
+   "placed_at": "2026-09-13T15:45:00Z",
+   "sport": "NFL",
+   "game": "Multi-game anytime-TD parlay",
+   "kickoff": "2026-09-13T17:01:00Z",
+   "bet": "3-leg anytime-TD parlay: Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
+   "market": "anytime_touchdown_parlay",
+   "selection": "Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
+   "line": null,
+   "price": 408,
+   "price_note": "Bet Reset Token used (no profit boost); price +408",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 1.0,
+   "stake_usd": 5.0,
+   "potential_payout_usd": 25.42,
+   "potential_profit_usd": 20.42,
+   "result": "pending",
+   "status": "pending",
+   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+   "legs": [
+    {
+     "player": "Bijan Robinson",
+     "price": -120,
+     "game": "Atlanta Falcons @ Pittsburgh Steelers",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.713
+    },
+    {
+     "player": "Chase Brown",
+     "price": -120,
+     "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.641
+    },
+    {
+     "player": "Derrick Henry",
+     "price": -195,
+     "game": "Baltimore Ravens @ Indianapolis Colts",
+     "kickoff": "2026-09-13T17:01:00Z",
+     "model_td_probability": 0.649
+    }
+   ],
+   "notes": "MODEL-BACKED: the v3 TD model's top-3 names for this slate (71.3% / 64.1% / 64.9%) at the fresh 9/13 10:56 AM CT VA-equivalent prices (-120 / -120 / -195; 9/2 stale prices were -165/-145/-210). Bet ID cut off in screenshot, not captured."
   }
  ]
 }

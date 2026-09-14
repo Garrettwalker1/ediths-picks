@@ -51,3 +51,19 @@ Val 2023 preferred v3.2c (10.534 vs 10.556) but the locked test did not confirm:
 10.239 (v3.2c-minus-v3.2b mean +0.014, CI95 [-0.009,0.036]). Val/test ordering disagrees, so under the
 9/6 rule the flags are NOT adopted. v3.2c still loses to the closing spread with a settled interval
 (+0.454 MAE, CI95 [0.159,0.729]). descriptive_failed_close stands; v3.2b remains the reference model.
+
+## Iteration 4 (2026-09-14): EPA features + PFF+ lever - both recorded, neither adopted
+
+EPA lever (build_v32d.py, agg_epa.py): team-game offensive/defensive EPA per play, success rate and
+pass/rush EPA splits from nflverse play-by-play 2010-2025, same prior+rolling-4 gp-weighted
+construction as the base features. 8 variants tested; all lose to v3.2b on validation
+(10.610-10.687 vs 10.556) - EPA is collinear with the incumbent yards/points block. Recorded as an
+honest negative. One recorded note: EPA-only+context hit the best locked-test MAE seen so far
+(10.159, ATS 52.3%) but fails the val-first selection rule, so it is not adopted.
+
+PFF lever: vault login to Garrett's PFF+ account works. On his subscription tier, premium.pff.com
+server-side restricts every differentiating field (all grades, EPA, pressures, turnover-worthy plays,
+big-time throws, dropbacks, snaps); the unlocked fields are box-score counting stats that nflverse
+already covers with full history. No features to test - blocked by tier, not by auth.
+
+v3.2b remains the reference model. descriptive_failed_close stands.

@@ -39,3 +39,15 @@ games.csv). Coordinator identities 2006-2021 secured from jchernak96/NFL_Coordin
 2022-2025 being filled from Wikipedia team-season staff sections (rate-limited crawl in progress).
 PFR direct crawl blocked from datacenter IPs (403) and Cloudflare-challenges the cloud browser.
 OC/DC change flags join iteration 3 once the table is complete.
+
+## Iteration 3 (2026-09-14): OC/DC change flags - honest negative, not adopted
+
+coordinators_2006_2025.csv: team-season head coach / offensive coordinator / defensive coordinator
+identities 2006-2025 (PFR-derived 2006-2021; Wikipedia team-season staff sections 2022-2025 with 20
+structural gaps patched from pro-football-reference team pages; GB 2025 DC web-verified). Null = the
+team officially listed no coordinator that season. build_v32c.py + boot_v32c.py.
+
+Val 2023 preferred v3.2c (10.534 vs 10.556) but the locked test did not confirm: 10.254 vs v3.2b's
+10.239 (v3.2c-minus-v3.2b mean +0.014, CI95 [-0.009,0.036]). Val/test ordering disagrees, so under the
+9/6 rule the flags are NOT adopted. v3.2c still loses to the closing spread with a settled interval
+(+0.454 MAE, CI95 [0.159,0.729]). descriptive_failed_close stands; v3.2b remains the reference model.

@@ -1,173 +1,253 @@
 {
- "model": "nfl-margin-v3.2",
- "built": "2026-09-14",
- "protocol": {
-  "train": "2010-2022 REG",
-  "validation": "2023 REG (feature/learner selection)",
-  "locked_test": "2024-2025 REG (reported separately)",
-  "bootstrap": "500 game-cluster resamples, 95% CI"
- },
- "data": {
-  "games_lines": "nflverse schedules (games.csv) - includes spread_line, moneylines, rest days, coaches, QBs. Book lines used as BENCHMARK ONLY, never model inputs.",
-  "team_stats": "nflverse stats_player weekly 2010-2025 aggregated to team-game",
-  "injuries": "nflverse weekly injury reports 2010-2025 (pregame report_status)",
-  "talent": "returning/incoming production shares from stats_player player-seasons"
- },
- "test_2024": {
-  "model_mae": 10.12,
-  "elo_mae": 10.55,
-  "closing_spread_mae": 9.65,
-  "ats_vs_close": 0.5,
-  "n": 256
- },
- "test_2025": {
-  "model_mae": 10.34,
-  "elo_mae": 10.7,
-  "closing_spread_mae": 9.96,
-  "ats_vs_close": 0.523,
-  "n": 256
- },
- "test_combined": {
-  "model_mae": 10.23,
-  "elo_mae": 10.45,
-  "closing_spread_mae": 9.8,
-  "model_acc": 0.641,
-  "elo_acc": 0.632,
-  "ats_vs_close": 0.512,
-  "n": 512
- },
- "bootstrap": {
-  "model_minus_elo_mae": {
-   "mean": -0.397,
-   "ci95": [
-    -0.767,
-    -0.063
-   ],
-   "reading": "settled WIN vs Elo"
-  },
-  "model_minus_closing_mae": {
-   "mean": 0.432,
-   "ci95": [
-    0.131,
-    0.707
-   ],
-   "reading": "settled LOSS vs closing spread"
-  }
- },
- "moneyline_test": {
-  "model_acc": 0.65,
-  "closing_ml_acc": 0.688,
-  "model_brier": 0.217,
-  "closing_ml_brier": 0.2075,
-  "model_logloss": 0.6227,
-  "closing_ml_logloss": 0.6006,
-  "reading": "LOSS vs closing moneyline on all three metrics"
- },
- "learner_selection": "Ridge alpha=10 beat HistGradientBoosting on validation (10.564 vs 10.766); ridge shipped.",
- "gate_verdict": "descriptive_failed_close - beats Elo with a settled interval, loses to the closing market with a settled interval on both spread and moneyline. Same shape as the CFB gates. NOT shipped as picks; measurement only.",
- "known_gaps": [
-  "OC/DC features not yet in (nflverse has head coach only; coordinators need PFR staff pages)",
-  "injury points are raw report counts, not snap/starter-weighted",
-  "no weather/turf features yet (games.csv has temp/wind/roof/surface unused)",
-  "week-18 resting-starters noise untamed"
- ],
- "iteration_2": {
+  "model": "nfl-margin-v3.2",
   "built": "2026-09-14",
-  "changes": "Garrett-approved 9/14: snap-weighted injury impact (starter snap share x report status), weather/turf (dome, wind, cold, wind x pass-form), week-18 resting-starters handling (dropping wk18 from train tested). OC/DC coordinator changes still in data acquisition (see README).",
-  "selection": "validation 2023: v3.2b full val MAE 10.556 (best); wk18-drop variant val 10.558. Snap-injuries alone val 10.556/test 10.242; weather alone val 10.571/test 10.255; wind-interaction val 10.560/test 10.265; iter1 repro val 10.564/test 10.263.",
+  "protocol": {
+    "train": "2010-2022 REG",
+    "validation": "2023 REG (feature/learner selection)",
+    "locked_test": "2024-2025 REG (reported separately)",
+    "bootstrap": "500 game-cluster resamples, 95% CI"
+  },
+  "data": {
+    "games_lines": "nflverse schedules (games.csv) - includes spread_line, moneylines, rest days, coaches, QBs. Book lines used as BENCHMARK ONLY, never model inputs.",
+    "team_stats": "nflverse stats_player weekly 2010-2025 aggregated to team-game",
+    "injuries": "nflverse weekly injury reports 2010-2025 (pregame report_status)",
+    "talent": "returning/incoming production shares from stats_player player-seasons"
+  },
   "test_2024": {
-   "model_mae": 10.12,
-   "elo_mae": 10.55,
-   "closing_spread_mae": 9.65,
-   "ats_vs_close": 0.496,
-   "n": 256
+    "model_mae": 10.12,
+    "elo_mae": 10.55,
+    "closing_spread_mae": 9.65,
+    "ats_vs_close": 0.5,
+    "n": 256
   },
   "test_2025": {
-   "model_mae": 10.36,
-   "elo_mae": 10.7,
-   "closing_spread_mae": 9.96,
-   "ats_vs_close": 0.512,
-   "n": 256
+    "model_mae": 10.34,
+    "elo_mae": 10.7,
+    "closing_spread_mae": 9.96,
+    "ats_vs_close": 0.523,
+    "n": 256
   },
   "test_combined": {
-   "model_mae": 10.239,
-   "elo_mae": 10.628,
-   "closing_spread_mae": 9.804,
-   "ats_vs_close": 0.504,
-   "n": 512
+    "model_mae": 10.23,
+    "elo_mae": 10.45,
+    "closing_spread_mae": 9.8,
+    "model_acc": 0.641,
+    "elo_acc": 0.632,
+    "ats_vs_close": 0.512,
+    "n": 512
   },
   "bootstrap": {
-   "model_minus_elo_mae": {
-    "mean": -0.389,
-    "ci95": [
-     -0.763,
-     -0.059
-    ],
-    "reading": "settled WIN vs Elo"
-   },
-   "model_minus_closing_mae": {
-    "mean": 0.438,
-    "ci95": [
-     0.168,
-     0.72
-    ],
-    "reading": "settled LOSS vs closing spread"
-   }
+    "model_minus_elo_mae": {
+      "mean": -0.397,
+      "ci95": [
+        -0.767,
+        -0.063
+      ],
+      "reading": "settled WIN vs Elo"
+    },
+    "model_minus_closing_mae": {
+      "mean": 0.432,
+      "ci95": [
+        0.131,
+        0.707
+      ],
+      "reading": "settled LOSS vs closing spread"
+    }
   },
   "moneyline_test": {
-   "model_acc": 0.643,
-   "closing_ml_acc": 0.688,
-   "model_brier": 0.2176,
-   "closing_ml_brier": 0.2075,
-   "model_logloss": 0.624,
-   "closing_ml_logloss": 0.6006
+    "model_acc": 0.65,
+    "closing_ml_acc": 0.688,
+    "model_brier": 0.217,
+    "closing_ml_brier": 0.2075,
+    "model_logloss": 0.6227,
+    "closing_ml_logloss": 0.6006,
+    "reading": "LOSS vs closing moneyline on all three metrics"
   },
-  "verdict": "descriptive_failed_close. Snap-weighted injuries are a small real gain (test 10.239 vs 10.263, best val) but do not close the gap to the market. Weather/turf and week-18 handling neutral. Model beats Elo with a settled interval; loses to the closing spread and closing moneyline with settled intervals."
- },
- "iteration_3": {
-  "built": "2026-09-14",
-  "changes": "OC/DC change flags (offensive + defensive coordinator identity vs prior season, per team) added to v3.2b. Coordinator table: coordinators_2006_2025.csv (PFR-derived dataset 2006-2021; Wikipedia team-season staff sections 2022-2025; 20 structural Wikipedia gaps patched from pro-football-reference team pages; GB 2025 DC web-verified). Null coordinator = team listed no official coordinator (e.g. BUF 2023 DC, NE 2022 OC/DC).",
-  "selection": "validation 2023: v3.2c full val MAE 10.534 (best), +OC only 10.541, +DC only 10.548, v3.2b 10.556.",
-  "locked_test": {
-   "v3.2c_mae": 10.254,
-   "v3.2b_mae": 10.239,
-   "closing_spread_mae": 9.804,
-   "ats_vs_close": 0.502,
-   "n": 512
+  "learner_selection": "Ridge alpha=10 beat HistGradientBoosting on validation (10.564 vs 10.766); ridge shipped.",
+  "gate_verdict": "descriptive_failed_close - beats Elo with a settled interval, loses to the closing market with a settled interval on both spread and moneyline. Same shape as the CFB gates. NOT shipped as picks; measurement only.",
+  "known_gaps": [
+    "OC/DC features not yet in (nflverse has head coach only; coordinators need PFR staff pages)",
+    "injury points are raw report counts, not snap/starter-weighted",
+    "no weather/turf features yet (games.csv has temp/wind/roof/surface unused)",
+    "week-18 resting-starters noise untamed"
+  ],
+  "iteration_2": {
+    "built": "2026-09-14",
+    "changes": "Garrett-approved 9/14: snap-weighted injury impact (starter snap share x report status), weather/turf (dome, wind, cold, wind x pass-form), week-18 resting-starters handling (dropping wk18 from train tested). OC/DC coordinator changes still in data acquisition (see README).",
+    "selection": "validation 2023: v3.2b full val MAE 10.556 (best); wk18-drop variant val 10.558. Snap-injuries alone val 10.556/test 10.242; weather alone val 10.571/test 10.255; wind-interaction val 10.560/test 10.265; iter1 repro val 10.564/test 10.263.",
+    "test_2024": {
+      "model_mae": 10.12,
+      "elo_mae": 10.55,
+      "closing_spread_mae": 9.65,
+      "ats_vs_close": 0.496,
+      "n": 256
+    },
+    "test_2025": {
+      "model_mae": 10.36,
+      "elo_mae": 10.7,
+      "closing_spread_mae": 9.96,
+      "ats_vs_close": 0.512,
+      "n": 256
+    },
+    "test_combined": {
+      "model_mae": 10.239,
+      "elo_mae": 10.628,
+      "closing_spread_mae": 9.804,
+      "ats_vs_close": 0.504,
+      "n": 512
+    },
+    "bootstrap": {
+      "model_minus_elo_mae": {
+        "mean": -0.389,
+        "ci95": [
+          -0.763,
+          -0.059
+        ],
+        "reading": "settled WIN vs Elo"
+      },
+      "model_minus_closing_mae": {
+        "mean": 0.438,
+        "ci95": [
+          0.168,
+          0.72
+        ],
+        "reading": "settled LOSS vs closing spread"
+      }
+    },
+    "moneyline_test": {
+      "model_acc": 0.643,
+      "closing_ml_acc": 0.688,
+      "model_brier": 0.2176,
+      "closing_ml_brier": 0.2075,
+      "model_logloss": 0.624,
+      "closing_ml_logloss": 0.6006
+    },
+    "verdict": "descriptive_failed_close. Snap-weighted injuries are a small real gain (test 10.239 vs 10.263, best val) but do not close the gap to the market. Weather/turf and week-18 handling neutral. Model beats Elo with a settled interval; loses to the closing spread and closing moneyline with settled intervals."
   },
-  "bootstrap": {
-   "v32c_minus_closing_mae": {
-    "mean": 0.454,
-    "ci95": [
-     0.159,
-     0.729
-    ],
-    "reading": "settled LOSS vs closing spread"
-   },
-   "v32c_minus_v32b_mae": {
-    "mean": 0.014,
-    "ci95": [
-     -0.009,
-     0.036
-    ],
-    "reading": "not an improvement; mean slightly favors v3.2b"
-   }
+  "iteration_3": {
+    "built": "2026-09-14",
+    "changes": "OC/DC change flags (offensive + defensive coordinator identity vs prior season, per team) added to v3.2b. Coordinator table: coordinators_2006_2025.csv (PFR-derived dataset 2006-2021; Wikipedia team-season staff sections 2022-2025; 20 structural Wikipedia gaps patched from pro-football-reference team pages; GB 2025 DC web-verified). Null coordinator = team listed no official coordinator (e.g. BUF 2023 DC, NE 2022 OC/DC).",
+    "selection": "validation 2023: v3.2c full val MAE 10.534 (best), +OC only 10.541, +DC only 10.548, v3.2b 10.556.",
+    "locked_test": {
+      "v3.2c_mae": 10.254,
+      "v3.2b_mae": 10.239,
+      "closing_spread_mae": 9.804,
+      "ats_vs_close": 0.502,
+      "n": 512
+    },
+    "bootstrap": {
+      "v32c_minus_closing_mae": {
+        "mean": 0.454,
+        "ci95": [
+          0.159,
+          0.729
+        ],
+        "reading": "settled LOSS vs closing spread"
+      },
+      "v32c_minus_v32b_mae": {
+        "mean": 0.014,
+        "ci95": [
+          -0.009,
+          0.036
+        ],
+        "reading": "not an improvement; mean slightly favors v3.2b"
+      }
+    },
+    "verdict": "NOT ADOPTED. Val selection preferred the OC/DC flags but the locked test did not confirm (10.254 vs 10.239) and val/test ordering disagree - the 9/6 rule blocks adoption. descriptive_failed_close stands; v3.2b remains the reference model. OC/DC change flags recorded as an honest negative."
   },
-  "verdict": "NOT ADOPTED. Val selection preferred the OC/DC flags but the locked test did not confirm (10.254 vs 10.239) and val/test ordering disagree - the 9/6 rule blocks adoption. descriptive_failed_close stands; v3.2b remains the reference model. OC/DC change flags recorded as an honest negative."
- },
- "iteration_4": {
-  "built": "2026-09-14",
-  "changes": "Garrett-approved 9/14, two levers. (a) Play-level EPA efficiency features from nflverse pbp 2010-2025 (team-game offensive/defensive EPA per play, success rate, pass/rush EPA splits; same prior+rolling-4 gp-weighted construction as v3.2). (b) PFF+ participation/grading data from Garrett's own account.",
-  "epa_lever": {
-   "variants_tested": "8 (EPA off/def added to v3.2b; full 6-feature EPA block; EPA-only + context; pass/rush-yards dropped + EPA; EPA off/def only; EPA+splits; points+EPA)",
-   "selection": "validation 2023: ALL variants lose to v3.2b (val 10.610-10.687 vs v3.2b 10.556). EPA is strongly collinear with the existing yards/points block; in-sample val prefers the incumbent.",
-   "note": "EPA-only+context posted the best locked-test MAE of any variant tested to date (10.159, ATS 52.3%) but fails the val-first selection rule, so it is recorded, not adopted.",
-   "verdict": "NOT ADOPTED - honest negative under the 9/6 rule."
+  "iteration_4": {
+    "built": "2026-09-14",
+    "changes": "Garrett-approved 9/14, two levers. (a) Play-level EPA efficiency features from nflverse pbp 2010-2025 (team-game offensive/defensive EPA per play, success rate, pass/rush EPA splits; same prior+rolling-4 gp-weighted construction as v3.2). (b) PFF+ participation/grading data from Garrett's own account.",
+    "epa_lever": {
+      "variants_tested": "8 (EPA off/def added to v3.2b; full 6-feature EPA block; EPA-only + context; pass/rush-yards dropped + EPA; EPA off/def only; EPA+splits; points+EPA)",
+      "selection": "validation 2023: ALL variants lose to v3.2b (val 10.610-10.687 vs v3.2b 10.556). EPA is strongly collinear with the existing yards/points block; in-sample val prefers the incumbent.",
+      "note": "EPA-only+context posted the best locked-test MAE of any variant tested to date (10.159, ATS 52.3%) but fails the val-first selection rule, so it is recorded, not adopted.",
+      "verdict": "NOT ADOPTED - honest negative under the 9/6 rule."
+    },
+    "pff_lever": {
+      "access": "Vault login to pff.com worked. premium.pff.com API verified on his PFF+ tier: every differentiating field is server-side restricted - grades_* (13 team fields), EPA, big-time throws, turnover-worthy plays, generated pressures, dropbacks, passing snaps, pressure-to-sack rate. Unlocked fields are standard box-score counting stats (attempts, completions, yards, TD, INT, sacks, first downs, qb_rating, ypa) which nflverse stats_player already provides with full history.",
+      "verdict": "NO DATA TO TEST on his current tier - the unique PFF fields are paywalled above his subscription. Blocked by tier, not by auth. If he ever upgrades his PFF subscription, grades/pressure features can be pulled and gated the same way."
+    },
+    "standing": "v3.2b remains the reference model. descriptive_failed_close."
   },
-  "pff_lever": {
-   "access": "Vault login to pff.com worked. premium.pff.com API verified on his PFF+ tier: every differentiating field is server-side restricted - grades_* (13 team fields), EPA, big-time throws, turnover-worthy plays, generated pressures, dropbacks, passing snaps, pressure-to-sack rate. Unlocked fields are standard box-score counting stats (attempts, completions, yards, TD, INT, sacks, first downs, qb_rating, ypa) which nflverse stats_player already provides with full history.",
-   "verdict": "NO DATA TO TEST on his current tier - the unique PFF fields are paywalled above his subscription. Blocked by tier, not by auth. If he ever upgrades his PFF subscription, grades/pressure features can be pulled and gated the same way."
-  },
-  "standing": "v3.2b remains the reference model. descriptive_failed_close."
- }
+  "iteration_5": {
+    "built": "2026-09-14",
+    "changes": "Standing free-material direction: richer nflverse play-by-play aggregation. Tested situation-neutral EPA/success; early- and third-down splits; line decomposition (rush efficiency, sacks, QB hits, stuffs); skill decomposition (pass efficiency, CPOE, air/YAC EPA); explosive-play and red-zone splits. All features are pregame shifted rolling-4 blended with prior season; book lines remain benchmark-only.",
+    "selection": "Validation 2023: every rich-PBP variant loses to v3.2b. Best new variant was line decomposition at 10.576 MAE vs v3.2b 10.556. Range 10.576-10.914; no candidate reaches the locked-test gate. Locked test was read only for the complete milestone record: new variants 10.246-10.402 vs v3.2b 10.239 and market 9.804.",
+    "variants": {
+      "v3.2b_repro": {
+        "val_mae": 10.5564,
+        "test_mae": 10.2394,
+        "market_mae": 9.8037,
+        "ats": 0.5039,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "situation_neutral": {
+        "val_mae": 10.6522,
+        "test_mae": 10.2916,
+        "market_mae": 9.8037,
+        "ats": 0.4961,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "down_splits": {
+        "val_mae": 10.5909,
+        "test_mae": 10.2463,
+        "market_mae": 9.8037,
+        "ats": 0.4922,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "line_decomposition": {
+        "val_mae": 10.5759,
+        "test_mae": 10.2549,
+        "market_mae": 9.8037,
+        "ats": 0.4844,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "skill_decomposition": {
+        "val_mae": 10.6201,
+        "test_mae": 10.2609,
+        "market_mae": 9.8037,
+        "ats": 0.4844,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "explosives_redzone": {
+        "val_mae": 10.672,
+        "test_mae": 10.3316,
+        "market_mae": 9.8037,
+        "ats": 0.5254,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "line_plus_skill": {
+        "val_mae": 10.7038,
+        "test_mae": 10.2467,
+        "market_mae": 9.8037,
+        "ats": 0.4961,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "rich_full": {
+        "val_mae": 10.8448,
+        "test_mae": 10.4021,
+        "market_mae": 9.8037,
+        "ats": 0.4941,
+        "n_val": 256,
+        "n_test": 512
+      },
+      "rich_context_no_yards": {
+        "val_mae": 10.9137,
+        "test_mae": 10.3453,
+        "market_mae": 9.8037,
+        "ats": 0.5039,
+        "n_val": 256,
+        "n_test": 512
+      }
+    },
+    "verdict": "NOT ADOPTED. No new variant beats the reference on validation, so bootstrap promotion testing is inapplicable. v3.2b remains the reference; descriptive_failed_close stands."
+  }
 }

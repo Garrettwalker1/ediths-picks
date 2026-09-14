@@ -67,3 +67,16 @@ big-time throws, dropbacks, snaps); the unlocked fields are box-score counting s
 already covers with full history. No features to test - blocked by tier, not by auth.
 
 v3.2b remains the reference model. descriptive_failed_close stands.
+
+## Iteration 5 (2026-09-14): richer free play-by-play aggregation - honest negative
+
+Garrett's standing direction is to keep testing free material without checking in per variant.
+`build_v32e.py` tested situation-neutral EPA/success, early- and third-down splits, line decomposition
+(rush efficiency, sacks, QB hits, stuffs), skill decomposition (pass efficiency, CPOE, air/YAC EPA),
+and explosive-play/red-zone splits. All are pregame features: shifted rolling-4 blended with prior season.
+
+Every richer-PBP variant lost to v3.2b on 2023 validation. The closest was line decomposition at
+10.576 MAE vs 10.556; the full variant range was 10.576-10.914. No candidate passed val-first
+selection, so none qualifies for bootstrap promotion. For the complete locked-test record, new variants
+were 10.246-10.402 vs v3.2b's 10.239 and the closing line's 9.804. NOT ADOPTED; v3.2b remains the
+reference and descriptive_failed_close stands.

@@ -154,5 +154,20 @@
    }
   },
   "verdict": "NOT ADOPTED. Val selection preferred the OC/DC flags but the locked test did not confirm (10.254 vs 10.239) and val/test ordering disagree - the 9/6 rule blocks adoption. descriptive_failed_close stands; v3.2b remains the reference model. OC/DC change flags recorded as an honest negative."
+ },
+ "iteration_4": {
+  "built": "2026-09-14",
+  "changes": "Garrett-approved 9/14, two levers. (a) Play-level EPA efficiency features from nflverse pbp 2010-2025 (team-game offensive/defensive EPA per play, success rate, pass/rush EPA splits; same prior+rolling-4 gp-weighted construction as v3.2). (b) PFF+ participation/grading data from Garrett's own account.",
+  "epa_lever": {
+   "variants_tested": "8 (EPA off/def added to v3.2b; full 6-feature EPA block; EPA-only + context; pass/rush-yards dropped + EPA; EPA off/def only; EPA+splits; points+EPA)",
+   "selection": "validation 2023: ALL variants lose to v3.2b (val 10.610-10.687 vs v3.2b 10.556). EPA is strongly collinear with the existing yards/points block; in-sample val prefers the incumbent.",
+   "note": "EPA-only+context posted the best locked-test MAE of any variant tested to date (10.159, ATS 52.3%) but fails the val-first selection rule, so it is recorded, not adopted.",
+   "verdict": "NOT ADOPTED - honest negative under the 9/6 rule."
+  },
+  "pff_lever": {
+   "access": "Vault login to pff.com worked. premium.pff.com API verified on his PFF+ tier: every differentiating field is server-side restricted - grades_* (13 team fields), EPA, big-time throws, turnover-worthy plays, generated pressures, dropbacks, passing snaps, pressure-to-sack rate. Unlocked fields are standard box-score counting stats (attempts, completions, yards, TD, INT, sacks, first downs, qb_rating, ypa) which nflverse stats_player already provides with full history.",
+   "verdict": "NO DATA TO TEST on his current tier - the unique PFF fields are paywalled above his subscription. Blocked by tier, not by auth. If he ever upgrades his PFF subscription, grades/pressure features can be pulled and gated the same way."
+  },
+  "standing": "v3.2b remains the reference model. descriptive_failed_close."
  }
 }

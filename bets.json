@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-14T00:20:00Z",
+ "updated_at": "2026-09-14T04:05:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -559,8 +559,8 @@
    "stake_usd": 5.0,
    "potential_payout_usd": 37.5,
    "potential_profit_usd": 32.5,
-   "result": "pending",
-   "status": "pending",
+   "result": "win",
+   "status": "settled",
    "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
    "legs": [
     {
@@ -578,7 +578,10 @@
      "model_td_probability": 0.479
     }
    ],
-   "notes": "NOT model-backed names. Model TD probs: McBride 40.8% (book implied 29.9% - model HIGHER), Skattebo 47.9% (implied 44.8%). Neither is a model top-3 name. Bet ID from slip; placed 10:41 AM CT. SNF leg settles after 7:20 PM CT game. UPDATE 9/13 7:15 PM: McBride leg HIT (9-95, 1 TD). Skattebo leg pending SNF (DAL@NYG, kicked 7:20 PM CT). Ticket still live."
+   "notes": "NOT model-backed names. Model TD probs: McBride 40.8% (book implied 29.9% - model HIGHER), Skattebo 47.9% (implied 44.8%). Neither is a model top-3 name. Bet ID from slip; placed 10:41 AM CT. SNF leg settles after 7:20 PM CT game. UPDATE 9/13 7:15 PM: McBride leg HIT (9-95, 1 TD). Skattebo leg pending SNF (DAL@NYG, kicked 7:20 PM CT). Ticket still live.",
+   "net_units": 6.5,
+   "net_usd": 32.5,
+   "settled_note": "Both legs hit. McBride 9-95-1 (graded earlier). Skattebo 3-yd rush TD (18-81-1, 1 fumble lost) in NYG 28-20 over DAL on SNF. Boosted +650 pays $32.50 profit on $5 = +6.5u. Graded from ESPN scoring plays 9/13 ~11:00 PM CT."
   },
   {
    "bet_id": "not_captured",

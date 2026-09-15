@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $5.00",
  "unit_value_usd": 5.0,
- "updated_at": "2026-09-14T19:49:19Z",
+ "updated_at": "2026-09-15T12:14:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -633,99 +633,111 @@
    "net_usd": 20.42,
    "settled_note": "All three legs hit: Bijan 23-yd receiving TD (also 21-83 rush, 8-90 rec), Chase Brown 5-yd rush TD, Henry 3 rush TDs (24-144). +408 pays $20.42 profit on $5. Model top-3 went 3-for-3. Graded from ESPN scoring plays 9/13 ~7:15 PM CT."
   },
-{
-  "bet_id": "not_captured:20260914-den-kc-sgp-1356",
-  "date": "2026-09-14T19:48:09Z",
-  "placed_at": "2026-09-14T19:48:09Z",
-  "sport": "NFL",
-  "game": "Denver Broncos @ Kansas City Chiefs",
-  "kickoff": "2026-09-15T00:15:00Z",
-  "bet": "3-leg SGP: RJ Harvey anytime TD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
-  "market": "same_game_parlay",
-  "selection": "RJ Harvey ATD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
-  "line": null,
-  "price": 1356,
-  "price_note": "Same Game Parlay price +1356 shown on user-provided FanDuel slip. No boost/token shown in the screenshot.",
-  "book": "FanDuel",
-  "state": "TN",
-  "stake_units": 1,
-  "stake_usd": 5,
-  "potential_payout_usd": 72.8,
-  "potential_profit_usd": 67.8,
-  "result": "pending",
-  "status": "pending",
-  "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
-  "legs": [
+  {
+   "bet_id": "not_captured:20260914-den-kc-sgp-1356",
+   "date": "2026-09-14T19:48:09Z",
+   "placed_at": "2026-09-14T19:48:09Z",
+   "sport": "NFL",
+   "game": "Denver Broncos @ Kansas City Chiefs",
+   "kickoff": "2026-09-15T00:15:00Z",
+   "bet": "3-leg SGP: RJ Harvey anytime TD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
+   "market": "same_game_parlay",
+   "selection": "RJ Harvey ATD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
+   "line": null,
+   "price": 1356,
+   "price_note": "Same Game Parlay price +1356 shown on user-provided FanDuel slip. No boost/token shown in the screenshot.",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 1,
+   "stake_usd": 5,
+   "potential_payout_usd": 72.8,
+   "potential_profit_usd": 67.8,
+   "result": "loss",
+   "status": "settled",
+   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
+   "legs": [
     {
-      "player": "RJ Harvey",
-      "market": "anytime touchdown scorer",
-      "selection": "yes",
-      "line": null
+     "player": "RJ Harvey",
+     "market": "anytime touchdown scorer",
+     "selection": "yes",
+     "line": null
     },
     {
-      "player": "Evan Engram",
-      "market": "receiving yards",
-      "selection": "over",
-      "line": 22.5
+     "player": "Evan Engram",
+     "market": "receiving yards",
+     "selection": "over",
+     "line": 22.5
     },
     {
-      "player": "Pat Bryant",
-      "market": "receiving yards",
-      "selection": "over",
-      "line": 26.5
+     "player": "Pat Bryant",
+     "market": "receiving yards",
+     "selection": "over",
+     "line": 26.5
     }
-  ],
-  "model_at_placement": {
+   ],
+   "model_at_placement": {
     "available": true,
     "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
     "note": "Comparison only: Harvey ATD prior 52.7%; Engram receiving median 40.0 vs 22.5; Bryant receiving median 44.9 vs 26.5. Role/current-week uncertainty remains material."
+   },
+   "net_units": -1,
+   "net_usd": -5,
+   "grading": {
+    "source": "ESPN official final box score and scoring summary, game 401872931",
+    "graded_at": "2026-09-15T12:14:00Z",
+    "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
+    "detail": "Loss. RJ Harvey did not score. Evan Engram cleared over 22.5 with 43 receiving yards and a TD; Pat Bryant cleared over 26.5 with 32 receiving yards."
+   }
   },
-  "net_units": null,
-  "net_usd": null
-},
-{
-  "bet_id": "not_captured:20260914-den-kc-sgp-255",
-  "date": "2026-09-14T19:49:19Z",
-  "placed_at": "2026-09-14T19:49:19Z",
-  "sport": "NFL",
-  "game": "Denver Broncos @ Kansas City Chiefs",
-  "kickoff": "2026-09-15T00:15:00Z",
-  "bet": "2-leg SGP: Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
-  "market": "same_game_parlay",
-  "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
-  "line": null,
-  "price": 255,
-  "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
-  "book": "FanDuel",
-  "state": "TN",
-  "stake_units": 1,
-  "stake_usd": 5,
-  "potential_payout_usd": 17.75,
-  "potential_profit_usd": 12.75,
-  "result": "pending",
-  "status": "pending",
-  "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
-  "legs": [
+  {
+   "bet_id": "not_captured:20260914-den-kc-sgp-255",
+   "date": "2026-09-14T19:49:19Z",
+   "placed_at": "2026-09-14T19:49:19Z",
+   "sport": "NFL",
+   "game": "Denver Broncos @ Kansas City Chiefs",
+   "kickoff": "2026-09-15T00:15:00Z",
+   "bet": "2-leg SGP: Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
+   "market": "same_game_parlay",
+   "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
+   "line": null,
+   "price": 255,
+   "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_units": 1,
+   "stake_usd": 5,
+   "potential_payout_usd": 17.75,
+   "potential_profit_usd": 12.75,
+   "result": "loss",
+   "status": "settled",
+   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
+   "legs": [
     {
-      "player": "Patrick Mahomes",
-      "market": "passing yards",
-      "selection": "under",
-      "line": 223.5
+     "player": "Patrick Mahomes",
+     "market": "passing yards",
+     "selection": "under",
+     "line": 223.5
     },
     {
-      "player": "Courtland Sutton",
-      "market": "receiving yards",
-      "selection": "over",
-      "line": 42.5
+     "player": "Courtland Sutton",
+     "market": "receiving yards",
+     "selection": "over",
+     "line": 42.5
     }
-  ],
-  "model_at_placement": {
+   ],
+   "model_at_placement": {
     "available": true,
     "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
     "note": "Comparison only: Mahomes passing median 200.3 vs 223.5; Sutton receiving median 57.3 vs 42.5. This combination is directionally coherent rather than stacking a KC passing over."
-  },
-  "net_units": null,
-  "net_usd": null
-}
+   },
+   "net_units": -1,
+   "net_usd": -5,
+   "grading": {
+    "source": "ESPN official final box score, game 401872931",
+    "graded_at": "2026-09-15T12:14:00Z",
+    "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
+    "detail": "Loss. Patrick Mahomes cleared under 223.5 with 184 passing yards; Courtland Sutton failed over 42.5 with 0 receiving yards (0 catches on 1 target)."
+   }
+  }
  ]
 }

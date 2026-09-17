@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-17T22:00:00Z",
+  "updated_at": "2026-09-17T22:01:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -785,6 +785,140 @@
         "available": true,
         "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
         "note": "Comparison only, not a validated edge: Amon-Ra model 90.8 vs 79.5; Knox 26.5 vs 12.5; Coleman 25.7 vs 14.5. Bills-receiver legs share passing-game dependency; the model had Josh Allen passing 199.6 vs stale TN 248.5."
+      },
+      "net_units": null,
+      "net_usd": null
+    },
+    {
+      "bet_id": "us-tn:01m2rp17nyf5kvf51gs5hzjap4",
+      "date": "2026-09-17T21:58:00Z",
+      "placed_at": "2026-09-17T21:58:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Buffalo Bills",
+      "kickoff": "2026-09-18T00:15:00Z",
+      "bet": "3-leg SGP: D.J. Moore anytime TD + Jahmyr Gibbs anytime TD + James Cook anytime TD",
+      "market": "same_game_parlay",
+      "selection": "D.J. Moore anytime TD scorer + Jahmyr Gibbs anytime TD scorer + James Cook anytime TD scorer",
+      "line": null,
+      "price": 758,
+      "price_note": "Boosted to +758 from +506 with a 50% profit boost, per user-provided FanDuel slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 42.95,
+      "potential_profit_usd": 37.95,
+      "result": "pending",
+      "status": "pending",
+      "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
+      "legs": [
+        {
+          "player": "D.J. Moore",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        },
+        {
+          "player": "Jahmyr Gibbs",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        },
+        {
+          "player": "James Cook",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
+        "note": "Comparison only: Gibbs anytime-TD probability 71.7%; Cook 38.8%. No grounded D.J. Moore probability attached because the player identity/position feed is ambiguous. Tennessee TD book prices were not captured."
+      },
+      "net_units": null,
+      "net_usd": null
+    },
+    {
+      "bet_id": "us-tn:01m2rp1v44f4yasta3hwmvj490",
+      "date": "2026-09-17T21:58:00Z",
+      "placed_at": "2026-09-17T21:58:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Buffalo Bills",
+      "kickoff": "2026-09-18T00:15:00Z",
+      "bet": "Isaac TeSlaa anytime TD scorer",
+      "market": "anytime_touchdown",
+      "selection": "Isaac TeSlaa anytime TD scorer",
+      "line": null,
+      "price": 625,
+      "price_note": "Boosted to +625 from +500 with a 25% profit boost, per user-provided FanDuel slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 0.694,
+      "stake_usd": 3.47,
+      "potential_payout_usd": 25.16,
+      "potential_profit_usd": 21.69,
+      "result": "pending",
+      "status": "pending",
+      "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
+      "legs": [
+        {
+          "player": "Isaac TeSlaa",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
+        "note": "Comparison only: model anytime-TD probability 14.5%. Tennessee TD market was not available in the last verified capture."
+      },
+      "net_units": null,
+      "net_usd": null
+    },
+    {
+      "bet_id": "us-tn:01m2rp2zc8ex2vaf08gffn06hy",
+      "date": "2026-09-17T21:59:00Z",
+      "placed_at": "2026-09-17T21:59:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Buffalo Bills",
+      "kickoff": "2026-09-18T00:15:00Z",
+      "bet": "2-leg SGP: Josh Allen 40+ rushing yards + Jameson Williams 60+ receiving yards",
+      "market": "same_game_parlay",
+      "selection": "Josh Allen 40+ alternate rushing yards + Jameson Williams 60+ alternate receiving yards",
+      "line": null,
+      "price": 348,
+      "price_note": "Same Game Parlay price +348 shown on user-provided FanDuel slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 22.4,
+      "potential_profit_usd": 17.4,
+      "result": "pending",
+      "status": "pending",
+      "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
+      "legs": [
+        {
+          "player": "Josh Allen",
+          "market": "alternate rushing yards",
+          "selection": "over",
+          "line": 39.5,
+          "display_line": "40+"
+        },
+        {
+          "player": "Jameson Williams",
+          "market": "alternate receiving yards",
+          "selection": "over",
+          "line": 59.5,
+          "display_line": "60+"
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
+        "note": "Comparison only: Allen rushing median 31.4 vs 40+ alternate line; Williams receiving median 57.8 vs 60+ alternate line."
       },
       "net_units": null,
       "net_usd": null

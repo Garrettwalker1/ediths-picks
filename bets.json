@@ -1,743 +1,793 @@
 {
- "unit_definition": "1 unit = $5.00",
- "unit_value_usd": 5.0,
- "updated_at": "2026-09-15T12:14:00Z",
- "bets": [
-  {
-   "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
-   "date": "2026-09-10T23:29:00Z",
-   "placed_at": "2026-09-10T23:29:00Z",
-   "sport": "NFL",
-   "game": "San Francisco @ Los Angeles Rams",
-   "kickoff": "2026-09-11T00:35:00Z",
-   "bet": "Straight: Puka Nacua anytime touchdown",
-   "market": "anytime touchdown scorer",
-   "selection": "Puka Nacua scores a touchdown",
-   "line": null,
-   "price": 125,
-   "price_note": "NFL Every TD Pays token used (per slip banner).",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 2.0,
-   "stake_usd": 10.0,
-   "potential_payout_usd": 22.5,
-   "potential_profit_usd": 12.5,
-   "cashout_value_usd_at_capture": 10.0,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
-    "note": "Model: Nacua anytime TD 60.5% (model's #2 tonight) vs +125 implied 44.4%. On paper that is a large model edge, but the TD model was never market-tested and this is a single pregame prior - comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "User's TN slip",
-    "note": "+125 on the slip matches the stale 9/2 VA capture price for Nacua ATD."
-   },
-   "grading": {
-    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
-    "graded_at": "2026-09-11T04:07:00Z",
-    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
-    "detail": "Nacua 5 rec 74 yds, 0 TD. Loss."
-   },
-   "net_units": -2.0,
-   "net_usd": -10.0
-  },
-  {
-   "bet_id": "us-tn:01m26tbw3vf8zbjk4hsthcdwfb",
-   "date": "2026-09-10T23:27:00Z",
-   "placed_at": "2026-09-10T23:27:00Z",
-   "sport": "NFL",
-   "game": "San Francisco @ Los Angeles Rams",
-   "kickoff": "2026-09-11T00:35:00Z",
-   "bet": "Same Game Parlay (4 legs): Matthew Stafford 225+ alt passing yards + Kyren Williams anytime touchdown + Christian McCaffrey 90+ alt rushing+receiving yards + George Kittle over 33.5 receiving yards",
-   "market": "same game parlay - alt passing yards, anytime TD, alt rush+rec yards, receiving yards",
-   "selection": "Stafford 225+ pass yds, Kyren Williams ATD, McCaffrey 90+ rush+rec yds, Kittle over 33.5 rec yds",
-   "line": null,
-   "price": 613,
-   "price_note": null,
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 2.0,
-   "stake_usd": 10.0,
-   "potential_payout_usd": 71.35,
-   "potential_profit_usd": 61.35,
-   "cashout_value_usd_at_capture": 10.0,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
-    "note": "Model medians vs legs: Stafford pass 295.8 (p20 221.5, so 225+ sits below the 20th percentile of the model distribution); Kyren Williams ATD 51.3% (model's #3 tonight); McCaffrey rush 79.2 + rec 38.9 = 118.1 combined median vs 90+ alt; Kittle rec median 61.1 vs 33.5 line, but Kittle carries an injury caveat (limited participant this week) that the model does not price. Implied +613 = 14.0%. Naive independence joint is not computed here because the model has no full yardage distributions and all four legs are same-game correlated; TD model never market-tested - comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "User's TN slip",
-    "note": "+613 displayed on the slip (implied 14.0%). Leg prices not captured (alt lines and TD market are outside the 3-tab props capture)."
-   },
-   "grading": {
-    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
-    "graded_at": "2026-09-11T04:07:00Z",
-    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
-    "detail": "1 of 4 legs hit. Kyren Williams ATD HIT (5-yd rush TD). MISSES: Stafford 155 pass yds (needed 225+); McCaffrey 68 rush + 20 rec = 88 (needed 90+); Kittle 12 rec yds (needed 34+). The injury-flagged Kittle leg and the Stafford alt both missed badly."
-   },
-   "net_units": -2.0,
-   "net_usd": -10.0
-  },
-  {
-   "bet_id": "us-tn:01m26t66deezf91d82nt7qfa3f",
-   "date": "2026-09-10T23:24:00Z",
-   "placed_at": "2026-09-10T23:24:00Z",
-   "sport": "NFL",
-   "game": "San Francisco @ Los Angeles Rams",
-   "kickoff": "2026-09-11T00:35:00Z",
-   "bet": "Same Game Parlay: Christian McCaffrey anytime touchdown + Puka Nacua anytime touchdown",
-   "market": "same game parlay - anytime touchdown scorers",
-   "selection": "Christian McCaffrey and Puka Nacua both score a touchdown",
-   "line": null,
-   "price": 415,
-   "price_note": "50% FanDuel profit boost applied; base price +277 boosted to +415 displayed (slip payout $25.79 on $5 implies ~+416).",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 25.79,
-   "potential_profit_usd": 20.79,
-   "cashout_value_usd_at_capture": 5.0,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
-    "note": "Both legs are the model's top-2 TD scorers for this game: McCaffrey 71.2%, Nacua 60.5%. Naive independence joint 43.1% (fair ~+132) vs boosted +415 (implied 19.4%). Same-game correlation means the true joint is not the product, and the TD model was never market-tested - comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "User's TN slip",
-    "note": "Base +277 (implied 26.5%), boosted +415 (implied 19.4%). Leg prices from the stale 9/2 VA capture were CMC -160 / Nacua +125; current leg prices not captured (TD market is outside the 3-tab props capture)."
-   },
-   "grading": {
-    "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
-    "graded_at": "2026-09-11T04:07:00Z",
-    "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
-    "detail": "Neither leg scored. McCaffrey: 10 carries 68 yds, 5 rec 20 yds, 0 TD. Nacua: 5 rec 74 yds, 0 TD. SF TDs: Robinson, Evans, Samuel (all Purdy passes); LAR TD: Kyren Williams rush."
-   },
-   "net_units": -1.0,
-   "net_usd": -5.0
-  },
-  {
-   "bet_id": "us-tn:01m2345jy5e6m82k50h30e6qhf",
-   "date": "2026-09-09T13:01:00Z",
-   "placed_at": "2026-09-09T13:01:00Z",
-   "sport": "NFL",
-   "game": "New England @ Seattle",
-   "kickoff": "2026-09-10T00:15:00Z",
-   "bet": "Jaxon Smith-Njigba anytime touchdown scorer",
-   "market": "player prop - anytime touchdown scorer",
-   "selection": "Jaxon Smith-Njigba",
-   "line": null,
-   "price": 135,
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1.2,
-   "stake_usd": 6.0,
-   "potential_payout_usd": 14.1,
-   "potential_profit_usd": 8.1,
-   "result": "win",
-   "status": "settled",
-   "source": "User-provided FanDuel settled-bet screenshot (sent 2026-09-10)",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "v3 props (frozen 9/3 pregame projection; never market-tested)",
-    "anytime_td_probability": 0.478,
-    "note": "Model anytime-TD prob 47.8% (fair ~+109) vs slip +135 (implied 42.6%) - model 5.2 pts richer than the slip price. Descriptive only: v3 TD model beat baselines on the locked holdout but was never market-tested (props notes 9/9). Comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "FanDuel VA capture 2026-09-02T13:37Z (week1_anytime_td_market.json) + user's TN slip",
-    "note": "VA proxy listed JSN anytime TD +120 (implied 45.5%); user's TN slip got +135. Book prices are context, never a model input."
-   },
-   "grading": {
-    "source": "FanDuel settled slip + official final score",
-    "graded_at": "2026-09-10T13:50:00Z",
-    "final_score": "Seattle 13, New England 10",
-    "net_units": 1.62,
-    "net_usd": 8.1,
-    "source_note": "Slip shows WON, $14.10 total return on $6.00 at +135. SEA 13-10 final (ESPN event 401872656)."
-   },
-   "net_units": 1.62
-  },
-  {
-   "bet_id": "us-nc:01m1z1zd1zab42mrm12aze2ddp",
-   "date": "2026-09-07T23:05:00Z",
-   "placed_at": "2026-09-07T23:05:00Z",
-   "sport": "CFB",
-   "game": "SMU @ Florida State",
-   "kickoff": "2026-09-07T23:30:00Z",
-   "bet": "Florida State +2.5",
-   "market": "spread",
-   "selection": "Florida State",
-   "line": 2.5,
-   "price": 133,
-   "price_note": "30% FanDuel profit boost applied; base price +102 boosted to +133. Book bet ID 0/0624487/0000020.",
-   "book": "FanDuel",
-   "state": "NC",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 11.65,
-   "potential_profit_usd": 6.65,
-   "cashout_value_usd_at_capture": 5.0,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "cfb-gameline-v2.1",
-    "model_home_line_at_placement": -5.9,
-    "note": "Model has Florida State -5.9 (pregame, board regen 1:18 PM CT) vs book FSU +2.5 - model 8.4 pts richer on FSU than the market, the largest model-vs-book split on the Week 1 board. This bet is on the model-aligned side. Comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "FanDuel TN capture 2026-09-07T18:17Z (x-sportsbook-region: TN)",
-    "note": "TN listing: SMU -2.5 (-115) / FSU +2.5 (-105), total 54.5. User's NC slip boosted to +133; NC account. Context only, never a model input."
-   },
-   "grading": {
-    "source": "official final score",
-    "graded_at": "2026-09-08T05:29:00Z",
-    "final_score": "SMU 27, Florida State 24",
-    "net_units": -1.0,
-    "net_usd": -5.0,
-    "source_note": "Florida State lost by 3; FSU +2.5 needed a loss by 2 or fewer (or a win). No cover. ESPN event 401858212 final."
-   },
-   "net_units": -1.0
-  },
-  {
-   "bet_id": "us-nc:01m1y11z3xe90v5ha3939dg3dd",
-   "date": "2026-09-07T13:31:00Z",
-   "placed_at": "2026-09-07T13:31:00Z",
-   "sport": "NFL",
-   "game": "New England @ Seattle",
-   "kickoff": "2026-09-10T00:15:00Z",
-   "bet": "NFL Customer Special: 1+ points scored in Patriots v Seahawks (9/9)",
-   "market": "special - 1+ points scored",
-   "selection": "1+ points scored in the game",
-   "line": null,
-   "price": 101,
-   "price_note": "10000% profit boost applied; base price +10000 boosted to +101.",
-   "book": "FanDuel",
-   "state": "NC",
-   "stake_units": 5.0,
-   "stake_usd": 25.0,
-   "potential_payout_usd": 50.25,
-   "potential_profit_usd": 25.25,
-   "result": "win",
-   "status": "settled",
-   "source": "User-provided FanDuel settled-bet screenshot (sent 2026-09-10)",
-   "model_at_placement": {
-    "available": false,
-    "note": "No model market covers this special. The only adjacent model view (game total) comes from the totals models that FAILED validation on 9/6 and are not shipped - deliberately not cited here."
-   },
-   "market_context_at_placement": {
-    "available": false,
-    "note": "Boosted special from +10000 to +101; near-certain event by construction. No book comparison meaningful."
-   },
-   "grading": {
-    "source": "FanDuel settled slip + official final score",
-    "graded_at": "2026-09-10T13:51:00Z",
-    "final_score": "Seattle 13, New England 10",
-    "net_units": 5.05,
-    "net_usd": 25.25,
-    "source_note": "Slip shows WON, $50.25 total return on $25.00 at +101. Both teams scored (13-10, ESPN event 401872656)."
-   },
-   "net_units": 5.05
-  },
-  {
-   "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
-   "date": "2026-09-06T17:47:00Z",
-   "placed_at": "2026-09-06T17:47:00Z",
-   "sport": "CFB",
-   "game": "Washington State @ Washington + Louisville @ Ole Miss + Wisconsin @ Notre Dame",
-   "kickoff": "2026-09-06T20:00:00Z",
-   "bet": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
-   "market": "parlay",
-   "selection": "Over 51.5 and Ole Miss -9.5 (alt) and Notre Dame -21.5",
-   "line": null,
-   "price": 729,
-   "price_note": "Bet Reset Token applied per slip (slip also shows 20 rewards points pending). +729 matches the three leg prices multiplied - no odds boost on this ticket.",
-   "book": "FanDuel",
-   "state": "NC",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 41.47,
-   "potential_profit_usd": 36.47,
-   "cashout_value_usd_at_capture": 5.0,
-   "legs": [
+  "unit_definition": "1 unit = $5.00",
+  "unit_value_usd": 5.0,
+  "updated_at": "2026-09-17T22:00:00Z",
+  "bets": [
     {
-     "game": "Washington State @ Washington",
-     "market": "total",
-     "selection": "Over",
-     "line": 51.5,
-     "price": -115,
-     "kickoff": "2026-09-06T20:00:00Z",
-     "model_note": "Model totals side is a null by design - no totals projection exists for this game."
+      "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
+      "date": "2026-09-10T23:29:00Z",
+      "placed_at": "2026-09-10T23:29:00Z",
+      "sport": "NFL",
+      "game": "San Francisco @ Los Angeles Rams",
+      "kickoff": "2026-09-11T00:35:00Z",
+      "bet": "Straight: Puka Nacua anytime touchdown",
+      "market": "anytime touchdown scorer",
+      "selection": "Puka Nacua scores a touchdown",
+      "line": null,
+      "price": 125,
+      "price_note": "NFL Every TD Pays token used (per slip banner).",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 22.5,
+      "potential_profit_usd": 12.5,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+        "note": "Model: Nacua anytime TD 60.5% (model's #2 tonight) vs +125 implied 44.4%. On paper that is a large model edge, but the TD model was never market-tested and this is a single pregame prior - comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User's TN slip",
+        "note": "+125 on the slip matches the stale 9/2 VA capture price for Nacua ATD."
+      },
+      "grading": {
+        "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+        "graded_at": "2026-09-11T04:07:00Z",
+        "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+        "detail": "Nacua 5 rec 74 yds, 0 TD. Loss."
+      },
+      "net_units": -2.0,
+      "net_usd": -10.0
     },
     {
-     "game": "Louisville @ Ole Miss",
-     "market": "alternate spread",
-     "selection": "Ole Miss",
-     "line": -9.5,
-     "price": 124,
-     "kickoff": "2026-09-06T23:30:00Z",
-     "model_home_line_at_placement": -10.0
+      "bet_id": "us-tn:01m26tbw3vf8zbjk4hsthcdwfb",
+      "date": "2026-09-10T23:27:00Z",
+      "placed_at": "2026-09-10T23:27:00Z",
+      "sport": "NFL",
+      "game": "San Francisco @ Los Angeles Rams",
+      "kickoff": "2026-09-11T00:35:00Z",
+      "bet": "Same Game Parlay (4 legs): Matthew Stafford 225+ alt passing yards + Kyren Williams anytime touchdown + Christian McCaffrey 90+ alt rushing+receiving yards + George Kittle over 33.5 receiving yards",
+      "market": "same game parlay - alt passing yards, anytime TD, alt rush+rec yards, receiving yards",
+      "selection": "Stafford 225+ pass yds, Kyren Williams ATD, McCaffrey 90+ rush+rec yds, Kittle over 33.5 rec yds",
+      "line": null,
+      "price": 613,
+      "price_note": null,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 71.35,
+      "potential_profit_usd": 61.35,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+        "note": "Model medians vs legs: Stafford pass 295.8 (p20 221.5, so 225+ sits below the 20th percentile of the model distribution); Kyren Williams ATD 51.3% (model's #3 tonight); McCaffrey rush 79.2 + rec 38.9 = 118.1 combined median vs 90+ alt; Kittle rec median 61.1 vs 33.5 line, but Kittle carries an injury caveat (limited participant this week) that the model does not price. Implied +613 = 14.0%. Naive independence joint is not computed here because the model has no full yardage distributions and all four legs are same-game correlated; TD model never market-tested - comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User's TN slip",
+        "note": "+613 displayed on the slip (implied 14.0%). Leg prices not captured (alt lines and TD market are outside the 3-tab props capture)."
+      },
+      "grading": {
+        "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+        "graded_at": "2026-09-11T04:07:00Z",
+        "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+        "detail": "1 of 4 legs hit. Kyren Williams ATD HIT (5-yd rush TD). MISSES: Stafford 155 pass yds (needed 225+); McCaffrey 68 rush + 20 rec = 88 (needed 90+); Kittle 12 rec yds (needed 34+). The injury-flagged Kittle leg and the Stafford alt both missed badly."
+      },
+      "net_units": -2.0,
+      "net_usd": -10.0
     },
     {
-     "game": "Wisconsin @ Notre Dame",
-     "market": "spread",
-     "selection": "Notre Dame",
-     "line": -21.5,
-     "price": -102,
-     "kickoff": "2026-09-06T23:30:00Z",
-     "model_home_line_at_placement": -19.2
+      "bet_id": "us-tn:01m26t66deezf91d82nt7qfa3f",
+      "date": "2026-09-10T23:24:00Z",
+      "placed_at": "2026-09-10T23:24:00Z",
+      "sport": "NFL",
+      "game": "San Francisco @ Los Angeles Rams",
+      "kickoff": "2026-09-11T00:35:00Z",
+      "bet": "Same Game Parlay: Christian McCaffrey anytime touchdown + Puka Nacua anytime touchdown",
+      "market": "same game parlay - anytime touchdown scorers",
+      "selection": "Christian McCaffrey and Puka Nacua both score a touchdown",
+      "line": null,
+      "price": 415,
+      "price_note": "50% FanDuel profit boost applied; base price +277 boosted to +415 displayed (slip payout $25.79 on $5 implies ~+416).",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 25.79,
+      "potential_profit_usd": 20.79,
+      "cashout_value_usd_at_capture": 5.0,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-10)",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "v3 props (frozen 9/3 pregame projections; never market-tested)",
+        "note": "Both legs are the model's top-2 TD scorers for this game: McCaffrey 71.2%, Nacua 60.5%. Naive independence joint 43.1% (fair ~+132) vs boosted +415 (implied 19.4%). Same-game correlation means the true joint is not the product, and the TD model was never market-tested - comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User's TN slip",
+        "note": "Base +277 (implied 26.5%), boosted +415 (implied 19.4%). Leg prices from the stale 9/2 VA capture were CMC -160 / Nacua +125; current leg prices not captured (TD market is outside the 3-tab props capture)."
+      },
+      "grading": {
+        "source": "ESPN boxscore + scoring summary, event 401872657 (STATUS_FINAL)",
+        "graded_at": "2026-09-11T04:07:00Z",
+        "final_score": "San Francisco 27, Los Angeles Rams 7 (final)",
+        "detail": "Neither leg scored. McCaffrey: 10 carries 68 yds, 5 rec 20 yds, 0 TD. Nacua: 5 rec 74 yds, 0 TD. SF TDs: Robinson, Evans, Samuel (all Purdy passes); LAR TD: Kyren Williams rush."
+      },
+      "net_units": -1.0,
+      "net_usd": -5.0
+    },
+    {
+      "bet_id": "us-tn:01m2345jy5e6m82k50h30e6qhf",
+      "date": "2026-09-09T13:01:00Z",
+      "placed_at": "2026-09-09T13:01:00Z",
+      "sport": "NFL",
+      "game": "New England @ Seattle",
+      "kickoff": "2026-09-10T00:15:00Z",
+      "bet": "Jaxon Smith-Njigba anytime touchdown scorer",
+      "market": "player prop - anytime touchdown scorer",
+      "selection": "Jaxon Smith-Njigba",
+      "line": null,
+      "price": 135,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.2,
+      "stake_usd": 6.0,
+      "potential_payout_usd": 14.1,
+      "potential_profit_usd": 8.1,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided FanDuel settled-bet screenshot (sent 2026-09-10)",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "v3 props (frozen 9/3 pregame projection; never market-tested)",
+        "anytime_td_probability": 0.478,
+        "note": "Model anytime-TD prob 47.8% (fair ~+109) vs slip +135 (implied 42.6%) - model 5.2 pts richer than the slip price. Descriptive only: v3 TD model beat baselines on the locked holdout but was never market-tested (props notes 9/9). Comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "FanDuel VA capture 2026-09-02T13:37Z (week1_anytime_td_market.json) + user's TN slip",
+        "note": "VA proxy listed JSN anytime TD +120 (implied 45.5%); user's TN slip got +135. Book prices are context, never a model input."
+      },
+      "grading": {
+        "source": "FanDuel settled slip + official final score",
+        "graded_at": "2026-09-10T13:50:00Z",
+        "final_score": "Seattle 13, New England 10",
+        "net_units": 1.62,
+        "net_usd": 8.1,
+        "source_note": "Slip shows WON, $14.10 total return on $6.00 at +135. SEA 13-10 final (ESPN event 401872656)."
+      },
+      "net_units": 1.62
+    },
+    {
+      "bet_id": "us-nc:01m1z1zd1zab42mrm12aze2ddp",
+      "date": "2026-09-07T23:05:00Z",
+      "placed_at": "2026-09-07T23:05:00Z",
+      "sport": "CFB",
+      "game": "SMU @ Florida State",
+      "kickoff": "2026-09-07T23:30:00Z",
+      "bet": "Florida State +2.5",
+      "market": "spread",
+      "selection": "Florida State",
+      "line": 2.5,
+      "price": 133,
+      "price_note": "30% FanDuel profit boost applied; base price +102 boosted to +133. Book bet ID 0/0624487/0000020.",
+      "book": "FanDuel",
+      "state": "NC",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 11.65,
+      "potential_profit_usd": 6.65,
+      "cashout_value_usd_at_capture": 5.0,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.1",
+        "model_home_line_at_placement": -5.9,
+        "note": "Model has Florida State -5.9 (pregame, board regen 1:18 PM CT) vs book FSU +2.5 - model 8.4 pts richer on FSU than the market, the largest model-vs-book split on the Week 1 board. This bet is on the model-aligned side. Comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "FanDuel TN capture 2026-09-07T18:17Z (x-sportsbook-region: TN)",
+        "note": "TN listing: SMU -2.5 (-115) / FSU +2.5 (-105), total 54.5. User's NC slip boosted to +133; NC account. Context only, never a model input."
+      },
+      "grading": {
+        "source": "official final score",
+        "graded_at": "2026-09-08T05:29:00Z",
+        "final_score": "SMU 27, Florida State 24",
+        "net_units": -1.0,
+        "net_usd": -5.0,
+        "source_note": "Florida State lost by 3; FSU +2.5 needed a loss by 2 or fewer (or a win). No cover. ESPN event 401858212 final."
+      },
+      "net_units": -1.0
+    },
+    {
+      "bet_id": "us-nc:01m1y11z3xe90v5ha3939dg3dd",
+      "date": "2026-09-07T13:31:00Z",
+      "placed_at": "2026-09-07T13:31:00Z",
+      "sport": "NFL",
+      "game": "New England @ Seattle",
+      "kickoff": "2026-09-10T00:15:00Z",
+      "bet": "NFL Customer Special: 1+ points scored in Patriots v Seahawks (9/9)",
+      "market": "special - 1+ points scored",
+      "selection": "1+ points scored in the game",
+      "line": null,
+      "price": 101,
+      "price_note": "10000% profit boost applied; base price +10000 boosted to +101.",
+      "book": "FanDuel",
+      "state": "NC",
+      "stake_units": 5.0,
+      "stake_usd": 25.0,
+      "potential_payout_usd": 50.25,
+      "potential_profit_usd": 25.25,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided FanDuel settled-bet screenshot (sent 2026-09-10)",
+      "model_at_placement": {
+        "available": false,
+        "note": "No model market covers this special. The only adjacent model view (game total) comes from the totals models that FAILED validation on 9/6 and are not shipped - deliberately not cited here."
+      },
+      "market_context_at_placement": {
+        "available": false,
+        "note": "Boosted special from +10000 to +101; near-certain event by construction. No book comparison meaningful."
+      },
+      "grading": {
+        "source": "FanDuel settled slip + official final score",
+        "graded_at": "2026-09-10T13:51:00Z",
+        "final_score": "Seattle 13, New England 10",
+        "net_units": 5.05,
+        "net_usd": 25.25,
+        "source_note": "Slip shows WON, $50.25 total return on $25.00 at +101. Both teams scored (13-10, ESPN event 401872656)."
+      },
+      "net_units": 5.05
+    },
+    {
+      "bet_id": "us-nc:01m1vx8d7cvtd0zzv2d0taw5v7",
+      "date": "2026-09-06T17:47:00Z",
+      "placed_at": "2026-09-06T17:47:00Z",
+      "sport": "CFB",
+      "game": "Washington State @ Washington + Louisville @ Ole Miss + Wisconsin @ Notre Dame",
+      "kickoff": "2026-09-06T20:00:00Z",
+      "bet": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
+      "market": "parlay",
+      "selection": "Over 51.5 and Ole Miss -9.5 (alt) and Notre Dame -21.5",
+      "line": null,
+      "price": 729,
+      "price_note": "Bet Reset Token applied per slip (slip also shows 20 rewards points pending). +729 matches the three leg prices multiplied - no odds boost on this ticket.",
+      "book": "FanDuel",
+      "state": "NC",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 41.47,
+      "potential_profit_usd": 36.47,
+      "cashout_value_usd_at_capture": 5.0,
+      "legs": [
+        {
+          "game": "Washington State @ Washington",
+          "market": "total",
+          "selection": "Over",
+          "line": 51.5,
+          "price": -115,
+          "kickoff": "2026-09-06T20:00:00Z",
+          "model_note": "Model totals side is a null by design - no totals projection exists for this game."
+        },
+        {
+          "game": "Louisville @ Ole Miss",
+          "market": "alternate spread",
+          "selection": "Ole Miss",
+          "line": -9.5,
+          "price": 124,
+          "kickoff": "2026-09-06T23:30:00Z",
+          "model_home_line_at_placement": -10.0
+        },
+        {
+          "game": "Wisconsin @ Notre Dame",
+          "market": "spread",
+          "selection": "Notre Dame",
+          "line": -21.5,
+          "price": -102,
+          "kickoff": "2026-09-06T23:30:00Z",
+          "model_home_line_at_placement": -19.2
+        }
+      ],
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.1",
+        "note": "Pregame board numbers from the 2026-09-06 12:35 PM CT v2.1 refit (comparison, not a pick): Washington -19.0 (book -23.5, book 4.5 richer); Ole Miss -10.0 (alt line -9.5, model 0.5 richer); Notre Dame -19.2 (line -21.5, book 2.3 richer). Totals side is a null by design - no model read on the Over 51.5 leg. This ticket doubles exposure to the same two games as the open 2u parlay us-nc:01m1vaf4r9fqfr00a269j66tr8 (ND -20.5 / Ole Miss -6.5)."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "FanDuel TN captures through 2026-09-06T12:15Z (x-sportsbook-region: TN)",
+        "note": "User's NC slip leg prices (-115 / +124 / -102, parlay +729) may differ from TN listings; NC account. Context only, never a model input."
+      },
+      "grading": {
+        "source": "official final score",
+        "graded_at": "2026-09-07T00:16:00Z",
+        "final_score": "Washington State 10, Washington 24 (leg 1)",
+        "net_units": -1.0,
+        "net_usd": -5.0,
+        "source_note": "Leg 1 (Over 51.5 WSU@UW) missed - combined 34. Parlay is lost regardless of the remaining legs (Ole Miss -9.5 alt, Notre Dame -21.5, both in progress at grading). Bet Reset Token was applied per the slip; any token refund is issued by FanDuel (typically as bonus bets) and is not counted here."
+      },
+      "net_units": -1.0
+    },
+    {
+      "bet_id": "us-nc:01m1vaf4r9fqfr00a269j66tr8",
+      "date": "2026-09-06T13:18:00Z",
+      "placed_at": "2026-09-06T13:18:00Z",
+      "sport": "CFB",
+      "game": "Wisconsin @ Notre Dame + Louisville @ Ole Miss",
+      "kickoff": "2026-09-06T23:30:00Z",
+      "bet": "2-leg parlay: Notre Dame -20.5, Ole Miss -6.5",
+      "market": "parlay",
+      "selection": "Notre Dame -20.5 and Ole Miss -6.5",
+      "line": null,
+      "price": 328,
+      "price_note": "30% FanDuel profit boost applied; base price +253 boosted to +328",
+      "book": "FanDuel",
+      "state": "NC",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 42.85,
+      "potential_profit_usd": 32.85,
+      "cashout_value_usd_at_capture": 10.0,
+      "legs": [
+        {
+          "game": "Wisconsin @ Notre Dame",
+          "market": "spread",
+          "selection": "Notre Dame",
+          "line": -20.5,
+          "price": 110,
+          "kickoff": "2026-09-06T23:30:00Z",
+          "model_home_line_at_placement": -19.6
+        },
+        {
+          "game": "Louisville @ Ole Miss",
+          "market": "spread",
+          "selection": "Ole Miss",
+          "line": -6.5,
+          "price": 103,
+          "kickoff": "2026-09-06T23:30:00Z",
+          "model_home_line_at_placement": -10.0
+        }
+      ],
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2",
+        "note": "Frozen pregame board numbers from the 2026-09-06 refit (pregame, neutral site): Notre Dame -19.6 (book -20.5, book 0.9 richer than model); Ole Miss -10.0 (book -6.5, model 3.5 richer than book). Comparison, not a pick."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "FanDuel TN capture 2026-09-06T12:15Z (x-sportsbook-region: TN)",
+        "note": "User's NC slip prices (+110/+103 legs, boosted +328) differ slightly from the TN capture (-110/-118 legs); NC account. Context only, never a model input."
+      },
+      "grading": {
+        "source": "official final score",
+        "graded_at": "2026-09-07T04:15:00Z",
+        "final_score": "Notre Dame 41, Wisconsin 13 (leg 1 COVERED: ND by 28 >= 21); Ole Miss 41, Louisville 38 (leg 2 MISSED: Ole Miss by 3 < 7)",
+        "net_units": -2.0,
+        "net_usd": -10.0,
+        "source_note": "Parlay loses on the Ole Miss leg. ND -20.5 covered comfortably; Ole Miss -6.5 needed a 7+ point win and won by 3. Finals via ESPN summary endpoints 401858438 / 401856661."
+      },
+      "net_units": -2.0
+    },
+    {
+      "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
+      "date": "2026-09-02T18:58:00Z",
+      "placed_at": "2026-09-02T18:58:00Z",
+      "sport": "CFB",
+      "game": "UCLA @ California",
+      "kickoff": "2026-09-06T02:30:00Z",
+      "bet": "California moneyline",
+      "market": "moneyline",
+      "selection": "California",
+      "line": null,
+      "price": 105,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 10.25,
+      "potential_profit_usd": 5.25,
+      "cashout_value_usd_at_capture": 5.0,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": false,
+        "model_version": "v3-ridge-market-residual-locked",
+        "reason": "No frozen 2026 CFB moneyline forecast existed for UCLA @ California at placement. Existing v3 CFB artifacts are historical residual backtests and line observations; no game-level win probability or fair moneyline was frozen.",
+        "post_bet_backfill_allowed": false
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "SportsbookReview seven-book capture",
+        "observed_at": "2026-09-02T12:39:33Z",
+        "game_id": "377725",
+        "FanDuel_spread_at_last_capture": "California +1.5 (-106) / UCLA -1.5 (-114)",
+        "note": "Context only; not a model prediction and not the user TN moneyline price."
+      },
+      "grading": {
+        "source": "official final score",
+        "final_score": "UCLA 45, California 24",
+        "graded_at": "2026-09-06T06:47:00Z",
+        "net_units": -1.0,
+        "net_usd": -5.0,
+        "source_note": "Official final via ESPN site.api summary feed, event 401858210, STATUS_FINAL (UCLA 45, California 24)."
+      },
+      "net_units": -1.0
+    },
+    {
+      "bet_id": "us-tn:01m1mjd7jpfqysyjj32rw9rkw6",
+      "date": "2026-09-03T21:22:00Z",
+      "placed_at": "2026-09-03T21:22:00Z",
+      "sport": "CFB",
+      "game": "Colorado @ Georgia Tech",
+      "kickoff": "2026-09-04T00:00:00Z",
+      "bet": "Georgia Tech -6.5",
+      "market": "spread",
+      "selection": "Georgia Tech",
+      "line": -6.5,
+      "price": 119,
+      "price_note": "30% FanDuel profit boost applied; base price -110 boosted to +119",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 21.9,
+      "potential_profit_usd": 11.9,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot",
+      "model_at_placement": {
+        "available": false,
+        "model_version": "v3-ridge-market-residual-locked",
+        "reason": "No frozen 2026 CFB spread forecast existed for Colorado @ Georgia Tech at placement. The frozen v3 catalog covers NFL week 1 moneyline only; existing CFB artifacts are historical residual backtests and line observations, not frozen game-level forecasts.",
+        "post_bet_backfill_allowed": false
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "SportsbookReview seven-book capture",
+        "observed_at": "2026-09-02T12:39:33Z",
+        "game_id": "377622",
+        "FanDuel_spread_at_last_capture": "Georgia Tech -6.5 (-120)",
+        "consensus_spread_at_last_capture": "Georgia Tech -6.5 across 7 books",
+        "note": "Context only; not a model prediction. User's TN slip price is the boosted +119, not the VA proxy or this consensus capture."
+      },
+      "grading": {
+        "source": "official final score",
+        "final_score": "Colorado 14, Georgia Tech 13",
+        "graded_at": "2026-09-04T08:34:00Z",
+        "net_units": -2.0,
+        "net_usd": -10.0,
+        "source_note": "Official result via ESPN.com game recap and AP report (Colorado 14-13, final; CU go-ahead TD with 0:42 left). The site.api.espn.com feed for event 401856776 is stuck at \"In Progress\" 10-7 2Q - an ESPN API-side defect, retried multiple times over 6+ hours."
+      },
+      "net_units": -2.0
+    },
+    {
+      "bet_id": "not_captured",
+      "date": "2026-09-13T15:45:00Z",
+      "placed_at": "2026-09-13T15:45:00Z",
+      "sport": "NFL",
+      "game": "Multi-game anytime-TD parlay",
+      "kickoff": "2026-09-13T17:01:00Z",
+      "bet": "4-leg anytime-TD parlay: Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
+      "market": "anytime_touchdown_parlay",
+      "selection": "Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
+      "line": null,
+      "price": 4196,
+      "price_note": "50% FanDuel profit boost applied; base price +2798 boosted to +4196",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 0.6,
+      "stake_usd": 3.0,
+      "potential_payout_usd": 128.91,
+      "potential_profit_usd": 125.91,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+      "legs": [
+        {
+          "player": "Emeka Egbuka",
+          "price": 203,
+          "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.125
+        },
+        {
+          "player": "Tony Pollard",
+          "price": 164,
+          "game": "New York Jets @ Tennessee Titans",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.401
+        },
+        {
+          "player": "Jonathan Taylor",
+          "price": -143,
+          "game": "Baltimore Ravens @ Indianapolis Colts",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.462
+        },
+        {
+          "player": "Christian Watson",
+          "price": 214,
+          "game": "Green Bay Packers @ Minnesota Vikings",
+          "kickoff": "2026-09-13T20:25:00Z",
+          "model_td_probability": 0.297
+        }
+      ],
+      "notes": "NOT model-backed names. Model TD probs (v3, frozen 9/3): Egbuka 12.5%, Pollard 40.1%, Taylor 46.2%, Watson 29.7%. None are model top names; Egbuka at 12.5% is far below his +203 implied (33.1%). Bet ID cut off in screenshot, not captured.",
+      "net_units": -0.6,
+      "net_usd": -3.0,
+      "settled_note": "Legs: Egbuka 0 TD (5-63 rec), Pollard 0 TD (7-35 rush) - ticket dead on leg 1. Taylor 2 TD and Watson 2 TD both hit but parlay is dead. Graded from ESPN scoring plays 9/13 ~7:15 PM CT."
+    },
+    {
+      "bet_id": "us-tn:01m2dpw6wpetb9bny3ef5vds2x",
+      "date": "2026-09-13T15:41:00Z",
+      "placed_at": "2026-09-13T15:41:00Z",
+      "sport": "NFL",
+      "game": "Multi-game anytime-TD parlay",
+      "kickoff": "2026-09-13T17:01:00Z",
+      "bet": "2-leg anytime-TD parlay: Trey McBride ATD +235 + Cam Skattebo ATD +123",
+      "market": "anytime_touchdown_parlay",
+      "selection": "Trey McBride ATD +235 + Cam Skattebo ATD +123",
+      "line": null,
+      "price": 650,
+      "price_note": "30% FanDuel profit boost applied; base price +500 boosted to +650",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 37.5,
+      "potential_profit_usd": 32.5,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+      "legs": [
+        {
+          "player": "Trey McBride",
+          "price": 235,
+          "game": "Arizona Cardinals @ Los Angeles Chargers",
+          "kickoff": "2026-09-13T20:26:00Z",
+          "model_td_probability": 0.408
+        },
+        {
+          "player": "Cam Skattebo",
+          "price": 123,
+          "game": "Dallas Cowboys @ New York Giants",
+          "kickoff": "2026-09-14T00:20:00Z",
+          "model_td_probability": 0.479
+        }
+      ],
+      "notes": "NOT model-backed names. Model TD probs: McBride 40.8% (book implied 29.9% - model HIGHER), Skattebo 47.9% (implied 44.8%). Neither is a model top-3 name. Bet ID from slip; placed 10:41 AM CT. SNF leg settles after 7:20 PM CT game. UPDATE 9/13 7:15 PM: McBride leg HIT (9-95, 1 TD). Skattebo leg pending SNF (DAL@NYG, kicked 7:20 PM CT). Ticket still live.",
+      "net_units": 6.5,
+      "net_usd": 32.5,
+      "settled_note": "Both legs hit. McBride 9-95-1 (graded earlier). Skattebo 3-yd rush TD (18-81-1, 1 fumble lost) in NYG 28-20 over DAL on SNF. Boosted +650 pays $32.50 profit on $5 = +6.5u. Graded from ESPN scoring plays 9/13 ~11:00 PM CT."
+    },
+    {
+      "bet_id": "not_captured",
+      "date": "2026-09-13T15:45:00Z",
+      "placed_at": "2026-09-13T15:45:00Z",
+      "sport": "NFL",
+      "game": "Multi-game anytime-TD parlay",
+      "kickoff": "2026-09-13T17:01:00Z",
+      "bet": "3-leg anytime-TD parlay: Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
+      "market": "anytime_touchdown_parlay",
+      "selection": "Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
+      "line": null,
+      "price": 408,
+      "price_note": "Bet Reset Token used (no profit boost); price +408",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 5.0,
+      "potential_payout_usd": 25.42,
+      "potential_profit_usd": 20.42,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
+      "legs": [
+        {
+          "player": "Bijan Robinson",
+          "price": -120,
+          "game": "Atlanta Falcons @ Pittsburgh Steelers",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.713
+        },
+        {
+          "player": "Chase Brown",
+          "price": -120,
+          "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.641
+        },
+        {
+          "player": "Derrick Henry",
+          "price": -195,
+          "game": "Baltimore Ravens @ Indianapolis Colts",
+          "kickoff": "2026-09-13T17:01:00Z",
+          "model_td_probability": 0.649
+        }
+      ],
+      "notes": "MODEL-BACKED: the v3 TD model's top-3 names for this slate (71.3% / 64.1% / 64.9%) at the fresh 9/13 10:56 AM CT VA-equivalent prices (-120 / -120 / -195; 9/2 stale prices were -165/-145/-210). Bet ID cut off in screenshot, not captured.",
+      "net_units": 4.084,
+      "net_usd": 20.42,
+      "settled_note": "All three legs hit: Bijan 23-yd receiving TD (also 21-83 rush, 8-90 rec), Chase Brown 5-yd rush TD, Henry 3 rush TDs (24-144). +408 pays $20.42 profit on $5. Model top-3 went 3-for-3. Graded from ESPN scoring plays 9/13 ~7:15 PM CT."
+    },
+    {
+      "bet_id": "not_captured:20260914-den-kc-sgp-1356",
+      "date": "2026-09-14T19:48:09Z",
+      "placed_at": "2026-09-14T19:48:09Z",
+      "sport": "NFL",
+      "game": "Denver Broncos @ Kansas City Chiefs",
+      "kickoff": "2026-09-15T00:15:00Z",
+      "bet": "3-leg SGP: RJ Harvey anytime TD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
+      "market": "same_game_parlay",
+      "selection": "RJ Harvey ATD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
+      "line": null,
+      "price": 1356,
+      "price_note": "Same Game Parlay price +1356 shown on user-provided FanDuel slip. No boost/token shown in the screenshot.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 72.8,
+      "potential_profit_usd": 67.8,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
+      "legs": [
+        {
+          "player": "RJ Harvey",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        },
+        {
+          "player": "Evan Engram",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 22.5
+        },
+        {
+          "player": "Pat Bryant",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 26.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
+        "note": "Comparison only: Harvey ATD prior 52.7%; Engram receiving median 40.0 vs 22.5; Bryant receiving median 44.9 vs 26.5. Role/current-week uncertainty remains material."
+      },
+      "net_units": -1,
+      "net_usd": -5,
+      "grading": {
+        "source": "ESPN official final box score and scoring summary, game 401872931",
+        "graded_at": "2026-09-15T12:14:00Z",
+        "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
+        "detail": "Loss. RJ Harvey did not score. Evan Engram cleared over 22.5 with 43 receiving yards and a TD; Pat Bryant cleared over 26.5 with 32 receiving yards."
+      }
+    },
+    {
+      "bet_id": "not_captured:20260914-den-kc-sgp-255",
+      "date": "2026-09-14T19:49:19Z",
+      "placed_at": "2026-09-14T19:49:19Z",
+      "sport": "NFL",
+      "game": "Denver Broncos @ Kansas City Chiefs",
+      "kickoff": "2026-09-15T00:15:00Z",
+      "bet": "2-leg SGP: Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
+      "market": "same_game_parlay",
+      "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
+      "line": null,
+      "price": 255,
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 17.75,
+      "potential_profit_usd": 12.75,
+      "result": "loss",
+      "status": "settled",
+      "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
+      "legs": [
+        {
+          "player": "Patrick Mahomes",
+          "market": "passing yards",
+          "selection": "under",
+          "line": 223.5
+        },
+        {
+          "player": "Courtland Sutton",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 42.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
+        "note": "Comparison only: Mahomes passing median 200.3 vs 223.5; Sutton receiving median 57.3 vs 42.5. This combination is directionally coherent rather than stacking a KC passing over."
+      },
+      "net_units": -1,
+      "net_usd": -5,
+      "grading": {
+        "source": "ESPN official final box score, game 401872931",
+        "graded_at": "2026-09-15T12:14:00Z",
+        "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
+        "detail": "Loss. Patrick Mahomes cleared under 223.5 with 184 passing yards; Courtland Sutton failed over 42.5 with 0 receiving yards (0 catches on 1 target)."
+      }
+    },
+    {
+      "bet_id": "not_captured:20260917-det-buf-sgp-569",
+      "date": "2026-09-17T22:00:00Z",
+      "placed_at": "2026-09-17T22:00:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Buffalo Bills",
+      "kickoff": "2026-09-18T00:15:00Z",
+      "bet": "3-leg SGP: Amon-Ra St. Brown over 79.5 receiving yards + Dawson Knox over 12.5 receiving yards + Keon Coleman over 14.5 receiving yards",
+      "market": "same_game_parlay",
+      "selection": "Amon-Ra St. Brown over 79.5 receiving yards + Dawson Knox over 12.5 receiving yards + Keon Coleman over 14.5 receiving yards",
+      "line": null,
+      "price": 569,
+      "price_note": "Same Game Parlay price +569 shown on user-provided FanDuel slip screenshot. Coleman was 11.5 in the Sep 15 Tennessee capture and moved to 14.5 at placement.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 33.45,
+      "potential_profit_usd": 28.45,
+      "result": "pending",
+      "status": "pending",
+      "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 at 5:00 PM CT.",
+      "legs": [
+        {
+          "player": "Amon-Ra St. Brown",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 79.5
+        },
+        {
+          "player": "Dawson Knox",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 12.5
+        },
+        {
+          "player": "Keon Coleman",
+          "market": "receiving yards",
+          "selection": "over",
+          "line": 14.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
+        "note": "Comparison only, not a validated edge: Amon-Ra model 90.8 vs 79.5; Knox 26.5 vs 12.5; Coleman 25.7 vs 14.5. Bills-receiver legs share passing-game dependency; the model had Josh Allen passing 199.6 vs stale TN 248.5."
+      },
+      "net_units": null,
+      "net_usd": null
     }
-   ],
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "cfb-gameline-v2.1",
-    "note": "Pregame board numbers from the 2026-09-06 12:35 PM CT v2.1 refit (comparison, not a pick): Washington -19.0 (book -23.5, book 4.5 richer); Ole Miss -10.0 (alt line -9.5, model 0.5 richer); Notre Dame -19.2 (line -21.5, book 2.3 richer). Totals side is a null by design - no model read on the Over 51.5 leg. This ticket doubles exposure to the same two games as the open 2u parlay us-nc:01m1vaf4r9fqfr00a269j66tr8 (ND -20.5 / Ole Miss -6.5)."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "FanDuel TN captures through 2026-09-06T12:15Z (x-sportsbook-region: TN)",
-    "note": "User's NC slip leg prices (-115 / +124 / -102, parlay +729) may differ from TN listings; NC account. Context only, never a model input."
-   },
-   "grading": {
-    "source": "official final score",
-    "graded_at": "2026-09-07T00:16:00Z",
-    "final_score": "Washington State 10, Washington 24 (leg 1)",
-    "net_units": -1.0,
-    "net_usd": -5.0,
-    "source_note": "Leg 1 (Over 51.5 WSU@UW) missed - combined 34. Parlay is lost regardless of the remaining legs (Ole Miss -9.5 alt, Notre Dame -21.5, both in progress at grading). Bet Reset Token was applied per the slip; any token refund is issued by FanDuel (typically as bonus bets) and is not counted here."
-   },
-   "net_units": -1.0
-  },
-  {
-   "bet_id": "us-nc:01m1vaf4r9fqfr00a269j66tr8",
-   "date": "2026-09-06T13:18:00Z",
-   "placed_at": "2026-09-06T13:18:00Z",
-   "sport": "CFB",
-   "game": "Wisconsin @ Notre Dame + Louisville @ Ole Miss",
-   "kickoff": "2026-09-06T23:30:00Z",
-   "bet": "2-leg parlay: Notre Dame -20.5, Ole Miss -6.5",
-   "market": "parlay",
-   "selection": "Notre Dame -20.5 and Ole Miss -6.5",
-   "line": null,
-   "price": 328,
-   "price_note": "30% FanDuel profit boost applied; base price +253 boosted to +328",
-   "book": "FanDuel",
-   "state": "NC",
-   "stake_units": 2.0,
-   "stake_usd": 10.0,
-   "potential_payout_usd": 42.85,
-   "potential_profit_usd": 32.85,
-   "cashout_value_usd_at_capture": 10.0,
-   "legs": [
-    {
-     "game": "Wisconsin @ Notre Dame",
-     "market": "spread",
-     "selection": "Notre Dame",
-     "line": -20.5,
-     "price": 110,
-     "kickoff": "2026-09-06T23:30:00Z",
-     "model_home_line_at_placement": -19.6
-    },
-    {
-     "game": "Louisville @ Ole Miss",
-     "market": "spread",
-     "selection": "Ole Miss",
-     "line": -6.5,
-     "price": 103,
-     "kickoff": "2026-09-06T23:30:00Z",
-     "model_home_line_at_placement": -10.0
-    }
-   ],
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot",
-   "model_at_placement": {
-    "available": true,
-    "model_version": "cfb-gameline-v2",
-    "note": "Frozen pregame board numbers from the 2026-09-06 refit (pregame, neutral site): Notre Dame -19.6 (book -20.5, book 0.9 richer than model); Ole Miss -10.0 (book -6.5, model 3.5 richer than book). Comparison, not a pick."
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "FanDuel TN capture 2026-09-06T12:15Z (x-sportsbook-region: TN)",
-    "note": "User's NC slip prices (+110/+103 legs, boosted +328) differ slightly from the TN capture (-110/-118 legs); NC account. Context only, never a model input."
-   },
-   "grading": {
-    "source": "official final score",
-    "graded_at": "2026-09-07T04:15:00Z",
-    "final_score": "Notre Dame 41, Wisconsin 13 (leg 1 COVERED: ND by 28 >= 21); Ole Miss 41, Louisville 38 (leg 2 MISSED: Ole Miss by 3 < 7)",
-    "net_units": -2.0,
-    "net_usd": -10.0,
-    "source_note": "Parlay loses on the Ole Miss leg. ND -20.5 covered comfortably; Ole Miss -6.5 needed a 7+ point win and won by 3. Finals via ESPN summary endpoints 401858438 / 401856661."
-   },
-   "net_units": -2.0
-  },
-  {
-   "bet_id": "us-tn:01m1hqrz8qf0hsdexcp2cvj89p",
-   "date": "2026-09-02T18:58:00Z",
-   "placed_at": "2026-09-02T18:58:00Z",
-   "sport": "CFB",
-   "game": "UCLA @ California",
-   "kickoff": "2026-09-06T02:30:00Z",
-   "bet": "California moneyline",
-   "market": "moneyline",
-   "selection": "California",
-   "line": null,
-   "price": 105,
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 10.25,
-   "potential_profit_usd": 5.25,
-   "cashout_value_usd_at_capture": 5.0,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot",
-   "model_at_placement": {
-    "available": false,
-    "model_version": "v3-ridge-market-residual-locked",
-    "reason": "No frozen 2026 CFB moneyline forecast existed for UCLA @ California at placement. Existing v3 CFB artifacts are historical residual backtests and line observations; no game-level win probability or fair moneyline was frozen.",
-    "post_bet_backfill_allowed": false
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "SportsbookReview seven-book capture",
-    "observed_at": "2026-09-02T12:39:33Z",
-    "game_id": "377725",
-    "FanDuel_spread_at_last_capture": "California +1.5 (-106) / UCLA -1.5 (-114)",
-    "note": "Context only; not a model prediction and not the user TN moneyline price."
-   },
-   "grading": {
-    "source": "official final score",
-    "final_score": "UCLA 45, California 24",
-    "graded_at": "2026-09-06T06:47:00Z",
-    "net_units": -1.0,
-    "net_usd": -5.0,
-    "source_note": "Official final via ESPN site.api summary feed, event 401858210, STATUS_FINAL (UCLA 45, California 24)."
-   },
-   "net_units": -1.0
-  },
-  {
-   "bet_id": "us-tn:01m1mjd7jpfqysyjj32rw9rkw6",
-   "date": "2026-09-03T21:22:00Z",
-   "placed_at": "2026-09-03T21:22:00Z",
-   "sport": "CFB",
-   "game": "Colorado @ Georgia Tech",
-   "kickoff": "2026-09-04T00:00:00Z",
-   "bet": "Georgia Tech -6.5",
-   "market": "spread",
-   "selection": "Georgia Tech",
-   "line": -6.5,
-   "price": 119,
-   "price_note": "30% FanDuel profit boost applied; base price -110 boosted to +119",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 2.0,
-   "stake_usd": 10.0,
-   "potential_payout_usd": 21.9,
-   "potential_profit_usd": 11.9,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot",
-   "model_at_placement": {
-    "available": false,
-    "model_version": "v3-ridge-market-residual-locked",
-    "reason": "No frozen 2026 CFB spread forecast existed for Colorado @ Georgia Tech at placement. The frozen v3 catalog covers NFL week 1 moneyline only; existing CFB artifacts are historical residual backtests and line observations, not frozen game-level forecasts.",
-    "post_bet_backfill_allowed": false
-   },
-   "market_context_at_placement": {
-    "available": true,
-    "source": "SportsbookReview seven-book capture",
-    "observed_at": "2026-09-02T12:39:33Z",
-    "game_id": "377622",
-    "FanDuel_spread_at_last_capture": "Georgia Tech -6.5 (-120)",
-    "consensus_spread_at_last_capture": "Georgia Tech -6.5 across 7 books",
-    "note": "Context only; not a model prediction. User's TN slip price is the boosted +119, not the VA proxy or this consensus capture."
-   },
-   "grading": {
-    "source": "official final score",
-    "final_score": "Colorado 14, Georgia Tech 13",
-    "graded_at": "2026-09-04T08:34:00Z",
-    "net_units": -2.0,
-    "net_usd": -10.0,
-    "source_note": "Official result via ESPN.com game recap and AP report (Colorado 14-13, final; CU go-ahead TD with 0:42 left). The site.api.espn.com feed for event 401856776 is stuck at \"In Progress\" 10-7 2Q - an ESPN API-side defect, retried multiple times over 6+ hours."
-   },
-   "net_units": -2.0
-  },
-  {
-   "bet_id": "not_captured",
-   "date": "2026-09-13T15:45:00Z",
-   "placed_at": "2026-09-13T15:45:00Z",
-   "sport": "NFL",
-   "game": "Multi-game anytime-TD parlay",
-   "kickoff": "2026-09-13T17:01:00Z",
-   "bet": "4-leg anytime-TD parlay: Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
-   "market": "anytime_touchdown_parlay",
-   "selection": "Emeka Egbuka ATD +203 + Tony Pollard ATD +164 + Jonathan Taylor ATD -143 + Christian Watson ATD +214",
-   "line": null,
-   "price": 4196,
-   "price_note": "50% FanDuel profit boost applied; base price +2798 boosted to +4196",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 0.6,
-   "stake_usd": 3.0,
-   "potential_payout_usd": 128.91,
-   "potential_profit_usd": 125.91,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
-   "legs": [
-    {
-     "player": "Emeka Egbuka",
-     "price": 203,
-     "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.125
-    },
-    {
-     "player": "Tony Pollard",
-     "price": 164,
-     "game": "New York Jets @ Tennessee Titans",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.401
-    },
-    {
-     "player": "Jonathan Taylor",
-     "price": -143,
-     "game": "Baltimore Ravens @ Indianapolis Colts",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.462
-    },
-    {
-     "player": "Christian Watson",
-     "price": 214,
-     "game": "Green Bay Packers @ Minnesota Vikings",
-     "kickoff": "2026-09-13T20:25:00Z",
-     "model_td_probability": 0.297
-    }
-   ],
-   "notes": "NOT model-backed names. Model TD probs (v3, frozen 9/3): Egbuka 12.5%, Pollard 40.1%, Taylor 46.2%, Watson 29.7%. None are model top names; Egbuka at 12.5% is far below his +203 implied (33.1%). Bet ID cut off in screenshot, not captured.",
-   "net_units": -0.6,
-   "net_usd": -3.0,
-   "settled_note": "Legs: Egbuka 0 TD (5-63 rec), Pollard 0 TD (7-35 rush) - ticket dead on leg 1. Taylor 2 TD and Watson 2 TD both hit but parlay is dead. Graded from ESPN scoring plays 9/13 ~7:15 PM CT."
-  },
-  {
-   "bet_id": "us-tn:01m2dpw6wpetb9bny3ef5vds2x",
-   "date": "2026-09-13T15:41:00Z",
-   "placed_at": "2026-09-13T15:41:00Z",
-   "sport": "NFL",
-   "game": "Multi-game anytime-TD parlay",
-   "kickoff": "2026-09-13T17:01:00Z",
-   "bet": "2-leg anytime-TD parlay: Trey McBride ATD +235 + Cam Skattebo ATD +123",
-   "market": "anytime_touchdown_parlay",
-   "selection": "Trey McBride ATD +235 + Cam Skattebo ATD +123",
-   "line": null,
-   "price": 650,
-   "price_note": "30% FanDuel profit boost applied; base price +500 boosted to +650",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 37.5,
-   "potential_profit_usd": 32.5,
-   "result": "win",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
-   "legs": [
-    {
-     "player": "Trey McBride",
-     "price": 235,
-     "game": "Arizona Cardinals @ Los Angeles Chargers",
-     "kickoff": "2026-09-13T20:26:00Z",
-     "model_td_probability": 0.408
-    },
-    {
-     "player": "Cam Skattebo",
-     "price": 123,
-     "game": "Dallas Cowboys @ New York Giants",
-     "kickoff": "2026-09-14T00:20:00Z",
-     "model_td_probability": 0.479
-    }
-   ],
-   "notes": "NOT model-backed names. Model TD probs: McBride 40.8% (book implied 29.9% - model HIGHER), Skattebo 47.9% (implied 44.8%). Neither is a model top-3 name. Bet ID from slip; placed 10:41 AM CT. SNF leg settles after 7:20 PM CT game. UPDATE 9/13 7:15 PM: McBride leg HIT (9-95, 1 TD). Skattebo leg pending SNF (DAL@NYG, kicked 7:20 PM CT). Ticket still live.",
-   "net_units": 6.5,
-   "net_usd": 32.5,
-   "settled_note": "Both legs hit. McBride 9-95-1 (graded earlier). Skattebo 3-yd rush TD (18-81-1, 1 fumble lost) in NYG 28-20 over DAL on SNF. Boosted +650 pays $32.50 profit on $5 = +6.5u. Graded from ESPN scoring plays 9/13 ~11:00 PM CT."
-  },
-  {
-   "bet_id": "not_captured",
-   "date": "2026-09-13T15:45:00Z",
-   "placed_at": "2026-09-13T15:45:00Z",
-   "sport": "NFL",
-   "game": "Multi-game anytime-TD parlay",
-   "kickoff": "2026-09-13T17:01:00Z",
-   "bet": "3-leg anytime-TD parlay: Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
-   "market": "anytime_touchdown_parlay",
-   "selection": "Bijan Robinson ATD -120 + Chase Brown ATD -120 + Derrick Henry ATD -195",
-   "line": null,
-   "price": 408,
-   "price_note": "Bet Reset Token used (no profit boost); price +408",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1.0,
-   "stake_usd": 5.0,
-   "potential_payout_usd": 25.42,
-   "potential_profit_usd": 20.42,
-   "result": "win",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (2026-09-13)",
-   "legs": [
-    {
-     "player": "Bijan Robinson",
-     "price": -120,
-     "game": "Atlanta Falcons @ Pittsburgh Steelers",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.713
-    },
-    {
-     "player": "Chase Brown",
-     "price": -120,
-     "game": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.641
-    },
-    {
-     "player": "Derrick Henry",
-     "price": -195,
-     "game": "Baltimore Ravens @ Indianapolis Colts",
-     "kickoff": "2026-09-13T17:01:00Z",
-     "model_td_probability": 0.649
-    }
-   ],
-   "notes": "MODEL-BACKED: the v3 TD model's top-3 names for this slate (71.3% / 64.1% / 64.9%) at the fresh 9/13 10:56 AM CT VA-equivalent prices (-120 / -120 / -195; 9/2 stale prices were -165/-145/-210). Bet ID cut off in screenshot, not captured.",
-   "net_units": 4.084,
-   "net_usd": 20.42,
-   "settled_note": "All three legs hit: Bijan 23-yd receiving TD (also 21-83 rush, 8-90 rec), Chase Brown 5-yd rush TD, Henry 3 rush TDs (24-144). +408 pays $20.42 profit on $5. Model top-3 went 3-for-3. Graded from ESPN scoring plays 9/13 ~7:15 PM CT."
-  },
-  {
-   "bet_id": "not_captured:20260914-den-kc-sgp-1356",
-   "date": "2026-09-14T19:48:09Z",
-   "placed_at": "2026-09-14T19:48:09Z",
-   "sport": "NFL",
-   "game": "Denver Broncos @ Kansas City Chiefs",
-   "kickoff": "2026-09-15T00:15:00Z",
-   "bet": "3-leg SGP: RJ Harvey anytime TD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
-   "market": "same_game_parlay",
-   "selection": "RJ Harvey ATD + Evan Engram over 22.5 receiving yards + Pat Bryant over 26.5 receiving yards",
-   "line": null,
-   "price": 1356,
-   "price_note": "Same Game Parlay price +1356 shown on user-provided FanDuel slip. No boost/token shown in the screenshot.",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1,
-   "stake_usd": 5,
-   "potential_payout_usd": 72.8,
-   "potential_profit_usd": 67.8,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
-   "legs": [
-    {
-     "player": "RJ Harvey",
-     "market": "anytime touchdown scorer",
-     "selection": "yes",
-     "line": null
-    },
-    {
-     "player": "Evan Engram",
-     "market": "receiving yards",
-     "selection": "over",
-     "line": 22.5
-    },
-    {
-     "player": "Pat Bryant",
-     "market": "receiving yards",
-     "selection": "over",
-     "line": 26.5
-    }
-   ],
-   "model_at_placement": {
-    "available": true,
-    "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
-    "note": "Comparison only: Harvey ATD prior 52.7%; Engram receiving median 40.0 vs 22.5; Bryant receiving median 44.9 vs 26.5. Role/current-week uncertainty remains material."
-   },
-   "net_units": -1,
-   "net_usd": -5,
-   "grading": {
-    "source": "ESPN official final box score and scoring summary, game 401872931",
-    "graded_at": "2026-09-15T12:14:00Z",
-    "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
-    "detail": "Loss. RJ Harvey did not score. Evan Engram cleared over 22.5 with 43 receiving yards and a TD; Pat Bryant cleared over 26.5 with 32 receiving yards."
-   }
-  },
-  {
-   "bet_id": "not_captured:20260914-den-kc-sgp-255",
-   "date": "2026-09-14T19:49:19Z",
-   "placed_at": "2026-09-14T19:49:19Z",
-   "sport": "NFL",
-   "game": "Denver Broncos @ Kansas City Chiefs",
-   "kickoff": "2026-09-15T00:15:00Z",
-   "bet": "2-leg SGP: Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
-   "market": "same_game_parlay",
-   "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
-   "line": null,
-   "price": 255,
-   "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
-   "book": "FanDuel",
-   "state": "TN",
-   "stake_units": 1,
-   "stake_usd": 5,
-   "potential_payout_usd": 17.75,
-   "potential_profit_usd": 12.75,
-   "result": "loss",
-   "status": "settled",
-   "source": "User-provided FanDuel bet slip screenshot (sent 2026-09-14); user confirmed 1u stake.",
-   "legs": [
-    {
-     "player": "Patrick Mahomes",
-     "market": "passing yards",
-     "selection": "under",
-     "line": 223.5
-    },
-    {
-     "player": "Courtland Sutton",
-     "market": "receiving yards",
-     "selection": "over",
-     "line": 42.5
-    }
-   ],
-   "model_at_placement": {
-    "available": true,
-    "model_version": "player-pregame-prior-v2.0.0-w1-2026 (frozen before Week 1; not market-tested)",
-    "note": "Comparison only: Mahomes passing median 200.3 vs 223.5; Sutton receiving median 57.3 vs 42.5. This combination is directionally coherent rather than stacking a KC passing over."
-   },
-   "net_units": -1,
-   "net_usd": -5,
-   "grading": {
-    "source": "ESPN official final box score, game 401872931",
-    "graded_at": "2026-09-15T12:14:00Z",
-    "final_score": "Kansas City Chiefs 31, Denver Broncos 10",
-    "detail": "Loss. Patrick Mahomes cleared under 223.5 with 184 passing yards; Courtland Sutton failed over 42.5 with 0 receiving yards (0 catches on 1 target)."
-   }
-  }
- ]
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-17T22:01:00Z",
+  "updated_at": "2026-09-18T03:14:58Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -922,6 +922,50 @@
       },
       "net_units": null,
       "net_usd": null
+    },
+    {
+      "bet_id": "us-tn:01m2rx76y6em9vr383xxzj29d2",
+      "date": "2026-09-18T00:03:00Z",
+      "placed_at": "2026-09-18T00:03:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Buffalo Bills",
+      "kickoff": "2026-09-18T00:15:00Z",
+      "bet": "James Cook anytime TD scorer",
+      "market": "anytime_touchdown",
+      "selection": "James Cook anytime TD scorer",
+      "line": null,
+      "price": -170,
+      "price_note": "Straight anytime-TD price -170 shown on user-provided Tennessee FanDuel slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 15.88,
+      "potential_profit_usd": 5.88,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided Tennessee FanDuel slip screenshot sent 2026-09-17 at 10:14 PM CT.",
+      "legs": [
+        {
+          "player": "James Cook",
+          "market": "anytime touchdown scorer",
+          "selection": "yes",
+          "line": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
+        "note": "Comparison only: Cook anytime-TD probability 38.8%. Tennessee TD book coverage was not available in the last verified scheduled capture; slip supplies the actual -170 placement price."
+      },
+      "net_units": 1.176,
+      "net_usd": 5.88,
+      "grading": {
+        "source": "User-provided Tennessee FanDuel live slip screenshot and explicit user confirmation that the ticket won.",
+        "graded_at": "2026-09-18T03:14:58Z",
+        "final_score": null,
+        "detail": "Win. Live slip showed James Cook anytime-TD counter at 1 with Detroit 24, Buffalo 41 and 2:50 left in the fourth quarter; user explicitly confirmed the ticket won. Final game score was not yet available at grading time."
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-18T04:35:49Z",
+  "updated_at": "2026-09-18T22:15:37Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -994,6 +994,61 @@
         "final_score": null,
         "detail": "Win. Live slip showed James Cook anytime-TD counter at 1 with Detroit 24, Buffalo 41 and 2:50 left in the fourth quarter; user explicitly confirmed the ticket won. Final game score was not yet available at grading time."
       }
+    },
+    {
+      "bet_id": "us-tn:01m2v9cp5ee0dra5et41n3jvxf",
+      "date": "2026-09-18T22:15:00Z",
+      "placed_at": "2026-09-18T22:15:00Z",
+      "sport": "CFB",
+      "game": "Miami (FL) @ Wake Forest + Houston @ Texas Tech",
+      "kickoff": "2026-09-18T23:30:00Z",
+      "bet": "2-leg parlay: Miami (FL) -20.5 + Texas Tech -7.5",
+      "market": "spread_parlay",
+      "selection": "Miami (FL) -20.5; Texas Tech -7.5",
+      "line": null,
+      "price": 326,
+      "price_note": "Boosted to +326 from +251 with a 30% profit boost. Each leg displayed +106 on the user-provided TN FanDuel slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 42.63,
+      "potential_profit_usd": 32.63,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": "pending",
+      "status": "pending",
+      "source": "User-provided Tennessee FanDuel bet slip screenshot sent 2026-09-18 at 5:15 PM CT.",
+      "legs": [
+        {
+          "event": "Miami (FL) @ Wake Forest",
+          "kickoff": "2026-09-18T23:30:00Z",
+          "market": "spread",
+          "selection": "Miami (FL)",
+          "line": -20.5,
+          "price": 106
+        },
+        {
+          "event": "Houston @ Texas Tech",
+          "kickoff": "2026-09-19T00:00:00Z",
+          "market": "spread",
+          "selection": "Texas Tech",
+          "line": -7.5,
+          "price": 106
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.1 frozen Week 3 initial",
+        "note": "Comparison only, not picks. Miami leg is anti-model: model Miami -13.7 vs slip -20.5. Texas Tech leg is pro-model: model Texas Tech -17.8 vs slip -7.5. Model has not proven a betting edge."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual placement lines and boosted parlay price come from the 5:15 PM CT slip; these supersede the stale scheduled capture for ticket logging."
+      },
+      "net_units": null,
+      "net_usd": null,
+      "grading": null
     }
   ]
 }

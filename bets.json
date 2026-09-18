@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-18T03:14:58Z",
+  "updated_at": "2026-09-18T04:35:49Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -758,8 +758,8 @@
       "stake_usd": 5,
       "potential_payout_usd": 33.45,
       "potential_profit_usd": 28.45,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 at 5:00 PM CT.",
       "legs": [
         {
@@ -786,8 +786,15 @@
         "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
         "note": "Comparison only, not a validated edge: Amon-Ra model 90.8 vs 79.5; Knox 26.5 vs 12.5; Coleman 25.7 vs 14.5. Bills-receiver legs share passing-game dependency; the model had Josh Allen passing 199.6 vs stale TN 248.5."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -1,
+      "net_usd": -5,
+      "grading": {
+        "source": "ESPN official final box score, game 401872932",
+        "source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872932",
+        "graded_at": "2026-09-18T04:35:49Z",
+        "final_score": "Buffalo Bills 41, Detroit Lions 31",
+        "detail": "Loss. Amon-Ra St. Brown cleared over 79.5 with 142 receiving yards; Dawson Knox failed over 12.5 with 5; Keon Coleman cleared over 14.5 with 63."
+      }
     },
     {
       "bet_id": "us-tn:01m2rp17nyf5kvf51gs5hzjap4",
@@ -808,8 +815,8 @@
       "stake_usd": 5,
       "potential_payout_usd": 42.95,
       "potential_profit_usd": 37.95,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
       "legs": [
         {
@@ -836,8 +843,15 @@
         "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
         "note": "Comparison only: Gibbs anytime-TD probability 71.7%; Cook 38.8%. No grounded D.J. Moore probability attached because the player identity/position feed is ambiguous. Tennessee TD book prices were not captured."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -1,
+      "net_usd": -5,
+      "grading": {
+        "source": "ESPN official final box score, game 401872932",
+        "source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872932",
+        "graded_at": "2026-09-18T04:35:49Z",
+        "final_score": "Buffalo Bills 41, Detroit Lions 31",
+        "detail": "Loss. D.J. Moore did not score (0 TD); Jahmyr Gibbs and James Cook each scored 1 TD."
+      }
     },
     {
       "bet_id": "us-tn:01m2rp1v44f4yasta3hwmvj490",
@@ -858,8 +872,8 @@
       "stake_usd": 3.47,
       "potential_payout_usd": 25.16,
       "potential_profit_usd": 21.69,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
       "legs": [
         {
@@ -874,8 +888,15 @@
         "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
         "note": "Comparison only: model anytime-TD probability 14.5%. Tennessee TD market was not available in the last verified capture."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -0.694,
+      "net_usd": -3.47,
+      "grading": {
+        "source": "ESPN official final box score, game 401872932",
+        "source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872932",
+        "graded_at": "2026-09-18T04:35:49Z",
+        "final_score": "Buffalo Bills 41, Detroit Lions 31",
+        "detail": "Loss. Isaac TeSlaa did not score a touchdown."
+      }
     },
     {
       "bet_id": "us-tn:01m2rp2zc8ex2vaf08gffn06hy",
@@ -896,8 +917,8 @@
       "stake_usd": 5,
       "potential_payout_usd": 22.4,
       "potential_profit_usd": 17.4,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided FanDuel bet slip screenshot sent 2026-09-17 around 5:01 PM CT.",
       "legs": [
         {
@@ -920,8 +941,15 @@
         "model_version": "player-pregame-prior-v2.0.0-w2-2026 (through completed Week 1; not market-tested)",
         "note": "Comparison only: Allen rushing median 31.4 vs 40+ alternate line; Williams receiving median 57.8 vs 60+ alternate line."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -1,
+      "net_usd": -5,
+      "grading": {
+        "source": "ESPN official final box score, game 401872932",
+        "source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872932",
+        "graded_at": "2026-09-18T04:35:49Z",
+        "final_score": "Buffalo Bills 41, Detroit Lions 31",
+        "detail": "Loss. Josh Allen cleared 40+ rushing with 69 yards; Jameson Williams failed 60+ receiving with 33 yards."
+      }
     },
     {
       "bet_id": "us-tn:01m2rx76y6em9vr383xxzj29d2",

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5,
-  "updated_at": "2026-09-20T13:17:00Z",
+  "updated_at": "2026-09-20T14:51:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1312,6 +1312,151 @@
       },
       "net_units": null,
       "net_usd": null
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "cashout_value_usd_at_capture": 5,
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "bet_id": "us-tn:01m2zmre5vf3c8y4ydjhgj2yjq",
+      "date": "2026-09-20T14:50:00Z",
+      "placed_at": "2026-09-20T14:50:00Z",
+      "game": "Minnesota @ Chicago + Cincinnati @ Houston + Jacksonville @ Denver",
+      "kickoff": "2026-09-20T17:01:00Z",
+      "bet": "3-leg parlay: Chicago -4.5 + Houston -2.5 + Jacksonville ML",
+      "market": "spread_moneyline_parlay",
+      "selection": "Chicago Bears -4.5; Houston Texans -2.5; Jacksonville Jaguars ML",
+      "line": null,
+      "price": 706,
+      "price_note": "Leg prices: Chicago -4.5 -110, Houston -2.5 -115, Jacksonville ML +126.",
+      "potential_payout_usd": 40.33,
+      "potential_profit_usd": 35.33,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
+      "legs": [
+        {
+          "event": "Minnesota Vikings @ Chicago Bears",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "spread",
+          "selection": "Chicago Bears",
+          "line": -4.5,
+          "price": -110
+        },
+        {
+          "event": "Cincinnati Bengals @ Houston Texans",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "spread",
+          "selection": "Houston Texans",
+          "line": -2.5,
+          "price": -115
+        },
+        {
+          "event": "Jacksonville Jaguars @ Denver Broncos",
+          "kickoff": "2026-09-20T20:06:00Z",
+          "market": "moneyline",
+          "selection": "Jacksonville Jaguars",
+          "price": 126
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "nfl-v3.2b frozen Week 2",
+        "note": "Comparison only, not picks. Frozen margins: Chicago -3.8, Houston -4.4, Jacksonville -1.7. Chicago -4.5 is anti-model by 0.7; Houston -2.5 and Jacksonville ML align with model sides."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual placed prices from 9:50 AM CT slip."
+      }
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "cashout_value_usd_at_capture": 5,
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "bet_id": "us-tn:01m2zmt4qmfcc97ny6mgr6ptwm",
+      "date": "2026-09-20T14:51:00Z",
+      "placed_at": "2026-09-20T14:51:00Z",
+      "game": "Minnesota @ Chicago + Cleveland @ Tampa Bay + New Orleans @ Baltimore + Cincinnati @ Houston",
+      "kickoff": "2026-09-20T17:01:00Z",
+      "bet": "4-leg anytime-TD parlay: Luther Burden III + Quinshon Judkins + Mark Andrews + Ja'Marr Chase",
+      "market": "anytime_td_parlay",
+      "selection": "Luther Burden III ATD; Quinshon Judkins ATD; Mark Andrews ATD; Ja'Marr Chase ATD",
+      "line": null,
+      "price": 3434,
+      "price_note": "Leg prices: Burden +180, Judkins +155, Andrews +125, Chase +120.",
+      "potential_payout_usd": 176.72,
+      "potential_profit_usd": 171.72,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
+      "legs": [
+        {
+          "event": "Minnesota Vikings @ Chicago Bears",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Luther Burden III",
+          "price": 180
+        },
+        {
+          "event": "Cleveland Browns @ Tampa Bay Buccaneers",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Quinshon Judkins",
+          "price": 155
+        },
+        {
+          "event": "New Orleans Saints @ Baltimore Ravens",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Mark Andrews",
+          "price": 125
+        },
+        {
+          "event": "Cincinnati Bengals @ Houston Texans",
+          "kickoff": "2026-09-20T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Ja'Marr Chase",
+          "price": 120
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-pregame-prior-v2.0.0 frozen preseason baseline",
+        "note": "Untested TD comparison, not a pick. Available frozen probabilities are older baseline priors and do not incorporate 2026 in-season role changes.",
+        "legs": [
+          {
+            "selection": "Luther Burden III",
+            "model_probability_pct": 25
+          },
+          {
+            "selection": "Quinshon Judkins",
+            "model_probability_pct": 34.6
+          },
+          {
+            "selection": "Mark Andrews",
+            "model_probability_pct": 13.9
+          },
+          {
+            "selection": "Ja'Marr Chase",
+            "model_probability_pct": 40.6
+          }
+        ]
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual placed prices from approximately 9:51 AM CT slip."
+      }
     }
   ]
-}
+    }

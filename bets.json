@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5.0,
-  "updated_at": "2026-09-18T22:15:37Z",
+  "updated_at": "2026-09-20T12:20:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1015,8 +1015,8 @@
       "potential_payout_usd": 42.63,
       "potential_profit_usd": 32.63,
       "cashout_value_usd_at_capture": 10.0,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided Tennessee FanDuel bet slip screenshot sent 2026-09-18 at 5:15 PM CT.",
       "legs": [
         {
@@ -1046,9 +1046,114 @@
         "source": "User TN FanDuel slip",
         "note": "Actual placement lines and boosted parlay price come from the 5:15 PM CT slip; these supersede the stale scheduled capture for ticket logging."
       },
-      "net_units": null,
-      "net_usd": null,
-      "grading": null
+      "net_units": -2.0,
+      "net_usd": -10.0,
+      "grading": {
+        "source": "ESPN final recaps/scoreboard, games 401858226 and 401856811",
+        "source_urls": [
+          "https://www.espn.com/college-football/recap/_/gameId/401858226",
+          "https://www.espn.com/college-football/game/_/gameId/401856811/houston-texas-tech"
+        ],
+        "graded_at": "2026-09-19T03:51:00Z",
+        "final_score": "Miami (FL) 33, Wake Forest 20; Texas Tech 28, Houston 26",
+        "detail": "Loss. Miami -20.5 failed: Miami won by 13. Texas Tech -7.5 failed: Texas Tech won by 2. Both legs lost."
+      }
+    },
+    {
+      "bet_id": "0/0439291/0001586",
+      "date": "2026-09-19T15:18:00Z",
+      "placed_at": "2026-09-19T15:18:00Z",
+      "sport": "CFB",
+      "game": "North Carolina @ Clemson + NC State @ Vanderbilt + Wyoming @ Central Michigan + SMU @ Louisville",
+      "kickoff": "2026-09-19T16:00:00Z",
+      "bet": "4-leg moneyline parlay: Clemson + Vanderbilt + Central Michigan + Louisville",
+      "market": "moneyline_parlay",
+      "selection": "Clemson ML; Vanderbilt ML; Central Michigan ML; Louisville ML",
+      "line": null,
+      "price": 1071,
+      "price_note": "Boosted to +1071 from +857 with a 25% profit boost. Leg prices: Clemson -133, Vanderbilt -142, Central Michigan +100, Louisville -106.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 2.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 117.1,
+      "potential_profit_usd": 107.1,
+      "result": "cashout",
+      "status": "settled",
+      "source": "User-provided Tennessee FanDuel settled slip screenshot sent 2026-09-20.",
+      "legs": [
+        {
+          "event": "North Carolina @ Clemson",
+          "market": "moneyline",
+          "selection": "Clemson",
+          "price": -133
+        },
+        {
+          "event": "NC State @ Vanderbilt",
+          "market": "moneyline",
+          "selection": "Vanderbilt",
+          "price": -142
+        },
+        {
+          "event": "Wyoming @ Central Michigan",
+          "market": "moneyline",
+          "selection": "Central Michigan",
+          "price": 100
+        },
+        {
+          "event": "SMU @ Louisville",
+          "market": "moneyline",
+          "selection": "Louisville",
+          "price": -106
+        }
+      ],
+      "net_units": 0.328,
+      "net_usd": 1.64,
+      "grading": {
+        "source": "User-provided FanDuel settled slip screenshot",
+        "graded_at": "2026-09-20T12:20:00Z",
+        "final_score": "Clemson 28, North Carolina 20; Vanderbilt 35, NC State 31; Central Michigan 24, Wyoming 10; Louisville 41, SMU 31",
+        "detail": "All four moneyline legs won, but ticket was cashed out for $11.64 on a $10.00 stake. Settled as cash-out, +$1.64 (+0.328u)."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m2vj2990ef6sxchwhwy0tbzj",
+      "date": "2026-09-19T00:46:00Z",
+      "placed_at": "2026-09-19T00:46:00Z",
+      "sport": "CFB",
+      "game": "LSU @ Ole Miss",
+      "kickoff": "2026-09-19T19:30:00Z",
+      "bet": "Straight: Ole Miss moneyline",
+      "market": "moneyline",
+      "selection": "Ole Miss",
+      "line": null,
+      "price": 248,
+      "price_note": "Boosted to +248 from +124 with a 100% profit boost.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 0.976,
+      "stake_usd": 4.88,
+      "potential_payout_usd": 16.98,
+      "potential_profit_usd": 12.1,
+      "result": "win",
+      "status": "settled",
+      "source": "User-provided Tennessee FanDuel settled slip screenshot sent 2026-09-20.",
+      "legs": [
+        {
+          "event": "LSU @ Ole Miss",
+          "market": "moneyline",
+          "selection": "Ole Miss",
+          "price": 248
+        }
+      ],
+      "net_units": 2.42,
+      "net_usd": 12.1,
+      "grading": {
+        "source": "User-provided FanDuel settled slip screenshot",
+        "graded_at": "2026-09-20T12:20:00Z",
+        "final_score": "Ole Miss 32, LSU 24",
+        "detail": "Win. Ole Miss won 32-24. FanDuel paid $16.98 on a $4.88 stake, profit +$12.10 (+2.42u)."
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5,
-  "updated_at": "2026-09-20T23:26:00Z",
+  "updated_at": "2026-09-20T23:30:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1459,151 +1459,92 @@
       }
     },
     {
+      "date": "2026-09-20T23:30:00Z",
+      "placed_at": "2026-09-20T23:30:00Z",
       "sport": "NFL",
       "game": "Indianapolis Colts @ Kansas City Chiefs",
       "kickoff": "2026-09-21T00:21:00Z",
-      "book": "FanDuel",
-      "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
-      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
-      "bet_id": "us-tn:01m30j6cj0fb8sgxcvd9mctbw8",
-      "date": "2026-09-20T23:25:00Z",
-      "placed_at": "2026-09-20T23:25:00Z",
-      "bet": "Straight: Rashee Rice anytime touchdown",
       "market": "anytime_touchdown",
-      "selection": "Rashee Rice ATD",
-      "line": null,
-      "price": 140,
-      "price_note": "$10.00 bonus bet; stake is not returned, so displayed payout is $14.00 winnings only.",
-      "stake_units": 2,
-      "stake_usd": 10,
-      "stake_type": "bonus_bet",
-      "cash_stake_at_risk_usd": 0,
-      "potential_payout_usd": 14,
-      "potential_profit_usd": 14,
-      "legs": [
-        {
-          "event": "Indianapolis Colts @ Kansas City Chiefs",
-          "kickoff": "2026-09-21T00:21:00Z",
-          "market": "anytime_touchdown",
-          "selection": "Rashee Rice",
-          "price": 140
-        }
-      ],
-      "model_at_placement": {
-        "available": true,
-        "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
-        "note": "Rashee Rice ATD 49.4% after a transparent 2:1 frozen-prior/Week-1 blend. +140 implies 41.7%; aligned, but this variant is not validated."
-      },
-      "market_context_at_placement": {
-        "available": true,
-        "source": "User TN FanDuel slip",
-        "note": "Actual 6:25 PM CT placed price."
-      }
-    },
-    {
-      "sport": "NFL",
-      "game": "Indianapolis Colts @ Kansas City Chiefs",
-      "kickoff": "2026-09-21T00:21:00Z",
       "book": "FanDuel",
       "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "cashout_value_usd_at_capture": 5,
       "result": "pending",
       "status": "pending",
       "net_units": null,
       "net_usd": null,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
-      "bet_id": "us-tn:01m30j7rg9fztbttfryn8b43f6",
-      "date": "2026-09-20T23:25:00Z",
-      "placed_at": "2026-09-20T23:25:00Z",
-      "bet": "Same-game parlay: Rashee Rice over 48.5 receiving + Jonathan Taylor over 79.5 rushing",
-      "market": "player_prop_sgp",
-      "selection": "Rashee Rice over 48.5 receiving yards; Jonathan Taylor over 79.5 rushing yards",
+      "bet_id": "us-tn:01m30jg5fyf65vtxb5x5sxacp1",
+      "bet": "Straight: Tyler Warren anytime touchdown",
+      "selection": "Tyler Warren ATD",
       "line": null,
-      "price": 342,
-      "price_note": "50% profit boost: +342 from +228.",
-      "stake_units": 2,
-      "stake_usd": 10,
-      "potential_payout_usd": 44.27,
-      "potential_profit_usd": 34.27,
-      "cashout_value_usd_at_capture": 7.66,
+      "price": 250,
+      "price_note": "Straight anytime-TD single.",
+      "potential_payout_usd": 17.5,
+      "potential_profit_usd": 12.5,
       "legs": [
         {
           "event": "Indianapolis Colts @ Kansas City Chiefs",
           "kickoff": "2026-09-21T00:21:00Z",
-          "market": "receiving_yards",
-          "selection": "Rashee Rice over",
-          "line": 48.5
-        },
-        {
-          "event": "Indianapolis Colts @ Kansas City Chiefs",
-          "kickoff": "2026-09-21T00:21:00Z",
-          "market": "rushing_yards",
-          "selection": "Jonathan Taylor over",
-          "line": 79.5
+          "market": "anytime_touchdown",
+          "selection": "Tyler Warren",
+          "price": 250
         }
       ],
       "model_at_placement": {
         "available": true,
         "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
-        "note": "Rice projected 49.5 receiving yards, essentially a coin flip over 48.5. Taylor projected 76.2 rushing yards, so over 79.5 is anti-model. Same-game concentration."
+        "note": "Tyler Warren ATD 39.5%; +250 implies 28.6%, aligned. One-game news update, not a validated model."
       },
       "market_context_at_placement": {
         "available": true,
         "source": "User TN FanDuel slip",
-        "note": "Actual 6:25 PM CT placed lines and boosted price."
+        "note": "Actual 6:30 PM CT placed price."
       }
     },
     {
+      "date": "2026-09-20T23:30:00Z",
+      "placed_at": "2026-09-20T23:30:00Z",
       "sport": "NFL",
       "game": "Indianapolis Colts @ Kansas City Chiefs",
       "kickoff": "2026-09-21T00:21:00Z",
+      "market": "anytime_touchdown",
       "book": "FanDuel",
       "state": "TN",
+      "stake_units": 1,
+      "stake_usd": 5,
+      "cashout_value_usd_at_capture": 5,
       "result": "pending",
       "status": "pending",
       "net_units": null,
       "net_usd": null,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
-      "bet_id": "user-slip:20260920-1826-taylor-rice-atd-sgp",
-      "date": "2026-09-20T23:26:00Z",
-      "placed_at": "2026-09-20T23:26:00Z",
-      "bet": "Same-game parlay: Jonathan Taylor ATD + Rashee Rice ATD",
-      "market": "anytime_td_sgp",
-      "selection": "Jonathan Taylor ATD; Rashee Rice ATD",
+      "bet_id": "us-tn:01m30jgfqvfmcbw5frw3bfrzwq",
+      "bet": "Straight: Emmett Johnson anytime touchdown",
+      "selection": "Emmett Johnson ATD",
       "line": null,
-      "price": 469,
-      "price_note": "50% profit boost: +469 from +313. FanDuel bet ID not visible in screenshot; internal timestamp-based ID.",
-      "stake_units": 2,
-      "stake_usd": 10,
-      "potential_payout_usd": 56.95,
-      "potential_profit_usd": 46.95,
-      "cashout_value_usd_at_capture": 10,
+      "price": 500,
+      "price_note": "Straight anytime-TD single.",
+      "potential_payout_usd": 30,
+      "potential_profit_usd": 25,
       "legs": [
         {
           "event": "Indianapolis Colts @ Kansas City Chiefs",
           "kickoff": "2026-09-21T00:21:00Z",
           "market": "anytime_touchdown",
-          "selection": "Jonathan Taylor"
-        },
-        {
-          "event": "Indianapolis Colts @ Kansas City Chiefs",
-          "kickoff": "2026-09-21T00:21:00Z",
-          "market": "anytime_touchdown",
-          "selection": "Rashee Rice"
+          "selection": "Emmett Johnson",
+          "price": 500
         }
       ],
       "model_at_placement": {
-        "available": true,
-        "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
-        "note": "Taylor ATD 66.0% and Rice ATD 49.4%; both aligned against the observed prices. Same-game concentration."
+        "available": false,
+        "note": "No valid frozen or news-adjusted model baseline for Emmett Johnson. User dart; no model endorsement."
       },
       "market_context_at_placement": {
         "available": true,
         "source": "User TN FanDuel slip",
-        "note": "Actual approximately 6:26 PM CT boosted SGP price."
+        "note": "Actual 6:30 PM CT placed price."
       }
     }
   ]

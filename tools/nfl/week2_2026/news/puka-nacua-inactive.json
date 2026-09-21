@@ -1,0 +1,15 @@
+{
+  "player": "Puka Nacua",
+  "team": "Los Angeles Rams",
+  "event": "New York Giants @ Los Angeles Rams",
+  "event_id": "401872947",
+  "status": "inactive",
+  "injury": "hip/groin soreness",
+  "observed_at": "2026-09-21T18:52:45-05:00",
+  "effective_for": "2026 Week 2 game and subsequent injury/news feature construction",
+  "sources": [
+    {"name":"ESPN","url":"https://www.espn.com/nfl/story/_/id/50001094/rams-wr-puka-nacua-hip-inactive-mnf-vs-giants","fact":"Nacua inactive for MNF vs. Giants."},
+    {"name":"Sportsnet / team announcement report","url":"https://www.sportsnet.ca/nfl/article/rams-wide-receiver-puka-nacua-ruled-out-vs-giants-with-hip-injury/","fact":"Rams announced Nacua ruled out shortly before kickoff; Jordan Whittington also inactive."}
+  ],
+  "model_context": "The frozen baseline TD probability and the book price were not comparable after this late inactive. Treat Davante Adams' current favorite price as news-aware market context, never a training input. Build the factual inactive into the Tuesday injury/news layer without retroactively changing the frozen Week 2 prediction."
+}

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5,
-  "updated_at": "2026-09-21T06:48:00Z",
+  "updated_at": "2026-09-21T23:47:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -1747,6 +1747,221 @@
         "graded_at": "2026-09-21T06:48:00Z",
         "final_score": "Chiefs 33, Colts 30 (OT)",
         "detail": "Jonathan Taylor scored two rushing TDs; Rashee Rice did not score. 1 of 2 legs hit."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Giants @ Los Angeles Rams",
+      "kickoff": "2026-09-22T00:16:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
+      "bet_id": "us-tn:01m32a8d9kf518aj79n2rm3hqj",
+      "date": "2026-09-21T15:44:00Z",
+      "placed_at": "2026-09-21T15:44:00Z",
+      "bet": "Same-game parlay: Odell Beckham Jr. 5+ receiving + Blake Corum 40+ rushing + Jaxson Dart ATD + Devin Singletary 15+ rushing",
+      "market": "player_prop_sgp",
+      "selection": "Odell Beckham Jr. 5+ receiving yards; Blake Corum 40+ rushing yards; Jaxson Dart ATD; Devin Singletary 15+ rushing yards",
+      "line": null,
+      "price": 2090,
+      "stake_units": 1,
+      "stake_usd": 5,
+      "potential_payout_usd": 109.55,
+      "potential_profit_usd": 104.55,
+      "cashout_value_usd_at_capture": 2.32,
+      "legs": [
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "receiving_yards_alt",
+          "selection": "Odell Beckham Jr. 5+",
+          "line": 5
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "rushing_yards_alt",
+          "selection": "Blake Corum 40+",
+          "line": 40
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaxson Dart"
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "rushing_yards_alt",
+          "selection": "Devin Singletary 15+",
+          "line": 15
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "note": "No exact model comparison was captured for all four alternate-line/ATD legs; do not infer an edge."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 10:44 AM CT placed SGP price."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Giants @ Los Angeles Rams",
+      "kickoff": "2026-09-22T00:16:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
+      "bet_id": "us-tn:01m32agkkfef3tkxzrrj377wh0",
+      "date": "2026-09-21T15:49:00Z",
+      "placed_at": "2026-09-21T15:49:00Z",
+      "bet": "Same-game parlay: Cam Skattebo 30+ rushing + Blake Corum 30+ rushing + Jaxson Dart 20+ rushing",
+      "market": "player_prop_sgp",
+      "selection": "Cam Skattebo 30+ rushing yards; Blake Corum 30+ rushing yards; Jaxson Dart 20+ rushing yards",
+      "line": null,
+      "price": 138,
+      "price_note": "30% profit boost: +138 from +107.",
+      "stake_units": 2,
+      "stake_usd": 10,
+      "potential_payout_usd": 23.87,
+      "potential_profit_usd": 13.87,
+      "cashout_value_usd_at_capture": 10,
+      "legs": [
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "rushing_yards_alt",
+          "selection": "Cam Skattebo 30+",
+          "line": 30
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "rushing_yards_alt",
+          "selection": "Blake Corum 30+",
+          "line": 30
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "rushing_yards_alt",
+          "selection": "Jaxson Dart 20+",
+          "line": 20
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "note": "No exact model comparison was captured for all three alternate rushing thresholds; do not infer an edge."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 10:49 AM CT placed boosted SGP price."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Giants @ Los Angeles Rams",
+      "kickoff": "2026-09-22T00:16:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
+      "bet_id": "us-tn:01m32at62ner4bztf1jeqc9cf8",
+      "date": "2026-09-21T15:54:00Z",
+      "placed_at": "2026-09-21T15:54:00Z",
+      "bet": "Straight: Malik Nabers anytime touchdown",
+      "market": "anytime_touchdown",
+      "selection": "Malik Nabers ATD",
+      "line": null,
+      "price": 294,
+      "price_note": "50% profit boost: +294 from +195.",
+      "stake_units": 2,
+      "stake_usd": 10,
+      "potential_payout_usd": 39.4,
+      "potential_profit_usd": 29.4,
+      "cashout_value_usd_at_capture": 8.48,
+      "legs": [
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Malik Nabers",
+          "price": 294
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "frozen Week 1 baseline TD probability; research only",
+        "note": "Model probability existed, but no verified Tennessee anytime-TD market capture existed for an audited model-vs-book comparison."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 10:54 AM CT placed boosted price."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Giants @ Los Angeles Rams",
+      "kickoff": "2026-09-22T00:16:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
+      "bet_id": "us-tn:01m335svk5frsav3c2wmpj09mn",
+      "date": "2026-09-21T23:46:00Z",
+      "placed_at": "2026-09-21T23:46:00Z",
+      "bet": "Same-game parlay: Davante Adams ATD + Malik Nabers ATD",
+      "market": "anytime_td_sgp",
+      "selection": "Davante Adams ATD; Malik Nabers ATD",
+      "line": null,
+      "price": 461,
+      "stake_units": 2,
+      "stake_usd": 10,
+      "potential_payout_usd": 56.15,
+      "potential_profit_usd": 46.15,
+      "cashout_value_usd_at_capture": 10,
+      "legs": [
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Davante Adams"
+        },
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Malik Nabers"
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "frozen Week 1 baseline TD probabilities; research only",
+        "note": "Model probabilities existed, but no verified Tennessee anytime-TD market capture existed for an audited model-vs-book comparison."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 6:46 PM CT placed SGP price."
       }
     }
   ]

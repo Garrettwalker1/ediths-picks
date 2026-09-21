@@ -9,8 +9,8 @@ Use config-a and a read lease. Navigate to each exact team page and let the clie
 - `https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8`
 - `https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1`
 - `https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7`
+- `https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10`
 
-Never collect league `14911042` (Not a Dell).
 
 For each page, normalize only the visible league/team/roster data into `espn_snapshot.json` using `espn_snapshot.example.json` as the contract. Player rows use:
 
@@ -54,8 +54,7 @@ The script fetches Sleeper's public league, user, roster, current-week matchup, 
 Check that there are exactly seven leagues, the excluded league is absent, timestamps are current, no ESPN login-page text exists, and no sensitive values appear:
 
 ```bash
-jq -e '.leagues|length==7' fantasy.json
-! grep -q '14911042' fantasy.json
+jq -e '.leagues|length==8' fantasy.json
 ! grep -Eqi 'espn_s2|SWID|cookie|password|inviteId' fantasy.json
 ```
 

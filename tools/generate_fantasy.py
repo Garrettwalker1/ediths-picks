@@ -80,9 +80,9 @@ def injury_pass(leagues, markdown, ts):
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--espn',required=True);ap.add_argument('--injury-markdown',required=True);ap.add_argument('--output',default='fantasy.json');ap.add_argument('--previous',default='fantasy.json');a=ap.parse_args()
     ts=now(); espn=json.load(open(a.espn));
-    if espn.get('status')!='ok' or len(espn.get('leagues',[]))!=3: raise SystemExit('ESPN snapshot invalid/auth-expired; preserving prior fantasy.json')
+    if espn.get('status')!='ok' or len(espn.get('leagues',[]))!=4: raise SystemExit('ESPN snapshot invalid/auth-expired; preserving prior fantasy.json')
     ids={str(x.get('league_id')) for x in espn['leagues']}
-    if ids!={'1242450525','184489982','416480692'} or '14911042' in ids: raise SystemExit('Unexpected ESPN league set; preserving prior fantasy.json')
+    if ids!={'1242450525','184489982','416480692','14911042'}: raise SystemExit('Unexpected ESPN league set; preserving prior fantasy.json')
     player_db=get('https://api.sleeper.app/v1/players/nfl')
     sleeper=sleeper_snapshot(ts,player_db)
     leagues=espn['leagues']+sleeper

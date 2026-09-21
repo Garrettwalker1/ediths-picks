@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $5.00",
   "unit_value_usd": 5,
-  "updated_at": "2026-09-20T23:30:00Z",
+  "updated_at": "2026-09-21T06:48:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1175,8 +1175,8 @@
       "potential_payout_usd": 62.73,
       "potential_profit_usd": 52.73,
       "cashout_value_usd_at_capture": 10,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
       "legs": [
         {
@@ -1225,8 +1225,14 @@
         "source": "User TN FanDuel slip",
         "note": "Actual placement prices and boosted parlay price come from the 8:16 AM CT slip."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -2,
+      "net_usd": -10,
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Saints 24, Ravens 17; Bengals 20, Texans 6; Panthers 34, Falcons 3",
+        "detail": "Henry scored; Chase Brown and Bijan Robinson did not. 1 of 3 legs hit."
+      }
     },
     {
       "bet_id": "user-slip:20260920-0817-4leg-atd",
@@ -1248,8 +1254,8 @@
       "potential_payout_usd": 198.85,
       "potential_profit_usd": 188.85,
       "cashout_value_usd_at_capture": 10,
-      "result": "pending",
-      "status": "pending",
+      "result": "loss",
+      "status": "settled",
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20. FanDuel bet ID was not visible in the screenshot; internal tracking ID is timestamp-based.",
       "legs": [
         {
@@ -1310,8 +1316,14 @@
         "source": "User TN FanDuel slip",
         "note": "Actual placement prices and +1888 parlay price come from the approximately 8:17 AM CT screenshot."
       },
-      "net_units": null,
-      "net_usd": null
+      "net_units": -2,
+      "net_usd": -10,
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Saints 24, Ravens 17; Raiders 26, Chargers 14; Seahawks 31, Cardinals 7; 49ers-Dolphins final",
+        "detail": "Olave, Smith-Njigba and McCaffrey scored; Ashton Jeanty did not. 3 of 4 legs hit."
+      }
     },
     {
       "sport": "NFL",
@@ -1320,10 +1332,10 @@
       "stake_units": 1,
       "stake_usd": 5,
       "cashout_value_usd_at_capture": 5,
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -5,
       "bet_id": "us-tn:01m2zmre5vf3c8y4ydjhgj2yjq",
       "date": "2026-09-20T14:50:00Z",
       "placed_at": "2026-09-20T14:50:00Z",
@@ -1372,6 +1384,12 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual placed prices from 9:50 AM CT slip."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Vikings 9, Bears 3; Bengals 20, Texans 6; Broncos 20, Jaguars 13",
+        "detail": "Chicago -4.5 lost, Houston -2.5 lost, and Jacksonville ML lost. 0 of 3 legs hit."
       }
     },
     {
@@ -1381,10 +1399,10 @@
       "stake_units": 1,
       "stake_usd": 5,
       "cashout_value_usd_at_capture": 5,
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -5,
       "bet_id": "us-tn:01m2zmt4qmfcc97ny6mgr6ptwm",
       "date": "2026-09-20T14:51:00Z",
       "placed_at": "2026-09-20T14:51:00Z",
@@ -1456,6 +1474,12 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual placed prices from approximately 9:51 AM CT slip."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Vikings 9, Bears 3; Browns 23, Buccaneers 19; Saints 24, Ravens 17; Bengals 20, Texans 6",
+        "detail": "Ja'Marr Chase scored; Luther Burden III, Quinshon Judkins and Mark Andrews did not. 1 of 4 legs hit."
       }
     },
     {
@@ -1470,10 +1494,10 @@
       "stake_units": 1,
       "stake_usd": 5,
       "cashout_value_usd_at_capture": 5,
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 2.5,
+      "net_usd": 12.5,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
       "bet_id": "us-tn:01m30jg5fyf65vtxb5x5sxacp1",
       "bet": "Straight: Tyler Warren anytime touchdown",
@@ -1501,6 +1525,12 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 6:30 PM CT placed price."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Chiefs 33, Colts 30 (OT)",
+        "detail": "Tyler Warren scored a receiving touchdown. Win."
       }
     },
     {
@@ -1515,10 +1545,10 @@
       "stake_units": 1,
       "stake_usd": 5,
       "cashout_value_usd_at_capture": 5,
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -5,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
       "bet_id": "us-tn:01m30jgfqvfmcbw5frw3bfrzwq",
       "bet": "Straight: Emmett Johnson anytime touchdown",
@@ -1545,6 +1575,178 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 6:30 PM CT placed price."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Chiefs 33, Colts 30 (OT)",
+        "detail": "Emmett Johnson had 15 rushing and 20 receiving yards, 0 TD. Loss."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "Indianapolis Colts @ Kansas City Chiefs",
+      "kickoff": "2026-09-21T00:21:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "loss",
+      "status": "settled",
+      "net_units": 0,
+      "net_usd": 0,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
+      "bet_id": "us-tn:01m30j6cj0fb8sgxcvd9mctbw8",
+      "date": "2026-09-20T23:25:00Z",
+      "placed_at": "2026-09-20T23:25:00Z",
+      "bet": "Straight: Rashee Rice anytime touchdown",
+      "market": "anytime_touchdown",
+      "selection": "Rashee Rice ATD",
+      "line": null,
+      "price": 140,
+      "price_note": "$10.00 bonus bet; stake is not returned, so displayed payout is $14.00 winnings only.",
+      "stake_units": 2,
+      "stake_usd": 10,
+      "stake_type": "bonus_bet",
+      "cash_stake_at_risk_usd": 0,
+      "potential_payout_usd": 14,
+      "potential_profit_usd": 14,
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Kansas City Chiefs",
+          "kickoff": "2026-09-21T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Rashee Rice",
+          "price": 140
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
+        "note": "Rashee Rice ATD 49.4% after a transparent 2:1 frozen-prior/Week-1 blend. +140 implies 41.7%; aligned, but this variant is not validated."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 6:25 PM CT placed price."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Chiefs 33, Colts 30 (OT)",
+        "detail": "Rashee Rice: 4 receptions, 83 yards, 0 TD. Bonus bet lost; $0 cash stake at risk, so no cash or unit loss recorded."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "Indianapolis Colts @ Kansas City Chiefs",
+      "kickoff": "2026-09-21T00:21:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "win",
+      "status": "settled",
+      "net_units": 6.854,
+      "net_usd": 34.27,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
+      "bet_id": "us-tn:01m30j7rg9fztbttfryn8b43f6",
+      "date": "2026-09-20T23:25:00Z",
+      "placed_at": "2026-09-20T23:25:00Z",
+      "bet": "Same-game parlay: Rashee Rice over 48.5 receiving + Jonathan Taylor over 79.5 rushing",
+      "market": "player_prop_sgp",
+      "selection": "Rashee Rice over 48.5 receiving yards; Jonathan Taylor over 79.5 rushing yards",
+      "line": null,
+      "price": 342,
+      "price_note": "50% profit boost: +342 from +228.",
+      "stake_units": 2,
+      "stake_usd": 10,
+      "potential_payout_usd": 44.27,
+      "potential_profit_usd": 34.27,
+      "cashout_value_usd_at_capture": 7.66,
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Kansas City Chiefs",
+          "kickoff": "2026-09-21T00:21:00Z",
+          "market": "receiving_yards",
+          "selection": "Rashee Rice over",
+          "line": 48.5
+        },
+        {
+          "event": "Indianapolis Colts @ Kansas City Chiefs",
+          "kickoff": "2026-09-21T00:21:00Z",
+          "market": "rushing_yards",
+          "selection": "Jonathan Taylor over",
+          "line": 79.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
+        "note": "Rice projected 49.5 receiving yards, essentially a coin flip over 48.5. Taylor projected 76.2 rushing yards, so over 79.5 is anti-model. Same-game concentration."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 6:25 PM CT placed lines and boosted price."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Chiefs 33, Colts 30 (OT)",
+        "detail": "Both legs hit: Rashee Rice 83 receiving yards (over 48.5); Jonathan Taylor 92 rushing yards (over 79.5)."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "Indianapolis Colts @ Kansas City Chiefs",
+      "kickoff": "2026-09-21T00:21:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "loss",
+      "status": "settled",
+      "net_units": -2,
+      "net_usd": -10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-20.",
+      "bet_id": "user-slip:20260920-1826-taylor-rice-atd-sgp",
+      "date": "2026-09-20T23:26:00Z",
+      "placed_at": "2026-09-20T23:26:00Z",
+      "bet": "Same-game parlay: Jonathan Taylor ATD + Rashee Rice ATD",
+      "market": "anytime_td_sgp",
+      "selection": "Jonathan Taylor ATD; Rashee Rice ATD",
+      "line": null,
+      "price": 469,
+      "price_note": "50% profit boost: +469 from +313. FanDuel bet ID not visible in screenshot; internal timestamp-based ID.",
+      "stake_units": 2,
+      "stake_usd": 10,
+      "potential_payout_usd": 56.95,
+      "potential_profit_usd": 46.95,
+      "cashout_value_usd_at_capture": 10,
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Kansas City Chiefs",
+          "kickoff": "2026-09-21T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jonathan Taylor"
+        },
+        {
+          "event": "Indianapolis Colts @ Kansas City Chiefs",
+          "kickoff": "2026-09-21T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Rashee Rice"
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "news-adjusted Week 2 sensitivity variant; unvalidated",
+        "note": "Taylor ATD 66.0% and Rice ATD 49.4%; both aligned against the observed prices. Same-game concentration."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual approximately 6:26 PM CT boosted SGP price."
+      },
+      "grading": {
+        "source": "Official team recaps and ESPN/CBS final box scores and scoring summaries",
+        "graded_at": "2026-09-21T06:48:00Z",
+        "final_score": "Chiefs 33, Colts 30 (OT)",
+        "detail": "Jonathan Taylor scored two rushing TDs; Rashee Rice did not score. 1 of 2 legs hit."
       }
     }
   ]

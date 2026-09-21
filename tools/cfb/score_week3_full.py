@@ -293,7 +293,9 @@ sec=defaultdict(list); last_day=None
 for b in ok:
     away,home,margin=b['away'],b['home'],b['predicted_margin_home']
     fav=home if margin>0 else away
-    ml=f"{fav} -{abs(margin):.1f}"
+    display_margin=round(abs(float(margin))*2)/2
+    display_margin_text=f'{display_margin:.0f}' if display_margin.is_integer() else f'{display_margin:.1f}'
+    ml=f"{fav} -{display_margin_text}"
     bv=b.get('book_tn') or b.get('book_va')
     bv_state='TN' if b.get('book_tn') else ('VA' if b.get('book_va') else '')
     dt=et(b['date'])
@@ -393,7 +395,7 @@ a {{color:#58a6ff}}
 </style></head><body><div class=wrap>
 <header><h1>E.D.I.T.H. <span>CFB</span> BOARD</h1><div id=updated>Week 3, 2026 - frozen initials + TN book - updated {esc(gen_label)}</div></header>
 <div class=banner>MEASUREMENT ONLY - NOT PICKS. This model has not been proven against book lines. It exists to measure whether the model\'s margins track reality.</div>
-<div class=note-card><b>Book lines:</b> {esc(BOOK_LABEL) if BOOK_LABEL else 'FanDuel Tennessee, latest pre-kickoff capture per game'} - labeled comparison display, never a model input. The MODEL numbers are the frozen INITIAL model numbers (Mon 2026-09-14 ~1:40 PM CT) and never move; only the book column updates. Comparison tracked, not a pick. TN/VA rules: college sides/totals only, no college props.</div>
+<div class=note-card><b>Book lines:</b> {esc(BOOK_LABEL) if BOOK_LABEL else 'FanDuel Tennessee, latest pre-kickoff capture per game'} - labeled comparison display, never a model input. MODEL display lines round to the nearest 0.5 point; underlying model outputs and grading precision are unchanged. The MODEL numbers are the frozen INITIAL model numbers (Mon 2026-09-14 ~1:40 PM CT) and never move; only the book column updates. Comparison tracked, not a pick. TN/VA rules: college sides/totals only, no college props.</div>
 <div class=note-card><b>Coverage:</b> {len(ok)} of {len(ok)+len(errs)} FBS-scheduled Week 3 games (Sep 17-21). Anything labeled <b>ADDED POST-FREEZE</b> joined the ESPN slate after the initial board and was scored at regen time.</div>
 <div class=note-card><b>Model:</b> <b>cfb-gameline-v2.1</b> - v1 statistical core plus 2025-&gt;2026 roster-change context (returning production, portal losses/gains, QB return, coaching changes, NFL draft losses) and, new Sun 2026-09-06, the 247Sports team-talent composite. 2025 locked test: MAE 12.94, winner accuracy 72.0% (v2 without talent: 13.27 / 70.3% - improvement validated on the same holdout protocol, gain concentrated in high-talent-gap games). Saturday's frozen numbers below are still the v2 numbers they were published as. Team features blend prior-season stats with 2026 in-season results at weight n/(n+2) (n = games played: 33% after 1, 50% after 2); early-season boards are measurably shakier (MAE ~15 with 1-2 games played vs ~13 later). <a href="https://github.com/Garrettwalker1/ediths-picks/tree/main/tools/model_cfb_v2">Artifact + backtest</a> - <a href="https://github.com/Garrettwalker1/ediths-picks/blob/main/tools/cfb/17-cfb_board_2026_week3_full_v2_1.json">Raw board JSON</a> - <a href="https://github.com/Garrettwalker1/ediths-picks/blob/main/tools/cfb/16-cfb_board_2026_week3_initial_v2_1.json">frozen initial JSON</a></div>
 <input id=teamSearch placeholder="Filter teams">

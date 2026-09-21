@@ -2,19 +2,19 @@
  "schema_version": "1.0.0",
  "season": 2026,
  "week": 3,
- "built_at": "2026-09-14T18:37:42Z",
+ "built_at": "2026-09-21T21:14:08Z",
  "purpose": "Track every FBS college football game from 2026 Week 3 (window 2026-09-17..2026-09-21) with results and, once final, box-score stats. These facts feed the CFB model; book lines never do.",
  "scope": "FBS only (ESPN groups=80). FCS excluded.",
  "source": "ESPN scoreboard API site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard per date, window 2026-09-17..2026-09-21",
  "known_gaps": [
-  "none recorded"
+  "ESPN scoreboard feed returned stale Scheduled states for some completed games; final status and scores were recovered from each event summary."
  ],
  "coverage": {
   "games": 75,
-  "final": 0,
+  "final": 75,
   "in_progress": 0,
-  "scheduled": 75,
-  "boxscores_collected": 185
+  "scheduled": 0,
+  "boxscores_collected": 75
  },
  "games": [
   {
@@ -23,11 +23,11 @@
    "name": "Syracuse Orange at Pittsburgh Panthers",
    "away": "Syracuse Orange",
    "home": "Pittsburgh Panthers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "13",
+   "home_score": "27",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858226",
@@ -35,11 +35,11 @@
    "name": "Miami Hurricanes at Wake Forest Demon Deacons",
    "away": "Miami Hurricanes",
    "home": "Wake Forest Demon Deacons",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "33",
+   "home_score": "20",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856811",
@@ -47,11 +47,11 @@
    "name": "Houston Cougars at Texas Tech Red Raiders",
    "away": "Houston Cougars",
    "home": "Texas Tech Red Raiders",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "26",
+   "home_score": "28",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858455",
@@ -60,10 +60,10 @@
    "away": "Portland State Vikings",
    "home": "Oregon Ducks",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "84",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401869940",
@@ -71,11 +71,11 @@
    "name": "Coastal Carolina Chanticleers at Delaware Blue Hens",
    "away": "Coastal Carolina Chanticleers",
    "home": "Delaware Blue Hens",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "14",
+   "home_score": "22",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856686",
@@ -83,11 +83,11 @@
    "name": "Georgia Bulldogs at Arkansas Razorbacks",
    "away": "Georgia Bulldogs",
    "home": "Arkansas Razorbacks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "45",
+   "home_score": "17",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856792",
@@ -95,11 +95,11 @@
    "name": "Tulane Green Wave at Kansas State Wildcats",
    "away": "Tulane Green Wave",
    "home": "Kansas State Wildcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "20",
+   "home_score": "31",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856798",
@@ -107,11 +107,11 @@
    "name": "Bowling Green Falcons at Iowa State Cyclones",
    "away": "Bowling Green Falcons",
    "home": "Iowa State Cyclones",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "55",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856812",
@@ -119,11 +119,11 @@
    "name": "Arizona State Sun Devils at Kansas Jayhawks",
    "away": "Arizona State Sun Devils",
    "home": "Kansas Jayhawks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "24",
+   "home_score": "17",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858228",
@@ -131,11 +131,11 @@
    "name": "Mercer Bears at Georgia Tech Yellow Jackets",
    "away": "Mercer Bears",
    "home": "Georgia Tech Yellow Jackets",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "11",
+   "home_score": "44",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858229",
@@ -143,11 +143,11 @@
    "name": "North Carolina Tar Heels at Clemson Tigers",
    "away": "North Carolina Tar Heels",
    "home": "Clemson Tigers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "20",
+   "home_score": "28",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858451",
@@ -155,11 +155,11 @@
    "name": "Akron Zips at Minnesota Golden Gophers",
    "away": "Akron Zips",
    "home": "Minnesota Golden Gophers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "41",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858454",
@@ -167,11 +167,11 @@
    "name": "Kent State Golden Flashes at Ohio State Buckeyes",
    "away": "Kent State Golden Flashes",
    "home": "Ohio State Buckeyes",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "3",
+   "home_score": "59",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858456",
@@ -179,11 +179,11 @@
    "name": "Buffalo Bulls at Penn State Nittany Lions",
    "away": "Buffalo Bulls",
    "home": "Penn State Nittany Lions",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "13",
+   "home_score": "55",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860889",
@@ -191,11 +191,11 @@
    "name": "North Texas Mean Green at Texas State Bobcats",
    "away": "North Texas Mean Green",
    "home": "Texas State Bobcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "35",
+   "home_score": "49",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858460",
@@ -203,11 +203,11 @@
    "name": "Eastern Michigan Eagles at Wisconsin Badgers",
    "away": "Eastern Michigan Eagles",
    "home": "Wisconsin Badgers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "54",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856695",
@@ -215,11 +215,11 @@
    "name": "NC State Wolfpack at Vanderbilt Commodores",
    "away": "NC State Wolfpack",
    "home": "Vanderbilt Commodores",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "31",
+   "home_score": "35",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401864508",
@@ -227,11 +227,11 @@
    "name": "Wyoming Cowboys at Central Michigan Chippewas",
    "away": "Wyoming Cowboys",
    "home": "Central Michigan Chippewas",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "24",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858227",
@@ -239,11 +239,11 @@
    "name": "Maine Black Bears at Boston College Eagles",
    "away": "Maine Black Bears",
    "home": "Boston College Eagles",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "16",
+   "home_score": "22",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858448",
@@ -251,11 +251,11 @@
    "name": "Southern Illinois Salukis at Illinois Fighting Illini",
    "away": "Southern Illinois Salukis",
    "home": "Illinois Fighting Illini",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "48",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862774",
@@ -263,35 +263,11 @@
    "name": "Temple Owls at Toledo Rockets",
    "away": "Temple Owls",
    "home": "Toledo Rockets",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
-  },
-  {
-   "event_id": "401856685",
-   "date": "2026-09-19T19:30Z",
-   "name": "Florida State Seminoles at Alabama Crimson Tide",
-   "away": "Florida State Seminoles",
-   "home": "Alabama Crimson Tide",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
-  },
-  {
-   "event_id": "401856694",
-   "date": "2026-09-19T19:30Z",
-   "name": "Kentucky Wildcats at Texas A&M Aggies",
-   "away": "Kentucky Wildcats",
-   "home": "Texas A&M Aggies",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "48",
+   "home_score": "49",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856797",
@@ -299,11 +275,11 @@
    "name": "Miami (OH) RedHawks at Cincinnati Bearcats",
    "away": "Miami (OH) RedHawks",
    "home": "Cincinnati Bearcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "31",
+   "home_score": "35",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856801",
@@ -312,10 +288,10 @@
    "away": "Utah State Aggies",
    "home": "Utah Utes",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "33",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858230",
@@ -323,11 +299,11 @@
    "name": "SMU Mustangs at Louisville Cardinals",
    "away": "SMU Mustangs",
    "home": "Louisville Cardinals",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "31",
+   "home_score": "41",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858233",
@@ -335,11 +311,11 @@
    "name": "Wagner Seahawks at California Golden Bears",
    "away": "Wagner Seahawks",
    "home": "California Golden Bears",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "49",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858450",
@@ -347,11 +323,11 @@
    "name": "UTEP Miners at Michigan Wolverines",
    "away": "UTEP Miners",
    "home": "Michigan Wolverines",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "17",
+   "home_score": "52",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858457",
@@ -359,11 +335,11 @@
    "name": "USC Trojans at Rutgers Scarlet Knights",
    "away": "USC Trojans",
    "home": "Rutgers Scarlet Knights",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "42",
+   "home_score": "35",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860890",
@@ -371,11 +347,11 @@
    "name": "Duquesne Dukes at Washington State Cougars",
    "away": "Duquesne Dukes",
    "home": "Washington State Cougars",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "48",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401866424",
@@ -383,11 +359,23 @@
    "name": "Stonehill Skyhawks at Massachusetts Minutemen",
    "away": "Stonehill Skyhawks",
    "home": "Massachusetts Minutemen",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "14",
+   "home_score": "36",
+   "status": "Final",
+   "state": "post",
+   "completed": true
+  },
+  {
+   "event_id": "401856694",
+   "date": "2026-09-19T19:40Z",
+   "name": "Kentucky Wildcats at Texas A&M Aggies",
+   "away": "Kentucky Wildcats",
+   "home": "Texas A&M Aggies",
+   "away_score": "31",
+   "home_score": "21",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858231",
@@ -395,11 +383,11 @@
    "name": "Stanford Cardinal at Duke Blue Devils",
    "away": "Stanford Cardinal",
    "home": "Duke Blue Devils",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "35",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858449",
@@ -408,10 +396,10 @@
    "away": "Western Kentucky Hilltoppers",
    "home": "Indiana Hoosiers",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "38",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858471",
@@ -420,10 +408,10 @@
    "away": "Northern Iowa Panthers",
    "home": "Iowa Hawkeyes",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "55",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401866422",
@@ -431,11 +419,11 @@
    "name": "Ball State Cardinals at Liberty Flames",
    "away": "Ball State Cardinals",
    "home": "Liberty Flames",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "15",
+   "home_score": "51",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401867804",
@@ -443,11 +431,11 @@
    "name": "Louisiana Tech Bulldogs at Baylor Bears",
    "away": "Louisiana Tech Bulldogs",
    "home": "Baylor Bears",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "19",
+   "home_score": "36",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856691",
@@ -455,11 +443,11 @@
    "name": "Mississippi State Bulldogs at South Carolina Gamecocks",
    "away": "Mississippi State Bulldogs",
    "home": "South Carolina Gamecocks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "41",
+   "home_score": "34",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401868317",
@@ -467,11 +455,23 @@
    "name": "SE Louisiana Lions at UL Monroe Warhawks",
    "away": "SE Louisiana Lions",
    "home": "UL Monroe Warhawks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "38",
+   "home_score": "35",
+   "status": "Final",
+   "state": "post",
+   "completed": true
+  },
+  {
+   "event_id": "401856685",
+   "date": "2026-09-19T21:15Z",
+   "name": "Florida State Seminoles at Alabama Crimson Tide",
+   "away": "Florida State Seminoles",
+   "home": "Alabama Crimson Tide",
+   "away_score": "36",
+   "home_score": "50",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862710",
@@ -479,11 +479,11 @@
    "name": "East Carolina Pirates at Old Dominion Monarchs",
    "away": "East Carolina Pirates",
    "home": "Old Dominion Monarchs",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "20",
+   "home_score": "17",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862771",
@@ -491,11 +491,11 @@
    "name": "Florida International Panthers at Florida Atlantic Owls",
    "away": "Florida International Panthers",
    "home": "Florida Atlantic Owls",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "16",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401864574",
@@ -503,11 +503,11 @@
    "name": "Charlotte 49ers at App State Mountaineers",
    "away": "Charlotte 49ers",
    "home": "App State Mountaineers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "21",
+   "home_score": "26",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401871047",
@@ -515,11 +515,11 @@
    "name": "Marshall Thundering Herd at Missouri State Bears",
    "away": "Marshall Thundering Herd",
    "home": "Missouri State Bears",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "30",
+   "home_score": "24",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856687",
@@ -527,11 +527,11 @@
    "name": "Florida Gators at Auburn Tigers",
    "away": "Florida Gators",
    "home": "Auburn Tigers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "44",
+   "home_score": "39",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856689",
@@ -539,11 +539,11 @@
    "name": "Troy Trojans at Missouri Tigers",
    "away": "Troy Trojans",
    "home": "Missouri Tigers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "17",
+   "home_score": "27",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856800",
@@ -551,11 +551,11 @@
    "name": "Georgia State Panthers at UCF Knights",
    "away": "Georgia State Panthers",
    "home": "UCF Knights",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "30",
+   "home_score": "44",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856803",
@@ -564,10 +564,10 @@
    "away": "Murray State Racers",
    "home": "Oklahoma State Cowboys",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "59",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401861963",
@@ -575,11 +575,11 @@
    "name": "UConn Huskies at Southern Miss Golden Eagles",
    "away": "UConn Huskies",
    "home": "Southern Miss Golden Eagles",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "48",
+   "home_score": "20",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862772",
@@ -587,11 +587,11 @@
    "name": "UT Martin Skyhawks at Memphis Tigers",
    "away": "UT Martin Skyhawks",
    "home": "Memphis Tigers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "21",
+   "home_score": "45",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862773",
@@ -599,11 +599,11 @@
    "name": "Western Michigan Broncos at Rice Owls",
    "away": "Western Michigan Broncos",
    "home": "Rice Owls",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "28",
+   "home_score": "21",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862777",
@@ -611,11 +611,11 @@
    "name": "Delaware State Hornets at South Florida Bulls",
    "away": "Delaware State Hornets",
    "home": "South Florida Bulls",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "17",
+   "home_score": "59",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401864443",
@@ -623,11 +623,11 @@
    "name": "Nevada Wolf Pack at Middle Tennessee Blue Raiders",
    "away": "Nevada Wolf Pack",
    "home": "Middle Tennessee Blue Raiders",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "20",
+   "home_score": "27",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401866423",
@@ -635,11 +635,11 @@
    "name": "Ohio Bobcats at South Alabama Jaguars",
    "away": "Ohio Bobcats",
    "home": "South Alabama Jaguars",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "36",
+   "home_score": "41",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401869948",
@@ -647,11 +647,11 @@
    "name": "Georgia Southern Eagles at Jacksonville State Gamecocks",
    "away": "Georgia Southern Eagles",
    "home": "Jacksonville State Gamecocks",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "27",
+   "home_score": "31",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401870764",
@@ -660,10 +660,10 @@
    "away": "Nicholls Colonels",
    "home": "Sam Houston Bearkats",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "59",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858452",
@@ -671,11 +671,11 @@
    "name": "North Dakota Fighting Hawks at Nebraska Cornhuskers",
    "away": "North Dakota Fighting Hawks",
    "home": "Nebraska Cornhuskers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "34",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858459",
@@ -683,11 +683,11 @@
    "name": "Eastern Washington Eagles at Washington Huskies",
    "away": "Eastern Washington Eagles",
    "home": "Washington Huskies",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "16",
+   "home_score": "48",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856688",
@@ -695,11 +695,11 @@
    "name": "LSU Tigers at Ole Miss Rebels",
    "away": "LSU Tigers",
    "home": "Ole Miss Rebels",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "24",
+   "home_score": "32",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856690",
@@ -707,23 +707,11 @@
    "name": "New Mexico Lobos at Oklahoma Sooners",
    "away": "New Mexico Lobos",
    "home": "Oklahoma Sooners",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
-  },
-  {
-   "event_id": "401856795",
-   "date": "2026-09-19T23:30Z",
-   "name": "BYU Cougars at Colorado State Rams",
-   "away": "BYU Cougars",
-   "home": "Colorado State Rams",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "6",
+   "home_score": "14",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856796",
@@ -731,11 +719,11 @@
    "name": "Colorado Buffaloes at Northwestern Wildcats",
    "away": "Colorado Buffaloes",
    "home": "Northwestern Wildcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "41",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856802",
@@ -743,11 +731,11 @@
    "name": "West Virginia Mountaineers at Virginia Cavaliers",
    "away": "West Virginia Mountaineers",
    "home": "Virginia Cavaliers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "38",
+   "home_score": "27",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858232",
@@ -755,11 +743,11 @@
    "name": "Virginia Tech Hokies at Maryland Terrapins",
    "away": "Virginia Tech Hokies",
    "home": "Maryland Terrapins",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "35",
+   "home_score": "26",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858453",
@@ -767,11 +755,11 @@
    "name": "Michigan State Spartans at Notre Dame Fighting Irish",
    "away": "Michigan State Spartans",
    "home": "Notre Dame Fighting Irish",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "10",
+   "home_score": "27",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856692",
@@ -779,11 +767,11 @@
    "name": "Kennesaw State Owls at Tennessee Volunteers",
    "away": "Kennesaw State Owls",
    "home": "Tennessee Volunteers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "9",
+   "home_score": "42",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856693",
@@ -791,11 +779,11 @@
    "name": "UTSA Roadrunners at Texas Longhorns",
    "away": "UTSA Roadrunners",
    "home": "Texas Longhorns",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "6",
+   "home_score": "30",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856799",
@@ -803,11 +791,11 @@
    "name": "Arkansas State Red Wolves at TCU Horned Frogs",
    "away": "Arkansas State Red Wolves",
    "home": "TCU Horned Frogs",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "7",
+   "home_score": "31",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862775",
@@ -816,10 +804,10 @@
    "away": "East Texas A&M Lions",
    "home": "Tulsa Golden Hurricane",
    "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "home_score": "42",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401862776",
@@ -827,11 +815,23 @@
    "name": "UAB Blazers at Louisiana Ragin' Cajuns",
    "away": "UAB Blazers",
    "home": "Louisiana Ragin' Cajuns",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "14",
+   "home_score": "21",
+   "status": "Final",
+   "state": "post",
+   "completed": true
+  },
+  {
+   "event_id": "401856795",
+   "date": "2026-09-20T00:15Z",
+   "name": "BYU Cougars at Colorado State Rams",
+   "away": "BYU Cougars",
+   "home": "Colorado State Rams",
+   "away_score": "41",
+   "home_score": "23",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860885",
@@ -839,11 +839,11 @@
    "name": "South Dakota Coyotes at Boise State Broncos",
    "away": "South Dakota Coyotes",
    "home": "Boise State Broncos",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "24",
+   "home_score": "38",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860887",
@@ -851,11 +851,11 @@
    "name": "James Madison Dukes at San Diego State Aztecs",
    "away": "James Madison Dukes",
    "home": "San Diego State Aztecs",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "26",
+   "home_score": "13",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401856793",
@@ -863,11 +863,11 @@
    "name": "Northern Illinois Huskies at Arizona Wildcats",
    "away": "Northern Illinois Huskies",
    "home": "Arizona Wildcats",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "17",
+   "home_score": "42",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401864507",
@@ -875,11 +875,11 @@
    "name": "North Dakota State Bison at Sacramento State Hornets",
    "away": "North Dakota State Bison",
    "home": "Sacramento State Hornets",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "31",
+   "home_score": "10",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401858458",
@@ -887,11 +887,11 @@
    "name": "Purdue Boilermakers at UCLA Bruins",
    "away": "Purdue Boilermakers",
    "home": "UCLA Bruins",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "38",
+   "home_score": "52",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860886",
@@ -899,11 +899,11 @@
    "name": "Montana Grizzlies at Oregon State Beavers",
    "away": "Montana Grizzlies",
    "home": "Oregon State Beavers",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "17",
+   "home_score": "52",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   },
   {
    "event_id": "401860888",
@@ -911,11 +911,11 @@
    "name": "Fresno State Bulldogs at San Jos\u00e9 State Spartans",
    "away": "Fresno State Bulldogs",
    "home": "San Jos\u00e9 State Spartans",
-   "away_score": "0",
-   "home_score": "0",
-   "status": "Scheduled",
-   "state": "pre",
-   "completed": false
+   "away_score": "26",
+   "home_score": "10",
+   "status": "Final",
+   "state": "post",
+   "completed": true
   }
  ]
 }

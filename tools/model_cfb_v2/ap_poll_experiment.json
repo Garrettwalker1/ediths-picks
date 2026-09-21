@@ -1,0 +1,39 @@
+{
+  "protocol": "Point-in-time AP poll published strictly before each kickoff. Train 2020-23, validation 2024, locked test 2025; Ridge alpha 10, same-row comparison to roster-churn base. Unranked teams are zero. No book inputs.",
+  "rows": {
+    "train": 2316,
+    "validation": 813,
+    "locked_test": 812
+  },
+  "base": {
+    "validation_mae": 13.58869094516554,
+    "locked_test_mae": 13.360493568876969,
+    "winner_accuracy": 0.7118226600985221
+  },
+  "candidates": [
+    {
+      "candidate": "AP rank score difference",
+      "validation_mae": 13.510549825594321,
+      "locked_test_mae": 13.132000726075526,
+      "locked_test_mae_delta_vs_base": -0.22849284280143897,
+      "bootstrap_ci95": [
+        -0.4293909510764345,
+        -0.03181225861163777
+      ],
+      "bootstrap_pct_better": 0.9884,
+      "winner_accuracy": 0.7118226600985221
+    },
+    {
+      "candidate": "AP points difference",
+      "validation_mae": 13.503798594470695,
+      "locked_test_mae": 13.115971670278395,
+      "locked_test_mae_delta_vs_base": -0.24452189859857096,
+      "bootstrap_ci95": [
+        -0.4532095322235533,
+        -0.04048346093050276
+      ],
+      "bootstrap_pct_better": 0.9876,
+      "winner_accuracy": 0.7105911330049262
+    }
+  ]
+}

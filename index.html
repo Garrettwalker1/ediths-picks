@@ -26,7 +26,7 @@ async function loadPlayers(){const pe=v=>String(v??'').replace(/[&<>"']/g,c=>({'
   let [r,p]=await Promise.all([fetch('week2_anytime_td_market.json?ts='+Date.now(),{cache:'no-store'}),fetch('player_projections.json?ts='+Date.now(),{cache:'no-store'})]);
   if(!r.ok||!p.ok)throw Error('source unavailable');
   let d=await r.json(),pd=await p.json();if(!Array.isArray(d.rows)||!Array.isArray(pd.players)||!d.coverage)throw Error('invalid');
-  let eligible=pd.players.filter(x=>['QB','RB','WR','TE'].includes(x.position)&&Number.isFinite(Number(x.anytime_td_probability))&&x.team&&x.opponent);
+  let eligible=pd.players.filter(x=>['QB','RB','WR','TE'].includes(x.position)&&x.anytime_td_probability!=null&&Number.isFinite(Number(x.anytime_td_probability))&&x.team&&x.opponent);
   let markets=new Map();d.rows.filter(x=>['QB','RB','WR','TE'].includes(x.position)).forEach(x=>markets.set(String(x.player_name||'').toLowerCase(),x));
   let games={};eligible.forEach(x=>{let pair=[canonicalTeam(x.team),canonicalTeam(x.opponent)].sort(),key=pair.join(' vs ');(games[key]??=[]).push(x)});
   let cov=d.coverage,partial=!cov.complete,priced=eligible.filter(x=>markets.has(String(x.player).toLowerCase())).length;

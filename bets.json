@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-22T00:02:00Z",
+  "updated_at": "2026-09-22T04:28:25Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1755,10 +1755,10 @@
       "kickoff": "2026-09-22T00:16:00Z",
       "book": "FanDuel",
       "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -0.5,
+      "net_usd": -5,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
       "bet_id": "us-tn:01m32a8d9kf518aj79n2rm3hqj",
       "date": "2026-09-21T15:44:00Z",
@@ -1810,6 +1810,13 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 10:44 AM CT placed SGP price."
+      },
+      "grading": {
+        "source": "ESPN final box score and scoring summary",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+        "graded_at": "2026-09-22T04:28:25Z",
+        "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
+        "detail": "Parlay lost. Blake Corum had 79 rushing yards and cleared 40+. Odell Beckham Jr. did not record a reception, Jaxson Dart did not score, and Devin Singletary had 9 rushing yards (under 15+)."
       }
     },
     {
@@ -1818,10 +1825,10 @@
       "kickoff": "2026-09-22T00:16:00Z",
       "book": "FanDuel",
       "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
       "bet_id": "us-tn:01m32agkkfef3tkxzrrj377wh0",
       "date": "2026-09-21T15:49:00Z",
@@ -1868,6 +1875,13 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 10:49 AM CT placed boosted SGP price."
+      },
+      "grading": {
+        "source": "ESPN final box score and scoring summary",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+        "graded_at": "2026-09-22T04:28:25Z",
+        "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
+        "detail": "Parlay lost. Cam Skattebo had 36 rushing yards and Blake Corum had 79, but Jaxson Dart did not record the required 20 rushing yards."
       }
     },
     {
@@ -1876,10 +1890,10 @@
       "kickoff": "2026-09-22T00:16:00Z",
       "book": "FanDuel",
       "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
       "bet_id": "us-tn:01m32at62ner4bztf1jeqc9cf8",
       "date": "2026-09-21T15:54:00Z",
@@ -1913,6 +1927,13 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 10:54 AM CT placed boosted price."
+      },
+      "grading": {
+        "source": "ESPN final box score and scoring summary",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+        "graded_at": "2026-09-22T04:28:25Z",
+        "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
+        "detail": "Malik Nabers had 1 receiving yard and did not score. Loss."
       }
     },
     {
@@ -1921,10 +1942,10 @@
       "kickoff": "2026-09-22T00:16:00Z",
       "book": "FanDuel",
       "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
       "bet_id": "us-tn:01m335svk5frsav3c2wmpj09mn",
       "date": "2026-09-21T23:46:00Z",
@@ -1962,6 +1983,13 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 6:46 PM CT placed SGP price."
+      },
+      "grading": {
+        "source": "ESPN final box score and scoring summary",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+        "graded_at": "2026-09-22T04:28:25Z",
+        "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
+        "detail": "Parlay lost. Davante Adams scored two receiving touchdowns; Malik Nabers did not score."
       }
     },
     {
@@ -1970,10 +1998,10 @@
       "kickoff": "2026-09-22T00:16:00Z",
       "book": "FanDuel",
       "state": "TN",
-      "result": "pending",
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -10,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
       "bet_id": "us-tn:01m336n5g7fpsvbk1pxtmndxd3",
       "date": "2026-09-22T00:01:00Z",
@@ -2009,6 +2037,13 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 7:01 PM CT TN straight price."
+      },
+      "grading": {
+        "source": "ESPN final box score and scoring summary",
+        "source_url": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+        "graded_at": "2026-09-22T04:28:25Z",
+        "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
+        "detail": "Cam Skattebo had 36 rushing yards and 19 receiving yards but did not score. Loss."
       }
     }
   ]

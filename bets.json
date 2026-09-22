@@ -1,7 +1,7 @@
 {
-  "unit_definition": "1 unit = $5.00",
-  "unit_value_usd": 5,
-  "updated_at": "2026-09-21T23:47:00Z",
+  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
+  "unit_value_usd": 10,
+  "updated_at": "2026-09-22T00:02:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -1768,7 +1768,7 @@
       "selection": "Odell Beckham Jr. 5+ receiving yards; Blake Corum 40+ rushing yards; Jaxson Dart ATD; Devin Singletary 15+ rushing yards",
       "line": null,
       "price": 2090,
-      "stake_units": 1,
+      "stake_units": 0.5,
       "stake_usd": 5,
       "potential_payout_usd": 109.55,
       "potential_profit_usd": 104.55,
@@ -1832,7 +1832,7 @@
       "line": null,
       "price": 138,
       "price_note": "30% profit boost: +138 from +107.",
-      "stake_units": 2,
+      "stake_units": 1.0,
       "stake_usd": 10,
       "potential_payout_usd": 23.87,
       "potential_profit_usd": 13.87,
@@ -1890,7 +1890,7 @@
       "line": null,
       "price": 294,
       "price_note": "50% profit boost: +294 from +195.",
-      "stake_units": 2,
+      "stake_units": 1.0,
       "stake_usd": 10,
       "potential_payout_usd": 39.4,
       "potential_profit_usd": 29.4,
@@ -1934,7 +1934,7 @@
       "selection": "Davante Adams ATD; Malik Nabers ATD",
       "line": null,
       "price": 461,
-      "stake_units": 2,
+      "stake_units": 1.0,
       "stake_usd": 10,
       "potential_payout_usd": 56.15,
       "potential_profit_usd": 46.15,
@@ -1962,6 +1962,53 @@
         "available": true,
         "source": "User TN FanDuel slip",
         "note": "Actual 6:46 PM CT placed SGP price."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Giants @ Los Angeles Rams",
+      "kickoff": "2026-09-22T00:16:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "result": "pending",
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-21.",
+      "bet_id": "us-tn:01m336n5g7fpsvbk1pxtmndxd3",
+      "date": "2026-09-22T00:01:00Z",
+      "placed_at": "2026-09-22T00:01:00Z",
+      "bet": "Straight: Cam Skattebo anytime touchdown",
+      "market": "anytime_touchdown",
+      "selection": "Cam Skattebo ATD",
+      "line": null,
+      "price": 115,
+      "stake_units": 1,
+      "stake_usd": 10,
+      "potential_payout_usd": 21.5,
+      "potential_profit_usd": 11.5,
+      "cashout_value_usd_at_capture": 10,
+      "legs": [
+        {
+          "event": "New York Giants @ Los Angeles Rams",
+          "kickoff": "2026-09-22T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Cam Skattebo",
+          "price": 115
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "frozen Week 1 baseline TD probability; research only",
+        "probability": 0.479,
+        "book_implied_probability": 0.465116,
+        "model_minus_book_pp": 1.388,
+        "note": "E.D.I.T.H. ATD play delivered 2026-09-21 at 6:51 PM CT. TN screenshot verified +115. Probability is frozen baseline, not the Week 1+2 rebuild."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual 7:01 PM CT TN straight price."
       }
     }
   ]

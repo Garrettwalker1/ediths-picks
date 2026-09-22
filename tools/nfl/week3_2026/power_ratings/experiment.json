@@ -1,0 +1,10 @@
+{
+  "candidate": "pregame Elo margin",
+  "source_context": "Public Week 3 rankings archived for display/research context. The testable candidate uses a reproducible pregame Elo series so historical rows obey point-in-time chronology.",
+  "reference_model": "NFL v3.2b",
+  "protocol": {"train": "2010-2022", "validation": "2023", "locked_test": "2024-2025", "bootstrap_resamples": 2000, "cluster": "game"},
+  "validation": {"reference_mae": 10.556365, "candidate_mae": 10.484629, "delta": -0.071735},
+  "locked_test": {"reference_mae": 10.239410, "candidate_mae": 10.171860, "delta": -0.067550, "bootstrap_ci95": [-0.184911, 0.047637]},
+  "verdict": "not_adopted",
+  "reason": "The candidate improved the point estimate on validation and locked test, but the locked-test paired bootstrap interval crosses zero. v3.2b remains the reference."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-22T04:28:25Z",
+  "updated_at": "2026-09-22T12:20:00Z",
   "framing": "Forward measurement only, not picks or a validated edge. Winner means lower absolute final-margin error versus the recorded pregame book margin. Pushes/ties are separate.",
   "nfl": {
     "record": {
@@ -421,147 +421,147 @@
     },
     "score_projections": [
       {
-        "event": "DET at BUF",
-        "kickoff": "2026-09-18T00:15:00.000Z",
-        "model_margin_home": 4.7,
-        "baseline_total": 45.2,
-        "away_score": 20,
-        "home_score": 25,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "CAR at ATL",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 6.6,
-        "baseline_total": 45.2,
-        "away_score": 19,
-        "home_score": 26,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "NO at BAL",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 7,
-        "baseline_total": 45.2,
-        "away_score": 19,
-        "home_score": 26,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "GB at NYJ",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 4.5,
-        "baseline_total": 45.2,
-        "away_score": 20,
-        "home_score": 25,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "MIN at CHI",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 3.8,
+        "event": "ATL at GB",
+        "kickoff": "2026-09-25T00:15:00Z",
+        "model_margin_home": 3.8951755172,
         "baseline_total": 45.2,
         "away_score": 21,
-        "home_score": 24,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "CIN at HOU",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 4.4,
-        "baseline_total": 45.2,
-        "away_score": 20,
         "home_score": 25,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "PIT at NE",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 8.9,
+        "event": "LAC at BUF",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": 7.3005514499,
         "baseline_total": 45.2,
-        "away_score": 18,
-        "home_score": 27,
+        "away_score": 19,
+        "home_score": 26,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "CLE at TB",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": 10,
-        "baseline_total": 45.2,
-        "away_score": 18,
-        "home_score": 28,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "PHI at TEN",
-        "kickoff": "2026-09-20T17:01:00.000Z",
-        "model_margin_home": -3.1,
-        "baseline_total": 45.2,
-        "away_score": 24,
-        "home_score": 21,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "JAX at DEN",
-        "kickoff": "2026-09-20T20:06:00.000Z",
-        "model_margin_home": -1.7,
+        "event": "CAR at CLE",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": -0.2430298718,
         "baseline_total": 45.2,
         "away_score": 23,
         "home_score": 22,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "LV at LAC",
-        "kickoff": "2026-09-20T20:06:00.000Z",
-        "model_margin_home": 8.8,
+        "event": "NYJ at DET",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": 4.6233837841,
         "baseline_total": 45.2,
-        "away_score": 18,
-        "home_score": 27,
+        "away_score": 20,
+        "home_score": 25,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "SEA at ARI",
-        "kickoff": "2026-09-20T20:26:00.000Z",
-        "model_margin_home": -2.5,
+        "event": "HOU at IND",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": 4.0446368015,
+        "baseline_total": 45.2,
+        "away_score": 21,
+        "home_score": 25,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "NE at JAX",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": 1.243466341,
+        "baseline_total": 45.2,
+        "away_score": 22,
+        "home_score": 23,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "KC at MIA",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": -6.3567602981,
+        "baseline_total": 45.2,
+        "away_score": 26,
+        "home_score": 19,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "TEN at NYG",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": 4.7891756115,
+        "baseline_total": 45.2,
+        "away_score": 20,
+        "home_score": 25,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "CIN at PIT",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": -2.0869510359,
         "baseline_total": 45.2,
         "away_score": 24,
-        "home_score": 21,
+        "home_score": 22,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "MIA at SF",
-        "kickoff": "2026-09-20T20:26:00.000Z",
-        "model_margin_home": 11.5,
+        "event": "SEA at WAS",
+        "kickoff": "2026-09-27T17:00:00Z",
+        "model_margin_home": -6.73601224,
+        "baseline_total": 45.2,
+        "away_score": 26,
+        "home_score": 19,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "ARI at SF",
+        "kickoff": "2026-09-27T20:05:00Z",
+        "model_margin_home": 10.8354468474,
         "baseline_total": 45.2,
         "away_score": 17,
         "home_score": 28,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "WAS at DAL",
-        "kickoff": "2026-09-20T20:26:00.000Z",
-        "model_margin_home": 8.1,
-        "baseline_total": 45.2,
-        "away_score": 19,
-        "home_score": 27,
-        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
-      },
-      {
-        "event": "IND at KC",
-        "kickoff": "2026-09-21T00:21:00.000Z",
-        "model_margin_home": 2.6,
+        "event": "MIN at TB",
+        "kickoff": "2026-09-27T20:05:00Z",
+        "model_margin_home": 3.1175526993,
         "baseline_total": 45.2,
         "away_score": 21,
         "home_score": 24,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       },
       {
-        "event": "NYG at LA",
-        "kickoff": "2026-09-22T00:16:00.000Z",
-        "model_margin_home": 8,
+        "event": "BAL at DAL",
+        "kickoff": "2026-09-27T20:25:00Z",
+        "model_margin_home": 5.0279015779,
         "baseline_total": 45.2,
-        "away_score": 19,
-        "home_score": 27,
+        "away_score": 20,
+        "home_score": 25,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "LV at NO",
+        "kickoff": "2026-09-27T20:25:00Z",
+        "model_margin_home": 4.7897418541,
+        "baseline_total": 45.2,
+        "away_score": 20,
+        "home_score": 25,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "LA at DEN",
+        "kickoff": "2026-09-28T00:20:00Z",
+        "model_margin_home": -1.1460055581,
+        "baseline_total": 45.2,
+        "away_score": 23,
+        "home_score": 22,
+        "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
+      },
+      {
+        "event": "PHI at CHI",
+        "kickoff": "2026-09-29T00:15:00Z",
+        "model_margin_home": 4.2838503159,
+        "baseline_total": 45.2,
+        "away_score": 20,
+        "home_score": 25,
         "method": "v3.2b margin split around 2021-25 NFL mean total; untested baseline-total prototype"
       }
     ]

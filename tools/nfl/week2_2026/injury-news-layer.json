@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "season": 2026,
+  "source_week": 2,
+  "target_week": 3,
+  "generated_at": "2026-09-22T12:28:00Z",
+  "coverage": {
+    "nflverse_week2_rows": 251,
+    "nflverse_teams": 32,
+    "report_status_counts": {
+      "Out": 44,
+      "Doubtful": 6,
+      "Questionable": 55,
+      "null": 146
+    },
+    "note": "The free structured injury file covers all 32 teams and is archived separately. This layer adds dated news developments that a static pregame report cannot capture. Week 2 status is not carried into Week 3 unless a current source establishes it."
+  },
+  "facts": [
+    {
+      "player": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "status": "Out",
+      "detail": "Dislocated the same left elbow in Week 2. MRI completed; team has not set a return timeline, and he is seeing specialists Tuesday and Wednesday. Marcus Mariota is set to start Week 3.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49993422/commanders-qb-jayden-daniels-suffers-elbow-injury-cowboys"
+    },
+    {
+      "player": "Caleb Williams",
+      "team": "CHI",
+      "position": "QB",
+      "status": "Week 3 unresolved",
+      "detail": "Exited Week 2 on a cart with a right hamstring injury after he could not stand without trainers. Await practice and team status before Week 3.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49991729/bears-caleb-williams-leaves-cart-falling-scramble"
+    },
+    {
+      "player": "Puka Nacua",
+      "team": "LA",
+      "position": "WR",
+      "status": "Inactive Week 2",
+      "detail": "Inactive Monday night with hip/groin soreness. Week 3 status requires a new practice report.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50001094/rams-wr-puka-nacua-hip-inactive-mnf-vs-giants"
+    },
+    {
+      "player": "Myles Garrett",
+      "team": "LA",
+      "position": "DE",
+      "status": "IR",
+      "detail": "Out after a knee scope and headed to injured reserve.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49991306/los-angeles-rams-aaron-donald-myles-garrett-defense-week-2"
+    },
+    {
+      "player": "Sam Darnold",
+      "team": "SEA",
+      "position": "QB",
+      "status": "Week 3 possible",
+      "detail": "Recovering ahead of schedule from a glute injury and could practice this week; Seattle had not ruled him out for Week 3.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49995944/drew-lock-jaxon-smith-njigba-seahawks-2-0-sam-darnold-ahead-schedule"
+    },
+    {
+      "player": "Kyler Murray",
+      "team": "MIN",
+      "position": "QB",
+      "status": "Expected Week 3",
+      "detail": "ESPN reported he is expected to return in Week 3 after a concussion, subject to clearance.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49993300/qb-kyler-murray-concussion-expected-return-week-3"
+    },
+    {
+      "player": "Michael Penix Jr.",
+      "team": "ATL",
+      "position": "QB",
+      "status": "Week 3 possible",
+      "detail": "Could play in Week 3 after returning from ACL surgery; no starter assumption is made here.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49985117/sources-falcons-qb-michael-penix-jr-play-week-3"
+    },
+    {
+      "player": "Demarcus Robinson",
+      "team": "SF",
+      "position": "WR",
+      "status": "Week 3 unresolved",
+      "detail": "Carted off and ruled out of Week 2 with a right ankle injury.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49993177/49ers-lose-another-wr-demarcus-robinson-suffers-ankle-injury"
+    },
+    {
+      "player": "Jayden Reed",
+      "team": "GB",
+      "position": "WR",
+      "status": "Week 3 unresolved",
+      "detail": "Carted off on a stabilizing backboard and ruled out of Week 2 with a neck injury.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49990499/packers-wr-reed-rt-bako-bewele-carted-injuries"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "team": "GB",
+      "position": "T",
+      "status": "Week 3 unresolved",
+      "detail": "Carted off with a right knee injury, leg placed in a cast, and ruled out of Week 2.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49990499/packers-wr-reed-rt-bako-bewele-carted-injuries"
+    },
+    {
+      "player": "David Njoku",
+      "team": "LAC",
+      "position": "TE",
+      "status": "Week 3 unresolved",
+      "detail": "Carted off with a right knee injury and listed questionable to return in Week 2.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49992624/chargers-te-david-njoku-leaves-game-knee-injury"
+    }
+  ]
+}

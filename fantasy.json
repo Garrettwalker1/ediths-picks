@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T14:46:51Z",
+  "updated_at": "2026-09-23T15:28:49Z",
   "refresh_note": "Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.",
   "providers": [
     {
@@ -15,10 +15,10 @@
   ],
   "injury_check": {
     "status": "checked",
-    "checked_at": "2026-09-23T14:46:51Z",
-    "source": "ESPN NFL injury tracker with attributed national, team and beat reporting",
-    "source_url": "https://www.espn.com/nfl/injuries",
-    "rostered_player_flags": 11
+    "checked_at": "2026-09-23T15:28:49Z",
+    "source": "ESPN Fantasy player injury status and player news (logged-in league data); X public reads unavailable without sign-in",
+    "source_url": "https://fantasy.espn.com/football/",
+    "rostered_player_flags": 17
   },
   "leagues": [
     {
@@ -153,7 +153,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Dowdle was carted to the locker room during the second half of Sunday's 20-3 loss to the Patriots, but he appears to have avoided a significant injury. If Dowdle ends up sitting out a Week 3 contest against the Jaguars, Jaylen Warren could be in store for a sizable three-down role out of the Pittsburgh backfield. The No. 3 back, rookie Eli Heidenre",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4038815",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-22"
         },
         {
           "id": "espn-1242450525-9",
@@ -206,13 +212,12 @@
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
           "observed_at": "2026-09-23T14:46:49Z",
           "provider_updated_at": null,
-          "injury_status": "Doubtful",
-          "injury_detail": "Sep 13: Stribling (ankle) is expected to miss at least one month after he was diagnosed Sunday with a deltoid sprain of his left ankle, Ian Rapoport of NFL Network reports.",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker · attributed to Ian Rapoport",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-13"
+          "injury_status": "Injured Reserve",
+          "injury_detail": "Stribling suffered what appeared to be a serious non-contact injury during the 49ers' Week 1 win against the Rams in Melbourne, Australia, but afterward tests revealed that his left Achilles was intact, and eventually he was diagnosed with a deltoid sprain of his left ankle. After undergoing surgery, he's expected to miss roughly 10 weeks, meaning",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4710714",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-19"
         },
         {
           "id": "espn-1242450525-13",
@@ -238,14 +243,7 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 14: Coker is in a walking boot Monday after sustaining a left ankle injury in Sunday's loss to the Bears, Mike Kaye of ESPN.com reports.",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-14"
+          "provider_updated_at": null
         },
         {
           "id": "espn-1242450525-15",
@@ -285,13 +283,12 @@
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
           "observed_at": "2026-09-23T14:46:49Z",
           "provider_updated_at": null,
-          "injury_status": "Doubtful",
-          "injury_detail": "Sep 14: Ravens head coach Jesse Minter said that Lane will receive second and third medical opinions on his injured wrist this week before a timeline for his return is established, Sam Cohn of The Baltimore Sun reports.",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-14"
+          "injury_status": "Injured Reserve",
+          "injury_detail": "Lane left the Ravens' Week 1 win at Indianapolis with a wrist injury that eventually was confirmed to include a fracture. With his move to IR, he'll be required to miss at least the next four games, meaning his next chance for game action will come Oct. 18 at Cleveland. As long as Lane is sidelined, Zay Flowers (hamstring), Rashod Bateman, Devontez",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4870847",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-16"
         },
         {
           "id": "espn-1242450525-18",
@@ -390,11 +387,10 @@
           "observed_at": "2026-09-23T14:46:49Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "Sep 13: Brown, who was officially placed on injured reserve Saturday, is expected to miss about six weeks due to a right high-ankle sprain, Ian Rapoport of NFL Network reports.",
-          "injury_estimated_return": "Nov 1",
-          "injury_source": "ESPN NFL injury tracker · attributed to Ian Rapoport",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
+          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 whe",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
           "injury_provider_updated_at": "2026-09-13"
         },
         {
@@ -421,7 +417,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4595348",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-22"
         },
         {
           "id": "espn-184489982-5",
@@ -447,7 +449,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "When Price was accompanied by team trainers to the locker room with his pads off during the fourth quarter Sunday, he was considered questionable to return due to a chest issue. Macdonald told Curtis Crabtree of Fox 13 Seattle afterward that X-rays were returned negative, and additional comments from the head coach one day later indicate the rookie",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4685512",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "espn-184489982-7",
@@ -473,7 +481,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "espn-184489982-9",
@@ -674,7 +688,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "When Price was accompanied by team trainers to the locker room with his pads off during the fourth quarter Sunday, he was considered questionable to return due to a chest issue. Macdonald told Curtis Crabtree of Fox 13 Seattle afterward that X-rays were returned negative, and additional comments from the head coach one day later indicate the rookie",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4685512",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "espn-416480692-6",
@@ -713,7 +733,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "espn-416480692-9",
@@ -793,11 +819,10 @@
           "observed_at": "2026-09-23T14:46:49Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "Sep 14: Pacheco (back) underwent surgery Monday and is expected to be out for a significant amount of time, Nolan Bianchi of The Detroit News reports.",
-          "injury_estimated_return": "Dec 6",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
+          "injury_detail": "Pacheco was already on injured reserve, but he's looking at a lengthy recovery. According to Ian Rapoport of NFL Network, the running back is expected to be sidelined 12 weeks, giving him a \"chance\" to return sometime in December. With Pacheco sidelined Week 1 against the Saints, Jahmyr Gibbs handled 29 of the team's 31 backfield carries, turning t",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4361529",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
           "injury_provider_updated_at": "2026-09-14"
         },
         {
@@ -897,11 +922,10 @@
           "observed_at": "2026-09-23T14:46:49Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "Sep 13: Brown, who was officially placed on injured reserve Saturday, is expected to miss about six weeks due to a right high-ankle sprain, Ian Rapoport of NFL Network reports.",
-          "injury_estimated_return": "Nov 1",
-          "injury_source": "ESPN NFL injury tracker · attributed to Ian Rapoport",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
+          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 whe",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
           "injury_provider_updated_at": "2026-09-13"
         },
         {
@@ -967,7 +991,13 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "espn-14911042-8",
@@ -1019,14 +1049,7 @@
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
           "observed_at": "2026-09-23T14:46:49Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": null
+          "provider_updated_at": null
         },
         {
           "id": "espn-14911042-12",
@@ -1211,7 +1234,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "When Price was accompanied by team trainers to the locker room with his pads off during the fourth quarter Sunday, he was considered questionable to return due to a chest issue. Macdonald told Curtis Crabtree of Fox 13 Seattle afterward that X-rays were returned negative, and additional comments from the head coach one day later indicate the rookie",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4685512",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "4035",
@@ -1222,14 +1251,7 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": null
+          "provider_updated_at": null
         },
         {
           "id": "4866",
@@ -1240,7 +1262,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=3929630",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-20"
         },
         {
           "id": "5022",
@@ -1251,7 +1279,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=3121023",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "5947",
@@ -1273,7 +1307,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "After sitting out Sunday's loss to New England, Pittman's status for Week 3 against the Bengals remains up in the air. While Pittman was out against the Patriots, Roman Wilson and Germie Bernard operated as the Steelers' Nos. 2 and 3 receivers behind DK Metcalf. While Wilson ran 42 routes to Bernard's 39, Bernard out-targeted Wilson, nine to six. N",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4035687",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "7021",
@@ -1284,7 +1324,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": "Dowdle was carted to the locker room during the second half of Sunday's 20-3 loss to the Patriots, but he appears to have avoided a significant injury. If Dowdle ends up sitting out a Week 3 contest against the Jaguars, Jaylen Warren could be in store for a sizable three-down role out of the Pittsburgh backfield. The No. 3 back, rookie Eli Heidenre",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4038815",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-22"
         },
         {
           "id": "9226",
@@ -1381,14 +1427,7 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 14: Coach Mike Vrabel said Henderson (ankle) will practice Monday, Mike Reiss of ESPN.com reports.",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-14"
+          "provider_updated_at": null
         },
         {
           "id": "2133",
@@ -1572,7 +1611,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426348",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-21"
         },
         {
           "id": "11624",
@@ -1616,14 +1661,7 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "Sep 14: Coach Mike Vrabel said Henderson (ankle) will practice Monday, Mike Reiss of ESPN.com reports.",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-14"
+          "provider_updated_at": null
         },
         {
           "id": "12545",
@@ -1647,11 +1685,10 @@
           "observed_at": "2026-09-23T14:46:51Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "Aug 30: Tyson (hamstring) was placed on injured reserve with a designation to return by New Orleans on Sunday.",
-          "injury_estimated_return": "Oct 11",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
+          "injury_detail": "Tyson has had recurring issues with his right hamstring, and the most recent flare-up is expected to result in two months on the sideline, so Sunday's transaction comes as no surprise. He'll be required to miss at least the first four games of the season, but considering the aforementioned recovery timeline, he likely will be out beyond Week 5. Dur",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4880281",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
           "injury_provider_updated_at": "2026-08-30"
         },
         {
@@ -1663,14 +1700,7 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": null
+          "provider_updated_at": null
         },
         {
           "id": "6813",
@@ -1777,14 +1807,7 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "",
-          "injury_estimated_return": "Sep 20",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": null
+          "provider_updated_at": null
         },
         {
           "id": "11626",
@@ -1850,7 +1873,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Doubtful",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4689114",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-22"
         },
         {
           "id": "12512",
@@ -1940,11 +1969,10 @@
           "observed_at": "2026-09-23T14:46:51Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "Sep 13: Brown, who was officially placed on injured reserve Saturday, is expected to miss about six weeks due to a right high-ankle sprain, Ian Rapoport of NFL Network reports.",
-          "injury_estimated_return": "Nov 1",
-          "injury_source": "ESPN NFL injury tracker · attributed to Ian Rapoport",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
+          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 whe",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
           "injury_provider_updated_at": "2026-09-13"
         },
         {
@@ -1969,12 +1997,11 @@
           "observed_at": "2026-09-23T14:46:51Z",
           "provider_updated_at": null,
           "injury_status": "Questionable",
-          "injury_detail": "Sep 14: The Bills listed Johnson (hamstring) as a limited participant on Monday's estimated practice report.",
-          "injury_estimated_return": "Sep 17",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-14"
+          "injury_detail": "Despite being listed as limited on all three of the Bills' Week 2 injury reports, Johnson will continue to don street clothes on game days due to a hamstring issue that has bothered him since at least Aug. 24. In Johnson's absence, Ray Davis will continue to garner RB reps that don't go to starter James Cook, while Frank Gore is on hand in case one",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=3915411",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-17"
         },
         {
           "id": "6770",
@@ -2051,7 +2078,13 @@
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
           "observed_at": "2026-09-23T14:46:51Z",
-          "provider_updated_at": null
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426515",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-22"
         },
         {
           "id": "9511",
@@ -2075,12 +2108,11 @@
           "observed_at": "2026-09-23T14:46:51Z",
           "provider_updated_at": null,
           "injury_status": "Out",
-          "injury_detail": "Sep 7: Coach Mike Macdonald said Monday that Charbonnet (knee) looks \"awesome\" in his rehab from a torn ACL, Gregg Bell of The Tacoma News Tribune reports.",
-          "injury_estimated_return": "Oct 11",
-          "injury_source": "ESPN NFL injury tracker",
-          "injury_source_url": "https://www.espn.com/nfl/injuries",
-          "injury_observed_at": "2026-09-23T14:46:51Z",
-          "injury_provider_updated_at": "2026-09-07"
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426385",
+          "injury_observed_at": "2026-09-23T15:28:49Z",
+          "injury_provider_updated_at": "2026-09-18"
         },
         {
           "id": "SF",

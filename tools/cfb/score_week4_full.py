@@ -272,7 +272,7 @@ print('scored',len(ok),'(frozen initial',sum(1 for b in ok if b.get('frozen_init
 # ---- optional current book capture (e.g. FanDuel TN) ----
 FD_ALIAS={'miami florida':'miami hurricanes','san jose state':'san josé state','wv mountaineers':'west virginia','connecticut':'uconn','miami ohio':'miami (oh)','app state':'appalachian state',
  'appalachian state':'app state','nicholls state':'nicholls','southeast louisiana':'se louisiana',
- 'sam houston state':'sam houston','fiu':'florida international','louisiana':"louisiana ragin' cajuns",'hawaii':"hawai'i"}
+ 'sam houston state':'sam houston','fiu':'florida international','louisiana':"louisiana ragin' cajuns",'hawaii':"hawai'i",'gardner webb':'gardnerwebb'}
 def norm(x):
     import re as _re
     return _re.sub(r'[^a-z0-9 ]','',x.lower()).strip()
@@ -296,7 +296,7 @@ for b in ok:
             best=r; break
     if best and (best['home_spread'] or best['total']):
         matched+=1
-        b['book_tn']={'state':BOOK_STATE,'captured_at':best['captured_at'],
+        b['book_tn']={'state':(best.get('state') or BOOK_STATE),'captured_at':best['captured_at'],
             'away_spread':float(best['away_spread']) if best['away_spread'] else None,
             'away_spread_odds':int(best['away_spread_odds']) if best['away_spread_odds'] else None,
             'home_spread':float(best['home_spread']) if best['home_spread'] else None,
@@ -346,7 +346,7 @@ for b in ok:
     display_margin_text=f'{display_margin:.0f}' if display_margin.is_integer() else f'{display_margin:.1f}'
     ml=f"{fav} -{display_margin_text}"
     bv=b.get('book_tn') or b.get('book_va')
-    bv_state='TN' if b.get('book_tn') else ('VA' if b.get('book_va') else '')
+    bv_state=(b['book_tn'].get('state') or 'TN') if b.get('book_tn') else ('VA' if b.get('book_va') else '')
     dt=et(b['date'])
     day=et_day(dt)
     if day!=last_day:
@@ -441,7 +441,7 @@ footer {{margin-top:36px;color:var(--dim2);font-size:11px;line-height:1.8;border
 a {{color:#58a6ff}}
 @media(max-width:560px){{h1{{font-size:21px;letter-spacing:3px}}.bgrid{{grid-template-columns:64px 1fr 1fr}}}}
 </style></head><body><div class=wrap>
-<header><h1>E.D.I.T.H. <span>CFB</span> BOARD</h1><div id=updated>Week 4, 2026 - initial model + TN book - updated {esc(gen_label)}</div></header>
+<header><h1>E.D.I.T.H. <span>CFB</span> BOARD</h1><div id=updated>Week 4, 2026 - initial model + FanDuel book{(' - '+esc(BOOK_LABEL)) if BOOK_LABEL else ' (TN)'} - updated {esc(gen_label)}</div></header>
 <div class=banner>MEASUREMENT ONLY - NOT PICKS. This model has not been proven against book lines. It exists to measure whether the model\'s margins track reality.</div>
 <div class=note-card><b>Book lines:</b> {esc(BOOK_LABEL) if BOOK_LABEL else 'FanDuel Tennessee, latest pre-kickoff capture per game'} - labeled comparison display, never a model input. MODEL display lines round to the nearest 0.5 point; underlying model outputs and grading precision are unchanged. These Week 4 initial model numbers use completed data through Week 3 and are frozen at publication; only the book column updates. Comparison tracked, not a pick. CFB uses FBS sides/totals only, no college props.</div>
 <div class=note-card><b>Coverage:</b> {len(ok)} of {len(ok)+len(errs)} FBS-scheduled Week 4 games (Sep 24-28). All model numbers were generated in this Week 4 pregame run from completed data through Week 3.</div>

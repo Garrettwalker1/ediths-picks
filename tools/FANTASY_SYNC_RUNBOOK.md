@@ -31,9 +31,9 @@ Normalize a matchup as:
 
 If any page is a login page, 401, consent wall, or lacks the expected team identity, stop. Preserve the last good `fantasy.json`; do not publish empty ESPN rosters. Release the lease when finished.
 
-## 2. Fetch the injury source
+## 2. Collect injury status from ESPN Fantasy (permanent, approved 2026-09-23)
 
-Fetch `https://www.espn.com/nfl/injuries` as readable Markdown to a temporary file such as `/tmp/espn-injuries.md`. The generator intersects it with roster names, retains its URL and observation time, and keeps source attribution found in each item. If the feed is short/malformed, the generator refuses to overwrite the prior snapshot.
+Garrett directed that fantasy injury flags come from ESPN Fantasy (and X when publicly readable), never the ESPN NFL injury page (`espn.com/nfl/injuries`), which went stale. Build the ESPN player id list for every rostered player (ESPN roster entries; Sleeper players via the Sleeper player DB `espn_id` or an exact unique name match in ESPN's player pool). In the same logged-in config used for rosters, run `tools/fantasy/espn_injury_status.js` (replace `__IDS__`) with `tools cloud_browser execute-js` on a fantasy.espn.com page and save the returned JSON to `/tmp/espn-injury-status.json`. X is public-read only (specific post oEmbed/syndication); do not sign in. If the ESPN call fails or returns fewer than 50 players, stop and preserve the last good `fantasy.json`.
 
 ## 3. Generate
 
@@ -42,16 +42,16 @@ From the repo root:
 ```bash
 python3 generate_fantasy.py \
   --espn /tmp/espn_snapshot.json \
-  --injury-markdown /tmp/espn-injuries.md \
+  --injury-status /tmp/espn-injury-status.json \
   --output fantasy.json
 python3 -m json.tool fantasy.json >/dev/null
 ```
 
-The script fetches Sleeper's public league, user, roster, current-week matchup, and NFL player data. It writes atomically only after validating all three expected ESPN leagues and the injury feed.
+The script fetches Sleeper's public league, user, roster, current-week matchup, and NFL player data. It writes atomically only after validating all four expected ESPN leagues (including Not a Dell, 14911042) and the ESPN Fantasy injury status file.
 
 ## 4. Validate and publish
 
-Check that there are exactly seven leagues, the excluded league is absent, timestamps are current, no ESPN login-page text exists, and no sensitive values appear:
+Check that there are exactly eight leagues (4 ESPN + 4 Sleeper), timestamps are current, no ESPN login-page text exists, and no sensitive values appear:
 
 ```bash
 jq -e '.leagues|length==8' fantasy.json

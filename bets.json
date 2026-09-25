@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-25T18:54:43Z",
+  "updated_at": "2026-09-25T18:56:35Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2469,6 +2469,71 @@
       },
       "rewards_points_pending": 40,
       "screenshot_received_at": "2026-09-25T18:53:08Z"
+    },
+    {
+      "date": "2026-09-25T18:56:04Z",
+      "placed_at": null,
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "stake_units": 1.0,
+      "stake_usd": 10.0,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided TN FanDuel Sep 25 1:56 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
+      "grading": null,
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User-provided TN FanDuel screenshot received Sep 25 1:56 PM CT",
+        "note": "Exact leg odds and parlay payout are from the screenshot; no boost was displayed."
+      },
+      "bet_id": "us-tn:screenshot-20260925-1356-three-leg-253",
+      "game": "Clemson @ California + Wake Forest @ Louisville + Missouri @ Mississippi State",
+      "kickoff": "2026-09-26T02:30:00Z",
+      "bet": "3-leg parlay: California ML, Louisville ML, Mississippi State ML",
+      "market": "parlay",
+      "selection": "California ML; Louisville ML; Mississippi State ML",
+      "price": 253,
+      "price_note": "No boost displayed. Parlay +253; screenshot payout $35.39 on $10 stake (displayed odds rounded); 40 rewards points pending.",
+      "potential_payout_usd": 35.39,
+      "potential_profit_usd": 25.39,
+      "legs": [
+        {
+          "event": "Clemson @ California",
+          "kickoff": "2026-09-26T02:30:00Z",
+          "market": "moneyline",
+          "selection": "California",
+          "price": 102,
+          "model_note": "Model California by 1.5; ML direction supported but no validated ML probability."
+        },
+        {
+          "event": "Wake Forest @ Louisville",
+          "kickoff": "2026-09-26T16:00:00Z",
+          "market": "moneyline",
+          "selection": "Louisville",
+          "price": -500,
+          "model_note": "Model Louisville by 11.6; ML direction supported, no validated ML probability."
+        },
+        {
+          "event": "Missouri @ Mississippi State",
+          "kickoff": "2026-09-26T23:45:00Z",
+          "market": "moneyline",
+          "selection": "Mississippi State",
+          "price": -218,
+          "model_note": "Model Mississippi State by 0.8; a near-pick-em margin despite heavy -218 ML favorite, no validated ML probability."
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2, Week 4 final-as-of Sep 25 10:32 AM CT (model margins only; not validated as a betting edge)",
+        "note": "California by 1.5; Louisville by 11.6; Mississippi State by 0.8. All ML winner directions agree, but Mississippi State -218 is much shorter than a near-even model margin suggests. No validated joint or ML probability."
+      },
+      "rewards_points_pending": 40,
+      "screenshot_received_at": "2026-09-25T18:56:04Z"
     }
   ]
 }

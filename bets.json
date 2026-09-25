@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-22T04:28:25Z",
+  "updated_at": "2026-09-25T03:39:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -2045,6 +2045,279 @@
         "final_score": "Los Angeles Rams 28, New York Giants 6 (final)",
         "detail": "Cam Skattebo had 36 rushing yards and 19 receiving yards but did not score. Loss."
       }
+    },
+    {
+      "bet_id": "us-tn:01m39t7924ewnb51v01tn943ja",
+      "date": "2026-09-24T13:38:00Z",
+      "placed_at": "2026-09-24T13:38:00Z",
+      "sport": "NFL",
+      "game": "Atlanta Falcons @ Green Bay Packers",
+      "kickoff": "2026-09-25T00:16:00Z",
+      "bet": "Same Game Parlay: Christian Watson ATD + Bijan Robinson ATD",
+      "market": "anytime_td_sgp",
+      "selection": "Christian Watson ATD; Bijan Robinson ATD",
+      "line": null,
+      "price": 498,
+      "price_note": "50% FanDuel profit boost; base +332 boosted to +498 (slip payout $59.86 on $10).",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 10,
+      "potential_payout_usd": 59.86,
+      "potential_profit_usd": 49.86,
+      "cashout_value_usd_at_capture": 10,
+      "result": "win",
+      "status": "settled",
+      "net_units": 4.986,
+      "net_usd": 49.86,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
+      "legs": [
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian Watson",
+          "price": null
+        },
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Bijan Robinson",
+          "price": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-weekly-v2.1.0-w3-2026 (frozen 2026-09-22 7:20 AM CT, data through Week 2); research only",
+        "probability": 0.399,
+        "book_implied_probability": 0.1672,
+        "note": "Model ATD: Watson 59.8%, Bijan 66.7%. Naive independence joint 39.9% vs boosted +498 (16.7%). Same-game correlation ignored; Watson's 59.8% is high for a WR and unverified against any market."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual TN price on the slip."
+      },
+      "grading": null,
+      "settlement_source": "ESPN final box score: ATL 35, GB 14 (2026-09-24)"
+    },
+    {
+      "bet_id": "us-tn:01m3a7sjhxeerbejwnqythbb36",
+      "date": "2026-09-24T17:35:00Z",
+      "placed_at": "2026-09-24T17:35:00Z",
+      "sport": "NFL",
+      "game": "Atlanta Falcons @ Green Bay Packers",
+      "kickoff": "2026-09-25T00:16:00Z",
+      "bet": "Same Game Parlay: Falcons +5.5 alt spread + Jordan Love 150+ pass yds + Michael Penix Jr. 150+ pass yds + Bijan Robinson 50+ rush yds",
+      "market": "sgp_alt_lines",
+      "selection": "ATL +5.5; Love 150+ pass yds; Penix 150+ pass yds; Bijan 50+ rush yds",
+      "line": null,
+      "price": 245,
+      "price_note": "50% FanDuel profit boost; base +164 boosted to +245 (slip payout $34.55 on $10).",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 10,
+      "potential_payout_usd": 34.55,
+      "potential_profit_usd": 24.55,
+      "cashout_value_usd_at_capture": 10,
+      "result": "win",
+      "status": "settled",
+      "net_units": 2.455,
+      "net_usd": 24.55,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
+      "legs": [
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "alternate_spread",
+          "selection": "Atlanta Falcons",
+          "line": 5.5,
+          "price": null
+        },
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "alt_passing_yards",
+          "selection": "Jordan Love 150+",
+          "price": null
+        },
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "alt_passing_yards",
+          "selection": "Michael Penix Jr. 150+",
+          "price": null
+        },
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "alt_rushing_yards",
+          "selection": "Bijan Robinson 50+",
+          "price": null
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "model_version": "player-weekly-v2.1.0-w3-2026 (frozen 2026-09-22 7:20 AM CT, data through Week 2); research only; game model v3.2b",
+        "note": "Partial only: game model GB -4 (ATL +5.5 covers by model); Bijan rush median 73.1 (p20 51.4) so 50+ is ~80%+; no Week 3 QB passing-yard projections exist, so no joint probability."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual TN price on the slip."
+      },
+      "grading": null,
+      "settlement_source": "ESPN final box score: ATL 35, GB 14 (2026-09-24)"
+    },
+    {
+      "bet_id": "us-tn:01m3am1nxwf3281sre384bgc42",
+      "date": "2026-09-24T21:09:00Z",
+      "placed_at": "2026-09-24T21:09:00Z",
+      "sport": "NFL",
+      "game": "Tennessee Titans @ New York Giants",
+      "kickoff": "2026-09-27T17:01:00Z",
+      "bet": "Straight: Tennessee Titans moneyline",
+      "market": "moneyline",
+      "selection": "Tennessee Titans ML",
+      "line": null,
+      "price": 118,
+      "price_note": null,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.6,
+      "stake_usd": 16,
+      "potential_payout_usd": 18.88,
+      "potential_profit_usd": 18.88,
+      "cashout_value_usd_at_capture": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
+      "legs": [
+        {
+          "event": "Tennessee Titans @ New York Giants",
+          "kickoff": "2026-09-27T17:01:00Z",
+          "market": "moneyline",
+          "selection": "Tennessee Titans",
+          "price": 118
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "v3.2b game model as-of Sep 22",
+        "note": "Model has NYG -5 (Giants win); model disagrees with this side."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual TN price on the slip."
+      },
+      "grading": null,
+      "stake_type": "bonus_bet",
+      "cash_stake_at_risk_usd": 0
+    },
+    {
+      "bet_id": "us-tn:01m3an02hpfyvstvd970hzfagx",
+      "date": "2026-09-24T21:26:00Z",
+      "placed_at": "2026-09-24T21:26:00Z",
+      "sport": "NFL",
+      "game": "Atlanta Falcons @ Green Bay Packers",
+      "kickoff": "2026-09-25T00:16:00Z",
+      "bet": "Straight: Kyle Pitts anytime touchdown",
+      "market": "anytime_touchdown",
+      "selection": "Kyle Pitts ATD",
+      "line": null,
+      "price": 500,
+      "price_note": "25% FanDuel profit boost; base +400 boosted to +500.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 0.5,
+      "stake_usd": 5,
+      "potential_payout_usd": 30.0,
+      "potential_profit_usd": 25.0,
+      "cashout_value_usd_at_capture": 5,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -0.5,
+      "net_usd": -5,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
+      "legs": [
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Kyle Pitts",
+          "price": 500
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-weekly-v2.1.0-w3-2026 (frozen 2026-09-22 7:20 AM CT, data through Week 2); research only",
+        "probability": 0.1,
+        "book_implied_probability": 0.1667,
+        "model_minus_book_pp": -6.67,
+        "note": "Model 10.0% vs boosted +500 (16.7%)."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual TN price on the slip."
+      },
+      "grading": null,
+      "settlement_source": "ESPN final box score: ATL 35, GB 14 (2026-09-24)"
+    },
+    {
+      "bet_id": "us-tn:01m3an0ga5eakb4rp7gqf76g56",
+      "date": "2026-09-24T21:26:00Z",
+      "placed_at": "2026-09-24T21:26:00Z",
+      "sport": "NFL",
+      "game": "Atlanta Falcons @ Green Bay Packers",
+      "kickoff": "2026-09-25T00:16:00Z",
+      "bet": "Straight: Tucker Kraft anytime touchdown",
+      "market": "anytime_touchdown",
+      "selection": "Tucker Kraft ATD",
+      "line": null,
+      "price": 210,
+      "price_note": null,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 10,
+      "potential_payout_usd": 31.0,
+      "potential_profit_usd": 21.0,
+      "cashout_value_usd_at_capture": 10,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
+      "legs": [
+        {
+          "event": "Atlanta Falcons @ Green Bay Packers",
+          "kickoff": "2026-09-25T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Tucker Kraft",
+          "price": 210
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "player-weekly-v2.1.0-w3-2026 (frozen 2026-09-22 7:20 AM CT, data through Week 2); research only",
+        "probability": 0.148,
+        "book_implied_probability": 0.3226,
+        "model_minus_book_pp": -17.46,
+        "note": "Model 14.8% vs +210 (32.3%)."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel slip",
+        "note": "Actual TN price on the slip."
+      },
+      "grading": null,
+      "settlement_source": "ESPN final box score: ATL 35, GB 14 (2026-09-24)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-25T03:39:00Z",
+  "updated_at": "2026-09-25T18:54:43Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2318,6 +2318,157 @@
       },
       "grading": null,
       "settlement_source": "ESPN final box score: ATL 35, GB 14 (2026-09-24)"
+    },
+    {
+      "date": "2026-09-25T18:53:08Z",
+      "placed_at": null,
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "stake_units": 1.0,
+      "stake_usd": 10.0,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided TN FanDuel Sep 25 1:53 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
+      "grading": null,
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User-provided TN FanDuel screenshots received Sep 25 1:53 PM CT",
+        "note": "Exact leg odds and boosted parlay payout are from the screenshots, not reconstructed from a book feed."
+      },
+      "bet_id": "us-tn:screenshot-20260925-1353-five-leg-6060",
+      "game": "Texas @ Tennessee + Hawaii @ Wyoming + Ole Miss @ Florida + Iowa @ Michigan + Vanderbilt @ Auburn",
+      "kickoff": "2026-09-26T16:00:00Z",
+      "bet": "5-leg parlay: Tennessee +5.5, Wyoming ML, Ole Miss ML, Iowa ML, Vanderbilt +9.5",
+      "market": "parlay",
+      "selection": "Tennessee +5.5; Wyoming ML; Ole Miss ML; Iowa ML; Vanderbilt +9.5",
+      "price": 6060,
+      "price_note": "25% profit boost; base +4848, boosted +6060. Screenshot payout $616.09 on $10 stake (displayed odds rounded); 60 rewards points pending.",
+      "potential_payout_usd": 616.09,
+      "potential_profit_usd": 606.09,
+      "legs": [
+        {
+          "event": "Texas @ Tennessee",
+          "kickoff": "2026-09-26T16:00:00Z",
+          "market": "spread",
+          "selection": "Tennessee",
+          "price": -105,
+          "model_note": "Model Texas by 0.4, so Tennessee +5.5 has a 5.1-point cushion by model.",
+          "line": 5.5
+        },
+        {
+          "event": "Hawaii @ Wyoming",
+          "kickoff": "2026-09-26T19:00:00Z",
+          "market": "moneyline",
+          "selection": "Wyoming",
+          "price": 127,
+          "model_note": "Model Wyoming by 0.7; near-pick-em lean, not a validated ML probability."
+        },
+        {
+          "event": "Ole Miss @ Florida",
+          "kickoff": "2026-09-26T19:30:00Z",
+          "market": "moneyline",
+          "selection": "Ole Miss",
+          "price": 142,
+          "model_note": "Model Florida by 0.8; against Ole Miss ML."
+        },
+        {
+          "event": "Iowa @ Michigan",
+          "kickoff": "2026-09-26T19:30:00Z",
+          "market": "moneyline",
+          "selection": "Iowa",
+          "price": 185,
+          "model_note": "Model Iowa by 0.1; near-pick-em lean, not a validated ML probability."
+        },
+        {
+          "event": "Vanderbilt @ Auburn",
+          "kickoff": "2026-09-26T20:15:00Z",
+          "market": "spread",
+          "selection": "Vanderbilt",
+          "price": -101,
+          "model_note": "Model Auburn by 7.1, so Vanderbilt +9.5 has 2.4 points by model.",
+          "line": 9.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2, Week 4 final-as-of Sep 25 10:32 AM CT (model margins only; not validated as a betting edge)",
+        "note": "Texas by 0.4 (supports Tennessee +5.5); Wyoming by 0.7 (slight ML lean); Florida by 0.8 (AGAINST Ole Miss ML); Iowa by 0.1 (slight ML lean); Auburn by 7.1 (supports Vanderbilt +9.5). No validated joint probability. Iowa appears again as +5.5 on the second screenshot ticket."
+      },
+      "rewards_points_pending": 60,
+      "screenshot_received_at": "2026-09-25T18:53:08Z"
+    },
+    {
+      "date": "2026-09-25T18:53:08Z",
+      "placed_at": null,
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "stake_units": 1.0,
+      "stake_usd": 10.0,
+      "cashout_value_usd_at_capture": 10.0,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "source": "User-provided TN FanDuel Sep 25 1:53 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
+      "grading": null,
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User-provided TN FanDuel screenshots received Sep 25 1:53 PM CT",
+        "note": "Exact leg odds and boosted parlay payout are from the screenshots, not reconstructed from a book feed."
+      },
+      "bet_id": "us-tn:screenshot-20260925-1353-three-leg-746",
+      "game": "UCLA @ Maryland + Iowa @ Michigan + Nebraska @ Michigan State",
+      "kickoff": "2026-09-26T17:30:00Z",
+      "bet": "3-leg parlay: Maryland +1.5, Iowa +5.5, Nebraska -5.5",
+      "market": "parlay",
+      "selection": "Maryland +1.5; Iowa +5.5; Nebraska -5.5",
+      "price": 746,
+      "price_note": "30% profit boost; base +574, boosted +746. Screenshot payout $84.68 on $10 stake (displayed odds rounded); 40 rewards points pending.",
+      "potential_payout_usd": 84.68,
+      "potential_profit_usd": 74.68,
+      "legs": [
+        {
+          "event": "UCLA @ Maryland",
+          "kickoff": "2026-09-26T17:30:00Z",
+          "market": "spread",
+          "selection": "Maryland",
+          "price": 109,
+          "model_note": "Model Maryland by 8.9; model gap 10.4 points.",
+          "line": 1.5
+        },
+        {
+          "event": "Iowa @ Michigan",
+          "kickoff": "2026-09-26T19:30:00Z",
+          "market": "spread",
+          "selection": "Iowa",
+          "price": 104,
+          "model_note": "Model Iowa by 0.1; model gap 5.6 points.",
+          "line": 5.5
+        },
+        {
+          "event": "Nebraska @ Michigan State",
+          "kickoff": "2026-09-26T21:00:00Z",
+          "market": "spread",
+          "selection": "Nebraska",
+          "price": -103,
+          "model_note": "Model Nebraska by 14.2; model gap 8.7 points.",
+          "line": -5.5
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2, Week 4 final-as-of Sep 25 10:32 AM CT (model margins only; not validated as a betting edge)",
+        "note": "Model Maryland by 8.9, Iowa by 0.1, Nebraska by 14.2. No validated joint probability. Iowa is also on the 5-leg ticket as ML."
+      },
+      "rewards_points_pending": 40,
+      "screenshot_received_at": "2026-09-25T18:53:08Z"
     }
   ]
 }

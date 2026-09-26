@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-25T18:56:35Z",
+  "updated_at": "2026-09-26T12:15:28Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2480,12 +2480,17 @@
       "stake_units": 1.0,
       "stake_usd": 10.0,
       "cashout_value_usd_at_capture": 10.0,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "User-provided TN FanDuel Sep 25 1:56 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
-      "grading": null,
+      "grading": {
+        "source": "California Golden Bears Athletics final recap https://calbears.com/news/2026/9/25/football-clemson-pulls-away-late-to-defeat-bears ; corroborated ESPN https://www.espn.com/college-football/game/_/gameId/401858234/clemson-california",
+        "graded_at": "2026-09-26T12:15:28Z",
+        "final_score": "Clemson 24, California 10 (final)",
+        "detail": "California ML leg lost. A parlay with a losing leg is a loss regardless of later Louisville and Mississippi State results. Model projected California by 1.5; actual California margin -14, 15.5-point margin miss. Latest captured pregame Illinois comparison moved California +1.5 to +2.5 by Sep 25 7:15 PM CT; not independently verified as closing line."
+      },
       "market_context_at_placement": {
         "available": true,
         "source": "User-provided TN FanDuel screenshot received Sep 25 1:56 PM CT",

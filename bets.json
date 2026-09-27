@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-27T05:43:51Z",
+  "updated_at": "2026-09-27T12:13:51Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2329,12 +2329,17 @@
       "stake_units": 1.0,
       "stake_usd": 10.0,
       "cashout_value_usd_at_capture": 10.0,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "User-provided TN FanDuel Sep 25 1:53 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
-      "grading": null,
+      "grading": {
+        "source": "Official team athletics final recap: https://floridagators.com/news/2026/9/26/football-quick-slant-florida-vs-ole-miss-sept-26-2026",
+        "graded_at": "2026-09-27T12:13:51Z",
+        "final_score": "Florida 52, Ole Miss 28 (final)",
+        "detail": "Ole Miss moneyline leg lost; parlay lost regardless of other legs."
+      },
       "market_context_at_placement": {
         "available": true,
         "source": "User-provided TN FanDuel screenshots received Sep 25 1:53 PM CT",
@@ -2412,12 +2417,17 @@
       "stake_units": 1.0,
       "stake_usd": 10.0,
       "cashout_value_usd_at_capture": 10.0,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "User-provided TN FanDuel Sep 25 1:53 PM CT open-bet screenshot; exact placement time and sportsbook ticket ID not visible.",
-      "grading": null,
+      "grading": {
+        "source": "Official team athletics final recap: https://umterps.com/news/2026/9/26/football-vs-ucla-recap",
+        "graded_at": "2026-09-27T12:13:51Z",
+        "final_score": "UCLA 54, Maryland 3 (final)",
+        "detail": "Maryland +1.5 spread leg lost by 51 points; parlay lost regardless of other legs."
+      },
       "market_context_at_placement": {
         "available": true,
         "source": "User-provided TN FanDuel screenshots received Sep 25 1:53 PM CT",

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-26T12:15:28Z",
+  "updated_at": "2026-09-27T05:43:51Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2539,6 +2539,65 @@
       },
       "rewards_points_pending": 40,
       "screenshot_received_at": "2026-09-25T18:56:04Z"
+    },
+    {
+      "bet_id": "0/0439291/0001591",
+      "date": "2026-09-26T22:54:00Z",
+      "placed_at": "2026-09-26T22:54:00Z",
+      "sport": "CFB",
+      "game": "Oklahoma State @ West Virginia + USC @ Oregon + Texas A&M @ LSU + Missouri @ Mississippi State",
+      "kickoff": null,
+      "bet": "4-leg parlay: Oklahoma State +1.5, Oregon ML, LSU ML, Mississippi State ML",
+      "market": "parlay",
+      "selection": "Oklahoma State +1.5; Oregon ML; LSU ML; Mississippi State ML",
+      "line": null,
+      "price": 539,
+      "price_note": "FanDuel settled slip +539; $10.00 wager, $63.90 won on FanDuel; 40 rewards points.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_units": 1.0,
+      "stake_usd": 10.0,
+      "potential_payout_usd": 63.9,
+      "potential_profit_usd": 53.9,
+      "result": "win",
+      "status": "settled",
+      "net_units": 5.39,
+      "net_usd": 53.9,
+      "source": "User-provided Tennessee FanDuel settled slip screenshot sent 2026-09-27 12:42 AM CT (phonemsg-01M3GP6MX382BGD0HY9RD2B1RE).",
+      "legs": [
+        {
+          "event": "Oklahoma State @ West Virginia",
+          "market": "spread",
+          "selection": "Oklahoma State",
+          "line": 1.5,
+          "price": -105
+        },
+        {
+          "event": "USC @ Oregon",
+          "market": "moneyline",
+          "selection": "Oregon",
+          "price": -172
+        },
+        {
+          "event": "Texas A&M @ LSU",
+          "market": "moneyline",
+          "selection": "LSU",
+          "price": -323
+        },
+        {
+          "event": "Missouri @ Mississippi State",
+          "market": "moneyline",
+          "selection": "Mississippi State",
+          "price": -173
+        }
+      ],
+      "grading": {
+        "source": "User-provided Tennessee FanDuel settled slip screenshot; all four legs marked finished and green",
+        "graded_at": "2026-09-27T05:43:51Z",
+        "final_score": "Oklahoma State 41, West Virginia 24; Oregon 41, USC 27; LSU 35, Texas A&M 6; Mississippi State 31, Missouri 24",
+        "detail": "All four legs hit; FanDuel settled parlay as WON for $63.90 total return on $10 wager, +$53.90 (+5.39 units). Mississippi State won by 7; frozen model predicted State by 0.8, so it was a thin pregame margin."
+      },
+      "rewards_points": 40
     }
   ]
 }

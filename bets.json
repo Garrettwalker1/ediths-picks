@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-27T12:13:51Z",
+  "updated_at": "2026-09-28T00:03:48Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2191,10 +2191,10 @@
       "potential_payout_usd": 18.88,
       "potential_profit_usd": 18.88,
       "cashout_value_usd_at_capture": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": 0,
+      "net_usd": 0,
       "source": "User-provided Tennessee FanDuel open-bet screenshot sent 2026-09-24.",
       "legs": [
         {
@@ -2215,7 +2215,12 @@
         "source": "User TN FanDuel slip",
         "note": "Actual TN price on the slip."
       },
-      "grading": null,
+      "grading": {
+        "source": "Official Tennessee Titans final recap https://www.tennesseetitans.com/news/titans-comeback-effort-falls-short-in-12-7-loss-to-giants",
+        "graded_at": "2026-09-28T00:03:48Z",
+        "final_score": "New York Giants 12, Tennessee Titans 7",
+        "detail": "Titans moneyline lost. $16 bonus bet stake had no cash at risk, so $0 realized cash/unit loss; promotional credit was consumed."
+      },
       "stake_type": "bonus_bet",
       "cash_stake_at_risk_usd": 0
     },
@@ -2608,6 +2613,172 @@
         "detail": "All four legs hit; FanDuel settled parlay as WON for $63.90 total return on $10 wager, +$53.90 (+5.39 units). Mississippi State won by 7; frozen model predicted State by 0.8, so it was a thin pregame margin."
       },
       "rewards_points": 40
+    },
+    {
+      "sport": "NFL",
+      "game": "Los Angeles Rams @ Denver Broncos",
+      "kickoff": "2026-09-28T00:21:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed by multiplying leg prices. Illinois live comparisons are separate and not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": false,
+        "note": "Logged user-placed wagers, not model-approved selections; same-game leg probabilities and correlation not validated."
+      },
+      "bet_id": "us-tn:screenshot-20260927-1902-snf-three-leg-313",
+      "date": "2026-09-28T00:02:06Z",
+      "placed_at": null,
+      "bet": "3-leg SGP: Rams ML, Davante Adams anytime TD, Stafford over 1.5 passing TD",
+      "selection": "Rams ML; Adams anytime TD; Stafford over 1.5 passing TD",
+      "price": 313,
+      "price_note": "Screenshot +313; $10.00 wager, $41.40 displayed total payout (the displayed payout differs by ten cents from rounded odds arithmetic); 40 rewards points pending. Exact bet ID and placement timestamp cut off.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 41.4,
+      "potential_profit_usd": 31.4,
+      "rewards_points_pending": 40,
+      "screenshot_received_at": "2026-09-28T00:02:06Z",
+      "legs": [
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "moneyline",
+          "selection": "Los Angeles Rams"
+        },
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Davante Adams"
+        },
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "passing_touchdowns_over",
+          "selection": "Matthew Stafford",
+          "line": 1.5
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Los Angeles Rams @ Denver Broncos",
+      "kickoff": "2026-09-28T00:21:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed by multiplying leg prices. Illinois live comparisons are separate and not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": false,
+        "note": "Logged user-placed wagers, not model-approved selections; same-game leg probabilities and correlation not validated."
+      },
+      "bet_id": "us-tn:01m3jj9fr1exa9wz93vy1fwv04",
+      "date": "2026-09-27T23:13:00Z",
+      "placed_at": "2026-09-27T23:13:00Z",
+      "bet": "2-leg SGP: Jaylen Waddle anytime TD, Davante Adams anytime TD",
+      "selection": "Waddle anytime TD; Adams anytime TD",
+      "price": 520,
+      "price_note": "Screenshot +520; $10.00 wager, $62.04 displayed total payout (displayed payout differs by four cents from rounded odds arithmetic); 40 rewards points pending.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 62.04,
+      "potential_profit_usd": 52.04,
+      "rewards_points_pending": 40,
+      "legs": [
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaylen Waddle"
+        },
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Davante Adams"
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Los Angeles Rams @ Denver Broncos",
+      "kickoff": "2026-09-28T00:21:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed by multiplying leg prices. Illinois live comparisons are separate and not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": false,
+        "note": "Logged user-placed wagers, not model-approved selections; same-game leg probabilities and correlation not validated."
+      },
+      "bet_id": "us-tn:01m3jhs00cf1abhfc5zddwktby",
+      "date": "2026-09-27T23:04:00Z",
+      "placed_at": "2026-09-27T23:04:00Z",
+      "bet": "3-leg SGP: Terrance Ferguson anytime TD, Davante Adams 50+ receiving yards, Blake Corum 30+ rushing yards",
+      "selection": "Ferguson anytime TD; Adams 50+ receiving; Corum 30+ rushing",
+      "price": 624,
+      "price_note": "50% profit boost; base +416, displayed +624. $4.00 wager, $28.99 displayed total payout (three cents above rounded-odds arithmetic); 16 rewards points pending.",
+      "stake_usd": 4,
+      "stake_units": 0.4,
+      "potential_payout_usd": 28.99,
+      "potential_profit_usd": 24.99,
+      "rewards_points_pending": 16,
+      "legs": [
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Terrance Ferguson"
+        },
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "alternate_receiving_yards",
+          "selection": "Davante Adams",
+          "line": 50
+        },
+        {
+          "event": "Los Angeles Rams @ Denver Broncos",
+          "kickoff": "2026-09-28T00:21:00Z",
+          "market": "alternate_rushing_yards",
+          "selection": "Blake Corum",
+          "line": 30
+        }
+      ]
     }
   ]
 }

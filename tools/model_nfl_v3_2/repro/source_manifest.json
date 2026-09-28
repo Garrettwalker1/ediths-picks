@@ -1,0 +1,282 @@
+{
+  "note": "Scratch inputs and their bytes at reproduction time. Public nflverse 2010-2025. Injury release CSV converted to parquet with pandas. Source releases may change, verify checksum. Historical construction includes known chronology defects; see README.",
+  "source_files": [
+    {
+      "file": "spw_2010.csv",
+      "sha256": "76f33d484781a3bc1852aa8aab5003874ab219dcb6c67a7e2e881be9822c9d13",
+      "bytes": 7859210,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2010.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2011.csv",
+      "sha256": "c1720e9e5ed59b7def9486ae650ea73ee80dda1fd2ab97d50c5fb4f6565dbeaa",
+      "bytes": 7800649,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2011.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2012.csv",
+      "sha256": "5c8885d93ec529efa9d729cec1ef255f438ee27a59eba6e156a360fa0045b56b",
+      "bytes": 7796458,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2012.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2013.csv",
+      "sha256": "f7329a8f15084c9c23d841f14eb117fcc630d6c82913501f3c60f2d8f4e651a4",
+      "bytes": 7713866,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2013.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2014.csv",
+      "sha256": "a389b10d94eb8e6b9a153223d381aab821b0eff4cd73967835a21032192abc61",
+      "bytes": 7883194,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2014.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2015.csv",
+      "sha256": "21052baa3b3291a92faf3e6827891295010dca8cc5cefd5a909984b9d7b64664",
+      "bytes": 7881066,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2015.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2016.csv",
+      "sha256": "eb0264c65d1ef593196afcd4ba24e9f2e9b7942923bf6f4bb4639684e2c4d470",
+      "bytes": 7852359,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2016.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2017.csv",
+      "sha256": "592b0916065987b0b3afb0480162f03350d16b12250dc42b0f194e2ab1378563",
+      "bytes": 7821392,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2017.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2018.csv",
+      "sha256": "c53021bcfc9f89d30edd6f1fe145a1d7d6ce469efeec75974fe9f0adac568642",
+      "bytes": 7792665,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2018.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2019.csv",
+      "sha256": "a05558126b1209b80fe11a8f18938cb35816370bf9990975a87de49e9eed7376",
+      "bytes": 7767165,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2019.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2020.csv",
+      "sha256": "05b992676faccc8940efbf6242cb76358069372d31d7c2e02c1a4acdcd3cbe18",
+      "bytes": 7883270,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2020.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2021.csv",
+      "sha256": "41915fb49238902ad1f129ebf0405b11a1e710454ae0fe8f7b3e4f9145875f48",
+      "bytes": 8477784,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2021.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2022.csv",
+      "sha256": "ad426c3fe5bf1cc30c3f137fdfe96d054e19d400879ee4413129da49fa7b54be",
+      "bytes": 8408729,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2022.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2023.csv",
+      "sha256": "f19cb71a5de0dce7fd09376026237c9ee9d5a93fe13815a2ea3ec2d37204cb17",
+      "bytes": 8332874,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2023.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2024.csv",
+      "sha256": "3ddc45a84f759aa348ce465ae001752c530575455717657cdfe1f8abfcdb4759",
+      "bytes": 8470040,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2024.csv",
+      "note": ""
+    },
+    {
+      "file": "spw_2025.csv",
+      "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
+      "bytes": 8656387,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
+      "note": ""
+    },
+    {
+      "file": "inj_2010.parquet",
+      "sha256": "30227a2a801598bb7c635a8b8808acd8bd135772fc705647cd46f3a7e14f452a",
+      "bytes": 109284,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2010.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2011.parquet",
+      "sha256": "aa72d6aab8c072a8cabfaf6e420c180233375d483216bc57ebf46b31a9ebd5c8",
+      "bytes": 116505,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2011.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2012.parquet",
+      "sha256": "3a957b866cda8d7436012ede70cc169d9252efb04bd303d6515370393e234807",
+      "bytes": 121806,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2012.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2013.parquet",
+      "sha256": "e3f53419f3fa93bef251054f07945f022ff5c57918ae340ca137b72b9de0f876",
+      "bytes": 115768,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2013.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2014.parquet",
+      "sha256": "f5368c02460000a818699a8b670ef4c4fcd5e6936b0a4c4d1cd9792dbc6fe427",
+      "bytes": 116590,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2014.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2015.parquet",
+      "sha256": "8f9a31487674770662f1edcecc158a4d190d57c32f813f08cb5dfc8991aac68d",
+      "bytes": 119050,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2015.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2016.parquet",
+      "sha256": "61bc22312e0d610d1b706275fe798dd71c83f3c2e765f7b7adc9e4622d20d18a",
+      "bytes": 114162,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2016.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2017.parquet",
+      "sha256": "ad8a55d2b2824be1349d4907c5f3dbd0f5b87e52df44db34a5b0693dc97fd8ab",
+      "bytes": 116238,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2017.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2018.parquet",
+      "sha256": "6714cbcccc7da8e462ed7b93e6a610a322cd55226563c41dc29bce578bd65f02",
+      "bytes": 115330,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2018.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2019.parquet",
+      "sha256": "3d2f3a84747424283e15a3b30f04fc31faafb88bca837d21d4d0310a63015453",
+      "bytes": 120919,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2019.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2020.parquet",
+      "sha256": "f195ebcb31b1a00e14c968679cb857ddea3b7484564701d12385cf6ddacd748d",
+      "bytes": 126934,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2020.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2021.parquet",
+      "sha256": "1094732306e512ef4f84da06e8cfc05d099d43012201222db8ea4172adbfed4d",
+      "bytes": 128407,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2021.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2022.parquet",
+      "sha256": "92191afa4ccaa4c363ba6defbf0278a0d6701232325149c8e37a8be920804606",
+      "bytes": 131254,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2022.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2023.parquet",
+      "sha256": "edfe82029a44a60c3ec784bcf00c1ac3bf2737753f9c6224c2c391da384e17c7",
+      "bytes": 128709,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2023.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2024.parquet",
+      "sha256": "2788cd0f3cf381ca117cc4e9e5bd3b76b5fbfc8b96a664b89ca4bf79419df7c3",
+      "bytes": 142466,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2024.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "inj_2025.parquet",
+      "sha256": "0097122eac2484bc3b64ab473075d65f46c8664783e5e357dd799b79d5f129d6",
+      "bytes": 100042,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+      "note": "injuries release CSV converted to parquet with pandas"
+    },
+    {
+      "file": "games.csv",
+      "sha256": "8616a36a5a2f2db78cfd4ee3081966d9b134c145649222e12cd018067251617b",
+      "bytes": 2181219,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
+      "note": ""
+    },
+    {
+      "file": "tools/nflverse/220-snap_counts_2020.csv",
+      "sha256": "c3b2a9aa472aca23332c030e574cfb134f885608ddf74fe0a659c38584d14358",
+      "bytes": 2257664,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2020.csv"
+    },
+    {
+      "file": "tools/nflverse/221-snap_counts_2021.csv",
+      "sha256": "8e4dae054a4749cf2d4919508d9161a6068fd67509979aefa385bfb3803d0ee5",
+      "bytes": 2388493,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2021.csv"
+    },
+    {
+      "file": "tools/nflverse/222-snap_counts_2022.csv",
+      "sha256": "0018a4833fbf0f825286c1c27450c6254391b548d6c55bcde728e93e4816815a",
+      "bytes": 2379719,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2022.csv"
+    },
+    {
+      "file": "tools/nflverse/223-snap_counts_2023.csv",
+      "sha256": "303b61aa5c33ffda863f93a750fc14483f397f9187ad502b1ce71e9b516a64c0",
+      "bytes": 2394875,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2023.csv"
+    },
+    {
+      "file": "tools/nflverse/224-snap_counts_2024.csv",
+      "sha256": "a2aa58efe093f8aa0ad5aadf09f81d8ec690a1183bd2dde68d20e7f109a9c335",
+      "bytes": 2402841,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2024.csv"
+    },
+    {
+      "file": "tools/nflverse/225-snap_counts_2025.csv",
+      "sha256": "80b02a6e511aa20283551cae622b29ba4d0a6f006c489a2d91591fcad33792e7",
+      "bytes": 2401193,
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv"
+    }
+  ],
+  "build_scripts": [
+    {
+      "file": "tools/model_nfl_v3_2/build_v32.py",
+      "sha256": "714a66ef983d164eb3eb9528f5e8065602415cec98a82c9f7fc6ae9cf170c13a"
+    },
+    {
+      "file": "tools/model_nfl_v3_2/build_v32b.py",
+      "sha256": "fec6c54cd854485fcf374b508d45905a4a09c0139dfd5154b08b34864ac6e69b"
+    }
+  ]
+}

@@ -1,5 +1,19 @@
 # NFL model v3.2 - margin + moneyline (built 2026-09-14)
 
+> **September 28, 2026 audit note:** The historical validation and test metrics below
+> faithfully reproduce the original script but **are not point-in-time clean**.
+> `build_v32.py` computes the season-prior fallback from full-year same-season
+> league aggregates and the roster-return/incoming-production features from
+> full-season appearance; its QB continuity uses the eventual target-game
+> attempts leader. `build_v32b.py` uses the target game's first-week snaps as
+> a snap proxy. These are chronology leaks. The retrospective performance
+> numbers and winner/moneyline comparisons cannot establish predictive merit.
+> A forensic recovery and fail-closed scorer are in [`repro/`](repro/README.md),
+> but the point-in-time training repair and as-of Week 3 game rows are pending.
+> **Do not publish an injury-adjusted prediction or claim a clean backtest from
+> this model until repaired and revalidated.** The archived predictions remain
+> immutable historical outputs, not newly verified estimates.
+
 Garrett's direction (9/14): "Build similar to the CFB model. Fuse injury, history, stats player,
 career stats, offensive coaches, defensive coaches, talent rosters, etc." Version label v3.2 is his call.
 

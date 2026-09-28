@@ -17,7 +17,10 @@ selection (2023 validation MAE 10.556 and 2024-25 locked test MAE 10.239).
 `python3 train.py` saves the full-history refit, scaler, ordered features,
 coefficients, frame SHA256, and in-sample retrospective margin-to-win mapping.
 Historical inputs and script hashes are in `source_manifest.json`; raw public
-nflverse downloads were scratch, not committed. The build scripts require
+nflverse downloads were scratch, not committed. Run `python3 restore_inputs.py`
+to restore missing public scratch sources and verify their hashes before running
+the legacy builders. It stops on mismatches, including upstream release revisions
+or a conversion-library difference; never accept a different hash silently. The build scripts require
 `/tmp/training/nflv32` with `spw_2010.csv` ... `spw_2025.csv`, `inj_2010.parquet`
 ... `inj_2025.parquet`, `games.csv`, and an alias `/tmp/ediths-picks` to this
 repository for existing `tools/nflverse/22?-snap_counts_202?.csv` inputs.

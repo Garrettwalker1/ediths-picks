@@ -1,0 +1,36 @@
+{
+  "status": "weather_free_diagnostic_not_promoted",
+  "feature_order": [
+    "d_pf_f",
+    "d_pa_f",
+    "d_yf_f",
+    "d_ya_f",
+    "d_pyf_r4",
+    "d_pya_r4",
+    "d_ryf_r4",
+    "d_rya_r4",
+    "d_gv_r4",
+    "d_tk_r4",
+    "d_skt_r4",
+    "d_skm_r4",
+    "d_qbc_r4",
+    "d_ptd_r4",
+    "d_gp",
+    "d_rest",
+    "d_qb_out",
+    "d_coach_new",
+    "d_inj_impact"
+  ],
+  "excluded_weather_features": [
+    "cold",
+    "dome",
+    "wind",
+    "wind_x_dpyf"
+  ],
+  "validation_mae": 10.716781166445088,
+  "test_mae": 10.275474631665627,
+  "market_test_mae": 9.8037109375,
+  "test_winner_accuracy": 0.62890625,
+  "test_brier": 0.2189444400097842,
+  "caveat": "Still not fully point-in-time (injury report final labels and season roster identity sources not archived as-of). No saved Week 3 baseline feature row or Keenum-vs-Bagent feature. Worse than market."
+}

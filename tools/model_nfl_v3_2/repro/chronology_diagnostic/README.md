@@ -22,3 +22,8 @@ not passed sensitivity tests, and season-start roster context is missing.
 The candidate loses on validation, remains behind the closing spread on the
 locked test, and has no verified Week 3 as-of scoring row. `diagnostic.json` is
 research context, not a deployable model. Do not publish a rerun from it.
+
+A further weather-free sensitivity check in `weather_ablation.py` excludes
+observed temperature/wind/dome inputs instead of substituting invented
+forecasts. It has 19 features and is saved to `weather_ablation.json`.
+It also loses to the closing-spread benchmark and is not adopted.

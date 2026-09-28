@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-28T00:03:48Z",
+  "updated_at": "2026-09-28T12:15:34+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -2622,10 +2622,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -10,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
       "market_context_at_placement": {
@@ -2648,7 +2648,6 @@
       "stake_units": 1,
       "potential_payout_usd": 41.4,
       "potential_profit_usd": 31.4,
-      "rewards_points_pending": 40,
       "screenshot_received_at": "2026-09-28T00:02:06Z",
       "legs": [
         {
@@ -2670,7 +2669,37 @@
           "selection": "Matthew Stafford",
           "line": 1.5
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final game summary and box score: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962; Rams official recap: https://www.therams.com/news/game-recap-rams-fall-to-broncos-30-26-on-sunday-night-football",
+        "graded_at": "2026-09-28T12:15:34+00:00",
+        "final_score": "Denver Broncos 30, Los Angeles Rams 26",
+        "detail": "Same-game parlay lost. Per-leg factual outcomes below. Derived from final score and box-score stats, not a FanDuel settled-ticket receipt. FanDuel reward-point award is unverified; the open-slip screenshot showed pending points at placement.",
+        "legs": [
+          {
+            "selection": "Los Angeles Rams",
+            "market": "moneyline",
+            "line": null,
+            "hit": false,
+            "actual": "Rams lost 26-30"
+          },
+          {
+            "selection": "Davante Adams",
+            "market": "anytime_touchdown",
+            "line": null,
+            "hit": false,
+            "actual": "Davante Adams 0 TD"
+          },
+          {
+            "selection": "Matthew Stafford",
+            "market": "passing_touchdowns_over",
+            "line": 1.5,
+            "hit": true,
+            "actual": "Matthew Stafford 2 passing TD"
+          }
+        ]
+      },
+      "rewards_points_at_placement_screenshot": 40
     },
     {
       "sport": "NFL",
@@ -2680,10 +2709,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -10,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
       "market_context_at_placement": {
@@ -2706,7 +2735,6 @@
       "stake_units": 1,
       "potential_payout_usd": 62.04,
       "potential_profit_usd": 52.04,
-      "rewards_points_pending": 40,
       "legs": [
         {
           "event": "Los Angeles Rams @ Denver Broncos",
@@ -2720,7 +2748,30 @@
           "market": "anytime_touchdown",
           "selection": "Davante Adams"
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final game summary and box score: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962; Rams official recap: https://www.therams.com/news/game-recap-rams-fall-to-broncos-30-26-on-sunday-night-football",
+        "graded_at": "2026-09-28T12:15:34+00:00",
+        "final_score": "Denver Broncos 30, Los Angeles Rams 26",
+        "detail": "Same-game parlay lost. Per-leg factual outcomes below. Derived from final score and box-score stats, not a FanDuel settled-ticket receipt. FanDuel reward-point award is unverified; the open-slip screenshot showed pending points at placement.",
+        "legs": [
+          {
+            "selection": "Jaylen Waddle",
+            "market": "anytime_touchdown",
+            "line": null,
+            "hit": false,
+            "actual": "Jaylen Waddle 0 TD"
+          },
+          {
+            "selection": "Davante Adams",
+            "market": "anytime_touchdown",
+            "line": null,
+            "hit": false,
+            "actual": "Davante Adams 0 TD"
+          }
+        ]
+      },
+      "rewards_points_at_placement_screenshot": 40
     },
     {
       "sport": "NFL",
@@ -2730,10 +2781,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -0.4,
+      "net_usd": -4,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3JN3EWGJ6V1NZ3HDQDTZXWC), received Sep 27 7:02 PM CT.",
       "market_context_at_placement": {
@@ -2756,7 +2807,6 @@
       "stake_units": 0.4,
       "potential_payout_usd": 28.99,
       "potential_profit_usd": 24.99,
-      "rewards_points_pending": 16,
       "legs": [
         {
           "event": "Los Angeles Rams @ Denver Broncos",
@@ -2778,7 +2828,37 @@
           "selection": "Blake Corum",
           "line": 30
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final game summary and box score: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962; Rams official recap: https://www.therams.com/news/game-recap-rams-fall-to-broncos-30-26-on-sunday-night-football",
+        "graded_at": "2026-09-28T12:15:34+00:00",
+        "final_score": "Denver Broncos 30, Los Angeles Rams 26",
+        "detail": "Same-game parlay lost. Per-leg factual outcomes below. Derived from final score and box-score stats, not a FanDuel settled-ticket receipt. FanDuel reward-point award is unverified; the open-slip screenshot showed pending points at placement.",
+        "legs": [
+          {
+            "selection": "Terrance Ferguson",
+            "market": "anytime_touchdown",
+            "line": null,
+            "hit": false,
+            "actual": "Terrance Ferguson 0 TD"
+          },
+          {
+            "selection": "Davante Adams",
+            "market": "alternate_receiving_yards",
+            "line": 50,
+            "hit": true,
+            "actual": "Davante Adams 137 receiving yards"
+          },
+          {
+            "selection": "Blake Corum",
+            "market": "alternate_rushing_yards",
+            "line": 30,
+            "hit": false,
+            "actual": "Blake Corum 15 rushing yards"
+          }
+        ]
+      },
+      "rewards_points_at_placement_screenshot": 16
     }
   ]
 }

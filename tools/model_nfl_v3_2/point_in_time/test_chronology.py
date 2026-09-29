@@ -21,4 +21,21 @@ removed=build(games[games.season==2023],stat[stat.season<=2023]).set_index('game
 first='2024_01_BAL_KC';assert first in base.index
 poisoned=stat.copy();ix=poisoned[(poisoned.season==2024)&(poisoned.week==1)&(poisoned.team=='BAL')].index;assert len(ix)>0;poisoned.loc[ix,'passing_yards']=1000000
 altered=build(games,poisoned).set_index('game_id').sort_index();assert_frame_equal(base.loc[[first],FEATURES],altered.loc[[first],FEATURES])
-print('Chronology invariants pass: target-game poison, later-season truncation, week-1 poison')
+# As-of snapshots must disregard same-date finals even if the revised input
+# carries them, and must never increment games-played for later fixtures.
+# Synthetic date is intentionally just before Week 8; prior weeks are complete.
+asof_games=games.copy()
+assert (asof_games.game_id==target).any()
+cutoff=asof_games.loc[asof_games.game_id==target,'gameday'].iloc[0]
+pre=build(asof_games,stat,as_of=cutoff).set_index('game_id').sort_index()
+assert pd.isna(pre.loc[target,'margin'])
+assert_frame_equal(base.loc[[target],FEATURES],pre.loc[[target],FEATURES])
+poisoned_games=asof_games.copy()
+poisoned_games.loc[poisoned_games.gameday>=cutoff,['home_score','away_score']]=1000000
+pre_poison=build(poisoned_games,stat,as_of=cutoff).set_index('game_id').sort_index()
+assert_frame_equal(pre[FEATURES],pre_poison[FEATURES])
+# Removing intervening unplayed schedule rows cannot alter later game form.
+future_row=pre[(pre.season==2024)&(pre.week==10)].index
+without=build(asof_games[~((asof_games.season==2024)&(asof_games.gameday>=cutoff)&(asof_games.week.isin([8,9])))],stat,as_of=cutoff).set_index('game_id').sort_index()
+assert_frame_equal(pre.loc[future_row,FEATURES],without.loc[future_row,FEATURES])
+print('Chronology invariants pass: target-game poison, later-season truncation, week-1 poison, as-of same-date poison, unplayed schedule removal')

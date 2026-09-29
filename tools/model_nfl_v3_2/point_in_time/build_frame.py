@@ -16,9 +16,10 @@ def build(games,sp,as_of=None):
  games=games[(games.season>=2010)&(games.game_type=='REG')].copy()
  games['date']=pd.to_datetime(games.gameday)
  if as_of is not None:
-  # Target-week rows remain on the schedule; only past games feed form.
+  # A date-only as-of means the *start* of that date. Do not ingest
+  # same-day finals from a subsequently revised schedule snapshot.
   assert pd.Timestamp(as_of).tzinfo is None
-  games.loc[games.date>pd.Timestamp(as_of),['home_score','away_score']]=np.nan
+  games.loc[games.date>=pd.Timestamp(as_of),['home_score','away_score']]=np.nan
  known=games.dropna(subset=['home_score','away_score'])
  sp=sp[(sp.season_type=='REG')&(sp.season>=2010)].copy()
  if as_of is not None:
@@ -26,10 +27,10 @@ def build(games,sp,as_of=None):
   playedteams=pd.concat([played[['season','week','home_team']].rename(columns={'home_team':'team'}),played[['season','week','away_team']].rename(columns={'away_team':'team'})]).drop_duplicates()
   playedteams['team']=playedteams.team.replace({'OAK':'LV','SD':'LAC','STL':'LA'})
   sp=sp.merge(playedteams,on=['season','week','team'],how='inner')
-  if not games[games.date<=pd.Timestamp(as_of)].empty:
+  if not games[games.date<pd.Timestamp(as_of)].empty:
    # A stale weekly file can omit completed games. Fail closed instead of
    # treating partial team aggregates as complete form.
-   expected=games[(games.date<=pd.Timestamp(as_of))&games.home_score.notna()][['season','week','home_team','away_team']]
+   expected=games[(games.date<pd.Timestamp(as_of))&games.home_score.notna()][['season','week','home_team','away_team']]
    teams=pd.concat([expected[['season','week','home_team']].rename(columns={'home_team':'team'}),expected[['season','week','away_team']].rename(columns={'away_team':'team'})])
    alias={'OAK':'LV','SD':'LAC','STL':'LA'}
    teams['team']=teams.team.replace(alias)
@@ -49,8 +50,11 @@ def build(games,sp,as_of=None):
  tg=tg.sort_values(['team','season','week','game_id']).reset_index(drop=True)
  grp=tg.groupby(['team','season'],sort=False)
  for col,label in FORMS.items():
-  tg[label+'_r4']=grp[col].transform(lambda z:z.shift().rolling(4,min_periods=1).mean())
- tg['gp']=grp['game_id'].transform(lambda z:z.shift().rolling(100,min_periods=1).count()).fillna(0)
+  # Drop unplayed rows before the window: future scheduled games must not
+  # displace completed games from the last-four sample.
+  tg[label+'_r4']=grp[col].transform(lambda z:z.shift().dropna().rolling(4,min_periods=1).mean().reindex(z.index).ffill())
+ # Scheduled future games are not played games; never count them as form.
+ tg['gp']=grp['points_for'].transform(lambda z:z.shift().notna().cumsum()).astype(float)
  for col,label in [('total_yds_for','yf'),('total_yds_allowed','ya'),('points_for','pf'),('points_allowed','pa')]:
   prior=tg[tg[col].notna()].groupby(['team','season'])[col].mean().rename('prior_'+label).reset_index();prior['season']+=1;tg=tg.merge(prior,on=['team','season'],how='left',validate='many_to_one')
   w=tg.gp/(tg.gp+2);tg[label+'_f']=w*tg[label+'_r4'].fillna(tg['prior_'+label])+(1-w)*tg['prior_'+label]

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-28T12:15:34+00:00",
+  "updated_at": "2026-09-29T12:52:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -2859,6 +2859,102 @@
         ]
       },
       "rewards_points_at_placement_screenshot": 16
+    },
+    {
+      "sport": "NFL",
+      "game": "Philadelphia Eagles @ Chicago Bears",
+      "kickoff": "2026-09-29T00:15:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "status": "settled",
+      "line": null,
+      "date": "2026-09-28T20:06:00Z",
+      "placed_at": "2026-09-28T20:06:00Z",
+      "source": "User-provided Tennessee FanDuel settled slips received Sep 29 7:51 AM CT (iMessage phonemsg-01M3PKGRVC39EFR25AW33Y3S2H); screenshots show finished PHI 7, CHI 27, placed Sep 28 3:06 PM CT.",
+      "model_at_placement": {
+        "available": false,
+        "note": "User-placed wagers, not validated model selections; historical v3.2b is quarantined."
+      },
+      "bet_id": "us-tn:01m3mt19cnf8d938dtzrfe89bm",
+      "market": "anytime_touchdown",
+      "bet": "Jalen Hurts anytime touchdown scorer",
+      "selection": "Jalen Hurts anytime TD",
+      "price": 234,
+      "price_note": "50% profit boost; base +155, displayed boosted +234. $10 wager, FanDuel settled total return $33.40.",
+      "potential_payout_usd": 33.4,
+      "potential_profit_usd": 23.4,
+      "result": "win",
+      "net_units": 2.34,
+      "net_usd": 23.4,
+      "rewards_points_on_settled_slip": 20,
+      "legs": [
+        {
+          "event": "Philadelphia Eagles @ Chicago Bears",
+          "market": "anytime_touchdown",
+          "selection": "Jalen Hurts",
+          "hit": true
+        }
+      ],
+      "grading": {
+        "source": "User-provided FanDuel settled slip; corroborating final https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "graded_at": "2026-09-29T12:52:00Z",
+        "final_score": "Philadelphia Eagles 7, Chicago Bears 27",
+        "detail": "Jalen Hurts scored a 1-yard rushing touchdown. FanDuel settled the $10 boosted +234 wager as WON for $33.40 total return, +$23.40 (+2.34 units)."
+      }
+    },
+    {
+      "sport": "NFL",
+      "game": "Philadelphia Eagles @ Chicago Bears",
+      "kickoff": "2026-09-29T00:15:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "status": "settled",
+      "line": null,
+      "date": "2026-09-28T20:06:00Z",
+      "placed_at": "2026-09-28T20:06:00Z",
+      "source": "User-provided Tennessee FanDuel settled slips received Sep 29 7:51 AM CT (iMessage phonemsg-01M3PKGRVC39EFR25AW33Y3S2H); screenshots show finished PHI 7, CHI 27, placed Sep 28 3:06 PM CT.",
+      "model_at_placement": {
+        "available": false,
+        "note": "User-placed wagers, not validated model selections; historical v3.2b is quarantined."
+      },
+      "bet_id": "us-tn:01m3mt10z3feqscp3e6pght2f1",
+      "market": "same_game_parlay",
+      "bet": "2-leg SGP: Colston Loveland anytime TD, Jalen Hurts anytime TD",
+      "selection": "Loveland anytime TD; Hurts anytime TD",
+      "price": 1209,
+      "price_note": "30% profit boost; base +930, displayed boosted +1209. $10 wager, FanDuel settled $0 returned.",
+      "potential_payout_usd": 130.9,
+      "potential_profit_usd": 120.9,
+      "result": "loss",
+      "net_units": -1,
+      "net_usd": -10,
+      "rewards_points_on_settled_slip": 40,
+      "legs": [
+        {
+          "event": "Philadelphia Eagles @ Chicago Bears",
+          "market": "anytime_touchdown",
+          "selection": "Colston Loveland",
+          "hit": false
+        },
+        {
+          "event": "Philadelphia Eagles @ Chicago Bears",
+          "market": "anytime_touchdown",
+          "selection": "Jalen Hurts",
+          "hit": true
+        }
+      ],
+      "grading": {
+        "source": "User-provided FanDuel settled slip; corroborating final https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "graded_at": "2026-09-29T12:52:00Z",
+        "final_score": "Philadelphia Eagles 7, Chicago Bears 27",
+        "detail": "Loveland anytime TD missed; Hurts scored a 1-yard rushing touchdown. FanDuel settled SGP lost with $0 returned, -$10 (-1 unit)."
+      }
     }
   ]
 }

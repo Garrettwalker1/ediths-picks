@@ -24,7 +24,17 @@ def build(games,sp,as_of=None):
  if as_of is not None:
   played=known[['season','week','home_team','away_team']]
   playedteams=pd.concat([played[['season','week','home_team']].rename(columns={'home_team':'team'}),played[['season','week','away_team']].rename(columns={'away_team':'team'})]).drop_duplicates()
+  playedteams['team']=playedteams.team.replace({'OAK':'LV','SD':'LAC','STL':'LA'})
   sp=sp.merge(playedteams,on=['season','week','team'],how='inner')
+  if not games[games.date<=pd.Timestamp(as_of)].empty:
+   # A stale weekly file can omit completed games. Fail closed instead of
+   # treating partial team aggregates as complete form.
+   expected=games[(games.date<=pd.Timestamp(as_of))&games.home_score.notna()][['season','week','home_team','away_team']]
+   teams=pd.concat([expected[['season','week','home_team']].rename(columns={'home_team':'team'}),expected[['season','week','away_team']].rename(columns={'away_team':'team'})])
+   alias={'OAK':'LV','SD':'LAC','STL':'LA'}
+   teams['team']=teams.team.replace(alias)
+   missing=set(map(tuple,teams.to_numpy()))-set(map(tuple,sp[['season','week','team']].drop_duplicates().to_numpy()))
+   if missing:raise ValueError(f'missing completed-game player stats for teams: {sorted(missing)[:10]}')
  agg=sp.groupby(['season','week','team','opponent_team'],as_index=False).agg(pass_yds=('passing_yards','sum'),rush_yds=('rushing_yards','sum'),ints_thrown=('passing_interceptions','sum'),fum_lost=('fumbles_lost_total','sum'),sacks_taken=('sacks_suffered','sum'),pass_att=('attempts','sum'),pass_cmp=('completions','sum'),pass_td=('passing_tds','sum'),def_sacks=('def_sacks','sum'),def_int=('def_interceptions','sum'),fum_rec_opp=('fumble_recovery_opp','sum'))
  tg=agg.copy();tg['total_yds_for']=tg.pass_yds+tg.rush_yds;tg['giveaways']=tg.ints_thrown+tg.fum_lost;tg['takeaways']=tg.def_int+tg.fum_rec_opp;tg['sacks_made']=tg.def_sacks
  dv=agg.rename(columns={'team':'_team','opponent_team':'team'})[['season','week','team','_team','pass_yds','rush_yds']].rename(columns={'_team':'opponent_team','pass_yds':'pass_yds_allowed','rush_yds':'rush_yds_allowed'})
@@ -56,5 +66,5 @@ def build(games,sp,as_of=None):
  return result
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--games',type=Path,default=SOURCES/'games.csv');p.add_argument('--stats',type=Path,nargs='+',default=sorted(SOURCES.glob('spw_*.csv')));p.add_argument('--as-of');p.add_argument('--out',type=Path,required=True);args=p.parse_args()
- games=pd.read_csv(args.games,low_memory=False);needed=['season','season_type','week','team','opponent_team','passing_yards','rushing_yards','passing_interceptions','fumbles_lost_total','sacks_suffered','attempts','completions','passing_tds','def_sacks','def_interceptions','fumble_recovery_opp'];sp=pd.concat([pd.read_csv(f,usecols=needed,low_memory=False) for f in args.stats],ignore_index=True);frame=build(games,sp,args.as_of);args.out.parent.mkdir(parents=True,exist_ok=True);frame.to_parquet(args.out,index=False)
+ games=pd.read_csv(args.games,low_memory=False);needed=['game_id','season','season_type','week','team','opponent_team','passing_yards','rushing_yards','passing_interceptions','fumbles_lost_total','sacks_suffered','attempts','completions','passing_tds','def_sacks','def_interceptions','fumble_recovery_opp'];sp=pd.concat([pd.read_csv(f,usecols=needed,low_memory=False) for f in args.stats],ignore_index=True);frame=build(games,sp,args.as_of);args.out.parent.mkdir(parents=True,exist_ok=True);frame.to_parquet(args.out,index=False)
  print(json.dumps({'rows':len(frame),'seasons':[int(frame.season.min()),int(frame.season.max())],'complete':int(frame.margin.notna().sum()),'scorable':int(frame[FEATURES].notna().all(axis=1).sum()),'sha256':hashlib.sha256(args.out.read_bytes()).hexdigest()}))

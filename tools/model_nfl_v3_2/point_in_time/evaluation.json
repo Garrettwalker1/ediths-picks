@@ -1,0 +1,44 @@
+{
+  "status": "failed_clean_gate_not_promoted",
+  "features": [
+    "d_pf_f",
+    "d_pa_f",
+    "d_yf_f",
+    "d_ya_f",
+    "d_pyf_r4",
+    "d_pya_r4",
+    "d_ryf_r4",
+    "d_rya_r4",
+    "d_gv_r4",
+    "d_tk_r4",
+    "d_skt_r4",
+    "d_skm_r4",
+    "d_qbc_r4",
+    "d_ptd_r4",
+    "d_gp"
+  ],
+  "source_frame_sha256": "fe030cd016c9dfc8c8fc897fd2c226276377021cd7f11b97a47c0844f859b249",
+  "split": "train 2010-22; validation 2023; locked test 2024-25",
+  "metrics": {
+    "train_count": 2581,
+    "validation_count": 256,
+    "locked_test_count": 512,
+    "validation_mae": 10.741873812638248,
+    "validation_book_mae": 9.818359375,
+    "test_mae": 10.414300605116745,
+    "test_book_mae": 9.8037109375,
+    "test_winner_accuracy": 0.625,
+    "test_book_winner_accuracy": 0.67578125,
+    "test_brier": 0.2203737505900506,
+    "test_book_brier": 0.2075239065198061,
+    "test_mae_minus_book_ci95": [
+      0.2933158116257138,
+      0.910880489124746
+    ]
+  },
+  "limitations": [
+    "Team-form features only; no same-week injuries, QB starter, weather, or roster participation",
+    "Closing spread is the test benchmark; not a feature",
+    "No Week 4 model outputs may be published from a failed candidate"
+  ]
+}

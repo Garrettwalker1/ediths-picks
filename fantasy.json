@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-09-27T23:58:26Z",
+  "updated_at": "2026-09-30T14:31:15Z",
   "refresh_note": "Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.",
   "providers": [
     {
       "name": "ESPN",
       "status": "ok",
-      "observed_at": "2026-09-27T23:58:04Z"
+      "observed_at": "2026-09-30T14:30:38Z"
     },
     {
       "name": "Sleeper",
       "status": "ok",
-      "observed_at": "2026-09-27T23:58:26Z"
+      "observed_at": "2026-09-30T14:31:15Z"
     }
   ],
   "injury_check": {
     "status": "checked",
-    "checked_at": "2026-09-27T23:58:26Z",
+    "checked_at": "2026-09-30T14:31:15Z",
     "source": "ESPN Fantasy player injury status and player news (logged-in league data)",
     "source_url": "https://fantasy.espn.com/football/",
-    "rostered_player_flags": 20
+    "rostered_player_flags": 17
   },
   "leagues": [
     {
@@ -33,21 +33,21 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:04Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:30:38Z",
       "source": "ESPN Fantasy",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "matchup": {
-        "week": 3,
-        "opponent": "The Stable",
-        "score": 100.64,
-        "opponent_score": 110.24,
-        "projected": 125.3,
+        "week": 4,
+        "opponent": "Im here so I dont get fined",
+        "score": 0,
+        "opponent_score": 0,
+        "projected": 118.5,
         "opponent_projected": null,
-        "state": "live",
+        "state": "upcoming",
         "source": "ESPN FantasyCast",
         "source_url": "https://fantasy.espn.com/football/fantasycast?leagueId=1242450525&teamId=8",
-        "observed_at": "2026-09-27T23:58:04Z",
+        "observed_at": "2026-09-30T14:30:38Z",
         "provider_updated_at": null
       },
       "players": [
@@ -57,31 +57,12 @@
           "position": "WR",
           "nfl_team": "SEA",
           "slot": "WR",
-          "points": 30.36,
-          "projected": 17.19,
+          "points": null,
+          "projected": 17.4,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
-        },
-        {
-          "id": "4429160",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "nfl_team": "MIA",
-          "slot": "RB",
-          "points": 1.7,
-          "projected": 17.27,
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
-          "provider_updated_at": null,
-          "injury_status": "Doubtful",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4429160",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
         },
         {
           "id": "4361579",
@@ -89,11 +70,11 @@
           "position": "RB",
           "nfl_team": "DAL",
           "slot": "RB",
-          "points": 17.3,
-          "projected": 13.73,
+          "points": null,
+          "projected": 13.29,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -102,11 +83,11 @@
           "position": "WR",
           "nfl_team": "TB",
           "slot": "FLEX",
-          "points": 8.7,
-          "projected": 10.46,
+          "points": null,
+          "projected": 9.47,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -114,12 +95,12 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "nfl_team": "JAX",
-          "slot": "Bench",
-          "points": 16,
-          "projected": 10.15,
+          "slot": "FLEX",
+          "points": null,
+          "projected": 11.82,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -128,11 +109,11 @@
           "position": "WR",
           "nfl_team": "WSH",
           "slot": "Bench",
-          "points": 16.7,
-          "projected": 9.69,
+          "points": null,
+          "projected": 10.88,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -142,10 +123,10 @@
           "nfl_team": "CHI",
           "slot": "Bench",
           "points": null,
-          "projected": 8.89,
+          "projected": 10.15,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -154,18 +135,18 @@
           "position": "RB",
           "nfl_team": "PIT",
           "slot": "Bench",
-          "points": 0,
+          "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
+          "injury_status": "Questionable",
+          "injury_detail": "The Steelers held a walkthrough for the second time in as many days ahead of Thursday's contest against the Browns, and once again Dowdle was unable to get any work in. He was at least present Tuesday after not being spotted during the media-viewing portion of Monday's session, but he will presumably have to practice in some capacity Wednesday in order to have any chance of suiting up.",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4038815",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-25"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-29"
         },
         {
           "id": "4038941",
@@ -173,11 +154,11 @@
           "position": "QB",
           "nfl_team": "LAC",
           "slot": "Bench",
-          "points": 12.74,
-          "projected": 17.26,
+          "points": null,
+          "projected": 12.62,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -185,12 +166,12 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "nfl_team": "CAR",
-          "slot": "FLEX",
-          "points": 13,
-          "projected": 13.17,
+          "slot": "RB",
+          "points": null,
+          "projected": 14.85,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -199,31 +180,12 @@
           "position": "TE",
           "nfl_team": "NYG",
           "slot": "TE",
-          "points": 2.3,
-          "projected": 9.93,
+          "points": null,
+          "projected": 9.6,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
-        },
-        {
-          "id": "4710714",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "nfl_team": "SF",
-          "slot": "IR",
-          "points": 0,
-          "projected": 0,
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
-          "provider_updated_at": null,
-          "injury_status": "Injured Reserve",
-          "injury_detail": "Stribling suffered what appeared to be a serious non-contact injury during the 49ers' Week 1 win against the Rams in Melbourne, Australia, but afterward tests revealed that his left Achilles was intact, and eventually he was diagnosed with a deltoid sprain of his left ankle. After undergoing surgery, he's expected to miss roughly 10 weeks, meaning a move to IR was inevitable.",
-          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4710714",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-19"
         },
         {
           "id": "-16014",
@@ -232,10 +194,10 @@
           "nfl_team": "LA",
           "slot": "D/ST",
           "points": null,
-          "projected": 6.12,
+          "projected": 7.05,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -244,18 +206,18 @@
           "position": "WR",
           "nfl_team": "CAR",
           "slot": "WR",
-          "points": 2.8,
-          "projected": 11.13,
+          "points": null,
+          "projected": 11.27,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Questionable",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
+          "injury_detail": "Coker made an early exit from Sunday's 21-18 loss to the Browns due to the quad issue, but follow-up tests Monday appear to have revealed nothing overly significant. That being said, Coker's status for Week 4 is still up in the air, with his practice activity Wednesday through Friday likely to be the determining factor in whether he plays.",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4695883",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "3055899",
@@ -263,11 +225,11 @@
           "position": "K",
           "nfl_team": "KC",
           "slot": "K",
-          "points": 6,
-          "projected": 8.99,
+          "points": null,
+          "projected": 8.77,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -276,11 +238,11 @@
           "position": "TE",
           "nfl_team": "NYJ",
           "slot": "Bench",
-          "points": 20,
-          "projected": 6.67,
+          "points": null,
+          "projected": 7.32,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -289,17 +251,17 @@
           "position": "WR",
           "nfl_team": "BAL",
           "slot": "IR",
-          "points": 0,
+          "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": "Lane left the Ravens' Week 1 win at Indianapolis with a wrist injury that eventually was confirmed to include a fracture. With his move to IR, he'll be required to miss at least the next four games, meaning his next chance for game action will come Oct. 18 at Cleveland.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4870847",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-16"
         },
         {
@@ -307,18 +269,18 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "nfl_team": "DEN",
-          "slot": "Bench",
+          "slot": "IR",
           "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4702555",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-26"
         },
         {
@@ -327,11 +289,11 @@
           "position": "WR",
           "nfl_team": "IND",
           "slot": "Bench",
-          "points": 10.2,
-          "projected": 9.51,
+          "points": null,
+          "projected": 11.15,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -340,12 +302,44 @@
           "position": "QB",
           "nfl_team": "GB",
           "slot": "QB",
-          "points": 18.48,
-          "projected": 17.28,
+          "points": null,
+          "projected": 14.95,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
+        },
+        {
+          "id": "4711533",
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "nfl_team": "MIA",
+          "slot": "Bench",
+          "points": null,
+          "projected": 8.36,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-30T14:30:38Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "4682745",
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "nfl_team": "MIA",
+          "slot": "Bench",
+          "points": null,
+          "projected": 6.27,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+          "observed_at": "2026-09-30T14:30:38Z",
+          "provider_updated_at": null,
+          "injury_status": "Questionable",
+          "injury_detail": null,
+          "injury_source": "ESPN Fantasy player status",
+          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4682745",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         }
       ]
     },
@@ -361,21 +355,21 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:04Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:30:38Z",
       "source": "ESPN Fantasy",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "matchup": {
-        "week": 3,
-        "opponent": "IM ASS",
-        "score": 104.24,
-        "opponent_score": 126.8,
-        "projected": 115.2,
+        "week": 4,
+        "opponent": "Im Dat Njigba",
+        "score": 0,
+        "opponent_score": 0,
+        "projected": 125.3,
         "opponent_projected": null,
-        "state": "live",
+        "state": "upcoming",
         "source": "ESPN FantasyCast",
         "source_url": "https://fantasy.espn.com/football/fantasycast?leagueId=184489982&teamId=1",
-        "observed_at": "2026-09-27T23:58:04Z",
+        "observed_at": "2026-09-30T14:30:38Z",
         "provider_updated_at": null
       },
       "players": [
@@ -384,12 +378,12 @@
           "name": "Omarion Hampton",
           "position": "RB",
           "nfl_team": "LAC",
-          "slot": "RB",
-          "points": 5.6,
-          "projected": 15.01,
+          "slot": "Bench",
+          "points": null,
+          "projected": 10.88,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -398,18 +392,18 @@
           "position": "WR",
           "nfl_team": "NE",
           "slot": "IR",
-          "points": 0,
+          "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 when first eligible off the table. While their No.",
+          "injury_detail": "Kyles noted that Brown was wearing cleats, which could hint that he was able to do some on-field exercises. After being placed on injured reserve Sept. 12, Brown won't be eligible to start practicing with his teammates until Week 6, but the wideout at least seems to be making good progress in his recovery from the high-ankle sprain he sustained in the season-opening loss to the Seahawks.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-13"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "4379399",
@@ -417,11 +411,11 @@
           "position": "RB",
           "nfl_team": "BUF",
           "slot": "RB",
-          "points": 19.4,
-          "projected": 16.96,
+          "points": null,
+          "projected": 17.46,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -430,11 +424,11 @@
           "position": "WR",
           "nfl_team": "NYG",
           "slot": "WR",
-          "points": 7.6,
-          "projected": 14.43,
+          "points": null,
+          "projected": 13.62,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -443,11 +437,11 @@
           "position": "TE",
           "nfl_team": "IND",
           "slot": "TE",
-          "points": 14.7,
-          "projected": 12.32,
+          "points": null,
+          "projected": 13.04,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -456,11 +450,11 @@
           "position": "RB",
           "nfl_team": "SEA",
           "slot": "Bench",
-          "points": 1.2,
-          "projected": 12.08,
+          "points": null,
+          "projected": 9.97,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -469,11 +463,11 @@
           "position": "WR",
           "nfl_team": "GB",
           "slot": "WR",
-          "points": 22.6,
-          "projected": 14.03,
+          "points": null,
+          "projected": 14.44,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -486,13 +480,13 @@
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-27"
         },
         {
@@ -500,12 +494,12 @@
           "name": "Aaron Jones Sr.",
           "position": "RB",
           "nfl_team": "MIN",
-          "slot": "Bench",
-          "points": 14.2,
-          "projected": 13.64,
+          "slot": "RB",
+          "points": null,
+          "projected": 17.24,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -513,12 +507,12 @@
           "name": "Josh Downs",
           "position": "WR",
           "nfl_team": "IND",
-          "slot": "Bench",
-          "points": 12.7,
-          "projected": 12.01,
+          "slot": "FLEX",
+          "points": null,
+          "projected": 13.69,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -527,11 +521,11 @@
           "position": "D/ST",
           "nfl_team": "BAL",
           "slot": "D/ST",
-          "points": 1,
-          "projected": 4.37,
+          "points": null,
+          "projected": 6.96,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -540,11 +534,11 @@
           "position": "RB",
           "nfl_team": "WSH",
           "slot": "Bench",
-          "points": 5.3,
-          "projected": 8.77,
+          "points": null,
+          "projected": 9.24,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -553,24 +547,11 @@
           "position": "K",
           "nfl_team": "DET",
           "slot": "K",
-          "points": 7,
-          "projected": 8.79,
+          "points": null,
+          "projected": 8.71,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
-          "provider_updated_at": null
-        },
-        {
-          "id": "4430539",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "nfl_team": "JAX",
-          "slot": "Bench",
-          "points": 6.2,
-          "projected": 7.9,
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -579,11 +560,11 @@
           "position": "WR",
           "nfl_team": "NO",
           "slot": "Bench",
-          "points": 6.9,
-          "projected": 11.51,
+          "points": null,
+          "projected": 10.63,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -592,11 +573,11 @@
           "position": "QB",
           "nfl_team": "CAR",
           "slot": "QB",
-          "points": 13.64,
-          "projected": 16.75,
+          "points": null,
+          "projected": 20.11,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -604,12 +585,25 @@
           "name": "DJ Moore",
           "position": "WR",
           "nfl_team": "BUF",
-          "slot": "FLEX",
-          "points": 12.7,
-          "projected": 12.56,
+          "slot": "Bench",
+          "points": null,
+          "projected": 12.96,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "4685247",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "nfl_team": "NYJ",
+          "slot": "Bench",
+          "points": null,
+          "projected": 12.78,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         }
       ]
@@ -622,25 +616,25 @@
       "league_name": "#HORNDOGS #DBAP 3.0",
       "team": {
         "team_id": 7,
-        "name": "Gibbs Me Head"
+        "name": "We Ass"
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:04Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:30:38Z",
       "source": "ESPN Fantasy",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "matchup": {
-        "week": 3,
-        "opponent": "Okonk-Whoa That’s Big",
-        "score": 72.48,
-        "opponent_score": 95.34,
-        "projected": 120.1,
+        "week": 4,
+        "opponent": "Autodraft Allstars ",
+        "score": 0,
+        "opponent_score": 0,
+        "projected": 125.6,
         "opponent_projected": null,
-        "state": "live",
+        "state": "upcoming",
         "source": "ESPN FantasyCast",
         "source_url": "https://fantasy.espn.com/football/fantasycast?leagueId=416480692&teamId=7",
-        "observed_at": "2026-09-27T23:58:04Z",
+        "observed_at": "2026-09-30T14:30:38Z",
         "provider_updated_at": null
       },
       "players": [
@@ -650,11 +644,11 @@
           "position": "WR",
           "nfl_team": "CIN",
           "slot": "WR",
-          "points": 24.8,
-          "projected": 18.94,
+          "points": null,
+          "projected": 20.45,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -663,11 +657,11 @@
           "position": "RB",
           "nfl_team": "LV",
           "slot": "RB",
-          "points": 12.3,
-          "projected": 18.87,
+          "points": null,
+          "projected": 18.84,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -676,11 +670,11 @@
           "position": "WR",
           "nfl_team": "DAL",
           "slot": "WR",
-          "points": 15.2,
-          "projected": 13.8,
+          "points": null,
+          "projected": 13.74,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -690,10 +684,10 @@
           "nfl_team": "CHI",
           "slot": "RB",
           "points": null,
-          "projected": 12.83,
+          "projected": 14.89,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -701,12 +695,12 @@
           "name": "Jadarian Price",
           "position": "RB",
           "nfl_team": "SEA",
-          "slot": "FLEX",
-          "points": 1.2,
-          "projected": 12.08,
+          "slot": "Bench",
+          "points": null,
+          "projected": 9.97,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -716,10 +710,10 @@
           "nfl_team": "CHI",
           "slot": "Bench",
           "points": null,
-          "projected": 9.94,
+          "projected": 10.0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -728,11 +722,11 @@
           "position": "RB",
           "nfl_team": "NE",
           "slot": "Bench",
-          "points": 6.8,
-          "projected": 12.05,
+          "points": null,
+          "projected": 11.6,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -745,13 +739,13 @@
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-27"
         },
         {
@@ -760,11 +754,11 @@
           "position": "TE",
           "nfl_team": "NYG",
           "slot": "TE",
-          "points": 3.3,
-          "projected": 12.25,
+          "points": null,
+          "projected": 11.75,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -773,11 +767,11 @@
           "position": "D/ST",
           "nfl_team": "SEA",
           "slot": "D/ST",
-          "points": 4,
-          "projected": 7.32,
+          "points": null,
+          "projected": 7.86,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -786,11 +780,11 @@
           "position": "WR",
           "nfl_team": "LAC",
           "slot": "Bench",
-          "points": 7,
-          "projected": 10.87,
+          "points": null,
+          "projected": 8.55,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -799,24 +793,11 @@
           "position": "RB",
           "nfl_team": "WSH",
           "slot": "Bench",
-          "points": 5.3,
-          "projected": 8.77,
+          "points": null,
+          "projected": 9.24,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
-          "provider_updated_at": null
-        },
-        {
-          "id": "4870653",
-          "name": "KC Concepcion",
-          "position": "WR",
-          "nfl_team": "CLE",
-          "slot": "Bench",
-          "points": 2.9,
-          "projected": 10.97,
-          "source": "ESPN Fantasy",
-          "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -825,17 +806,17 @@
           "position": "RB",
           "nfl_team": "DET",
           "slot": "IR",
-          "points": 0,
+          "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": "Pacheco was already on injured reserve, but he's looking at a lengthy recovery. According to Ian Rapoport of NFL Network, the running back is expected to be sidelined 12 weeks, giving him a \"chance\" to return sometime in December. With Pacheco sidelined Week 1 against the Saints, Jahmyr Gibbs handled 29 of the team's 31 backfield carries, turning them into 156 yards and two touchdowns.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4361529",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-14"
         },
         {
@@ -844,11 +825,11 @@
           "position": "WR",
           "nfl_team": "IND",
           "slot": "Bench",
-          "points": 18.3,
-          "projected": 9.55,
+          "points": null,
+          "projected": 11.26,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -858,10 +839,10 @@
           "nfl_team": "CHI",
           "slot": "K",
           "points": null,
-          "projected": 7.91,
+          "projected": 8.47,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -870,11 +851,24 @@
           "position": "QB",
           "nfl_team": "HOU",
           "slot": "QB",
-          "points": 11.68,
-          "projected": 16.09,
+          "points": null,
+          "projected": 16.84,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "4685247",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "nfl_team": "NYJ",
+          "slot": "FLEX",
+          "points": null,
+          "projected": 12.78,
+          "source": "ESPN Fantasy",
+          "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         }
       ]
@@ -891,21 +885,21 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:04Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:30:38Z",
       "source": "ESPN Fantasy",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "matchup": {
-        "week": 3,
-        "opponent": "Oilers Reunion Tour",
-        "score": 109.34,
-        "opponent_score": 57.7,
-        "projected": 105.3,
+        "week": 4,
+        "opponent": "Big Dell Energy",
+        "score": 0,
+        "opponent_score": 0,
+        "projected": 99.8,
         "opponent_projected": null,
-        "state": "live",
+        "state": "upcoming",
         "source": "ESPN FantasyCast",
         "source_url": "https://fantasy.espn.com/football/fantasycast?leagueId=14911042&teamId=10",
-        "observed_at": "2026-09-27T23:58:04Z",
+        "observed_at": "2026-09-30T14:30:38Z",
         "provider_updated_at": null
       },
       "players": [
@@ -915,11 +909,11 @@
           "position": "RB",
           "nfl_team": "LAC",
           "slot": "RB",
-          "points": 5.6,
-          "projected": 15.01,
+          "points": null,
+          "projected": 10.88,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -928,49 +922,49 @@
           "position": "WR",
           "nfl_team": "NE",
           "slot": "IR",
-          "points": 0,
+          "points": null,
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 when first eligible off the table. While their No.",
+          "injury_detail": "Kyles noted that Brown was wearing cleats, which could hint that he was able to do some on-field exercises. After being placed on injured reserve Sept. 12, Brown won't be eligible to start practicing with his teammates until Week 6, but the wideout at least seems to be making good progress in his recovery from the high-ankle sprain he sustained in the season-opening loss to the Seahawks.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-13"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "4427366",
           "name": "Breece Hall",
           "position": "RB",
           "nfl_team": "NYJ",
-          "slot": "RB",
-          "points": 8.5,
-          "projected": 16.17,
+          "slot": "Bench",
+          "points": null,
+          "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
           "injury_status": "Questionable",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
+          "injury_detail": "Jets head coach Aaron Glenn shed more light on the severity of Hall's injury when he speaks to the media Wednesday, but the running back seemingly avoided any sort of major damage to his thigh that would result in an extended stint on injured reserve. However, with Hall being classified as week-to-week, he may be facing an uphill battle to make it back for the Jets' next game Sunday at Chicago.",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4427366",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "4882093",
           "name": "Bhayshul Tuten",
           "position": "RB",
           "nfl_team": "JAX",
-          "slot": "FLEX",
-          "points": 17,
-          "projected": 11.0,
+          "slot": "RB",
+          "points": null,
+          "projected": 12.65,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -979,11 +973,11 @@
           "position": "TE",
           "nfl_team": "CLE",
           "slot": "TE",
-          "points": 24.1,
-          "projected": 9.79,
+          "points": null,
+          "projected": 11.22,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -992,11 +986,11 @@
           "position": "WR",
           "nfl_team": "TEN",
           "slot": "Bench",
-          "points": 18.7,
-          "projected": 8.0,
+          "points": null,
+          "projected": 9.15,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1009,13 +1003,13 @@
           "projected": 0,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-27"
         },
         {
@@ -1024,11 +1018,11 @@
           "position": "WR",
           "nfl_team": "GB",
           "slot": "WR",
-          "points": 21,
-          "projected": 11.41,
+          "points": null,
+          "projected": 12.85,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1037,11 +1031,11 @@
           "position": "WR",
           "nfl_team": "IND",
           "slot": "WR",
-          "points": 12.7,
-          "projected": 12.01,
+          "points": null,
+          "projected": 13.69,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1050,11 +1044,11 @@
           "position": "D/ST",
           "nfl_team": "SEA",
           "slot": "D/ST",
-          "points": 4,
-          "projected": 7.32,
+          "points": null,
+          "projected": 7.86,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1063,11 +1057,11 @@
           "position": "RB",
           "nfl_team": "NO",
           "slot": "Bench",
-          "points": 5.1,
-          "projected": 9.59,
+          "points": null,
+          "projected": 10.57,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1076,11 +1070,11 @@
           "position": "K",
           "nfl_team": "DET",
           "slot": "K",
-          "points": 7,
-          "projected": 8.79,
+          "points": null,
+          "projected": 8.71,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1089,11 +1083,11 @@
           "position": "WR",
           "nfl_team": "HOU",
           "slot": "Bench",
-          "points": 4.5,
-          "projected": 7.55,
+          "points": null,
+          "projected": 3.63,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1102,11 +1096,11 @@
           "position": "TE",
           "nfl_team": "TEN",
           "slot": "Bench",
-          "points": 3.4,
-          "projected": 7.87,
+          "points": null,
+          "projected": 7.08,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1114,12 +1108,12 @@
           "name": "Ollie Gordon II",
           "position": "RB",
           "nfl_team": "MIA",
-          "slot": "Bench",
-          "points": 14.5,
-          "projected": 3.23,
+          "slot": "FLEX",
+          "points": null,
+          "projected": 9.3,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1128,11 +1122,11 @@
           "position": "WR",
           "nfl_team": "NE",
           "slot": "Bench",
-          "points": 14.7,
-          "projected": 8.8,
+          "points": null,
+          "projected": 9.69,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         },
         {
@@ -1141,11 +1135,11 @@
           "position": "QB",
           "nfl_team": "TEN",
           "slot": "QB",
-          "points": 9.44,
-          "projected": 13.84,
+          "points": null,
+          "projected": 12.67,
           "source": "ESPN Fantasy",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
-          "observed_at": "2026-09-27T23:58:04Z",
+          "observed_at": "2026-09-30T14:30:38Z",
           "provider_updated_at": null
         }
       ]
@@ -1162,19 +1156,19 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:26Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:31:15Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312",
       "matchup": {
-        "week": 3,
-        "opponent": "jonmorty123",
-        "score": 41.2,
-        "opponent_score": 173.14,
-        "state": "live",
+        "week": 4,
+        "opponent": "Reilly43",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "upcoming",
         "source": "Sleeper",
-        "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/matchups/3",
-        "observed_at": "2026-09-27T23:58:26Z",
+        "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/matchups/4",
+        "observed_at": "2026-09-30T14:31:15Z",
         "provider_updated_at": null
       },
       "players": [
@@ -1186,7 +1180,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1197,7 +1191,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1208,7 +1202,18 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "nfl_team": "NYJ",
+          "slot": "START",
+          "source": "Sleeper",
+          "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1216,10 +1221,10 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "nfl_team": "KC",
-          "slot": "START",
+          "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1230,7 +1235,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1241,7 +1246,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1252,7 +1257,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1260,10 +1265,10 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "nfl_team": "NO",
-          "slot": "BENCH",
+          "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1274,7 +1279,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1285,13 +1290,13 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Doubtful",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=3121023",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-26"
         },
         {
@@ -1302,7 +1307,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1313,7 +1318,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1324,31 +1329,14 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
+          "injury_status": "Questionable",
+          "injury_detail": "The Steelers held a walkthrough for the second time in as many days ahead of Thursday's contest against the Browns, and once again Dowdle was unable to get any work in. He was at least present Tuesday after not being spotted during the media-viewing portion of Monday's session, but he will presumably have to practice in some capacity Wednesday in order to have any chance of suiting up.",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4038815",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-25"
-        },
-        {
-          "id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "nfl_team": "MIA",
-          "slot": "START",
-          "source": "Sleeper",
-          "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
-          "provider_updated_at": null,
-          "injury_status": "Doubtful",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4429160",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-29"
         },
         {
           "id": "SEA",
@@ -1358,7 +1346,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         }
       ],
@@ -1376,19 +1364,19 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:26Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:31:15Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120",
       "matchup": {
-        "week": 3,
-        "opponent": "RyanDupont",
-        "score": 117.44,
-        "opponent_score": 95.3,
-        "state": "live",
+        "week": 4,
+        "opponent": "Team eligagliano",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "upcoming",
         "source": "Sleeper",
-        "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/matchups/3",
-        "observed_at": "2026-09-27T23:58:26Z",
+        "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/matchups/4",
+        "observed_at": "2026-09-30T14:31:15Z",
         "provider_updated_at": null
       },
       "players": [
@@ -1400,7 +1388,18 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
+          "provider_updated_at": null
+        },
+        {
+          "id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "nfl_team": "NYJ",
+          "slot": "START",
+          "source": "Sleeper",
+          "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1411,7 +1410,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1419,10 +1418,10 @@
           "name": "Omarion Hampton",
           "position": "RB",
           "nfl_team": "LAC",
-          "slot": "START",
+          "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1433,7 +1432,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1444,7 +1443,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1455,7 +1454,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1466,7 +1465,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1477,7 +1476,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1488,7 +1487,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1499,7 +1498,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1510,7 +1509,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1521,7 +1520,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1532,18 +1531,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
-          "provider_updated_at": null
-        },
-        {
-          "id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "nfl_team": "LAC",
-          "slot": "BENCH",
-          "source": "Sleeper",
-          "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1554,7 +1542,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         }
       ]
@@ -1571,19 +1559,19 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:26Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:31:15Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632",
       "matchup": {
-        "week": 3,
-        "opponent": "It’s Me Carnell Tate",
-        "score": 99.2,
-        "opponent_score": 98.74,
-        "state": "live",
+        "week": 4,
+        "opponent": "ryno0103",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "upcoming",
         "source": "Sleeper",
-        "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/matchups/3",
-        "observed_at": "2026-09-27T23:58:26Z",
+        "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/matchups/4",
+        "observed_at": "2026-09-30T14:31:15Z",
         "provider_updated_at": null
       },
       "players": [
@@ -1595,7 +1583,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1606,7 +1594,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1617,14 +1605,25 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
+          "injury_status": "Questionable",
+          "injury_detail": "As expected, Daniels will make the trip across the pond and participate in practices over the coming days. He has a lot of work ahead of him in order to be cleared to play Sunday as he continues to recover from a dislocated elbow, so it wouldn't be surprising to see Marcus Mariota get the starting nod for a second week in a row.",
+          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426348",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-30"
+        },
+        {
+          "id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "nfl_team": "NYJ",
+          "slot": "START",
+          "source": "Sleeper",
+          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+          "observed_at": "2026-09-30T14:31:15Z",
+          "provider_updated_at": null
         },
         {
           "id": "11624",
@@ -1634,7 +1633,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1645,7 +1644,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1656,7 +1655,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1667,7 +1666,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1678,7 +1677,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1689,13 +1688,13 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": "Tyson has had recurring issues with his right hamstring, and the most recent flare-up is expected to result in two months on the sideline, so Sunday's transaction comes as no surprise. He'll be required to miss at least the first four games of the season, but considering the aforementioned recovery timeline, he likely will be out beyond Week 5.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4880281",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-08-30"
         },
         {
@@ -1706,7 +1705,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1717,25 +1716,8 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
-        },
-        {
-          "id": "9226",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "nfl_team": "MIA",
-          "slot": "START",
-          "source": "Sleeper",
-          "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
-          "provider_updated_at": null,
-          "injury_status": "Doubtful",
-          "injury_detail": null,
-          "injury_source": "ESPN Fantasy player status",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4429160",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
         },
         {
           "id": "9480",
@@ -1745,7 +1727,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1756,7 +1738,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1767,7 +1749,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         }
       ]
@@ -1784,19 +1766,19 @@
       },
       "status": "in_season",
       "season": "2026",
-      "week": 3,
-      "observed_at": "2026-09-27T23:58:26Z",
+      "week": 4,
+      "observed_at": "2026-09-30T14:31:15Z",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720",
       "matchup": {
-        "week": 3,
-        "opponent": "Lights, CAMera, Action!",
-        "score": 111.13,
-        "opponent_score": 79.89,
-        "state": "live",
+        "week": 4,
+        "opponent": "Goodbye Deebo",
+        "score": 0.0,
+        "opponent_score": 0.0,
+        "state": "upcoming",
         "source": "Sleeper",
-        "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/matchups/3",
-        "observed_at": "2026-09-27T23:58:26Z",
+        "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/matchups/4",
+        "observed_at": "2026-09-30T14:31:15Z",
         "provider_updated_at": null
       },
       "players": [
@@ -1808,7 +1790,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1819,7 +1801,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1830,14 +1812,14 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Questionable",
-          "injury_detail": "McMillan left in the first quarter due to a left knee injury, which is severe enough for the third-year wideout to not return to Sunday's game. Tez Johnson and rookie third-rounder Ted Hurst are candidates to see a significant boost in offensive snaps in McMillan's absence.",
+          "injury_status": "Out",
+          "injury_detail": "McMillan originally suffered a knee injury during training camp in early August, and this is believed to be an aggravation of that issue. The 24-year-old didn't play Week 1, logged just seven offensive snaps Week 2 and then lasted only two offensive snaps this past Sunday versus Minnesota before exiting due to the injury.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4430834",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-29"
         },
         {
           "id": "11626",
@@ -1847,13 +1829,13 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "injury_detail": "Legette popped up on the Panthers' practice report Thursday as a non-participant due to a knee injury, which he followed up with a limited session Friday before being tagged as questionable to play Sunday. Mike Kaye of ESPN.com reported that Legette was expected to be a game-time decision, and Carolina has determined that a week off is prudent for the wide receiver.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4430034",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-27"
         },
         {
@@ -1864,7 +1846,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1875,7 +1857,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1886,24 +1868,18 @@
           "slot": "TAXI",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
-          "provider_updated_at": null,
-          "injury_status": "Out",
-          "injury_detail": "For a third consecutive week, Leonard will operate as the emergency QB3 behind starter Daniel Jones and backup Anthony Richardson. That prohibits Leonard from playing Sunday unless both Jones and Richardson were to be removed from the game due to injury, illness or ejection.",
-          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4683423",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "observed_at": "2026-09-30T14:31:15Z",
+          "provider_updated_at": null
         },
         {
           "id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
           "nfl_team": "GB",
-          "slot": "BENCH",
+          "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1914,13 +1890,13 @@
           "slot": "IR",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4689114",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-24"
         },
         {
@@ -1928,10 +1904,10 @@
           "name": "Quinshon Judkins",
           "position": "RB",
           "nfl_team": "CLE",
-          "slot": "START",
+          "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1942,7 +1918,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1953,7 +1929,7 @@
           "slot": "TAXI",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1964,7 +1940,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -1975,14 +1951,8 @@
           "slot": "TAXI",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
-          "provider_updated_at": null,
-          "injury_status": "Out",
-          "injury_detail": "For a second consecutive week, Nussmeier will be the emergency QB3. That means the rookie seventh-rounder is prohibited from playing Sunday night unless both Patrick Mahomes and Justin Fields leave the game due to injury, illness or ejection.",
-          "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
-          "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4567747",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-20"
+          "observed_at": "2026-09-30T14:31:15Z",
+          "provider_updated_at": null
         },
         {
           "id": "3271",
@@ -1992,7 +1962,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2003,7 +1973,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2014,14 +1984,14 @@
           "slot": "IR",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
-          "injury_detail": "The Patriots deactivated Brown just three days after he sustained the injury in the third quarter of Wednesday's 13-10 loss to the Seahawks. Though recovery timelines for high-ankle sprains often range from 4-to-6 weeks, the Patriots quickly determined that Brown's injury is \"a little more serious,\" which likely takes a return from IR in Week 6 when first eligible off the table. While their No.",
+          "injury_detail": "Kyles noted that Brown was wearing cleats, which could hint that he was able to do some on-field exercises. After being placed on injured reserve Sept. 12, Brown won't be eligible to start practicing with his teammates until Week 6, but the wideout at least seems to be making good progress in his recovery from the high-ankle sprain he sustained in the season-opening loss to the Seahawks.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-13"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "5892",
@@ -2031,7 +2001,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2042,7 +2012,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2053,7 +2023,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2064,7 +2034,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2075,7 +2045,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2083,10 +2053,10 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "nfl_team": "NE",
-          "slot": "START",
+          "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2097,7 +2067,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2108,7 +2078,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2116,17 +2086,17 @@
           "name": "Puka Nacua",
           "position": "WR",
           "nfl_team": "LAR",
-          "slot": "BENCH",
+          "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "injury_detail": null,
           "injury_source": "ESPN Fantasy player status",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426515",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
-          "injury_provider_updated_at": "2026-09-27"
+          "injury_observed_at": "2026-09-30T14:31:15Z",
+          "injury_provider_updated_at": "2026-09-28"
         },
         {
           "id": "9511",
@@ -2136,7 +2106,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2147,13 +2117,13 @@
           "slot": "IR",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null,
           "injury_status": "Out",
           "injury_detail": "Charbonnet sits on the reserve/PUP list due to the left ACL tear he suffered in the divisional round on Jan. 17, meaning he must miss at least the first four games of the season. However, new rules for players on reserve/PUP allow players to practice as soon as Week 3 with the potential to return Week 5.",
           "injury_source": "ESPN Fantasy player status · ESPN Fantasy news",
           "injury_source_url": "https://fantasy.espn.com/football/players/card?playerId=4426385",
-          "injury_observed_at": "2026-09-27T23:58:26Z",
+          "injury_observed_at": "2026-09-30T14:31:15Z",
           "injury_provider_updated_at": "2026-09-25"
         },
         {
@@ -2164,7 +2134,7 @@
           "slot": "START",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         },
         {
@@ -2175,7 +2145,7 @@
           "slot": "BENCH",
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-09-27T23:58:26Z",
+          "observed_at": "2026-09-30T14:31:15Z",
           "provider_updated_at": null
         }
       ]

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-09-29T12:52:00Z",
+  "updated_at": "2026-10-01T22:12:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2955,6 +2955,312 @@
         "final_score": "Philadelphia Eagles 7, Chicago Bears 27",
         "detail": "Loveland anytime TD missed; Hurts scored a 1-yard rushing touchdown. FanDuel settled SGP lost with $0 returned, -$10 (-1 unit)."
       }
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Fannin anytime TD 40.2%, Freiermuth 23.3% (comparison, not a pick)."
+      },
+      "bet_id": "us-tn:01m3wgb533fw496ex8dw7mbqf1",
+      "date": "2026-10-01T19:51:00Z",
+      "placed_at": "2026-10-01T19:51:00Z",
+      "bet": "2-leg SGP: Harold Fannin Jr. anytime TD, Pat Freiermuth anytime TD",
+      "selection": "Fannin anytime TD; Freiermuth anytime TD",
+      "price": 1723,
+      "price_note": "25% profit boost; base +1378, displayed boosted +1723. $10 wager, $182.31 payout; 50 rewards points pending.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 182.31,
+      "potential_profit_usd": 172.31,
+      "rewards_points_pending": null,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Harold Fannin Jr."
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Pat Freiermuth"
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "anytime touchdown scorer",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Freiermuth anytime TD 23.3% vs +360 implied 21.7% on the IL capture."
+      },
+      "bet_id": "us-tn:01m3wgbgzje3m87wj8snw02wwj",
+      "date": "2026-10-01T19:51:00Z",
+      "placed_at": "2026-10-01T19:51:00Z",
+      "bet": "Pat Freiermuth anytime touchdown scorer",
+      "selection": "Freiermuth scores a touchdown",
+      "price": 360,
+      "price_note": "$10 wager, $46.00 payout; 40 rewards points pending.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 46.0,
+      "potential_profit_usd": 36.0,
+      "rewards_points_pending": 40,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Pat Freiermuth"
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "anytime touchdown scorer",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Fannin anytime TD 40.2%."
+      },
+      "bet_id": "us-tn:screenshot-20261001-fannin-atd-boost435",
+      "date": "2026-10-01T19:51:00Z",
+      "placed_at": "2026-10-01T19:51:00Z",
+      "bet": "Harold Fannin Jr. anytime touchdown scorer",
+      "selection": "Fannin scores a touchdown",
+      "price": 435,
+      "price_note": "50% profit boost; base +290, displayed boosted +435. $10 wager, $53.50 payout; 40 rewards points pending. Exact bet ID and placement time were cut off in the screenshot; the date field uses the 2:51 PM CT time of the neighboring tickets and is approximate.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 53.5,
+      "potential_profit_usd": 43.5,
+      "rewards_points_pending": 40,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Harold Fannin Jr."
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "anytime touchdown scorer",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Watson anytime TD 12.8% vs +400 implied 20.0% (model below the price; model does not support this ticket)."
+      },
+      "bet_id": "us-tn:01m3wqt7g0f4ftxvtaszfb86n2",
+      "date": "2026-10-01T22:02:00Z",
+      "placed_at": "2026-10-01T22:02:00Z",
+      "bet": "Deshaun Watson anytime touchdown scorer",
+      "selection": "Watson scores a touchdown",
+      "price": 400,
+      "price_note": "$5 wager, $25.00 payout; 20 rewards points pending.",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "potential_payout_usd": 25.0,
+      "potential_profit_usd": 20.0,
+      "rewards_points_pending": 20,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Deshaun Watson"
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Rodgers 229 pass yds, Fannin 44.7 rec yds, Metcalf 49.4 rec yds, Judkins 48.2 rush yds, all above these alt lines."
+      },
+      "bet_id": "us-tn:01m3wqvyajfseb2mcw97793c57",
+      "date": "2026-10-01T22:02:00Z",
+      "placed_at": "2026-10-01T22:02:00Z",
+      "bet": "4-leg SGP: Rodgers 150+ pass yds, Fannin 20+ rec yds, Metcalf 30+ rec yds, Judkins 30+ rush yds",
+      "selection": "Rodgers 150+ passing yds; Fannin 20+ receiving yds; Metcalf 30+ receiving yds; Judkins 30+ rushing yds",
+      "price": 119,
+      "price_note": "$10 wager, $21.94 payout; 20 rewards points pending. The screenshot leg list scrolls; four legs are visible and the ticket description is truncated, so a fifth leg is possible but not seen.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 21.94,
+      "potential_profit_usd": 11.94,
+      "rewards_points_pending": 20,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "alt_passing_yards",
+          "selection": "Aaron Rodgers 150+"
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "alt_receiving_yards",
+          "selection": "Harold Fannin Jr. 20+"
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "alt_receiving_yards",
+          "selection": "DK Metcalf 30+"
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "alt_rushing_yards",
+          "selection": "Quinshon Judkins 30+"
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Cleveland Browns",
+      "kickoff": "2026-10-02T00:16:00Z",
+      "market": "same_game_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "open",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
+      "market_context_at_placement": {
+        "available": true,
+        "source": "User TN FanDuel screenshots",
+        "note": "Exact ticket odds and payout from the user's screenshots, not reconstructed from leg prices. Illinois captures are separate and are not these Tennessee ticket odds."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Model (props model, validated on past stats only, never tested against the market): Rodgers 229.3 pass yds, Boston 64.6 rec yds, Jeudy 29.2 rec yds. Model means run above low receiving lines, so gaps overstate the hit chance."
+      },
+      "bet_id": "us-tn:01m3wr3xy0exmsm1ev9x5mpx67",
+      "date": "2026-10-01T22:07:00Z",
+      "placed_at": "2026-10-01T22:07:00Z",
+      "bet": "3-leg SGP: Rodgers over 216.5 pass yds, Boston over 37.5 rec yds, Jeudy over 14.5 rec yds",
+      "selection": "Rodgers over 216.5 passing yds; Boston over 37.5 receiving yds; Jeudy over 14.5 receiving yds",
+      "price": 467,
+      "price_note": "Bet reset token on slip. $5 wager, $28.37 payout; 20 rewards points pending. TN Rodgers line 216.5 vs 214.5 on the IL capture.",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "potential_payout_usd": 28.37,
+      "potential_profit_usd": 23.37,
+      "rewards_points_pending": 20,
+      "screenshot_received_at": "2026-10-01T22:08:03Z",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "passing_yards",
+          "selection": "Aaron Rodgers over 216.5"
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "receiving_yards",
+          "selection": "Denzel Boston over 37.5"
+        },
+        {
+          "event": "Pittsburgh Steelers @ Cleveland Browns",
+          "kickoff": "2026-10-02T00:16:00Z",
+          "market": "receiving_yards",
+          "selection": "Jerry Jeudy over 14.5"
+        }
+      ]
     }
   ]
 }

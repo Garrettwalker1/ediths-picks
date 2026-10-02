@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-02T03:46:00Z",
+  "updated_at": "2026-10-02T03:55:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2964,10 +2964,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": "win",
+      "result": "cashout",
       "status": "settled",
-      "net_units": 17.231,
-      "net_usd": 172.31,
+      "net_units": -0.223,
+      "net_usd": -2.23,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3009,12 +3009,13 @@
         }
       ],
       "grading": {
-        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
-        "graded_at": "2026-10-02T03:46:00Z",
-        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
-        "detail": "Fannin 2-yd TD catch and Freiermuth 3-yd TD catch both scored.",
-        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
-      }
+        "source": "User-provided FanDuel Settled-tab screenshot (phonemsg-01M3XBS2B4MACB42X9NKXXM5TY, 10:50 PM CT Oct 1)",
+        "graded_at": "2026-10-02T03:55:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT); cashed out in the 4th quarter at PIT 24, CLE 27",
+        "detail": "Cashed out for $7.77 on a $10.00 stake while the game was live. Settled as cash-out, -$2.23 (-0.223u). Would have won had it been held: +$172.31 (+17.23u) per the box score (both legs scored). Earlier grading of this ticket as a full win was wrong and is corrected.",
+        "would_have_won_profit_usd": 172.31
+      },
+      "cashout_value_usd": 7.77
     },
     {
       "sport": "NFL",
@@ -3024,10 +3025,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": "win",
+      "result": "cashout",
       "status": "settled",
-      "net_units": 3.6,
-      "net_usd": 36.0,
+      "net_units": -0.782,
+      "net_usd": -7.82,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3062,12 +3063,13 @@
         }
       ],
       "grading": {
-        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
-        "graded_at": "2026-10-02T03:46:00Z",
-        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
-        "detail": "Freiermuth 3-yd TD catch.",
-        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
-      }
+        "source": "User-provided FanDuel Settled-tab screenshot (phonemsg-01M3XBS2B4MACB42X9NKXXM5TY, 10:50 PM CT Oct 1)",
+        "graded_at": "2026-10-02T03:55:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT); cashed out in the 4th quarter at PIT 24, CLE 27",
+        "detail": "Cashed out for $2.18 on a $10.00 stake while the game was live. Settled as cash-out, -$7.82 (-0.782u). Would have won had it been held: +$36.00 (+3.60u) per the box score (both legs scored). Earlier grading of this ticket as a full win was wrong and is corrected.",
+        "would_have_won_profit_usd": 36.0
+      },
+      "cashout_value_usd": 2.18
     },
     {
       "sport": "NFL",

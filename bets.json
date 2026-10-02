@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-01T22:12:00Z",
+  "updated_at": "2026-10-02T03:46:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -2964,10 +2964,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 17.231,
+      "net_usd": 172.31,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -2997,15 +2997,24 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "anytime_touchdown",
-          "selection": "Harold Fannin Jr."
+          "selection": "Harold Fannin Jr.",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "anytime_touchdown",
-          "selection": "Pat Freiermuth"
+          "selection": "Pat Freiermuth",
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Fannin 2-yd TD catch and Freiermuth 3-yd TD catch both scored.",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     },
     {
       "sport": "NFL",
@@ -3015,10 +3024,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 3.6,
+      "net_usd": 36.0,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3048,9 +3057,17 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "anytime_touchdown",
-          "selection": "Pat Freiermuth"
+          "selection": "Pat Freiermuth",
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Freiermuth 3-yd TD catch.",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     },
     {
       "sport": "NFL",
@@ -3060,10 +3077,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 4.35,
+      "net_usd": 43.5,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3093,9 +3110,17 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "anytime_touchdown",
-          "selection": "Harold Fannin Jr."
+          "selection": "Harold Fannin Jr.",
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Fannin 2-yd TD catch.",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     },
     {
       "sport": "NFL",
@@ -3105,10 +3130,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -0.5,
+      "net_usd": -5,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3138,9 +3163,17 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "anytime_touchdown",
-          "selection": "Deshaun Watson"
+          "selection": "Deshaun Watson",
+          "hit": false
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Watson had no rushing or receiving TD (1 passing TD, which does not count for anytime TD). 7 carries, 22 yds, 0 TD.",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     },
     {
       "sport": "NFL",
@@ -3150,10 +3183,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 1.194,
+      "net_usd": 11.94,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3183,27 +3216,38 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "alt_passing_yards",
-          "selection": "Aaron Rodgers 150+"
+          "selection": "Aaron Rodgers 150+",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "alt_receiving_yards",
-          "selection": "Harold Fannin Jr. 20+"
+          "selection": "Harold Fannin Jr. 20+",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "alt_receiving_yards",
-          "selection": "DK Metcalf 30+"
+          "selection": "DK Metcalf 30+",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "alt_rushing_yards",
-          "selection": "Quinshon Judkins 30+"
+          "selection": "Quinshon Judkins 30+",
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Rodgers 299 pass yds (150+), Fannin 27 rec yds (20+), Metcalf 115 rec yds (30+), Judkins 53 rush yds (30+). All four visible legs hit. Unconfirmed: the slip's leg list scrolled, so a fifth leg could exist and was not checked.",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     },
     {
       "sport": "NFL",
@@ -3213,10 +3257,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "open",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 2.337,
+      "net_usd": 23.37,
       "stake_type": "cash",
       "source": "User-provided Tennessee FanDuel open-bet screenshots (phonemsg-01M3WR5BH9CR9A0TCH3ZKMNPCD), received Oct 1 5:08 PM CT.",
       "market_context_at_placement": {
@@ -3246,21 +3290,31 @@
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "passing_yards",
-          "selection": "Aaron Rodgers over 216.5"
+          "selection": "Aaron Rodgers over 216.5",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "receiving_yards",
-          "selection": "Denzel Boston over 37.5"
+          "selection": "Denzel Boston over 37.5",
+          "hit": true
         },
         {
           "event": "Pittsburgh Steelers @ Cleveland Browns",
           "kickoff": "2026-10-02T00:16:00Z",
           "market": "receiving_yards",
-          "selection": "Jerry Jeudy over 14.5"
+          "selection": "Jerry Jeudy over 14.5",
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "ESPN final box score and scoring plays: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "graded_at": "2026-10-02T03:46:00Z",
+        "final_score": "Cleveland Browns 27, Pittsburgh Steelers 24 (OT)",
+        "detail": "Rodgers 299 pass yds (over 216.5), Boston 89 rec yds (over 37.5), Jeudy 36 rec yds (over 14.5).",
+        "settlement_note": "Graded from the box score at the slip's displayed payout, not from a FanDuel settled slip."
+      }
     }
   ]
 }

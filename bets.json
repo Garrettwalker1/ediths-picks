@@ -3759,6 +3759,88 @@
           "hit": null
         }
       ]
+    },
+    {
+      "bet_id": "us-tn:slip-20261004-4leg-atd-brown-andrews-ferguson-mcmillan",
+      "sport": "NFL",
+      "game": "Jacksonville Jaguars @ Cincinnati Bengals; Tennessee Titans @ Baltimore Ravens; Dallas Cowboys @ Houston Texans; Detroit Lions @ Carolina Panthers",
+      "kickoff": "2026-10-04T17:01:00Z",
+      "market": "anytime_touchdown_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "4-leg anytime TD parlay: Chase Brown, Mark Andrews, Jake Ferguson, Tetairoa McMillan",
+      "selection": "Chase Brown ATD (-145); Mark Andrews ATD (+165); Jake Ferguson ATD (+320); Tetairoa McMillan ATD (+115)",
+      "price": 3943,
+      "price_note": "No boost shown. Leg prices multiply to about +3943, matching the ticket, so they are clean TN book prices. Only ticket odds, wager and payout are used for results.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 404.33,
+      "potential_profit_usd": 394.33,
+      "rewards_points_pending": 50,
+      "cashout_value_usd_at_capture": 10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot (phonemsg-01M43JZBVG8X90SMPNYK5WX78Q), received Oct 4 8:52 AM CT (phone clock 9:51 ET). The bet ID and placed time were not visible; the ID line at the top of the image belongs to a different ticket (us-tn:01m3ytyrcgem9ryq63dzb3ybxt, placed 10/2 12:35 PM CT). Bet ID here is a placeholder; placed time unknown, before 8:51 AM CT Oct 4.",
+      "date": "2026-10-04T13:51:00Z",
+      "placed_at": null,
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "slip",
+        "captured_at": "2026-10-04T13:51:00Z",
+        "prices": {
+          "Chase Brown": -145,
+          "Mark Andrews": 165,
+          "Jake Ferguson": 320,
+          "Tetairoa McMillan": 115
+        },
+        "note": "Unboosted TN prices from the slip. IL Oct 1 prices: Chase Brown -170 (model 45.7%); Mark Andrews +150 (model 18.5%); Jake Ferguson +320 (model 40.6%); Tetairoa McMillan +155 (model 29.6%)"
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Week 4 TD model (recency-weighted TD rate through Week 3, shrunk to position average; no injury or weather input; no validated edge). Product of leg model probabilities, assuming independence: 1.0%. Ticket implies 2.5%."
+      },
+      "legs": [
+        {
+          "event": "Jacksonville Jaguars @ Cincinnati Bengals",
+          "kickoff": "2026-10-04T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Chase Brown",
+          "price": -145,
+          "model_prob": 0.457,
+          "hit": null
+        },
+        {
+          "event": "Tennessee Titans @ Baltimore Ravens",
+          "kickoff": "2026-10-04T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Mark Andrews",
+          "price": 165,
+          "model_prob": 0.185,
+          "hit": null
+        },
+        {
+          "event": "Dallas Cowboys @ Houston Texans",
+          "kickoff": "2026-10-04T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jake Ferguson",
+          "price": 320,
+          "model_prob": 0.406,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Carolina Panthers",
+          "kickoff": "2026-10-05T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Tetairoa McMillan",
+          "price": 115,
+          "model_prob": 0.296,
+          "hit": null
+        }
+      ]
     }
   ]
 }

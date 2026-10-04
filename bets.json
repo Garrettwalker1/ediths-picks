@@ -3687,6 +3687,78 @@
           "hit": null
         }
       ]
+    },
+    {
+      "bet_id": "us-tn:01m43hwpkkezrvd4y9res069dv",
+      "sport": "NFL",
+      "game": "Green Bay Packers @ Tampa Bay Buccaneers; Denver Broncos @ San Francisco 49ers; Kansas City Chiefs @ Las Vegas Raiders",
+      "kickoff": "2026-10-04T17:01:00Z",
+      "market": "anytime_touchdown_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "3-leg anytime TD parlay: Christian Watson, George Kittle, Brock Bowers",
+      "selection": "Christian Watson ATD (+175); George Kittle ATD (+190); Brock Bowers ATD (+175)",
+      "price": 2093,
+      "price_note": "No boost. Leg prices multiply to about +2093, matching the ticket, so they are clean TN book prices. Only ticket odds, wager and payout are used for results.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 219.31,
+      "potential_profit_usd": 209.31,
+      "rewards_points_pending": 50,
+      "cashout_value_usd_at_capture": 10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot (phonemsg-01M43HXA6ZQ7AAD0GAMKAY3Y53), received Oct 4 8:33 AM CT. Slip bet ID us-tn:01m43hwpkkezrvd4y9res069dv, placed 10/4/2026 8:33 AM CT.",
+      "date": "2026-10-04T13:33:00Z",
+      "placed_at": "2026-10-04T13:33:00Z",
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "slip",
+        "captured_at": "2026-10-04T13:33:00Z",
+        "prices": {
+          "Christian Watson": 175,
+          "George Kittle": 190,
+          "Brock Bowers": 175
+        },
+        "note": "Unboosted TN prices from the slip. IL Oct 1 prices: Christian Watson +155 (model 44.9%); George Kittle +160 (model 42.4%); Brock Bowers +185 (model 40.1%)"
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Week 4 TD model (recency-weighted TD rate through Week 3, shrunk to position average; no injury or weather input; no validated edge). Product of leg model probabilities, assuming independence: 7.6%. Ticket implies 4.4%."
+      },
+      "legs": [
+        {
+          "event": "Green Bay Packers @ Tampa Bay Buccaneers",
+          "kickoff": "2026-10-04T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian Watson",
+          "price": 175,
+          "model_prob": 0.449,
+          "hit": null
+        },
+        {
+          "event": "Denver Broncos @ San Francisco 49ers",
+          "kickoff": "2026-10-04T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Kittle",
+          "price": 190,
+          "model_prob": 0.424,
+          "hit": null
+        },
+        {
+          "event": "Kansas City Chiefs @ Las Vegas Raiders",
+          "kickoff": "2026-10-04T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Brock Bowers",
+          "price": 175,
+          "model_prob": 0.401,
+          "hit": null
+        }
+      ]
     }
   ]
 }

@@ -3510,7 +3510,7 @@
           "Josh Allen": -125,
           "Jahmyr Gibbs": -340
         },
-        "note": "TN slip prices, 8:19 AM CT Oct 4. IL prices are the Thursday Oct 1 3 PM CT capture."
+        "note": "TN slip prices, 8:19 AM CT Oct 4. IL prices are the Thursday Oct 1 3 PM CT capture. Correction: the slip leg prices multiply to about +292, close to the boosted +294, so they likely already include the 30% boost. The IL vs TN price gap above is mostly the boost, not a cleaner TN line."
       },
       "model_at_placement": {
         "available": true,
@@ -3542,6 +3542,148 @@
           "selection": "Jahmyr Gibbs",
           "price": -271,
           "model_prob": 0.648,
+          "hit": null
+        }
+      ]
+    },
+    {
+      "bet_id": "us-tn:01m43h6eq7f3rbqy74qj42e74x",
+      "sport": "NFL",
+      "game": "Indianapolis Colts @ Washington Commanders; Denver Broncos @ San Francisco 49ers; Los Angeles Chargers @ Seattle Seahawks",
+      "kickoff": "2026-10-04T13:30:00Z",
+      "market": "anytime_touchdown_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "3-leg anytime TD parlay: Jonathan Taylor, Christian McCaffrey, Jaxon Smith-Njigba",
+      "selection": "Jonathan Taylor ATD (-243); Christian McCaffrey ATD (-148); Jaxon Smith-Njigba ATD (-117)",
+      "price": 340,
+      "price_note": "30% Profit Boost. Ticket odds +262 before the boost, +340 after (slip).  Only ticket odds, wager and payout are used for results.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 44.03,
+      "potential_profit_usd": 34.03,
+      "cashout_value_usd_at_capture": 10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot (phonemsg-01M43HDAE3SP64EP7B9HHCDWSP), received Oct 4 8:24 AM CT. Slip bet ID us-tn:01m43h6eq7f3rbqy74qj42e74x, placed 10/4/2026 8:21 AM CT, before the 8:30 AM CT Colts kickoff.",
+      "date": "2026-10-04T13:21:00Z",
+      "placed_at": "2026-10-04T13:21:00Z",
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "slip",
+        "captured_at": "2026-10-04T13:21:00Z",
+        "prices": {
+          "Jonathan Taylor": -243,
+          "Christian McCaffrey": -148,
+          "Jaxon Smith-Njigba": -117
+        },
+        "note": "Leg prices as shown on the slip. They multiply to about the boosted ticket odds, so they likely already include the boost; they are not clean unboosted TN book prices."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Week 4 TD model (recency-weighted TD rate through Week 3, shrunk to position average; no injury or weather input; no validated edge). Product of leg model probabilities, assuming independence: 19.2%. Ticket implies 22.73%."
+      },
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Washington Commanders",
+          "kickoff": "2026-10-04T13:30:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jonathan Taylor",
+          "price": -243,
+          "model_prob": 0.591,
+          "hit": null
+        },
+        {
+          "event": "Denver Broncos @ San Francisco 49ers",
+          "kickoff": "2026-10-04T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian McCaffrey",
+          "price": -148,
+          "model_prob": 0.592,
+          "hit": null
+        },
+        {
+          "event": "Los Angeles Chargers @ Seattle Seahawks",
+          "kickoff": "2026-10-04T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "price": -117,
+          "model_prob": 0.548,
+          "hit": null
+        }
+      ]
+    },
+    {
+      "bet_id": "us-tn:slip-20261004-3leg-atd-ferguson-jennings-jsn",
+      "sport": "NFL",
+      "game": "Dallas Cowboys @ Houston Texans; Miami Dolphins @ Minnesota Vikings; Los Angeles Chargers @ Seattle Seahawks",
+      "kickoff": "2026-10-04T17:01:00Z",
+      "market": "anytime_touchdown_parlay",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "result": null,
+      "status": "pending",
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "3-leg anytime TD parlay: Jake Ferguson, Jauan Jennings, Jaxon Smith-Njigba",
+      "selection": "Jake Ferguson ATD (+379); Jauan Jennings ATD (+493); Jaxon Smith-Njigba ATD (-102)",
+      "price": 5553,
+      "price_note": "50% Profit Boost. Ticket odds +3702 before the boost, +5553 after (slip). The +3702 pre-boost number does not match the leg prices shown (they multiply to about +5524), so the leg prices were probably shown boosted. Only ticket odds, wager and payout are used for results.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 565.31,
+      "potential_profit_usd": 555.31,
+      "cashout_value_usd_at_capture": 10,
+      "source": "User-provided Tennessee FanDuel open-bet screenshot (phonemsg-01M43HDAE3SP64EP7B9HHCDWSP), received Oct 4 8:24 AM CT. Bet ID and placed time were cropped off the slip; placed about 8:2x AM CT Oct 4 (before the 12:01 PM CT kickoff). Bet ID here is a placeholder.",
+      "date": "2026-10-04T13:23:00Z",
+      "placed_at": "2026-10-04T13:23:00Z",
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "slip",
+        "captured_at": "2026-10-04T13:23:00Z",
+        "prices": {
+          "Jake Ferguson": 379,
+          "Jauan Jennings": 493,
+          "Jaxon Smith-Njigba": -102
+        },
+        "note": "Leg prices as shown on the slip. They multiply to about the boosted ticket odds, so they likely already include the boost; they are not clean unboosted TN book prices."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Week 4 TD model (recency-weighted TD rate through Week 3, shrunk to position average; no injury or weather input; no validated edge). Product of leg model probabilities, assuming independence: 8.5%. Ticket implies 1.77%."
+      },
+      "legs": [
+        {
+          "event": "Dallas Cowboys @ Houston Texans",
+          "kickoff": "2026-10-04T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jake Ferguson",
+          "price": 379,
+          "model_prob": 0.406,
+          "hit": null
+        },
+        {
+          "event": "Miami Dolphins @ Minnesota Vikings",
+          "kickoff": "2026-10-04T21:06:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jauan Jennings",
+          "price": 493,
+          "model_prob": 0.381,
+          "hit": null
+        },
+        {
+          "event": "Los Angeles Chargers @ Seattle Seahawks",
+          "kickoff": "2026-10-04T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "price": -102,
+          "model_prob": 0.548,
           "hit": null
         }
       ]

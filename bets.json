@@ -3329,10 +3329,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "loss",
+      "status": "settled",
+      "net_units": -1,
+      "net_usd": -10,
       "stake_type": "cash",
       "bet": "3-leg parlay: Tennessee -6.5, South Carolina -2.5, BYU -5.5 (spreads)",
       "selection": "Tennessee -6.5 (-101); South Carolina -2.5 (+101); BYU -5.5 (-103)",
@@ -3362,7 +3362,7 @@
           "market": "spread",
           "selection": "Tennessee -6.5",
           "price": -101,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Kentucky @ South Carolina",
@@ -3370,7 +3370,7 @@
           "market": "spread",
           "selection": "South Carolina -2.5",
           "price": 101,
-          "hit": null
+          "hit": false
         },
         {
           "event": "BYU @ TCU",
@@ -3378,9 +3378,15 @@
           "market": "spread",
           "selection": "BYU -5.5",
           "price": -103,
-          "hit": null
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "Finals: Tennessee 24-14 Auburn, Kentucky 35-34 OT South Carolina, BYU 17-10 TCU (UT, UK, BYU athletics sites).",
+        "graded_at": "2026-10-04T13:16:00Z",
+        "detail": "Tennessee -6.5 and BYU -5.5 covered; South Carolina -2.5 missed (lost in OT). One missed leg loses the parlay.",
+        "settlement_note": "Garrett confirmed in the main thread (Oct 4, 8:15 AM CT, \"That lost\") that the ticket settled as a loss, no cash-out. A settled slip screenshot was not provided."
+      }
     },
     {
       "sport": "CFB",

@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-05T23:30:00Z",
+ "updated_at": "2026-10-05T23:35:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4010,6 +4010,74 @@
      "selection": "Kendre Miller",
      "price": null,
      "model_prob": 0.23,
+     "hit": null
+    }
+   ]
+  },
+  {
+   "bet_id": "us-tn:slip-20261005-sgp-hooper-kamara-bijan",
+   "sport": "NFL",
+   "game": "Atlanta Falcons @ New Orleans Saints",
+   "kickoff": "2026-10-06T00:16:00Z",
+   "market": "same_game_parlay_mixed",
+   "book": "FanDuel",
+   "state": "TN",
+   "line": null,
+   "result": null,
+   "status": "pending",
+   "net_units": null,
+   "net_usd": null,
+   "stake_type": "cash",
+   "bet": "Same Game Parlay: Austin Hooper anytime TD, Alvin Kamara receiving yds over 15.5, Bijan Robinson receiving yds over 35.5",
+   "selection": "Austin Hooper ATD; Alvin Kamara Over 15.5 Receiving Yds; Bijan Robinson Over 35.5 Receiving Yds (leg prices not shown)",
+   "price": 3793,
+   "price_note": "50% Profit Boost: +2529 before the boost, +3793 after. Leg prices not shown on the slip. Price is boosted. Only ticket odds, wager and payout are used for results.",
+   "stake_usd": 5,
+   "stake_units": 0.5,
+   "potential_payout_usd": 194.66,
+   "potential_profit_usd": 189.66,
+   "cashout_value_usd_at_capture": 5,
+   "source": "User-provided Tennessee FanDuel open-bet screenshot (phonemsg-01M476AKMKBVHKBV4YS1R1TZ2Z), received Oct 5 6:28 PM CT. Bet ID and placed time were cropped (placed about 6:27 PM CT). Bet ID here is a placeholder.",
+   "date": "2026-10-05T23:27:00Z",
+   "placed_at": "2026-10-05T23:27:00Z",
+   "market_context_at_placement": {
+    "state": "TN",
+    "source": "slip",
+    "captured_at": "2026-10-05T23:27:00Z",
+    "prices": {},
+    "unboosted_ticket_price": 2529,
+    "note": "Leg prices not shown. FanDuel IL at about 6:25 PM CT showed Hooper ATD +850, Kamara receiving over 15.5 -113, Bijan receiving over 35.5 -113 (comparison only, not TN)."
+   },
+   "model_at_placement": {
+    "available": true,
+    "note": "Hooper TD 20.4% (Week 4 TD model, no validated edge). Kamara receiving yds median 26.4 and Bijan 46.7 from the Sep 22 baseline (stats through Week 2, generic, no injury or matchup input); rough P(over) about 67% each by interpolating p20/median/p80. Independent product about 9.2% vs 2.6% implied by +3793 (3.8% before the boost). The legs are correlated through game flow, so the independent product is only a rough guide."
+   },
+   "legs": [
+    {
+     "event": "Atlanta Falcons @ New Orleans Saints",
+     "kickoff": "2026-10-06T00:16:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Austin Hooper",
+     "price": null,
+     "model_prob": 0.204,
+     "hit": null
+    },
+    {
+     "event": "Atlanta Falcons @ New Orleans Saints",
+     "kickoff": "2026-10-06T00:16:00Z",
+     "market": "receiving_yards_over",
+     "selection": "Alvin Kamara over 15.5",
+     "price": null,
+     "model_prob": 0.67,
+     "hit": null
+    },
+    {
+     "event": "Atlanta Falcons @ New Orleans Saints",
+     "kickoff": "2026-10-06T00:16:00Z",
+     "market": "receiving_yards_over",
+     "selection": "Bijan Robinson over 35.5",
+     "price": null,
+     "model_prob": 0.67,
      "hit": null
     }
    ]

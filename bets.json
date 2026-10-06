@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-06T12:16:54Z",
+  "updated_at": "2026-10-06T12:19:19Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -3478,10 +3478,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "result": null,
-      "status": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "result": "win",
+      "status": "settled",
+      "net_units": 2.943,
+      "net_usd": 29.43,
       "stake_type": "cash",
       "bet": "3-leg anytime TD parlay: Derrick Henry, Josh Allen, Jahmyr Gibbs",
       "selection": "Derrick Henry ATD (-190); Josh Allen ATD (-114); Jahmyr Gibbs ATD (-271)",
@@ -3544,7 +3544,8 @@
           "model_prob": 0.648,
           "hit": null
         }
-      ]
+      ],
+      "grading": "Settled per Garrett (phonemsg-01M48JEBR96NNDFB22G3GE9Y5C, Oct 6 7:19 AM CT, \"Settled\"); no cash-out. All legs verified from final ESPN box score: Henry 5 yd rush TD, Josh Allen 2 yd rush TD, Gibbs 1 yd rush TD. Paid at slip payout $39.43 (+294 boosted)."
     },
     {
       "bet_id": "us-tn:01m43h6eq7f3rbqy74qj42e74x",

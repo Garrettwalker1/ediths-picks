@@ -7,8 +7,12 @@
    "sha256": "87e03553c5bd90a1123710d222e25af72042262f3251c6c24bfb30563545e358"
   },
   {
+   "path": "tools/nfl/injury_v2/README.md",
+   "sha256": "16c0da3a7acb92017cdb8fa6888396476df1b59d1124fc578510c58684c02c29"
+  },
+  {
    "path": "tools/nfl/injury_v2/forward_predictions_20261007.json",
-   "sha256": "4358f67208eeef0b4803ace5e829f801f1ee3b32abcc26b5d2dc17eadf780b29"
+   "sha256": "28c46fda1f6dd0b8a427114eba4144f532d6bbcbba1ad04044f9fd802b112f07"
   },
   {
    "path": "tools/nfl/injury_v2/evaluate.py",
@@ -44,5 +48,6 @@
   }
  ],
  "baseline_sha256": "9ce4b7c7475707213aae006df736aceccac8b5fb6558f496297ea813efdf70d3",
- "model_tracking_sha256": "d631df8e7e7fb28b4d4ee626609fc92cec7260310acacd743a7e930441703774"
+ "model_tracking_sha256": "d631df8e7e7fb28b4d4ee626609fc92cec7260310acacd743a7e930441703774",
+ "forecast_artifact_sha256": "28c46fda1f6dd0b8a427114eba4144f532d6bbcbba1ad04044f9fd802b112f07"
 }

@@ -3,7 +3,7 @@
 Model v2.2 uses validated AP points, point-in-time historical fit, and outcome-null
 as-of rows to include each 2026 team latest completed game. Book display only.
 """
-import numpy as np, pandas as pd, json, glob, sys, html, re, urllib.request
+import numpy as np, pandas as pd, json, glob, sys, html, re, urllib.request, copy
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -237,13 +237,33 @@ for d in SLATE_DATES:
     sb=fetch(f'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates={d}&groups=80&limit=400')
     for e in sb.get('events',[]): events[e['id']]=e
 print('slate events:',len(events))
-assert len(events)>=50 and all(e['status']['type']['state']=='pre' for e in events.values()), 'Week 6 slate incomplete or started; pause scoring'
+assert len(events)>=50, 'Week 6 slate incomplete; pause scoring'
+previous_path=REPO/'tools/cfb/29-cfb_board_2026_week6_initial_v2_2.json'
+previous=json.load(open(previous_path)) if previous_path.exists() else {}
+previous_games={str(b['event_id']):b for b in previous.get('games',[])}
+previous_errors={str(b['event_id']):b for b in previous.get('errors',[])}
+check_time=datetime.now(ZoneInfo('UTC'))
+started_ids={eid for eid,e in events.items() if e['status']['type']['state']!='pre'
+             or datetime.fromisoformat(e['competitions'][0]['date'].replace('Z','+00:00'))<=check_time}
 board=[]; errs=[]
 for eid,e in events.items():
     comp=e['competitions'][0]
     comps={c['homeAway']:c['team']['displayName'] for c in comp['competitors']}
     home,away=comps['home'],comps['away']
     neutral=bool(comp.get('neutralSite'))
+    if eid in started_ids:
+        if eid in previous_errors:
+            errs.append(copy.deepcopy(previous_errors[eid])); continue
+        assert eid in previous_games, f'No frozen pregame model for started event {eid}; pause scoring'
+        frozen=copy.deepcopy(previous_games[eid])
+        assert frozen['home']==home and frozen['away']==away, 'Frozen event identity changed'
+        if frozen.get('book_tn'):
+            assert datetime.fromisoformat(frozen['book_tn']['captured_at'].replace('Z','+00:00')) < datetime.fromisoformat(frozen['date'].replace('Z','+00:00')), 'Prior quote is not pregame'
+        frozen['frozen_initial']=True
+        frozen['book_frozen_pregame']=True
+        frozen['event_state']=e['status']['type']['state']
+        board.append(frozen)
+        continue
     if home not in feat26.index or away not in feat26.index:
         errs.append({'event_id':eid,'name':e['name'],'date':comp['date'],'error':'team not in validated FBS corpus (FCS or new program)','week':6}); continue
     hr=feat26.loc[home]; ar=feat26.loc[away]
@@ -282,12 +302,24 @@ if BOOK_CSV and BOOK_CSV.exists():
     import csv as _csv
     book_rows=list(_csv.DictReader(open(BOOK_CSV)))
     print('book rows loaded:', len(book_rows))
+# Older immutable captures can supply the last pregame quote of a started game.
+# Never use an in-play quote, even if the sportsbook leaves it in this listing.
+archive_rows=[]
+if BOOK_CSV:
+    import csv as _csv
+    for cp in sorted(BOOK_CSV.parent.glob('*cfb_week6_fanduel_*.csv')):
+        archive_rows.extend(_csv.DictReader(open(cp)))
 matched=0
 for b in ok:
     bdt=datetime.fromisoformat(b['date'].replace('Z','+00:00'))
     best=None
-    for r in book_rows:
+    candidates=archive_rows if b.get('book_frozen_pregame') else book_rows
+    for r in sorted(candidates,key=lambda r:r['captured_at'],reverse=True):
         rdt=datetime.fromisoformat(r['kickoff'].replace('Z','+00:00'))
+        captured=datetime.fromisoformat(r['captured_at'].replace('Z','+00:00'))
+        if captured>=min(rdt,bdt): continue
+        if b.get('book_frozen_pregame') and b.get('book_tn'):
+            if captured<=datetime.fromisoformat(b['book_tn']['captured_at'].replace('Z','+00:00')): continue
         if abs((rdt-bdt).total_seconds())>18*3600: continue
         if fd_match_team(r['away'], b['away']) and fd_match_team(r['home'], b['home']):
             best=r; break
@@ -301,8 +333,9 @@ for b in ok:
             'total':float(best['total']) if best['total'] else None,
             'over_odds':int(best['over_odds']) if best['over_odds'] else None,
             'under_odds':int(best['under_odds']) if best['under_odds'] else None,
-            'away_ml':int(best['away_ml']) if best['away_ml'] and best['away_ml']!='None' else None,
-            'home_ml':int(best['home_ml']) if best['home_ml'] and best['home_ml']!='None' else None}
+            'away_ml':int(best['away_ml']) if re.fullmatch(r'[+-]?\d+',best['away_ml'] or '') else None,
+            'home_ml':int(best['home_ml']) if re.fullmatch(r'[+-]?\d+',best['home_ml'] or '') else None}
+matched=sum(1 for b in ok if b.get('book_tn'))
 # Do not carry prior-week quotes forward. A Week 6 quote must be captured for its actual event.
 print('book matched to board:', matched, 'fallback:',sum(1 for b in ok if b.get('book_tn') and b['book_tn']['state']=='TN'))
 
@@ -314,7 +347,7 @@ out={'schema_version':'1.1.0','generated_at':gen,
  'label':'MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.',
  'window':'2026-10-06..2026-10-12 (Week 6, FBS)',
  'notes':['Week 6 initial pregame scores generated Oct 4 after 59 Week 5 games were final. Boxscores archived separately. As-of rows advance every 2026 team through its latest final. No retrospective changes to frozen Week 5 predictions.',
-  'Book lines are comparison only, never model inputs. No current Week 6 capture is attached to this run.',
+  'Book lines are comparison only, never model inputs. Started games retain their frozen pregame model and last available pregame quote; remaining games use the current capture. Every quote carries its own timestamp.',
   'AP points feature validated on historical 2024 validation and 2025 locked test. Current Oct 4 AP Top 25 poll (Week 6) is archived from ESPN and published before Week 6 kickoff. Unranked is zero.',
   'Historical injury feature is null. No unsourced point adjustment was made.'],
  'sources':{'ap':'https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings',
@@ -363,7 +396,7 @@ for b in ok:
     chips=[]
     if b.get('neutral_site'): chips.append('<span class="chip chip-muted">NEUTRAL</span>')
     if b['timing']=='post_kickoff': chips.append('<span class="chip chip-flag">POST-KICKOFF</span>')
-    elif b.get('frozen_initial'): chips.append('<span class="chip chip-muted">ORIGINAL PREGAME</span>')
+    elif b.get('frozen_initial'): chips.append('<span class="chip chip-muted">FROZEN PREGAME</span>')
     else: chips.append('<span class="chip chip-neutral">INITIAL OCT 4</span>')
     if bv and bv.get('home_spread') is not None:
         hs=bv['home_spread']
@@ -383,12 +416,16 @@ for b in ok:
         else:
             bk='<span class=dimtxt>no matched book line</span>'
             gap='No FanDuel Week 6 price matched for this game. This is not a betting recommendation.'
+    quote_note=''
+    if bv:
+        cap_ct=datetime.fromisoformat(bv['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Chicago'))
+        quote_note=f"<div class=news>Book {esc(bv_state)} captured {cap_ct.strftime('%b %-d, %-I:%M %p CT')}{' - last available pregame quote; frozen after kickoff' if b.get('book_frozen_pregame') else ''}.</div>"
     sec[b['week']].append(
       f'<details class=game><summary><div class=bmatch>{esc(away)} at {esc(home)}</div>'
       f'<div class=bmeta>{et_time(dt)}{"".join(chips)}</div>'
       f'<div class=bgrid><span class=bg-lab>MODEL</span><span class=bnum>{esc(ml)}</span></div>'
       f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div></summary>'
-      f'<div class=bfoot>{table}<div class=news>Model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
+      f'<div class=bfoot>{quote_note}{table}<div class=news>Model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
       f'<div class=news>{esc(b["timing_note"])}</div></div></details>')
 
 n_post=sum(1 for b in ok if b['timing']=='post_kickoff')
@@ -448,7 +485,7 @@ a {{color:#58a6ff}}
 </style></head><body><div class=wrap>
 <header><h1>E.D.I.T.H. <span>CFB</span> BOARD</h1><div id=updated>Week 6, 2026 - initial model + book comparison{(' - '+esc(BOOK_LABEL)) if BOOK_LABEL else ' (no current capture)'} - updated {esc(gen_label)}</div></header>
 <div class=banner>MEASUREMENT ONLY - NOT PICKS. This model has not been proven against book lines. It exists to measure whether the model\'s margins track reality.</div>
-<div class=note-card><b>Book lines:</b> {esc(BOOK_LABEL) if BOOK_LABEL else 'no current Week 6 capture; every book price is null'} - labeled comparison display, never a model input. MODEL display lines round to the nearest 0.5 point; underlying model outputs and grading precision are unchanged. Initial Week 5 model numbers use completed Week 4 results and the Sep 27 AP poll. The supplied jurisdiction-labeled book comparison is shown where matched; unmatched games have null book prices. Comparison tracked, not a pick. CFB uses FBS sides/totals only, no college props.</div>
+<div class=note-card><b>Book lines:</b> {esc(BOOK_LABEL) if BOOK_LABEL else 'no current Week 6 capture; every book price is null'} - labeled comparison display, never a model input. MODEL display lines round to the nearest 0.5 point; underlying model outputs and grading precision are unchanged. Week 6 model numbers use completed Week 5 results and the Oct 4 AP poll. Started games retain their pregame model and last available pregame book quote; remaining games keep refreshing. Each game shows its own capture time. The supplied jurisdiction-labeled book comparison is shown where matched; unmatched games have null book prices. Comparison tracked, not a pick. CFB uses FBS sides/totals only, no college props.</div>
 <div class=note-card><b>Coverage:</b> {len(ok)} of {len(ok)+len(errs)} FBS-scheduled Week 6 games (Oct 6-12). Unscored games are listed below; FCS opponents are outside the model corpus.</div>
 <div class=note-card><b>Model:</b> cfb-gameline-v2.2 uses 2026 finals through Week 5 and the archived Oct 4 AP Top 25 points, published before kickoff. AP validation protocol: train 2020-23, validation 2024, locked test 2025; validation MAE 13.504 vs 13.589 base, locked-test MAE 13.116 vs 13.360, bootstrap delta 95% CI -0.453 to -0.040. Unranked teams get zero AP points. Injury impact remains unmodeled. <a href="https://github.com/Garrettwalker1/ediths-picks/blob/main/tools/cfb/29-cfb_board_2026_week6_initial_v2_2.json">Raw Week 6 board</a> - <a href="https://github.com/Garrettwalker1/ediths-picks/blob/main/tools/model_cfb_v2/ap_poll_experiment.json">AP validation</a>.</div>
 <input id=teamSearch placeholder="Filter teams">
@@ -458,5 +495,7 @@ a {{color:#58a6ff}}
 </div><script>document.getElementById('teamSearch').addEventListener('input',e=>{{const q=e.target.value.toLowerCase();document.querySelectorAll('details.game').forEach(d=>{{d.style.display=d.textContent.toLowerCase().includes(q)?'':'none'}})}});
 document.querySelectorAll('nav button').forEach(btn=>btn.addEventListener('click',()=>{{document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));btn.classList.add('on');document.querySelectorAll('section[data-week]').forEach(sc=>{{sc.hidden=sc.dataset.week!==btn.dataset.w}})}}))</script>
 </body></html>'''
+# Exact embedded readback data, preserved on every refresh.
+page=page.replace('</body>', '<script type="application/json" id="board-data">'+json.dumps(out).replace('</','<\\/')+'</script></body>')
 (OUT/'cfb-board-2026-week6.html').write_text(page)
 print('page bytes:',len(page.encode()))

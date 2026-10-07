@@ -1,0 +1,446 @@
+{
+  "protocol": "train residual weights 2020-22; select on 2023-24; 2025 SEEN diagnostic only",
+  "coverage": {
+    "injury_rows": 33398,
+    "weights_missing": 1840,
+    "weight_missing_policy": "zero, explicit missing coverage; not treated as healthy evidence",
+    "limitations": [
+      "IR players absent from report are not captured",
+      "2025 data has no publication timestamp; historical status assumed final pregame and cannot reproduce Wednesday status",
+      "first-year players lack prior weight",
+      "2025 previously seen; no fresh holdout claim"
+    ]
+  },
+  "variants": {
+    "margin": {
+      "qb": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.22553502951132,
+          "candidate_mae": 10.12992883127915,
+          "same_window_intercept_baseline_mae": 10.231879921305977,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.1019510900268285,
+            "ci95": [
+              -0.17688127494548306,
+              -0.03298407758627368
+            ]
+          },
+          "delta_mae": -0.0956061982321681,
+          "ci95": [
+            -0.18823223166889438,
+            -0.005412525819997963
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.227697554895078,
+          "candidate_mae": 10.17024573270571,
+          "same_window_intercept_baseline_mae": 10.220972165230778,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.05072643252506832,
+            "ci95": [
+              -0.20000221728610937,
+              0.10010025899285291
+            ]
+          },
+          "delta_mae": -0.05745182218936705,
+          "ci95": [
+            -0.22917446396205807,
+            0.11850912916076592
+          ]
+        },
+        "residual_intercept": -0.7499414381112146,
+        "baseline_residual_intercept": -0.7499414381112146,
+        "feature_mean": [
+          0.004486858573216522,
+          -0.0026647893199833127
+        ],
+        "feature_scale": [
+          0.33162510122249633,
+          0.3034698411303596
+        ],
+        "coefficients": {
+          "diff_QB_absent": -1.020655641554319,
+          "diff_QB_question": -0.410748342356068
+        }
+      },
+      "position_groups": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.22553502951132,
+          "candidate_mae": 10.103585370455963,
+          "same_window_intercept_baseline_mae": 10.231879921305977,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.1282945508500164,
+            "ci95": [
+              -0.2693921719166845,
+              0.010040689381657211
+            ]
+          },
+          "delta_mae": -0.12194965905535601,
+          "ci95": [
+            -0.27584319897125686,
+            0.027459815763375157
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.227697554895078,
+          "candidate_mae": 10.143995798018496,
+          "same_window_intercept_baseline_mae": 10.220972165230778,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.07697636721228546,
+            "ci95": [
+              -0.2938319092861986,
+              0.1331951585795037
+            ]
+          },
+          "delta_mae": -0.08370175687658418,
+          "ci95": [
+            -0.3087476717263259,
+            0.13896174021438046
+          ]
+        },
+        "residual_intercept": -0.7499414381112146,
+        "baseline_residual_intercept": -0.7499414381112146,
+        "feature_mean": [
+          0.004486858573216522,
+          -0.0026647893199833127,
+          0.0012015018773466823,
+          0.04582290362953693,
+          0.002660617438464749,
+          0.0020744680851063845,
+          -0.04231330830204421,
+          0.03943888193575301
+        ],
+        "feature_scale": [
+          0.33162510122249633,
+          0.3034698411303596,
+          0.5631268637663124,
+          0.7201932434045801,
+          0.603083667688977,
+          0.752320139838494,
+          0.8479540237351145,
+          1.220851342323889
+        ],
+        "coefficients": {
+          "diff_QB_absent": -0.9043218583247131,
+          "diff_QB_question": -0.34776685263668294,
+          "diff_SKILL_absent": -0.8977477119843584,
+          "diff_SKILL_question": -0.6852776696875755,
+          "diff_OL_absent": -0.07813956878831106,
+          "diff_OL_question": -0.4957268071737849,
+          "diff_DEF_absent": -0.6414779433976368,
+          "diff_DEF_question": 0.22303719273225875
+        }
+      },
+      "practice_groups": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.22553502951132,
+          "candidate_mae": 10.088759844048086,
+          "same_window_intercept_baseline_mae": 10.231879921305977,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.1431200772578932,
+            "ci95": [
+              -0.29079927227765273,
+              0.0031298945933774807
+            ]
+          },
+          "delta_mae": -0.13677518546323278,
+          "ci95": [
+            -0.2883999026206745,
+            0.019543228218290052
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.227697554895078,
+          "candidate_mae": 10.071808619876409,
+          "same_window_intercept_baseline_mae": 10.220972165230778,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.14916354535437293,
+            "ci95": [
+              -0.3733476908369242,
+              0.06806326567176048
+            ]
+          },
+          "delta_mae": -0.15588893501867165,
+          "ci95": [
+            -0.38804129628394557,
+            0.07863610648202457
+          ]
+        },
+        "residual_intercept": -0.7499414381112146,
+        "baseline_residual_intercept": -0.7499414381112146,
+        "feature_mean": [
+          0.004486858573216522,
+          -0.0026647893199833127,
+          0.005381727158948687,
+          0.0012015018773466823,
+          0.04582290362953693,
+          0.025302461410095966,
+          0.002660617438464749,
+          0.0020744680851063845,
+          0.021915936587400927,
+          -0.04231330830204421,
+          0.03943888193575301,
+          -0.010624739257405076
+        ],
+        "feature_scale": [
+          0.33162510122249633,
+          0.3034698411303596,
+          0.33465495499699327,
+          0.5631268637663124,
+          0.7201932434045801,
+          0.729670990587632,
+          0.603083667688977,
+          0.752320139838494,
+          0.8784862574317299,
+          0.8479540237351145,
+          1.220851342323889,
+          1.1701383190900692
+        ],
+        "coefficients": {
+          "diff_QB_absent": -0.31838749252374265,
+          "diff_QB_question": -0.3199793560712522,
+          "diff_QB_practice": -0.7374285557372197,
+          "diff_SKILL_absent": -1.0033510936586671,
+          "diff_SKILL_question": -0.7162891021872068,
+          "diff_SKILL_practice": 0.16671723311895412,
+          "diff_OL_absent": -0.35898409567554945,
+          "diff_OL_question": -0.6082590684650437,
+          "diff_OL_practice": 0.43552282018871724,
+          "diff_DEF_absent": -0.816665196165465,
+          "diff_DEF_question": 0.17922760931888784,
+          "diff_DEF_practice": 0.3311646563680257
+        }
+      }
+    },
+    "total": {
+      "qb": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.229791676772065,
+          "candidate_mae": 10.188003245910485,
+          "same_window_intercept_baseline_mae": 10.218166037058877,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.030162791148392074,
+            "ci95": [
+              -0.14525684065733108,
+              0.09289311308381526
+            ]
+          },
+          "delta_mae": -0.041788430861580614,
+          "ci95": [
+            -0.15867716307965482,
+            0.07782074150786511
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.64056941106925,
+          "candidate_mae": 10.784161026151574,
+          "same_window_intercept_baseline_mae": 10.62744692343624,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": 0.15671410271533243,
+            "ci95": [
+              -0.01791030485518829,
+              0.32671119348585265
+            ]
+          },
+          "delta_mae": 0.143591615082321,
+          "ci95": [
+            -0.029149201124793998,
+            0.3127988925843482
+          ]
+        },
+        "residual_intercept": -0.214049001624092,
+        "baseline_residual_intercept": -0.21404900162409188,
+        "feature_mean": [
+          0.12839173967459325,
+          0.1071808510638298
+        ],
+        "feature_scale": [
+          0.3186405529282587,
+          0.31162822889770003
+        ],
+        "coefficients": {
+          "sum_QB_absent": -0.8895751541405109,
+          "sum_QB_question": -1.3396104915500975
+        }
+      },
+      "position_groups": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.229791676772065,
+          "candidate_mae": 10.181645460331167,
+          "same_window_intercept_baseline_mae": 10.218166037058877,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.03652057672770964,
+            "ci95": [
+              -0.2035578602030868,
+              0.1309165134253615
+            ]
+          },
+          "delta_mae": -0.04814621644089818,
+          "ci95": [
+            -0.21481933756400262,
+            0.12031597609863703
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.64056941106925,
+          "candidate_mae": 10.76920257444975,
+          "same_window_intercept_baseline_mae": 10.62744692343624,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": 0.141755651013508,
+            "ci95": [
+              -0.08020657463948054,
+              0.3840908551655914
+            ]
+          },
+          "delta_mae": 0.12863316338049657,
+          "ci95": [
+            -0.09443763497406316,
+            0.37479331678043215
+          ]
+        },
+        "residual_intercept": -0.21404900162409168,
+        "baseline_residual_intercept": -0.21404900162409188,
+        "feature_mean": [
+          0.12839173967459325,
+          0.1071808510638298,
+          0.49716937838965375,
+          0.7398153942428034,
+          0.4521891948268669,
+          0.6197611597830621,
+          0.9376115978306215,
+          1.458091364205257
+        ],
+        "feature_scale": [
+          0.3186405529282587,
+          0.31162822889770003,
+          0.5499066029468603,
+          0.7450466742563517,
+          0.6313843114195804,
+          0.7565482925406498,
+          0.8978124705037293,
+          1.3284360896302823
+        ],
+        "coefficients": {
+          "sum_QB_absent": -0.865987104161568,
+          "sum_QB_question": -1.2956349832266707,
+          "sum_SKILL_absent": -0.07977129335477498,
+          "sum_SKILL_question": -1.4524614294645808,
+          "sum_OL_absent": -0.3914513925691688,
+          "sum_OL_question": 0.5419194244389374,
+          "sum_DEF_absent": 0.3802841879636458,
+          "sum_DEF_question": 0.3743815870645533
+        }
+      },
+      "practice_groups": {
+        "selection_2023_24": {
+          "n": 544,
+          "baseline_mae": 10.229791676772065,
+          "candidate_mae": 10.17083821148032,
+          "same_window_intercept_baseline_mae": 10.218166037058877,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": -0.047327825578558746,
+            "ci95": [
+              -0.2218009264214871,
+              0.1392266682495707
+            ]
+          },
+          "delta_mae": -0.05895346529174728,
+          "ci95": [
+            -0.2320145797651183,
+            0.129721102831375
+          ]
+        },
+        "seen_2025": {
+          "n": 272,
+          "baseline_mae": 10.64056941106925,
+          "candidate_mae": 10.899044280300348,
+          "same_window_intercept_baseline_mae": 10.62744692343624,
+          "incremental_vs_intercept_baseline": {
+            "delta_mae": 0.27159735686410885,
+            "ci95": [
+              -0.004901909535083836,
+              0.5804807398715671
+            ]
+          },
+          "delta_mae": 0.2584748692310974,
+          "ci95": [
+            -0.011363710751331428,
+            0.5640442323678899
+          ]
+        },
+        "residual_intercept": -0.21404900162409168,
+        "baseline_residual_intercept": -0.21404900162409188,
+        "feature_mean": [
+          0.12839173967459325,
+          0.1071808510638298,
+          0.13123904881101375,
+          0.49716937838965375,
+          0.7398153942428034,
+          0.7745285773884022,
+          0.4521891948268669,
+          0.6197611597830621,
+          0.7855600750938674,
+          0.9376115978306215,
+          1.458091364205257,
+          1.5428233208176887
+        ],
+        "feature_scale": [
+          0.3186405529282587,
+          0.31162822889770003,
+          0.33231094722871424,
+          0.5499066029468603,
+          0.7450466742563517,
+          0.7145381980795145,
+          0.6313843114195804,
+          0.7565482925406498,
+          0.8781132746829775,
+          0.8978124705037293,
+          1.3284360896302823,
+          1.2030570335383923
+        ],
+        "coefficients": {
+          "sum_QB_absent": -1.753883188805024,
+          "sum_QB_question": -1.4115930642494758,
+          "sum_QB_practice": 1.1491368747567312,
+          "sum_SKILL_absent": 0.4422613587555693,
+          "sum_SKILL_question": -1.3613771725422321,
+          "sum_SKILL_practice": -0.680639034829009,
+          "sum_OL_absent": -0.4914069017650707,
+          "sum_OL_question": 0.57706310676113,
+          "sum_OL_practice": 0.11974843195527352,
+          "sum_DEF_absent": 0.9958212853641359,
+          "sum_DEF_question": 0.5734504468726568,
+          "sum_DEF_practice": -0.9200477879331066
+        }
+      }
+    }
+  },
+  "n": {
+    "2020": 256,
+    "2021": 272,
+    "2022": 271,
+    "2023": 272,
+    "2024": 272,
+    "2025": 272
+  },
+  "baseline_fit": {
+    "margin_coef": 0.03825649573945323,
+    "margin_intercept": 1.9638223701043989
+  },
+  "selected": {
+    "margin": "practice_groups",
+    "total": "practice_groups"
+  },
+  "interval_caveat": "Game-level bootstrap is descriptive, not adjusted for model selection or shared-team/season dependence. No predictive significance claim.",
+  "deployment": "NOT DEPLOYED: historical tests are reused; need untouched forward validation and recoverable current injury/IR/role coverage"
+}

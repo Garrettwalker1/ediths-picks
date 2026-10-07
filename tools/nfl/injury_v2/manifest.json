@@ -1,0 +1,48 @@
+{
+ "created_at": "2026-10-07T20:38:48+00:00",
+ "source_note": "Live HTTP source snapshots fetched Oct 7, 2026. GitHub metadata API rate limited; direct public release downloads succeeded.",
+ "files": [
+  {
+   "path": "tools/nfl/injury_v2/results.json",
+   "sha256": "87e03553c5bd90a1123710d222e25af72042262f3251c6c24bfb30563545e358"
+  },
+  {
+   "path": "tools/nfl/injury_v2/forward_predictions_20261007.json",
+   "sha256": "4358f67208eeef0b4803ace5e829f801f1ee3b32abcc26b5d2dc17eadf780b29"
+  },
+  {
+   "path": "tools/nfl/injury_v2/evaluate.py",
+   "sha256": "320629c7dc4619f6c09872e81cb686404800509d9b6dc1dadc47d833b727bb17"
+  },
+  {
+   "path": "tools/nfl/injury_v2/PLAN.md",
+   "sha256": "181d162137054619470dd122d92703e6a87898997b9cf09af68be38054a4f2b4"
+  },
+  {
+   "path": "tools/nfl/injury_v2/roster_2026.csv",
+   "sha256": "5d440f44acd215d724d8aa06a953a78f6bc13e146f43acd2a3a4d2b33bb659b6"
+  },
+  {
+   "path": "tools/nfl/injury_v2/build_current.py",
+   "sha256": "688f3a28607fa360497e7a484751bc41ef0e59cfeea6570ef0e80b8222ee6a41"
+  },
+  {
+   "path": "tools/nfl/injury_v2/snap_counts_2026.csv",
+   "sha256": "125e7bfba67b6b13172f29e580345bb7e383d93a4596bc389e3cb8a8d2e8245b"
+  },
+  {
+   "path": "tools/nfl/injury_v2/sleeper-ir.json",
+   "sha256": "1eb9e971a2bcdcc4eaee90794c310763df5f0a9a5ded527901e634d88689f6d0"
+  },
+  {
+   "path": "tools/nfl/injury_v2/injuries_2026.csv",
+   "sha256": "e5b9e6f6b790481d5d50a36ce935f47c7dcc3223492556150ec66bc835fdca51"
+  },
+  {
+   "path": "tools/nfl/injury_v2/test_chronology.py",
+   "sha256": "fe0f2f469a22866a91f6d79e8a09a654601e086b78c9b767e41dba73ddc6b0e6"
+  }
+ ],
+ "baseline_sha256": "9ce4b7c7475707213aae006df736aceccac8b5fb6558f496297ea813efdf70d3",
+ "model_tracking_sha256": "d631df8e7e7fb28b4d4ee626609fc92cec7260310acacd743a7e930441703774"
+}

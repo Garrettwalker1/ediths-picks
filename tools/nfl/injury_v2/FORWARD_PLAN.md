@@ -1,0 +1,7 @@
+# Forward cohort locked before Week 5
+
+Cohort ID injury-experiment-20261007-v1. Source/fit/prediction SHA256 in manifest.json. Immutable forecast: forward_predictions_20261007.json. Future news creates a new cohort, never revises this one.
+
+First diagnostic evaluation after all 15 NFL Week 5 games settle: compare baseline home-margin MAE and experimental home-margin MAE on exact frozen game IDs, report paired game-bootstrap interval and missing-role/conflict coverage. No promotion or fitting after this single week. Accumulate at least 100 untouched captured game forecasts under the same fixed feature/mapping rule before reassessing promotion; require negative model-minus-baseline mean error and a paired interval excluding zero, and state dependence/coverage caveats. This is a research gate, not proof of betting edge or market superiority. If this long forward phase needs a different candidate, freeze it before its own next-game cohort starts and report the reset.
+
+Current game IDs can be resolved from matchup/date in frozen NFL baseline artifact. Do not grade against book movement or edited forecasts. Baseline totals/home-win probability remain unchanged; there is no forward injury-total claim. Player and TD out-zero outputs are availability expectations, separate from the baseline probabilistic scorer, and must not be presented as an accuracy gain merely because inactive players do not play.

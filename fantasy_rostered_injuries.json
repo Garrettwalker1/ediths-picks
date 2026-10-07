@@ -1,25 +1,178 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-21T14:21:05Z",
+  "generated_at": "2026-10-07T14:32:51Z",
   "coverage": {
     "league_count": 8,
-    "rostered_player_count": 143,
+    "rostered_player_count": 105,
     "source_status": "ok",
-    "source_snapshot_at": "2026-09-21T14:21:05Z"
+    "source_snapshot_at": "2026-10-07T14:32:51Z"
   },
   "sources": [
     {
-      "name": "ESPN NFL injury tracker with attributed national, team and beat reporting",
-      "url": "https://www.espn.com/nfl/injuries",
-      "observed_at": "2026-09-21T14:21:05Z"
+      "name": "ESPN Fantasy player injury status and player news (logged-in league data)",
+      "url": "https://fantasy.espn.com/football/",
+      "observed_at": "2026-10-07T14:32:51Z"
     }
   ],
   "players": [
     {
-      "player_id": "espn-1242450525-2",
-      "player_name": "R. Stevenson",
-      "team": null,
+      "player_id": "jacobybrissett",
+      "player_name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        },
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football",
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "javontewilliams",
+      "player_name": "Javonte Williams",
+      "team": "DAL",
       "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "bhayshultuten",
+      "player_name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        },
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football",
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jaxonsmithnjigba",
+      "player_name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "lutherburden",
+      "player_name": "Luther Burden III",
+      "team": "CHI",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        },
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football",
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "isaiahlikely",
+      "player_name": "Isaiah Likely",
+      "team": "NYG",
+      "position": "TE",
       "leagues": [
         {
           "id": "espn-1242450525",
@@ -29,30 +182,36 @@
         {
           "id": "espn-416480692",
           "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
+          "team_name": "We Ass"
+        },
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
         }
       ],
       "rostered_league_names": [
         "O'Brien Fantasy Football",
-        "#HORNDOGS #DBAP 3.0"
+        "#HORNDOGS #DBAP 3.0",
+        "Billions "
       ],
-      "roster_count": 2,
+      "roster_count": 3,
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-1242450525-5",
-      "player_name": "Dallas Goedert",
-      "team": null,
-      "position": "TE",
+      "player_id": "emekaegbuka",
+      "player_name": "Emeka Egbuka",
+      "team": "TB",
+      "position": "WR",
       "leagues": [
         {
           "id": "espn-1242450525",
@@ -73,91 +232,19 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-1242450525-7",
-      "player_name": "George Pickens",
-      "team": null,
-      "position": "FLEX",
-      "leagues": [
-        {
-          "id": "espn-1242450525",
-          "name": "O'Brien Fantasy Football",
-          "team_name": "Tennessee Tickle Monsters"
-        },
-        {
-          "id": "espn-416480692",
-          "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
-        }
-      ],
-      "rostered_league_names": [
-        "O'Brien Fantasy Football",
-        "#HORNDOGS #DBAP 3.0"
-      ],
-      "roster_count": 2,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-1242450525-9",
-      "player_name": "Cameron Dicker",
-      "team": null,
-      "position": "K",
-      "leagues": [
-        {
-          "id": "espn-1242450525",
-          "name": "O'Brien Fantasy Football",
-          "team_name": "Tennessee Tickle Monsters"
-        },
-        {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
-        },
-        {
-          "id": "sleeper-1386111628138782720",
-          "name": "For The Boys: Fantasy",
-          "team_name": "I Chase Young Kids"
-        }
-      ],
-      "rostered_league_names": [
-        "O'Brien Fantasy Football",
-        "Billions ",
-        "For The Boys: Fantasy"
-      ],
-      "roster_count": 3,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-1242450525-12",
-      "player_name": "Wan'Dale Robinson",
-      "team": null,
-      "position": null,
+      "player_id": "olliegordon",
+      "player_name": "Ollie Gordon II",
+      "team": "MIA",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-1242450525",
@@ -178,19 +265,100 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-1242450525-13",
-      "player_name": "Jared Goff",
-      "team": null,
-      "position": null,
+      "player_id": "DEF:LAR",
+      "player_name": "Rams",
+      "team": "LAR",
+      "position": "D/ST",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "willreichard",
+      "player_name": "Will Reichard",
+      "team": "MIN",
+      "position": "K",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "terrymclaurin",
+      "player_name": "Terry McLaurin",
+      "team": "WSH",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Washington added McLaurin to its Week 4 practice report Friday as limited due to a hamstring issue, which ultimately sidelined him for Sunday's loss to the Colts in London. Quinn said afterward that McLaurin \"pushed to play\" in that contest, but the team ended up exercising caution with the wide receiver, per Tashan Reed of The Washington Post.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3121422",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "ricodowdle",
+      "player_name": "Rico Dowdle",
+      "team": "PIT",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-1242450525",
@@ -198,32 +366,86 @@
           "team_name": "Tennessee Tickle Monsters"
         },
         {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
         "O'Brien Fantasy Football",
-        "Billions "
+        "FTB Fantasy Re-Draft"
       ],
       "roster_count": 2,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Dowdle's right toe injury has kept him out for the past two games, with his consecutive absences enabling Jaylen Warren to take on a heightened role out of the backfield as Pittsburgh's clear top option.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4038815",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-1242450525-16",
-      "player_name": "Jalen McMillan",
-      "team": null,
-      "position": null,
+      "player_id": "chubahubbard",
+      "player_name": "Chuba Hubbard",
+      "team": "CAR",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jalencoker",
+      "player_name": "Jalen Coker",
+      "team": "CAR",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4695883",
+      "source_published_at": "2026-10-04",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "kenyonsadiq",
+      "player_name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "position": "TE",
       "leagues": [
         {
           "id": "espn-1242450525",
@@ -241,32 +463,342 @@
         "For The Boys: Fantasy"
       ],
       "roster_count": 2,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "practice_status": null,
-      "game_status": "Questionable",
-      "headline": "",
-      "detail": "",
-      "source_name": "ESPN NFL injury tracker",
-      "source_url": "https://www.espn.com/nfl/injuries",
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-0",
-      "player_name": "Caleb Williams",
-      "team": null,
+      "player_id": "joshdowns",
+      "player_name": "Josh Downs",
+      "team": "IND",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        },
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        },
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football",
+        "Dirty Mike and the Boys",
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 3,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jordanlove",
+      "player_name": "Jordan Love",
+      "team": "GB",
       "position": "QB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jaylenwright",
+      "player_name": "Jaylen Wright",
+      "team": "MIA",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jakobilane",
+      "player_name": "Ja'Kobi Lane",
+      "team": "BAL",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Lane left the Ravens' Week 1 win at Indianapolis with a wrist injury that eventually was confirmed to include a fracture. With his move to IR, he'll be required to miss at least the next four games, meaning his next chance for game action will come Oct. 18 at Cleveland.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4870847",
+      "source_published_at": "2026-09-16",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jonahcoleman",
+      "player_name": "Jonah Coleman",
+      "team": "DEN",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-1242450525",
+          "name": "O'Brien Fantasy Football",
+          "team_name": "Tennessee Tickle Monsters"
+        }
+      ],
+      "rostered_league_names": [
+        "O'Brien Fantasy Football"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4702555",
+      "source_published_at": "2026-09-26",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jamescook",
+      "player_name": "James Cook III",
+      "team": "BUF",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "aaronjones",
+      "player_name": "Aaron Jones Sr.",
+      "team": "MIN",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "maliknabers",
+      "player_name": "Malik Nabers",
+      "team": "NYG",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "christianwatson",
+      "player_name": "Christian Watson",
+      "team": "GB",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
         },
         {
-          "id": "espn-416480692",
-          "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys",
+        "Billions "
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tylerwarren",
+      "player_name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "DEF:DEN",
+      "player_name": "Broncos",
+      "team": "DEN",
+      "position": "D/ST",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jakebates",
+      "player_name": "Jake Bates",
+      "team": "DET",
+      "position": "K",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
         },
         {
           "id": "espn-14911042-10",
@@ -276,31 +808,30 @@
       ],
       "rostered_league_names": [
         "Dirty Mike and the Boys",
-        "#HORNDOGS #DBAP 3.0",
         "Not a Dell Fantasy League"
       ],
-      "roster_count": 3,
+      "roster_count": 2,
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-1",
+      "player_id": "omarionhampton",
       "player_name": "Omarion Hampton",
-      "team": null,
+      "team": "LAC",
       "position": "RB",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
         },
         {
           "id": "espn-14911042-10",
@@ -322,167 +853,68 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-4",
-      "player_name": "Christian Watson",
-      "team": null,
-      "position": "WR",
+      "player_id": "calebwilliams",
+      "player_name": "Caleb Williams",
+      "team": "CHI",
+      "position": "QB",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
         },
         {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
-        }
-      ],
-      "rostered_league_names": [
-        "Dirty Mike and the Boys",
-        "Billions "
-      ],
-      "roster_count": 2,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-184489982-8",
-      "player_name": "Jake Bates",
-      "team": null,
-      "position": "K",
-      "leagues": [
-        {
-          "id": "espn-184489982",
-          "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
         },
         {
           "id": "espn-14911042-10",
           "name": "Not a Dell Fantasy League",
           "team_name": "Lisan Al-Caleb"
-        }
-      ],
-      "rostered_league_names": [
-        "Dirty Mike and the Boys",
-        "Not a Dell Fantasy League"
-      ],
-      "roster_count": 2,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-184489982-9",
-      "player_name": "Jadarian Price",
-      "team": null,
-      "position": null,
-      "leagues": [
-        {
-          "id": "espn-184489982",
-          "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
-        },
-        {
-          "id": "espn-416480692",
-          "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
-        },
-        {
-          "id": "sleeper-1395822791856525312",
-          "name": "FTB Fantasy Re-Draft",
-          "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
         "Dirty Mike and the Boys",
         "#HORNDOGS #DBAP 3.0",
-        "FTB Fantasy Re-Draft"
-      ],
-      "roster_count": 3,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-184489982-10",
-      "player_name": "Josh Downs",
-      "team": null,
-      "position": null,
-      "leagues": [
-        {
-          "id": "espn-184489982",
-          "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
-        },
-        {
-          "id": "espn-14911042-10",
-          "name": "Not a Dell Fantasy League",
-          "team_name": "Lisan Al-Caleb"
-        }
-      ],
-      "rostered_league_names": [
-        "Dirty Mike and the Boys",
         "Not a Dell Fantasy League"
       ],
-      "roster_count": 2,
-      "injury_status": null,
+      "roster_count": 3,
+      "injury_status": "Out",
       "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "game_status": "Out",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Johnson noted that Williams has incurred no unexpected setbacks in his rehab program while he recovers from the Grade 2 right hamstring strain he sustained in a Sept. 20 loss to the Vikings, but the Bears are continuing to proceed cautiously with their franchise signal-caller.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4431611",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-12",
-      "player_name": "J. Croskey-Merritt",
-      "team": null,
-      "position": null,
+      "player_id": "jacorycroskeymerritt",
+      "player_name": "Jacory Croskey-Merritt",
+      "team": "WSH",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
         },
         {
           "id": "espn-416480692",
           "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
+          "team_name": "We Ass"
         }
       ],
       "rostered_league_names": [
@@ -493,57 +925,24 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-14",
-      "player_name": "Brenton Strange",
-      "team": null,
-      "position": null,
-      "leagues": [
-        {
-          "id": "espn-184489982",
-          "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
-        },
-        {
-          "id": "sleeper-1387915755609157632",
-          "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
-        }
-      ],
-      "rostered_league_names": [
-        "Dirty Mike and the Boys",
-        "National Choochers Association"
-      ],
-      "roster_count": 2,
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": null,
-      "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
-      "stale": false
-    },
-    {
-      "player_id": "espn-184489982-15",
+      "player_id": "devaughnvele",
       "player_name": "Devaughn Vele",
-      "team": null,
-      "position": null,
+      "team": "NO",
+      "position": "WR",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
         },
         {
           "id": "sleeper-1386111628138782720",
@@ -559,24 +958,105 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-184489982-16",
-      "player_name": "A.J. Brown",
-      "team": null,
-      "position": null,
+      "player_id": "bryceyoung",
+      "player_name": "Bryce Young",
+      "team": "CAR",
+      "position": "QB",
       "leagues": [
         {
           "id": "espn-184489982",
           "name": "Dirty Mike and the Boys",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "djmoore",
+      "player_name": "DJ Moore",
+      "team": "BUF",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3915416",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tyreekhill",
+      "player_name": "Tyreek Hill",
+      "team": "FA",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "roster_count": 1,
+      "injury_status": "Out",
+      "practice_status": null,
+      "game_status": "Out",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3116406",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "ajbrown",
+      "player_name": "A.J. Brown",
+      "team": "NE",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
         },
         {
           "id": "espn-14911042-10",
@@ -598,90 +1078,203 @@
       "injury_status": "Injured Reserve",
       "practice_status": null,
       "game_status": "Injured Reserve",
-      "headline": "Sep 13: Brown, who was officially placed on injured reserve Saturday, is expected to miss about six weeks due to a right high-ankle sprain, Ian Rapoport of NFL Network reports.",
-      "detail": "Sep 13: Brown, who was officially placed on injured reserve Saturday, is expected to miss about six weeks due to a right high-ankle sprain, Ian Rapoport of NFL Network reports.",
-      "source_name": "ESPN NFL injury tracker \u00b7 attributed to Ian Rapoport",
-      "source_url": "https://www.espn.com/nfl/injuries",
-      "source_published_at": "2026-09-13",
-      "observed_at": "2026-09-21T14:21:05Z",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Kyles noted that Brown was wearing cleats, which could hint that he was able to do some on-field exercises. After being placed on injured reserve Sept. 12, Brown won't be eligible to start practicing with his teammates until Week 6, but the wideout at least seems to be making good progress in his recovery from the high-ankle sprain he sustained in the season-opening loss to the Seahawks.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
+      "source_published_at": "2026-09-28",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-416480692-5",
-      "player_name": "Isaiah Likely",
-      "team": null,
-      "position": "TE",
+      "player_id": "jadarianprice",
+      "player_name": "Jadarian Price",
+      "team": "SEA",
+      "position": "RB",
       "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        },
         {
           "id": "espn-416480692",
           "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
+          "team_name": "We Ass"
         },
         {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
+        "Dirty Mike and the Boys",
         "#HORNDOGS #DBAP 3.0",
-        "Billions "
+        "FTB Fantasy Re-Draft"
       ],
-      "roster_count": 2,
-      "injury_status": null,
+      "roster_count": 3,
+      "injury_status": "Injured Reserve",
       "practice_status": null,
-      "game_status": null,
-      "headline": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4685512",
+      "source_published_at": "2026-10-03",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-416480692-7",
-      "player_name": "Seahawks D/ST",
-      "team": null,
-      "position": "D/ST",
+      "player_id": "cjstroud",
+      "player_name": "C.J. Stroud",
+      "team": "HOU",
+      "position": "QB",
       "leagues": [
         {
           "id": "espn-416480692",
           "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
-        },
-        {
-          "id": "espn-14911042-10",
-          "name": "Not a Dell Fantasy League",
-          "team_name": "Lisan Al-Caleb"
+          "team_name": "We Ass"
         }
       ],
       "rostered_league_names": [
-        "#HORNDOGS #DBAP 3.0",
-        "Not a Dell Fantasy League"
+        "#HORNDOGS #DBAP 3.0"
       ],
-      "roster_count": 2,
+      "roster_count": 1,
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-416480692-11",
-      "player_name": "Quentin Johnston",
-      "team": null,
-      "position": null,
+      "player_id": "ashtonjeanty",
+      "player_name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-416480692",
           "name": "#HORNDOGS #DBAP 3.0",
-          "team_name": "Gibbs Me Head"
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "dandreswift",
+      "player_name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jamarrchase",
+      "player_name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4362628",
+      "source_published_at": "2026-10-04",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "georgepickens",
+      "player_name": "George Pickens",
+      "team": "DAL",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "braelonallen",
+      "player_name": "Braelon Allen",
+      "team": "NYJ",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        },
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
         },
         {
           "id": "sleeper-1389357500502917120",
@@ -691,30 +1284,304 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
         "#HORNDOGS #DBAP 3.0",
+        "FTB Fantasy Re-Draft",
         "Billions ",
         "National Choochers Association"
       ],
-      "roster_count": 3,
+      "roster_count": 4,
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-14911042-3",
+      "player_id": "DEF:SEA",
+      "player_name": "Seahawks",
+      "team": "SEA",
+      "position": "D/ST",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        },
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        },
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
+        },
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        },
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0",
+        "Not a Dell Fantasy League",
+        "FTB Fantasy Re-Draft",
+        "Billions ",
+        "National Choochers Association"
+      ],
+      "roster_count": 5,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "spencershrader",
+      "player_name": "Spencer Shrader",
+      "team": "IND",
+      "position": "K",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "romeodunze",
+      "player_name": "Rome Odunze",
+      "team": "CHI",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "rhamondrestevenson",
+      "player_name": "Rhamondre Stevenson",
+      "team": "NE",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "quentinjohnston",
+      "player_name": "Quentin Johnston",
+      "team": "LAC",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        },
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0",
+        "National Choochers Association"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "keenanallen",
+      "player_name": "Keenan Allen",
+      "team": "IND",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=15818",
+      "source_published_at": "2026-10-03",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "keoncoleman",
+      "player_name": "Keon Coleman",
+      "team": "BUF",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-416480692",
+          "name": "#HORNDOGS #DBAP 3.0",
+          "team_name": "We Ass"
+        }
+      ],
+      "rostered_league_names": [
+        "#HORNDOGS #DBAP 3.0"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "camward",
+      "player_name": "Cam Ward",
+      "team": "TEN",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "breecehall",
+      "player_name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": "Doubtful",
+      "practice_status": null,
+      "game_status": "Doubtful",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4427366",
+      "source_published_at": "2026-10-02",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "matthewgolden",
       "player_name": "Matthew Golden",
-      "team": null,
+      "team": "GB",
       "position": "WR",
       "leagues": [
         {
@@ -742,19 +1609,79 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "espn-14911042-10",
+      "player_id": "haroldfannin",
+      "player_name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        },
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League",
+        "National Choochers Association"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "wandalerobinson",
+      "player_name": "Wan'Dale Robinson",
+      "team": "TEN",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "alvinkamara",
       "player_name": "Alvin Kamara",
-      "team": null,
-      "position": null,
+      "team": "NO",
+      "position": "RB",
       "leagues": [
         {
           "id": "espn-14911042-10",
@@ -769,7 +1696,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -778,19 +1705,127 @@
         "National Choochers Association"
       ],
       "roster_count": 3,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "practice_status": null,
-      "game_status": "Questionable",
-      "headline": "",
-      "detail": "",
-      "source_name": "ESPN NFL injury tracker",
-      "source_url": "https://www.espn.com/nfl/injuries",
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "11533",
+      "player_id": "jaylinnoel",
+      "player_name": "Jaylin Noel",
+      "team": "HOU",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "gunnarhelm",
+      "player_name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "mackhollins",
+      "player_name": "Mack Hollins",
+      "team": "NE",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "espn-14911042-10",
+          "name": "Not a Dell Fantasy League",
+          "team_name": "Lisan Al-Caleb"
+        }
+      ],
+      "rostered_league_names": [
+        "Not a Dell Fantasy League"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Hollins recorded three catches for 53 yards on four targets before exiting in the third quarter of Sunday's 29-26 win over the Bills due to the calf issue. The Patriots listed Hollins as questionable to return at the time of his departure, but he never ended up checking back into the contest.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=2991662",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "samlaporta",
+      "player_name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
+        }
+      ],
+      "rostered_league_names": [
+        "FTB Fantasy Re-Draft"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "brandonaubrey",
       "player_name": "Brandon Aubrey",
       "team": "DAL",
       "position": "K",
@@ -803,7 +1838,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -814,16 +1849,43 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "11624",
+      "player_id": "bonix",
+      "player_name": "Bo Nix",
+      "team": "DEN",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
+        }
+      ],
+      "rostered_league_names": [
+        "FTB Fantasy Re-Draft"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "xavierworthy",
       "player_name": "Xavier Worthy",
       "team": "KC",
       "position": "WR",
@@ -836,7 +1898,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -847,16 +1909,16 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "12526",
+      "player_id": "tetairoamcmillan",
       "player_name": "Tetairoa McMillan",
       "team": "CAR",
       "position": "WR",
@@ -869,7 +1931,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -880,88 +1942,151 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "9226",
-      "player_name": "De'Von Achane",
-      "team": "MIA",
+      "player_id": "saquonbarkley",
+      "player_name": "Saquon Barkley",
+      "team": "PHI",
       "position": "RB",
       "leagues": [
         {
           "id": "sleeper-1395822791856525312",
           "name": "FTB Fantasy Re-Draft",
           "team_name": "garrettwalker1"
-        },
-        {
-          "id": "sleeper-1387915755609157632",
-          "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
-        "FTB Fantasy Re-Draft",
-        "National Choochers Association"
+        "FTB Fantasy Re-Draft"
       ],
-      "roster_count": 2,
-      "injury_status": null,
+      "roster_count": 1,
+      "injury_status": "Questionable",
       "practice_status": null,
-      "game_status": null,
-      "headline": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3929630",
+      "source_published_at": "2026-10-06",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "SEA",
-      "player_name": "Seattle Seahawks",
-      "team": "SEA",
-      "position": "DEF",
+      "player_id": "dallasgoedert",
+      "player_name": "Dallas Goedert",
+      "team": "PHI",
+      "position": "TE",
       "leagues": [
         {
           "id": "sleeper-1395822791856525312",
           "name": "FTB Fantasy Re-Draft",
           "team_name": "garrettwalker1"
-        },
+        }
+      ],
+      "rostered_league_names": [
+        "FTB Fantasy Re-Draft"
+      ],
+      "roster_count": 1,
+      "injury_status": "Doubtful",
+      "practice_status": null,
+      "game_status": "Doubtful",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "With Goedert set to miss another game while recovering from the sprained MCL in his right knee and DeVonta Smith set to miss due to a hamstring injury, Philadelphia will need to lean heavily on Dontayvion Wicks and first-round rookie Makai Lemon to key the passing game. Goedert has yet to practice since suffering his injury in Week 2 against the Titans and remains week-to-week.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3121023",
+      "source_published_at": "2026-10-02",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jakobimeyers",
+      "player_name": "Jakobi Meyers",
+      "team": "JAX",
+      "position": "WR",
+      "leagues": [
         {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
-        },
-        {
-          "id": "sleeper-1387915755609157632",
-          "name": "National Choochers Association",
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
           "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
-        "FTB Fantasy Re-Draft",
-        "Billions ",
-        "National Choochers Association"
+        "FTB Fantasy Re-Draft"
       ],
-      "roster_count": 3,
+      "roster_count": 1,
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "10229",
+      "player_id": "michaelpittman",
+      "player_name": "Michael Pittman Jr.",
+      "team": "PIT",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
+        }
+      ],
+      "rostered_league_names": [
+        "FTB Fantasy Re-Draft"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jauanjennings",
+      "player_name": "Jauan Jennings",
+      "team": "MIN",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
+        }
+      ],
+      "rostered_league_names": [
+        "FTB Fantasy Re-Draft"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "rasheerice",
       "player_name": "Rashee Rice",
       "team": "KC",
       "position": "WR",
@@ -974,7 +2099,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -982,19 +2107,19 @@
         "National Choochers Association"
       ],
       "roster_count": 2,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "practice_status": null,
-      "game_status": null,
-      "headline": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
-      "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4428331",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "12529",
+      "player_id": "treveyonhenderson",
       "player_name": "TreVeyon Henderson",
       "team": "NE",
       "position": "RB",
@@ -1007,7 +2132,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         }
       ],
       "rostered_league_names": [
@@ -1015,19 +2140,295 @@
         "National Choochers Association"
       ],
       "roster_count": 2,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "practice_status": null,
-      "game_status": "Questionable",
-      "headline": "Sep 14: Coach Mike Vrabel said Henderson (ankle) will practice Monday, Mike Reiss of ESPN.com reports.",
-      "detail": "Sep 14: Coach Mike Vrabel said Henderson (ankle) will practice Monday, Mike Reiss of ESPN.com reports.",
-      "source_name": "ESPN NFL injury tracker",
-      "source_url": "https://www.espn.com/nfl/injuries",
-      "source_published_at": "2026-09-14",
-      "observed_at": "2026-09-21T14:21:05Z",
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     },
     {
-      "player_id": "6813",
+      "player_id": "davanteadams",
+      "player_name": "Davante Adams",
+      "team": "LAR",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jaredgoff",
+      "player_name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "christianmccaffrey",
+      "player_name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "lamarjackson",
+      "player_name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "The ankle injury sidelined Jackson for the entire second half of last Sunday's 24-18 win over the Titans, resulting in backup Tyler Huntley directing the offense for the final two quarters. Huntley now appears to be trending toward the Week 5 start while Jackson recovers from the ankle issue, which Rapoport suggests is an \"unconventional\" injury that's not necessarily a low- or high-ankle sprain.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=3916387",
+      "source_published_at": "2026-10-06",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "courtlandsutton",
+      "player_name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "treymcbride",
+      "player_name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "camerondicker",
+      "player_name": "Cameron Dicker",
+      "team": "LAC",
+      "position": "K",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        },
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions ",
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jaydendaniels",
+      "player_name": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "National Choochers Association"
+      ],
+      "roster_count": 1,
+      "injury_status": "Questionable",
+      "practice_status": null,
+      "game_status": "Questionable",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "The timing of Daniels' likely return to action is fortuitous for Washington after fill-in QB Marcus Mariota was knocked out of Sunday's defeat to the Colts in London and eventually diagnosed with an MCL sprain in his right knee, per Ben Standig of The Team 980 Washington D.C. Daniels has missed the last games after dislocating his left elbow for the second time in as many seasons back in Week 2.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4426348",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tylershough",
+      "player_name": "Tyler Shough",
+      "team": "NO",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "National Choochers Association"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jordyntyson",
+      "player_name": "Jordyn Tyson",
+      "team": "NO",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "National Choochers Association"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "New Orleans placed Tyson on IR with a designation to return back on Aug. 30, making him eligible to resume practicing with the team as soon as Week 3 and playing in Week 5.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4880281",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jonathantaylor",
       "player_name": "Jonathan Taylor",
       "team": "IND",
       "position": "RB",
@@ -1035,7 +2436,7 @@
         {
           "id": "sleeper-1387915755609157632",
           "name": "National Choochers Association",
-          "team_name": "garrettwalker1"
+          "team_name": "Save This Team Netanyahu"
         },
         {
           "id": "sleeper-1386111628138782720",
@@ -1051,12 +2452,666 @@
       "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": null,
+      "headline": "No injury flag in current fantasy snapshot",
       "detail": null,
-      "source_name": null,
-      "source_url": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-09-21T14:21:05Z",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "romeodoubs",
+      "player_name": "Romeo Doubs",
+      "team": "NE",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        },
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "National Choochers Association",
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 2,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "brentonstrange",
+      "player_name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1387915755609157632",
+          "name": "National Choochers Association",
+          "team_name": "Save This Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "National Choochers Association"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tysonbagent",
+      "player_name": "Tyson Bagent",
+      "team": "CHI",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "raydavis",
+      "player_name": "Ray Davis",
+      "team": "BUF",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jalenmcmillan",
+      "player_name": "Jalen McMillan",
+      "team": "TB",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy player status",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4430834",
+      "source_published_at": "2026-09-30",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "xavierlegette",
+      "player_name": "Xavier Legette",
+      "team": "CAR",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Legette has been working through a knee injury the last two weeks, and while he was slated to miss a second straight contest Sunday against the Lions, he'll now sit out at least the next four (including Week 4), meaning his next chance for game action is Sunday, Nov. 8 versus the Broncos.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4430034",
+      "source_published_at": "2026-10-03",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "troyfranklin",
+      "player_name": "Troy Franklin",
+      "team": "DEN",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "rileyleonard",
+      "player_name": "Riley Leonard",
+      "team": "IND",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jaxsondart",
+      "player_name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": "Injured Reserve",
+      "practice_status": null,
+      "game_status": "Injured Reserve",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Dart's ACL and PCL were apparently spared, but the quarterback remains done for the 2026 regular season after he was injured in the first quarter of Week 2 against the Rams. It's unclear if Dart could make a postseason return if the Giants are able to make it that far. Jameis Winston and newly acquired J.J. McCarthy will handle quarterback duties moving forward this season.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4689114",
+      "source_published_at": "2026-09-30",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "quinshonjudkins",
+      "player_name": "Quinshon Judkins",
+      "team": "CLE",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jimmyhorn",
+      "player_name": "Jimmy Horn Jr.",
+      "team": "CLE",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "garrettnussmeier",
+      "player_name": "Garrett Nussmeier",
+      "team": "KC",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tylerhigbee",
+      "player_name": "Tyler Higbee",
+      "team": "LAR",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "georgekittle",
+      "player_name": "George Kittle",
+      "team": "SF",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "davidmontgomery",
+      "player_name": "David Montgomery",
+      "team": "HOU",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "tyjohnson",
+      "player_name": "Ty Johnson",
+      "team": "BUF",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "joeburrow",
+      "player_name": "Joe Burrow",
+      "team": "CIN",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "colekmet",
+      "player_name": "Cole Kmet",
+      "team": "CHI",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "jamesonwilliams",
+      "player_name": "Jameson Williams",
+      "team": "DET",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "pukanacua",
+      "player_name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "keatonmitchell",
+      "player_name": "Keaton Mitchell",
+      "team": "LAC",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "zachcharbonnet",
+      "player_name": "Zach Charbonnet",
+      "team": "SEA",
+      "position": "RB",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": "Out",
+      "practice_status": null,
+      "game_status": "Out",
+      "headline": "Current ESPN Fantasy status",
+      "detail": "Seattle opened Charbonnet's 21-day practice window last Thursday, with the running back practicing on a limited basis for the team's final two sessions of Week 4 in what amounted to his first involvement in on-field drills since he tore the ACL in his left knee Jan. 17.",
+      "source_name": "ESPN Fantasy player status \u00b7 ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4426385",
+      "source_published_at": "2026-10-05",
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "DEF:SF",
+      "player_name": "San Francisco 49ers",
+      "team": "SF",
+      "position": "DEF",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
+      "stale": false
+    },
+    {
+      "player_id": "DEF:WAS",
+      "player_name": "Washington Commanders",
+      "team": "WAS",
+      "position": "DEF",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "roster_count": 1,
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current fantasy snapshot",
+      "detail": null,
+      "source_name": "Current ESPN/Sleeper fantasy rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-07T14:32:51Z",
       "stale": false
     }
   ]

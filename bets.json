@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-08T22:04:46.928597+00:00",
+  "updated_at": "2026-10-08T22:12:38.008284+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4278,6 +4278,136 @@
       "model_at_placement": {
         "available": false,
         "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      }
+    },
+    {
+      "bet_id": "slip-20261008-tn-sgp-javonte40-irving40-lamb70",
+      "sport": "NFL",
+      "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+      "kickoff": "2026-10-09T00:16:00Z",
+      "market": "same_game_parlay_mixed",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "TB-DAL SGP: Javonte 40+ rush; Irving 40+ rush; Lamb 70+ receiving",
+      "selection": "Javonte Williams 40+; Bucky Irving 40+; CeeDee Lamb 70+",
+      "price": 164,
+      "price_note": "TN selector visible; ticket odds match IL research quote +164. Exact payout from slip retained rather than recalculating from rounded displayed odds. No boost shown; individual leg odds not displayed.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 26.43,
+      "potential_profit_usd": 16.43,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-08T22:12:06Z",
+      "placed_at": null,
+      "source": "Owner iMessage phonemsg-01M4ES5Q5PH1RNH6H27ANSACH5, Oct 8 2026 5:12 PM CT, two FanDuel screenshots with TN selector visible. Bet ID and placement timestamp are cropped on both images; placeholder ID, receipt time used for date only.",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "rushing_yards_at_least",
+          "selection": "Javonte Williams",
+          "line": 40,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "rushing_yards_at_least",
+          "selection": "Bucky Irving",
+          "line": 40,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "receiving_yards_at_least",
+          "selection": "CeeDee Lamb",
+          "line": 70,
+          "price": null,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "owner slip",
+        "note": "Ticket +164 as printed. Matched IL research ticket quote at 2026-10-08T22:07:11.599Z; no same-jurisdiction line movement claim."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Frozen Week5 player baseline and unvalidated injury overlay leave Javonte, Irving, Lamb medians unchanged. Yardage probabilities in prior research were rough normal approximations, not calibrated SGP probabilities. Backup redistribution not modeled. Correlated/nested legs across the two tickets, not diversification."
+      }
+    },
+    {
+      "bet_id": "slip-20261008-tn-sgp-lamb90-javonte80-irving70",
+      "sport": "NFL",
+      "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+      "kickoff": "2026-10-09T00:16:00Z",
+      "market": "same_game_parlay_mixed",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "TB-DAL SGP: Lamb 90+ receiving; Javonte 80+ rush; Irving 70+ rush",
+      "selection": "CeeDee Lamb 90+; Javonte Williams 80+; Bucky Irving 70+",
+      "price": 1793,
+      "price_note": "TN selector visible; ticket odds match IL research quote +1793. Exact payout from slip retained rather than recalculating from rounded displayed odds. No boost shown; individual leg odds not displayed.",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "potential_payout_usd": 189.36,
+      "potential_profit_usd": 179.36,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-08T22:12:06Z",
+      "placed_at": null,
+      "source": "Owner iMessage phonemsg-01M4ES5Q5PH1RNH6H27ANSACH5, Oct 8 2026 5:12 PM CT, two FanDuel screenshots with TN selector visible. Bet ID and placement timestamp are cropped on both images; placeholder ID, receipt time used for date only.",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "receiving_yards_at_least",
+          "selection": "CeeDee Lamb",
+          "line": 90,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "rushing_yards_at_least",
+          "selection": "Javonte Williams",
+          "line": 80,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "rushing_yards_at_least",
+          "selection": "Bucky Irving",
+          "line": 70,
+          "price": null,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "state": "TN",
+        "source": "owner slip",
+        "note": "Ticket +1793 as printed. Matched IL research ticket quote at 2026-10-08T22:08:41.985Z; no same-jurisdiction line movement claim."
+      },
+      "model_at_placement": {
+        "available": true,
+        "note": "Frozen Week5 player baseline and unvalidated injury overlay leave Javonte, Irving, Lamb medians unchanged. Yardage probabilities in prior research were rough normal approximations, not calibrated SGP probabilities. Backup redistribution not modeled. Correlated/nested legs across the two tickets, not diversification."
       }
     }
   ]

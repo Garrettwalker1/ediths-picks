@@ -245,6 +245,10 @@ previous_errors={str(b['event_id']):b for b in previous.get('errors',[])}
 check_time=datetime.now(ZoneInfo('UTC'))
 started_ids={eid for eid,e in events.items() if e['status']['type']['state']!='pre'
              or datetime.fromisoformat(e['competitions'][0]['date'].replace('Z','+00:00'))<=check_time}
+# Conservative freeze boundary: a revised scoreboard kickoff cannot reopen a
+# game after its previously published cutoff. Delays do not authorize live prices.
+started_ids.update(eid for eid,b in previous_games.items()
+                   if eid in events and datetime.fromisoformat(b['date'].replace('Z','+00:00'))<=check_time)
 board=[]; errs=[]
 for eid,e in events.items():
     comp=e['competitions'][0]

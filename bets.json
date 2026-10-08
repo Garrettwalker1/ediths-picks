@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-06T12:19:19Z",
+  "updated_at": "2026-10-08T22:04:46.928597+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4090,6 +4090,195 @@
         }
       ],
       "grading": "Graded from final ESPN box score and scoring plays at Garrett's request (phonemsg-01M48J67T8SJA6P0XF5MBY5T54, Oct 6 7:14 AM CT), not from the settled slip. Hooper had no TD (1 rec 9 yds). Leg dead. For reference: Kamara 5 rec 35 yds (over 15.5 hit), Bijan 1 rec 2 yds (over 35.5 missed)."
+    },
+    {
+      "bet_id": "us-tn:01m4e144dkep881bkpy79qjn40",
+      "sport": "NFL",
+      "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+      "kickoff": "2026-10-09T00:16:00Z",
+      "market": "anytime_touchdown",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "George Pickens anytime TD (100% profit boost)",
+      "selection": "George Pickens ATD",
+      "price": 230,
+      "price_note": "Unboosted +115; 100% profit boost +230. Exact slip payout $33.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 33,
+      "potential_profit_usd": 23,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-08T15:11:00Z",
+      "placed_at": "2026-10-08T15:11:00Z",
+      "source": "Owner iMessage phonemsg-01M4ERNGBN46ZMZWYT9024AH6G, Oct 8 2026 5:03 PM CT, three FanDuel open-slip images. Bet ID and placement time visible. TN identified by us-tn bet-ID prefix.",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Pickens",
+          "line": null,
+          "price": 230,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4erjm0vep58dyc6y8wmkttp",
+      "sport": "NFL",
+      "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+      "kickoff": "2026-10-09T00:16:00Z",
+      "market": "same_game_parlay_mixed",
+      "book": "FanDuel",
+      "state": "TN",
+      "line": null,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "TB-DAL SGP: Lamb 70+ receiving yds; Godwin 3+ receptions; Prescott 2+ passing TD; Irving 30+ rushing yds",
+      "selection": "CeeDee Lamb 70+ receiving yards; Chris Godwin 3+ receptions; Dak Prescott 2+ passing touchdowns; Bucky Irving 30+ rushing yards",
+      "price": 304,
+      "price_note": "Unboosted +203; 50% profit boost displays +304. Exact slip payout $40.48; displayed odds rounded. Individual leg prices not shown.",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "potential_payout_usd": 40.48,
+      "potential_profit_usd": 30.48,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-08T22:01:00Z",
+      "placed_at": "2026-10-08T22:01:00Z",
+      "source": "Owner iMessage phonemsg-01M4ERNGBN46ZMZWYT9024AH6G, Oct 8 2026 5:03 PM CT, three FanDuel open-slip images. Bet ID and placement time visible. TN identified by us-tn bet-ID prefix.",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "receiving_yards_at_least",
+          "selection": "CeeDee Lamb 70+ receiving yards",
+          "line": 70,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "receptions_at_least",
+          "selection": "Chris Godwin 3+ receptions",
+          "line": 3,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "passing_touchdowns_at_least",
+          "selection": "Dak Prescott 2+ passing TD",
+          "line": 2,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "rushing_yards_at_least",
+          "selection": "Bucky Irving 30+ rushing yards",
+          "line": 30,
+          "price": null,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      }
+    },
+    {
+      "bet_id": "slip-20261008-5leg-atd-pickens-swift-montgomery-stbrown-london",
+      "sport": "NFL",
+      "game": "NFL Week 5: TB @ DAL; CHI @ GB; HOU @ TEN; DET @ ARI; BAL @ ATL",
+      "kickoff": "2026-10-09T00:16:00Z",
+      "market": "parlay_anytime_touchdown",
+      "book": "FanDuel",
+      "state": null,
+      "line": null,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "bet": "5-leg anytime TD: Pickens; Swift; Montgomery; St. Brown; London",
+      "selection": "George Pickens +110; D'Andre Swift -140; David Montgomery +120; Amon-Ra St. Brown -145; Drake London +120",
+      "price": 2844,
+      "price_note": "Ticket +2844; exact payout $147.20. No boost shown. Jurisdiction not visible on this cropped screenshot.",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "potential_payout_usd": 147.2,
+      "potential_profit_usd": 142.2,
+      "cashout_value_usd_at_capture": 5,
+      "date": "2026-10-08T22:03:15Z",
+      "placed_at": null,
+      "source": "Owner iMessage phonemsg-01M4ERNGBN46ZMZWYT9024AH6G, Oct 8 2026 5:03 PM CT, three FanDuel open-slip images. Bet ID/placement time cropped; local placeholder ID; date is receipt time, not placement.",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
+          "kickoff": "2026-10-09T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Pickens",
+          "line": null,
+          "price": 110,
+          "hit": null
+        },
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "D'Andre Swift",
+          "line": null,
+          "price": -140,
+          "hit": null
+        },
+        {
+          "event": "Houston Texans @ Tennessee Titans",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "David Montgomery",
+          "line": null,
+          "price": 120,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": -145,
+          "hit": null
+        },
+        {
+          "event": "Baltimore Ravens @ Atlanta Falcons",
+          "kickoff": "2026-10-12T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Drake London",
+          "line": null,
+          "price": 120,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": false,
+        "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      }
     }
   ]
 }

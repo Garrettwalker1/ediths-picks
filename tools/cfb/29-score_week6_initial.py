@@ -248,7 +248,7 @@ started_ids={eid for eid,e in events.items() if e['status']['type']['state']!='p
 # Conservative freeze boundary: a revised scoreboard kickoff cannot reopen a
 # game after its previously published cutoff. Delays do not authorize live prices.
 started_ids.update(eid for eid,b in previous_games.items()
-                   if eid in events and datetime.fromisoformat(b['date'].replace('Z','+00:00'))<=check_time)
+                   if eid in events and datetime.fromisoformat(b.get('quote_freeze_cutoff',b['date']).replace('Z','+00:00'))<=check_time)
 board=[]; errs=[]
 for eid,e in events.items():
     comp=e['competitions'][0]
@@ -283,6 +283,13 @@ for eid,e in events.items():
         'timing_note':'Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.',
         'predicted_margin_home':round(margin,1),'predicted_winner':home if margin>0 else away,
         'model_home_line':round(-margin,1)})
+# Preserve the earliest published quote cutoff if an upcoming kickoff moves later.
+for b in board:
+    prior=previous_games.get(str(b['event_id']))
+    if prior:
+        cutoff=prior.get('quote_freeze_cutoff',prior['date'])
+        if datetime.fromisoformat(cutoff.replace('Z','+00:00')) < datetime.fromisoformat(b['date'].replace('Z','+00:00')):
+            b['quote_freeze_cutoff']=cutoff
 board.sort(key=lambda b:b['date'])
 ok=board
 print('scored',len(ok),'errors',len(errs))
@@ -315,7 +322,7 @@ if BOOK_CSV:
         archive_rows.extend(_csv.DictReader(open(cp)))
 matched=0
 for b in ok:
-    bdt=datetime.fromisoformat(b['date'].replace('Z','+00:00'))
+    bdt=datetime.fromisoformat(b.get('quote_freeze_cutoff',b['date']).replace('Z','+00:00'))
     best=None
     candidates=archive_rows if b.get('book_frozen_pregame') else book_rows
     for r in sorted(candidates,key=lambda r:r['captured_at'],reverse=True):

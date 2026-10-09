@@ -1,0 +1,103 @@
+{
+  "selected": "pass_def",
+  "results": {
+    "v2.2": {
+      "features_added": [],
+      "validation": {
+        "mae": 13.11171507025422,
+        "rmse": 16.667710437543466,
+        "winner_accuracy": 0.6809078771695594,
+        "n": 749
+      }
+    },
+    "pass_def": {
+      "features_added": [
+        "pass_def"
+      ],
+      "validation": {
+        "mae": 13.056242062431112,
+        "rmse": 16.619282162758168,
+        "winner_accuracy": 0.6889185580774366,
+        "n": 749
+      }
+    },
+    "rush_def": {
+      "features_added": [
+        "rush_def"
+      ],
+      "validation": {
+        "mae": 13.148063714798429,
+        "rmse": 16.667422370340127,
+        "winner_accuracy": 0.6875834445927904,
+        "n": 749
+      }
+    },
+    "turnover_margin": {
+      "features_added": [
+        "turnover_margin"
+      ],
+      "validation": {
+        "mae": 13.118615917161808,
+        "rmse": 16.680329955333992,
+        "winner_accuracy": 0.6862483311081442,
+        "n": 749
+      }
+    },
+    "pass_off": {
+      "features_added": [
+        "pass_off"
+      ],
+      "validation": {
+        "mae": 13.120413263506508,
+        "rmse": 16.664343915942226,
+        "winner_accuracy": 0.6862483311081442,
+        "n": 749
+      }
+    },
+    "rush_off": {
+      "features_added": [
+        "rush_off"
+      ],
+      "validation": {
+        "mae": 13.097410473805501,
+        "rmse": 16.58341375141071,
+        "winner_accuracy": 0.6862483311081442,
+        "n": 749
+      }
+    },
+    "requested_five": {
+      "features_added": [
+        "pass_def",
+        "rush_def",
+        "turnover_margin",
+        "pass_off",
+        "rush_off"
+      ],
+      "validation": {
+        "mae": 13.093990316245616,
+        "rmse": 16.555125870793717,
+        "winner_accuracy": 0.6955941255006676,
+        "n": 749
+      }
+    },
+    "all_nine": {
+      "features_added": [
+        "pass_off",
+        "rush_off",
+        "pass_def",
+        "rush_def",
+        "turnover_margin",
+        "score_off",
+        "score_def",
+        "total_off",
+        "total_def"
+      ],
+      "validation": {
+        "mae": 13.124303479248047,
+        "rmse": 16.537713595233026,
+        "winner_accuracy": 0.6902536715620827,
+        "n": 749
+      }
+    }
+  }
+}

@@ -351,6 +351,14 @@ matched=sum(1 for b in ok if b.get('book_tn'))
 print('book matched to board:', matched, 'fallback:',sum(1 for b in ok if b.get('book_tn') and b['book_tn']['state']=='TN'))
 
 
+rank_file=REPO/'tools/cfb/32-week6-national-rank-candidate.json'
+rank_context=json.load(open(rank_file)) if rank_file.exists() else None
+if rank_context:
+    rank_games={str(x['event_id']):x for x in rank_context['games']}
+    for game in ok:
+        if not game.get('book_frozen_pregame') and str(game['event_id']) in rank_games:
+            game['national_rank_candidate']=rank_games[str(game['event_id'])]
+
 news_file=REPO/'tools/cfb/31-week6-news-context.json'
 news_context=json.load(open(news_file)) if news_file.exists() else None
 if news_context:
@@ -373,6 +381,7 @@ out={'schema_version':'1.1.0','generated_at':gen,
  'book_capture':{'file':str(BOOK_CSV.name) if BOOK_CSV else None,'label':BOOK_LABEL,'state':BOOK_STATE,'matched':matched},
  'games':ok,'errors':errs}
 if news_context: out['weekly_news_context']=news_context
+if rank_context: out['national_rank_variant_note']=rank_context['adoption']
 (OUT/'29-cfb_board_2026_week6_initial_v2_2.json').write_text(json.dumps(out,indent=1))
 
 # ---- board page ----
@@ -440,6 +449,15 @@ for b in ok:
         cap_ct=datetime.fromisoformat(bv['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Chicago'))
         quote_note=f"<div class=news>Book {esc(bv_state)} captured {cap_ct.strftime('%b %-d, %-I:%M %p CT')}{' - last available pregame quote; frozen after kickoff' if b.get('book_frozen_pregame') else ''}.</div>"
     news_html=''
+    rank_html=''
+    if b.get('national_rank_candidate'):
+        r=b['national_rank_candidate']; cm=r['candidate_margins_home']['requested_five']; cf=home if cm>=0 else away
+        rank_html=f"<div class=news><b>National-rank candidate (not adopted):</b> {esc(cf)} -{abs(cm):.1f}. Current v2.2 stays the MODEL number above. Not an injury adjustment.</div>"
+        labs=[('pass_off','Pass O'),('rush_off','Rush O'),('pass_def','Pass D'),('rush_def','Rush D'),('turnover_margin','TO margin')]
+        rank_html+=' <div class=news>Computed FBS ranks (138 teams; through Week 5, not official NCAA):</div><table><tr><th>Team</th>'+''.join(f'<th>{label}</th>' for _,label in labs)+'</tr>'
+        for team,rr in [(away,r['away_ranks']),(home,r['home_ranks'])]:
+            rank_html+='<tr><td>'+esc(team)+'</td>'+''.join(f'<td>{int(rr[k])}</td>' for k,_ in labs)+'</tr>'
+        rank_html+='</table><div class=news>Lower rank is better. Yardage ranks use yards/game; TO margin uses (takeaways minus giveaways)/game. Ties share rank. <a href="cfb-national-rank-test.html">Validation and limits</a>.</div>'
     if b.get('weekly_news'):
         n=b['weekly_news']
         news_html=f"<div class=news><b>Weekly news - not modeled:</b> {esc(n['text'])} <a href=\"{esc(n['url'])}\">Source ({esc(n['source_date'])})</a>. Checked Oct 9 morning; status may change.</div>"
@@ -449,7 +467,7 @@ for b in ok:
       f'<div class=bgrid><span class=bg-lab>MODEL</span><span class=bnum>{esc(ml)}</span></div>'
       f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div></summary>'
       f'<div class=bfoot>{quote_note}{table}<div class=news>Model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
-      f'<div class=news>{esc(b["timing_note"])}</div>{news_html}</div></details>')
+      f'<div class=news>{esc(b["timing_note"])}</div>{news_html}{rank_html}</div></details>')
 
 n_post=sum(1 for b in ok if b['timing']=='post_kickoff')
 n_bk=sum(1 for b in ok if b.get('book_tn') or b.get('book_va'))

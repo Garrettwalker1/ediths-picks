@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-09T07:28:13-0500",
+ "generated_at": "2026-10-09T07:34:32-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -258,6 +258,39 @@
     "away_ml": 155,
     "home_ml": -188
    },
+   "national_rank_candidate": {
+    "event_id": "401858254",
+    "name": "Florida State Seminoles at Louisville Cardinals",
+    "baseline_margin_home": 1.1,
+    "candidate_margins_home": {
+     "pass_def": 0.9913482658424102,
+     "requested_five": 0.6735941075239968
+    },
+    "home_ranks": {
+     "pass_off": 24.0,
+     "rush_off": 36.0,
+     "pass_def": 130.0,
+     "rush_def": 92.0,
+     "turnover_margin": 28.0,
+     "score_off": 22.0,
+     "score_def": 113.0,
+     "total_off": 17.0,
+     "total_def": 126.0
+    },
+    "away_ranks": {
+     "pass_off": 76.0,
+     "rush_off": 39.0,
+     "pass_def": 127.0,
+     "rush_def": 45.0,
+     "turnover_margin": 94.0,
+     "score_off": 58.0,
+     "score_def": 56.0,
+     "total_off": 51.0,
+     "total_def": 103.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-09T23:00Z"
+   },
    "weekly_news": {
     "text": "Thursday report: Louisville QB Lincoln Kienholz probable. FSU DL Darryll Desir upgraded to probable; FSU lists 10 out and Louisville 8 out. Louisville RB Keyjuan Brown, OL Cason Henry and DL Daylen Russell questionable.",
     "url": "https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx",
@@ -290,6 +323,39 @@
     "under_odds": -115,
     "away_ml": 126,
     "home_ml": -152
+   },
+   "national_rank_candidate": {
+    "event_id": "401858487",
+    "name": "Iowa Hawkeyes at Washington Huskies",
+    "baseline_margin_home": 3.7,
+    "candidate_margins_home": {
+     "pass_def": 3.158343847996278,
+     "requested_five": 0.678303929187976
+    },
+    "home_ranks": {
+     "pass_off": 35.0,
+     "rush_off": 126.0,
+     "pass_def": 47.0,
+     "rush_def": 35.0,
+     "turnover_margin": 17.0,
+     "score_off": 87.0,
+     "score_def": 37.0,
+     "total_off": 81.0,
+     "total_def": 36.0
+    },
+    "away_ranks": {
+     "pass_off": 88.0,
+     "rush_off": 45.0,
+     "pass_def": 42.0,
+     "rush_def": 32.0,
+     "turnover_margin": 49.0,
+     "score_off": 73.0,
+     "score_def": 8.0,
+     "total_off": 72.0,
+     "total_def": 26.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T01:00Z"
    },
    "weekly_news": {
     "text": "Iowa QB Hank Brown (shoulder) questionable. Ferentz says the current plan is Jeremy Hecklinski with Jimmy Sullivan next; final Brown decision not confirmed.",
@@ -324,6 +390,39 @@
     "away_ml": 176,
     "home_ml": -215
    },
+   "national_rank_candidate": {
+    "event_id": "401860922",
+    "name": "Washington State Cougars at Utah State Aggies",
+    "baseline_margin_home": 2.2,
+    "candidate_margins_home": {
+     "pass_def": 2.2336184674336583,
+     "requested_five": 3.845867803057311
+    },
+    "home_ranks": {
+     "pass_off": 98.0,
+     "rush_off": 108.0,
+     "pass_def": 102.0,
+     "rush_def": 81.0,
+     "turnover_margin": 129.0,
+     "score_off": 136.0,
+     "score_def": 80.0,
+     "total_off": 118.0,
+     "total_def": 96.0
+    },
+    "away_ranks": {
+     "pass_off": 125.0,
+     "rush_off": 106.0,
+     "pass_def": 79.0,
+     "rush_def": 100.0,
+     "turnover_margin": 121.0,
+     "score_off": 120.0,
+     "score_def": 80.0,
+     "total_off": 133.0,
+     "total_def": 94.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T01:00Z"
+   },
    "weekly_news": {
     "text": "WSU coach Kirby Moore taking over offensive playcalling. Friday starting QB remains unresolved in this report: Caden Pinnick, Owen Eshelman or Julian Dugger.",
     "url": "https://www.spokesman.com/stories/2026/oct/08/can-wsu-take-down-utah-state-on-the-road-it-might-/",
@@ -356,6 +455,39 @@
     "under_odds": -115,
     "away_ml": 146,
     "home_ml": -176
+   },
+   "national_rank_candidate": {
+    "event_id": "401864519",
+    "name": "Wyoming Cowboys at San Jos\u00e9 State Spartans",
+    "baseline_margin_home": 3.0,
+    "candidate_margins_home": {
+     "pass_def": 1.7595051790678156,
+     "requested_five": 3.9628723125272667
+    },
+    "home_ranks": {
+     "pass_off": 45.0,
+     "rush_off": 103.0,
+     "pass_def": 118.0,
+     "rush_def": 52.0,
+     "turnover_margin": 78.0,
+     "score_off": 106.0,
+     "score_def": 80.0,
+     "total_off": 74.0,
+     "total_def": 101.0
+    },
+    "away_ranks": {
+     "pass_off": 132.0,
+     "rush_off": 83.0,
+     "pass_def": 36.0,
+     "rush_def": 126.0,
+     "turnover_margin": 129.0,
+     "score_off": 135.0,
+     "score_def": 58.0,
+     "total_off": 131.0,
+     "total_def": 84.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T01:00Z"
    }
   },
   {
@@ -384,6 +516,39 @@
     "under_odds": -114,
     "away_ml": 365,
     "home_ml": -490
+   },
+   "national_rank_candidate": {
+    "event_id": "401856826",
+    "name": "Iowa State Cyclones at BYU Cougars",
+    "baseline_margin_home": 16.6,
+    "candidate_margins_home": {
+     "pass_def": 17.278367117513866,
+     "requested_five": 17.135010887846146
+    },
+    "home_ranks": {
+     "pass_off": 115.0,
+     "rush_off": 16.0,
+     "pass_def": 50.0,
+     "rush_def": 9.0,
+     "turnover_margin": 8.0,
+     "score_off": 30.0,
+     "score_def": 17.0,
+     "total_off": 55.0,
+     "total_def": 22.0
+    },
+    "away_ranks": {
+     "pass_off": 102.0,
+     "rush_off": 38.0,
+     "pass_def": 28.0,
+     "rush_def": 84.0,
+     "turnover_margin": 49.0,
+     "score_off": 53.0,
+     "score_def": 52.0,
+     "total_off": 70.0,
+     "total_def": 49.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T02:15Z"
    },
    "weekly_news": {
     "text": "BYU RB LJ Martin and LB Isaiah Glasker out on initial report; RB Sione Moa also out. Iowa State S Drew Surges, DE Caden Crawford and DT Ka'Mori Moore out. Later game-day report may change availability.",
@@ -417,6 +582,39 @@
     "under_odds": -115,
     "away_ml": -315,
     "home_ml": 250
+   },
+   "national_rank_candidate": {
+    "event_id": "401858481",
+    "name": "Indiana Hoosiers at Nebraska Cornhuskers",
+    "baseline_margin_home": -7.4,
+    "candidate_margins_home": {
+     "pass_def": -7.626436785019147,
+     "requested_five": -4.448647883076534
+    },
+    "home_ranks": {
+     "pass_off": 54.0,
+     "rush_off": 17.0,
+     "pass_def": 24.0,
+     "rush_def": 30.0,
+     "turnover_margin": 11.0,
+     "score_off": 9.0,
+     "score_def": 15.0,
+     "total_off": 24.0,
+     "total_def": 18.0
+    },
+    "away_ranks": {
+     "pass_off": 63.0,
+     "rush_off": 9.0,
+     "pass_def": 29.0,
+     "rush_def": 7.0,
+     "turnover_margin": 49.0,
+     "score_off": 8.0,
+     "score_def": 5.0,
+     "total_off": 14.0,
+     "total_def": 4.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    }
   },
   {
@@ -445,6 +643,39 @@
     "under_odds": -114,
     "away_ml": 136,
     "home_ml": -164
+   },
+   "national_rank_candidate": {
+    "event_id": "401856716",
+    "name": "Texas A&M Aggies at Missouri Tigers",
+    "baseline_margin_home": 6.5,
+    "candidate_margins_home": {
+     "pass_def": 5.870431859048734,
+     "requested_five": 7.147508314445721
+    },
+    "home_ranks": {
+     "pass_off": 30.0,
+     "rush_off": 56.0,
+     "pass_def": 99.0,
+     "rush_def": 15.0,
+     "turnover_margin": 28.0,
+     "score_off": 25.0,
+     "score_def": 48.0,
+     "total_off": 39.0,
+     "total_def": 47.0
+    },
+    "away_ranks": {
+     "pass_off": 104.0,
+     "rush_off": 60.0,
+     "pass_def": 46.0,
+     "rush_def": 50.0,
+     "turnover_margin": 35.0,
+     "score_off": 64.0,
+     "score_def": 38.0,
+     "total_off": 97.0,
+     "total_def": 42.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    },
    "weekly_news": {
     "text": "Thursday: Texas A&M WR Mario Craver questionable; WR Terry Bussey and OL Blake Ivy out. Missouri OL Cayden Green and six other Tigers questionable.",
@@ -478,6 +709,39 @@
     "under_odds": -114,
     "away_ml": 315,
     "home_ml": -410
+   },
+   "national_rank_candidate": {
+    "event_id": "401856824",
+    "name": "UCF Knights at Oklahoma State Cowboys",
+    "baseline_margin_home": 6.6,
+    "candidate_margins_home": {
+     "pass_def": 7.515163883888895,
+     "requested_five": 8.622463237534085
+    },
+    "home_ranks": {
+     "pass_off": 7.0,
+     "rush_off": 22.0,
+     "pass_def": 15.0,
+     "rush_def": 94.0,
+     "turnover_margin": 121.0,
+     "score_off": 30.0,
+     "score_def": 44.0,
+     "total_off": 2.0,
+     "total_def": 45.0
+    },
+    "away_ranks": {
+     "pass_off": 116.0,
+     "rush_off": 55.0,
+     "pass_def": 88.0,
+     "rush_def": 47.0,
+     "turnover_margin": 17.0,
+     "score_off": 60.0,
+     "score_def": 33.0,
+     "total_off": 100.0,
+     "total_def": 62.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    }
   },
   {
@@ -506,6 +770,39 @@
     "under_odds": -114,
     "away_ml": 140,
     "home_ml": -170
+   },
+   "national_rank_candidate": {
+    "event_id": "401858256",
+    "name": "North Carolina Tar Heels at Pittsburgh Panthers",
+    "baseline_margin_home": 7.6,
+    "candidate_margins_home": {
+     "pass_def": 5.7368960242255405,
+     "requested_five": 10.39164763475221
+    },
+    "home_ranks": {
+     "pass_off": 10.0,
+     "rush_off": 63.0,
+     "pass_def": 110.0,
+     "rush_def": 2.0,
+     "turnover_margin": 17.0,
+     "score_off": 24.0,
+     "score_def": 12.0,
+     "total_off": 23.0,
+     "total_def": 31.0
+    },
+    "away_ranks": {
+     "pass_off": 89.0,
+     "rush_off": 100.0,
+     "pass_def": 62.0,
+     "rush_def": 89.0,
+     "turnover_margin": 89.0,
+     "score_off": 98.0,
+     "score_def": 43.0,
+     "total_off": 108.0,
+     "total_def": 69.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    },
    "weekly_news": {
     "text": "Pitt confirms Mason Heintschel out for season with torn ACL; Holden Geriner named starter, Corey Dailey backup.",
@@ -539,6 +836,39 @@
     "under_odds": -110,
     "away_ml": -156,
     "home_ml": 130
+   },
+   "national_rank_candidate": {
+    "event_id": "401856823",
+    "name": "Arizona Wildcats at West Virginia Mountaineers",
+    "baseline_margin_home": -3.9,
+    "candidate_margins_home": {
+     "pass_def": -5.259726717038509,
+     "requested_five": -10.200845296108568
+    },
+    "home_ranks": {
+     "pass_off": 117.0,
+     "rush_off": 3.0,
+     "pass_def": 133.0,
+     "rush_def": 107.0,
+     "turnover_margin": 61.0,
+     "score_off": 27.0,
+     "score_def": 110.0,
+     "total_off": 26.0,
+     "total_def": 133.0
+    },
+    "away_ranks": {
+     "pass_off": 19.0,
+     "rush_off": 77.0,
+     "pass_def": 77.0,
+     "rush_def": 11.0,
+     "turnover_margin": 115.0,
+     "score_off": 60.0,
+     "score_def": 29.0,
+     "total_off": 35.0,
+     "total_def": 28.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    }
   },
   {
@@ -567,6 +897,39 @@
     "under_odds": -110,
     "away_ml": -170,
     "home_ml": 138
+   },
+   "national_rank_candidate": {
+    "event_id": "401858260",
+    "name": "Wake Forest Demon Deacons at NC State Wolfpack",
+    "baseline_margin_home": 7.3,
+    "candidate_margins_home": {
+     "pass_def": 7.268812579056066,
+     "requested_five": 3.8419600024764
+    },
+    "home_ranks": {
+     "pass_off": 42.0,
+     "rush_off": 35.0,
+     "pass_def": 82.0,
+     "rush_def": 74.0,
+     "turnover_margin": 65.0,
+     "score_off": 34.0,
+     "score_def": 90.0,
+     "total_off": 33.0,
+     "total_def": 75.0
+    },
+    "away_ranks": {
+     "pass_off": 23.0,
+     "rush_off": 70.0,
+     "pass_def": 107.0,
+     "rush_def": 35.0,
+     "turnover_margin": 65.0,
+     "score_off": 36.0,
+     "score_def": 63.0,
+     "total_off": 40.0,
+     "total_def": 65.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    },
    "weekly_news": {
     "text": "Official Thursday: NC State RB Jayden Scott out, along with 10 other Wolfpack players. Wake Forest OL Jack Hines questionable.",
@@ -600,6 +963,39 @@
     "under_odds": -115,
     "away_ml": 134,
     "home_ml": -162
+   },
+   "national_rank_candidate": {
+    "event_id": "401862795",
+    "name": "Tulane Green Wave at Army Black Knights",
+    "baseline_margin_home": 6.3,
+    "candidate_margins_home": {
+     "pass_def": 7.553124559426635,
+     "requested_five": 5.987630176625286
+    },
+    "home_ranks": {
+     "pass_off": 135.0,
+     "rush_off": 1.0,
+     "pass_def": 71.0,
+     "rush_def": 101.0,
+     "turnover_margin": 100.0,
+     "score_off": 55.0,
+     "score_def": 44.0,
+     "total_off": 45.0,
+     "total_def": 90.0
+    },
+    "away_ranks": {
+     "pass_off": 105.0,
+     "rush_off": 68.0,
+     "pass_def": 98.0,
+     "rush_def": 127.0,
+     "turnover_margin": 89.0,
+     "score_off": 123.0,
+     "score_def": 68.0,
+     "total_off": 105.0,
+     "total_def": 125.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    }
   },
   {
@@ -628,6 +1024,39 @@
     "under_odds": -118,
     "away_ml": 260,
     "home_ml": -330
+   },
+   "national_rank_candidate": {
+    "event_id": "401866436",
+    "name": "Sacramento State Hornets at Bowling Green Falcons",
+    "baseline_margin_home": -2.1,
+    "candidate_margins_home": {
+     "pass_def": -1.5766649878415602,
+     "requested_five": -2.3531018616333164
+    },
+    "home_ranks": {
+     "pass_off": 121.0,
+     "rush_off": 137.0,
+     "pass_def": 35.0,
+     "rush_def": 136.0,
+     "turnover_margin": 78.0,
+     "score_off": 138.0,
+     "score_def": 125.0,
+     "total_off": 138.0,
+     "total_def": 120.0
+    },
+    "away_ranks": {
+     "pass_off": 82.0,
+     "rush_off": 124.0,
+     "pass_def": 56.0,
+     "rush_def": 86.0,
+     "turnover_margin": 137.0,
+     "score_off": 128.0,
+     "score_def": 109.0,
+     "total_off": 117.0,
+     "total_def": 67.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:00Z"
    }
   },
   {
@@ -643,7 +1072,40 @@
    "predicted_margin_home": 22.2,
    "predicted_winner": "Northwestern Wildcats",
    "model_home_line": -22.2,
-   "week": 6
+   "week": 6,
+   "national_rank_candidate": {
+    "event_id": "401858482",
+    "name": "Ball State Cardinals at Northwestern Wildcats",
+    "baseline_margin_home": 22.2,
+    "candidate_margins_home": {
+     "pass_def": 23.77729801686631,
+     "requested_five": 26.819420246551473
+    },
+    "home_ranks": {
+     "pass_off": 76.0,
+     "rush_off": 27.0,
+     "pass_def": 89.0,
+     "rush_def": 99.0,
+     "turnover_margin": 8.0,
+     "score_off": 59.0,
+     "score_def": 31.0,
+     "total_off": 44.0,
+     "total_def": 104.0
+    },
+    "away_ranks": {
+     "pass_off": 120.0,
+     "rush_off": 114.0,
+     "pass_def": 113.0,
+     "rush_def": 135.0,
+     "turnover_margin": 78.0,
+     "score_off": 119.0,
+     "score_def": 132.0,
+     "total_off": 130.0,
+     "total_def": 135.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:30Z"
+   }
   },
   {
    "event_id": "401856714",
@@ -671,6 +1133,39 @@
     "under_odds": -114,
     "away_ml": 385,
     "home_ml": -520
+   },
+   "national_rank_candidate": {
+    "event_id": "401856714",
+    "name": "South Carolina Gamecocks at Florida Gators",
+    "baseline_margin_home": 7.8,
+    "candidate_margins_home": {
+     "pass_def": 6.760635462621435,
+     "requested_five": 6.984292460685879
+    },
+    "home_ranks": {
+     "pass_off": 31.0,
+     "rush_off": 25.0,
+     "pass_def": 128.0,
+     "rush_def": 53.0,
+     "turnover_margin": 28.0,
+     "score_off": 5.0,
+     "score_def": 104.0,
+     "total_off": 12.0,
+     "total_def": 108.0
+    },
+    "away_ranks": {
+     "pass_off": 64.0,
+     "rush_off": 7.0,
+     "pass_def": 99.0,
+     "rush_def": 29.0,
+     "turnover_margin": 129.0,
+     "score_off": 25.0,
+     "score_def": 101.0,
+     "total_off": 13.0,
+     "total_def": 55.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T16:45Z"
    }
   },
   {
@@ -699,6 +1194,39 @@
     "under_odds": -112,
     "away_ml": 310,
     "home_ml": -400
+   },
+   "national_rank_candidate": {
+    "event_id": "401869843",
+    "name": "Old Dominion Monarchs at App State Mountaineers",
+    "baseline_margin_home": 12.0,
+    "candidate_margins_home": {
+     "pass_def": 11.31222896656553,
+     "requested_five": 15.187700011934583
+    },
+    "home_ranks": {
+     "pass_off": 9.0,
+     "rush_off": 91.0,
+     "pass_def": 87.0,
+     "rush_def": 48.0,
+     "turnover_margin": 17.0,
+     "score_off": 46.0,
+     "score_def": 59.0,
+     "total_off": 31.0,
+     "total_def": 61.0
+    },
+    "away_ranks": {
+     "pass_off": 130.0,
+     "rush_off": 127.0,
+     "pass_def": 72.0,
+     "rush_def": 80.0,
+     "turnover_margin": 94.0,
+     "score_off": 115.0,
+     "score_def": 124.0,
+     "total_off": 137.0,
+     "total_def": 73.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T17:00Z"
    }
   },
   {
@@ -727,6 +1255,39 @@
     "under_odds": -114,
     "away_ml": -122,
     "home_ml": 102
+   },
+   "national_rank_candidate": {
+    "event_id": "401866440",
+    "name": "Miami (OH) RedHawks at Massachusetts Minutemen",
+    "baseline_margin_home": -2.3,
+    "candidate_margins_home": {
+     "pass_def": 0.6386179400685688,
+     "requested_five": 1.1487460346486849
+    },
+    "home_ranks": {
+     "pass_off": 129.0,
+     "rush_off": 71.0,
+     "pass_def": 22.0,
+     "rush_def": 22.0,
+     "turnover_margin": 17.0,
+     "score_off": 71.0,
+     "score_def": 20.0,
+     "total_off": 124.0,
+     "total_def": 16.0
+    },
+    "away_ranks": {
+     "pass_off": 36.0,
+     "rush_off": 128.0,
+     "pass_def": 135.0,
+     "rush_def": 38.0,
+     "turnover_margin": 78.0,
+     "score_off": 84.0,
+     "score_def": 113.0,
+     "total_off": 88.0,
+     "total_def": 114.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T18:00Z"
    }
   },
   {
@@ -755,6 +1316,39 @@
     "under_odds": -110,
     "away_ml": -330,
     "home_ml": 260
+   },
+   "national_rank_candidate": {
+    "event_id": "401856717",
+    "name": "Texas Longhorns at Oklahoma Sooners",
+    "baseline_margin_home": -8.7,
+    "candidate_margins_home": {
+     "pass_def": -8.653746060093155,
+     "requested_five": -8.75089369465889
+    },
+    "home_ranks": {
+     "pass_off": 79.0,
+     "rush_off": 131.0,
+     "pass_def": 4.0,
+     "rush_def": 41.0,
+     "turnover_margin": 136.0,
+     "score_off": 109.0,
+     "score_def": 25.0,
+     "total_off": 119.0,
+     "total_def": 5.0
+    },
+    "away_ranks": {
+     "pass_off": 68.0,
+     "rush_off": 89.0,
+     "pass_def": 27.0,
+     "rush_def": 26.0,
+     "turnover_margin": 65.0,
+     "score_off": 55.0,
+     "score_def": 11.0,
+     "total_off": 84.0,
+     "total_def": 23.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    },
    "weekly_news": {
     "text": "Thursday: Oklahoma LB Cole Sullivan, S Michael Boganowski, WR Jer'Michael Carter and TE Jack Van Dorselaer upgraded to probable. OL Michael Fasusi doubtful; OL Eddy Pierre-Louis questionable.",
@@ -788,6 +1382,39 @@
     "under_odds": -106,
     "away_ml": 8000,
     "home_ml": null
+   },
+   "national_rank_candidate": {
+    "event_id": "401858257",
+    "name": "Stanford Cardinal at Notre Dame Fighting Irish",
+    "baseline_margin_home": 41.1,
+    "candidate_margins_home": {
+     "pass_def": 41.49824920074909,
+     "requested_five": 40.74024497570379
+    },
+    "home_ranks": {
+     "pass_off": 38.0,
+     "rush_off": 64.0,
+     "pass_def": 14.0,
+     "rush_def": 4.0,
+     "turnover_margin": 2.0,
+     "score_off": 15.0,
+     "score_def": 7.0,
+     "total_off": 46.0,
+     "total_def": 1.0
+    },
+    "away_ranks": {
+     "pass_off": 51.0,
+     "rush_off": 135.0,
+     "pass_def": 138.0,
+     "rush_def": 95.0,
+     "turnover_margin": 17.0,
+     "score_off": 131.0,
+     "score_def": 133.0,
+     "total_off": 112.0,
+     "total_def": 134.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -816,6 +1443,39 @@
     "under_odds": -106,
     "away_ml": -365,
     "home_ml": 285
+   },
+   "national_rank_candidate": {
+    "event_id": "401856718",
+    "name": "Ole Miss Rebels at Vanderbilt Commodores",
+    "baseline_margin_home": -10.7,
+    "candidate_margins_home": {
+     "pass_def": -10.723065541639958,
+     "requested_five": -9.183758177061765
+    },
+    "home_ranks": {
+     "pass_off": 74.0,
+     "rush_off": 115.0,
+     "pass_def": 78.0,
+     "rush_def": 57.0,
+     "turnover_margin": 65.0,
+     "score_off": 90.0,
+     "score_def": 80.0,
+     "total_off": 101.0,
+     "total_def": 60.0
+    },
+    "away_ranks": {
+     "pass_off": 8.0,
+     "rush_off": 118.0,
+     "pass_def": 72.0,
+     "rush_def": 128.0,
+     "turnover_margin": 121.0,
+     "score_off": 41.0,
+     "score_def": 119.0,
+     "total_off": 42.0,
+     "total_def": 116.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -844,6 +1504,39 @@
     "under_odds": -110,
     "away_ml": 350,
     "home_ml": -465
+   },
+   "national_rank_candidate": {
+    "event_id": "401858484",
+    "name": "UCLA Bruins at Oregon Ducks",
+    "baseline_margin_home": 17.7,
+    "candidate_margins_home": {
+     "pass_def": 17.442360475342436,
+     "requested_five": 17.933402858004417
+    },
+    "home_ranks": {
+     "pass_off": 3.0,
+     "rush_off": 77.0,
+     "pass_def": 101.0,
+     "rush_def": 37.0,
+     "turnover_margin": 8.0,
+     "score_off": 4.0,
+     "score_def": 68.0,
+     "total_off": 8.0,
+     "total_def": 64.0
+    },
+    "away_ranks": {
+     "pass_off": 96.0,
+     "rush_off": 4.0,
+     "pass_def": 91.0,
+     "rush_def": 16.0,
+     "turnover_margin": 2.0,
+     "score_off": 7.0,
+     "score_def": 39.0,
+     "total_off": 16.0,
+     "total_def": 44.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    },
    "weekly_news": {
     "text": "Oregon QB Dante Moore out in concussion protocol; Dylan Raiola to start against UCLA. Returning to practice did not mean cleared to play.",
@@ -877,6 +1570,39 @@
     "under_odds": -120,
     "away_ml": 114,
     "home_ml": -137
+   },
+   "national_rank_candidate": {
+    "event_id": "401856825",
+    "name": "Houston Cougars at Kansas State Wildcats",
+    "baseline_margin_home": 2.8,
+    "candidate_margins_home": {
+     "pass_def": 4.583928143177047,
+     "requested_five": 3.727887670865111
+    },
+    "home_ranks": {
+     "pass_off": 61.0,
+     "rush_off": 13.0,
+     "pass_def": 1.0,
+     "rush_def": 69.0,
+     "turnover_margin": 89.0,
+     "score_off": 19.0,
+     "score_def": 23.0,
+     "total_off": 21.0,
+     "total_def": 10.0
+    },
+    "away_ranks": {
+     "pass_off": 47.0,
+     "rush_off": 19.0,
+     "pass_def": 123.0,
+     "rush_def": 8.0,
+     "turnover_margin": 35.0,
+     "score_off": 17.0,
+     "score_def": 46.0,
+     "total_off": 20.0,
+     "total_def": 54.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -905,6 +1631,39 @@
     "under_odds": -110,
     "away_ml": -265,
     "home_ml": 215
+   },
+   "national_rank_candidate": {
+    "event_id": "401858255",
+    "name": "Duke Blue Devils at Georgia Tech Yellow Jackets",
+    "baseline_margin_home": -6.3,
+    "candidate_margins_home": {
+     "pass_def": -5.703835115765511,
+     "requested_five": -8.350170956923401
+    },
+    "home_ranks": {
+     "pass_off": 55.0,
+     "rush_off": 109.0,
+     "pass_def": 48.0,
+     "rush_def": 124.0,
+     "turnover_margin": 114.0,
+     "score_off": 82.0,
+     "score_def": 94.0,
+     "total_off": 89.0,
+     "total_def": 97.0
+    },
+    "away_ranks": {
+     "pass_off": 78.0,
+     "rush_off": 12.0,
+     "pass_def": 58.0,
+     "rush_def": 6.0,
+     "turnover_margin": 58.0,
+     "score_off": 37.0,
+     "score_def": 6.0,
+     "total_off": 30.0,
+     "total_def": 17.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -934,6 +1693,39 @@
     "away_ml": -385,
     "home_ml": 300
    },
+   "national_rank_candidate": {
+    "event_id": "401858259",
+    "name": "Virginia Tech Hokies at California Golden Bears",
+    "baseline_margin_home": 2.5,
+    "candidate_margins_home": {
+     "pass_def": 1.7957301772384446,
+     "requested_five": -4.444829021522564
+    },
+    "home_ranks": {
+     "pass_off": 18.0,
+     "rush_off": 133.0,
+     "pass_def": 33.0,
+     "rush_def": 121.0,
+     "turnover_margin": 61.0,
+     "score_off": 82.0,
+     "score_def": 99.0,
+     "total_off": 66.0,
+     "total_def": 76.0
+    },
+    "away_ranks": {
+     "pass_off": 11.0,
+     "rush_off": 76.0,
+     "pass_def": 43.0,
+     "rush_def": 14.0,
+     "turnover_margin": 121.0,
+     "score_off": 15.0,
+     "score_def": 46.0,
+     "total_off": 27.0,
+     "total_def": 24.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
+   },
    "weekly_news": {
     "text": "Official Thursday 11 PM ET report: Cal QB Jaron-Keawe Sagapolutele, RB Adam Mohammed, WR Chase Hendricks and S Kingston Lopa questionable. RB Carter Vargas and DL Nate Burrell out. Not a final game-day report.",
     "url": "https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx",
@@ -953,7 +1745,40 @@
    "predicted_margin_home": -6.1,
    "predicted_winner": "Illinois Fighting Illini",
    "model_home_line": 6.1,
-   "week": 6
+   "week": 6,
+   "national_rank_candidate": {
+    "event_id": "401858480",
+    "name": "Illinois Fighting Illini at Michigan State Spartans",
+    "baseline_margin_home": -6.1,
+    "candidate_margins_home": {
+     "pass_def": -5.130427280330174,
+     "requested_five": -6.739254638541091
+    },
+    "home_ranks": {
+     "pass_off": 110.0,
+     "rush_off": 113.0,
+     "pass_def": 40.0,
+     "rush_def": 78.0,
+     "turnover_margin": 115.0,
+     "score_off": 125.0,
+     "score_def": 66.0,
+     "total_off": 126.0,
+     "total_def": 52.0
+    },
+    "away_ranks": {
+     "pass_off": 49.0,
+     "rush_off": 75.0,
+     "pass_def": 116.0,
+     "rush_def": 54.0,
+     "turnover_margin": 78.0,
+     "score_off": 67.0,
+     "score_def": 94.0,
+     "total_off": 61.0,
+     "total_def": 98.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
+   }
   },
   {
    "event_id": "401862796",
@@ -981,6 +1806,39 @@
     "under_odds": 100,
     "away_ml": 2200,
     "home_ml": -8000
+   },
+   "national_rank_candidate": {
+    "event_id": "401862796",
+    "name": "Charlotte 49ers at North Texas Mean Green",
+    "baseline_margin_home": 19.3,
+    "candidate_margins_home": {
+     "pass_def": 20.052855690584405,
+     "requested_five": 23.663913474678502
+    },
+    "home_ranks": {
+     "pass_off": 5.0,
+     "rush_off": 49.0,
+     "pass_def": 75.0,
+     "rush_def": 97.0,
+     "turnover_margin": 65.0,
+     "score_off": 18.0,
+     "score_def": 125.0,
+     "total_off": 6.0,
+     "total_def": 87.0
+    },
+    "away_ranks": {
+     "pass_off": 114.0,
+     "rush_off": 125.0,
+     "pass_def": 125.0,
+     "rush_def": 116.0,
+     "turnover_margin": 137.0,
+     "score_off": 132.0,
+     "score_def": 136.0,
+     "total_off": 132.0,
+     "total_def": 131.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1009,6 +1867,39 @@
     "under_odds": -110,
     "away_ml": 112,
     "home_ml": -134
+   },
+   "national_rank_candidate": {
+    "event_id": "401862799",
+    "name": "Tulsa Golden Hurricane at Navy Midshipmen",
+    "baseline_margin_home": -4.0,
+    "candidate_margins_home": {
+     "pass_def": -0.731383518306346,
+     "requested_five": 0.1928947849053455
+    },
+    "home_ranks": {
+     "pass_off": 134.0,
+     "rush_off": 5.0,
+     "pass_def": 76.0,
+     "rush_def": 21.0,
+     "turnover_margin": 100.0,
+     "score_off": 92.0,
+     "score_def": 62.0,
+     "total_off": 80.0,
+     "total_def": 37.0
+    },
+    "away_ranks": {
+     "pass_off": 111.0,
+     "rush_off": 53.0,
+     "pass_def": 132.0,
+     "rush_def": 62.0,
+     "turnover_margin": 11.0,
+     "score_off": 75.0,
+     "score_def": 52.0,
+     "total_off": 99.0,
+     "total_def": 117.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1037,6 +1928,39 @@
     "under_odds": -118,
     "away_ml": -275,
     "home_ml": 220
+   },
+   "national_rank_candidate": {
+    "event_id": "401866435",
+    "name": "Eastern Michigan Eagles at Akron Zips",
+    "baseline_margin_home": 0.6,
+    "candidate_margins_home": {
+     "pass_def": 1.484904556435871,
+     "requested_five": 1.202950300996307
+    },
+    "home_ranks": {
+     "pass_off": 100.0,
+     "rush_off": 93.0,
+     "pass_def": 108.0,
+     "rush_def": 123.0,
+     "turnover_margin": 129.0,
+     "score_off": 120.0,
+     "score_def": 128.0,
+     "total_off": 113.0,
+     "total_def": 127.0
+    },
+    "away_ranks": {
+     "pass_off": 97.0,
+     "rush_off": 123.0,
+     "pass_def": 96.0,
+     "rush_def": 64.0,
+     "turnover_margin": 57.0,
+     "score_off": 108.0,
+     "score_def": 80.0,
+     "total_off": 123.0,
+     "total_def": 80.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1065,6 +1989,39 @@
     "under_odds": -110,
     "away_ml": 920,
     "home_ml": -1800
+   },
+   "national_rank_candidate": {
+    "event_id": "401866437",
+    "name": "Buffalo Bulls at Toledo Rockets",
+    "baseline_margin_home": 14.3,
+    "candidate_margins_home": {
+     "pass_def": 15.390915669322558,
+     "requested_five": 17.687459972846604
+    },
+    "home_ranks": {
+     "pass_off": 26.0,
+     "rush_off": 34.0,
+     "pass_def": 49.0,
+     "rush_def": 61.0,
+     "turnover_margin": 49.0,
+     "score_off": 13.0,
+     "score_def": 90.0,
+     "total_off": 18.0,
+     "total_def": 51.0
+    },
+    "away_ranks": {
+     "pass_off": 122.0,
+     "rush_off": 82.0,
+     "pass_def": 114.0,
+     "rush_def": 96.0,
+     "turnover_margin": 135.0,
+     "score_off": 114.0,
+     "score_def": 118.0,
+     "total_off": 122.0,
+     "total_def": 118.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1093,6 +2050,39 @@
     "under_odds": -106,
     "away_ml": 125,
     "home_ml": -150
+   },
+   "national_rank_candidate": {
+    "event_id": "401866438",
+    "name": "Central Michigan Chippewas at Ohio Bobcats",
+    "baseline_margin_home": 3.8,
+    "candidate_margins_home": {
+     "pass_def": 2.835918199598786,
+     "requested_five": 3.5362315017510344
+    },
+    "home_ranks": {
+     "pass_off": 127.0,
+     "rush_off": 41.0,
+     "pass_def": 85.0,
+     "rush_def": 77.0,
+     "turnover_margin": 103.0,
+     "score_off": 84.0,
+     "score_def": 101.0,
+     "total_off": 109.0,
+     "total_def": 81.0
+    },
+    "away_ranks": {
+     "pass_off": 137.0,
+     "rush_off": 33.0,
+     "pass_def": 64.0,
+     "rush_def": 102.0,
+     "turnover_margin": 65.0,
+     "score_off": 128.0,
+     "score_def": 87.0,
+     "total_off": 134.0,
+     "total_def": 83.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1121,6 +2111,39 @@
     "under_odds": -110,
     "away_ml": 450,
     "home_ml": -630
+   },
+   "national_rank_candidate": {
+    "event_id": "401866439",
+    "name": "Kent State Golden Flashes at Western Michigan Broncos",
+    "baseline_margin_home": 12.8,
+    "candidate_margins_home": {
+     "pass_def": 14.05356264159627,
+     "requested_five": 14.761129048581465
+    },
+    "home_ranks": {
+     "pass_off": 126.0,
+     "rush_off": 91.0,
+     "pass_def": 45.0,
+     "rush_def": 92.0,
+     "turnover_margin": 35.0,
+     "score_off": 104.0,
+     "score_def": 41.0,
+     "total_off": 128.0,
+     "total_def": 63.0
+    },
+    "away_ranks": {
+     "pass_off": 124.0,
+     "rush_off": 120.0,
+     "pass_def": 86.0,
+     "rush_def": 70.0,
+     "turnover_margin": 103.0,
+     "score_off": 134.0,
+     "score_def": 120.0,
+     "total_off": 135.0,
+     "total_def": 76.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
    }
   },
   {
@@ -1149,6 +2172,39 @@
     "under_odds": -110,
     "away_ml": 142,
     "home_ml": -172
+   },
+   "national_rank_candidate": {
+    "event_id": "401861964",
+    "name": "UConn Huskies at Temple Owls",
+    "baseline_margin_home": 3.7,
+    "candidate_margins_home": {
+     "pass_def": 3.1462131510880154,
+     "requested_five": -1.6798367947554906
+    },
+    "home_ranks": {
+     "pass_off": 131.0,
+     "rush_off": 28.0,
+     "pass_def": 93.0,
+     "rush_def": 82.0,
+     "turnover_margin": 61.0,
+     "score_off": 89.0,
+     "score_def": 78.0,
+     "total_off": 94.0,
+     "total_def": 92.0
+    },
+    "away_ranks": {
+     "pass_off": 44.0,
+     "rush_off": 44.0,
+     "pass_def": 136.0,
+     "rush_def": 34.0,
+     "turnover_margin": 94.0,
+     "score_off": 38.0,
+     "score_def": 96.0,
+     "total_off": 41.0,
+     "total_def": 112.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:45Z"
    }
   },
   {
@@ -1177,6 +2233,39 @@
     "under_odds": -118,
     "away_ml": 280,
     "home_ml": -360
+   },
+   "national_rank_candidate": {
+    "event_id": "401862797",
+    "name": "Rice Owls at East Carolina Pirates",
+    "baseline_margin_home": 10.8,
+    "candidate_margins_home": {
+     "pass_def": 11.154707105628601,
+     "requested_five": 8.593104548529471
+    },
+    "home_ranks": {
+     "pass_off": 93.0,
+     "rush_off": 107.0,
+     "pass_def": 60.0,
+     "rush_def": 73.0,
+     "turnover_margin": 100.0,
+     "score_off": 98.0,
+     "score_def": 86.0,
+     "total_off": 114.0,
+     "total_def": 59.0
+    },
+    "away_ranks": {
+     "pass_off": 138.0,
+     "rush_off": 11.0,
+     "pass_def": 41.0,
+     "rush_def": 115.0,
+     "turnover_margin": 103.0,
+     "score_off": 126.0,
+     "score_def": 105.0,
+     "total_off": 116.0,
+     "total_def": 82.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T20:00Z"
    }
   },
   {
@@ -1205,6 +2294,39 @@
     "under_odds": -110,
     "away_ml": 3500,
     "home_ml": -20000
+   },
+   "national_rank_candidate": {
+    "event_id": "401858483",
+    "name": "Maryland Terrapins at Ohio State Buckeyes",
+    "baseline_margin_home": 29.8,
+    "candidate_margins_home": {
+     "pass_def": 29.723105603409465,
+     "requested_five": 27.928271026883884
+    },
+    "home_ranks": {
+     "pass_off": 2.0,
+     "rush_off": 69.0,
+     "pass_def": 25.0,
+     "rush_def": 25.0,
+     "turnover_margin": 28.0,
+     "score_off": 14.0,
+     "score_def": 8.0,
+     "total_off": 7.0,
+     "total_def": 19.0
+    },
+    "away_ranks": {
+     "pass_off": 29.0,
+     "rush_off": 88.0,
+     "pass_def": 59.0,
+     "rush_def": 66.0,
+     "turnover_margin": 65.0,
+     "score_off": 68.0,
+     "score_def": 117.0,
+     "total_off": 48.0,
+     "total_def": 56.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T20:15Z"
    }
   },
   {
@@ -1233,6 +2355,39 @@
     "under_odds": -115,
     "away_ml": -580,
     "home_ml": 420
+   },
+   "national_rank_candidate": {
+    "event_id": "401856713",
+    "name": "Tennessee Volunteers at Arkansas Razorbacks",
+    "baseline_margin_home": -15.0,
+    "candidate_margins_home": {
+     "pass_def": -15.22566074195586,
+     "requested_five": -14.38795255808164
+    },
+    "home_ranks": {
+     "pass_off": 57.0,
+     "rush_off": 134.0,
+     "pass_def": 53.0,
+     "rush_def": 79.0,
+     "turnover_margin": 103.0,
+     "score_off": 115.0,
+     "score_def": 108.0,
+     "total_off": 115.0,
+     "total_def": 58.0
+    },
+    "away_ranks": {
+     "pass_off": 119.0,
+     "rush_off": 14.0,
+     "pass_def": 20.0,
+     "rush_def": 60.0,
+     "turnover_margin": 35.0,
+     "score_off": 34.0,
+     "score_def": 21.0,
+     "total_off": 56.0,
+     "total_def": 30.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T20:15Z"
    },
    "weekly_news": {
     "text": "Thursday: QB Faizon Brandon questionable. George MacIntyre expected to start per reporting; Heupel has not publicly detailed the plan.",
@@ -1266,6 +2421,39 @@
     "under_odds": -112,
     "away_ml": 530,
     "home_ml": -780
+   },
+   "national_rank_candidate": {
+    "event_id": "401860902",
+    "name": "San Diego State Aztecs at Oregon State Beavers",
+    "baseline_margin_home": 3.1,
+    "candidate_margins_home": {
+     "pass_def": 3.633307145899889,
+     "requested_five": 3.9924393899013997
+    },
+    "home_ranks": {
+     "pass_off": 1.0,
+     "rush_off": 117.0,
+     "pass_def": 74.0,
+     "rush_def": 88.0,
+     "turnover_margin": 35.0,
+     "score_off": 33.0,
+     "score_def": 73.0,
+     "total_off": 9.0,
+     "total_def": 78.0
+    },
+    "away_ranks": {
+     "pass_off": 128.0,
+     "rush_off": 84.0,
+     "pass_def": 128.0,
+     "rush_def": 112.0,
+     "turnover_margin": 78.0,
+     "score_off": 96.0,
+     "score_def": 110.0,
+     "total_off": 127.0,
+     "total_def": 130.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T22:00Z"
    }
   },
   {
@@ -1294,6 +2482,39 @@
     "under_odds": -120,
     "away_ml": -330,
     "home_ml": 260
+   },
+   "national_rank_candidate": {
+    "event_id": "401856715",
+    "name": "LSU Tigers at Kentucky Wildcats",
+    "baseline_margin_home": -18.8,
+    "candidate_margins_home": {
+     "pass_def": -19.87982514740737,
+     "requested_five": -21.267959597954047
+    },
+    "home_ranks": {
+     "pass_off": 72.0,
+     "rush_off": 42.0,
+     "pass_def": 104.0,
+     "rush_def": 76.0,
+     "turnover_margin": 17.0,
+     "score_off": 48.0,
+     "score_def": 101.0,
+     "total_off": 53.0,
+     "total_def": 93.0
+    },
+    "away_ranks": {
+     "pass_off": 13.0,
+     "rush_off": 15.0,
+     "pass_def": 19.0,
+     "rush_def": 5.0,
+     "turnover_margin": 65.0,
+     "score_off": 9.0,
+     "score_def": 21.0,
+     "total_off": 3.0,
+     "total_def": 2.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
    }
   },
   {
@@ -1322,6 +2543,39 @@
     "under_odds": -114,
     "away_ml": 420,
     "home_ml": -580
+   },
+   "national_rank_candidate": {
+    "event_id": "401862798",
+    "name": "UAB Blazers at Memphis Tigers",
+    "baseline_margin_home": 9.0,
+    "candidate_margins_home": {
+     "pass_def": 7.949615228822058,
+     "requested_five": 9.433136705242756
+    },
+    "home_ranks": {
+     "pass_off": 21.0,
+     "rush_off": 10.0,
+     "pass_def": 84.0,
+     "rush_def": 111.0,
+     "turnover_margin": 35.0,
+     "score_off": 22.0,
+     "score_def": 60.0,
+     "total_off": 4.0,
+     "total_def": 109.0
+    },
+    "away_ranks": {
+     "pass_off": 123.0,
+     "rush_off": 47.0,
+     "pass_def": 2.0,
+     "rush_def": 117.0,
+     "turnover_margin": 61.0,
+     "score_off": 98.0,
+     "score_def": 70.0,
+     "total_off": 111.0,
+     "total_def": 33.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
    }
   },
   {
@@ -1350,6 +2604,39 @@
     "under_odds": -115,
     "away_ml": -375,
     "home_ml": 290
+   },
+   "national_rank_candidate": {
+    "event_id": "401864517",
+    "name": "Nevada Wolf Pack at UTEP Miners",
+    "baseline_margin_home": -4.4,
+    "candidate_margins_home": {
+     "pass_def": -6.383423500553949,
+     "requested_five": -9.095197811026015
+    },
+    "home_ranks": {
+     "pass_off": 133.0,
+     "rush_off": 99.0,
+     "pass_def": 94.0,
+     "rush_def": 108.0,
+     "turnover_margin": 103.0,
+     "score_off": 133.0,
+     "score_def": 137.0,
+     "total_off": 136.0,
+     "total_def": 110.0
+    },
+    "away_ranks": {
+     "pass_off": 106.0,
+     "rush_off": 40.0,
+     "pass_def": 17.0,
+     "rush_def": 131.0,
+     "turnover_margin": 134.0,
+     "score_off": 80.0,
+     "score_def": 77.0,
+     "total_off": 86.0,
+     "total_def": 85.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
    }
   },
   {
@@ -1378,6 +2665,39 @@
     "under_odds": -118,
     "away_ml": -152,
     "home_ml": 126
+   },
+   "national_rank_candidate": {
+    "event_id": "401864518",
+    "name": "North Dakota State Bison at UNLV Rebels",
+    "baseline_margin_home": -2.0,
+    "candidate_margins_home": {
+     "pass_def": -5.075225984194281,
+     "requested_five": -5.725044599071689
+    },
+    "home_ranks": {
+     "pass_off": 83.0,
+     "rush_off": 50.0,
+     "pass_def": 115.0,
+     "rush_def": 65.0,
+     "turnover_margin": 65.0,
+     "score_off": 93.0,
+     "score_def": 73.0,
+     "total_off": 68.0,
+     "total_def": 102.0
+    },
+    "away_ranks": {
+     "pass_off": 94.0,
+     "rush_off": 58.0,
+     "pass_def": 5.0,
+     "rush_def": 32.0,
+     "turnover_margin": 4.0,
+     "score_off": 53.0,
+     "score_def": 1.0,
+     "total_off": 85.0,
+     "total_def": 3.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
    }
   },
   {
@@ -1406,6 +2726,39 @@
     "under_odds": -105,
     "away_ml": 140,
     "home_ml": -170
+   },
+   "national_rank_candidate": {
+    "event_id": "401869943",
+    "name": "Coastal Carolina Chanticleers at Marshall Thundering Herd",
+    "baseline_margin_home": 7.1,
+    "candidate_margins_home": {
+     "pass_def": 5.735707963313037,
+     "requested_five": 5.1409775205943316
+    },
+    "home_ranks": {
+     "pass_off": 60.0,
+     "rush_off": 90.0,
+     "pass_def": 134.0,
+     "rush_def": 120.0,
+     "turnover_margin": 115.0,
+     "score_off": 107.0,
+     "score_def": 129.0,
+     "total_off": 75.0,
+     "total_def": 136.0
+    },
+    "away_ranks": {
+     "pass_off": 46.0,
+     "rush_off": 105.0,
+     "pass_def": 61.0,
+     "rush_def": 118.0,
+     "turnover_margin": 78.0,
+     "score_off": 94.0,
+     "score_def": 80.0,
+     "total_off": 76.0,
+     "total_def": 100.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
    }
   },
   {
@@ -1434,6 +2787,39 @@
     "under_odds": -115,
     "away_ml": 104,
     "home_ml": -125
+   },
+   "national_rank_candidate": {
+    "event_id": "401856712",
+    "name": "Georgia Bulldogs at Alabama Crimson Tide",
+    "baseline_margin_home": -2.5,
+    "candidate_margins_home": {
+     "pass_def": -3.5538757652637814,
+     "requested_five": -3.04890372321175
+    },
+    "home_ranks": {
+     "pass_off": 24.0,
+     "rush_off": 43.0,
+     "pass_def": 106.0,
+     "rush_def": 10.0,
+     "turnover_margin": 6.0,
+     "score_off": 2.0,
+     "score_def": 51.0,
+     "total_off": 25.0,
+     "total_def": 41.0
+    },
+    "away_ranks": {
+     "pass_off": 39.0,
+     "rush_off": 26.0,
+     "pass_def": 44.0,
+     "rush_def": 3.0,
+     "turnover_margin": 11.0,
+     "score_off": 1.0,
+     "score_def": 12.0,
+     "total_off": 22.0,
+     "total_def": 7.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
    },
    "weekly_news": {
     "text": "Wednesday report: Alabama TE Josh Ford and DB Jorden Edmonds questionable; LB Justin Hill and Desmond Umeozulu out. Georgia WR Isiah Canion questionable. Source has an inconsistent kickoff date, so this is labeled Wednesday-only, not final.",
@@ -1467,6 +2853,39 @@
     "under_odds": -104,
     "away_ml": -102,
     "home_ml": -118
+   },
+   "national_rank_candidate": {
+    "event_id": "401858485",
+    "name": "USC Trojans at Penn State Nittany Lions",
+    "baseline_margin_home": -1.7,
+    "candidate_margins_home": {
+     "pass_def": -0.5666262811434506,
+     "requested_five": -2.081419787692865
+    },
+    "home_ranks": {
+     "pass_off": 56.0,
+     "rush_off": 72.0,
+     "pass_def": 3.0,
+     "rush_def": 110.0,
+     "turnover_margin": 11.0,
+     "score_off": 62.0,
+     "score_def": 25.0,
+     "total_off": 62.0,
+     "total_def": 29.0
+    },
+    "away_ranks": {
+     "pass_off": 12.0,
+     "rush_off": 73.0,
+     "pass_def": 97.0,
+     "rush_def": 44.0,
+     "turnover_margin": 77.0,
+     "score_off": 29.0,
+     "score_def": 89.0,
+     "total_off": 29.0,
+     "total_def": 68.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
    }
   },
   {
@@ -1496,6 +2915,39 @@
     "away_ml": 280,
     "home_ml": -360
    },
+   "national_rank_candidate": {
+    "event_id": "401858258",
+    "name": "Syracuse Orange at Virginia Cavaliers",
+    "baseline_margin_home": 5.1,
+    "candidate_margins_home": {
+     "pass_def": 4.875345321249633,
+     "requested_five": 4.078043266291386
+    },
+    "home_ranks": {
+     "pass_off": 62.0,
+     "rush_off": 64.0,
+     "pass_def": 6.0,
+     "rush_def": 85.0,
+     "turnover_margin": 11.0,
+     "score_off": 51.0,
+     "score_def": 35.0,
+     "total_off": 64.0,
+     "total_def": 27.0
+    },
+    "away_ranks": {
+     "pass_off": 27.0,
+     "rush_off": 59.0,
+     "pass_def": 39.0,
+     "rush_def": 68.0,
+     "turnover_margin": 89.0,
+     "score_off": 46.0,
+     "score_def": 63.0,
+     "total_off": 36.0,
+     "total_def": 46.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
+   },
    "weekly_news": {
     "text": "Official Thursday: Syracuse QB Amari Odom questionable; Virginia lists 15 out. Not a final game-day report.",
     "url": "https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx",
@@ -1515,7 +2967,40 @@
    "predicted_margin_home": -5.5,
    "predicted_winner": "Air Force Falcons",
    "model_home_line": 5.5,
-   "week": 6
+   "week": 6,
+   "national_rank_candidate": {
+    "event_id": "401864516",
+    "name": "Air Force Falcons at Northern Illinois Huskies",
+    "baseline_margin_home": -5.5,
+    "candidate_margins_home": {
+     "pass_def": -7.3059665808006695,
+     "requested_five": -7.683542686738667
+    },
+    "home_ranks": {
+     "pass_off": 80.0,
+     "rush_off": 138.0,
+     "pass_def": 103.0,
+     "rush_def": 91.0,
+     "turnover_margin": 65.0,
+     "score_off": 137.0,
+     "score_def": 131.0,
+     "total_off": 129.0,
+     "total_def": 105.0
+    },
+    "away_ranks": {
+     "pass_off": 136.0,
+     "rush_off": 2.0,
+     "pass_def": 18.0,
+     "rush_def": 51.0,
+     "turnover_margin": 65.0,
+     "score_off": 73.0,
+     "score_def": 48.0,
+     "total_off": 73.0,
+     "total_def": 25.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
+   }
   },
   {
    "event_id": "401869949",
@@ -1543,6 +3028,39 @@
     "under_odds": -106,
     "away_ml": -280,
     "home_ml": 225
+   },
+   "national_rank_candidate": {
+    "event_id": "401869949",
+    "name": "James Madison Dukes at Georgia Southern Eagles",
+    "baseline_margin_home": -11.6,
+    "candidate_margins_home": {
+     "pass_def": -10.292424297818625,
+     "requested_five": -10.488453789335797
+    },
+    "home_ranks": {
+     "pass_off": 50.0,
+     "rush_off": 121.0,
+     "pass_def": 36.0,
+     "rush_def": 49.0,
+     "turnover_margin": 49.0,
+     "score_off": 94.0,
+     "score_def": 75.0,
+     "total_off": 92.0,
+     "total_def": 32.0
+    },
+    "away_ranks": {
+     "pass_off": 66.0,
+     "rush_off": 23.0,
+     "pass_def": 90.0,
+     "rush_def": 24.0,
+     "turnover_margin": 28.0,
+     "score_off": 6.0,
+     "score_def": 10.0,
+     "total_off": 34.0,
+     "total_def": 50.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
    }
   },
   {
@@ -1571,6 +3089,39 @@
     "under_odds": -120,
     "away_ml": 128,
     "home_ml": -154
+   },
+   "national_rank_candidate": {
+    "event_id": "401869965",
+    "name": "Louisiana Ragin' Cajuns at Louisiana Tech Bulldogs",
+    "baseline_margin_home": 4.2,
+    "candidate_margins_home": {
+     "pass_def": 4.518760778317901,
+     "requested_five": 1.9124315601760893
+    },
+    "home_ranks": {
+     "pass_off": 71.0,
+     "rush_off": 79.0,
+     "pass_def": 67.0,
+     "rush_def": 106.0,
+     "turnover_margin": 34.0,
+     "score_off": 38.0,
+     "score_def": 112.0,
+     "total_off": 79.0,
+     "total_def": 90.0
+    },
+    "away_ranks": {
+     "pass_off": 113.0,
+     "rush_off": 36.0,
+     "pass_def": 34.0,
+     "rush_def": 17.0,
+     "turnover_margin": 35.0,
+     "score_off": 71.0,
+     "score_def": 41.0,
+     "total_off": 83.0,
+     "total_def": 20.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:30Z"
    }
   },
   {
@@ -1599,6 +3150,39 @@
     "under_odds": -110,
     "away_ml": -137,
     "home_ml": 114
+   },
+   "national_rank_candidate": {
+    "event_id": "401858486",
+    "name": "Minnesota Golden Gophers at Purdue Boilermakers",
+    "baseline_margin_home": -8.1,
+    "candidate_margins_home": {
+     "pass_def": -10.049237727705451,
+     "requested_five": -9.74992825337798
+    },
+    "home_ranks": {
+     "pass_off": 16.0,
+     "rush_off": 130.0,
+     "pass_def": 112.0,
+     "rush_def": 119.0,
+     "turnover_margin": 78.0,
+     "score_off": 68.0,
+     "score_def": 129.0,
+     "total_off": 59.0,
+     "total_def": 128.0
+    },
+    "away_ranks": {
+     "pass_off": 65.0,
+     "rush_off": 116.0,
+     "pass_def": 16.0,
+     "rush_def": 19.0,
+     "turnover_margin": 35.0,
+     "score_off": 62.0,
+     "score_def": 35.0,
+     "total_off": 98.0,
+     "total_def": 12.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-11T00:00Z"
    }
   },
   {
@@ -1627,6 +3211,39 @@
     "under_odds": -105,
     "away_ml": 540,
     "home_ml": -800
+   },
+   "national_rank_candidate": {
+    "event_id": "401856827",
+    "name": "Kansas Jayhawks at Utah Utes",
+    "baseline_margin_home": 16.6,
+    "candidate_margins_home": {
+     "pass_def": 16.226054418681453,
+     "requested_five": 15.318940463051895
+    },
+    "home_ranks": {
+     "pass_off": 40.0,
+     "rush_off": 21.0,
+     "pass_def": 32.0,
+     "rush_def": 13.0,
+     "turnover_margin": 17.0,
+     "score_off": 12.0,
+     "score_def": 3.0,
+     "total_off": 11.0,
+     "total_def": 15.0
+    },
+    "away_ranks": {
+     "pass_off": 58.0,
+     "rush_off": 8.0,
+     "pass_def": 7.0,
+     "rush_def": 28.0,
+     "turnover_margin": 121.0,
+     "score_off": 38.0,
+     "score_def": 32.0,
+     "total_off": 9.0,
+     "total_def": 8.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-11T02:15Z"
    }
   },
   {
@@ -1655,6 +3272,39 @@
     "under_odds": -112,
     "away_ml": -265,
     "home_ml": 215
+   },
+   "national_rank_candidate": {
+    "event_id": "401860901",
+    "name": "Boise State Broncos at Fresno State Bulldogs",
+    "baseline_margin_home": 1.0,
+    "candidate_margins_home": {
+     "pass_def": 1.3924671742964465,
+     "requested_five": 0.018580252783131357
+    },
+    "home_ranks": {
+     "pass_off": 85.0,
+     "rush_off": 74.0,
+     "pass_def": 79.0,
+     "rush_def": 74.0,
+     "turnover_margin": 4.0,
+     "score_off": 75.0,
+     "score_def": 28.0,
+     "total_off": 90.0,
+     "total_def": 74.0
+    },
+    "away_ranks": {
+     "pass_off": 86.0,
+     "rush_off": 20.0,
+     "pass_def": 118.0,
+     "rush_def": 39.0,
+     "turnover_margin": 35.0,
+     "score_off": 50.0,
+     "score_def": 50.0,
+     "total_off": 43.0,
+     "total_def": 88.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-11T02:30Z"
    }
   },
   {
@@ -1684,6 +3334,39 @@
     "under_odds": -110,
     "away_ml": 860,
     "home_ml": -1600
+   },
+   "national_rank_candidate": {
+    "event_id": "401856808",
+    "name": "Hawai'i Rainbow Warriors at Arizona State Sun Devils",
+    "baseline_margin_home": 10.6,
+    "candidate_margins_home": {
+     "pass_def": 12.156197319482935,
+     "requested_five": 13.921705789530613
+    },
+    "home_ranks": {
+     "pass_off": 34.0,
+     "rush_off": 87.0,
+     "pass_def": 63.0,
+     "rush_def": 90.0,
+     "turnover_margin": 121.0,
+     "score_off": 55.0,
+     "score_def": 122.0,
+     "total_off": 49.0,
+     "total_def": 71.0
+    },
+    "away_ranks": {
+     "pass_off": 32.0,
+     "rush_off": 136.0,
+     "pass_def": 92.0,
+     "rush_def": 98.0,
+     "turnover_margin": 94.0,
+     "score_off": 128.0,
+     "score_def": 78.0,
+     "total_off": 95.0,
+     "total_def": 106.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-11T02:30Z"
    }
   }
  ],
@@ -1761,5 +3444,6 @@
     "source_date": "Oct 8, 8 PM ET"
    }
   }
- }
+ },
+ "national_rank_variant_note": "NOT ADOPTED: validation2024 chose pass-defense-only, whose paired2025 MAE interval crosses zero and which trails frozen v2.2 on forward2026 replay. Five-category bundle shown separately, not selected using test results."
 }

@@ -375,7 +375,7 @@ def et_day(dt): return dt.strftime('%A, %b %-d').upper()
 def fmt_spread(x):
     if x is None: return 'EVEN'
     return ('+' if x>0 else '')+str(x)
-def odds(x): return 'EVEN' if x is None else ('+'+str(x) if x>0 else str(x))
+def odds(x): return 'N/A' if x is None else ('+'+str(x) if x>0 else str(x))
 esc=lambda s: html.escape(str(s))
 
 from collections import defaultdict

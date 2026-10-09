@@ -408,7 +408,7 @@ for b in ok:
     fav=home if margin>0 else away
     display_margin=round(abs(float(margin))*2)/2
     display_margin_text=f'{display_margin:.0f}' if display_margin.is_integer() else f'{display_margin:.1f}'
-    ml=f"{fav} -{display_margin_text}"
+    ml=f"{fav} -{display_margin_text}" if display_margin else 'PK'
     bv=b.get('book_tn') or b.get('book_va')
     bv_state=(b['book_tn'].get('state') or 'TN') if b.get('book_tn') else ('VA' if b.get('book_va') else '')
     dt=et(b['date'])
@@ -452,7 +452,8 @@ for b in ok:
     rank_html=''
     if b.get('national_rank_candidate'):
         r=b['national_rank_candidate']; cm=r['candidate_margins_home']['requested_five']; cf=home if cm>=0 else away
-        rank_html=f"<div class=news><b>National-rank candidate (not adopted):</b> {esc(cf)} -{abs(cm):.1f}. Current v2.2 stays the MODEL number above. Not an injury adjustment.</div>"
+        cd=round(abs(cm)*2)/2; ct=(f'{cd:g}'); cl=f'{esc(cf)} -{ct}' if cd else 'PK'
+        rank_html=f"<div class=news><b>National-rank candidate (not adopted):</b> {cl}. Current v2.2 stays the MODEL number above. Not an injury adjustment.</div>"
         labs=[('pass_off','Pass O'),('rush_off','Rush O'),('pass_def','Pass D'),('rush_def','Rush D'),('turnover_margin','TO margin')]
         rank_html+=' <div class=news>Computed FBS ranks (138 teams; through Week 5, not official NCAA):</div><table><tr><th>Team</th>'+''.join(f'<th>{label}</th>' for _,label in labs)+'</tr>'
         for team,rr in [(away,r['away_ranks']),(home,r['home_ranks'])]:
@@ -466,7 +467,7 @@ for b in ok:
       f'<div class=bmeta>{et_time(dt)}{"".join(chips)}</div>'
       f'<div class=bgrid><span class=bg-lab>MODEL</span><span class=bnum>{esc(ml)}</span></div>'
       f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div></summary>'
-      f'<div class=bfoot>{quote_note}{table}<div class=news>Model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
+      f'<div class=bfoot>{quote_note}{table}<div class=news>Unrounded model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
       f'<div class=news>{esc(b["timing_note"])}</div>{news_html}{rank_html}</div></details>')
 
 n_post=sum(1 for b in ok if b['timing']=='post_kickoff')

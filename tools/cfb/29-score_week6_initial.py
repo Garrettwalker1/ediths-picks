@@ -351,6 +351,13 @@ matched=sum(1 for b in ok if b.get('book_tn'))
 print('book matched to board:', matched, 'fallback:',sum(1 for b in ok if b.get('book_tn') and b['book_tn']['state']=='TN'))
 
 
+news_file=REPO/'tools/cfb/31-week6-news-context.json'
+news_context=json.load(open(news_file)) if news_file.exists() else None
+if news_context:
+    for game in ok:
+        item=news_context['games'].get(str(game['event_id']))
+        if item: game['weekly_news']=item
+
 now_ct=datetime.now(ZoneInfo('America/Chicago'))
 gen=now_ct.strftime('%Y-%m-%dT%H:%M:%S%z')
 out={'schema_version':'1.1.0','generated_at':gen,
@@ -365,6 +372,7 @@ out={'schema_version':'1.1.0','generated_at':gen,
             'scoreboard':'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400'},
  'book_capture':{'file':str(BOOK_CSV.name) if BOOK_CSV else None,'label':BOOK_LABEL,'state':BOOK_STATE,'matched':matched},
  'games':ok,'errors':errs}
+if news_context: out['weekly_news_context']=news_context
 (OUT/'29-cfb_board_2026_week6_initial_v2_2.json').write_text(json.dumps(out,indent=1))
 
 # ---- board page ----
@@ -431,13 +439,17 @@ for b in ok:
     if bv:
         cap_ct=datetime.fromisoformat(bv['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Chicago'))
         quote_note=f"<div class=news>Book {esc(bv_state)} captured {cap_ct.strftime('%b %-d, %-I:%M %p CT')}{' - last available pregame quote; frozen after kickoff' if b.get('book_frozen_pregame') else ''}.</div>"
+    news_html=''
+    if b.get('weekly_news'):
+        n=b['weekly_news']
+        news_html=f"<div class=news><b>Weekly news - not modeled:</b> {esc(n['text'])} <a href=\"{esc(n['url'])}\">Source ({esc(n['source_date'])})</a>. Checked Oct 9 morning; status may change.</div>"
     sec[b['week']].append(
       f'<details class=game><summary><div class=bmatch>{esc(away)} at {esc(home)}</div>'
       f'<div class=bmeta>{et_time(dt)}{"".join(chips)}</div>'
       f'<div class=bgrid><span class=bg-lab>MODEL</span><span class=bnum>{esc(ml)}</span></div>'
       f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div></summary>'
       f'<div class=bfoot>{quote_note}{table}<div class=news>Model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
-      f'<div class=news>{esc(b["timing_note"])}</div></div></details>')
+      f'<div class=news>{esc(b["timing_note"])}</div>{news_html}</div></details>')
 
 n_post=sum(1 for b in ok if b['timing']=='post_kickoff')
 n_bk=sum(1 for b in ok if b.get('book_tn') or b.get('book_va'))

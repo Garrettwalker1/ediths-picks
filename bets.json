@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-08T22:12:38.008284+00:00",
+  "updated_at": "2026-10-09T12:14:27.234426+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4100,10 +4100,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 2.3,
+      "net_usd": 23,
       "stake_type": "cash",
       "bet": "George Pickens anytime TD (100% profit boost)",
       "selection": "George Pickens ATD",
@@ -4125,12 +4125,32 @@
           "selection": "George Pickens",
           "line": null,
           "price": 230,
-          "hit": null
+          "hit": true,
+          "actual": 1
         }
       ],
       "model_at_placement": {
         "available": false,
         "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      },
+      "grading": {
+        "source": "Final box-score grading, not settled slip; cashout/void status unconfirmed",
+        "source_urls": [
+          "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+        ],
+        "graded_at": "2026-10-09T12:14:27.234426+00:00",
+        "final_score": "Tampa Bay 24, Dallas 16",
+        "stats": {
+          "pickens_td": 1,
+          "lamb_receiving_yards": 9,
+          "godwin_receptions": 3,
+          "prescott_passing_td": 1,
+          "irving_rushing_yards": 165,
+          "javonte_rushing_yards": 45
+        },
+        "settlement_confirmed": true,
+        "owner_confirmation": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S: It settled normally. From now on just log every win as settled normally."
       }
     },
     {
@@ -4142,10 +4162,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "stake_type": "cash",
       "bet": "TB-DAL SGP: Lamb 70+ receiving yds; Godwin 3+ receptions; Prescott 2+ passing TD; Irving 30+ rushing yds",
       "selection": "CeeDee Lamb 70+ receiving yards; Chris Godwin 3+ receptions; Dak Prescott 2+ passing touchdowns; Bucky Irving 30+ rushing yards",
@@ -4167,7 +4187,8 @@
           "selection": "CeeDee Lamb 70+ receiving yards",
           "line": 70,
           "price": null,
-          "hit": null
+          "hit": false,
+          "actual": 9
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4176,7 +4197,8 @@
           "selection": "Chris Godwin 3+ receptions",
           "line": 3,
           "price": null,
-          "hit": null
+          "hit": true,
+          "actual": 3
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4185,7 +4207,8 @@
           "selection": "Dak Prescott 2+ passing TD",
           "line": 2,
           "price": null,
-          "hit": null
+          "hit": false,
+          "actual": 1
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4194,12 +4217,31 @@
           "selection": "Bucky Irving 30+ rushing yards",
           "line": 30,
           "price": null,
-          "hit": null
+          "hit": true,
+          "actual": 165
         }
       ],
       "model_at_placement": {
         "available": false,
         "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      },
+      "grading": {
+        "source": "Final box-score grading, not settled slip; cashout/void status unconfirmed",
+        "source_urls": [
+          "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+        ],
+        "graded_at": "2026-10-09T12:14:27.234426+00:00",
+        "final_score": "Tampa Bay 24, Dallas 16",
+        "stats": {
+          "pickens_td": 1,
+          "lamb_receiving_yards": 9,
+          "godwin_receptions": 3,
+          "prescott_passing_td": 1,
+          "irving_rushing_yards": 165,
+          "javonte_rushing_yards": 45
+        },
+        "settlement_confirmed": false
       }
     },
     {
@@ -4236,7 +4278,7 @@
           "selection": "George Pickens",
           "line": null,
           "price": 110,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Chicago Bears @ Green Bay Packers",
@@ -4278,6 +4320,15 @@
       "model_at_placement": {
         "available": false,
         "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
+      },
+      "grading": {
+        "source": "Final box-score leg grading; book settlement not verified",
+        "source_urls": [
+          "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+        ],
+        "graded_at": "2026-10-09T12:14:27.234426+00:00",
+        "detail": "Pickens scored 1 receiving TD. Four Sunday legs still pending."
       }
     },
     {
@@ -4289,10 +4340,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "stake_type": "cash",
       "bet": "TB-DAL SGP: Javonte 40+ rush; Irving 40+ rush; Lamb 70+ receiving",
       "selection": "Javonte Williams 40+; Bucky Irving 40+; CeeDee Lamb 70+",
@@ -4314,7 +4365,8 @@
           "selection": "Javonte Williams",
           "line": 40,
           "price": null,
-          "hit": null
+          "hit": true,
+          "actual": 45
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4323,7 +4375,8 @@
           "selection": "Bucky Irving",
           "line": 40,
           "price": null,
-          "hit": null
+          "hit": true,
+          "actual": 165
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4332,7 +4385,8 @@
           "selection": "CeeDee Lamb",
           "line": 70,
           "price": null,
-          "hit": null
+          "hit": false,
+          "actual": 9
         }
       ],
       "market_context_at_placement": {
@@ -4343,6 +4397,24 @@
       "model_at_placement": {
         "available": true,
         "note": "Frozen Week5 player baseline and unvalidated injury overlay leave Javonte, Irving, Lamb medians unchanged. Yardage probabilities in prior research were rough normal approximations, not calibrated SGP probabilities. Backup redistribution not modeled. Correlated/nested legs across the two tickets, not diversification."
+      },
+      "grading": {
+        "source": "Final box-score grading, not settled slip; cashout/void status unconfirmed",
+        "source_urls": [
+          "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+        ],
+        "graded_at": "2026-10-09T12:14:27.234426+00:00",
+        "final_score": "Tampa Bay 24, Dallas 16",
+        "stats": {
+          "pickens_td": 1,
+          "lamb_receiving_yards": 9,
+          "godwin_receptions": 3,
+          "prescott_passing_td": 1,
+          "irving_rushing_yards": 165,
+          "javonte_rushing_yards": 45
+        },
+        "settlement_confirmed": false
       }
     },
     {
@@ -4354,10 +4426,10 @@
       "book": "FanDuel",
       "state": "TN",
       "line": null,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "stake_type": "cash",
       "bet": "TB-DAL SGP: Lamb 90+ receiving; Javonte 80+ rush; Irving 70+ rush",
       "selection": "CeeDee Lamb 90+; Javonte Williams 80+; Bucky Irving 70+",
@@ -4379,7 +4451,8 @@
           "selection": "CeeDee Lamb",
           "line": 90,
           "price": null,
-          "hit": null
+          "hit": false,
+          "actual": 9
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4388,7 +4461,8 @@
           "selection": "Javonte Williams",
           "line": 80,
           "price": null,
-          "hit": null
+          "hit": false,
+          "actual": 45
         },
         {
           "event": "Tampa Bay Buccaneers @ Dallas Cowboys",
@@ -4397,7 +4471,8 @@
           "selection": "Bucky Irving",
           "line": 70,
           "price": null,
-          "hit": null
+          "hit": true,
+          "actual": 165
         }
       ],
       "market_context_at_placement": {
@@ -4408,6 +4483,24 @@
       "model_at_placement": {
         "available": true,
         "note": "Frozen Week5 player baseline and unvalidated injury overlay leave Javonte, Irving, Lamb medians unchanged. Yardage probabilities in prior research were rough normal approximations, not calibrated SGP probabilities. Backup redistribution not modeled. Correlated/nested legs across the two tickets, not diversification."
+      },
+      "grading": {
+        "source": "Final box-score grading, not settled slip; cashout/void status unconfirmed",
+        "source_urls": [
+          "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+        ],
+        "graded_at": "2026-10-09T12:14:27.234426+00:00",
+        "final_score": "Tampa Bay 24, Dallas 16",
+        "stats": {
+          "pickens_td": 1,
+          "lamb_receiving_yards": 9,
+          "godwin_receptions": 3,
+          "prescott_passing_td": 1,
+          "irving_rushing_yards": 165,
+          "javonte_rushing_yards": 45
+        },
+        "settlement_confirmed": false
       }
     }
   ]

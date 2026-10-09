@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-09T09:09:22-0500",
+ "generated_at": "2026-10-09T11:09:28-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -15,8 +15,8 @@
   "scoreboard": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
  },
  "book_capture": {
-  "file": "695-cfb_week6_fanduel_il_20261009T1409Z.csv",
-  "label": "FanDuel Illinois, captured Fri 2026-10-09 ~9:08 AM CT",
+  "file": "696-cfb_week6_fanduel_il_20261009T1609Z.csv",
+  "label": "FanDuel Illinois, captured Fri 2026-10-09 ~11:09 AM CT",
   "state": "IL",
   "matched": 55
  },
@@ -247,7 +247,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
     "away_spread_odds": -108,
     "home_spread": -3.5,
@@ -255,8 +255,8 @@
     "total": 59.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": 146,
-    "home_ml": -178
+    "away_ml": 152,
+    "home_ml": -184
    },
    "national_rank_candidate": {
     "event_id": "401858254",
@@ -313,7 +313,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 2.5,
     "away_spread_odds": 100,
     "home_spread": -2.5,
@@ -379,7 +379,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 5.5,
     "away_spread_odds": -112,
     "home_spread": -5.5,
@@ -387,8 +387,8 @@
     "total": 43.5,
     "over_odds": -115,
     "under_odds": -105,
-    "away_ml": 172,
-    "home_ml": -210
+    "away_ml": 176,
+    "home_ml": -215
    },
    "national_rank_candidate": {
     "event_id": "401860922",
@@ -445,16 +445,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 4.5,
-    "away_spread_odds": -120,
+    "away_spread_odds": -115,
     "home_spread": -4.5,
-    "home_spread_odds": -102,
+    "home_spread_odds": -105,
     "total": 42.5,
     "over_odds": -105,
     "under_odds": -115,
     "away_ml": 146,
-    "home_ml": -176
+    "home_ml": -178
    },
    "national_rank_candidate": {
     "event_id": "401864519",
@@ -506,12 +506,12 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 10.5,
     "away_spread_odds": -114,
     "home_spread": -10.5,
     "home_spread_odds": -106,
-    "total": 45.5,
+    "total": 46.5,
     "over_odds": -110,
     "under_odds": -110,
     "away_ml": 340,
@@ -572,7 +572,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -7.5,
     "away_spread_odds": -110,
     "home_spread": 7.5,
@@ -580,8 +580,8 @@
     "total": 48.5,
     "over_odds": 100,
     "under_odds": -122,
-    "away_ml": -315,
-    "home_ml": 250
+    "away_ml": -310,
+    "home_ml": 245
    },
    "national_rank_candidate": {
     "event_id": "401858481",
@@ -633,16 +633,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
     "away_spread_odds": -114,
     "home_spread": -3.5,
     "home_spread_odds": -106,
     "total": 48.5,
-    "over_odds": -106,
-    "under_odds": -114,
-    "away_ml": 136,
-    "home_ml": -164
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 140,
+    "home_ml": -170
    },
    "national_rank_candidate": {
     "event_id": "401856716",
@@ -699,7 +699,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 10.5,
     "away_spread_odds": -110,
     "home_spread": -10.5,
@@ -760,7 +760,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
     "away_spread_odds": -115,
     "home_spread": -3.5,
@@ -826,7 +826,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -3.5,
     "away_spread_odds": 100,
     "home_spread": 3.5,
@@ -834,8 +834,8 @@
     "total": 60.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": -156,
-    "home_ml": 130
+    "away_ml": -152,
+    "home_ml": 126
    },
    "national_rank_candidate": {
     "event_id": "401856823",
@@ -887,14 +887,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -3.5,
     "away_spread_odds": -102,
     "home_spread": 3.5,
     "home_spread_odds": -120,
-    "total": 59.5,
-    "over_odds": -104,
-    "under_odds": -118,
+    "total": 58.5,
+    "over_odds": -105,
+    "under_odds": -115,
     "away_ml": -156,
     "home_ml": 130
    },
@@ -953,16 +953,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
-    "away_spread_odds": -122,
+    "away_spread_odds": -115,
     "home_spread": -3.5,
-    "home_spread_odds": 100,
+    "home_spread_odds": -105,
     "total": 48.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": 134,
-    "home_ml": -162
+    "away_ml": 140,
+    "home_ml": -170
    },
    "national_rank_candidate": {
     "event_id": "401862795",
@@ -1014,7 +1014,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 8.5,
     "away_spread_odds": -110,
     "home_spread": -8.5,
@@ -1123,7 +1123,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 12.5,
     "away_spread_odds": -110,
     "home_spread": -12.5,
@@ -1184,7 +1184,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 9.5,
     "away_spread_odds": -105,
     "home_spread": -9.5,
@@ -1230,6 +1230,67 @@
    }
   },
   {
+   "event_id": "401862797",
+   "name": "Rice Owls at East Carolina Pirates",
+   "date": "2026-10-10T17:00Z",
+   "away": "Rice Owls",
+   "home": "East Carolina Pirates",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": false,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": 10.8,
+   "predicted_winner": "East Carolina Pirates",
+   "model_home_line": -10.8,
+   "week": 6,
+   "book_tn": {
+    "state": "IL",
+    "captured_at": "2026-10-09T16:09:14.818Z",
+    "away_spread": 9.5,
+    "away_spread_odds": -110,
+    "home_spread": -9.5,
+    "home_spread_odds": -110,
+    "total": 47.5,
+    "over_odds": -104,
+    "under_odds": -118,
+    "away_ml": 285,
+    "home_ml": -365
+   },
+   "national_rank_candidate": {
+    "event_id": "401862797",
+    "name": "Rice Owls at East Carolina Pirates",
+    "baseline_margin_home": 10.8,
+    "candidate_margins_home": {
+     "pass_def": 11.154707105628601,
+     "requested_five": 8.593104548529471
+    },
+    "home_ranks": {
+     "pass_off": 93.0,
+     "rush_off": 107.0,
+     "pass_def": 60.0,
+     "rush_def": 73.0,
+     "turnover_margin": 100.0,
+     "score_off": 98.0,
+     "score_def": 86.0,
+     "total_off": 114.0,
+     "total_def": 59.0
+    },
+    "away_ranks": {
+     "pass_off": 138.0,
+     "rush_off": 11.0,
+     "pass_def": 41.0,
+     "rush_def": 115.0,
+     "turnover_margin": 103.0,
+     "score_off": 126.0,
+     "score_def": 105.0,
+     "total_off": 116.0,
+     "total_def": 82.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T20:00Z"
+   }
+  },
+  {
    "event_id": "401866440",
    "name": "Miami (OH) RedHawks at Massachusetts Minutemen",
    "date": "2026-10-10T18:00Z",
@@ -1245,7 +1306,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -2.5,
     "away_spread_odds": -106,
     "home_spread": 2.5,
@@ -1306,7 +1367,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -7.5,
     "away_spread_odds": -110,
     "home_spread": 7.5,
@@ -1372,14 +1433,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 39.5,
     "away_spread_odds": -110,
     "home_spread": -39.5,
     "home_spread_odds": -110,
     "total": 54.5,
-    "over_odds": -114,
-    "under_odds": -106,
+    "over_odds": -108,
+    "under_odds": -112,
     "away_ml": 8000,
     "home_ml": null
    },
@@ -1433,7 +1494,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -10.5,
     "away_spread_odds": 100,
     "home_spread": 10.5,
@@ -1494,14 +1555,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 11.5,
     "away_spread_odds": -110,
     "home_spread": -11.5,
     "home_spread_odds": -110,
-    "total": 58.5,
-    "over_odds": -115,
-    "under_odds": -105,
+    "total": 59.5,
+    "over_odds": -112,
+    "under_odds": -108,
     "away_ml": 360,
     "home_ml": -480
    },
@@ -1560,14 +1621,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 2.5,
     "away_spread_odds": -110,
     "home_spread": -2.5,
     "home_spread_odds": -110,
     "total": 55.5,
-    "over_odds": -102,
-    "under_odds": -120,
+    "over_odds": -106,
+    "under_odds": -114,
     "away_ml": 114,
     "home_ml": -137
    },
@@ -1621,16 +1682,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -6.5,
     "away_spread_odds": -122,
     "home_spread": 6.5,
     "home_spread_odds": 100,
     "total": 43.5,
     "over_odds": -114,
-    "under_odds": -106,
-    "away_ml": -255,
-    "home_ml": 205
+    "under_odds": -105,
+    "away_ml": -265,
+    "home_ml": 215
    },
    "national_rank_candidate": {
     "event_id": "401858255",
@@ -1682,7 +1743,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -9.5,
     "away_spread_odds": -115,
     "home_spread": 9.5,
@@ -1691,7 +1752,7 @@
     "over_odds": -110,
     "under_odds": -110,
     "away_ml": -385,
-    "home_ml": 300
+    "home_ml": 290
    },
    "national_rank_candidate": {
     "event_id": "401858259",
@@ -1796,7 +1857,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 28.5,
     "away_spread_odds": -114,
     "home_spread": -28.5,
@@ -1857,7 +1918,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 2.5,
     "away_spread_odds": -112,
     "home_spread": -2.5,
@@ -1918,7 +1979,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -6.5,
     "away_spread_odds": -122,
     "home_spread": 6.5,
@@ -1979,7 +2040,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 20.5,
     "away_spread_odds": -112,
     "home_spread": -20.5,
@@ -2040,7 +2101,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 2.5,
     "away_spread_odds": 100,
     "home_spread": -2.5,
@@ -2101,7 +2162,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 13.5,
     "away_spread_odds": -106,
     "home_spread": -13.5,
@@ -2162,7 +2223,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
     "away_spread_odds": -110,
     "home_spread": -3.5,
@@ -2208,67 +2269,6 @@
    }
   },
   {
-   "event_id": "401862797",
-   "name": "Rice Owls at East Carolina Pirates",
-   "date": "2026-10-10T20:00Z",
-   "away": "Rice Owls",
-   "home": "East Carolina Pirates",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": false,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": 10.8,
-   "predicted_winner": "East Carolina Pirates",
-   "model_home_line": -10.8,
-   "week": 6,
-   "book_tn": {
-    "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
-    "away_spread": 9.5,
-    "away_spread_odds": -110,
-    "home_spread": -9.5,
-    "home_spread_odds": -110,
-    "total": 47.5,
-    "over_odds": -104,
-    "under_odds": -118,
-    "away_ml": 285,
-    "home_ml": -365
-   },
-   "national_rank_candidate": {
-    "event_id": "401862797",
-    "name": "Rice Owls at East Carolina Pirates",
-    "baseline_margin_home": 10.8,
-    "candidate_margins_home": {
-     "pass_def": 11.154707105628601,
-     "requested_five": 8.593104548529471
-    },
-    "home_ranks": {
-     "pass_off": 93.0,
-     "rush_off": 107.0,
-     "pass_def": 60.0,
-     "rush_def": 73.0,
-     "turnover_margin": 100.0,
-     "score_off": 98.0,
-     "score_def": 86.0,
-     "total_off": 114.0,
-     "total_def": 59.0
-    },
-    "away_ranks": {
-     "pass_off": 138.0,
-     "rush_off": 11.0,
-     "pass_def": 41.0,
-     "rush_def": 115.0,
-     "turnover_margin": 103.0,
-     "score_off": 126.0,
-     "score_def": 105.0,
-     "total_off": 116.0,
-     "total_def": 82.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-10T20:00Z"
-   }
-  },
-  {
    "event_id": "401858483",
    "name": "Maryland Terrapins at Ohio State Buckeyes",
    "date": "2026-10-10T20:15Z",
@@ -2284,14 +2284,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 33.5,
     "away_spread_odds": -110,
     "home_spread": -33.5,
     "home_spread_odds": -110,
     "total": 56.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "over_odds": -114,
+    "under_odds": -106,
     "away_ml": 3500,
     "home_ml": -20000
    },
@@ -2345,7 +2345,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -13.5,
     "away_spread_odds": -110,
     "home_spread": 13.5,
@@ -2411,7 +2411,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 14.5,
     "away_spread_odds": -105,
     "home_spread": -14.5,
@@ -2472,7 +2472,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -8.5,
     "away_spread_odds": -110,
     "home_spread": 8.5,
@@ -2533,7 +2533,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 14.5,
     "away_spread_odds": -122,
     "home_spread": -14.5,
@@ -2594,7 +2594,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -9.5,
     "away_spread_odds": -110,
     "home_spread": 9.5,
@@ -2602,8 +2602,8 @@
     "total": 49.5,
     "over_odds": -105,
     "under_odds": -115,
-    "away_ml": -375,
-    "home_ml": 290
+    "away_ml": -360,
+    "home_ml": 280
    },
    "national_rank_candidate": {
     "event_id": "401864517",
@@ -2655,7 +2655,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -3.5,
     "away_spread_odds": -102,
     "home_spread": 3.5,
@@ -2716,7 +2716,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 3.5,
     "away_spread_odds": -114,
     "home_spread": -3.5,
@@ -2724,8 +2724,8 @@
     "total": 58.5,
     "over_odds": -115,
     "under_odds": -105,
-    "away_ml": 140,
-    "home_ml": -170
+    "away_ml": 142,
+    "home_ml": -172
    },
    "national_rank_candidate": {
     "event_id": "401869943",
@@ -2777,7 +2777,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 1.5,
     "away_spread_odds": -106,
     "home_spread": -1.5,
@@ -2843,16 +2843,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 1.5,
     "away_spread_odds": -110,
     "home_spread": -1.5,
     "home_spread_odds": -110,
     "total": 54.5,
-    "over_odds": -118,
-    "under_odds": -104,
-    "away_ml": -102,
-    "home_ml": -118
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 100,
+    "home_ml": -120
    },
    "national_rank_candidate": {
     "event_id": "401858485",
@@ -2904,7 +2904,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 8.5,
     "away_spread_odds": -104,
     "home_spread": -8.5,
@@ -3018,7 +3018,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -7.5,
     "away_spread_odds": -105,
     "home_spread": 7.5,
@@ -3026,8 +3026,8 @@
     "total": 51.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": -280,
-    "home_ml": 225
+    "away_ml": -285,
+    "home_ml": 230
    },
    "national_rank_candidate": {
     "event_id": "401869949",
@@ -3079,14 +3079,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 2.5,
     "away_spread_odds": 100,
     "home_spread": -2.5,
     "home_spread_odds": -122,
     "total": 48.5,
-    "over_odds": -105,
-    "under_odds": -115,
+    "over_odds": -104,
+    "under_odds": -118,
     "away_ml": 126,
     "home_ml": -152
    },
@@ -3140,14 +3140,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -2.5,
     "away_spread_odds": -114,
     "home_spread": 2.5,
     "home_spread_odds": -106,
     "total": 50.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "over_odds": -106,
+    "under_odds": -114,
     "away_ml": -137,
     "home_ml": 114
    },
@@ -3201,7 +3201,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 15.5,
     "away_spread_odds": -110,
     "home_spread": -15.5,
@@ -3262,7 +3262,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": -6.5,
     "away_spread_odds": -122,
     "home_spread": 6.5,
@@ -3324,7 +3324,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-09T14:09:08.657Z",
+    "captured_at": "2026-10-09T16:09:14.818Z",
     "away_spread": 20.5,
     "away_spread_odds": -105,
     "home_spread": -20.5,

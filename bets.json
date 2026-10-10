@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-09T12:14:27.234426+00:00",
+  "updated_at": "2026-10-10T14:01:46.449914+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4501,6 +4501,192 @@
           "javonte_rushing_yards": 45
         },
         "settlement_confirmed": false
+      }
+    },
+    {
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-10T14:00:57Z",
+      "source": "Owner iMessage phonemsg-01M4K1VV2QQ82RF22PVTX0B8AN, Oct10 9:00:57AMCT, three screenshots with TN selector visible. Original screenshots inspected; no book action taken.",
+      "grading_policy": "Grade after official final; winning tickets settled normally unless owner explicitly reports cashout. Retain exact slip payout instead of rounded odds arithmetic.",
+      "bet_id": "us-tn:01m4k1v772fa386xy5mkkst5mn",
+      "placed_at": "2026-10-10T14:00:00Z",
+      "game": "Indiana Hoosiers at Nebraska Cornhuskers",
+      "kickoff": "2026-10-10T16:00Z",
+      "bet": "Straight: Nebraska +7.5",
+      "selection": "Nebraska +7.5",
+      "market": "spread",
+      "line": 7.5,
+      "price": 148,
+      "price_note": "50% profit boost; unboosted -102 on slip; exact payout $24.80.",
+      "potential_payout_usd": 24.8,
+      "potential_profit_usd": 14.8,
+      "legs": [
+        {
+          "event": "Indiana Hoosiers at Nebraska Cornhuskers",
+          "event_id": "401858481",
+          "kickoff": "2026-10-10T16:00Z",
+          "market": "spread",
+          "selection": "Nebraska Cornhuskers",
+          "line": 7.5,
+          "price": -102,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2",
+        "note": "Baseline Indiana by7.4, displayed7.5 vs Nebraska +7.5. Almost no model spread edge. Boost lowers payout break-even to40.32%; no calibrated cover probability."
+      }
+    },
+    {
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-10T14:00:57Z",
+      "source": "Owner iMessage phonemsg-01M4K1VV2QQ82RF22PVTX0B8AN, Oct10 9:00:57AMCT, three screenshots with TN selector visible. Original screenshots inspected; no book action taken.",
+      "grading_policy": "Grade after official final; winning tickets settled normally unless owner explicitly reports cashout. Retain exact slip payout instead of rounded odds arithmetic.",
+      "bet_id": "slip-20261010-tn-4leg-ncstate-usc-georgia-fresno65",
+      "placed_at": null,
+      "game": "NC State; USC; Georgia; Fresno State",
+      "kickoff": "2026-10-10T16:00Z",
+      "bet": "4-leg: NC State ML; USC ML; Georgia ML; Fresno State +6.5",
+      "selection": "NC State ML +146; USC ML +115; Georgia ML +113; Fresno State +6.5 +110",
+      "market": "parlay_mixed",
+      "line": null,
+      "price": 2285,
+      "price_note": "25% profit boost, unboosted +1829; exact total payout $238.60 retained. Displayed +2285 rounded; bet ID/time cropped, placeholder ID and receipt date used.",
+      "potential_payout_usd": 238.6,
+      "potential_profit_usd": 228.6,
+      "legs": [
+        {
+          "event": "Wake Forest Demon Deacons at NC State Wolfpack",
+          "event_id": "401858260",
+          "kickoff": "2026-10-10T16:00Z",
+          "market": "moneyline",
+          "selection": "NC State Wolfpack",
+          "line": null,
+          "price": 146,
+          "hit": null
+        },
+        {
+          "event": "USC Trojans at Penn State Nittany Lions",
+          "event_id": "401858485",
+          "kickoff": "2026-10-10T23:30Z",
+          "market": "moneyline",
+          "selection": "USC Trojans",
+          "line": null,
+          "price": 115,
+          "hit": null
+        },
+        {
+          "event": "Georgia Bulldogs at Alabama Crimson Tide",
+          "event_id": "401856712",
+          "kickoff": "2026-10-10T23:30Z",
+          "market": "moneyline",
+          "selection": "Georgia Bulldogs",
+          "line": null,
+          "price": 113,
+          "hit": null
+        },
+        {
+          "event": "Boise State Broncos at Fresno State Bulldogs",
+          "event_id": "401860901",
+          "kickoff": "2026-10-11T02:30Z",
+          "market": "spread",
+          "selection": "Fresno State Bulldogs",
+          "line": 6.5,
+          "price": 110,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2",
+        "note": "Baseline NC State7.3, USC1.7, Georgia2.5, Fresno State1.0. All sides align, but same model upset-bias risk. Changed proposed Fresno ML to+6.5. Dated NC State injury absences not modeled. No validated parlay probability."
+      },
+      "schedule_note": "Georgia slip says7PMCT; current ESPN board says6:30PMCT. Board cutoff retained; slip time not used to delay freeze."
+    },
+    {
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "stake_type": "cash",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "cashout_value_usd_at_capture": 10,
+      "date": "2026-10-10T14:00:57Z",
+      "source": "Owner iMessage phonemsg-01M4K1VV2QQ82RF22PVTX0B8AN, Oct10 9:00:57AMCT, three screenshots with TN selector visible. Original screenshots inspected; no book action taken.",
+      "grading_policy": "Grade after official final; winning tickets settled normally unless owner explicitly reports cashout. Retain exact slip payout instead of rounded odds arithmetic.",
+      "bet_id": "slip-20261010-tn-3leg-missouri-texas-lsu",
+      "placed_at": null,
+      "game": "Missouri; Texas; LSU",
+      "kickoff": "2026-10-10T16:00Z",
+      "bet": "3-leg moneyline: Missouri; Texas; LSU",
+      "selection": "Missouri ML -147; Texas ML -256; LSU ML -263",
+      "market": "parlay_moneyline",
+      "line": null,
+      "price": 223,
+      "price_note": "30% profit boost; unboosted +172; exact total payout $32.31. Displayed +223 rounded; ID/time cropped, placeholder ID and receipt date used.",
+      "potential_payout_usd": 32.31,
+      "potential_profit_usd": 22.31,
+      "legs": [
+        {
+          "event": "Texas A&M Aggies at Missouri Tigers",
+          "event_id": "401856716",
+          "kickoff": "2026-10-10T16:00Z",
+          "market": "moneyline",
+          "selection": "Missouri Tigers",
+          "line": null,
+          "price": -147,
+          "hit": null
+        },
+        {
+          "event": "Texas Longhorns at Oklahoma Sooners",
+          "event_id": "401856717",
+          "kickoff": "2026-10-10T19:30Z",
+          "market": "moneyline",
+          "selection": "Texas Longhorns",
+          "line": null,
+          "price": -256,
+          "hit": null
+        },
+        {
+          "event": "LSU Tigers at Kentucky Wildcats",
+          "event_id": "401856715",
+          "kickoff": "2026-10-10T23:00Z",
+          "market": "moneyline",
+          "selection": "LSU Tigers",
+          "line": null,
+          "price": -263,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2",
+        "note": "Baseline Missouri6.5, Texas8.7, LSU18.8. Model favors all winners, but no validated ticket hit rate; LSU biggest model/book gap, not certainty."
       }
     }
   ]

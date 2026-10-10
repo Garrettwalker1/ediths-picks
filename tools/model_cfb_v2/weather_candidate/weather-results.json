@@ -1,0 +1,31 @@
+{
+  "protocol": "One predeclared residual Ridge alpha10, no intercept,2020-23train,2024validation,2025previously examined historical test. Weather columns only wind*pregame passing-yard-share differential and wet(.01in or more)*same differential. Observed historical kickoff weather, NOT archived pregame forecasts. No book input.",
+  "validation": {
+    "n": 701,
+    "baseline_mae": 13.064596039058705,
+    "weather_mae": 13.075019720722874,
+    "baseline_winners": 0.6961483594864479,
+    "weather_winners": 0.6947218259629101,
+    "mae_delta": 0.010423681664172645,
+    "delta_ci95": [
+      -0.019686290322884686,
+      0.039634736225241655
+    ]
+  },
+  "historical_test": {
+    "n": 711,
+    "baseline_mae": 12.900417896204875,
+    "weather_mae": 12.885021741478031,
+    "baseline_winners": 0.7158931082981715,
+    "weather_winners": 0.7172995780590717,
+    "mae_delta": -0.015396154726841344,
+    "delta_ci95": [
+      -0.03760234767040446,
+      0.006774227642147563
+    ]
+  },
+  "coefs_raw": {
+    "wind_pass": -1.616565535013979,
+    "wet_pass": -7.237948194046378
+  }
+}

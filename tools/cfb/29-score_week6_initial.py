@@ -366,6 +366,13 @@ if news_context:
         item=news_context['games'].get(str(game['event_id']))
         if item: game['weekly_news']=item
 
+weather_file=REPO/'tools/cfb/33-week6-weather-context.json'
+weather_context=json.load(open(weather_file)) if weather_file.exists() else None
+if weather_context:
+    for game in ok:
+        item=weather_context['games'].get(str(game['event_id']))
+        if item and not game.get('book_frozen_pregame'): game['weather_context']=item
+
 now_ct=datetime.now(ZoneInfo('America/Chicago'))
 gen=now_ct.strftime('%Y-%m-%dT%H:%M:%S%z')
 out={'schema_version':'1.1.0','generated_at':gen,
@@ -380,6 +387,7 @@ out={'schema_version':'1.1.0','generated_at':gen,
             'scoreboard':'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400'},
  'book_capture':{'file':str(BOOK_CSV.name) if BOOK_CSV else None,'label':BOOK_LABEL,'state':BOOK_STATE,'matched':matched},
  'games':ok,'errors':errs}
+if weather_context: out['weather_context_note']=weather_context['note']
 if news_context: out['weekly_news_context']=news_context
 if rank_context: out['national_rank_variant_note']=rank_context['adoption']
 (OUT/'29-cfb_board_2026_week6_initial_v2_2.json').write_text(json.dumps(out,indent=1))
@@ -449,6 +457,16 @@ for b in ok:
         cap_ct=datetime.fromisoformat(bv['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Chicago'))
         quote_note=f"<div class=news>Book {esc(bv_state)} captured {cap_ct.strftime('%b %-d, %-I:%M %p CT')}{' - last available pregame quote; frozen after kickoff' if b.get('book_frozen_pregame') else ''}.</div>"
     news_html=''
+    weather_html=''
+    weather_headline=''
+    if b.get('weather_context'):
+        w=b['weather_context']
+        weather_html=f"<div class=news><b>Weather forecast - baseline unchanged:</b> {esc(w['text'])} Checked Oct 10, 6:34 AM CT; host-city forecast, not stadium measurements.</div>"
+        if w.get('candidate'):
+            wc=w['candidate']; wm=wc['weather_margin_home']; wf=home if wm>=0 else away; wd=round(abs(wm)*2)/2; wl=f'{esc(wf)} -{wd:g}' if wd else 'PK'
+            weather_headline=f'<div class=bgrid><span class=bg-lab>WX UNPROVEN</span><span class=bnum>{wl}</span></div>'
+            weather_html+=f"<div class=news><b>Weather candidate - FAILED VALIDATION, not adopted:</b> {wl}. Raw home-margin change {wc['weather_delta_home']:+.3f}. 2024 MAE: baseline 13.065, weather 13.075 (worse, 701 games). 2025 previously examined comparison: 12.900 vs 12.885; uncertainty includes no improvement. Fitted sustained-wind/wetness interactions with pregame passing-yard share, not manual point penalties. Historical observed kickoff weather is NOT an archived pregame forecast; today uses a kickoff forecast. Historical indoor filtering incomplete. Baseline and official grading unchanged. No model total or measured betting edge. <a href=tools/model_cfb_v2/weather_candidate/weather-results.json>Test results</a>.</div>"
+
     rank_html=''
     if b.get('national_rank_candidate'):
         r=b['national_rank_candidate']; cm=r['candidate_margins_home']['requested_five']; cf=home if cm>=0 else away
@@ -466,9 +484,9 @@ for b in ok:
       f'<details class=game><summary><div class=bmatch>{esc(away)} at {esc(home)}</div>'
       f'<div class=bmeta>{et_time(dt)}{"".join(chips)}</div>'
       f'<div class=bgrid><span class=bg-lab>MODEL</span><span class=bnum>{esc(ml)}</span></div>'
-      f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div></summary>'
+      f'<div class=bgrid><span class=bg-lab>{("BOOK "+bv_state).strip()}</span><span class="bnum dim">{bk if bk.startswith("<") else esc(bk)}</span></div>{weather_headline}</summary>'
       f'<div class=bfoot>{quote_note}{table}<div class=news>Unrounded model margin (home) {margin:+.1f} - predicted winner {esc(b["predicted_winner"])}. {gap}</div>'
-      f'<div class=news>{esc(b["timing_note"])}</div>{news_html}{rank_html}</div></details>')
+      f'<div class=news>{esc(b["timing_note"])}</div>{weather_html}{news_html}{rank_html}</div></details>')
 
 n_post=sum(1 for b in ok if b['timing']=='post_kickoff')
 n_bk=sum(1 for b in ok if b.get('book_tn') or b.get('book_va'))

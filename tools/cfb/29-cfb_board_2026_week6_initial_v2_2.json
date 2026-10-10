@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-09T20:11:00-0500",
+ "generated_at": "2026-10-09T23:11:42-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -15,8 +15,8 @@
   "scoreboard": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
  },
  "book_capture": {
-  "file": "703-cfb_week6_fanduel_il_20261010T0110Z.csv",
-  "label": "FanDuel Illinois, captured Fri 2026-10-09 ~8:10 PM CT",
+  "file": "705-cfb_week6_fanduel_il_20261010T0411Z.csv",
+  "label": "FanDuel Illinois, captured Friday Oct 9 2026 11:11 PM CT",
   "state": "IL",
   "matched": 55
  },
@@ -297,7 +297,7 @@
     "source_date": "Oct 8, 8 PM ET, official ACC Thursday report"
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401858487",
@@ -368,69 +368,6 @@
    "event_state": "in"
   },
   {
-   "event_id": "401864519",
-   "name": "Wyoming Cowboys at San Jos\u00e9 State Spartans",
-   "date": "2026-10-10T01:00Z",
-   "away": "Wyoming Cowboys",
-   "home": "San Jos\u00e9 State Spartans",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": true,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": 3.0,
-   "predicted_winner": "San Jos\u00e9 State Spartans",
-   "model_home_line": -3.0,
-   "week": 6,
-   "book_tn": {
-    "state": "IL",
-    "captured_at": "2026-10-10T00:10:45.366Z",
-    "away_spread": 4.5,
-    "away_spread_odds": -115,
-    "home_spread": -4.5,
-    "home_spread_odds": -105,
-    "total": 43.5,
-    "over_odds": -108,
-    "under_odds": -112,
-    "away_ml": 160,
-    "home_ml": -194
-   },
-   "national_rank_candidate": {
-    "event_id": "401864519",
-    "name": "Wyoming Cowboys at San Jos\u00e9 State Spartans",
-    "baseline_margin_home": 3.0,
-    "candidate_margins_home": {
-     "pass_def": 1.7595051790678156,
-     "requested_five": 3.9628723125272667
-    },
-    "home_ranks": {
-     "pass_off": 45.0,
-     "rush_off": 103.0,
-     "pass_def": 118.0,
-     "rush_def": 52.0,
-     "turnover_margin": 78.0,
-     "score_off": 106.0,
-     "score_def": 80.0,
-     "total_off": 74.0,
-     "total_def": 101.0
-    },
-    "away_ranks": {
-     "pass_off": 132.0,
-     "rush_off": 83.0,
-     "pass_def": 36.0,
-     "rush_def": 126.0,
-     "turnover_margin": 129.0,
-     "score_off": 135.0,
-     "score_def": 58.0,
-     "total_off": 131.0,
-     "total_def": 84.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-10T01:00Z"
-   },
-   "book_frozen_pregame": true,
-   "event_state": "in"
-  },
-  {
    "event_id": "401860922",
    "name": "Washington State Cougars at Utah State Aggies",
    "date": "2026-10-10T01:00Z",
@@ -496,7 +433,70 @@
     "source_date": "Oct 8, 6:55 PM PT"
    },
    "book_frozen_pregame": true,
-   "event_state": "pre"
+   "event_state": "in"
+  },
+  {
+   "event_id": "401864519",
+   "name": "Wyoming Cowboys at San Jos\u00e9 State Spartans",
+   "date": "2026-10-10T01:00Z",
+   "away": "Wyoming Cowboys",
+   "home": "San Jos\u00e9 State Spartans",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": true,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": 3.0,
+   "predicted_winner": "San Jos\u00e9 State Spartans",
+   "model_home_line": -3.0,
+   "week": 6,
+   "book_tn": {
+    "state": "IL",
+    "captured_at": "2026-10-10T00:10:45.366Z",
+    "away_spread": 4.5,
+    "away_spread_odds": -115,
+    "home_spread": -4.5,
+    "home_spread_odds": -105,
+    "total": 43.5,
+    "over_odds": -108,
+    "under_odds": -112,
+    "away_ml": 160,
+    "home_ml": -194
+   },
+   "national_rank_candidate": {
+    "event_id": "401864519",
+    "name": "Wyoming Cowboys at San Jos\u00e9 State Spartans",
+    "baseline_margin_home": 3.0,
+    "candidate_margins_home": {
+     "pass_def": 1.7595051790678156,
+     "requested_five": 3.9628723125272667
+    },
+    "home_ranks": {
+     "pass_off": 45.0,
+     "rush_off": 103.0,
+     "pass_def": 118.0,
+     "rush_def": 52.0,
+     "turnover_margin": 78.0,
+     "score_off": 106.0,
+     "score_def": 80.0,
+     "total_off": 74.0,
+     "total_def": 101.0
+    },
+    "away_ranks": {
+     "pass_off": 132.0,
+     "rush_off": 83.0,
+     "pass_def": 36.0,
+     "rush_def": 126.0,
+     "turnover_margin": 129.0,
+     "score_off": 135.0,
+     "score_def": 58.0,
+     "total_off": 131.0,
+     "total_def": 84.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T01:00Z"
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401856826",
@@ -506,7 +506,7 @@
    "home": "BYU Cougars",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 16.6,
    "predicted_winner": "BYU Cougars",
@@ -514,7 +514,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T02:11:02.040Z",
     "away_spread": 11.5,
     "away_spread_odds": -110,
     "home_spread": -11.5,
@@ -562,7 +562,9 @@
     "text": "BYU RB LJ Martin and LB Isaiah Glasker out on initial report; RB Sione Moa also out. Iowa State S Drew Surges, DE Caden Crawford and DT Ka'Mori Moore out. Later game-day report may change availability.",
     "url": "https://sports.ksl.com/ncaa/byu-football/byu-iowa-state-availability-report/577985",
     "source_date": "Oct 7 update"
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401858481",
@@ -580,7 +582,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -7.5,
     "away_spread_odds": -110,
     "home_spread": 7.5,
@@ -641,7 +643,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 3.5,
     "away_spread_odds": -114,
     "home_spread": -3.5,
@@ -649,8 +651,8 @@
     "total": 49.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": 146,
-    "home_ml": -176
+    "away_ml": 140,
+    "home_ml": -170
    },
    "national_rank_candidate": {
     "event_id": "401856716",
@@ -707,7 +709,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 10.5,
     "away_spread_odds": -115,
     "home_spread": -10.5,
@@ -768,7 +770,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 3.5,
     "away_spread_odds": -104,
     "home_spread": -3.5,
@@ -834,7 +836,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -3.5,
     "away_spread_odds": -106,
     "home_spread": 3.5,
@@ -895,7 +897,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -3.5,
     "away_spread_odds": -102,
     "home_spread": 3.5,
@@ -961,7 +963,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 3.5,
     "away_spread_odds": -115,
     "home_spread": -3.5,
@@ -1022,7 +1024,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 8.5,
     "away_spread_odds": -110,
     "home_spread": -8.5,
@@ -1131,7 +1133,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 11.5,
     "away_spread_odds": -110,
     "home_spread": -11.5,
@@ -1139,8 +1141,8 @@
     "total": 58.5,
     "over_odds": -114,
     "under_odds": -106,
-    "away_ml": 350,
-    "home_ml": -465
+    "away_ml": 360,
+    "home_ml": -480
    },
    "national_rank_candidate": {
     "event_id": "401856714",
@@ -1192,14 +1194,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 9.5,
     "away_spread_odds": -105,
     "home_spread": -9.5,
     "home_spread_odds": -115,
     "total": 47.5,
-    "over_odds": -114,
-    "under_odds": -106,
+    "over_odds": -106,
+    "under_odds": -114,
     "away_ml": 300,
     "home_ml": -385
    },
@@ -1253,7 +1255,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 9.5,
     "away_spread_odds": -110,
     "home_spread": -9.5,
@@ -1314,7 +1316,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -4.5,
     "away_spread_odds": -110,
     "home_spread": 4.5,
@@ -1375,16 +1377,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -7.5,
     "away_spread_odds": -105,
     "home_spread": 7.5,
     "home_spread_odds": -115,
-    "total": 39.5,
+    "total": 38.5,
     "over_odds": -110,
     "under_odds": -110,
-    "away_ml": -315,
-    "home_ml": 250
+    "away_ml": -320,
+    "home_ml": 255
    },
    "national_rank_candidate": {
     "event_id": "401856717",
@@ -1441,7 +1443,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 39.5,
     "away_spread_odds": -115,
     "home_spread": -39.5,
@@ -1502,7 +1504,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -9.5,
     "away_spread_odds": -115,
     "home_spread": 9.5,
@@ -1563,7 +1565,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 10.5,
     "away_spread_odds": -112,
     "home_spread": -10.5,
@@ -1629,7 +1631,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 2.5,
     "away_spread_odds": -110,
     "home_spread": -2.5,
@@ -1690,16 +1692,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -6.5,
     "away_spread_odds": -106,
     "home_spread": 6.5,
     "home_spread_odds": -114,
     "total": 43.5,
     "over_odds": -114,
-    "under_odds": -105,
-    "away_ml": -235,
-    "home_ml": 190
+    "under_odds": -106,
+    "away_ml": -225,
+    "home_ml": 184
    },
    "national_rank_candidate": {
     "event_id": "401858255",
@@ -1751,7 +1753,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -9.5,
     "away_spread_odds": -115,
     "home_spread": 9.5,
@@ -1865,7 +1867,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 28.5,
     "away_spread_odds": -114,
     "home_spread": -28.5,
@@ -1926,7 +1928,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 2.5,
     "away_spread_odds": -112,
     "home_spread": -2.5,
@@ -1987,7 +1989,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -5.5,
     "away_spread_odds": -110,
     "home_spread": 5.5,
@@ -2048,7 +2050,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 19.5,
     "away_spread_odds": -115,
     "home_spread": -19.5,
@@ -2109,7 +2111,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 2.5,
     "away_spread_odds": -110,
     "home_spread": -2.5,
@@ -2170,7 +2172,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 13.5,
     "away_spread_odds": -106,
     "home_spread": -13.5,
@@ -2231,7 +2233,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 3.5,
     "away_spread_odds": -110,
     "home_spread": -3.5,
@@ -2292,7 +2294,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 33.5,
     "away_spread_odds": -110,
     "home_spread": -33.5,
@@ -2353,7 +2355,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -13.5,
     "away_spread_odds": -110,
     "home_spread": 13.5,
@@ -2419,7 +2421,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 15.5,
     "away_spread_odds": -104,
     "home_spread": -15.5,
@@ -2480,7 +2482,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -8.5,
     "away_spread_odds": -110,
     "home_spread": 8.5,
@@ -2488,8 +2490,8 @@
     "total": 50.5,
     "over_odds": -106,
     "under_odds": -114,
-    "away_ml": -320,
-    "home_ml": 255
+    "away_ml": -330,
+    "home_ml": 260
    },
    "national_rank_candidate": {
     "event_id": "401856715",
@@ -2541,7 +2543,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 14.5,
     "away_spread_odds": -110,
     "home_spread": -14.5,
@@ -2602,7 +2604,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -9.5,
     "away_spread_odds": -110,
     "home_spread": 9.5,
@@ -2663,7 +2665,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -2.5,
     "away_spread_odds": -120,
     "home_spread": 2.5,
@@ -2724,7 +2726,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 4.5,
     "away_spread_odds": -115,
     "home_spread": -4.5,
@@ -2785,7 +2787,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 1.5,
     "away_spread_odds": -106,
     "home_spread": -1.5,
@@ -2851,14 +2853,14 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 1.5,
     "away_spread_odds": -110,
     "home_spread": -1.5,
     "home_spread_odds": -110,
-    "total": 54.5,
-    "over_odds": -110,
-    "under_odds": -110,
+    "total": 53.5,
+    "over_odds": -114,
+    "under_odds": -106,
     "away_ml": -102,
     "home_ml": -118
    },
@@ -2912,7 +2914,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 10.5,
     "away_spread_odds": -105,
     "home_spread": -10.5,
@@ -3026,7 +3028,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -7.5,
     "away_spread_odds": -105,
     "home_spread": 7.5,
@@ -3087,7 +3089,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 2.5,
     "away_spread_odds": 100,
     "home_spread": -2.5,
@@ -3133,6 +3135,67 @@
    }
   },
   {
+   "event_id": "401856827",
+   "name": "Kansas Jayhawks at Utah Utes",
+   "date": "2026-10-11T00:00Z",
+   "away": "Kansas Jayhawks",
+   "home": "Utah Utes",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": false,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": 16.6,
+   "predicted_winner": "Utah Utes",
+   "model_home_line": -16.6,
+   "week": 6,
+   "book_tn": {
+    "state": "IL",
+    "captured_at": "2026-10-10T04:11:25.134Z",
+    "away_spread": 15.5,
+    "away_spread_odds": -110,
+    "home_spread": -15.5,
+    "home_spread_odds": -110,
+    "total": 51.5,
+    "over_odds": -108,
+    "under_odds": -112,
+    "away_ml": 540,
+    "home_ml": -800
+   },
+   "national_rank_candidate": {
+    "event_id": "401856827",
+    "name": "Kansas Jayhawks at Utah Utes",
+    "baseline_margin_home": 16.6,
+    "candidate_margins_home": {
+     "pass_def": 16.226054418681453,
+     "requested_five": 15.318940463051895
+    },
+    "home_ranks": {
+     "pass_off": 40.0,
+     "rush_off": 21.0,
+     "pass_def": 32.0,
+     "rush_def": 13.0,
+     "turnover_margin": 17.0,
+     "score_off": 12.0,
+     "score_def": 3.0,
+     "total_off": 11.0,
+     "total_def": 15.0
+    },
+    "away_ranks": {
+     "pass_off": 58.0,
+     "rush_off": 8.0,
+     "pass_def": 7.0,
+     "rush_def": 28.0,
+     "turnover_margin": 121.0,
+     "score_off": 38.0,
+     "score_def": 32.0,
+     "total_off": 9.0,
+     "total_def": 8.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-11T02:15Z"
+   }
+  },
+  {
    "event_id": "401858486",
    "name": "Minnesota Golden Gophers at Purdue Boilermakers",
    "date": "2026-10-11T00:00Z",
@@ -3148,7 +3211,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -2.5,
     "away_spread_odds": -114,
     "home_spread": 2.5,
@@ -3194,67 +3257,6 @@
    }
   },
   {
-   "event_id": "401856827",
-   "name": "Kansas Jayhawks at Utah Utes",
-   "date": "2026-10-11T02:15Z",
-   "away": "Kansas Jayhawks",
-   "home": "Utah Utes",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": false,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": 16.6,
-   "predicted_winner": "Utah Utes",
-   "model_home_line": -16.6,
-   "week": 6,
-   "book_tn": {
-    "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
-    "away_spread": 15.5,
-    "away_spread_odds": -110,
-    "home_spread": -15.5,
-    "home_spread_odds": -110,
-    "total": 50.5,
-    "over_odds": -115,
-    "under_odds": -105,
-    "away_ml": 570,
-    "home_ml": -850
-   },
-   "national_rank_candidate": {
-    "event_id": "401856827",
-    "name": "Kansas Jayhawks at Utah Utes",
-    "baseline_margin_home": 16.6,
-    "candidate_margins_home": {
-     "pass_def": 16.226054418681453,
-     "requested_five": 15.318940463051895
-    },
-    "home_ranks": {
-     "pass_off": 40.0,
-     "rush_off": 21.0,
-     "pass_def": 32.0,
-     "rush_def": 13.0,
-     "turnover_margin": 17.0,
-     "score_off": 12.0,
-     "score_def": 3.0,
-     "total_off": 11.0,
-     "total_def": 15.0
-    },
-    "away_ranks": {
-     "pass_off": 58.0,
-     "rush_off": 8.0,
-     "pass_def": 7.0,
-     "rush_def": 28.0,
-     "turnover_margin": 121.0,
-     "score_off": 38.0,
-     "score_def": 32.0,
-     "total_off": 9.0,
-     "total_def": 8.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-11T02:15Z"
-   }
-  },
-  {
    "event_id": "401860901",
    "name": "Boise State Broncos at Fresno State Bulldogs",
    "date": "2026-10-11T02:30Z",
@@ -3270,7 +3272,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": -6.5,
     "away_spread_odds": -122,
     "home_spread": 6.5,
@@ -3332,7 +3334,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T01:10:45.787Z",
+    "captured_at": "2026-10-10T04:11:25.134Z",
     "away_spread": 20.5,
     "away_spread_odds": -104,
     "home_spread": -20.5,

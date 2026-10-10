@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-10T06:38:31-0500",
+ "generated_at": "2026-10-10T06:49:52-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -5185,7 +5185,7 @@
     ],
     "candidate": {
      "baseline_margin_home": -2.0,
-     "weather_delta_home": 0.0,
+     "weather_delta_home": 0,
      "weather_margin_home": -2.0,
      "wind_mph_kickoff": 13.5,
      "precipitation_in_kickoff": 0,
@@ -6044,7 +6044,7 @@
     ],
     "candidate": {
      "baseline_margin_home": -11.6,
-     "weather_delta_home": -2.0917171373376413,
+     "weather_delta_home": -2.091717137337641,
      "weather_margin_home": -13.69171713733764,
      "wind_mph_kickoff": 8.5,
      "precipitation_in_kickoff": 0.409,

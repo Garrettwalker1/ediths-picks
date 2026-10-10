@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T06:34:00-05:00",
+  "checked_at": "2026-10-10T06:49:00-05:00",
   "source": "Open-Meteo native hourly forecast, automatic model; ESPN venue/indoor metadata",
   "window": "hour containing scheduled kickoff through four hours afterward; peaks are maxima across hourly entries, not entire-game probability",
   "note": "Weather is not in baseline MODEL. One quick fitted candidate failed2024validation (MAE13.065\u219213.075 on701games).2025previously examined comparison CI crosseszero. Historical observed kickoff weather is not pregame forecast evidence. No numeric weather adjustment adopted. Forecasts can change. Separate UNPROVEN numeric display despite failed validation. Historical indoor/venue-weather filtering is incomplete; do not claim validated forecast effects. Wind coefficient changes sign on all-history refit; numbers are exploratory, not a generic weather penalty.",
@@ -2480,7 +2480,7 @@
       ],
       "candidate": {
         "baseline_margin_home": -2.0,
-        "weather_delta_home": 0.0,
+        "weather_delta_home": 0,
         "weather_margin_home": -2.0,
         "wind_mph_kickoff": 13.5,
         "precipitation_in_kickoff": 0,
@@ -2976,7 +2976,7 @@
       ],
       "candidate": {
         "baseline_margin_home": -11.6,
-        "weather_delta_home": -2.0917171373376413,
+        "weather_delta_home": -2.091717137337641,
         "weather_margin_home": -13.69171713733764,
         "wind_mph_kickoff": 8.5,
         "precipitation_in_kickoff": 0.409,
@@ -3559,5 +3559,6 @@
   "live_raw_coefficients": {
     "wind_pass": 0.32476128972464136,
     "wet_pass": -13.481174317717308
-  }
+  },
+  "checked_label": "Oct 10, 6:49 AM CT"
 }

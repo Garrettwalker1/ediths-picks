@@ -461,7 +461,7 @@ for b in ok:
     weather_headline=''
     if b.get('weather_context'):
         w=b['weather_context']
-        weather_html=f"<div class=news><b>Weather forecast - baseline unchanged:</b> {esc(w['text'])} Checked Oct 10, 6:34 AM CT; host-city forecast, not stadium measurements.</div>"
+        weather_html=f"<div class=news><b>Weather forecast - baseline unchanged:</b> {esc(w['text'])} Checked {esc(weather_context.get('checked_label','Oct 10, 6:34 AM CT'))}; host-city forecast, not stadium measurements.</div>"
         if w.get('candidate'):
             wc=w['candidate']; wm=wc['weather_margin_home']; wf=home if wm>=0 else away; wd=round(abs(wm)*2)/2; wl=f'{esc(wf)} -{wd:g}' if wd else 'PK'
             weather_headline=f'<div class=bgrid><span class=bg-lab>WX UNPROVEN</span><span class=bnum>{wl}</span></div>'

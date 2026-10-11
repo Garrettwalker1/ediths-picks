@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-10T14:01:46.449914+00:00",
+  "updated_at": "2026-10-11T06:18:41.930423+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4507,10 +4507,10 @@
       "sport": "CFB",
       "book": "FanDuel",
       "state": "TN",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 1.48,
+      "net_usd": 14.8,
       "stake_type": "cash",
       "stake_usd": 10,
       "stake_units": 1,
@@ -4539,23 +4539,44 @@
           "selection": "Nebraska Cornhuskers",
           "line": 7.5,
           "price": -102,
-          "hit": null
+          "hit": true,
+          "actual": -3,
+          "final_score": {
+            "Nebraska Cornhuskers": 17,
+            "Indiana Hoosiers": 20
+          }
         }
       ],
       "model_at_placement": {
         "available": true,
         "model_version": "cfb-gameline-v2.2",
         "note": "Baseline Indiana by7.4, displayed7.5 vs Nebraska +7.5. Almost no model spread edge. Boost lowers payout break-even to40.32%; no calibrated cover probability."
+      },
+      "settlement_type": "settled_normally",
+      "grading": {
+        "source": "ESPN official final scoreboard; normal settlement under owner Oct9 standing instruction, not a newly retrieved settled book slip",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
+        ],
+        "graded_at": "2026-10-11T06:18:41.930423+00:00",
+        "final_scores": [
+          {
+            "Nebraska Cornhuskers": 17,
+            "Indiana Hoosiers": 20
+          }
+        ],
+        "settlement_confirmed": false,
+        "owner_instruction": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
       }
     },
     {
       "sport": "CFB",
       "book": "FanDuel",
       "state": "TN",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "stake_type": "cash",
       "stake_usd": 10,
       "stake_units": 1,
@@ -4584,7 +4605,12 @@
           "selection": "NC State Wolfpack",
           "line": null,
           "price": 146,
-          "hit": null
+          "hit": false,
+          "actual": -24,
+          "final_score": {
+            "NC State Wolfpack": 14,
+            "Wake Forest Demon Deacons": 38
+          }
         },
         {
           "event": "USC Trojans at Penn State Nittany Lions",
@@ -4594,7 +4620,12 @@
           "selection": "USC Trojans",
           "line": null,
           "price": 115,
-          "hit": null
+          "hit": true,
+          "actual": 8,
+          "final_score": {
+            "Penn State Nittany Lions": 23,
+            "USC Trojans": 31
+          }
         },
         {
           "event": "Georgia Bulldogs at Alabama Crimson Tide",
@@ -4604,7 +4635,12 @@
           "selection": "Georgia Bulldogs",
           "line": null,
           "price": 113,
-          "hit": null
+          "hit": true,
+          "actual": 3,
+          "final_score": {
+            "Alabama Crimson Tide": 17,
+            "Georgia Bulldogs": 20
+          }
         },
         {
           "event": "Boise State Broncos at Fresno State Bulldogs",
@@ -4614,7 +4650,12 @@
           "selection": "Fresno State Bulldogs",
           "line": 6.5,
           "price": 110,
-          "hit": null
+          "hit": false,
+          "actual": -7,
+          "final_score": {
+            "Fresno State Bulldogs": 31,
+            "Boise State Broncos": 38
+          }
         }
       ],
       "model_at_placement": {
@@ -4622,16 +4663,44 @@
         "model_version": "cfb-gameline-v2.2",
         "note": "Baseline NC State7.3, USC1.7, Georgia2.5, Fresno State1.0. All sides align, but same model upset-bias risk. Changed proposed Fresno ML to+6.5. Dated NC State injury absences not modeled. No validated parlay probability."
       },
-      "schedule_note": "Georgia slip says7PMCT; current ESPN board says6:30PMCT. Board cutoff retained; slip time not used to delay freeze."
+      "schedule_note": "Georgia slip says7PMCT; current ESPN board says6:30PMCT. Board cutoff retained; slip time not used to delay freeze.",
+      "settlement_type": "settled_normally",
+      "grading": {
+        "source": "ESPN official final scoreboard; normal settlement under owner Oct9 standing instruction, not a newly retrieved settled book slip",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
+        ],
+        "graded_at": "2026-10-11T06:18:41.930423+00:00",
+        "final_scores": [
+          {
+            "NC State Wolfpack": 14,
+            "Wake Forest Demon Deacons": 38
+          },
+          {
+            "Penn State Nittany Lions": 23,
+            "USC Trojans": 31
+          },
+          {
+            "Alabama Crimson Tide": 17,
+            "Georgia Bulldogs": 20
+          },
+          {
+            "Fresno State Bulldogs": 31,
+            "Boise State Broncos": 38
+          }
+        ],
+        "settlement_confirmed": false,
+        "owner_instruction": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
+      }
     },
     {
       "sport": "CFB",
       "book": "FanDuel",
       "state": "TN",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "stake_type": "cash",
       "stake_usd": 10,
       "stake_units": 1,
@@ -4660,7 +4729,12 @@
           "selection": "Missouri Tigers",
           "line": null,
           "price": -147,
-          "hit": null
+          "hit": true,
+          "actual": 21,
+          "final_score": {
+            "Missouri Tigers": 27,
+            "Texas A&M Aggies": 6
+          }
         },
         {
           "event": "Texas Longhorns at Oklahoma Sooners",
@@ -4670,7 +4744,12 @@
           "selection": "Texas Longhorns",
           "line": null,
           "price": -256,
-          "hit": null
+          "hit": false,
+          "actual": -3,
+          "final_score": {
+            "Oklahoma Sooners": 27,
+            "Texas Longhorns": 24
+          }
         },
         {
           "event": "LSU Tigers at Kentucky Wildcats",
@@ -4680,13 +4759,131 @@
           "selection": "LSU Tigers",
           "line": null,
           "price": -263,
-          "hit": null
+          "hit": false,
+          "actual": -1,
+          "final_score": {
+            "Kentucky Wildcats": 35,
+            "LSU Tigers": 34
+          }
         }
       ],
       "model_at_placement": {
         "available": true,
         "model_version": "cfb-gameline-v2.2",
         "note": "Baseline Missouri6.5, Texas8.7, LSU18.8. Model favors all winners, but no validated ticket hit rate; LSU biggest model/book gap, not certainty."
+      },
+      "settlement_type": "settled_normally",
+      "grading": {
+        "source": "ESPN official final scoreboard; normal settlement under owner Oct9 standing instruction, not a newly retrieved settled book slip",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
+        ],
+        "graded_at": "2026-10-11T06:18:41.930423+00:00",
+        "final_scores": [
+          {
+            "Missouri Tigers": 27,
+            "Texas A&M Aggies": 6
+          },
+          {
+            "Oklahoma Sooners": 27,
+            "Texas Longhorns": 24
+          },
+          {
+            "Kentucky Wildcats": 35,
+            "LSU Tigers": 34
+          }
+        ],
+        "settlement_confirmed": false,
+        "owner_instruction": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4kj2vxfatvr9tv89dbm080",
+      "date": "2026-10-10T18:44:00Z",
+      "placed_at": "2026-10-10T18:44:00Z",
+      "sport": "CFB",
+      "game": "USC; Georgia; Fresno State",
+      "kickoff": "2026-10-10T23:30Z",
+      "bet": "3-leg: USC ML; Georgia ML; Fresno State +7.5",
+      "selection": "USC ML +111; Georgia ML +122; Fresno State +7.5 +108",
+      "market": "parlay_mixed",
+      "line": null,
+      "price": 880,
+      "price_note": "25% profit boost; unboosted +704; exact settled payout $98.03, not recomputed from rounded +880.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 98.03,
+      "potential_profit_usd": 88.03,
+      "payout_usd": 98.03,
+      "net_usd": 88.03,
+      "net_units": 8.803,
+      "status": "settled",
+      "result": "win",
+      "settlement_type": "settled_normally",
+      "legs": [
+        {
+          "event": "USC Trojans at Penn State Nittany Lions",
+          "event_id": "401858485",
+          "kickoff": "2026-10-10T23:30Z",
+          "market": "moneyline",
+          "selection": "USC Trojans",
+          "line": null,
+          "price": 111,
+          "hit": true,
+          "actual": 8,
+          "final_score": {
+            "Penn State Nittany Lions": 23,
+            "USC Trojans": 31
+          }
+        },
+        {
+          "event": "Georgia Bulldogs at Alabama Crimson Tide",
+          "event_id": "401856712",
+          "kickoff": "2026-10-10T23:30Z",
+          "market": "moneyline",
+          "selection": "Georgia Bulldogs",
+          "line": null,
+          "price": 122,
+          "hit": true,
+          "actual": 3,
+          "final_score": {
+            "Alabama Crimson Tide": 17,
+            "Georgia Bulldogs": 20
+          }
+        },
+        {
+          "event": "Boise State Broncos at Fresno State Bulldogs",
+          "event_id": "401860901",
+          "kickoff": "2026-10-11T02:30Z",
+          "market": "spread",
+          "selection": "Fresno State Bulldogs",
+          "line": 7.5,
+          "price": 108,
+          "hit": true,
+          "actual": -7,
+          "final_score": {
+            "Fresno State Bulldogs": 31,
+            "Boise State Broncos": 38
+          }
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M4MSRXCYY5VY1HKG01S1QJAQ, Oct11 1:18AMCT. Settled TN slip independently visually inspected; Won on FanDuel $98.03, bet ID and Oct10 1:44PMCT placement visible.",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "cfb-gameline-v2.2",
+        "note": "Baseline USC by1.7, Georgia by2.5, Fresno by1.0. Owner variant dropped NC State and moved Fresno from +6.5 to +7.5, decisive halfpoint as Fresno lost by7. Different ticket, original fourleg retained."
+      },
+      "grading": {
+        "source": "Owner settled FanDuel slip, corroborated ESPN official final scoreboard",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
+        ],
+        "graded_at": "2026-10-11T06:18:41.930423+00:00",
+        "settlement_confirmed": true,
+        "owner_instruction": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
       }
     }
   ]

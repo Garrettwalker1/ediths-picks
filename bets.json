@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T14:41:56.802270+00:00",
+  "updated_at": "2026-10-11T16:30:01.669381+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5394,6 +5394,93 @@
         "source": "Owner TN slip",
         "captured_at": "2026-10-11T14:41:20Z",
         "note": "Cash-out $1.77 is an offer only. No boost shown."
+      }
+    },
+    {
+      "bet_id": "slip-20261011-5leg-atd-warren-brown-schultz-stbrown-kincaid",
+      "date": "2026-10-11T16:29:41Z",
+      "placed_at": null,
+      "sport": "NFL",
+      "game": "NFL Week 5: IND @ PIT; CIN @ MIA; HOU @ TEN; DET @ ARI; BUF @ LA",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "5-leg anytime TD: Jaylen Warren; Chase Brown; Dalton Schultz; Amon-Ra St. Brown; Dalton Kincaid",
+      "selection": "Jaylen Warren -125; Chase Brown -145; Dalton Schultz +330; Amon-Ra St. Brown -140; Dalton Kincaid +175",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 6065,
+      "price_note": "No boost shown. Exact $308.27 payout retained. Bet ID and placement time cropped; local placeholder ID, receipt date not placement.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "stake_type": "cash",
+      "potential_payout_usd": 308.27,
+      "potential_profit_usd": 303.27,
+      "cashout_value_usd_at_capture": 5,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NWRW0S4DPBNPQAPND20V1P, Oct11 11:29:41AM CT. Open TN slip visually inspected. Footer ID/time not visible. Cashout $5 is an offer, not a transaction.",
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Pittsburgh Steelers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaylen Warren",
+          "line": null,
+          "price": -125,
+          "hit": null
+        },
+        {
+          "event": "Cincinnati Bengals @ Miami Dolphins",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Chase Brown",
+          "line": null,
+          "price": -145,
+          "hit": null
+        },
+        {
+          "event": "Houston Texans @ Tennessee Titans",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Dalton Schultz",
+          "line": null,
+          "price": 330,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": -140,
+          "hit": null
+        },
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Dalton Kincaid",
+          "line": null,
+          "price": 175,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.0025897786387199992,
+        "slip_break_even_probability": 0.016219547799007365,
+        "note": "Baseline model only, no fitted injury or role adjustments or validated joint probability. Different games. Dowdle OUT may change Warren role but no numeric boost fitted. Monday Kincaid leg requires later availability check."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Owner TN slip",
+        "captured_at": "2026-10-11T16:29:41Z",
+        "note": "Actual placed-ticket odds, not live IL research. Cashout offer not taken."
       }
     }
   ]

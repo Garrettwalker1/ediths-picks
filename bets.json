@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T19:45:18.077657+00:00",
+  "updated_at": "2026-10-11T19:49:44.921359+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5574,6 +5574,57 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T19:44:53Z",
         "note": "Hampton +195 and SF-SEA SGP +400 are actual ticket quotes. JSN/Kittle individual prices absent; separate 2:42PM IL research was JSN -120/Kittle +185, not TN slip odds."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4p85gb6ffgv5sdhbwy0z83s",
+      "date": "2026-10-11T19:48:00Z",
+      "placed_at": "2026-10-11T19:48:00Z",
+      "sport": "NFL",
+      "game": "San Francisco 49ers @ Seattle Seahawks",
+      "kickoff": "2026-10-11T20:26:00Z",
+      "bet": "Brock Purdy anytime TD",
+      "selection": "Brock Purdy",
+      "market": "anytime_touchdown",
+      "line": null,
+      "price": 550,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 65,
+      "potential_profit_usd": 55,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4P86BT66FDMZ81BXGHSE5R6 Oct11 2:49PM CT, placed FanDuel TN straight slip visually inspected. Footer confirms bet ID and Oct11 2:48PM CT placement. $10 cashout button is an offer, not a transaction.",
+      "legs": [
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Brock Purdy",
+          "line": null,
+          "price": 550,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "model_probability": 0.255,
+        "implied_probability": 0.15384615384615385,
+        "edge_percentage_points": 10.115384615384615,
+        "note": "Unvalidated TD baseline; no injury or role adjustment fitted. Purdy must score himself rushing or receiving. Passing TDs do not count."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T19:49:17Z",
+        "note": "Actual placed straight ATD price +550; exact total payout $65.00."
       }
     }
   ]

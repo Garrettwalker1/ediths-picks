@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-10T20:15:27-0500",
+ "generated_at": "2026-10-10T23:15:42-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -16,7 +16,7 @@
  },
  "book_capture": {
   "file": "722-cfb_week6_fanduel_il_20261011T0115Z.csv",
-  "label": "FanDuel Illinois, captured Oct 10, 8:15 PM CT",
+  "label": "FanDuel Illinois, last capture Oct 10, 8:15 PM CT; all Week 6 pregame quotes frozen",
   "state": "IL",
   "matched": 55
  },
@@ -4727,7 +4727,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401856715",
@@ -4861,7 +4861,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401862798",
@@ -4995,7 +4995,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401864517",
@@ -5129,7 +5129,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401864518",
@@ -5263,7 +5263,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401869943",
@@ -5397,7 +5397,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401856712",
@@ -5536,7 +5536,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401858485",
@@ -5670,7 +5670,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401858258",
@@ -5836,7 +5836,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401864516",
@@ -5977,7 +5977,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401869965",
@@ -6133,7 +6133,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401856827",
@@ -6337,7 +6337,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401858486",
@@ -6493,7 +6493,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401869949",
@@ -6651,7 +6651,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401860901",
@@ -6661,7 +6661,7 @@
    "home": "Fresno State Bulldogs",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 1.0,
    "predicted_winner": "Fresno State Bulldogs",
@@ -6857,7 +6857,9 @@
      "d_pregame_pass_yards_share": 0.11476868059136236,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401856808",
@@ -6867,7 +6869,7 @@
    "home": "Arizona State Sun Devils",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 10.6,
    "predicted_winner": "Arizona State Sun Devils",
@@ -7017,7 +7019,9 @@
      "d_pregame_pass_yards_share": -0.09383040420384814,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   }
  ],
  "errors": [],

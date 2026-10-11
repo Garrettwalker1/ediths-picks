@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T14:09:30Z",
+  "updated_at": "2026-10-11T14:41:35.761561+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5177,6 +5177,75 @@
         "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
       },
       "cashout_value_usd_at_capture": 5
+    },
+    {
+      "bet_id": "slip-20261011-3leg-atd-bowers-likely-mcbride",
+      "date": "2026-10-11T14:41:12Z",
+      "placed_at": null,
+      "sport": "NFL",
+      "game": "NFL Week 5: LV @ NE; NYG @ WAS; DET @ ARI",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "3-leg anytime TD: Brock Bowers; Isaiah Likely; Trey McBride",
+      "selection": "Brock Bowers +138; Isaiah Likely +269; Trey McBride +117",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 1814,
+      "price_note": "30% profit boost; base +1396, displayed boosted +1814. Exact $191.49 slip payout retained. Bet ID and placement time cropped; local placeholder ID, receipt date not placement.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 191.49,
+      "potential_profit_usd": 181.49,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_usd": null,
+      "net_units": null,
+      "source": "Owner iMessage phonemsg-01M4NPJ8AXKGHEBDHTGQ1MTR8R, Oct11 9:41:12AM CT. TN open slip visually inspected; footer ID/time not visible.",
+      "legs": [
+        {
+          "event": "Las Vegas Raiders @ New England Patriots",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Brock Bowers",
+          "line": null,
+          "price": 138,
+          "hit": null
+        },
+        {
+          "event": "New York Giants @ Washington Commanders",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Isaiah Likely",
+          "line": null,
+          "price": 269,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Trey McBride",
+          "line": null,
+          "price": 117,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.0355215,
+        "slip_break_even_probability": 0.05222204814872839,
+        "note": "Baseline model comparison, not injury-adjusted or calibrated joint probability. Different games; Sunday inactives not confirmed. Isaiah Likely modeled on NYG vs WAS, matching slip."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T14:41:12Z",
+        "note": "Per-leg prices and boost from placed slip, not live IL quotes."
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T06:18:41.930423+00:00",
+  "updated_at": "2026-10-11T14:09:30Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4885,6 +4885,298 @@
         "settlement_confirmed": true,
         "owner_instruction": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
       }
+    },
+    {
+      "bet_id": "us-tn:01m4nmg2npf1kv57554nyjt79w",
+      "date": "2026-10-11T14:05:00Z",
+      "placed_at": "2026-10-11T14:05:00Z",
+      "sport": "NFL",
+      "game": "NFL Week 5: Indianapolis Colts @ Pittsburgh Steelers; Detroit Lions @ Arizona Cardinals; Baltimore Ravens @ Atlanta Falcons",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "3-leg anytime TD: Jonathan Taylor; Jahmyr Gibbs; Derrick Henry",
+      "selection": "Jonathan Taylor -125; Jahmyr Gibbs -315; Derrick Henry -129",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 322,
+      "price_note": "30% profit boost; base +248, displayed boosted +322; Exact slip payout retained, not recomputed from rounded odds.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 42.23,
+      "potential_profit_usd": 32.23,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Pittsburgh Steelers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jonathan Taylor",
+          "line": null,
+          "price": -125,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jahmyr Gibbs",
+          "line": null,
+          "price": -315,
+          "hit": null
+        },
+        {
+          "event": "Baltimore Ravens @ Atlanta Falcons",
+          "kickoff": "2026-10-12T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Derrick Henry",
+          "line": null,
+          "price": -129,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.25840562499999997,
+        "slip_break_even_probability": 0.23679848448969928,
+        "note": "Baseline comparison, not injury-adjusted or calibrated joint probability. Different games within each ticket. Sunday active status not yet confirmed; same-player overlap across tickets."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T14:08:33Z",
+        "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      },
+      "cashout_value_usd_at_capture": 10
+    },
+    {
+      "bet_id": "us-tn:01m4nmm402enjsh4ht94v6aze9",
+      "date": "2026-10-11T14:07:00Z",
+      "placed_at": "2026-10-11T14:07:00Z",
+      "sport": "NFL",
+      "game": "NFL Week 5: Indianapolis Colts @ Pittsburgh Steelers; Minnesota Vikings @ New Orleans Saints; Chicago Bears @ Green Bay Packers; Baltimore Ravens @ Atlanta Falcons",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "4-leg anytime TD: DK Metcalf; Chris Olave; Colston Loveland; Drake London",
+      "selection": "DK Metcalf +180; Chris Olave +200; Colston Loveland +220; Drake London +115",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 5679,
+      "price_note": "Exact slip payout retained, not recomputed from rounded odds.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 577.92,
+      "potential_profit_usd": 567.92,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
+      "legs": [
+        {
+          "event": "Indianapolis Colts @ Pittsburgh Steelers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "DK Metcalf",
+          "line": null,
+          "price": 180,
+          "hit": null
+        },
+        {
+          "event": "Minnesota Vikings @ New Orleans Saints",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Chris Olave",
+          "line": null,
+          "price": 200,
+          "hit": null
+        },
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Colston Loveland",
+          "line": null,
+          "price": 220,
+          "hit": null
+        },
+        {
+          "event": "Baltimore Ravens @ Atlanta Falcons",
+          "kickoff": "2026-10-12T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Drake London",
+          "line": null,
+          "price": 115,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.010379234880000001,
+        "slip_break_even_probability": 0.01730343300110742,
+        "note": "Baseline comparison, not injury-adjusted or calibrated joint probability. Different games within each ticket. Sunday active status not yet confirmed; same-player overlap across tickets."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T14:08:33Z",
+        "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4nmna1fev2atnwdzs7zh3f2",
+      "date": "2026-10-11T14:07:00Z",
+      "placed_at": "2026-10-11T14:07:00Z",
+      "sport": "NFL",
+      "game": "NFL Week 5: Minnesota Vikings @ New Orleans Saints; Indianapolis Colts @ Pittsburgh Steelers; Chicago Bears @ Green Bay Packers",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "3-leg anytime TD: Juwan Johnson; Tyler Warren; Christian Watson",
+      "selection": "Juwan Johnson +300; Tyler Warren +230; Christian Watson +185",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 3662,
+      "price_note": "Exact slip payout retained, not recomputed from rounded odds.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 376.2,
+      "potential_profit_usd": 366.2,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
+      "legs": [
+        {
+          "event": "Minnesota Vikings @ New Orleans Saints",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Juwan Johnson",
+          "line": null,
+          "price": 300,
+          "hit": null
+        },
+        {
+          "event": "Indianapolis Colts @ Pittsburgh Steelers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Tyler Warren",
+          "line": null,
+          "price": 230,
+          "hit": null
+        },
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian Watson",
+          "line": null,
+          "price": 185,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.030559680000000006,
+        "slip_break_even_probability": 0.02658160552897395,
+        "note": "Baseline comparison, not injury-adjusted or calibrated joint probability. Different games within each ticket. Sunday active status not yet confirmed; same-player overlap across tickets."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T14:08:33Z",
+        "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4nmjc6gfnc8bgeshak5hrqs",
+      "date": "2026-10-11T14:06:00Z",
+      "placed_at": "2026-10-11T14:06:00Z",
+      "sport": "NFL",
+      "game": "NFL Week 5: Chicago Bears @ Green Bay Packers; Las Vegas Raiders @ New England Patriots; San Francisco 49ers @ Seattle Seahawks; Detroit Lions @ Arizona Cardinals",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "4-leg anytime TD: Christian Watson; TreVeyon Henderson; George Kittle; Isaac TeSlaa",
+      "selection": "Christian Watson +185; TreVeyon Henderson +160; George Kittle +190; Isaac TeSlaa +410",
+      "market": "parlay_anytime_touchdown",
+      "line": null,
+      "price": 10859,
+      "price_note": "Exact slip payout retained, not recomputed from rounded odds.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "stake_type": "cash",
+      "potential_payout_usd": 547.97,
+      "potential_profit_usd": 542.97,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
+      "legs": [
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian Watson",
+          "line": null,
+          "price": 185,
+          "hit": null
+        },
+        {
+          "event": "Las Vegas Raiders @ New England Patriots",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "TreVeyon Henderson",
+          "line": null,
+          "price": 160,
+          "hit": null
+        },
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Kittle",
+          "line": null,
+          "price": 190,
+          "hit": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Isaac TeSlaa",
+          "line": null,
+          "price": 410,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "naive_independent_probability": 0.020701643040000002,
+        "slip_break_even_probability": 0.009124587112433162,
+        "note": "Baseline comparison, not injury-adjusted or calibrated joint probability. Different games within each ticket. Sunday active status not yet confirmed; same-player overlap across tickets."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T14:08:33Z",
+        "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      },
+      "cashout_value_usd_at_capture": 5
     }
   ]
 }

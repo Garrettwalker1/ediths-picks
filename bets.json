@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T19:03:18.180936+00:00",
+  "updated_at": "2026-10-11T19:45:18.077657+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5493,6 +5493,87 @@
         "source": "Owner TN slip",
         "captured_at": "2026-10-11T16:29:41Z",
         "note": "Actual placed-ticket odds, not live IL research. Cashout offer not taken."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4p7xef1fpktdx2t79k1k96r",
+      "date": "2026-10-11T19:44:00Z",
+      "placed_at": "2026-10-11T19:44:00Z",
+      "sport": "NFL",
+      "game": "NFL Week 5: SF @ SEA; DEN @ LAC",
+      "kickoff": "2026-10-11T20:06:00Z",
+      "bet": "3-leg SGP+ anytime TD: Jaxon Smith-Njigba; George Kittle; Omarion Hampton",
+      "selection": "JSN + Kittle SF-SEA SGP +400; Omarion Hampton +195",
+      "market": "same_game_parlay_plus_anytime_touchdown",
+      "line": null,
+      "price": 1377,
+      "price_note": "No boost shown. Exact $147.75 payout retained. JSN/Kittle individual odds not shown, SGP +400. Hampton +195.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 147.75,
+      "potential_profit_usd": 137.75,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4P7Y9E8VJDTGFEM7SA2ANWM Oct11 2:44:53PM CT, placed SGP+ slip visually inspected. Footer below ticket gives real ID/2:44PM placement. Top older footer and bottom cropped +719 header not attributed to this ticket.",
+      "legs": [
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "SF-SEA"
+        },
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Kittle",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "SF-SEA"
+        },
+        {
+          "event": "Denver Broncos @ Los Angeles Chargers",
+          "kickoff": "2026-10-11T20:06:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Omarion Hampton",
+          "line": null,
+          "price": 195,
+          "hit": null,
+          "sgp_group": null
+        }
+      ],
+      "sgp_groups": [
+        {
+          "group": "SF-SEA",
+          "price": 400,
+          "selections": [
+            "Jaxon Smith-Njigba",
+            "George Kittle"
+          ]
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "slip_break_even_probability": 0.0676818950930626,
+        "note": "JSN 53.0%, Kittle 44.6%, Hampton 42.6% baseline marginal probabilities. No fitted SGP joint model; no true combined model hit probability. Opposing-team same-game TD legs share pace/scoring conditions. No injury or opportunity redistribution fitted."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T19:44:53Z",
+        "note": "Hampton +195 and SF-SEA SGP +400 are actual ticket quotes. JSN/Kittle individual prices absent; separate 2:42PM IL research was JSN -120/Kittle +185, not TN slip odds."
       }
     }
   ]

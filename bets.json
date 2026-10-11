@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T14:41:35.761561+00:00",
+  "updated_at": "2026-10-11T14:41:56.802270+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5245,6 +5245,155 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T14:41:12Z",
         "note": "Per-leg prices and boost from placed slip, not live IL quotes."
+      }
+    },
+    {
+      "bet_id": "slip-20261011-9leg-atd-sgpplus-swift-watson-cmc-kittle-taylor-brown-henderson-gibbs-bijan",
+      "date": "2026-10-11T14:41:20Z",
+      "placed_at": null,
+      "sport": "NFL",
+      "game": "NFL Week 5: CHI @ GB; SF @ SEA; IND @ PIT; CIN @ MIA; LV @ NE; DET @ ARI; BAL @ ATL",
+      "kickoff": "2026-10-11T17:01:00Z",
+      "bet": "9-leg SGP+ anytime TD: Swift; Watson; McCaffrey; Kittle; Taylor; Chase Brown; Henderson; Gibbs; Bijan",
+      "selection": "CHI-GB Swift + Watson SGP +343; SF-SEA McCaffrey + Kittle SGP +447; Taylor -165; Chase Brown -145; Henderson +160; Gibbs -425; Bijan -230",
+      "market": "same_game_parlay_plus_anytime_touchdown",
+      "line": null,
+      "price": 30286,
+      "price_note": "No boost shown. Exact $1519.31 payout retained. Individual prices inside two SGPs not shown; group prices +343 and +447. Footer ID/placement time cropped; local placeholder ID, receipt date not placement.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 5,
+      "stake_units": 0.5,
+      "stake_type": "cash",
+      "potential_payout_usd": 1519.31,
+      "potential_profit_usd": 1514.31,
+      "cashout_value_usd_at_capture": 1.77,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4NPJG48XHTSKMYGE3MZB95H, Oct11 9:41:20AM CT, two expanded SGP+ slip images. Visually inspected. Screenshot provides same +30286 9-leg held from earlier crop. Cashout is an offer, not a transaction.",
+      "legs": [
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "D'Andre Swift",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "CHI-GB"
+        },
+        {
+          "event": "Chicago Bears @ Green Bay Packers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian Watson",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "CHI-GB"
+        },
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Christian McCaffrey",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "SF-SEA"
+        },
+        {
+          "event": "San Francisco 49ers @ Seattle Seahawks",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "George Kittle",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "SF-SEA"
+        },
+        {
+          "event": "Indianapolis Colts @ Pittsburgh Steelers",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jonathan Taylor",
+          "line": null,
+          "price": -165,
+          "hit": null,
+          "sgp_group": null
+        },
+        {
+          "event": "Cincinnati Bengals @ Miami Dolphins",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Chase Brown",
+          "line": null,
+          "price": -145,
+          "hit": null,
+          "sgp_group": null
+        },
+        {
+          "event": "Las Vegas Raiders @ New England Patriots",
+          "kickoff": "2026-10-11T17:01:00Z",
+          "market": "anytime_touchdown",
+          "selection": "TreVeyon Henderson",
+          "line": null,
+          "price": 160,
+          "hit": null,
+          "sgp_group": null
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jahmyr Gibbs",
+          "line": null,
+          "price": -425,
+          "hit": null,
+          "sgp_group": null
+        },
+        {
+          "event": "Baltimore Ravens @ Atlanta Falcons",
+          "kickoff": "2026-10-12T00:21:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Bijan Robinson",
+          "line": null,
+          "price": -230,
+          "hit": null,
+          "sgp_group": null
+        }
+      ],
+      "sgp_groups": [
+        {
+          "group": "CHI-GB",
+          "price": 343,
+          "selections": [
+            "D'Andre Swift",
+            "Christian Watson"
+          ]
+        },
+        {
+          "group": "SF-SEA",
+          "price": 447,
+          "selections": [
+            "Christian McCaffrey",
+            "George Kittle"
+          ]
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "slip_break_even_probability": 0.0032909676102967794,
+        "note": "No validated joint model for SGP correlation; do not treat product of nine marginal TD rates as true hit chance. Individual SGP leg odds absent. Two SF teammate TD legs compete for scoring opportunities and also share offensive conditions."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Owner TN slip",
+        "captured_at": "2026-10-11T14:41:20Z",
+        "note": "Cash-out $1.77 is an offer only. No boost shown."
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-10T18:15:40-0500",
+ "generated_at": "2026-10-10T20:15:27-0500",
  "model": "cfb-gameline-v2.2 (validated AP points, synthetic as-of rows)",
  "label": "MEASUREMENT ONLY - not picks. Week 6 FBS model margins vs jurisdiction-labeled FanDuel comparison where matched. Unmatched book lines are null. No model totals. Model not proven against book lines.",
  "window": "2026-10-06..2026-10-12 (Week 6, FBS)",
@@ -15,8 +15,8 @@
   "scoreboard": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
  },
  "book_capture": {
-  "file": "721-cfb_week6_fanduel_il_20261010T2315Z.csv",
-  "label": "FanDuel Illinois, captured Oct 10, 6:15 PM CT",
+  "file": "722-cfb_week6_fanduel_il_20261011T0115Z.csv",
+  "label": "FanDuel Illinois, captured Oct 10, 8:15 PM CT",
   "state": "IL",
   "matched": 55
  },
@@ -2447,7 +2447,141 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
+  },
+  {
+   "event_id": "401858257",
+   "name": "Stanford Cardinal at Notre Dame Fighting Irish",
+   "date": "2026-10-10T19:30Z",
+   "away": "Stanford Cardinal",
+   "home": "Notre Dame Fighting Irish",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": true,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": 41.1,
+   "predicted_winner": "Notre Dame Fighting Irish",
+   "model_home_line": -41.1,
+   "week": 6,
+   "book_tn": {
+    "state": "IL",
+    "captured_at": "2026-10-10T18:13:48.880Z",
+    "away_spread": 39.5,
+    "away_spread_odds": -110,
+    "home_spread": -39.5,
+    "home_spread_odds": -110,
+    "total": 55.5,
+    "over_odds": -110,
+    "under_odds": -110,
+    "away_ml": 8000,
+    "home_ml": null
+   },
+   "national_rank_candidate": {
+    "event_id": "401858257",
+    "name": "Stanford Cardinal at Notre Dame Fighting Irish",
+    "baseline_margin_home": 41.1,
+    "candidate_margins_home": {
+     "pass_def": 41.49824920074909,
+     "requested_five": 40.74024497570379
+    },
+    "home_ranks": {
+     "pass_off": 38.0,
+     "rush_off": 64.0,
+     "pass_def": 14.0,
+     "rush_def": 4.0,
+     "turnover_margin": 2.0,
+     "score_off": 15.0,
+     "score_def": 7.0,
+     "total_off": 46.0,
+     "total_def": 1.0
+    },
+    "away_ranks": {
+     "pass_off": 51.0,
+     "rush_off": 135.0,
+     "pass_def": 138.0,
+     "rush_def": 95.0,
+     "turnover_margin": 17.0,
+     "score_off": 131.0,
+     "score_def": 133.0,
+     "total_off": 112.0,
+     "total_def": 134.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
+   },
+   "weather_context": {
+    "text": "Notre Dame: peak hourly rain chance 1%; forecast game-window precipitation 0.00 in. Sustained wind up to 11 mph; gusts up to 19.9 mph.",
+    "forecast": {
+     "rain_chance_max": 1,
+     "rain_inches": 0,
+     "wind_max": 11,
+     "gust_max": 19.9
+    },
+    "kickoff": "2026-10-10T19:30Z",
+    "venue": {
+     "id": "3855",
+     "fullName": "Notre Dame Stadium",
+     "address": {
+      "city": "Notre Dame",
+      "state": "IN",
+      "country": "USA"
+     },
+     "indoor": false
+    },
+    "location": {
+     "latitude": 41.70019,
+     "longitude": -86.23793
+    },
+    "hourly_window": [
+     {
+      "utc": "2026-10-10T19:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 11,
+      "wind_gusts_10m": 19.7
+     },
+     {
+      "utc": "2026-10-10T20:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 10.2,
+      "wind_gusts_10m": 19
+     },
+     {
+      "utc": "2026-10-10T21:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 9.8,
+      "wind_gusts_10m": 18.6
+     },
+     {
+      "utc": "2026-10-10T22:00",
+      "precipitation_probability": 1,
+      "precipitation": 0,
+      "wind_speed_10m": 8.3,
+      "wind_gusts_10m": 19.9
+     },
+     {
+      "utc": "2026-10-10T23:00",
+      "precipitation_probability": 1,
+      "precipitation": 0,
+      "wind_speed_10m": 7,
+      "wind_gusts_10m": 15
+     }
+    ],
+    "candidate": {
+     "baseline_margin_home": 41.1,
+     "weather_delta_home": -0.05485735885115667,
+     "weather_margin_home": 41.04514264114884,
+     "wind_mph_kickoff": 11,
+     "precipitation_in_kickoff": 0,
+     "forecast_hour_utc": "2026-10-10T19:00",
+     "d_pregame_pass_yards_share": -0.1535599463550853,
+     "indoor": false
+    }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "post"
   },
   {
    "event_id": "401856718",
@@ -2716,261 +2850,6 @@
      "precipitation_in_kickoff": 0,
      "forecast_hour_utc": "2026-10-10T19:00",
      "d_pregame_pass_yards_share": 0.2698578757938442,
-     "indoor": false
-    }
-   },
-   "book_frozen_pregame": true,
-   "event_state": "in"
-  },
-  {
-   "event_id": "401858480",
-   "name": "Illinois Fighting Illini at Michigan State Spartans",
-   "date": "2026-10-10T19:30Z",
-   "away": "Illinois Fighting Illini",
-   "home": "Michigan State Spartans",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": true,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": -6.1,
-   "predicted_winner": "Illinois Fighting Illini",
-   "model_home_line": 6.1,
-   "week": 6,
-   "national_rank_candidate": {
-    "event_id": "401858480",
-    "name": "Illinois Fighting Illini at Michigan State Spartans",
-    "baseline_margin_home": -6.1,
-    "candidate_margins_home": {
-     "pass_def": -5.130427280330174,
-     "requested_five": -6.739254638541091
-    },
-    "home_ranks": {
-     "pass_off": 110.0,
-     "rush_off": 113.0,
-     "pass_def": 40.0,
-     "rush_def": 78.0,
-     "turnover_margin": 115.0,
-     "score_off": 125.0,
-     "score_def": 66.0,
-     "total_off": 126.0,
-     "total_def": 52.0
-    },
-    "away_ranks": {
-     "pass_off": 49.0,
-     "rush_off": 75.0,
-     "pass_def": 116.0,
-     "rush_def": 54.0,
-     "turnover_margin": 78.0,
-     "score_off": 67.0,
-     "score_def": 94.0,
-     "total_off": 61.0,
-     "total_def": 98.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-10T19:30Z"
-   },
-   "weather_context": {
-    "text": "East Lansing: peak hourly rain chance 1%; forecast game-window precipitation 0.00 in. Sustained wind up to 12.5 mph; gusts up to 21.5 mph.",
-    "forecast": {
-     "rain_chance_max": 1,
-     "rain_inches": 0,
-     "wind_max": 12.5,
-     "gust_max": 21.5
-    },
-    "kickoff": "2026-10-10T19:30Z",
-    "venue": {
-     "id": "3936",
-     "fullName": "Spartan Stadium",
-     "address": {
-      "city": "East Lansing",
-      "state": "MI",
-      "country": "USA"
-     },
-     "indoor": false
-    },
-    "location": {
-     "latitude": 42.73698,
-     "longitude": -84.48387
-    },
-    "hourly_window": [
-     {
-      "utc": "2026-10-10T19:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 12.4,
-      "wind_gusts_10m": 19
-     },
-     {
-      "utc": "2026-10-10T20:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 12.5,
-      "wind_gusts_10m": 19.9
-     },
-     {
-      "utc": "2026-10-10T21:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 12,
-      "wind_gusts_10m": 20.4
-     },
-     {
-      "utc": "2026-10-10T22:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 8.5,
-      "wind_gusts_10m": 21.5
-     },
-     {
-      "utc": "2026-10-10T23:00",
-      "precipitation_probability": 1,
-      "precipitation": 0,
-      "wind_speed_10m": 5.9,
-      "wind_gusts_10m": 14.3
-     }
-    ],
-    "candidate": {
-     "baseline_margin_home": -6.1,
-     "weather_delta_home": -0.01716916863228375,
-     "weather_margin_home": -6.117169168632284,
-     "wind_mph_kickoff": 12.4,
-     "precipitation_in_kickoff": 0,
-     "forecast_hour_utc": "2026-10-10T19:00",
-     "d_pregame_pass_yards_share": -0.04263471101328775,
-     "indoor": false
-    }
-   },
-   "book_frozen_pregame": true,
-   "event_state": "in"
-  },
-  {
-   "event_id": "401858257",
-   "name": "Stanford Cardinal at Notre Dame Fighting Irish",
-   "date": "2026-10-10T19:30Z",
-   "away": "Stanford Cardinal",
-   "home": "Notre Dame Fighting Irish",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": true,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": 41.1,
-   "predicted_winner": "Notre Dame Fighting Irish",
-   "model_home_line": -41.1,
-   "week": 6,
-   "book_tn": {
-    "state": "IL",
-    "captured_at": "2026-10-10T18:13:48.880Z",
-    "away_spread": 39.5,
-    "away_spread_odds": -110,
-    "home_spread": -39.5,
-    "home_spread_odds": -110,
-    "total": 55.5,
-    "over_odds": -110,
-    "under_odds": -110,
-    "away_ml": 8000,
-    "home_ml": null
-   },
-   "national_rank_candidate": {
-    "event_id": "401858257",
-    "name": "Stanford Cardinal at Notre Dame Fighting Irish",
-    "baseline_margin_home": 41.1,
-    "candidate_margins_home": {
-     "pass_def": 41.49824920074909,
-     "requested_five": 40.74024497570379
-    },
-    "home_ranks": {
-     "pass_off": 38.0,
-     "rush_off": 64.0,
-     "pass_def": 14.0,
-     "rush_def": 4.0,
-     "turnover_margin": 2.0,
-     "score_off": 15.0,
-     "score_def": 7.0,
-     "total_off": 46.0,
-     "total_def": 1.0
-    },
-    "away_ranks": {
-     "pass_off": 51.0,
-     "rush_off": 135.0,
-     "pass_def": 138.0,
-     "rush_def": 95.0,
-     "turnover_margin": 17.0,
-     "score_off": 131.0,
-     "score_def": 133.0,
-     "total_off": 112.0,
-     "total_def": 134.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-10T19:30Z"
-   },
-   "weather_context": {
-    "text": "Notre Dame: peak hourly rain chance 1%; forecast game-window precipitation 0.00 in. Sustained wind up to 11 mph; gusts up to 19.9 mph.",
-    "forecast": {
-     "rain_chance_max": 1,
-     "rain_inches": 0,
-     "wind_max": 11,
-     "gust_max": 19.9
-    },
-    "kickoff": "2026-10-10T19:30Z",
-    "venue": {
-     "id": "3855",
-     "fullName": "Notre Dame Stadium",
-     "address": {
-      "city": "Notre Dame",
-      "state": "IN",
-      "country": "USA"
-     },
-     "indoor": false
-    },
-    "location": {
-     "latitude": 41.70019,
-     "longitude": -86.23793
-    },
-    "hourly_window": [
-     {
-      "utc": "2026-10-10T19:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 11,
-      "wind_gusts_10m": 19.7
-     },
-     {
-      "utc": "2026-10-10T20:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 10.2,
-      "wind_gusts_10m": 19
-     },
-     {
-      "utc": "2026-10-10T21:00",
-      "precipitation_probability": 0,
-      "precipitation": 0,
-      "wind_speed_10m": 9.8,
-      "wind_gusts_10m": 18.6
-     },
-     {
-      "utc": "2026-10-10T22:00",
-      "precipitation_probability": 1,
-      "precipitation": 0,
-      "wind_speed_10m": 8.3,
-      "wind_gusts_10m": 19.9
-     },
-     {
-      "utc": "2026-10-10T23:00",
-      "precipitation_probability": 1,
-      "precipitation": 0,
-      "wind_speed_10m": 7,
-      "wind_gusts_10m": 15
-     }
-    ],
-    "candidate": {
-     "baseline_margin_home": 41.1,
-     "weather_delta_home": -0.05485735885115667,
-     "weather_margin_home": 41.04514264114884,
-     "wind_mph_kickoff": 11,
-     "precipitation_in_kickoff": 0,
-     "forecast_hour_utc": "2026-10-10T19:00",
-     "d_pregame_pass_yards_share": -0.1535599463550853,
      "indoor": false
     }
    },
@@ -3378,6 +3257,127 @@
      "precipitation_in_kickoff": 0,
      "forecast_hour_utc": "2026-10-10T19:00",
      "d_pregame_pass_yards_share": 0.06689002614042194,
+     "indoor": false
+    }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "post"
+  },
+  {
+   "event_id": "401858480",
+   "name": "Illinois Fighting Illini at Michigan State Spartans",
+   "date": "2026-10-10T19:30Z",
+   "away": "Illinois Fighting Illini",
+   "home": "Michigan State Spartans",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": true,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": -6.1,
+   "predicted_winner": "Illinois Fighting Illini",
+   "model_home_line": 6.1,
+   "week": 6,
+   "national_rank_candidate": {
+    "event_id": "401858480",
+    "name": "Illinois Fighting Illini at Michigan State Spartans",
+    "baseline_margin_home": -6.1,
+    "candidate_margins_home": {
+     "pass_def": -5.130427280330174,
+     "requested_five": -6.739254638541091
+    },
+    "home_ranks": {
+     "pass_off": 110.0,
+     "rush_off": 113.0,
+     "pass_def": 40.0,
+     "rush_def": 78.0,
+     "turnover_margin": 115.0,
+     "score_off": 125.0,
+     "score_def": 66.0,
+     "total_off": 126.0,
+     "total_def": 52.0
+    },
+    "away_ranks": {
+     "pass_off": 49.0,
+     "rush_off": 75.0,
+     "pass_def": 116.0,
+     "rush_def": 54.0,
+     "turnover_margin": 78.0,
+     "score_off": 67.0,
+     "score_def": 94.0,
+     "total_off": 61.0,
+     "total_def": 98.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T19:30Z"
+   },
+   "weather_context": {
+    "text": "East Lansing: peak hourly rain chance 1%; forecast game-window precipitation 0.00 in. Sustained wind up to 12.5 mph; gusts up to 21.5 mph.",
+    "forecast": {
+     "rain_chance_max": 1,
+     "rain_inches": 0,
+     "wind_max": 12.5,
+     "gust_max": 21.5
+    },
+    "kickoff": "2026-10-10T19:30Z",
+    "venue": {
+     "id": "3936",
+     "fullName": "Spartan Stadium",
+     "address": {
+      "city": "East Lansing",
+      "state": "MI",
+      "country": "USA"
+     },
+     "indoor": false
+    },
+    "location": {
+     "latitude": 42.73698,
+     "longitude": -84.48387
+    },
+    "hourly_window": [
+     {
+      "utc": "2026-10-10T19:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 12.4,
+      "wind_gusts_10m": 19
+     },
+     {
+      "utc": "2026-10-10T20:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 12.5,
+      "wind_gusts_10m": 19.9
+     },
+     {
+      "utc": "2026-10-10T21:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 12,
+      "wind_gusts_10m": 20.4
+     },
+     {
+      "utc": "2026-10-10T22:00",
+      "precipitation_probability": 0,
+      "precipitation": 0,
+      "wind_speed_10m": 8.5,
+      "wind_gusts_10m": 21.5
+     },
+     {
+      "utc": "2026-10-10T23:00",
+      "precipitation_probability": 1,
+      "precipitation": 0,
+      "wind_speed_10m": 5.9,
+      "wind_gusts_10m": 14.3
+     }
+    ],
+    "candidate": {
+     "baseline_margin_home": -6.1,
+     "weather_delta_home": -0.01716916863228375,
+     "weather_margin_home": -6.117169168632284,
+     "wind_mph_kickoff": 12.4,
+     "precipitation_in_kickoff": 0,
+     "forecast_hour_utc": "2026-10-10T19:00",
+     "d_pregame_pass_yards_share": -0.04263471101328775,
      "indoor": false
     }
    },
@@ -4454,7 +4454,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401856713",
@@ -4593,7 +4593,7 @@
     }
    },
    "book_frozen_pregame": true,
-   "event_state": "in"
+   "event_state": "post"
   },
   {
    "event_id": "401860902",
@@ -4723,140 +4723,6 @@
      "precipitation_in_kickoff": 0,
      "forecast_hour_utc": "2026-10-10T22:00",
      "d_pregame_pass_yards_share": 0.18228495225902808,
-     "indoor": false
-    }
-   },
-   "book_frozen_pregame": true,
-   "event_state": "in"
-  },
-  {
-   "event_id": "401869943",
-   "name": "Coastal Carolina Chanticleers at Marshall Thundering Herd",
-   "date": "2026-10-10T23:00Z",
-   "away": "Coastal Carolina Chanticleers",
-   "home": "Marshall Thundering Herd",
-   "neutral_site": false,
-   "timing": "pregame",
-   "frozen_initial": true,
-   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
-   "predicted_margin_home": 7.1,
-   "predicted_winner": "Marshall Thundering Herd",
-   "model_home_line": -7.1,
-   "week": 6,
-   "book_tn": {
-    "state": "IL",
-    "captured_at": "2026-10-10T22:14:45.652Z",
-    "away_spread": 4.5,
-    "away_spread_odds": -115,
-    "home_spread": -4.5,
-    "home_spread_odds": -105,
-    "total": 57.5,
-    "over_odds": -112,
-    "under_odds": -108,
-    "away_ml": 158,
-    "home_ml": -192
-   },
-   "national_rank_candidate": {
-    "event_id": "401869943",
-    "name": "Coastal Carolina Chanticleers at Marshall Thundering Herd",
-    "baseline_margin_home": 7.1,
-    "candidate_margins_home": {
-     "pass_def": 5.735707963313037,
-     "requested_five": 5.1409775205943316
-    },
-    "home_ranks": {
-     "pass_off": 60.0,
-     "rush_off": 90.0,
-     "pass_def": 134.0,
-     "rush_def": 120.0,
-     "turnover_margin": 115.0,
-     "score_off": 107.0,
-     "score_def": 129.0,
-     "total_off": 75.0,
-     "total_def": 136.0
-    },
-    "away_ranks": {
-     "pass_off": 46.0,
-     "rush_off": 105.0,
-     "pass_def": 61.0,
-     "rush_def": 118.0,
-     "turnover_margin": 78.0,
-     "score_off": 94.0,
-     "score_def": 80.0,
-     "total_off": 76.0,
-     "total_def": 100.0
-    },
-    "rank_universe": 138,
-    "date": "2026-10-10T23:00Z"
-   },
-   "weather_context": {
-    "text": "Huntington: peak hourly rain chance 52%; forecast game-window precipitation 0.21 in. Sustained wind up to 11.8 mph; gusts up to 28.6 mph.",
-    "forecast": {
-     "rain_chance_max": 52,
-     "rain_inches": 0.212,
-     "wind_max": 11.8,
-     "gust_max": 28.6
-    },
-    "kickoff": "2026-10-10T23:00Z",
-    "venue": {
-     "id": "3775",
-     "fullName": "Joan C. Edwards Stadium",
-     "address": {
-      "city": "Huntington",
-      "state": "WV",
-      "country": "USA"
-     },
-     "indoor": false
-    },
-    "location": {
-     "latitude": 38.41925,
-     "longitude": -82.44515
-    },
-    "hourly_window": [
-     {
-      "utc": "2026-10-10T23:00",
-      "precipitation_probability": 52,
-      "precipitation": 0.114,
-      "wind_speed_10m": 11.8,
-      "wind_gusts_10m": 26.2
-     },
-     {
-      "utc": "2026-10-11T00:00",
-      "precipitation_probability": 50,
-      "precipitation": 0,
-      "wind_speed_10m": 10.4,
-      "wind_gusts_10m": 28.6
-     },
-     {
-      "utc": "2026-10-11T01:00",
-      "precipitation_probability": 27,
-      "precipitation": 0,
-      "wind_speed_10m": 10,
-      "wind_gusts_10m": 28.4
-     },
-     {
-      "utc": "2026-10-11T02:00",
-      "precipitation_probability": 32,
-      "precipitation": 0.098,
-      "wind_speed_10m": 8.7,
-      "wind_gusts_10m": 20.8
-     },
-     {
-      "utc": "2026-10-11T03:00",
-      "precipitation_probability": 38,
-      "precipitation": 0,
-      "wind_speed_10m": 8.8,
-      "wind_gusts_10m": 23.9
-     }
-    ],
-    "candidate": {
-     "baseline_margin_home": 7.1,
-     "weather_delta_home": -0.24026619524650997,
-     "weather_margin_home": 6.85973380475349,
-     "wind_mph_kickoff": 11.8,
-     "precipitation_in_kickoff": 0.114,
-     "forecast_hour_utc": "2026-10-10T23:00",
-     "d_pregame_pass_yards_share": 0.018343793132514663,
      "indoor": false
     }
    },
@@ -5400,6 +5266,140 @@
    "event_state": "in"
   },
   {
+   "event_id": "401869943",
+   "name": "Coastal Carolina Chanticleers at Marshall Thundering Herd",
+   "date": "2026-10-10T23:00Z",
+   "away": "Coastal Carolina Chanticleers",
+   "home": "Marshall Thundering Herd",
+   "neutral_site": false,
+   "timing": "pregame",
+   "frozen_initial": true,
+   "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
+   "predicted_margin_home": 7.1,
+   "predicted_winner": "Marshall Thundering Herd",
+   "model_home_line": -7.1,
+   "week": 6,
+   "book_tn": {
+    "state": "IL",
+    "captured_at": "2026-10-10T22:14:45.652Z",
+    "away_spread": 4.5,
+    "away_spread_odds": -115,
+    "home_spread": -4.5,
+    "home_spread_odds": -105,
+    "total": 57.5,
+    "over_odds": -112,
+    "under_odds": -108,
+    "away_ml": 158,
+    "home_ml": -192
+   },
+   "national_rank_candidate": {
+    "event_id": "401869943",
+    "name": "Coastal Carolina Chanticleers at Marshall Thundering Herd",
+    "baseline_margin_home": 7.1,
+    "candidate_margins_home": {
+     "pass_def": 5.735707963313037,
+     "requested_five": 5.1409775205943316
+    },
+    "home_ranks": {
+     "pass_off": 60.0,
+     "rush_off": 90.0,
+     "pass_def": 134.0,
+     "rush_def": 120.0,
+     "turnover_margin": 115.0,
+     "score_off": 107.0,
+     "score_def": 129.0,
+     "total_off": 75.0,
+     "total_def": 136.0
+    },
+    "away_ranks": {
+     "pass_off": 46.0,
+     "rush_off": 105.0,
+     "pass_def": 61.0,
+     "rush_def": 118.0,
+     "turnover_margin": 78.0,
+     "score_off": 94.0,
+     "score_def": 80.0,
+     "total_off": 76.0,
+     "total_def": 100.0
+    },
+    "rank_universe": 138,
+    "date": "2026-10-10T23:00Z"
+   },
+   "weather_context": {
+    "text": "Huntington: peak hourly rain chance 52%; forecast game-window precipitation 0.21 in. Sustained wind up to 11.8 mph; gusts up to 28.6 mph.",
+    "forecast": {
+     "rain_chance_max": 52,
+     "rain_inches": 0.212,
+     "wind_max": 11.8,
+     "gust_max": 28.6
+    },
+    "kickoff": "2026-10-10T23:00Z",
+    "venue": {
+     "id": "3775",
+     "fullName": "Joan C. Edwards Stadium",
+     "address": {
+      "city": "Huntington",
+      "state": "WV",
+      "country": "USA"
+     },
+     "indoor": false
+    },
+    "location": {
+     "latitude": 38.41925,
+     "longitude": -82.44515
+    },
+    "hourly_window": [
+     {
+      "utc": "2026-10-10T23:00",
+      "precipitation_probability": 52,
+      "precipitation": 0.114,
+      "wind_speed_10m": 11.8,
+      "wind_gusts_10m": 26.2
+     },
+     {
+      "utc": "2026-10-11T00:00",
+      "precipitation_probability": 50,
+      "precipitation": 0,
+      "wind_speed_10m": 10.4,
+      "wind_gusts_10m": 28.6
+     },
+     {
+      "utc": "2026-10-11T01:00",
+      "precipitation_probability": 27,
+      "precipitation": 0,
+      "wind_speed_10m": 10,
+      "wind_gusts_10m": 28.4
+     },
+     {
+      "utc": "2026-10-11T02:00",
+      "precipitation_probability": 32,
+      "precipitation": 0.098,
+      "wind_speed_10m": 8.7,
+      "wind_gusts_10m": 20.8
+     },
+     {
+      "utc": "2026-10-11T03:00",
+      "precipitation_probability": 38,
+      "precipitation": 0,
+      "wind_speed_10m": 8.8,
+      "wind_gusts_10m": 23.9
+     }
+    ],
+    "candidate": {
+     "baseline_margin_home": 7.1,
+     "weather_delta_home": -0.24026619524650997,
+     "weather_margin_home": 6.85973380475349,
+     "wind_mph_kickoff": 11.8,
+     "precipitation_in_kickoff": 0.114,
+     "forecast_hour_utc": "2026-10-10T23:00",
+     "d_pregame_pass_yards_share": 0.018343793132514663,
+     "indoor": false
+    }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
+  },
+  {
    "event_id": "401856712",
    "name": "Georgia Bulldogs at Alabama Crimson Tide",
    "date": "2026-10-10T23:30Z",
@@ -5407,7 +5407,7 @@
    "home": "Alabama Crimson Tide",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": -2.5,
    "predicted_winner": "Georgia Bulldogs",
@@ -5534,7 +5534,9 @@
      "d_pregame_pass_yards_share": 0.0827226183340749,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401858485",
@@ -5544,7 +5546,7 @@
    "home": "Penn State Nittany Lions",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": -1.7,
    "predicted_winner": "USC Trojans",
@@ -5666,7 +5668,9 @@
      "d_pregame_pass_yards_share": -0.04740666603720134,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401858258",
@@ -5676,7 +5680,7 @@
    "home": "Virginia Cavaliers",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 5.1,
    "predicted_winner": "Virginia Cavaliers",
@@ -5830,7 +5834,9 @@
      "d_pregame_pass_yards_share": 0.024418081056030605,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401864516",
@@ -5840,7 +5846,7 @@
    "home": "Northern Illinois Huskies",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": -5.5,
    "predicted_winner": "Air Force Falcons",
@@ -5969,7 +5975,9 @@
      "d_pregame_pass_yards_share": 0.4977445125005267,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401869965",
@@ -5979,7 +5987,7 @@
    "home": "Louisiana Tech Bulldogs",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 4.2,
    "predicted_winner": "Louisiana Tech Bulldogs",
@@ -6123,7 +6131,9 @@
      "d_pregame_pass_yards_share": 0.12895179294947773,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401856827",
@@ -6133,7 +6143,7 @@
    "home": "Utah Utes",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": 16.6,
    "predicted_winner": "Utah Utes",
@@ -6325,7 +6335,9 @@
      "d_pregame_pass_yards_share": 0.05175252941862768,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401858486",
@@ -6335,7 +6347,7 @@
    "home": "Purdue Boilermakers",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": -8.1,
    "predicted_winner": "Minnesota Golden Gophers",
@@ -6479,7 +6491,9 @@
      "d_pregame_pass_yards_share": 0.1442056500134049,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401869949",
@@ -6489,7 +6503,7 @@
    "home": "Georgia Southern Eagles",
    "neutral_site": false,
    "timing": "pregame",
-   "frozen_initial": false,
+   "frozen_initial": true,
    "timing_note": "Week 6 pregame model score as of Oct 4 after all Week 5 FBS results; availability is a documented null feature, with no invented injury adjustment.",
    "predicted_margin_home": -11.6,
    "predicted_winner": "James Madison Dukes",
@@ -6635,7 +6649,9 @@
      "d_pregame_pass_yards_share": 0.15840189210291777,
      "indoor": false
     }
-   }
+   },
+   "book_frozen_pregame": true,
+   "event_state": "in"
   },
   {
    "event_id": "401860901",
@@ -6653,16 +6669,16 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T23:15:25.057Z",
+    "captured_at": "2026-10-11T01:15:01.690Z",
     "away_spread": -8.5,
     "away_spread_odds": -110,
     "home_spread": 8.5,
     "home_spread_odds": -110,
     "total": 48.5,
-    "over_odds": -108,
-    "under_odds": -112,
-    "away_ml": -315,
-    "home_ml": 250
+    "over_odds": -112,
+    "under_odds": -108,
+    "away_ml": -310,
+    "home_ml": 245
    },
    "national_rank_candidate": {
     "event_id": "401860901",
@@ -6860,7 +6876,7 @@
    "week": 6,
    "book_tn": {
     "state": "IL",
-    "captured_at": "2026-10-10T23:15:25.057Z",
+    "captured_at": "2026-10-11T01:15:01.690Z",
     "away_spread": 20.5,
     "away_spread_odds": -104,
     "home_spread": -20.5,

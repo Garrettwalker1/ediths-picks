@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T16:30:01.669381+00:00",
+  "updated_at": "2026-10-11T19:03:18.180936+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5179,9 +5179,9 @@
       "cashout_value_usd_at_capture": 5
     },
     {
-      "bet_id": "slip-20261011-3leg-atd-bowers-likely-mcbride",
-      "date": "2026-10-11T14:41:12Z",
-      "placed_at": null,
+      "bet_id": "us-tn:01m4nph985frd8d741ge1jpsey",
+      "date": "2026-10-11T14:40:00Z",
+      "placed_at": "2026-10-11T14:40:00Z",
       "sport": "NFL",
       "game": "NFL Week 5: LV @ NE; NYG @ WAS; DET @ ARI",
       "kickoff": "2026-10-11T17:01:00Z",
@@ -5190,7 +5190,7 @@
       "market": "parlay_anytime_touchdown",
       "line": null,
       "price": 1814,
-      "price_note": "30% profit boost; base +1396, displayed boosted +1814. Exact $191.49 slip payout retained. Bet ID and placement time cropped; local placeholder ID, receipt date not placement.",
+      "price_note": "30% profit boost; base +1396, displayed +1814. Exact would-have-won payout $191.49 retained. Owner cashed out for $11.14; ID and 9:40AM CT placement now verified from footer.",
       "book": "FanDuel",
       "state": "TN",
       "stake_usd": 10,
@@ -5199,11 +5199,11 @@
       "potential_payout_usd": 191.49,
       "potential_profit_usd": 181.49,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_usd": null,
-      "net_units": null,
-      "source": "Owner iMessage phonemsg-01M4NPJ8AXKGHEBDHTGQ1MTR8R, Oct11 9:41:12AM CT. TN open slip visually inspected; footer ID/time not visible.",
+      "status": "settled",
+      "result": "cashout",
+      "net_usd": 1.14,
+      "net_units": 0.114,
+      "source": "Owner iMessage phonemsg-01M4NPJ8AXKGHEBDHTGQ1MTR8R, Oct11 9:41:12AM CT. TN open slip visually inspected; footer ID/time not visible. Cashout confirmation: owner phonemsg-01M4P5HH57YJ8K4RVTMAS039XR Oct11 2:02:57PM CT, cashed out $11.14, real ID/placement footer visually inspected.",
       "legs": [
         {
           "event": "Las Vegas Raiders @ New England Patriots",
@@ -5212,7 +5212,7 @@
           "selection": "Brock Bowers",
           "line": null,
           "price": 138,
-          "hit": null
+          "hit": true
         },
         {
           "event": "New York Giants @ Washington Commanders",
@@ -5245,6 +5245,18 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T14:41:12Z",
         "note": "Per-leg prices and boost from placed slip, not live IL quotes."
+      },
+      "settlement_type": "cashout",
+      "payout_usd": 11.14,
+      "cashout_usd": 11.14,
+      "grading": {
+        "source": "Owner FanDuel cashout screenshot",
+        "graded_at": "2026-10-11T19:03:18.180910+00:00",
+        "settlement_confirmed": true,
+        "detail": "Actual cashout $11.14 on $10 stake, +$1.14. Bowers hit at cashout; Likely showing zero TD in-progress, not a final miss; McBride not started.",
+        "would_have_won_result": null,
+        "would_have_won_payout_usd": 191.49,
+        "would_have_won_note": "Pending final Likely/McBride outcomes; never replace actual cashout profit with hypothetical payout."
       }
     },
     {

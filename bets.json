@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T19:49:44.921359+00:00",
+  "updated_at": "2026-10-11T19:53:30.830864+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5625,6 +5625,77 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T19:49:17Z",
         "note": "Actual placed straight ATD price +550; exact total payout $65.00."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4p8cj3beqjb48dtcwd6t4t5",
+      "date": "2026-10-11T19:52:00Z",
+      "placed_at": "2026-10-11T19:52:00Z",
+      "sport": "NFL",
+      "game": "Detroit Lions @ Arizona Cardinals",
+      "kickoff": "2026-10-11T20:26:00Z",
+      "bet": "2-leg SGP anytime TD: Michael Wilson; Amon-Ra St. Brown",
+      "selection": "Michael Wilson + Amon-Ra St. Brown",
+      "market": "same_game_parlay_anytime_touchdown",
+      "line": null,
+      "price": 284,
+      "price_note": "Exact $38.48 total payout retained. Individual leg prices not shown.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 38.48,
+      "potential_profit_usd": 28.48,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4P8DCW7C9JP1H0JJ0QSJQ9P Oct11 2:53PM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct11 2:52PM placement. $10 cashout button is offer only, not a transaction.",
+      "legs": [
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Michael Wilson",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "DET-ARI"
+        },
+        {
+          "event": "Detroit Lions @ Arizona Cardinals",
+          "kickoff": "2026-10-11T20:26:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "DET-ARI"
+        }
+      ],
+      "sgp_groups": [
+        {
+          "group": "DET-ARI",
+          "price": 284,
+          "selections": [
+            "Michael Wilson",
+            "Amon-Ra St. Brown"
+          ]
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4",
+        "slip_break_even_probability": 0.2598752598752599,
+        "note": "Wilson 34.0% and St. Brown 42.7% marginal baselines. No fitted SGP joint model; opposing-team same-game TDs share pace/scoring conditions. No injury or role adjustment fitted."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-11T19:53:08Z",
+        "note": "SGP +284 only; individual TN leg prices absent."
       }
     }
   ]

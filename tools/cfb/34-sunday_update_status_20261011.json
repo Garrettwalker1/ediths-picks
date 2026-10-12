@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-12T02:29:57.562073+00:00",
+  "status": "partial_fail_closed",
+  "week6_games_final": 58,
+  "week6_boxscores_archived": 58,
+  "boxscore_stat_gaps": [],
+  "ap_poll_archived": "tools/model_cfb_v2/ap_poll/ap-2026-week7.json",
+  "ap_primary_publication_time": "2026-10-11T18:00:16Z",
+  "new_predictions_published": false,
+  "frozen_boards_changed": false,
+  "blockers": [
+    "Current AP experiment artifact reports roster-churn base comparison, not reproducible full coach/draft/talent reference validation. Archived short experiment script only prints prior results. Locked 2025 test has already been examined and cannot be made untouched again.",
+    "Existing scorer adds 2026 completed team/player rows to feature lookup but its training-game outcome table uses historical CSVs only. A full-data refit needs a corrected and validated outcome ingestion path."
+  ],
+  "prior_reported_ap_deltas": {
+    "validation": -0.08489235069484558,
+    "locked_test": -0.24452189859857096,
+    "ci95": [
+      -0.4532095322235533,
+      -0.04048346093050276
+    ],
+    "scope": "Prior artifact, roster-churn base. Not a new full-spec test."
+  },
+  "sources": [
+    "https://apnews.com/article/fbc-t25-ap-top-25-c869b08df5dd41d99fa9ce8dd5638f64",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
+  ]
+}

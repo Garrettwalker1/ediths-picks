@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-12T12:59:34.307340+00:00",
+  "updated_at": "2026-10-12T16:36:55.594891+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5828,6 +5828,165 @@
         "graded_at": "2026-10-12T12:59:34.307340+00:00",
         "detail": "Michael Wilson: 0 rushing/receiving TDs; Amon-Ra St. Brown: 0 rushing/receiving TDs.",
         "settlement_confirmed": false
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4r7se5ae4xtm7rq6hvmxhdr",
+      "date": "2026-10-12T14:20:00Z",
+      "placed_at": "2026-10-12T14:20:00Z",
+      "sport": "NFL",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "kickoff": "2026-10-13T00:16:00Z",
+      "bet": "2-leg SGP anytime TD: James Cook; Davante Adams",
+      "selection": "James Cook + Davante Adams",
+      "market": "same_game_parlay",
+      "line": null,
+      "price": 283,
+      "price_note": "Exact $38.31 total payout retained. Individual leg prices not shown on the TN slip.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 38.31,
+      "potential_profit_usd": 28.31,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4RFHM8Q2V619XR2ZT1P4Q0X Oct12 11:36AM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct12 9:20AM CT placement. $10 cashout button is offer only, not a transaction.",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "James Cook",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "BUF-LA"
+        },
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Davante Adams",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "BUF-LA"
+        }
+      ],
+      "sgp_groups": [
+        {
+          "group": "BUF-LA",
+          "price": 283,
+          "selections": [
+            "James Cook",
+            "Davante Adams"
+          ]
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4 (Oct 6)",
+        "slip_break_even_probability": 0.261,
+        "note": "Cook 46.9% and Adams 51.3% marginal model; independent product 24.1% vs 26.1% break-even, so no edge even before correlation. Cook was below the book price (model 46.9% vs ~52% implied); Adams about even (50% implied). Opposing-team TDs share pace/scoring conditions; no fitted SGP joint model; no injury or role adjustment. Placed 9:20 AM CT, before the model read was sent."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip; FanDuel Illinois leg prices at 9:17 AM CT shown for comparison only, not TN prices",
+        "captured_at": "2026-10-12T14:17:00Z",
+        "note": "SGP +283 only on slip. IL ATD at 9:17 AM CT: Cook -110, Adams +100."
+      }
+    },
+    {
+      "bet_id": "us-tn:01m4rfgs7yeeztsqj3m305mw9x",
+      "date": "2026-10-12T16:35:00Z",
+      "placed_at": "2026-10-12T16:35:00Z",
+      "sport": "NFL",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "kickoff": "2026-10-13T00:16:00Z",
+      "bet": "3-leg SGP: Josh Allen anytime TD; Bills +6.5 alt spread; Over 41.5 alt total (50% profit boost)",
+      "selection": "Josh Allen + Bills +6.5 + Over 41.5",
+      "market": "same_game_parlay",
+      "line": null,
+      "price": 267,
+      "price_note": "Boosted +267 (was +179 before 50% profit boost). Exact $36.79 total payout retained. Individual leg prices not shown.",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 36.79,
+      "potential_profit_usd": 26.79,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4RFHM8Q2V619XR2ZT1P4Q0X Oct12 11:36AM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct12 11:35AM CT placement. $10 cashout button is offer only, not a transaction.",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Josh Allen",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "sgp_group": "BUF-LA"
+        },
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "alternate_spread",
+          "selection": "Buffalo Bills",
+          "line": 6.5,
+          "price": null,
+          "hit": null,
+          "sgp_group": "BUF-LA"
+        },
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "alternate_total",
+          "selection": "Over",
+          "line": 41.5,
+          "price": null,
+          "hit": null,
+          "sgp_group": "BUF-LA"
+        }
+      ],
+      "sgp_groups": [
+        {
+          "group": "BUF-LA",
+          "price": 267,
+          "selections": [
+            "Josh Allen",
+            "Buffalo Bills",
+            "Over"
+          ]
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4 (Oct 6); margin-Elo v1 LAR -0.3; totals ridge 52.2",
+        "slip_break_even_probability": 0.2718,
+        "pre_boost_break_even_probability": 0.3584,
+        "note": "Allen 60.9% (model, ATD). Rough, unvalidated: Bills +6.5 ~68% (13.5 pt SD) and Over 41.5 ~85% (10.5 pt SD). Independent product ~35% vs 27.2% boosted break-even and 35.8% pre-boost break-even; legs are positively correlated and FanDuel SGP pricing already trims for that (multiplied estimate was ~+227, real pre-boost TN price +179). The boost helps the price, it is not an edge by itself. Totals model untested; ATD model research-only, improvement not statistically settled."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip; FanDuel Illinois quotes at 10:59-11:00 AM CT for comparison only",
+        "captured_at": "2026-10-12T16:00:00Z",
+        "note": "TN SGP +179 pre-boost, +267 boosted. IL multiplied legs: Allen ATD -120, BUF +6.5 -184, Over 41.5 -650."
+      },
+      "profit_boost": {
+        "percent": 50,
+        "pre_boost_price": 179,
+        "boosted_price": 267
       }
     }
   ]

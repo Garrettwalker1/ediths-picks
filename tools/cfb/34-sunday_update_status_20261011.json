@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-10-12T02:29:57.562073+00:00",
-  "status": "partial_fail_closed",
+  "status": "repair_reference_and_forward_holdout_sealed",
   "week6_games_final": 58,
   "week6_boxscores_archived": 58,
   "boxscore_stat_gaps": [],
@@ -9,8 +9,7 @@
   "new_predictions_published": false,
   "frozen_boards_changed": false,
   "blockers": [
-    "Current AP experiment artifact reports roster-churn base comparison, not reproducible full coach/draft/talent reference validation. Archived short experiment script only prints prior results. Locked 2025 test has already been examined and cannot be made untouched again.",
-    "Existing scorer adds 2026 completed team/player rows to feature lookup but its training-game outcome table uses historical CSVs only. A full-data refit needs a corrected and validated outcome ingestion path."
+    "Operational Week7 board remains unpublished pending untouched forward winner-first gates."
   ],
   "prior_reported_ap_deltas": {
     "validation": -0.08489235069484558,
@@ -25,5 +24,8 @@
     "https://apnews.com/article/fbc-t25-ap-top-25-c869b08df5dd41d99fa9ce8dd5638f64",
     "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings",
     "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261010&groups=80&limit=400"
-  ]
+  ],
+  "repair": "tools/model_cfb_v2/repair_20261011",
+  "training_2026_rows": 326,
+  "additional_parser_fix": "Actual ESPN passing-stat keys accepted; no silent zero QB input"
 }

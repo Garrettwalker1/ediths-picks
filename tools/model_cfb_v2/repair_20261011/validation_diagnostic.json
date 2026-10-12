@@ -1,0 +1,107 @@
+{
+  "full_no_ap": {
+    "features": [
+      "d_pf_f",
+      "d_pa_f",
+      "d_yf_f",
+      "d_ya_f",
+      "d_pyf_r4",
+      "d_pya_r4",
+      "d_ryf_r4",
+      "d_rya_r4",
+      "d_tof_r4",
+      "d_qbc_r4",
+      "d_qby_r4",
+      "d_qbtd_r4",
+      "d_qbi_r4",
+      "d_ret_share",
+      "d_portal_out_share",
+      "d_gone_share",
+      "d_portal_in_yds",
+      "d_qb_ret",
+      "d_new_coach",
+      "d_drafted_prod",
+      "d_talent",
+      "d_gp"
+    ],
+    "validation2024": {
+      "n": 813,
+      "mae": 13.221855801337163,
+      "winner_correct": 564,
+      "winner_accuracy": 0.6937269372693727
+    },
+    "previously_examined2025": {
+      "n": 812,
+      "mae": 12.939782518285645,
+      "winner_correct": 585,
+      "winner_accuracy": 0.7204433497536946
+    }
+  },
+  "full_ap_points": {
+    "features": [
+      "d_pf_f",
+      "d_pa_f",
+      "d_yf_f",
+      "d_ya_f",
+      "d_pyf_r4",
+      "d_pya_r4",
+      "d_ryf_r4",
+      "d_rya_r4",
+      "d_tof_r4",
+      "d_qbc_r4",
+      "d_qby_r4",
+      "d_qbtd_r4",
+      "d_qbi_r4",
+      "d_ret_share",
+      "d_portal_out_share",
+      "d_gone_share",
+      "d_portal_in_yds",
+      "d_qb_ret",
+      "d_new_coach",
+      "d_drafted_prod",
+      "d_talent",
+      "d_ap_points",
+      "d_gp"
+    ],
+    "validation2024": {
+      "n": 813,
+      "mae": 13.18486467465485,
+      "winner_correct": 567,
+      "winner_accuracy": 0.6974169741697417
+    },
+    "previously_examined2025": {
+      "n": 812,
+      "mae": 12.854342178932614,
+      "winner_correct": 587,
+      "winner_accuracy": 0.7229064039408867
+    }
+  },
+  "diagnostic_delta_ap_vs_no_ap": {
+    "mae": -0.08544033935302983,
+    "mae_ci95": [
+      -0.20352728683655488,
+      0.030582196491538885
+    ],
+    "winner_accuracy": 0.0024630541871921183,
+    "winner_ci95": [
+      -0.007389162561576354,
+      0.012315270935960592
+    ]
+  },
+  "refit_rows_by_season": {
+    "2022": 817,
+    "2023": 811,
+    "2024": 813,
+    "2025": 812,
+    "2026": 326
+  },
+  "selected_validation_only": "full_ap_points",
+  "adopted": false,
+  "fresh_holdout": "2026 Week7 outcomes, not yet played, Oct13-19. All historical 2025 and Week1-6 2026 are already examined.",
+  "limits": [
+    "No historical set is being relabeled untouched.",
+    "Historical preseason churn derived from season participation, historical neutral sites not flagged, and prior imputation remain incumbent limitations.",
+    "2026 AP archives begin Week4; earlier 2026 games use zero AP feature, a recorded coverage limitation, not unranked evidence.",
+    "Totals remain null; no book inputs."
+  ]
+}

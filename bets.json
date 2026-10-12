@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-12T16:36:55.594891+00:00",
+  "updated_at": "2026-10-12T23:34:30.268050+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5988,6 +5988,109 @@
         "pre_boost_price": 179,
         "boosted_price": 267
       }
+    },
+    {
+      "bet_id": "us-tn:01m4s7e12eecn97en80yanttme",
+      "date": "2026-10-12T23:33:00Z",
+      "placed_at": "2026-10-12T23:33:00Z",
+      "sport": "NFL",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "kickoff": "2026-10-13T00:16:00Z",
+      "bet": "Dalton Kincaid anytime TD",
+      "selection": "Dalton Kincaid",
+      "market": "anytime_touchdown",
+      "line": null,
+      "price": 185,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 28.5,
+      "potential_profit_usd": 18.5,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4S7EKTT6CDZXVKGPYNWQW7P Oct12 6:34PM CT, TN straight slip visually inspected. Footer confirms bet ID and Oct12 6:33PM CT placement. $10 cashout button is an offer only.",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Dalton Kincaid",
+          "line": null,
+          "price": 185,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4 (Oct 6)",
+        "model_probability": 0.26,
+        "implied_probability": 0.3508771929824561,
+        "edge_percentage_points": -9.09,
+        "note": "Unvalidated TD baseline; no injury or role adjustment fitted. Model below the actual TN price."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-12T23:34:00Z",
+        "note": "Actual TN straight ATD price +185; exact payout $28.50."
+      }
+    },
+    {
+      "bet_id": "placeholder-us-tn-keon-coleman-atd-20261012",
+      "date": "2026-10-12T23:33:00Z",
+      "placed_at": null,
+      "sport": "NFL",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "kickoff": "2026-10-13T00:16:00Z",
+      "bet": "Keon Coleman anytime TD",
+      "selection": "Keon Coleman",
+      "market": "anytime_touchdown",
+      "line": null,
+      "price": 280,
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "stake_type": "cash",
+      "potential_payout_usd": 38.0,
+      "potential_profit_usd": 28.0,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": null,
+      "net_units": null,
+      "net_usd": null,
+      "source": "Owner iMessage phonemsg-01M4S7EKTT6CDZXVKGPYNWQW7P Oct12 6:34PM CT, TN straight slip visually inspected. Bet ID and placed time cut off by the app nav bar; bet_id is a labeled placeholder and placed_at is approximate (same screenshot as the 6:33PM CT Kincaid ticket, so placed no later than ~6:33PM CT screenshot time). $10 cashout button is an offer only.",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Los Angeles Rams",
+          "kickoff": "2026-10-13T00:16:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Keon Coleman",
+          "line": null,
+          "price": 280,
+          "hit": null
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week5 baseline recency-weighted TD rate h12 k4 through Week4 (Oct 6)",
+        "model_probability": 0.257,
+        "implied_probability": 0.2631578947368421,
+        "edge_percentage_points": -0.62,
+        "note": "Unvalidated TD baseline; no injury or role adjustment fitted. Model below the actual TN price."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner slip",
+        "captured_at": "2026-10-12T23:34:00Z",
+        "note": "Actual TN straight ATD price +280; exact payout $38.00."
+      },
+      "id_note": "Placeholder ID: real FanDuel bet ID not visible in screenshot."
     }
   ]
 }

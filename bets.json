@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-11T19:53:30.830864+00:00",
+  "updated_at": "2026-10-12T12:59:34.307340+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -4253,10 +4253,10 @@
       "book": "FanDuel",
       "state": null,
       "line": null,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -0.5,
+      "net_usd": -5,
       "stake_type": "cash",
       "bet": "5-leg anytime TD: Pickens; Swift; Montgomery; St. Brown; London",
       "selection": "George Pickens +110; D'Andre Swift -140; David Montgomery +120; Amon-Ra St. Brown -145; Drake London +120",
@@ -4287,7 +4287,7 @@
           "selection": "D'Andre Swift",
           "line": null,
           "price": -140,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Houston Texans @ Tennessee Titans",
@@ -4296,7 +4296,7 @@
           "selection": "David Montgomery",
           "line": null,
           "price": 120,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Detroit Lions @ Arizona Cardinals",
@@ -4305,7 +4305,7 @@
           "selection": "Amon-Ra St. Brown",
           "line": null,
           "price": -145,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Baltimore Ravens @ Atlanta Falcons",
@@ -4314,7 +4314,7 @@
           "selection": "Drake London",
           "line": null,
           "price": 120,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -4322,14 +4322,21 @@
         "note": "No archived model snapshot at exact placement verified. Current model comparison is research only, not evidence of placement-time value."
       },
       "grading": {
-        "source": "Final box-score leg grading; book settlement not verified",
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
         "source_urls": [
           "https://www.buccaneers.com/game-day/2026/reg-week5/buccaneers-at-cowboys/box-score",
-          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801"
+          "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993"
         ],
-        "graded_at": "2026-10-09T12:14:27.234426+00:00",
-        "detail": "Pickens scored 1 receiving TD. Four Sunday legs still pending."
-      }
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "George Pickens: 1 receiving TD (Thursday, previously verified); D'Andre Swift: 1 rushing/receiving TD; David Montgomery: 0 rushing/receiving TDs; Amon-Ra St. Brown: 0 rushing/receiving TDs; Drake London: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal"
     },
     {
       "bet_id": "slip-20261008-tn-sgp-javonte40-irving40-lamb70",
@@ -4906,10 +4913,10 @@
       "stake_type": "cash",
       "potential_payout_usd": 42.23,
       "potential_profit_usd": 32.23,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
       "legs": [
         {
@@ -4919,7 +4926,7 @@
           "selection": "Jonathan Taylor",
           "line": null,
           "price": -125,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Detroit Lions @ Arizona Cardinals",
@@ -4928,7 +4935,7 @@
           "selection": "Jahmyr Gibbs",
           "line": null,
           "price": -315,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Baltimore Ravens @ Atlanta Falcons",
@@ -4937,7 +4944,7 @@
           "selection": "Derrick Henry",
           "line": null,
           "price": -129,
-          "hit": null
+          "hit": true
         }
       ],
       "model_at_placement": {
@@ -4953,7 +4960,20 @@
         "captured_at": "2026-10-11T14:08:33Z",
         "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
       },
-      "cashout_value_usd_at_capture": 10
+      "cashout_value_usd_at_capture": 10,
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Jonathan Taylor: 0 rushing/receiving TDs; Jahmyr Gibbs: 2 rushing/receiving TDs; Derrick Henry: 1 rushing/receiving TD.",
+        "settlement_confirmed": false
+      }
     },
     {
       "bet_id": "us-tn:01m4nmm402enjsh4ht94v6aze9",
@@ -4975,10 +4995,10 @@
       "stake_type": "cash",
       "potential_payout_usd": 577.92,
       "potential_profit_usd": 567.92,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
       "legs": [
         {
@@ -4988,7 +5008,7 @@
           "selection": "DK Metcalf",
           "line": null,
           "price": 180,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Minnesota Vikings @ New Orleans Saints",
@@ -4997,7 +5017,7 @@
           "selection": "Chris Olave",
           "line": null,
           "price": 200,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Chicago Bears @ Green Bay Packers",
@@ -5006,7 +5026,7 @@
           "selection": "Colston Loveland",
           "line": null,
           "price": 220,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Baltimore Ravens @ Atlanta Falcons",
@@ -5015,7 +5035,7 @@
           "selection": "Drake London",
           "line": null,
           "price": 115,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -5030,6 +5050,20 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T14:08:33Z",
         "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "DK Metcalf: 0 rushing/receiving TDs; Chris Olave: 0 rushing/receiving TDs; Colston Loveland: 0 rushing/receiving TDs; Drake London: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5052,10 +5086,10 @@
       "stake_type": "cash",
       "potential_payout_usd": 376.2,
       "potential_profit_usd": 366.2,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
       "legs": [
         {
@@ -5065,7 +5099,7 @@
           "selection": "Juwan Johnson",
           "line": null,
           "price": 300,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Indianapolis Colts @ Pittsburgh Steelers",
@@ -5074,7 +5108,7 @@
           "selection": "Tyler Warren",
           "line": null,
           "price": 230,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Chicago Bears @ Green Bay Packers",
@@ -5083,7 +5117,7 @@
           "selection": "Christian Watson",
           "line": null,
           "price": 185,
-          "hit": null
+          "hit": true
         }
       ],
       "model_at_placement": {
@@ -5098,6 +5132,19 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T14:08:33Z",
         "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Juwan Johnson: 0 rushing/receiving TDs; Tyler Warren: 1 rushing/receiving TD; Christian Watson: 2 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5120,10 +5167,10 @@
       "stake_type": "cash",
       "potential_payout_usd": 547.97,
       "potential_profit_usd": 542.97,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -0.5,
+      "net_usd": -5,
       "source": "Owner iMessage phonemsg-01M4NMPF1TQR3V31R9EZR61AK1, Oct11 9:08AM CT, four open FanDuel TN slip images. Visually inspected. Long-shot ID/time identified in image1 top footer after image4 ticket.",
       "legs": [
         {
@@ -5133,7 +5180,7 @@
           "selection": "Christian Watson",
           "line": null,
           "price": 185,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Las Vegas Raiders @ New England Patriots",
@@ -5142,7 +5189,7 @@
           "selection": "TreVeyon Henderson",
           "line": null,
           "price": 160,
-          "hit": null
+          "hit": false
         },
         {
           "event": "San Francisco 49ers @ Seattle Seahawks",
@@ -5151,7 +5198,7 @@
           "selection": "George Kittle",
           "line": null,
           "price": 190,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Detroit Lions @ Arizona Cardinals",
@@ -5160,7 +5207,7 @@
           "selection": "Isaac TeSlaa",
           "line": null,
           "price": 410,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -5176,7 +5223,21 @@
         "captured_at": "2026-10-11T14:08:33Z",
         "note": "Per-leg TN prices on placed ticket; separate from earlier IL research captures."
       },
-      "cashout_value_usd_at_capture": 5
+      "cashout_value_usd_at_capture": 5,
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Christian Watson: 2 rushing/receiving TDs; TreVeyon Henderson: 0 rushing/receiving TDs; George Kittle: 0 rushing/receiving TDs; Isaac TeSlaa: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
+      }
     },
     {
       "bet_id": "us-tn:01m4nph985frd8d741ge1jpsey",
@@ -5221,7 +5282,7 @@
           "selection": "Isaiah Likely",
           "line": null,
           "price": 269,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Detroit Lions @ Arizona Cardinals",
@@ -5230,7 +5291,7 @@
           "selection": "Trey McBride",
           "line": null,
           "price": 117,
-          "hit": null
+          "hit": true
         }
       ],
       "model_at_placement": {
@@ -5254,9 +5315,15 @@
         "graded_at": "2026-10-11T19:03:18.180910+00:00",
         "settlement_confirmed": true,
         "detail": "Actual cashout $11.14 on $10 stake, +$1.14. Bowers hit at cashout; Likely showing zero TD in-progress, not a final miss; McBride not started.",
-        "would_have_won_result": null,
+        "would_have_won_result": "win",
         "would_have_won_payout_usd": 191.49,
-        "would_have_won_note": "Pending final Likely/McBride outcomes; never replace actual cashout profit with hypothetical payout."
+        "would_have_won_note": "All three legs scored in final games: Bowers 1, Likely 2, McBride 1. Hypothetical uncashed ticket would have returned $191.49 (+$181.49). Actual $11.14 cashout and +$1.14 profit unchanged.",
+        "would_have_won_graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "would_have_won_source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991"
+        ]
       }
     },
     {
@@ -5280,10 +5347,10 @@
       "potential_payout_usd": 1519.31,
       "potential_profit_usd": 1514.31,
       "cashout_value_usd_at_capture": 1.77,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -0.5,
+      "net_usd": -5,
       "source": "Owner iMessage phonemsg-01M4NPJG48XHTSKMYGE3MZB95H, Oct11 9:41:20AM CT, two expanded SGP+ slip images. Visually inspected. Screenshot provides same +30286 9-leg held from earlier crop. Cashout is an offer, not a transaction.",
       "legs": [
         {
@@ -5293,7 +5360,7 @@
           "selection": "D'Andre Swift",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "CHI-GB"
         },
         {
@@ -5303,7 +5370,7 @@
           "selection": "Christian Watson",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "CHI-GB"
         },
         {
@@ -5313,7 +5380,7 @@
           "selection": "Christian McCaffrey",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "SF-SEA"
         },
         {
@@ -5323,7 +5390,7 @@
           "selection": "George Kittle",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": false,
           "sgp_group": "SF-SEA"
         },
         {
@@ -5333,7 +5400,7 @@
           "selection": "Jonathan Taylor",
           "line": null,
           "price": -165,
-          "hit": null,
+          "hit": false,
           "sgp_group": null
         },
         {
@@ -5343,7 +5410,7 @@
           "selection": "Chase Brown",
           "line": null,
           "price": -145,
-          "hit": null,
+          "hit": false,
           "sgp_group": null
         },
         {
@@ -5353,7 +5420,7 @@
           "selection": "TreVeyon Henderson",
           "line": null,
           "price": 160,
-          "hit": null,
+          "hit": false,
           "sgp_group": null
         },
         {
@@ -5363,7 +5430,7 @@
           "selection": "Jahmyr Gibbs",
           "line": null,
           "price": -425,
-          "hit": null,
+          "hit": true,
           "sgp_group": null
         },
         {
@@ -5373,7 +5440,7 @@
           "selection": "Bijan Robinson",
           "line": null,
           "price": -230,
-          "hit": null,
+          "hit": false,
           "sgp_group": null
         }
       ],
@@ -5406,6 +5473,23 @@
         "source": "Owner TN slip",
         "captured_at": "2026-10-11T14:41:20Z",
         "note": "Cash-out $1.77 is an offer only. No boost shown."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "D'Andre Swift: 1 rushing/receiving TD; Christian Watson: 2 rushing/receiving TDs; Christian McCaffrey: 1 rushing/receiving TD; George Kittle: 0 rushing/receiving TDs; Jonathan Taylor: 0 rushing/receiving TDs; Chase Brown: 0 rushing/receiving TDs; TreVeyon Henderson: 0 rushing/receiving TDs; Jahmyr Gibbs: 2 rushing/receiving TDs; Bijan Robinson: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5429,10 +5513,10 @@
       "potential_payout_usd": 308.27,
       "potential_profit_usd": 303.27,
       "cashout_value_usd_at_capture": 5,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -0.5,
+      "net_usd": -5,
       "source": "Owner iMessage phonemsg-01M4NWRW0S4DPBNPQAPND20V1P, Oct11 11:29:41AM CT. Open TN slip visually inspected. Footer ID/time not visible. Cashout $5 is an offer, not a transaction.",
       "legs": [
         {
@@ -5442,7 +5526,7 @@
           "selection": "Jaylen Warren",
           "line": null,
           "price": -125,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Cincinnati Bengals @ Miami Dolphins",
@@ -5451,7 +5535,7 @@
           "selection": "Chase Brown",
           "line": null,
           "price": -145,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Houston Texans @ Tennessee Titans",
@@ -5460,7 +5544,7 @@
           "selection": "Dalton Schultz",
           "line": null,
           "price": 330,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Detroit Lions @ Arizona Cardinals",
@@ -5469,7 +5553,7 @@
           "selection": "Amon-Ra St. Brown",
           "line": null,
           "price": -140,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Buffalo Bills @ Los Angeles Rams",
@@ -5493,6 +5577,20 @@
         "source": "Owner TN slip",
         "captured_at": "2026-10-11T16:29:41Z",
         "note": "Actual placed-ticket odds, not live IL research. Cashout offer not taken."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Jaylen Warren: 2 rushing/receiving TDs; Chase Brown: 0 rushing/receiving TDs; Dalton Schultz: 0 rushing/receiving TDs; Amon-Ra St. Brown: 0 rushing/receiving TDs. Dalton Kincaid Monday leg unplayed; ticket already lost on final Sunday misses.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5516,10 +5614,10 @@
       "potential_payout_usd": 147.75,
       "potential_profit_usd": 137.75,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4P7Y9E8VJDTGFEM7SA2ANWM Oct11 2:44:53PM CT, placed SGP+ slip visually inspected. Footer below ticket gives real ID/2:44PM placement. Top older footer and bottom cropped +719 header not attributed to this ticket.",
       "legs": [
         {
@@ -5529,7 +5627,7 @@
           "selection": "Jaxon Smith-Njigba",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "SF-SEA"
         },
         {
@@ -5539,7 +5637,7 @@
           "selection": "George Kittle",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": false,
           "sgp_group": "SF-SEA"
         },
         {
@@ -5549,7 +5647,7 @@
           "selection": "Omarion Hampton",
           "line": null,
           "price": 195,
-          "hit": null,
+          "hit": false,
           "sgp_group": null
         }
       ],
@@ -5574,6 +5672,18 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T19:44:53Z",
         "note": "Hampton +195 and SF-SEA SGP +400 are actual ticket quotes. JSN/Kittle individual prices absent; separate 2:42PM IL research was JSN -120/Kittle +185, not TN slip odds."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Jaxon Smith-Njigba: 1 rushing/receiving TD; George Kittle: 0 rushing/receiving TDs; Omarion Hampton: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5596,10 +5706,10 @@
       "potential_payout_usd": 65,
       "potential_profit_usd": 55,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4P86BT66FDMZ81BXGHSE5R6 Oct11 2:49PM CT, placed FanDuel TN straight slip visually inspected. Footer confirms bet ID and Oct11 2:48PM CT placement. $10 cashout button is an offer, not a transaction.",
       "legs": [
         {
@@ -5609,7 +5719,7 @@
           "selection": "Brock Purdy",
           "line": null,
           "price": 550,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -5625,6 +5735,17 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T19:49:17Z",
         "note": "Actual placed straight ATD price +550; exact total payout $65.00."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Brock Purdy: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5648,10 +5769,10 @@
       "potential_payout_usd": 38.48,
       "potential_profit_usd": 28.48,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4P8DCW7C9JP1H0JJ0QSJQ9P Oct11 2:53PM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct11 2:52PM placement. $10 cashout button is offer only, not a transaction.",
       "legs": [
         {
@@ -5661,7 +5782,7 @@
           "selection": "Michael Wilson",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": false,
           "sgp_group": "DET-ARI"
         },
         {
@@ -5671,7 +5792,7 @@
           "selection": "Amon-Ra St. Brown",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": false,
           "sgp_group": "DET-ARI"
         }
       ],
@@ -5696,6 +5817,17 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-11T19:53:08Z",
         "note": "SGP +284 only; individual TN leg prices absent."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box scores/scoring summaries cross-checked against official team box scores; book settlement not separately verified",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991"
+        ],
+        "graded_at": "2026-10-12T12:59:34.307340+00:00",
+        "detail": "Michael Wilson: 0 rushing/receiving TDs; Amon-Ra St. Brown: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     }
   ]

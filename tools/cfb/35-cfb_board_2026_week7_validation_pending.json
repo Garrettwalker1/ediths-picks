@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-12T02:40:44.977306+00:00",
+  "generated_at": "2026-10-12T02:41:02.461187+00:00",
   "week": 7,
   "model": "2026-inclusive repaired AP reference, VALIDATION PENDING",
   "validation_pending": true,
@@ -648,7 +648,22 @@
       "model": "2026-inclusive repaired AP reference, validation pending",
       "timing": "pregame",
       "book_frozen_pregame": false,
-      "book_tn": null,
+      "book_tn": {
+        "captured_at": "2026-10-12T02:39:49.628Z",
+        "state": "IL",
+        "away": "Appalachian State",
+        "home": "Coastal Carolina",
+        "away_spread": -1.5,
+        "away_spread_odds": -110,
+        "home_spread": 1.5,
+        "home_spread_odds": -110,
+        "total": 52.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "away_ml": -118,
+        "home_ml": -102,
+        "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/appalachian-state-@-coastal-carolina-36152756"
+      },
       "quote_freeze_cutoff": "2026-10-17T00:00Z"
     },
     {
@@ -3861,7 +3876,7 @@
   "book_capture": {
     "state": "IL",
     "captured_at": "2026-10-12T02:39:49.628Z",
-    "matched": 55
+    "matched": 56
   },
   "sources": [
     "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261013&groups=80&limit=400",

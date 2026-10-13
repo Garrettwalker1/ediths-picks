@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-12T23:34:30.268050+00:00",
+  "updated_at": "2026-10-13T12:14:42.035423+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -5851,10 +5851,10 @@
       "potential_payout_usd": 38.31,
       "potential_profit_usd": 28.31,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 2.831,
+      "net_usd": 28.31,
       "source": "Owner iMessage phonemsg-01M4RFHM8Q2V619XR2ZT1P4Q0X Oct12 11:36AM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct12 9:20AM CT placement. $10 cashout button is offer only, not a transaction.",
       "legs": [
         {
@@ -5864,7 +5864,7 @@
           "selection": "James Cook",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "BUF-LA"
         },
         {
@@ -5874,7 +5874,7 @@
           "selection": "Davante Adams",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "BUF-LA"
         }
       ],
@@ -5899,6 +5899,17 @@
         "source": "Actual TN owner slip; FanDuel Illinois leg prices at 9:17 AM CT shown for comparison only, not TN prices",
         "captured_at": "2026-10-12T14:17:00Z",
         "note": "SGP +283 only on slip. IL ATD at 9:17 AM CT: Cook -110, Adams +100."
+      },
+      "payout_usd": 38.31,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box score (BUF 37, LAR 34); book settlement not separately verified; wins logged as settled normally per owner instruction",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994"
+        ],
+        "graded_at": "2026-10-13T12:14:42.035423+00:00",
+        "detail": "James Cook: 2 rushing/receiving TDs; Davante Adams: 2 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -5922,10 +5933,10 @@
       "potential_payout_usd": 36.79,
       "potential_profit_usd": 26.79,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 2.679,
+      "net_usd": 26.79,
       "source": "Owner iMessage phonemsg-01M4RFHM8Q2V619XR2ZT1P4Q0X Oct12 11:36AM CT, placed TN SGP slip visually inspected. Footer confirms ID and Oct12 11:35AM CT placement. $10 cashout button is offer only, not a transaction.",
       "legs": [
         {
@@ -5935,7 +5946,7 @@
           "selection": "Josh Allen",
           "line": null,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "BUF-LA"
         },
         {
@@ -5945,7 +5956,7 @@
           "selection": "Buffalo Bills",
           "line": 6.5,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "BUF-LA"
         },
         {
@@ -5955,7 +5966,7 @@
           "selection": "Over",
           "line": 41.5,
           "price": null,
-          "hit": null,
+          "hit": true,
           "sgp_group": "BUF-LA"
         }
       ],
@@ -5987,6 +5998,17 @@
         "percent": 50,
         "pre_boost_price": 179,
         "boosted_price": 267
+      },
+      "payout_usd": 36.79,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box score (BUF 37, LAR 34); book settlement not separately verified; wins logged as settled normally per owner instruction",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994"
+        ],
+        "graded_at": "2026-10-13T12:14:42.035423+00:00",
+        "detail": "Josh Allen: 1 rushing/receiving TD; Bills +6.5: BUF won 37-34, covers; Over 41.5: final total 71.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -6009,10 +6031,10 @@
       "potential_payout_usd": 28.5,
       "potential_profit_usd": 18.5,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M4S7EKTT6CDZXVKGPYNWQW7P Oct12 6:34PM CT, TN straight slip visually inspected. Footer confirms bet ID and Oct12 6:33PM CT placement. $10 cashout button is an offer only.",
       "legs": [
         {
@@ -6022,7 +6044,7 @@
           "selection": "Dalton Kincaid",
           "line": null,
           "price": 185,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -6038,6 +6060,17 @@
         "source": "Actual TN owner slip",
         "captured_at": "2026-10-12T23:34:00Z",
         "note": "Actual TN straight ATD price +185; exact payout $28.50."
+      },
+      "payout_usd": 0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box score (BUF 37, LAR 34); book settlement not separately verified; wins logged as settled normally per owner instruction",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994"
+        ],
+        "graded_at": "2026-10-13T12:14:42.035423+00:00",
+        "detail": "Dalton Kincaid: 0 rushing/receiving TDs.",
+        "settlement_confirmed": false
       }
     },
     {
@@ -6060,10 +6093,10 @@
       "potential_payout_usd": 38.0,
       "potential_profit_usd": 28.0,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 2.8,
+      "net_usd": 28.0,
       "source": "Owner iMessage phonemsg-01M4S7EKTT6CDZXVKGPYNWQW7P Oct12 6:34PM CT, TN straight slip visually inspected. Bet ID and placed time cut off by the app nav bar; bet_id is a labeled placeholder and placed_at is approximate (same screenshot as the 6:33PM CT Kincaid ticket, so placed no later than ~6:33PM CT screenshot time). $10 cashout button is an offer only.",
       "legs": [
         {
@@ -6073,7 +6106,7 @@
           "selection": "Keon Coleman",
           "line": null,
           "price": 280,
-          "hit": null
+          "hit": true
         }
       ],
       "model_at_placement": {
@@ -6090,7 +6123,18 @@
         "captured_at": "2026-10-12T23:34:00Z",
         "note": "Actual TN straight ATD price +280; exact payout $38.00."
       },
-      "id_note": "Placeholder ID: real FanDuel bet ID not visible in screenshot."
+      "id_note": "Placeholder ID: real FanDuel bet ID not visible in screenshot.",
+      "payout_usd": 38.0,
+      "settlement_type": "normal",
+      "grading": {
+        "source": "Final ESPN box score (BUF 37, LAR 34); book settlement not separately verified; wins logged as settled normally per owner instruction",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994"
+        ],
+        "graded_at": "2026-10-13T12:14:42.035423+00:00",
+        "detail": "Keon Coleman: 1 rushing/receiving TD.",
+        "settlement_confirmed": false
+      }
     }
   ]
 }

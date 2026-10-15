@@ -267,17 +267,47 @@
       "source_published_at": "2026-10-14",
       "observed_at": "2026-10-15T01:14:21.611072+00:00",
       "pipeline_latency_minutes": null
+    },
+    {
+      "player": "David Montgomery (RB)",
+      "team": "HOU",
+      "status": "Groin: DNP Wednesday; final Sunday designation pending",
+      "line_adjustment_points": null,
+      "source": "Week 6 \u00b7 <a href=\"https://www.houstontexans.com/news/week-6-injury-report-texans-at-jaguars\">Corroborating report</a> \u00b7 source published 2026-10-14. Display only; baseline unchanged.",
+      "source_url": "https://www.houstontexans.com/news/week-6-injury-report-texans-at-jaguars",
+      "source_published_at": "2026-10-14",
+      "observed_at": "2026-10-15T01:14:21.611072+00:00",
+      "pipeline_latency_minutes": null
+    },
+    {
+      "player": "Jalen Coker (WR)",
+      "team": "CAR",
+      "status": "Quadriceps: estimated full Wednesday walkthrough; not final game clearance",
+      "line_adjustment_points": null,
+      "source": "Week 6 \u00b7 <a href=\"https://www.panthers.com/news/week-6-wednesday-injury-report-two-players-listed-as-out-monroe-freeling-aj-dillon\">Corroborating report</a> \u00b7 source published 2026-10-14. Display only; baseline unchanged.",
+      "source_url": "https://www.panthers.com/news/week-6-wednesday-injury-report-two-players-listed-as-out-monroe-freeling-aj-dillon",
+      "source_published_at": "2026-10-14",
+      "observed_at": "2026-10-15T01:14:21.611072+00:00",
+      "pipeline_latency_minutes": null
+    },
+    {
+      "player": "Kyle Monangai (RB)",
+      "team": "CHI",
+      "status": "Thumb/toe: estimated DNP Wednesday walkthrough; not a final Out designation",
+      "line_adjustment_points": null,
+      "source": "Week 6 \u00b7 <a href=\"https://bearswire.usatoday.com/story/sports/nfl/bears/2026/10/14/bears-falcons-injury-report-wednesday-caleb-williams/92248021007/\">Corroborating report</a> \u00b7 source published 2026-10-14. Display only; baseline unchanged.",
+      "source_url": "https://bearswire.usatoday.com/story/sports/nfl/bears/2026/10/14/bears-falcons-injury-report-wednesday-caleb-williams/92248021007/",
+      "source_published_at": "2026-10-14",
+      "observed_at": "2026-10-15T01:14:21.611072+00:00",
+      "pipeline_latency_minutes": null
     }
   ],
   "unresolved_leads": [
-    "David Montgomery DNP Wednesday",
     "DJ Moore DNP Wednesday",
-    "Jalen Coker full Wednesday",
-    "Kyle Monangai estimated DNP",
     "Alec Pierce no longer wearing cast"
   ],
   "limitations": [
-    "24 of 29 player items independently corroborated; remaining five retained as leads, not current statuses.",
+    "27 of 29 player items independently corroborated; DJ Moore and Alec Pierce retained as leads, not current statuses.",
     "Week 6 injury-adjusted numbers unavailable; frozen scores-only baseline unchanged.",
     "Practice does not establish game availability.",
     "Current nflverse Week 6 injury file has only 15 Seattle/Denver rows and stale JSN practice; not used to build full-league adjustment."

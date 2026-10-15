@@ -1,0 +1,46 @@
+import sys,pathlib,json,datetime,hashlib
+import pandas as pd,numpy as np
+import argparse
+p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--as-of',required=True);args=p.parse_args()
+R=pathlib.Path(__file__).resolve().parents[4];P=pathlib.Path(__file__).resolve().parent
+sys.path.insert(0,str(R/'tools/nfl/injury_v2'));from evaluate import norm,AL
+now=args.as_of;AL={**AL,'WAS':'WSH','LAR':'LA'}
+rost=pd.read_csv(P/'roster_2026.csv',low_memory=False);rost.team=rost.team.replace(AL);rost['key']=rost.full_name.map(norm);rost=rost.sort_values('week').drop_duplicates('key',keep='last')
+inj=pd.read_csv(P/'injuries_2026.csv');inj=inj[(inj.season==2026)&(inj.week==6)].copy();inj.team=inj.team.replace(AL)
+records={}
+def put(n,t,p,s,pr,src,conflict=False):records[(t,norm(n))]=dict(player=n,team=t,position=p,status=s,practice=pr,source=src,conflict=conflict,observed_at=now)
+for a in rost[rost.status_description_abbr.isin(['R01','R48'])].itertuples():put(a.full_name,a.team,a.position,'IR','','https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv')
+for a in inj.itertuples():
+ k=(a.team,norm(a.full_name));s=a.report_status if pd.notna(a.report_status) else 'No game designation';pr=a.practice_status if pd.notna(a.practice_status) else 'Unknown'
+ # Do not silently erase roster IR with return-to-practice rows.
+ if k in records and records[k]['status']=='IR':records[k].update(practice=pr,report_status=s);continue
+ put(a.full_name,a.team,a.position,s,pr,'https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv')
+# PUP is explicitly verified, distinct from IR.
+put('Zach Charbonnet','SEA','RB','Out','Limited Participation in Practice','https://www.seahawks.com/news/jaxon-smith-njigba-good-to-go-drake-thomas-ruled-out-for-seahawks-week-6-game-at-denver');records[('SEA',norm('Zach Charbonnet'))]['roster_note']='PUP; not activated for Thursday'
+sc=pd.concat([pd.read_csv(P/'snap_counts_2026.csv'),pd.read_csv(R/'tools/nflverse/225-snap_counts_2025.csv')]);sc=sc[(sc.game_type=='REG')&((sc.season<2026)|((sc.season==2026)&(sc.week<6)))].copy();sc.team=sc.team.replace(AL);sc['key']=sc.player.map(norm);sc['share']=sc[['offense_pct','defense_pct']].max(axis=1)
+# Provider roster pfr_id binds nickname variants to exact snap identity.
+for a in rost.itertuples():
+ sc.loc[(sc.team==a.team)&(sc.pfr_player_id==a.pfr_id),'key']=a.key
+GROUP=lambda p:'QB' if p=='QB' else 'SKILL' if p in ['RB','FB','WR','TE'] else 'OL' if p in ['C','G','T','OG','OT','OL'] else 'DEF' if p in ['DE','DT','NT','DL','LB','ILB','OLB','CB','DB','S','FS','SS'] else 'OTHER'
+teamfeat={}
+for (t,n),a in records.items():
+ z=sc[(sc.team==t)&(sc.key==n)&(sc.season==2026)].sort_values('week').tail(4);fallback=False
+ if z.empty:z=sc[(sc.key==n)&(sc.season==2025)].sort_values('week').tail(4);fallback=not z.empty
+ a['snap_weight']=round(float(z.share.mean()),4) if len(z) else None;a['snap_weight_source']='2025 fallback (may be previous team)' if fallback else '2026 through Week5' if len(z) else 'missing';g=GROUP(a['position']);a['position_group']=g
+ f=teamfeat.setdefault(t,{g+'_'+s:0. for g in ['QB','SKILL','OL','DEF'] for s in ['absent','question','practice']});w=a['snap_weight'] or 0
+ if g=='OTHER' or a['conflict']:continue
+ if a['status'] in ['IR','Out','Doubtful']:f[g+'_absent']+=w
+ if a['status']=='Questionable':f[g+'_question']+=w
+ if a['practice']=='Did Not Participate In Practice':f[g+'_practice']+=w
+fit=json.load(open(R/'tools/nfl/injury_v2/results.json'))['variants']['margin']['practice_groups'];cols=list(fit['coefficients']);coef=np.array(list(fit['coefficients'].values()));scale=np.array(fit['feature_scale']);pred=json.load(open(R/'tools/nfl/week6_2026/game_predictions_raw.json'));games=[];covered=set(inj.team)
+for a in pred:
+ h=AL.get(a['home'],a['home']);w=AL.get(a['away'],a['away']);missing_teams=[t for t in [w,h] if t not in covered];f=np.array([teamfeat.get(h,{}).get(c[5:],0)-teamfeat.get(w,{}).get(c[5:],0) for c in cols]);delta=float((f/scale)@coef) if not missing_teams else None;m=a['raw_margin_home']+delta if delta is not None else None
+ games.append(dict(matchup=w+' at '+h,kickoff_date=a['date'],baseline_margin_home=a['raw_margin_home'],injury_adjusted_margin_home=round(m,2) if m is not None else None,delta_margin_home=round(delta,2) if delta is not None else None,injury_adjusted_spread=None if m is None else 'PK' if abs(m)<.25 else f'{h if m>0 else w} -{round(abs(m)*2)/2:g}',baseline_total=a['model_total'],injury_adjusted_total=None,total_note='Withheld: injury-total candidate worsened diagnostics',coverage_missing=[b['player'] for b in records.values() if b['team'] in [w,h] and b['snap_weight'] is None],missing_report_teams=missing_teams,conflicts=[]))
+base=json.load(open(R/'player_projections.json'));players=[]
+for a in base['players']:
+ b=records.get((a['team'],norm(a['player'])));out=bool(b and b['status'] in ['IR','Out']);pending=bool(b and not out and b['practice'] in ['Unknown','Did Not Participate In Practice']) or a['team'] not in covered
+ numeric={k:a.get(k,{}).get('median') if isinstance(a.get(k),dict) else a.get(k) for k in ['passing_yards','passing_tds','receiving_yards','rushing_yards','receptions','anytime_td_probability']}
+ players.append(dict(player_id=a['player_id'],player=a['player'],team=a['team'],baseline=numeric,injury_adjusted={k:0 if out and v is not None else None if pending else v for k,v in numeric.items()},status=b['status'] if b else 'No captured designation (not proof healthy)',practice=b['practice'] if b else '',note='IR/Out: zero participation, not book settlement odds.' if out else 'Pending availability or missing team report; no fitted play probability.' if pending else 'Generic baseline unchanged; no teammate redistribution.'))
+res=dict(generated_at=now,week=6,model_version='injury-experiment-20261015-w6-v1',caveat='New immutable Week6 cohort; unvalidated partial-coverage experiment, not a betting edge. Baseline frozen.',method='Same Oct7 fitted practice/status residual-margin coefficients, no refit. Prior snaps through Week5 only; adjustment relative to no-injury row. No book/weather inputs or manual point bumps.',limitations=['25 of28 Week6 teams have reports; BUF,SF,WSH missing, so their games have no numerical adjustment.','Practice states for Sunday/Monday are not final game clearance.','IR provider inventory is not32-team transaction audit and long absences can already be in scores-only baseline, so double counting is possible.','Missing snap roles have zero contribution and are listed, not assumed healthy.','No fitted DNP play probability or teammate redistribution.','Totals and home-win probabilities stay baseline; Week5 experiment was worse than baseline and not promoted.'],coverage=dict(ir_players=sum(a['status']=='IR' for a in records.values()),availability_rows=len(records),missing_snap_weights=sum(a['snap_weight'] is None for a in records.values()),injury_report_teams=sorted(covered),numerical_games=sum(g['injury_adjusted_margin_home'] is not None for g in games),sources=['https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv','https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv','https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv']),inventory=list(records.values()),games=games,players=players)
+pathlib.Path(args.output).write_text(json.dumps(res,indent=1)+'\n')
+print(res['coverage'])

@@ -1,0 +1,373 @@
+{
+  "checked_at": "2026-10-15T21:32:11.024032+00:00",
+  "model_status": "Week7 sealed forward test, validation pending; no coefficient/feature/prediction changes",
+  "games_checked": 59,
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261013&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261014&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261016&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261017&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261018&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261019&groups=80&limit=400"
+  ],
+  "events": {
+    "401871067": {
+      "state": "post",
+      "detail": "Final",
+      "date": "2026-10-13T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401871053": {
+      "state": "post",
+      "detail": "Final",
+      "date": "2026-10-14T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401871054": {
+      "state": "post",
+      "detail": "Final",
+      "date": "2026-10-14T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401871068": {
+      "state": "post",
+      "detail": "Final",
+      "date": "2026-10-15T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862800": {
+      "state": "pre",
+      "detail": "Thu, October 15th at 7:30 PM EDT",
+      "date": "2026-10-15T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00",
+      "weather_note": "City-grid forecast near kickoff: 82.3F, wind 3.2mph, gusts 5.8mph, precip 0%. Open-Meteo, retrieved Oct15; raw source values (unrounded), not model inputs."
+    },
+    "401869950": {
+      "state": "pre",
+      "detail": "Thu, October 15th at 7:30 PM EDT",
+      "date": "2026-10-15T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00",
+      "weather_note": "City-grid forecast near kickoff: 67.2F, wind 7.8mph, gusts 14.1mph, precip 3%. Open-Meteo, retrieved Oct15; raw source values (unrounded), not model inputs."
+    },
+    "401860923": {
+      "state": "pre",
+      "detail": "Thu, October 15th at 8:00 PM EDT",
+      "date": "2026-10-16T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00",
+      "weather_note": "City-grid forecast near kickoff: 84.8F, wind 6mph, gusts 10.1mph, precip 0%. Open-Meteo, retrieved Oct15; raw source values (unrounded), not model inputs."
+    },
+    "401862801": {
+      "state": "pre",
+      "detail": "Fri, October 16th at 7:30 PM EDT",
+      "date": "2026-10-16T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858493": {
+      "state": "pre",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "date": "2026-10-17T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401869844": {
+      "state": "pre",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "date": "2026-10-17T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858488": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856724": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856720": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858268": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858491": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856829": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856830": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858267": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862802": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866441": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401869957": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:00 PM EDT",
+      "date": "2026-10-17T16:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858489": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 12:30 PM EDT",
+      "date": "2026-10-17T16:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862803": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 1:00 PM EDT",
+      "date": "2026-10-17T17:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866442": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 1:00 PM EDT",
+      "date": "2026-10-17T17:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866443": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 1:30 PM EDT",
+      "date": "2026-10-17T17:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856719": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856723": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856721": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856828": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858264": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858266": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858490": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401864522": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401864524": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866444": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866478": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 3:30 PM EDT",
+      "date": "2026-10-17T19:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862805": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 4:30 PM EDT",
+      "date": "2026-10-17T20:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401869966": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 5:00 PM EDT",
+      "date": "2026-10-17T21:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401860903": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 6:00 PM EDT",
+      "date": "2026-10-17T22:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858263": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856726": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856832": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862806": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401864520": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401869934": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "date": "2026-10-17T23:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856809": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:30 PM EDT",
+      "date": "2026-10-17T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858494": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:30 PM EDT",
+      "date": "2026-10-17T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856722": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:30 PM EDT",
+      "date": "2026-10-17T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856831": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:30 PM EDT",
+      "date": "2026-10-17T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858265": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 7:30 PM EDT",
+      "date": "2026-10-17T23:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401862804": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 8:00 PM EDT",
+      "date": "2026-10-18T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401871091": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 8:00 PM EDT",
+      "date": "2026-10-18T00:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401864523": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 9:00 PM EDT",
+      "date": "2026-10-18T01:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401866445": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 10:00 PM EDT",
+      "date": "2026-10-18T02:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401856833": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 10:15 PM EDT",
+      "date": "2026-10-18T02:15Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858269": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 10:30 PM EDT",
+      "date": "2026-10-18T02:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401860904": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 10:30 PM EDT",
+      "date": "2026-10-18T02:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401864521": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 10:30 PM EDT",
+      "date": "2026-10-18T02:30Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    },
+    "401858492": {
+      "state": "pre",
+      "detail": "Sat, October 17th at 11:00 PM EDT",
+      "date": "2026-10-18T03:00Z",
+      "verified_at": "2026-10-15T21:32:11.024032+00:00"
+    }
+  }
+}

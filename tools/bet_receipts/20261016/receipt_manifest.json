@@ -1,0 +1,309 @@
+{
+  "logged_at": "2026-10-16T17:09:15.096136+00:00",
+  "owner_message_id": "phonemsg-01M52TXMS6AYEMATT8VF6068RD",
+  "new_bets": [
+    {
+      "bet_id": "us-tn:01m52tsfbherqvvxm0yzjz3f9e",
+      "date": "2026-10-16T17:05:00Z",
+      "placed_at": "2026-10-16T17:05:00Z",
+      "sport": "NFL",
+      "game": "CAR @ PHI; PIT @ TB; NO @ NYG",
+      "kickoff": "2026-10-18T17:00:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 1670.91,
+      "potential_profit_usd": 1660.91,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": "open",
+      "net_units": null,
+      "net_usd": null,
+      "bet": "4-leg SGP+: Dallas Goedert + Jalen Coker + Pat Freiermuth + Isaiah Likely anytime TD",
+      "selection": "Dallas Goedert + Jalen Coker + Pat Freiermuth + Isaiah Likely",
+      "market": "same_game_parlay_plus",
+      "price": 16609,
+      "line": null,
+      "source": "Owner iMessage phonemsg-01M52TXMS6AYEMATT8VF6068RD, Oct16 12:07PM CT. Placed TN receipt visually inspected including footer ID. Cashout button is an offer only.",
+      "source_receipt_sha256": "3675fc02cea6b2e111d8ac5bc187952bda6c27187a48b29e5f97cfabb3388350",
+      "legs": [
+        {
+          "event": "Carolina Panthers @ Philadelphia Eagles",
+          "event_id": "401872998",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Dallas Goedert",
+          "line": null,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Carolina Panthers @ Philadelphia Eagles",
+          "event_id": "401872998",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jalen Coker",
+          "line": null,
+          "price": null,
+          "hit": null
+        },
+        {
+          "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+          "event_id": "401873002",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Pat Freiermuth",
+          "line": null,
+          "price": 310,
+          "hit": null
+        },
+        {
+          "event": "New Orleans Saints @ New York Giants",
+          "event_id": "401873000",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Isaiah Likely",
+          "line": null,
+          "price": 190,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner receipt",
+        "captured_at": "2026-10-16T17:07:28Z",
+        "note": "Slip shows SUN12:01PM CT; live ESPN schedule is Sunday Oct18 noon CT. Exact payout retained. No cashout executed."
+      },
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Oct13 Week6 generic player baseline, research only",
+        "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+        "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT. No fitted joint probability; individual probabilities are not multiplied.",
+        "slip_break_even_probability": 0.0059847627939266625
+      },
+      "price_note": "Displayed+16609; exact receipt payout$1670.91 retained. CAR-PHI two-leg SGP shows+1305. No per-leg price shown for Goedert/Coker within the parlay. No boost shown."
+    },
+    {
+      "bet_id": "us-tn:01m52tt7e6enfs88s2dbe915q0",
+      "date": "2026-10-16T17:05:00Z",
+      "placed_at": "2026-10-16T17:05:00Z",
+      "sport": "NFL",
+      "game": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+      "kickoff": "2026-10-18T17:00:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 41,
+      "potential_profit_usd": 31,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": "open",
+      "net_units": null,
+      "net_usd": null,
+      "bet": "Straight: Pat Freiermuth anytime TD",
+      "selection": "Pat Freiermuth",
+      "market": "anytime_touchdown",
+      "price": 310,
+      "line": null,
+      "source": "Owner iMessage phonemsg-01M52TXMS6AYEMATT8VF6068RD, Oct16 12:07PM CT. Placed TN receipt visually inspected including footer ID. Cashout button is an offer only.",
+      "source_receipt_sha256": "01b35b7b98939721acfae6c310441ca9f1a89b6b357badd7bab1f28439983472",
+      "legs": [
+        {
+          "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+          "event_id": "401873002",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Pat Freiermuth",
+          "line": null,
+          "price": 310,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner receipt",
+        "captured_at": "2026-10-16T17:07:28Z",
+        "note": "Slip shows SUN12:01PM CT; live ESPN schedule is Sunday Oct18 noon CT. Exact payout retained. No cashout executed."
+      },
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Oct13 Week6 generic player baseline, research only",
+        "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+        "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT.",
+        "model_probability": 0.26,
+        "implied_probability": 0.24390243902439024,
+        "edge_percentage_points": 1.61
+      }
+    },
+    {
+      "bet_id": "us-tn:01m52tvx5ve9gsdywm61pdafx1",
+      "date": "2026-10-16T17:06:00Z",
+      "placed_at": "2026-10-16T17:06:00Z",
+      "sport": "NFL",
+      "game": "New Orleans Saints @ New York Giants",
+      "kickoff": "2026-10-18T17:00:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 29,
+      "potential_profit_usd": 19,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": "open",
+      "net_units": null,
+      "net_usd": null,
+      "bet": "Straight: Isaiah Likely anytime TD",
+      "selection": "Isaiah Likely",
+      "market": "anytime_touchdown",
+      "price": 190,
+      "line": null,
+      "source": "Owner iMessage phonemsg-01M52TXMS6AYEMATT8VF6068RD, Oct16 12:07PM CT. Placed TN receipt visually inspected including footer ID. Cashout button is an offer only.",
+      "source_receipt_sha256": "57e17421c0bd76c5b3c10b087af47722ca636e3b13926da2bad786ce0ce131b4",
+      "legs": [
+        {
+          "event": "New Orleans Saints @ New York Giants",
+          "event_id": "401873000",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Isaiah Likely",
+          "line": null,
+          "price": 190,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner receipt",
+        "captured_at": "2026-10-16T17:07:28Z",
+        "note": "Slip shows SUN12:01PM CT; live ESPN schedule is Sunday Oct18 noon CT. Exact payout retained. No cashout executed."
+      },
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Oct13 Week6 generic player baseline, research only",
+        "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+        "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT.",
+        "model_probability": 0.418,
+        "implied_probability": 0.3448275862068966,
+        "edge_percentage_points": 7.317
+      }
+    },
+    {
+      "bet_id": "us-tn:01m52tvgw4eehrx1rw1tdkm0ze",
+      "date": "2026-10-16T17:06:00Z",
+      "placed_at": "2026-10-16T17:06:00Z",
+      "sport": "NFL",
+      "game": "Carolina Panthers @ Philadelphia Eagles",
+      "kickoff": "2026-10-18T17:00:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 38,
+      "potential_profit_usd": 28,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": "open",
+      "net_units": null,
+      "net_usd": null,
+      "bet": "Straight: Jalen Coker anytime TD",
+      "selection": "Jalen Coker",
+      "market": "anytime_touchdown",
+      "price": 280,
+      "line": null,
+      "source": "Owner iMessage phonemsg-01M52TXMS6AYEMATT8VF6068RD, Oct16 12:07PM CT. Placed TN receipt visually inspected including footer ID. Cashout button is an offer only.",
+      "source_receipt_sha256": "9ee6959c632820ceb3a7614ec6cf47f9d86d59ce5a489481739c8d945d256c73",
+      "legs": [
+        {
+          "event": "Carolina Panthers @ Philadelphia Eagles",
+          "event_id": "401872998",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Jalen Coker",
+          "line": null,
+          "price": 280,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner receipt",
+        "captured_at": "2026-10-16T17:07:28Z",
+        "note": "Slip shows SUN12:01PM CT; live ESPN schedule is Sunday Oct18 noon CT. Exact payout retained. No cashout executed."
+      },
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Oct13 Week6 generic player baseline, research only",
+        "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+        "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT.",
+        "model_probability": 0.312,
+        "implied_probability": 0.2631578947368421,
+        "edge_percentage_points": 4.884
+      }
+    },
+    {
+      "bet_id": "us-tn:01m52tv3tgf8w8qhjsg18gm88t",
+      "date": "2026-10-16T17:06:00Z",
+      "placed_at": "2026-10-16T17:06:00Z",
+      "sport": "NFL",
+      "game": "Carolina Panthers @ Philadelphia Eagles",
+      "kickoff": "2026-10-18T17:00:00Z",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "stake_type": "cash",
+      "potential_payout_usd": 41,
+      "potential_profit_usd": 31,
+      "cashout_value_usd_at_capture": 10,
+      "status": "open",
+      "result": "open",
+      "net_units": null,
+      "net_usd": null,
+      "bet": "Straight: Dallas Goedert anytime TD",
+      "selection": "Dallas Goedert",
+      "market": "anytime_touchdown",
+      "price": 310,
+      "line": null,
+      "source": "Owner iMessage phonemsg-01M52TXMS6AYEMATT8VF6068RD, Oct16 12:07PM CT. Placed TN receipt visually inspected including footer ID. Cashout button is an offer only.",
+      "source_receipt_sha256": "849f15010ae056c70d6a14def7b6d32796b1ecd7192593bcd49c29290fa4e2a7",
+      "legs": [
+        {
+          "event": "Carolina Panthers @ Philadelphia Eagles",
+          "event_id": "401872998",
+          "kickoff": "2026-10-18T17:00:00Z",
+          "market": "anytime_touchdown",
+          "selection": "Dallas Goedert",
+          "line": null,
+          "price": 310,
+          "hit": null
+        }
+      ],
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual TN owner receipt",
+        "captured_at": "2026-10-16T17:07:28Z",
+        "note": "Slip shows SUN12:01PM CT; live ESPN schedule is Sunday Oct18 noon CT. Exact payout retained. No cashout executed."
+      },
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Oct13 Week6 generic player baseline, research only",
+        "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+        "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT.",
+        "model_probability": 0.309,
+        "implied_probability": 0.24390243902439024,
+        "edge_percentage_points": 6.51
+      }
+    }
+  ],
+  "prior_rows_unchanged": true,
+  "total_stake_usd": 50,
+  "total_units": 5,
+  "settlement": "Grade final official scoring; normal settlement unless owner reports actual cashout. Offers are not cashouts."
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "ESPN groups80 regular2026 Weeks1-7 FBS-involving schedule; not all FCS college football",
+  "completed_games": 455,
+  "unique_final_boxscores": 455,
+  "team_rows": 910,
+  "score_mismatches": 0,
+  "required_stat_fields": [
+    "totalYards",
+    "netPassingYards",
+    "rushingYards",
+    "turnovers"
+  ],
+  "team_stat_gaps": [],
+  "no_parsed_qb_attempts": [],
+  "repaired_nonfinal_archives": [
+    [
+      "401864577",
+      true,
+      [
+        "Jacksonville State Gamecocks",
+        "North Dakota State Bison"
+      ]
+    ],
+    [
+      "401866408",
+      true,
+      [
+        "Sacramento State Hornets",
+        "Eastern Michigan Eagles"
+      ]
+    ],
+    [
+      "401858423",
+      true,
+      [
+        "Massachusetts Minutemen",
+        "Rutgers Scarlet Knights"
+      ]
+    ]
+  ],
+  "missing_current_week_finals": [
+    "401862800",
+    "401871067",
+    "401869950",
+    "401860923",
+    "401871068",
+    "401871053",
+    "401871054"
+  ]
+}

@@ -22,7 +22,7 @@ WX UNPROVEN is a separate weather companion beside the unchanged sealed margin. 
 - `boxscores/`: ten fresh verified final payloads.
 - `current_research.json`:52 current stats research predictions, with unrounded differences and feature changes.
 - `current_team_features.csv` / `sealed_team_features.csv`: auditable before/after inputs.
-- `official-injuries.json`: Thursday conference reports, grouped by team and player status.
+- `official-injuries.json`: Conference report snapshots, grouped by team and player status; Sun Belt reports are initial.
 - `secondary-injuries.json`: source-attributed secondary snapshot, not complete clearance.
 - `forecasts/`:55 forecast snapshots.
 - Root `cfb_current_status.json`: UI sidecar with coverage, weather calculation and availability facts per game.
@@ -31,4 +31,4 @@ No book prices enter any calculation. Displayed predictions round to half or who
 
 ## Sources
 
-ESPN college scoreboard and summary APIs, https://www.secsports.com/fbreports , https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx , https://bigten.org/fb/availability-reports/ , https://www.covers.com/sport/football/ncaaf/injuries , https://open-meteo.com/en/docs . Exact per-game ESPN URLs are in the source manifest.
+ESPN college scoreboard and summary APIs, https://www.secsports.com/fbreports , https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx , https://bigten.org/fb/availability-reports/ , https://big12sports.com/sports/2025/8/14/FBreporting.aspx , https://sunbeltsports.org/news/2025/8/11/football-availability-report-new.aspx , https://www.covers.com/sport/football/ncaaf/injuries , https://open-meteo.com/en/docs . Exact per-game ESPN URLs are in the source manifest.

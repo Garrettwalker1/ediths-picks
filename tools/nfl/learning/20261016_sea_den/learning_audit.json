@@ -1,0 +1,381 @@
+{
+  "as_of": "2026-10-16",
+  "owner_request": "Just need to have the model learn from this game",
+  "status": "Final assimilated into fixed-rule next-game state and prospective error checks; no fit/hyperparameter/promotion changes",
+  "game_id": "2026_06_SEA_DEN",
+  "final": {
+    "away": 14,
+    "home": 17,
+    "total": 31,
+    "overtime": true
+  },
+  "frozen_forecast_errors": {
+    "model_total": 44.5,
+    "actual_total": 31,
+    "total_overprediction": 13.5,
+    "model_margin_home": -0.71,
+    "actual_margin_home": 3,
+    "margin_absolute_error": 3.71,
+    "baseline_winner_correct": false,
+    "displayed_score": "SEA23-DEN22",
+    "score_errors": {
+      "SEA": 9,
+      "DEN": 5
+    },
+    "frozen_injury_experiment_margin_home": 0.19,
+    "injury_absolute_error": 2.81,
+    "home_win_probability": 0.472,
+    "home_win_brier": 0.27878400000000003
+  },
+  "total_forward_diagnostic": {
+    "before_this_game": {
+      "n": 31,
+      "mae": 10.822580645161292,
+      "mean_signed_error_prediction_minus_actual": -2.5387096774193547,
+      "rmse": 11.885434295266487,
+      "train_mean_baseline_mae": 11.434019341393848
+    },
+    "including_this_game": {
+      "n": 32,
+      "mae": 10.90625,
+      "mean_signed_error_prediction_minus_actual": -2.0375,
+      "rmse": 11.939194905855251,
+      "train_mean_baseline_mae": 11.53125
+    },
+    "rows": [
+      {
+        "week": 4,
+        "game_id": "2026_04_PIT_CLE",
+        "frozen_total": 40.7,
+        "actual_total": 51.0,
+        "signed_error_prediction_minus_actual": -10.299999999999997,
+        "absolute_error": 10.299999999999997
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_ARI_NYG",
+        "frozen_total": 44.4,
+        "actual_total": 60.0,
+        "signed_error_prediction_minus_actual": -15.600000000000001,
+        "absolute_error": 15.600000000000001
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_DAL_HOU",
+        "frozen_total": 47.9,
+        "actual_total": 64.0,
+        "signed_error_prediction_minus_actual": -16.1,
+        "absolute_error": 16.1
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_DEN_SF",
+        "frozen_total": 46.7,
+        "actual_total": 38.0,
+        "signed_error_prediction_minus_actual": 8.700000000000003,
+        "absolute_error": 8.700000000000003
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_DET_CAR",
+        "frozen_total": 48.8,
+        "actual_total": 58.0,
+        "signed_error_prediction_minus_actual": -9.200000000000003,
+        "absolute_error": 9.200000000000003
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_GB_TB",
+        "frozen_total": 44.3,
+        "actual_total": 31.0,
+        "signed_error_prediction_minus_actual": 13.299999999999997,
+        "absolute_error": 13.299999999999997
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_IND_WAS",
+        "frozen_total": 48.5,
+        "actual_total": 43.0,
+        "signed_error_prediction_minus_actual": 5.5,
+        "absolute_error": 5.5
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_JAX_CIN",
+        "frozen_total": 47.3,
+        "actual_total": 39.0,
+        "signed_error_prediction_minus_actual": 8.299999999999997,
+        "absolute_error": 8.299999999999997
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_KC_LV",
+        "frozen_total": 44.5,
+        "actual_total": 57.0,
+        "signed_error_prediction_minus_actual": -12.5,
+        "absolute_error": 12.5
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_LAC_SEA",
+        "frozen_total": 43.0,
+        "actual_total": 53.0,
+        "signed_error_prediction_minus_actual": -10.0,
+        "absolute_error": 10.0
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_LA_PHI",
+        "frozen_total": 44.5,
+        "actual_total": 44.0,
+        "signed_error_prediction_minus_actual": 0.5,
+        "absolute_error": 0.5
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_MIA_MIN",
+        "frozen_total": 43.3,
+        "actual_total": 25.0,
+        "signed_error_prediction_minus_actual": 18.299999999999997,
+        "absolute_error": 18.299999999999997
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_NE_BUF",
+        "frozen_total": 47.0,
+        "actual_total": 55.0,
+        "signed_error_prediction_minus_actual": -8.0,
+        "absolute_error": 8.0
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_NYJ_CHI",
+        "frozen_total": 45.4,
+        "actual_total": 35.0,
+        "signed_error_prediction_minus_actual": 10.399999999999999,
+        "absolute_error": 10.399999999999999
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_TEN_BAL",
+        "frozen_total": 45.1,
+        "actual_total": 42.0,
+        "signed_error_prediction_minus_actual": 3.1000000000000014,
+        "absolute_error": 3.1000000000000014
+      },
+      {
+        "week": 4,
+        "game_id": "2026_04_ATL_NO",
+        "frozen_total": 46.5,
+        "actual_total": 69.0,
+        "signed_error_prediction_minus_actual": -22.5,
+        "absolute_error": 22.5
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_TB_DAL",
+        "frozen_total": 48.4,
+        "actual_total": 40.0,
+        "signed_error_prediction_minus_actual": 8.399999999999999,
+        "absolute_error": 8.399999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_PHI_JAX",
+        "frozen_total": 43.9,
+        "actual_total": 36.0,
+        "signed_error_prediction_minus_actual": 7.899999999999999,
+        "absolute_error": 7.899999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_CHI_GB",
+        "frozen_total": 43.9,
+        "actual_total": 38.0,
+        "signed_error_prediction_minus_actual": 5.899999999999999,
+        "absolute_error": 5.899999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_CIN_MIA",
+        "frozen_total": 43.1,
+        "actual_total": 55.0,
+        "signed_error_prediction_minus_actual": -11.899999999999999,
+        "absolute_error": 11.899999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_CLE_NYJ",
+        "frozen_total": 41.1,
+        "actual_total": 29.0,
+        "signed_error_prediction_minus_actual": 12.100000000000001,
+        "absolute_error": 12.100000000000001
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_HOU_TEN",
+        "frozen_total": 42.2,
+        "actual_total": 29.0,
+        "signed_error_prediction_minus_actual": 13.200000000000003,
+        "absolute_error": 13.200000000000003
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_IND_PIT",
+        "frozen_total": 46.0,
+        "actual_total": 56.0,
+        "signed_error_prediction_minus_actual": -10.0,
+        "absolute_error": 10.0
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_LV_NE",
+        "frozen_total": 44.0,
+        "actual_total": 62.0,
+        "signed_error_prediction_minus_actual": -18.0,
+        "absolute_error": 18.0
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_MIN_NO",
+        "frozen_total": 44.8,
+        "actual_total": 36.0,
+        "signed_error_prediction_minus_actual": 8.799999999999997,
+        "absolute_error": 8.799999999999997
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_NYG_WAS",
+        "frozen_total": 45.1,
+        "actual_total": 54.0,
+        "signed_error_prediction_minus_actual": -8.899999999999999,
+        "absolute_error": 8.899999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_DEN_LAC",
+        "frozen_total": 44.0,
+        "actual_total": 40.0,
+        "signed_error_prediction_minus_actual": 4.0,
+        "absolute_error": 4.0
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_DET_ARI",
+        "frozen_total": 50.1,
+        "actual_total": 66.0,
+        "signed_error_prediction_minus_actual": -15.899999999999999,
+        "absolute_error": 15.899999999999999
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_SF_SEA",
+        "frozen_total": 47.2,
+        "actual_total": 61.0,
+        "signed_error_prediction_minus_actual": -13.799999999999997,
+        "absolute_error": 13.799999999999997
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_BAL_ATL",
+        "frozen_total": 47.4,
+        "actual_total": 53.0,
+        "signed_error_prediction_minus_actual": -5.600000000000001,
+        "absolute_error": 5.600000000000001
+      },
+      {
+        "week": 5,
+        "game_id": "2026_05_BUF_LA",
+        "frozen_total": 52.2,
+        "actual_total": 71.0,
+        "signed_error_prediction_minus_actual": -18.799999999999997,
+        "absolute_error": 18.799999999999997
+      },
+      {
+        "week": 6,
+        "game_id": "2026_06_SEA_DEN",
+        "frozen_total": 44.5,
+        "actual_total": 31.0,
+        "signed_error_prediction_minus_actual": 13.5,
+        "absolute_error": 13.5
+      }
+    ],
+    "interpretation": "Descriptive small prospective sample. No calibration slope/intercept or feature weights selected on this result; no claim of resolved miscalibration or cause."
+  },
+  "learned_team_state_unrounded": {
+    "SEA": {
+      "last_completed_game": "2026_06_SEA_DEN",
+      "next_game_id": "2026_07_KC_SEA",
+      "points_for_before": 26.232905325627165,
+      "points_for_after": 24.89827967373337,
+      "points_against_before": 20.251107755894022,
+      "points_against_after": 19.896407732262098,
+      "next_game_elo_difference_before": 91.56777659766021,
+      "next_game_elo_difference_after": 76.97503392663702,
+      "note": "Unrounded model state, not a new game prediction; no future Week6 results available yet."
+    },
+    "DEN": {
+      "last_completed_game": "2026_06_SEA_DEN",
+      "next_game_id": "2026_07_DEN_ARI",
+      "points_for_before": 21.69972911461479,
+      "points_for_after": 21.18698264381715,
+      "points_against_before": 20.650246055879403,
+      "points_against_after": 19.924695686500808,
+      "next_game_elo_difference_before": -236.82750515296152,
+      "next_game_elo_difference_after": -251.4202478239847,
+      "note": "Unrounded model state, not a new game prediction; no future Week6 results available yet."
+    }
+  },
+  "learned_player_state_unrounded": {
+    "receiving_yards_r3": {
+      "before": 102.0,
+      "after": 104.0
+    },
+    "receiving_yards_r6": {
+      "before": 111.16666666666667,
+      "after": 119.5
+    },
+    "targets_r3": {
+      "before": 9.333333333333334,
+      "after": 10.0
+    },
+    "receiving_tds_r6": {
+      "before": 1.1666666666666667,
+      "after": 1.1666666666666667
+    },
+    "rushing_tds_r6": {
+      "before": 0.0,
+      "after": 0.0
+    }
+  },
+  "td_observation": {
+    "player": "Jaxon Smith-Njigba",
+    "forecast_probability": 0.558,
+    "outcome": 0,
+    "brier": 0.3113640000000001,
+    "receptions": 12,
+    "targets": 16,
+    "receiving_yards": 134,
+    "rushing_tds": 0,
+    "receiving_tds": 0,
+    "note": "One failed TD observation, not three independent misses. All3 tickets share JSN exposure; no calibrated joint SGP probability existed. Receiving opportunity was substantial; a TD miss alone does not establish a usage failure or causal diagnosis."
+  },
+  "chronology_tests": {
+    "same_game_pregame_elo_unchanged": true,
+    "same_game_pregame_totals_features_unchanged": true,
+    "future_team_state_updated": true,
+    "fixed_player_rolling_rule_updates": true
+  },
+  "limits": [
+    "No attribution to injuries, weather, red-zone luck or play calling without a separate tested causal analysis.",
+    "One game cannot calibrate a TD probability or justify model promotion.",
+    "All pregame predictions, current board and immutable injury cohorts remain frozen; future Week7 board waits for remaining Week6 results.",
+    "Book prices and three ticket outcomes are evaluation context only, never score-state inputs."
+  ],
+  "sources": [
+    "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "https://www.espn.com/nfl/boxscore/_/gameId/401872995",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv"
+  ]
+}

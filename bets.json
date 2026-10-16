@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-15T21:05:33.739812+00:00",
+  "updated_at": "2026-10-16T04:12:10.443701+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -6152,10 +6152,10 @@
       "potential_payout_usd": 44.79,
       "potential_profit_usd": 34.79,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M50NWECRP5BVV5NMYAQJRP1X Oct15 4:01PM CT; placed TN slip visually inspected including footer ID/time. Cash-out button is offer only, not a transaction.",
       "bet": "3-leg SGP: Jaxon Smith-Njigba anytime TD; Seahawks +2.5 alt spread; Over 34.5 alt total (50% profit boost)",
       "selection": "Jaxon Smith-Njigba + Seahawks +2.5 + Over 34.5",
@@ -6175,7 +6175,7 @@
           "selection": "Jaxon Smith-Njigba",
           "line": null,
           "price": null,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Seattle Seahawks @ Denver Broncos",
@@ -6184,7 +6184,7 @@
           "selection": "Seattle Seahawks",
           "line": 2.5,
           "price": null,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Seattle Seahawks @ Denver Broncos",
@@ -6193,7 +6193,7 @@
           "selection": "Over",
           "line": 34.5,
           "price": null,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -6207,6 +6207,19 @@
         "source": "Actual TN owner receipt",
         "captured_at": "2026-10-15T21:01:00Z",
         "note": "Only actual combined boosted odds and exact payout from screenshot. No invented TN leg prices."
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-10-16T04:12:10.443701+00:00",
+      "settlement_type": "normal",
+      "settlement_note": "DEN17-SEA14 Final/OT; total31. JSN12REC/134YDS/0TD; Seattle TD George Holani. All ticket legs lost. No actual cashout reported; original cashout buttons were offers only.",
+      "grading_source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872995",
+      "final_score": {
+        "away": "SEA",
+        "away_score": 14,
+        "home": "DEN",
+        "home_score": 17,
+        "overtime": true,
+        "total": 31
       }
     },
     {
@@ -6225,10 +6238,10 @@
       "potential_payout_usd": 40,
       "potential_profit_usd": 20,
       "cashout_value_usd_at_capture": 20,
-      "status": "open",
-      "result": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -2.0,
+      "net_usd": -20,
       "source": "Owner iMessage phonemsg-01M50NWECRP5BVV5NMYAQJRP1X Oct15 4:01PM CT; placed TN slip visually inspected including footer ID/time. Cash-out button is offer only, not a transaction.",
       "bet": "Jaxon Smith-Njigba anytime TD",
       "selection": "Jaxon Smith-Njigba",
@@ -6242,7 +6255,7 @@
           "selection": "Jaxon Smith-Njigba",
           "line": null,
           "price": 100,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -6258,6 +6271,19 @@
         "source": "Actual TN owner receipt",
         "captured_at": "2026-10-15T21:01:00Z",
         "note": "TN+100; exact payout$40."
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-10-16T04:12:10.443701+00:00",
+      "settlement_type": "normal",
+      "settlement_note": "DEN17-SEA14 Final/OT; total31. JSN12REC/134YDS/0TD; Seattle TD George Holani. All ticket legs lost. No actual cashout reported; original cashout buttons were offers only.",
+      "grading_source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872995",
+      "final_score": {
+        "away": "SEA",
+        "away_score": 14,
+        "home": "DEN",
+        "home_score": 17,
+        "overtime": true,
+        "total": 31
       }
     },
     {
@@ -6276,10 +6302,10 @@
       "potential_payout_usd": 71.48,
       "potential_profit_usd": 61.48,
       "cashout_value_usd_at_capture": 10,
-      "status": "open",
-      "result": "pending",
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10,
       "source": "Owner iMessage phonemsg-01M50P45DE5W3YK54AN2QQXYMQ Oct15 4:05PM CT; placed TN slip visually inspected including footer ID and4:04PM CT placement. Cashout$10 button is an offer only.",
       "bet": "3-leg SGP: Seahawks -2.5 spread; Jaxon Smith-Njigba anytime TD; Over47.5 alt total",
       "selection": "Seahawks -2.5 + Jaxon Smith-Njigba + Over47.5",
@@ -6294,7 +6320,7 @@
           "selection": "Seattle Seahawks",
           "line": -2.5,
           "price": null,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Seattle Seahawks @ Denver Broncos",
@@ -6303,7 +6329,7 @@
           "selection": "Jaxon Smith-Njigba",
           "line": null,
           "price": null,
-          "hit": null
+          "hit": false
         },
         {
           "event": "Seattle Seahawks @ Denver Broncos",
@@ -6312,7 +6338,7 @@
           "selection": "Over",
           "line": 47.5,
           "price": null,
-          "hit": null
+          "hit": false
         }
       ],
       "model_at_placement": {
@@ -6326,6 +6352,19 @@
         "source": "Actual TN owner receipt",
         "captured_at": "2026-10-15T21:05:00Z",
         "note": "TN SGP displayed+614, exact payout$71.48; no individual TN prices shown."
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-10-16T04:12:10.443701+00:00",
+      "settlement_type": "normal",
+      "settlement_note": "DEN17-SEA14 Final/OT; total31. JSN12REC/134YDS/0TD; Seattle TD George Holani. All ticket legs lost. No actual cashout reported; original cashout buttons were offers only.",
+      "grading_source_url": "https://www.espn.com/nfl/boxscore/_/gameId/401872995",
+      "final_score": {
+        "away": "SEA",
+        "away_score": 14,
+        "home": "DEN",
+        "home_score": 17,
+        "overtime": true,
+        "total": 31
       }
     }
   ]

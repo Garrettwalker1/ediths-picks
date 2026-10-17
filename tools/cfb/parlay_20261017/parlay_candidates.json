@@ -1,0 +1,121 @@
+{
+ "generated_at": "2026-10-17T15:05:00Z",
+ "kind": "cfb_parlay_research",
+ "request": "User iMessage Oct 17 9:56 AM CT: 'Generate the models favorite 3 leg parlay and a 4 leg long shot', clarified 'For CFB' 9:57 AM. Research only; user places bets himself.",
+ "model": {
+  "name": "E.D.I.T.H. CFB 2026-inclusive repaired AP reference",
+  "status": "VALIDATION PENDING - sealed Week 7 forward test grades Monday Oct 19; repaired build has not yet beaten prior build",
+  "sealed": true,
+  "no_injury_adjustment": true,
+  "weather_candidate": "failed validation; WX UNPROVEN companion margins shown but not adopted"
+ },
+ "prices": {
+  "book": "FanDuel",
+  "state": "Illinois (site-detected; page footer: authorized by Illinois Gaming Board)",
+  "captured_at_ct": "2026-10-17 10:03-10:05 AM CT",
+  "tn_verified": false,
+  "source": "https://sportsbook.fanduel.com/navigation/ncaaf",
+  "note": "TN availability/prices not verified; user must confirm in his own app. All legs of each ticket priced from this single same-book capture."
+ },
+ "three_leg_model_favorite": {
+  "selection_rule": "Largest sealed-model vs current-book gaps among big-name/marquee games per user's known taste; raw #1/#3 gaps (UL Monroe +15.5, Syracuse +14.5) passed over as small-program huge-favorite fades",
+  "legs": [
+   {
+    "leg": "Texas Tech -15.5 (-110) vs Arizona State",
+    "model": "TTU by 26 (sealed 26.19 raw)",
+    "gap_vs_current_line": 10.7,
+    "kickoff_ct": "2:30 PM",
+    "event_id": "401856828",
+    "context": "WX calm (wind 3mph). INJURIES (official B12 Thu): TTU QB Thomas Castellanos QUESTIONABLE, RB Cameron Dickey OUT +3 more; ASU 5 OUT (2 DB, 2 OL). Model has NO injury adjustment."
+   },
+   {
+    "leg": "Duke -2.5 (-122) vs North Carolina",
+    "model": "Duke by 12 (sealed 12.03 raw)",
+    "gap_vs_current_line": 9.5,
+    "kickoff_ct": "2:30 PM",
+    "event_id": "401858266",
+    "context": "Rivalry. WX: gusts ~27mph, rain 20% (WX UNPROVEN margin 11.98 vs sealed 12.03, negligible). INJURIES (official ACC Thu): UNC 8 OUT (3 DB) + 6 Q; Duke 9 OUT (3 OL, 3 WR) + 3 Q."
+   },
+   {
+    "leg": "Tennessee +7.5 (-110) vs Alabama",
+    "model": "Alabama by 2 (sealed 1.89 raw) vs book Bama -7.5",
+    "gap_vs_current_line": 5.6,
+    "kickoff_ct": "2:30 PM",
+    "event_id": "401856723",
+    "context": "Third Saturday in October rivalry. WX: gusts 23mph, rain 0%. INJURIES (official SEC Thu): Bama 7 OUT; Tennessee 6 OUT, QB Faizon Brandon Q."
+   }
+  ],
+  "payout_at_captured_prices": {
+   "stake": 10,
+   "total_return": 66.32,
+   "profit": 56.32,
+   "approx_american": "+563"
+  }
+ },
+ "four_leg_long_shot": {
+  "selection_rule": "The model picks 7 underdogs to win outright today; these are the 4 longest current moneyline prices among them. Long shot is price-driven by construction; FAU +105 (model FAU by 7) and Cincinnati +100 (model CIN by 4) are the stronger-conviction alternates (both 11:00 AM CT).",
+  "legs": [
+   {
+    "leg": "Rutgers ML +180 at Maryland",
+    "model": "Rutgers by 5 (sealed 5.14 raw)",
+    "kickoff_ct": "11:30 AM",
+    "event_id": "401858489",
+    "context": "WX: gusts 26mph, rain 4%. INJURIES (official B10 Thu): Rutgers 8 OUT (3 DB) + 3 Q; Maryland 11 OUT + 1 Q. Friday unproven current-stats research trims Rutgers by ~0.8pt, same winner."
+   },
+   {
+    "leg": "Eastern Michigan ML +198 vs Toledo",
+    "model": "EMU by 3.5 (sealed 3.49 raw)",
+    "kickoff_ct": "2:30 PM",
+    "event_id": "401866444",
+    "context": "MAC: no official injury reports for either team (secondary listings only). WX calm. Friday unproven current-stats research trims EMU by ~0.8pt, same winner."
+   },
+   {
+    "leg": "Oklahoma State ML +155 at Houston",
+    "model": "OKST by 0.5 (sealed 0.43 raw)",
+    "kickoff_ct": "6:30 PM",
+    "event_id": "401856831",
+    "context": "INJURIES (official B12 Thu): OKST 3 OUT; Houston 3 OUT + 2 Q. WX calm."
+   },
+   {
+    "leg": "Wisconsin ML +106 at UCLA",
+    "model": "Wisconsin by 0.5 (sealed 0.62 raw)",
+    "kickoff_ct": "6:30 PM",
+    "event_id": "401858494",
+    "context": "INJURIES (official B10 Thu): UCLA QB Nico Iamaleava OUT + 4 more OUT + 3 Q; Wisconsin 2 OUT, QB Danny O'Neil Q. WX calm. Model has NO injury adjustment."
+   }
+  ],
+  "payout_at_captured_prices": {
+   "stake": 10,
+   "total_return": 438.31,
+   "profit": 428.31,
+   "approx_american": "+4273"
+  }
+ },
+ "caveats": [
+  "Unproven research numbers, not validated picks: sealed Week 7 forward test grades Monday; weather candidate failed validation; injury inputs partial and NOT in the model.",
+  "Prices: FanDuel Illinois, captured 10:03-10:05 AM CT Oct 17; TN not verified. Lines moved 1-2 pts since the Oct 11 IL capture on most of these games.",
+  "One model behind every leg (shared model bias); no same-game stacking inside either ticket; a parlay multiplies any single model error.",
+  "No overlap with the $50 open Sunday NFL TD tickets (different slate).",
+  "All 7 games' WX UNPROVEN companion margins are within ~0.1 pt of sealed - weather is not a material factor today per the (failed-validation) weather candidate."
+ ],
+ "raw_gap_ranking_departures": [
+  {
+   "game": "Louisiana Tech at UL Monroe",
+   "raw_gap": 13.3,
+   "current_line": "LT -15.5",
+   "note": "Raw #1 gap; passed (small-program huge-favorite fade)"
+  },
+  {
+   "game": "Louisville at Syracuse",
+   "raw_gap": 11.6,
+   "current_line": "LOU -14.5",
+   "note": "Raw #3 gap; passed (huge-favorite fade; Syracuse name but not a marquee-close fit)"
+  },
+  {
+   "game": "Miami FL -21.5 vs Florida State",
+   "raw_gap": 9.4,
+   "current_line": "not re-verified",
+   "note": "Rivalry but laying 21.5; not close-game fit"
+  }
+ ]
+}

@@ -92,15 +92,15 @@
    "stake": 10,
    "total_return": 438.31,
    "profit": 428.31,
-   "approx_american": "+4273"
+   "approx_american": "+4283"
   }
  },
  "caveats": [
   "Unproven research numbers, not validated picks: sealed Week 7 forward test grades Monday; weather candidate failed validation; injury inputs partial and NOT in the model.",
-  "Prices: FanDuel Illinois, captured 10:03-10:05 AM CT Oct 17; TN not verified. Lines moved 1-2 pts since the Oct 11 IL capture on most of these games.",
+  "Prices: FanDuel Illinois, captured 10:03-10:10 AM CT Oct 17 (Miami leg verified 10:10); TN not verified. Lines moved 1-2 pts since the Oct 11 IL capture on most of these games.",
   "One model behind every leg (shared model bias); no same-game stacking inside either ticket; a parlay multiplies any single model error.",
   "No overlap with the $50 open Sunday NFL TD tickets (different slate).",
-  "All 7 games' WX UNPROVEN companion margins are within ~0.1 pt of sealed - weather is not a material factor today per the (failed-validation) weather candidate."
+  "WX UNPROVEN companion margins are within ~0.1 pt of sealed for 6 of 7 games; Miami's is +0.4 (31.27 vs sealed 30.89, rain max 79%) - and the weather candidate failed validation, so weather is not a validated model factor in any leg."
  ],
  "raw_gap_ranking_departures": [
   {

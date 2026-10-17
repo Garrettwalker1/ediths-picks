@@ -1,0 +1,16 @@
+{
+ "observed_at": "2026-10-17T23:20:00+00:00",
+ "matchup": "CAR at PHI",
+ "player": "Jalen Hurts",
+ "status": "PLACED ON INJURED RESERVE Oct 17 - OUT Sunday vs Carolina and at least 3 more games (IR 4-game minimum)",
+ "detail": "Eagles announced Saturday Oct 17 evening that Hurts (superficial calf blood clot) is on injured reserve. Supersedes earlier same-day reports that no IR was planned. Tanner McKee in line to start Sunday. Trigger: MEDspirationNFP post 2111595334023762343 (6:08PM CT medical explainer) led to corroboration sweep.",
+ "forecast_warning": "Same as Oct15 warning, extended: no verified return date until at least 4 games are missed. Frozen baseline is scores-only and not QB-adjusted. Do not use frozen or stale injury-experiment numbers as current injury-adjusted forecasts for PHI games. No guessed QB point delta or medical prognosis applied.",
+ "sources": [
+  "https://www.nfl.com/news/eagles-place-qb-jalen-hurts-on-injured-reserve-due-to-superficial-blood-clot-in-calf",
+  "https://apnews.com/article/eagles-jalen-hurts-injured-reserve-2250b939abb386f3589c9617530228d8",
+  "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot",
+  "https://www.nfl.com/news/nfl-network-eagles-not-planning-to-place-jalen-hurts-on-ir-as-they-gather-info-on-his-blood-clot"
+ ],
+ "supersedes": "tools/nfl/week6_2026/refresh_20261015/hurts_availability_warning_20261015.json (status escalation only; frozen predictions unchanged)",
+ "frozen_predictions_changed": false
+}

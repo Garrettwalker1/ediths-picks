@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-18T14:47:35.418663+00:00",
+ "updated_at": "2026-10-18T15:13:42.449428+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7220,6 +7220,78 @@
     "note": "Baselines: Pollard 0.338 (impl .392, -5.4pp), Metcalf 0.216 (impl .339, -12.3pp), Robinson 0.267 (impl .339, -7.2pp), Judkins 0.398 (impl .370, +2.8pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Metcalf and Robinson legs are well below implied."
    },
    "received_at": "2026-10-18T14:45:00Z"
+  },
+  {
+   "bet_id": "us-tn:01m57s571frm2tkqhk2pyjb935",
+   "date": "2026-10-18T15:12:00Z",
+   "placed_at": "2026-10-18T15:12:00Z",
+   "sport": "NFL",
+   "game": "New York Jets @ New England Patriots + New Orleans Saints @ New York Giants + Carolina Panthers @ Philadelphia Eagles",
+   "kickoff": "2026-10-18T17:01:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_usd": 10,
+   "stake_units": 1.0,
+   "stake_type": "cash",
+   "potential_payout_usd": 255.84,
+   "potential_profit_usd": 245.84,
+   "cashout_value_usd_at_capture": 10.0,
+   "status": "open",
+   "result": "open",
+   "net_units": null,
+   "net_usd": null,
+   "bet": "3-leg parlay: A.J. Brown, Isaiah Likely, Dallas Goedert anytime TD",
+   "selection": "A.J. Brown and Isaiah Likely and Dallas Goedert anytime TD",
+   "market": "parlay",
+   "price": 2458,
+   "price_note": "Displayed +2458; slip total payout $255.84 on $10. 50 rewards points pending. Likely also at +190 on an Oct16 straight and on the Oct16 SGP+; Goedert also at +310 on an Oct16 straight and the SGP+.",
+   "line": null,
+   "source": "Owner iMessage phonemsg-01M57S5TS41FYPBWJEG8VH5FRJ, Oct18 10:13AM CT. Placed TN receipt visually inspected including full footer ID (placed 10/18/2026 10:12AM CT). Cashout $10.00 button is an offer only.",
+   "source_receipt_sha256": "6a3a2b76a47ef5fc05a2bb528654fa63ea1cb31d6add9be854ac77c870490bfc",
+   "legs": [
+    {
+     "event": "New York Jets @ New England Patriots",
+     "event_id": "401873001",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "A.J. Brown",
+     "line": null,
+     "price": 140,
+     "hit": null
+    },
+    {
+     "event": "New Orleans Saints @ New York Giants",
+     "event_id": "401873000",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Isaiah Likely",
+     "line": null,
+     "price": 160,
+     "hit": null
+    },
+    {
+     "event": "Carolina Panthers @ Philadelphia Eagles",
+     "event_id": "401872998",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Dallas Goedert",
+     "line": null,
+     "price": 310,
+     "hit": null
+    }
+   ],
+   "market_context_at_placement": {
+    "available": true,
+    "source": "Actual TN owner receipt",
+    "captured_at": "2026-10-18T15:13:00Z",
+    "note": "Leg prices from the slip itself. Likely's +160 here is shorter than the +190 on the Oct16 straight; Goedert matches his Oct16 +310."
+   },
+   "model_at_placement": {
+    "available": true,
+    "model_version": "Oct13 Week6 generic player baseline, research only",
+    "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+    "note": "Baselines: Brown 0.336 (impl .417, -8.1pp), Likely 0.418 (impl .385, +3.3pp), Goedert 0.309 (impl .244, +6.5pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Goedert baseline does not account for Hurts OUT."
+   }
   }
  ]
 }

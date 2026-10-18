@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-18T19:45:42.864671+00:00",
+ "updated_at": "2026-10-18T21:29:09.096707+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -6382,10 +6382,10 @@
    "potential_payout_usd": 1670.91,
    "potential_profit_usd": 1660.91,
    "cashout_value_usd_at_capture": 10,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "4-leg SGP+: Dallas Goedert + Jalen Coker + Pat Freiermuth + Isaiah Likely anytime TD",
    "selection": "Dallas Goedert + Jalen Coker + Pat Freiermuth + Isaiah Likely",
    "market": "same_game_parlay_plus",
@@ -6402,7 +6402,7 @@
      "selection": "Dallas Goedert",
      "line": null,
      "price": null,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Carolina Panthers @ Philadelphia Eagles",
@@ -6412,7 +6412,7 @@
      "selection": "Jalen Coker",
      "line": null,
      "price": null,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
@@ -6422,7 +6422,7 @@
      "selection": "Pat Freiermuth",
      "line": null,
      "price": 310,
-     "hit": null
+     "hit": false
     },
     {
      "event": "New Orleans Saints @ New York Giants",
@@ -6432,7 +6432,7 @@
      "selection": "Isaiah Likely",
      "line": null,
      "price": 190,
-     "hit": null
+     "hit": true
     }
    ],
    "market_context_at_placement": {
@@ -6448,7 +6448,15 @@
     "note": "No validated betting edge or fitted current QB/injury/opponent adjustment. Each scorer appears on a straight and this SGP+. Goedert baseline does not account for Hurts OUT. No fitted joint probability; individual probabilities are not multiplied.",
     "slip_break_even_probability": 0.0059847627939266625
    },
-   "price_note": "Displayed+16609; exact receipt payout$1670.91 retained. CAR-PHI two-leg SGP shows+1305. No per-leg price shown for Goedert/Coker within the parlay. No boost shown."
+   "price_note": "Displayed+16609; exact receipt payout$1670.91 retained. CAR-PHI two-leg SGP shows+1305. No per-leg price shown for Goedert/Coker within the parlay. No boost shown.",
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "CAR-PHI CAR 25, PHI 14 (Goedert no TD, Coker no TD); PIT-TB PIT 26, TB 19 (OT) (Freiermuth no TD); NO-NYG NO 34, NYG 27 (Likely 24-yard TD, the only leg that hit). Dead on three missed legs.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
+   }
   },
   {
    "bet_id": "us-tn:01m52tt7e6enfs88s2dbe915q0",
@@ -6465,10 +6473,10 @@
    "potential_payout_usd": 41,
    "potential_profit_usd": 31,
    "cashout_value_usd_at_capture": 10,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Pat Freiermuth anytime TD",
    "selection": "Pat Freiermuth",
    "market": "anytime_touchdown",
@@ -6485,7 +6493,7 @@
      "selection": "Pat Freiermuth",
      "line": null,
      "price": 310,
-     "hit": null
+     "hit": false
     }
    ],
    "market_context_at_placement": {
@@ -6502,6 +6510,14 @@
     "model_probability": 0.26,
     "implied_probability": 0.24390243902439024,
     "edge_percentage_points": 1.61
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "PIT-TB PIT 26, TB 19 (OT). Freiermuth no TD (PIT TDs: Washington, Bernard).",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {
@@ -6519,10 +6535,10 @@
    "potential_payout_usd": 29,
    "potential_profit_usd": 19,
    "cashout_value_usd_at_capture": 10,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "win",
+   "net_units": 1.9,
+   "net_usd": 19,
    "bet": "Straight: Isaiah Likely anytime TD",
    "selection": "Isaiah Likely",
    "market": "anytime_touchdown",
@@ -6539,7 +6555,7 @@
      "selection": "Isaiah Likely",
      "line": null,
      "price": 190,
-     "hit": null
+     "hit": true
     }
    ],
    "market_context_at_placement": {
@@ -6556,6 +6572,14 @@
     "model_probability": 0.418,
     "implied_probability": 0.3448275862068966,
     "edge_percentage_points": 7.317
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "NO-NYG NO 34, NYG 27. Likely 24-yard TD catch from McCarthy. +190 pays $19 on $10.",
+    "net_units": 1.9,
+    "net_usd": 19,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {
@@ -6573,10 +6597,10 @@
    "potential_payout_usd": 38,
    "potential_profit_usd": 28,
    "cashout_value_usd_at_capture": 10,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Jalen Coker anytime TD",
    "selection": "Jalen Coker",
    "market": "anytime_touchdown",
@@ -6593,7 +6617,7 @@
      "selection": "Jalen Coker",
      "line": null,
      "price": 280,
-     "hit": null
+     "hit": false
     }
    ],
    "market_context_at_placement": {
@@ -6610,6 +6634,14 @@
     "model_probability": 0.312,
     "implied_probability": 0.2631578947368421,
     "edge_percentage_points": 4.884
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "CAR-PHI CAR 25, PHI 14. Coker no TD (CAR TDs: Tremble x2, Hubbard).",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {
@@ -6627,10 +6659,10 @@
    "potential_payout_usd": 41,
    "potential_profit_usd": 31,
    "cashout_value_usd_at_capture": 10,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Dallas Goedert anytime TD",
    "selection": "Dallas Goedert",
    "market": "anytime_touchdown",
@@ -6647,7 +6679,7 @@
      "selection": "Dallas Goedert",
      "line": null,
      "price": 310,
-     "hit": null
+     "hit": false
     }
    ],
    "market_context_at_placement": {
@@ -6664,6 +6696,14 @@
     "model_probability": 0.309,
     "implied_probability": 0.24390243902439024,
     "edge_percentage_points": 6.51
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "CAR-PHI CAR 25, PHI 14. Goedert no TD (PHI TDs: Pierce rush, D.Smith from McKee).",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {
@@ -7081,10 +7121,10 @@
    "potential_payout_usd": 179.34,
    "potential_profit_usd": 169.34,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "3-leg parlay: Tony Pollard, Harold Fannin Jr., Puka Nacua anytime TD",
    "selection": "Tony Pollard and Harold Fannin Jr. and Puka Nacua anytime TD",
    "market": "parlay",
@@ -7102,7 +7142,7 @@
      "selection": "Tony Pollard",
      "line": null,
      "price": 176,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Baltimore Ravens @ Cleveland Browns",
@@ -7112,7 +7152,7 @@
      "selection": "Harold Fannin Jr.",
      "line": null,
      "price": 258,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Arizona Cardinals @ Los Angeles Rams",
@@ -7136,6 +7176,14 @@
     "model_version": "Oct13 Week6 generic player baseline, research only",
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Pollard 0.338 (impl .362, -2.4pp), Fannin 0.267 (impl .279, -1.2pp), Puka 0.686 (impl .554, +13.2pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment."
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "TEN-IND TEN 26, IND 20 (Pollard no TD); BAL-CLE CLE 13, BAL 10 (Fannin no TD). Two confirmed-final losing legs decide the ticket now; Puka leg (ARI-LAR, 3:06PM CT) still pending and left ungraded - outcome already decided.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {
@@ -7153,10 +7201,10 @@
    "potential_payout_usd": 299.58,
    "potential_profit_usd": 294.58,
    "cashout_value_usd_at_capture": 2.63,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -0.5,
+   "net_usd": -5,
    "bet": "4-leg parlay: Tony Pollard, DK Metcalf, Brian Robinson Jr., Quinshon Judkins anytime TD",
    "selection": "Tony Pollard and DK Metcalf and Brian Robinson Jr. and Quinshon Judkins anytime TD",
    "market": "parlay",
@@ -7174,7 +7222,7 @@
      "selection": "Tony Pollard",
      "line": null,
      "price": 155,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
@@ -7184,7 +7232,7 @@
      "selection": "DK Metcalf",
      "line": null,
      "price": 195,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Chicago Bears @ Atlanta Falcons",
@@ -7194,7 +7242,7 @@
      "selection": "Brian Robinson Jr.",
      "line": null,
      "price": 195,
-     "hit": null
+     "hit": false
     },
     {
      "event": "Baltimore Ravens @ Cleveland Browns",
@@ -7204,7 +7252,7 @@
      "selection": "Quinshon Judkins",
      "line": null,
      "price": 170,
-     "hit": null
+     "hit": false
     }
    ],
    "market_context_at_placement": {
@@ -7219,7 +7267,15 @@
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Pollard 0.338 (impl .392, -5.4pp), Metcalf 0.216 (impl .339, -12.3pp), Robinson 0.267 (impl .339, -7.2pp), Judkins 0.398 (impl .370, +2.8pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Metcalf and Robinson legs are well below implied."
    },
-   "received_at": "2026-10-18T14:45:00Z"
+   "received_at": "2026-10-18T14:45:00Z",
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "TEN-IND TEN 26, IND 20 (Pollard no TD); PIT-TB PIT 26, TB 19 (OT) (Metcalf no TD); CHI-ATL CHI 31, ATL 23 (Robinson no TD); BAL-CLE CLE 13, BAL 10 (Judkins no TD). All four legs missed.",
+    "net_units": -0.5,
+    "net_usd": -5,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
+   }
   },
   {
    "bet_id": "us-tn:01m57s571frm2tkqhk2pyjb935",
@@ -7236,10 +7292,10 @@
    "potential_payout_usd": 255.84,
    "potential_profit_usd": 245.84,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "3-leg parlay: A.J. Brown, Isaiah Likely, Dallas Goedert anytime TD",
    "selection": "A.J. Brown and Isaiah Likely and Dallas Goedert anytime TD",
    "market": "parlay",
@@ -7257,7 +7313,7 @@
      "selection": "A.J. Brown",
      "line": null,
      "price": 140,
-     "hit": null
+     "hit": false
     },
     {
      "event": "New Orleans Saints @ New York Giants",
@@ -7267,7 +7323,7 @@
      "selection": "Isaiah Likely",
      "line": null,
      "price": 160,
-     "hit": null
+     "hit": true
     },
     {
      "event": "Carolina Panthers @ Philadelphia Eagles",
@@ -7277,7 +7333,7 @@
      "selection": "Dallas Goedert",
      "line": null,
      "price": 310,
-     "hit": null
+     "hit": false
     }
    ],
    "market_context_at_placement": {
@@ -7291,6 +7347,14 @@
     "model_version": "Oct13 Week6 generic player baseline, research only",
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Brown 0.336 (impl .417, -8.1pp), Likely 0.418 (impl .385, +3.3pp), Goedert 0.309 (impl .244, +6.5pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Goedert baseline does not account for Hurts OUT."
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-18T21:29:09Z",
+    "final_score": "NYJ-NE NE 26, NYJ 19 (Brown no TD); NO-NYG NO 34, NYG 27 (Likely 24-yard TD); CAR-PHI CAR 25, PHI 14 (Goedert no TD). Likely hit but two legs missed.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
    }
   },
   {

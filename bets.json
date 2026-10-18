@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-17T15:29:24.422478+00:00",
+ "updated_at": "2026-10-18T06:55:18.578740+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -6681,10 +6681,10 @@
    "potential_payout_usd": 298.85,
    "potential_profit_usd": 288.85,
    "cashout_value_usd_at_capture": 7.06,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "4-leg parlay: Rutgers +4.5 spread, Eastern Michigan ML, Oklahoma State ML, Wisconsin ML",
    "selection": "Rutgers +4.5 and Eastern Michigan ML and Oklahoma State ML and Wisconsin ML",
    "market": "parlay",
@@ -6702,7 +6702,8 @@
      "selection": "Rutgers",
      "line": 4.5,
      "price": -110,
-     "hit": null
+     "hit": true,
+     "final_note": "Rutgers 37, Maryland 30 - Rutgers won outright, +4.5 covers"
     },
     {
      "event": "Toledo @ Eastern Michigan",
@@ -6712,7 +6713,8 @@
      "selection": "Eastern Michigan",
      "line": null,
      "price": 198,
-     "hit": null
+     "hit": false,
+     "final_note": "Eastern Michigan 14, Toledo 34 - EMU lost outright"
     },
     {
      "event": "Oklahoma State @ Houston",
@@ -6722,7 +6724,8 @@
      "selection": "Oklahoma State",
      "line": null,
      "price": 155,
-     "hit": null
+     "hit": false,
+     "final_note": "Houston 35, Oklahoma State 32 - OKST lost by 3"
     },
     {
      "event": "Wisconsin @ UCLA",
@@ -6732,7 +6735,8 @@
      "selection": "Wisconsin",
      "line": null,
      "price": 106,
-     "hit": null
+     "hit": false,
+     "final_note": "UCLA 17, Wisconsin 7 - Wisconsin lost outright"
     }
    ],
    "market_context_at_placement": {
@@ -6745,6 +6749,14 @@
     "available": true,
     "model_version": "cfb-2026-inclusive repaired (VALIDATION PENDING, sealed Week7)",
     "note": "All 4 legs model-aligned per the sealed board: Rutgers by 5.14 raw (covers +4.5; ML +180 was the research pick), EMU by 3.49, OKST by 0.43, WIS by 0.62. Research artifact tools/cfb/parlay_20261017/parlay_candidates.json. Shared model bias: one model behind every leg."
+   },
+   "grading": {
+    "source": "official final score (ESPN scoreboard API, verified Final state for every leg game)",
+    "graded_at": "2026-10-18T06:56:00Z",
+    "final_score": "Leg results: Rutgers +4.5 W (37-30), EMU ML L (14-34), OKST ML L (32-35), WIS ML L (7-17). Parlay dead on the EMU leg.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "All 7 games verified Final via ESPN event IDs on the slip legs; no game left in progress. Cash-out offers on the slips were never executed."
    }
   },
   {
@@ -6762,10 +6774,10 @@
    "potential_payout_usd": 37.4,
    "potential_profit_usd": 27.4,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Nebraska moneyline",
    "selection": "Nebraska",
    "market": "moneyline",
@@ -6783,7 +6795,8 @@
      "selection": "Nebraska",
      "line": null,
      "price": 274,
-     "hit": null
+     "hit": false,
+     "final_note": "Oregon 17, Nebraska 14 - Nebraska lost by 3"
     }
    ],
    "market_context_at_placement": {
@@ -6796,6 +6809,14 @@
     "available": true,
     "model_version": "cfb-2026-inclusive repaired (VALIDATION PENDING, sealed Week7)",
     "note": "COUNTER-MODEL: sealed model has Oregon by 8.93 raw (book Oregon -6.5), model winner Oregon. Nebraska ML was never a model suggestion - not in the 7 outright-dog picks behind the research long shot. Logged as owner action, no model edge claimed."
+   },
+   "grading": {
+    "source": "official final score (ESPN scoreboard API, verified Final state for every leg game)",
+    "graded_at": "2026-10-18T06:56:00Z",
+    "final_score": "Nebraska ML lost: Oregon 17, Nebraska 14. Counter-model leg lost; sealed model had Oregon by 8.93.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "All 7 games verified Final via ESPN event IDs on the slip legs; no game left in progress. Cash-out offers on the slips were never executed."
    }
   },
   {
@@ -6813,10 +6834,10 @@
    "potential_payout_usd": 162.84,
    "potential_profit_usd": 152.84,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "3-leg parlay: Oklahoma State ML, Wisconsin ML, Nebraska ML",
    "selection": "Oklahoma State ML and Wisconsin ML and Nebraska ML",
    "market": "parlay",
@@ -6834,7 +6855,8 @@
      "selection": "Oklahoma State",
      "line": null,
      "price": 155,
-     "hit": null
+     "hit": false,
+     "final_note": "Houston 35, Oklahoma State 32 - OKST lost by 3"
     },
     {
      "event": "Wisconsin @ UCLA",
@@ -6844,7 +6866,8 @@
      "selection": "Wisconsin",
      "line": null,
      "price": 106,
-     "hit": null
+     "hit": false,
+     "final_note": "UCLA 17, Wisconsin 7 - Wisconsin lost outright"
     },
     {
      "event": "Nebraska @ Oregon",
@@ -6854,7 +6877,8 @@
      "selection": "Nebraska",
      "line": null,
      "price": 210,
-     "hit": null
+     "hit": false,
+     "final_note": "Oregon 17, Nebraska 14 - Nebraska lost by 3"
     }
    ],
    "market_context_at_placement": {
@@ -6867,6 +6891,14 @@
     "available": true,
     "model_version": "cfb-2026-inclusive repaired (VALIDATION PENDING, sealed Week7)",
     "note": "MIXED: OKST (by 0.43) and WIS (by 0.62) legs are model-aligned outright-dog picks; Nebraska leg is counter-model (model Oregon by 8.93). Repeats OKST/WIS exposure from the 4-leg us-tn:01m556qpw4envs4655t2d1ef6t and Nebraska exposure from us-tn:01m556rb38e6v87k23hpgrxcp6."
+   },
+   "grading": {
+    "source": "official final score (ESPN scoreboard API, verified Final state for every leg game)",
+    "graded_at": "2026-10-18T06:56:00Z",
+    "final_score": "All three legs lost outright (OKST 32-35, WIS 7-17, NEB 14-17). Parlay dead on the first leg.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "All 7 games verified Final via ESPN event IDs on the slip legs; no game left in progress. Cash-out offers on the slips were never executed."
    }
   },
   {
@@ -6884,10 +6916,10 @@
    "potential_payout_usd": 64.18,
    "potential_profit_usd": 54.18,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "3-leg parlay: Tennessee +7.5 spread, Duke -2.5 spread, Miami Florida -19.5 spread",
    "selection": "Tennessee +7.5 and Duke -2.5 and Miami Florida -19.5",
    "market": "parlay",
@@ -6905,7 +6937,8 @@
      "selection": "Tennessee",
      "line": 7.5,
      "price": -110,
-     "hit": null
+     "hit": true,
+     "final_note": "Tennessee 26, Alabama 10 - Tennessee won outright, +7.5 covers"
     },
     {
      "event": "North Carolina @ Duke",
@@ -6915,7 +6948,8 @@
      "selection": "Duke",
      "line": -2.5,
      "price": -122,
-     "hit": null
+     "hit": false,
+     "final_note": "Duke 20, North Carolina 24 - Duke lost by 4, -2.5 misses"
     },
     {
      "event": "Florida State @ Miami Florida",
@@ -6925,7 +6959,8 @@
      "selection": "Miami Florida",
      "line": -19.5,
      "price": -118,
-     "hit": null
+     "hit": false,
+     "final_note": "Miami 43, Florida State 35 (2OT) - Miami won by 8, -19.5 misses"
     }
    ],
    "market_context_at_placement": {
@@ -6938,6 +6973,14 @@
     "available": true,
     "model_version": "cfb-2026-inclusive repaired (VALIDATION PENDING, sealed Week7)",
     "note": "All 3 legs model-aligned, identical to the revised research ticket after owner steering removed Texas Tech: Duke by 12.03 vs -2.5, Alabama by 1.89 vs Tennessee +7.5, Miami by 30.89 vs -19.5. Shared model bias: one model behind every leg."
+   },
+   "grading": {
+    "source": "official final score (ESPN scoreboard API, verified Final state for every leg game)",
+    "graded_at": "2026-10-18T06:56:00Z",
+    "final_score": "Tennessee +7.5 W (26-10), Duke -2.5 L (20-24), Miami -19.5 L (43-35 2OT, won by 8). Parlay dead on the Duke leg.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "All 7 games verified Final via ESPN event IDs on the slip legs; no game left in progress. Cash-out offers on the slips were never executed."
    }
   }
  ]

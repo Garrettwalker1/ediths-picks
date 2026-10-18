@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-18T15:13:42.449428+00:00",
+ "updated_at": "2026-10-18T19:45:42.864671+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7291,6 +7291,88 @@
     "model_version": "Oct13 Week6 generic player baseline, research only",
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Brown 0.336 (impl .417, -8.1pp), Likely 0.418 (impl .385, +3.3pp), Goedert 0.309 (impl .244, +6.5pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Goedert baseline does not account for Hurts OUT."
+   }
+  },
+  {
+   "bet_id": "us-tn:01m588ph3zfdebwkngectfg1rj",
+   "date": "2026-10-18T19:44:00Z",
+   "placed_at": "2026-10-18T19:44:00Z",
+   "sport": "NFL",
+   "game": "Arizona Cardinals @ Los Angeles Rams + Buffalo Bills @ Las Vegas Raiders + Los Angeles Chargers @ Kansas City Chiefs + Dallas Cowboys @ Green Bay Packers",
+   "kickoff": "2026-10-18T20:06:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_usd": 10,
+   "stake_units": 1.0,
+   "stake_type": "cash",
+   "potential_payout_usd": 86.61,
+   "potential_profit_usd": 76.61,
+   "cashout_value_usd_at_capture": 10.0,
+   "status": "open",
+   "result": "open",
+   "net_units": null,
+   "net_usd": null,
+   "bet": "4-leg parlay: Kyren Williams, Josh Allen, Kenneth Walker III, Christian Watson anytime TD",
+   "selection": "Kyren Williams and Josh Allen and Kenneth Walker III and Christian Watson anytime TD",
+   "market": "parlay",
+   "price": 766,
+   "price_note": "Displayed +766; slip total payout $86.61 on $10. 40 rewards points pending. Walker III also at -165 on the morning +600 ticket (same price both tickets). Josh Allen leg is anytime TD SCORER - he must score, not throw.",
+   "line": null,
+   "source": "Owner iMessage phonemsg-01M588QR9FZ47PPGTMBCJTRQ0Q, Oct18 2:45PM CT. Placed TN receipt visually inspected including full footer ID (placed 10/18/2026 2:44PM CT). Cashout $10.00 button is an offer only.",
+   "source_receipt_sha256": "eeea7b9946577b65a8e2cd4348e60c710f6b3583b66396862299ef5e10909099",
+   "legs": [
+    {
+     "event": "Arizona Cardinals @ Los Angeles Rams",
+     "event_id": "401873004",
+     "kickoff": "2026-10-18T20:06:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Kyren Williams",
+     "line": null,
+     "price": -190,
+     "hit": null
+    },
+    {
+     "event": "Buffalo Bills @ Las Vegas Raiders",
+     "event_id": "401873005",
+     "kickoff": "2026-10-18T20:26:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Josh Allen",
+     "line": null,
+     "price": -165,
+     "hit": null
+    },
+    {
+     "event": "Los Angeles Chargers @ Kansas City Chiefs",
+     "event_id": "401873006",
+     "kickoff": "2026-10-18T20:26:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Kenneth Walker III",
+     "line": null,
+     "price": -165,
+     "hit": null
+    },
+    {
+     "event": "Dallas Cowboys @ Green Bay Packers",
+     "event_id": "401873007",
+     "kickoff": "2026-10-19T00:21:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Christian Watson",
+     "line": null,
+     "price": 120,
+     "hit": null
+    }
+   ],
+   "market_context_at_placement": {
+    "available": true,
+    "source": "Actual TN owner receipt",
+    "captured_at": "2026-10-18T19:45:00Z",
+    "note": "Leg prices from the slip itself. Walker III appears on two $10 tickets today at the same -165."
+   },
+   "model_at_placement": {
+    "available": true,
+    "model_version": "Oct13 Week6 generic player baseline, research only",
+    "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+    "note": "Baselines: Kyren 0.690 (impl .655, +3.5pp), Walker 0.678 (impl .623, +5.5pp), Watson 0.438 (impl .455, -1.6pp). Josh Allen leg has NO baseline coverage - the Oct13 anytime-TD baseline covers RB/WR/TE scorers only, no QB entry for Allen; no probability claimed for that leg. Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment."
    }
   }
  ]

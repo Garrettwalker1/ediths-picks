@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-18T06:55:18.578740+00:00",
+ "updated_at": "2026-10-18T14:47:35.418663+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -6981,6 +6981,242 @@
     "net_units": -1.0,
     "net_usd": -10,
     "source_note": "All 7 games verified Final via ESPN event IDs on the slip legs; no game left in progress. Cash-out offers on the slips were never executed."
+   }
+  },
+  {
+   "bet_id": "us-tn:footer-not-visible-puka4leg-20261018",
+   "date": "2026-10-18T14:45:00Z",
+   "placed_at": null,
+   "sport": "NFL",
+   "game": "Arizona Cardinals @ Los Angeles Rams + Buffalo Bills @ Las Vegas Raiders + Los Angeles Chargers @ Kansas City Chiefs + Dallas Cowboys @ Green Bay Packers",
+   "kickoff": "2026-10-18T20:06:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_usd": 10,
+   "stake_units": 1.0,
+   "stake_type": "cash",
+   "potential_payout_usd": 70.08,
+   "potential_profit_usd": 60.08,
+   "cashout_value_usd_at_capture": 10.0,
+   "status": "open",
+   "result": "open",
+   "net_units": null,
+   "net_usd": null,
+   "bet": "4-leg parlay: Puka Nacua, Ashton Jeanty, Kenneth Walker III, Javonte Williams anytime TD",
+   "selection": "Puka Nacua and Ashton Jeanty and Kenneth Walker III and Javonte Williams anytime TD",
+   "market": "parlay",
+   "price": 600,
+   "price_note": "Displayed +600; slip total payout $70.08 on $10. 40 rewards points pending. Bet ID and placed time NOT visible (footer cut off in owner screenshot taken 9:45AM CT Oct18; bet open in My Bets). Not fabricated; date field is the screenshot time.",
+   "line": null,
+   "source": "Owner iMessage phonemsg-01M57QK933WEAR21TFHZ4BV9D5, Oct18 9:45AM CT ('Add to the tracker', 3 placed-slip images). Footer not visible; cashout $10.00 button is an offer only.",
+   "source_receipt_sha256": "c37a6d4b29c0ee0a9e31c84e0a9f26e9e9432e8da9fe22604be5ade5bbd76884",
+   "legs": [
+    {
+     "event": "Arizona Cardinals @ Los Angeles Rams",
+     "event_id": "401873004",
+     "kickoff": "2026-10-18T20:06:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Puka Nacua",
+     "line": null,
+     "price": -150,
+     "hit": null
+    },
+    {
+     "event": "Buffalo Bills @ Las Vegas Raiders",
+     "event_id": "401873005",
+     "kickoff": "2026-10-18T20:26:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Ashton Jeanty",
+     "line": null,
+     "price": -125,
+     "hit": null
+    },
+    {
+     "event": "Los Angeles Chargers @ Kansas City Chiefs",
+     "event_id": "401873006",
+     "kickoff": "2026-10-18T20:26:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Kenneth Walker III",
+     "line": null,
+     "price": -165,
+     "hit": null
+    },
+    {
+     "event": "Dallas Cowboys @ Green Bay Packers",
+     "event_id": "401873007",
+     "kickoff": "2026-10-19T00:21:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Javonte Williams",
+     "line": null,
+     "price": -220,
+     "hit": null
+    }
+   ],
+   "market_context_at_placement": {
+    "available": true,
+    "source": "Actual TN owner receipt",
+    "captured_at": "2026-10-18T14:45:00Z",
+    "note": "Leg prices from the slip itself. Puka also appears at -124 on the +1693 ticket - same player, different price across tickets preserved."
+   },
+   "model_at_placement": {
+    "available": true,
+    "model_version": "Oct13 Week6 generic player baseline, research only",
+    "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+    "note": "Baselines: Puka 0.686 (impl .600, +8.6pp), Jeanty 0.457 (impl .556, -9.9pp), Walker 0.678 (impl .623, +5.5pp), Javonte 0.621 (impl .688, -6.6pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Jeanty and Javonte legs are below their prices' implied probabilities."
+   }
+  },
+  {
+   "bet_id": "us-tn:01m57k0247ejnadbszmchs5byc",
+   "date": "2026-10-18T13:25:00Z",
+   "placed_at": "2026-10-18T13:25:00Z",
+   "sport": "NFL",
+   "game": "Tennessee Titans @ Indianapolis Colts + Baltimore Ravens @ Cleveland Browns + Arizona Cardinals @ Los Angeles Rams",
+   "kickoff": "2026-10-18T17:01:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_usd": 10,
+   "stake_units": 1.0,
+   "stake_type": "cash",
+   "potential_payout_usd": 179.34,
+   "potential_profit_usd": 169.34,
+   "cashout_value_usd_at_capture": 10.0,
+   "status": "open",
+   "result": "open",
+   "net_units": null,
+   "net_usd": null,
+   "bet": "3-leg parlay: Tony Pollard, Harold Fannin Jr., Puka Nacua anytime TD",
+   "selection": "Tony Pollard and Harold Fannin Jr. and Puka Nacua anytime TD",
+   "market": "parlay",
+   "price": 1693,
+   "price_note": "+1303 with a 30% profit boost applied on the slip, boosted to +1693; total payout $179.34 on $10. 50 rewards points pending.",
+   "line": null,
+   "source": "Owner iMessage phonemsg-01M57QK933WEAR21TFHZ4BV9D5, Oct18 9:45AM CT. Placed TN receipt visually inspected including full footer ID (placed 10/18/2026 8:25AM CT). Cashout $10.00 button is an offer only.",
+   "source_receipt_sha256": "3c533e6c7a82df536d2a6c2d7ed76fa63951413d110edc99f753e9443d99a376",
+   "legs": [
+    {
+     "event": "Tennessee Titans @ Indianapolis Colts",
+     "event_id": "401873003",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Tony Pollard",
+     "line": null,
+     "price": 176,
+     "hit": null
+    },
+    {
+     "event": "Baltimore Ravens @ Cleveland Browns",
+     "event_id": "401872997",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Harold Fannin Jr.",
+     "line": null,
+     "price": 258,
+     "hit": null
+    },
+    {
+     "event": "Arizona Cardinals @ Los Angeles Rams",
+     "event_id": "401873004",
+     "kickoff": "2026-10-18T20:06:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Puka Nacua",
+     "line": null,
+     "price": -124,
+     "hit": null
+    }
+   ],
+   "market_context_at_placement": {
+    "available": true,
+    "source": "Actual TN owner receipt",
+    "captured_at": "2026-10-18T14:45:00Z",
+    "note": "Leg prices from the slip itself. Pollard also appears at +155 on the $5 ticket; Puka at -150 on the +600 ticket."
+   },
+   "model_at_placement": {
+    "available": true,
+    "model_version": "Oct13 Week6 generic player baseline, research only",
+    "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+    "note": "Baselines: Pollard 0.338 (impl .362, -2.4pp), Fannin 0.267 (impl .279, -1.2pp), Puka 0.686 (impl .554, +13.2pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment."
+   }
+  },
+  {
+   "bet_id": "us-tn:footer-not-visible-pollard4leg-20261018",
+   "date": "2026-10-18T14:45:00Z",
+   "placed_at": null,
+   "sport": "NFL",
+   "game": "Tennessee Titans @ Indianapolis Colts + Pittsburgh Steelers @ Tampa Bay Buccaneers + Chicago Bears @ Atlanta Falcons + Baltimore Ravens @ Cleveland Browns",
+   "kickoff": "2026-10-18T17:01:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_usd": 5,
+   "stake_units": 0.5,
+   "stake_type": "cash",
+   "potential_payout_usd": 299.58,
+   "potential_profit_usd": 294.58,
+   "cashout_value_usd_at_capture": 2.63,
+   "status": "open",
+   "result": "open",
+   "net_units": null,
+   "net_usd": null,
+   "bet": "4-leg parlay: Tony Pollard, DK Metcalf, Brian Robinson Jr., Quinshon Judkins anytime TD",
+   "selection": "Tony Pollard and DK Metcalf and Brian Robinson Jr. and Quinshon Judkins anytime TD",
+   "market": "parlay",
+   "price": 5891,
+   "price_note": "Displayed +5891; slip total payout $299.58 on $5. 30 rewards points pending. Bet ID and placed time NOT visible (footer cut off in owner screenshot taken 9:45AM CT Oct18; bet open in My Bets). Not fabricated; date field is the screenshot time.",
+   "line": null,
+   "source": "Owner iMessage phonemsg-01M57QK933WEAR21TFHZ4BV9D5, Oct18 9:45AM CT. Footer not visible; cashout $2.63 button is an offer only.",
+   "source_receipt_sha256": "6e6e400468f270a7139829bb297a199ce5e3167af1aab9aeb7335d7328a5dedb",
+   "legs": [
+    {
+     "event": "Tennessee Titans @ Indianapolis Colts",
+     "event_id": "401873003",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Tony Pollard",
+     "line": null,
+     "price": 155,
+     "hit": null
+    },
+    {
+     "event": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+     "event_id": "401873002",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "DK Metcalf",
+     "line": null,
+     "price": 195,
+     "hit": null
+    },
+    {
+     "event": "Chicago Bears @ Atlanta Falcons",
+     "event_id": "401872999",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Brian Robinson Jr.",
+     "line": null,
+     "price": 195,
+     "hit": null
+    },
+    {
+     "event": "Baltimore Ravens @ Cleveland Browns",
+     "event_id": "401872997",
+     "kickoff": "2026-10-18T17:01:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Quinshon Judkins",
+     "line": null,
+     "price": 170,
+     "hit": null
+    }
+   ],
+   "market_context_at_placement": {
+    "available": true,
+    "source": "Actual TN owner receipt",
+    "captured_at": "2026-10-18T14:45:00Z",
+    "note": "Leg prices from the slip itself. Teams per slip/ESPN: Metcalf PIT, Robinson ATL, Judkins CLE, Pollard TEN. Half-unit stake ($5)."
+   },
+   "model_at_placement": {
+    "available": true,
+    "model_version": "Oct13 Week6 generic player baseline, research only",
+    "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
+    "note": "Baselines: Pollard 0.338 (impl .392, -5.4pp), Metcalf 0.216 (impl .339, -12.3pp), Robinson 0.267 (impl .339, -7.2pp), Judkins 0.398 (impl .370, +2.8pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Metcalf and Robinson legs are well below implied."
    }
   }
  ]

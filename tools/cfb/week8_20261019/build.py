@@ -44,7 +44,7 @@ for n in ['2026_no_ap','2026_ap']:
  m,f=models[n];coef=m[-1].coef_/m[0].scale_;v=X[[z[2:] for z in f]].to_numpy()@coef;ratings[n]=v-v.mean()
 rr=[]
 for i,t in enumerate(X.index):
- stats={s['name']:s for s in teams[t]['stats']};rec=stats.get('overall',{}).get('displayValue');rr.append({'team':t,'rating':float(ratings['2026_no_ap'][i]),'no_ap_rating':float(ratings['2026_ap'][i]),'record':rec,'ap_rank':apr.get(t),'games_used':int(X.loc[t,'gp'])})
-for k,rk in [('rating','rank'),('no_ap_rating','no_ap_rank')]:
+ stats={s['name']:s for s in teams[t]['stats']};rec=stats.get('overall',{}).get('displayValue');rr.append({'team':t,'rating':float(ratings['2026_no_ap'][i]),'ap_model_rating':float(ratings['2026_ap'][i]),'record':rec,'ap_rank':apr.get(t),'games_used':int(X.loc[t,'gp'])})
+for k,rk in [('rating','rank'),('ap_model_rating','ap_model_rank')]:
  for i,r in enumerate(sorted(rr,key=lambda z:-z[k]),1):r[rk]=i
 power={'model':'CFB no-AP reference, fixed Oct11 coefficients','model_as_of':'2026-10-19','records_as_of':'2026-10-19','ap_date':ap['date'],'ap_last_updated':ap['lastUpdated'],'method':'No-AP fixed reference coefficients applied to current features, centered across 138 FBS teams. Comparison is separately fitted AP research variant, not subtraction from same fit. Neither is a validated betting edge.','sources':protocol['source_urls']+[audit['standings_url']],'teams':sorted(rr,key=lambda r:r['rank'])};(P/'power_ratings.json').write_text(json.dumps(power,indent=2));print('COMPLETE',len(games),len(rr),'TOP5',[(r['team'],r['rating'],r['record']) for r in power['teams'][:5]],'HASH',hashlib.sha256(raw.encode()).hexdigest())

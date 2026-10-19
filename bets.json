@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-18T21:29:09.096707+00:00",
+ "updated_at": "2026-10-19T04:45:11Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
    "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
    "line": null,
    "price": 255,
-   "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+   "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
    "book": "FanDuel",
    "state": "TN",
    "stake_units": 1,
@@ -7038,10 +7038,10 @@
    "potential_payout_usd": 70.08,
    "potential_profit_usd": 60.08,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "4-leg parlay: Puka Nacua, Ashton Jeanty, Kenneth Walker III, Javonte Williams anytime TD",
    "selection": "Puka Nacua and Ashton Jeanty and Kenneth Walker III and Javonte Williams anytime TD",
    "market": "parlay",
@@ -7104,7 +7104,15 @@
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Puka 0.686 (impl .600, +8.6pp), Jeanty 0.457 (impl .556, -9.9pp), Walker 0.678 (impl .623, +5.5pp), Javonte 0.621 (impl .688, -6.6pp). Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment. Jeanty and Javonte legs are below their prices' implied probabilities."
    },
-   "received_at": "2026-10-18T14:45:00Z"
+   "received_at": "2026-10-18T14:45:00Z",
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-19T04:45:11Z",
+    "final_score": "ARI-LAR ARI 18, LAR 16 (Puka Nacua no TD; Rams TDs were Blake Corum and Colby Parkinson); BUF-LV BUF 33, LV 30 (Jeanty 1-yard TD); LAC-KC KC 22, LAC 6 (Walker 33-yard and 2-yard TDs); DAL-GB GB 23, DAL 13 (Javonte Williams 1-yard TD). Three legs hit but the Puka leg missed.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs (ARI-LAR 401873004, BUF-LV 401873005, LAC-KC 401873006, DAL-GB 401873007). TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 11:15PM CT wake after SNF went final."
+   }
   },
   {
    "bet_id": "us-tn:01m57k0247ejnadbszmchs5byc",
@@ -7183,7 +7191,8 @@
     "final_score": "TEN-IND TEN 26, IND 20 (Pollard no TD); BAL-CLE CLE 13, BAL 10 (Fannin no TD). Two confirmed-final losing legs decide the ticket now; Puka leg (ARI-LAR, 3:06PM CT) still pending and left ungraded - outcome already decided.",
     "net_units": -1.0,
     "net_usd": -10,
-    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule."
+    "source_note": "Every leg game verified Final via ESPN event IDs. TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 4PM CT wake per the settle-on-final-losing-leg rule.",
+    "puka_leg_backfill": "Learning only, settled outcome unchanged: Puka Nacua no TD in ARI-LAR (ARI 18, LAR 16) - leg result MISS, backfilled 2026-10-19T04:45:11Z. All three legs of this ticket missed."
    }
   },
   {
@@ -7372,10 +7381,10 @@
    "potential_payout_usd": 86.61,
    "potential_profit_usd": 76.61,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "4-leg parlay: Kyren Williams, Josh Allen, Kenneth Walker III, Christian Watson anytime TD",
    "selection": "Kyren Williams and Josh Allen and Kenneth Walker III and Christian Watson anytime TD",
    "market": "parlay",
@@ -7437,6 +7446,14 @@
     "model_version": "Oct13 Week6 generic player baseline, research only",
     "source_url": "https://garrettwalker1.github.io/ediths-picks/player_projections.json",
     "note": "Baselines: Kyren 0.690 (impl .655, +3.5pp), Walker 0.678 (impl .623, +5.5pp), Watson 0.438 (impl .455, -1.6pp). Josh Allen leg has NO baseline coverage - the Oct13 anytime-TD baseline covers RB/WR/TE scorers only, no QB entry for Allen; no probability claimed for that leg. Generic baselines; no validated betting edge, no fitted current QB/injury/opponent adjustment."
+   },
+   "grading": {
+    "source": "official final score and scoring summary (ESPN scoreboard/summary API, all leg games verified Final)",
+    "graded_at": "2026-10-19T04:45:11Z",
+    "final_score": "ARI-LAR ARI 18, LAR 16 (Kyren Williams no TD); BUF-LV BUF 33, LV 30 (Josh Allen threw two TD passes but did not score a TD himself - James Cook III had the Bills rushing TD; leg is MISS); LAC-KC KC 22, LAC 6 (Walker 33-yard and 2-yard TDs); DAL-GB GB 23, DAL 13 (Christian Watson no TD). Only the Walker leg hit.",
+    "net_units": -1.0,
+    "net_usd": -10,
+    "source_note": "Every leg game verified Final via ESPN event IDs (ARI-LAR 401873004, BUF-LV 401873005, LAC-KC 401873006, DAL-GB 401873007). TD scoring checked against official scoring summaries. Cash-out offers were never executed. Ticket settled once at the 11:15PM CT wake after SNF went final. Josh Allen leg rule: he had to score a TD (rush/receive); his two passing TDs do not count."
    }
   }
  ]

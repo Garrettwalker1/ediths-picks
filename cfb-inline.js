@@ -7,6 +7,7 @@ async function loadInlineCfb(){
   const doc=new DOMParser().parseFromString(await r.text(),'text/html');
   const data=JSON.parse(doc.getElementById('board-data').textContent);
   doc.querySelectorAll('.chip').forEach(c=>{if(c.textContent.trim()==='VALIDATION PENDING')c.textContent='VALIDATION PENDING - OCT 11, SUPERSEDED';});
+  doc.querySelectorAll('span,div,td,th').forEach(el=>{if(el.children.length===0&&el.textContent.trim()==='MODEL PENDING')el.textContent='MODEL SEALED';});
   doc.querySelectorAll('p,div,span').forEach(el=>{if(el.children.length===0){const t=el.textContent;
    if(t.includes('2026-inclusive repaired model, validation pending'))el.textContent='2026-inclusive repaired model. Oct 11 label "validation pending" is historical - the Week 7 forward test was graded Oct 18: no AP adoption (see banner).';
    if(t.includes('Winner-first improvement is unproven; Week7 forward test is sealed.'))el.textContent=t.replace('Winner-first improvement is unproven; Week7 forward test is sealed.','Week 7 forward test was sealed Oct 11 and graded Oct 18 - the AP variant did not beat the no-AP reference; no adoption.');}});

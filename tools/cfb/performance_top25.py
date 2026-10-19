@@ -2,7 +2,7 @@
 """Current-season RESUME Top 25, per owner Oct 19 2026 steering
 (phonemsg-01M5AS78XZ42N25T6F6QJH3FAA and phonemsg-01M5ATE7XWYJ85K7JT18CTM34K):
 wins and losses are the big thing, with strength of schedule, quality wins and
-losses, and head-to-head results; current-season stats support, never outweigh,
+losses, and head-to-head results; current-season stats support rather than outweigh
 results. No preseason talent, returning-production, portal, draft or AP inputs.
 
 Method (fixed, not tuned to AP):
@@ -188,7 +188,7 @@ out = {
     'method': ('Resume-first ranking over every 2026 FBS final through ' + AS_OF + ' (' + str(len(g)) + ' games). '
                '75% opponent-adjusted win-loss rating (Colley: quality wins count more, bad losses cost more, strength of '
                'schedule is an output of results); 25% opponent-adjusted scoring/yardage performance composite, so stats '
-               'support but never outweigh results. Head-to-head: inside a ' + format(H2H_THRESHOLD, '.1f') + '-rating-point '
+               'support results rather than drive the ranking. Head-to-head: inside a ' + format(H2H_THRESHOLD, '.1f') + '-rating-point '
                'near-tie, this season\'s head-to-head winner ranks ahead, applied transitively; circular cases fall back to '
                'the full-season resume. Current-season performance only: no preseason talent, returning-production, portal, '
                'draft or AP-poll inputs, and no prior-season results. Values are an unvalidated rating scale, not a calibrated '

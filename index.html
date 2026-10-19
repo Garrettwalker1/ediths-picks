@@ -80,8 +80,8 @@ const rank=noAp?r.ap_model_rank:r.rank,v=noAp?r.ap_model_rating:r.rating,delta=r
 const cue=delta===null?'Unranked in AP':delta>0?'↑ '+delta+' higher':delta<0?'↓ '+(-delta)+' lower':'Same rank';
 return `<div class="power-row ${rank<=5?'top-tier':''}" role="row"><div class="power-rank" role="cell">${rank}</div><div class="power-team" role="cell">${r.team}<small>${r.record} record</small></div><div role="cell"><span class="power-rating-number">${fmt(v)}</span><span class="power-rating-unit">pts</span><div class="power-track" aria-hidden="true"><i style="width:${Math.max(0,Math.min(100,v/50*100))}%"></i></div></div><div class="power-ap" role="cell">AP ${r.ap_rank??'NR'}<span class="${delta===null||delta===0?'even':delta>0?'above':'below'}">${cue}</span></div><div class="power-other" role="cell"><small>${noAp?'Perf':'AP fit'} </small>${noAp?r.rank:r.ap_model_rank}</div></div>`;
 }).join('');
-document.getElementById('powerCompareHead').textContent=noAp?'No-AP rank':'AP-fit rank';
-document.getElementById('powerLabel').textContent=noAp?'Separately fitted AP-points research variant. Not adopted. Bars: 0 to +35 pts.':'138 FBS teams ranked; showing 25. Bars share a fixed 0 to +50 point scale.';
+document.getElementById('powerCompareHead').textContent=noAp?'Season-perf rank':'AP-fit rank';
+document.getElementById('powerLabel').textContent=noAp?'Separately fitted AP-points research variant. Not adopted. Bars: 0 to +50 pts.':'138 FBS teams ranked; showing 25. Bars share a fixed 0 to +50 point scale.';
 for(const [id,on] of [['powerFull',!noAp],['powerNoAp',noAp]]){const b=document.getElementById(id);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));}
 }
 document.getElementById('powerFull').onclick=()=>renderCfbPower(false);document.getElementById('powerNoAp').onclick=()=>renderCfbPower(true);renderCfbPower();

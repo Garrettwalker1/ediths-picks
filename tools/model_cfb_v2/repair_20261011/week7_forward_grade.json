@@ -1,0 +1,664 @@
+{
+ "artifact": "week7_forward_grade",
+ "generated_at": "2026-10-19T02:34:19.492291+00:00",
+ "holdout": "2026 Week 7, 59 sealed FBS-vs-FBS games, Oct 13-18. Sealed predictions: tools/model_cfb_v2/repair_20261011/week7_sealed_research.json (sha256 6cdd4539ebe5f2164ddbbb27afb5a4749e37f8f84e72b5a00a89ca9bc6f5ca63, verified unchanged tonight).",
+ "protocol_source": "repair_20261011 sealed protocol: winner-first gates, bootstrap 5000 game-level resamples seed 261019. Gate 1: winner-accuracy improvement AP vs noAP and 2026-inclusive vs historical-only each with 95% CI lower bound above zero. Gate 2: MAE not settled worse (CI lower bound must not exceed zero). Gate 4: zero-crossing CI means no adoption, candidates stay research-only, extend with a newly predeclared future week, never retune against Week 7 outcomes.",
+ "finals_source": [
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261013&groups=80&limit=400",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261014&groups=80&limit=400",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261015&groups=80&limit=400",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261016&groups=80&limit=400",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261017&groups=80&limit=400",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261018&groups=80&limit=400"
+ ],
+ "coverage": "59/59 sealed events matched and final. 0 missing, 0 not-final.",
+ "metrics": {
+  "2026_ap": {
+   "mae": 12.16383252648291,
+   "winner_accuracy": 0.6440677966101694,
+   "winner_correct": 38
+  },
+  "2026_no_ap": {
+   "mae": 11.967506197337372,
+   "winner_accuracy": 0.6779661016949152,
+   "winner_correct": 40
+  },
+  "historical_ap": {
+   "mae": 12.154656689618998,
+   "winner_accuracy": 0.6610169491525424,
+   "winner_correct": 39
+  },
+  "historical_no_ap": {
+   "mae": 11.934441270291988,
+   "winner_accuracy": 0.6779661016949152,
+   "winner_correct": 40
+  }
+ },
+ "comparisons": {
+  "ap_effect_2026fit": {
+   "winner_diff": -0.03389830508474576,
+   "winner_ci95": [
+    -0.0847457627118644,
+    0.0
+   ],
+   "mae_diff": 0.19632632914553586,
+   "mae_ci95": [
+    -0.16531387425129454,
+    0.5621457198526131
+   ],
+   "winner_pct_better": 0.0
+  },
+  "recency_effect_ap": {
+   "winner_diff": -0.01694915254237288,
+   "winner_ci95": [
+    -0.05084745762711865,
+    0.0
+   ],
+   "mae_diff": 0.009175836863912558,
+   "mae_ci95": [
+    -0.12652128701097945,
+    0.14012429643358665
+   ],
+   "winner_pct_better": 0.0
+  }
+ },
+ "gates": {
+  "gate1_winner_ci_lb_above_zero": false,
+  "gate2_mae_not_settled_worse": true,
+  "adopt_ap_2026": false
+ },
+ "verdict": "NO ADOPTION. On the untouched Week 7 forward holdout the AP-points variant picked FEWER winners than the no-AP variant (38/59 vs 40/59; winner diff -0.034, CI95 [-0.085, 0.000]) and the 2026-inclusive fit also trailed the historical-only fit on winners (diff -0.017, CI95 [-0.051, 0.000]). Gate 1 fails; MAE gate 2 passes. Per the predeclared protocol the AP candidate stays research-only and the reference specification for the next prediction cutoff is the no-AP full feature set. No retuning against Week 7 outcomes was performed or will be.",
+ "next": "Predeclare a Week 8 extension (fresh sealed predictions, both specs, same gates) before the first Week 8 kickoff (Tue 2026-10-20). Midweek Week 8 board must use the no-AP reference spec and the current_inputs_20261016 replacement finals overlay for the three stale raw payloads (JSU-NDSU 401864577, SacState-EMU 401866408, UMass-Rutgers 401858423).",
+ "rows": [
+  {
+   "event_id": "401871067",
+   "actual": 3.0,
+   "home": "Middle Tennessee Blue Raiders",
+   "away": "Delaware Blue Hens",
+   "2026_ap": 0.575579059561357,
+   "2026_no_ap": 0.5519188700232389,
+   "historical_ap": 0.9319644853943521,
+   "historical_no_ap": 0.9355094566348141
+  },
+  {
+   "event_id": "401871053",
+   "actual": 3.0,
+   "home": "Jacksonville State Gamecocks",
+   "away": "Florida International Panthers",
+   "2026_ap": 1.8517532638547318,
+   "2026_no_ap": 2.015473838554793,
+   "historical_ap": 1.7850203148539432,
+   "historical_no_ap": 1.991014055741077
+  },
+  {
+   "event_id": "401871054",
+   "actual": 3.0,
+   "home": "Missouri State Bears",
+   "away": "Kennesaw State Owls",
+   "2026_ap": 7.912140788225579,
+   "2026_no_ap": 8.188219215330937,
+   "historical_ap": 7.155075430909865,
+   "historical_no_ap": 7.493148369399007
+  },
+  {
+   "event_id": "401871068",
+   "actual": -13.0,
+   "home": "Sam Houston Bearkats",
+   "away": "Western Kentucky Hilltoppers",
+   "2026_ap": -4.094675043950283,
+   "2026_no_ap": -4.688933210808535,
+   "historical_ap": -3.5005857228968154,
+   "historical_no_ap": -4.196320274428153
+  },
+  {
+   "event_id": "401862800",
+   "actual": 13.0,
+   "home": "UAB Blazers",
+   "away": "East Carolina Pirates",
+   "2026_ap": -6.614709313350995,
+   "2026_no_ap": -7.508172909979629,
+   "historical_ap": -7.007630628583286,
+   "historical_no_ap": -8.045318607278164
+  },
+  {
+   "event_id": "401869950",
+   "actual": -8.0,
+   "home": "Old Dominion Monarchs",
+   "away": "Georgia Southern Eagles",
+   "2026_ap": 0.6080637095713142,
+   "2026_no_ap": 0.2884443049188201,
+   "historical_ap": 0.3918722762924647,
+   "historical_no_ap": 0.06417261808756969
+  },
+  {
+   "event_id": "401860923",
+   "actual": 39.0,
+   "home": "Texas State Bobcats",
+   "away": "Colorado State Rams",
+   "2026_ap": 21.032982547433587,
+   "2026_no_ap": 22.087756602862026,
+   "historical_ap": 20.811366011748287,
+   "historical_no_ap": 22.046016258014557
+  },
+  {
+   "event_id": "401862801",
+   "actual": 14.0,
+   "home": "Tulane Green Wave",
+   "away": "Memphis Tigers",
+   "2026_ap": -3.2692520449019833,
+   "2026_no_ap": -3.7020406496694145,
+   "historical_ap": -3.4239871278846596,
+   "historical_no_ap": -3.8916898950822354
+  },
+  {
+   "event_id": "401858493",
+   "actual": -12.0,
+   "home": "Purdue Boilermakers",
+   "away": "Washington Huskies",
+   "2026_ap": -6.42519653584571,
+   "2026_no_ap": -7.264685834858025,
+   "historical_ap": -6.413692178697039,
+   "historical_no_ap": -7.418384357019246
+  },
+  {
+   "event_id": "401869844",
+   "actual": -3.0,
+   "home": "Coastal Carolina Chanticleers",
+   "away": "App State Mountaineers",
+   "2026_ap": -1.0029176405456424,
+   "2026_no_ap": -1.7041647490809657,
+   "historical_ap": -1.0267598224620755,
+   "historical_no_ap": -1.8372075763137845
+  },
+  {
+   "event_id": "401858488",
+   "actual": -4.0,
+   "home": "Indiana Hoosiers",
+   "away": "Ohio State Buckeyes",
+   "2026_ap": -0.4156205829042898,
+   "2026_no_ap": -0.712839749452475,
+   "historical_ap": -0.8481926274861413,
+   "historical_no_ap": -1.2258274968602256
+  },
+  {
+   "event_id": "401856724",
+   "actual": -3.0,
+   "home": "Texas Longhorns",
+   "away": "Florida Gators",
+   "2026_ap": 17.583189794795025,
+   "2026_no_ap": 13.587649236214812,
+   "historical_ap": 17.08200839355777,
+   "historical_no_ap": 12.709258227741177
+  },
+  {
+   "event_id": "401856720",
+   "actual": 31.0,
+   "home": "LSU Tigers",
+   "away": "Mississippi State Bulldogs",
+   "2026_ap": 11.504240742660986,
+   "2026_no_ap": 13.305061590014908,
+   "historical_ap": 9.867674894686626,
+   "historical_no_ap": 11.891420226681824
+  },
+  {
+   "event_id": "401858268",
+   "actual": 10.0,
+   "home": "SMU Mustangs",
+   "away": "Virginia Cavaliers",
+   "2026_ap": 9.457107763634916,
+   "2026_no_ap": 9.527106802765974,
+   "historical_ap": 10.125641798722048,
+   "historical_no_ap": 10.182401485352273
+  },
+  {
+   "event_id": "401858491",
+   "actual": -3.0,
+   "home": "Michigan State Spartans",
+   "away": "Northwestern Wildcats",
+   "2026_ap": -14.216129011078124,
+   "2026_no_ap": -15.096357264278819,
+   "historical_ap": -14.771116653832603,
+   "historical_no_ap": -15.788545308522778
+  },
+  {
+   "event_id": "401856829",
+   "actual": 3.0,
+   "home": "West Virginia Mountaineers",
+   "away": "Cincinnati Bearcats",
+   "2026_ap": -4.021611600312338,
+   "2026_no_ap": -4.556086706784961,
+   "historical_ap": -4.442556297136061,
+   "historical_no_ap": -5.087667789360561
+  },
+  {
+   "event_id": "401856830",
+   "actual": 11.0,
+   "home": "Kansas State Wildcats",
+   "away": "Kansas Jayhawks",
+   "2026_ap": 2.6706819478376365,
+   "2026_no_ap": 2.649994012668146,
+   "historical_ap": 3.0913328366961883,
+   "historical_no_ap": 3.102383952594016
+  },
+  {
+   "event_id": "401858267",
+   "actual": 6.0,
+   "home": "Boston College Eagles",
+   "away": "Pittsburgh Panthers",
+   "2026_ap": -6.479773243560923,
+   "2026_no_ap": -7.229687336402335,
+   "historical_ap": -6.2269912005608035,
+   "historical_no_ap": -7.105024366742484
+  },
+  {
+   "event_id": "401862802",
+   "actual": 32.0,
+   "home": "Army Black Knights",
+   "away": "Florida Atlantic Owls",
+   "2026_ap": -6.9783341962868475,
+   "2026_no_ap": -8.090771669603562,
+   "historical_ap": -6.734953903336102,
+   "historical_no_ap": -8.057622277425104
+  },
+  {
+   "event_id": "401866441",
+   "actual": -1.0,
+   "home": "Bowling Green Falcons",
+   "away": "Ball State Cardinals",
+   "2026_ap": 11.06455556055437,
+   "2026_no_ap": 11.573975336712326,
+   "historical_ap": 11.22828200174595,
+   "historical_no_ap": 11.86590907238956
+  },
+  {
+   "event_id": "401869957",
+   "actual": 27.0,
+   "home": "James Madison Dukes",
+   "away": "Georgia State Panthers",
+   "2026_ap": 5.637150954946499,
+   "2026_no_ap": 5.958815152016018,
+   "historical_ap": 5.435267506824738,
+   "historical_no_ap": 5.862913234381243
+  },
+  {
+   "event_id": "401858489",
+   "actual": -7.0,
+   "home": "Maryland Terrapins",
+   "away": "Rutgers Scarlet Knights",
+   "2026_ap": -5.135458355360112,
+   "2026_no_ap": -6.250894689726748,
+   "historical_ap": -5.711199736840436,
+   "historical_no_ap": -6.963624650731575
+  },
+  {
+   "event_id": "401862803",
+   "actual": -7.0,
+   "home": "Temple Owls",
+   "away": "Charlotte 49ers",
+   "2026_ap": 17.931070055700246,
+   "2026_no_ap": 19.093724630947737,
+   "historical_ap": 17.768461464951425,
+   "historical_no_ap": 19.16427046071611
+  },
+  {
+   "event_id": "401866442",
+   "actual": 7.0,
+   "home": "Buffalo Bulls",
+   "away": "Massachusetts Minutemen",
+   "2026_ap": 3.6035672837247548,
+   "2026_no_ap": 3.6610128120802408,
+   "historical_ap": 2.6626077661400935,
+   "historical_no_ap": 2.758982991859569
+  },
+  {
+   "event_id": "401866443",
+   "actual": -7.0,
+   "home": "Central Michigan Chippewas",
+   "away": "Western Michigan Broncos",
+   "2026_ap": -4.101170365448376,
+   "2026_no_ap": -4.836061271011878,
+   "historical_ap": -3.785825231508767,
+   "historical_no_ap": -4.6679866894047155
+  },
+  {
+   "event_id": "401856719",
+   "actual": -3.0,
+   "home": "Georgia Bulldogs",
+   "away": "Auburn Tigers",
+   "2026_ap": 16.838726718744933,
+   "2026_no_ap": 11.618731291928674,
+   "historical_ap": 17.72668672277097,
+   "historical_no_ap": 11.871884517332429
+  },
+  {
+   "event_id": "401856723",
+   "actual": 16.0,
+   "home": "Tennessee Volunteers",
+   "away": "Alabama Crimson Tide",
+   "2026_ap": -1.8925946510236962,
+   "2026_no_ap": 0.05776213849542344,
+   "historical_ap": -2.1255586425678654,
+   "historical_no_ap": 0.05033915115387089
+  },
+  {
+   "event_id": "401856721",
+   "actual": 28.0,
+   "home": "Ole Miss Rebels",
+   "away": "Missouri Tigers",
+   "2026_ap": 4.0071131643247355,
+   "2026_no_ap": 3.54478564038871,
+   "historical_ap": 3.784619280670734,
+   "historical_no_ap": 3.309964226390117
+  },
+  {
+   "event_id": "401856828",
+   "actual": 28.0,
+   "home": "Texas Tech Red Raiders",
+   "away": "Arizona State Sun Devils",
+   "2026_ap": 26.186146664137155,
+   "2026_no_ap": 23.383047163069072,
+   "historical_ap": 26.108262304277545,
+   "historical_no_ap": 23.013848418536814
+  },
+  {
+   "event_id": "401858264",
+   "actual": 10.0,
+   "home": "Virginia Tech Hokies",
+   "away": "Georgia Tech Yellow Jackets",
+   "2026_ap": 4.04302721524171,
+   "2026_no_ap": 3.597479766597668,
+   "historical_ap": 3.1346555979502586,
+   "historical_no_ap": 2.6302907379231555
+  },
+  {
+   "event_id": "401858266",
+   "actual": -4.0,
+   "home": "Duke Blue Devils",
+   "away": "North Carolina Tar Heels",
+   "2026_ap": 12.02568791022439,
+   "2026_no_ap": 12.639399550016467,
+   "historical_ap": 11.27674157862089,
+   "historical_no_ap": 12.023032455330807
+  },
+  {
+   "event_id": "401858490",
+   "actual": 3.0,
+   "home": "Michigan Wolverines",
+   "away": "Penn State Nittany Lions",
+   "2026_ap": 9.5707001158599,
+   "2026_no_ap": 10.018644818319224,
+   "historical_ap": 10.017648456707889,
+   "historical_no_ap": 10.560121340760169
+  },
+  {
+   "event_id": "401864522",
+   "actual": 18.0,
+   "home": "Wyoming Cowboys",
+   "away": "Northern Illinois Huskies",
+   "2026_ap": 7.298002774697288,
+   "2026_no_ap": 7.4012062296680305,
+   "historical_ap": 7.575348382703311,
+   "historical_no_ap": 7.701793101885126
+  },
+  {
+   "event_id": "401864524",
+   "actual": 10.0,
+   "home": "Air Force Falcons",
+   "away": "UNLV Rebels",
+   "2026_ap": -1.8634845223173864,
+   "2026_no_ap": -2.299249232195783,
+   "historical_ap": -1.8727973969290463,
+   "historical_no_ap": -2.377964620903038
+  },
+  {
+   "event_id": "401866444",
+   "actual": -20.0,
+   "home": "Eastern Michigan Eagles",
+   "away": "Toledo Rockets",
+   "2026_ap": 3.490963400966211,
+   "2026_no_ap": 3.1844186202553937,
+   "historical_ap": 3.894523797103184,
+   "historical_no_ap": 3.5396196085990965
+  },
+  {
+   "event_id": "401866478",
+   "actual": 20.0,
+   "home": "Miami (OH) RedHawks",
+   "away": "Akron Zips",
+   "2026_ap": 14.040021720779528,
+   "2026_no_ap": 14.957499231170676,
+   "historical_ap": 13.042924844402235,
+   "historical_no_ap": 14.148164747966302
+  },
+  {
+   "event_id": "401862805",
+   "actual": -21.0,
+   "home": "Rice Owls",
+   "away": "Tulsa Golden Hurricane",
+   "2026_ap": -0.5365613123474366,
+   "2026_no_ap": -1.1219762673436309,
+   "historical_ap": -0.49699243893564393,
+   "historical_no_ap": -1.196957422304366
+  },
+  {
+   "event_id": "401869966",
+   "actual": 27.0,
+   "home": "Louisiana Ragin' Cajuns",
+   "away": "Troy Trojans",
+   "2026_ap": 2.8775674242092166,
+   "2026_no_ap": 2.7592830013302456,
+   "historical_ap": 2.9715840625010963,
+   "historical_no_ap": 2.8589009714449563
+  },
+  {
+   "event_id": "401860903",
+   "actual": 18.0,
+   "home": "Oregon State Beavers",
+   "away": "Washington State Cougars",
+   "2026_ap": 11.553166451508298,
+   "2026_no_ap": 12.426664005522525,
+   "historical_ap": 11.575367577466867,
+   "historical_no_ap": 12.617703652917598
+  },
+  {
+   "event_id": "401858263",
+   "actual": 8.0,
+   "home": "Miami Hurricanes",
+   "away": "Florida State Seminoles",
+   "2026_ap": 30.89046339702996,
+   "2026_no_ap": 26.81016613564973,
+   "historical_ap": 30.440452236956492,
+   "historical_no_ap": 25.92164337605865
+  },
+  {
+   "event_id": "401856726",
+   "actual": -10.0,
+   "home": "Vanderbilt Commodores",
+   "away": "Arkansas Razorbacks",
+   "2026_ap": 0.7723350108024469,
+   "2026_no_ap": 0.4319071805358732,
+   "historical_ap": 0.6384494032098376,
+   "historical_no_ap": 0.2590119630935179
+  },
+  {
+   "event_id": "401856832",
+   "actual": -11.0,
+   "home": "Baylor Bears",
+   "away": "TCU Horned Frogs",
+   "2026_ap": 7.32026053178012,
+   "2026_no_ap": 7.517182905192419,
+   "historical_ap": 6.369692680304303,
+   "historical_no_ap": 6.595692942569345
+  },
+  {
+   "event_id": "401862806",
+   "actual": 27.0,
+   "home": "South Florida Bulls",
+   "away": "Kent State Golden Flashes",
+   "2026_ap": 17.865226684568466,
+   "2026_no_ap": 19.296681933284216,
+   "historical_ap": 17.387929630450152,
+   "historical_no_ap": 19.11509683298537
+  },
+  {
+   "event_id": "401864520",
+   "actual": 14.0,
+   "home": "North Dakota State Bison",
+   "away": "Nevada Wolf Pack",
+   "2026_ap": 13.396489309183451,
+   "2026_no_ap": 14.33978450847637,
+   "historical_ap": 13.32188919751702,
+   "historical_no_ap": 14.438724318360105
+  },
+  {
+   "event_id": "401869934",
+   "actual": -10.0,
+   "home": "Southern Miss Golden Eagles",
+   "away": "Arkansas State Red Wolves",
+   "2026_ap": -4.952303811427817,
+   "2026_no_ap": -5.314612443164063,
+   "historical_ap": -5.787364391047127,
+   "historical_no_ap": -6.21164352059086
+  },
+  {
+   "event_id": "401856809",
+   "actual": 4.0,
+   "home": "BYU Cougars",
+   "away": "Notre Dame Fighting Irish",
+   "2026_ap": -8.56979227432413,
+   "2026_no_ap": -8.389415647640995,
+   "historical_ap": -8.433194754407369,
+   "historical_no_ap": -8.235138975456898
+  },
+  {
+   "event_id": "401858494",
+   "actual": 10.0,
+   "home": "UCLA Bruins",
+   "away": "Wisconsin Badgers",
+   "2026_ap": -0.6188141450722915,
+   "2026_no_ap": -4.3869867538172445,
+   "historical_ap": -0.3286110433337974,
+   "historical_no_ap": -4.638366129917678
+  },
+  {
+   "event_id": "401856722",
+   "actual": -8.0,
+   "home": "Oklahoma Sooners",
+   "away": "Kentucky Wildcats",
+   "2026_ap": 7.874796361034095,
+   "2026_no_ap": 10.442318700623218,
+   "historical_ap": 6.943925300257986,
+   "historical_no_ap": 9.91285361817928
+  },
+  {
+   "event_id": "401856831",
+   "actual": 3.0,
+   "home": "Houston Cougars",
+   "away": "Oklahoma State Cowboys",
+   "2026_ap": -0.4256719193994858,
+   "2026_no_ap": 0.5184514727194776,
+   "historical_ap": 0.0949362267129219,
+   "historical_no_ap": 1.1656113598542088
+  },
+  {
+   "event_id": "401858265",
+   "actual": -8.0,
+   "home": "Syracuse Orange",
+   "away": "Louisville Cardinals",
+   "2026_ap": -1.925686726901084,
+   "2026_no_ap": -2.596894179872753,
+   "historical_ap": -2.2027367733783194,
+   "historical_no_ap": -2.9568698040241888
+  },
+  {
+   "event_id": "401862804",
+   "actual": 4.0,
+   "home": "UTSA Roadrunners",
+   "away": "Navy Midshipmen",
+   "2026_ap": 14.330046050573852,
+   "2026_no_ap": 15.207172246115693,
+   "historical_ap": 13.937827160544378,
+   "historical_no_ap": 14.979074626654672
+  },
+  {
+   "event_id": "401871091",
+   "actual": -24.0,
+   "home": "UL Monroe Warhawks",
+   "away": "Louisiana Tech Bulldogs",
+   "2026_ap": -1.171064924263744,
+   "2026_no_ap": -1.449383705196289,
+   "historical_ap": -1.3575359040799784,
+   "historical_no_ap": -1.6661327428873012
+  },
+  {
+   "event_id": "401864523",
+   "actual": -13.0,
+   "home": "UTEP Miners",
+   "away": "San Jos\u00e9 State Spartans",
+   "2026_ap": -7.809076603805397,
+   "2026_no_ap": -8.430461980146752,
+   "historical_ap": -8.095005437992718,
+   "historical_no_ap": -8.798385600342408
+  },
+  {
+   "event_id": "401866445",
+   "actual": -41.0,
+   "home": "Sacramento State Hornets",
+   "away": "Ohio Bobcats",
+   "2026_ap": -10.579397813034362,
+   "2026_no_ap": -11.36783543258138,
+   "historical_ap": -10.773073859506022,
+   "historical_no_ap": -11.661680836064313
+  },
+  {
+   "event_id": "401856833",
+   "actual": -3.0,
+   "home": "Colorado Buffaloes",
+   "away": "Utah Utes",
+   "2026_ap": -17.73191963428693,
+   "2026_no_ap": -15.514458817510569,
+   "historical_ap": -18.353294730805736,
+   "historical_no_ap": -15.963317749729072
+  },
+  {
+   "event_id": "401858269",
+   "actual": -34.0,
+   "home": "California Golden Bears",
+   "away": "Wake Forest Demon Deacons",
+   "2026_ap": -1.8475481119112365,
+   "2026_no_ap": -1.1925062214804756,
+   "historical_ap": -2.4964367993989853,
+   "historical_no_ap": -1.7672352516294385
+  },
+  {
+   "event_id": "401860904",
+   "actual": 3.0,
+   "home": "San Diego State Aztecs",
+   "away": "Fresno State Bulldogs",
+   "2026_ap": -5.304685378545234,
+   "2026_no_ap": -6.066467624350316,
+   "historical_ap": -5.6848443338616,
+   "historical_no_ap": -6.576705068173283
+  },
+  {
+   "event_id": "401864521",
+   "actual": -11.0,
+   "home": "Hawai'i Rainbow Warriors",
+   "away": "New Mexico Lobos",
+   "2026_ap": -10.863812894069206,
+   "2026_no_ap": -12.0488413815401,
+   "historical_ap": -10.621310664210158,
+   "historical_no_ap": -11.976886286128945
+  },
+  {
+   "event_id": "401858492",
+   "actual": 3.0,
+   "home": "Oregon Ducks",
+   "away": "Nebraska Cornhuskers",
+   "2026_ap": 8.926663416287884,
+   "2026_no_ap": 9.883840965849004,
+   "historical_ap": 8.42138178106304,
+   "historical_no_ap": 9.575178471448353
+  }
+ ]
+}

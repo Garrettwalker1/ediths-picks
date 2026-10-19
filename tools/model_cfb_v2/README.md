@@ -13,6 +13,7 @@ train <=2023 / validation 2024 / locked test 2025.
 - NFL draft production lost (nflverse draft_picks, name+school join, 97.9% of picks mapped, FBS-only):
   -0.085 vs churn+coach, CI95 [-0.146,-0.028], 100% better. SETTLED.
 - Injuries: NULL. No free historical CFB injury dataset exists. Documented as a null, not silently dropped.
+- AP poll points (Oct 18 forward verdict): the 2026 Week 7 untouched forward holdout (59 sealed FBS games, predeclared winner-first gates) picked FEWER winners with AP than without (38/59 vs 40/59; winner CI95 [-0.085, 0.000]). NO ADOPTION; AP stays research-only display context. See repair_20261011/week7_forward_grade.json.
 
 ## Locked-test 2025 numbers (same rows)
 - v1: MAE 13.54, winner accuracy 70.4%

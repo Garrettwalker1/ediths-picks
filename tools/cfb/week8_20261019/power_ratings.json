@@ -1,0 +1,1401 @@
+{
+  "model": "CFB no-AP reference, fixed Oct11 coefficients",
+  "model_as_of": "2026-10-19",
+  "records_as_of": "2026-10-19",
+  "ap_date": "2026-10-18T07:00Z",
+  "ap_last_updated": "2026-10-18T21:15Z",
+  "method": "No-AP fixed reference coefficients applied to current features, centered across 138 FBS teams. Comparison is separately fitted AP research variant, not subtraction from same fit. Neither is a validated betting edge.",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=1&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=2&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=3&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=4&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=5&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=6&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=7&groups=80&limit=400",
+    "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=8&groups=80&limit=400",
+    "https://site.api.espn.com/apis/v2/sports/football/college-football/standings?season=2026&type=0&level=3"
+  ],
+  "teams": [
+    {
+      "team": "Miami Hurricanes",
+      "rating": 23.739399520717765,
+      "record": "6-0",
+      "ap_rank": 1,
+      "games_used": 6,
+      "rank": 1,
+      "ap_model_rating": 27.606759168029026,
+      "ap_model_rank": 1
+    },
+    {
+      "team": "Oregon Ducks",
+      "rating": 22.54109586412154,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 2,
+      "ap_model_rating": 20.29232565593573,
+      "ap_model_rank": 5
+    },
+    {
+      "team": "Texas Tech Red Raiders",
+      "rating": 20.76709628334189,
+      "record": "6-0",
+      "ap_rank": 8,
+      "games_used": 6,
+      "rank": 3,
+      "ap_model_rating": 23.653948573608933,
+      "ap_model_rank": 2
+    },
+    {
+      "team": "Ohio State Buckeyes",
+      "rating": 18.642086233632998,
+      "record": "6-1",
+      "ap_rank": 3,
+      "games_used": 7,
+      "rank": 4,
+      "ap_model_rating": 22.50738491779212,
+      "ap_model_rank": 3
+    },
+    {
+      "team": "Notre Dame Fighting Irish",
+      "rating": 18.6079157758256,
+      "record": "6-1",
+      "ap_rank": 4,
+      "games_used": 7,
+      "rank": 5,
+      "ap_model_rating": 21.25391775437451,
+      "ap_model_rank": 4
+    },
+    {
+      "team": "LSU Tigers",
+      "rating": 17.946164243683846,
+      "record": "5-2",
+      "ap_rank": 18,
+      "games_used": 7,
+      "rank": 6,
+      "ap_model_rating": 18.05833381316695,
+      "ap_model_rank": 7
+    },
+    {
+      "team": "Indiana Hoosiers",
+      "rating": 14.87568363371108,
+      "record": "6-1",
+      "ap_rank": 6,
+      "games_used": 7,
+      "rank": 7,
+      "ap_model_rating": 18.09009162649276,
+      "ap_model_rank": 6
+    },
+    {
+      "team": "Texas Longhorns",
+      "rating": 13.946242027337643,
+      "record": "4-2",
+      "ap_rank": 19,
+      "games_used": 6,
+      "rank": 8,
+      "ap_model_rating": 13.8516771900725,
+      "ap_model_rank": 11
+    },
+    {
+      "team": "Utah Utes",
+      "rating": 13.471264270484479,
+      "record": "6-0",
+      "ap_rank": 10,
+      "games_used": 6,
+      "rank": 9,
+      "ap_model_rating": 16.15441053022551,
+      "ap_model_rank": 9
+    },
+    {
+      "team": "Georgia Bulldogs",
+      "rating": 13.230327676106402,
+      "record": "6-1",
+      "ap_rank": 5,
+      "games_used": 7,
+      "rank": 10,
+      "ap_model_rating": 16.538150147922845,
+      "ap_model_rank": 8
+    },
+    {
+      "team": "Wake Forest Demon Deacons",
+      "rating": 13.025212475259213,
+      "record": "6-1",
+      "ap_rank": 17,
+      "games_used": 7,
+      "rank": 11,
+      "ap_model_rating": 13.564820611595167,
+      "ap_model_rank": 12
+    },
+    {
+      "team": "Texas State Bobcats",
+      "rating": 12.970376857172873,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 12,
+      "ap_model_rating": 11.510482614388696,
+      "ap_model_rank": 14
+    },
+    {
+      "team": "Ole Miss Rebels",
+      "rating": 12.791512568604471,
+      "record": "5-1",
+      "ap_rank": 7,
+      "games_used": 6,
+      "rank": 13,
+      "ap_model_rating": 15.966430398523588,
+      "ap_model_rank": 10
+    },
+    {
+      "team": "Arizona Wildcats",
+      "rating": 11.953744779424483,
+      "record": "5-1",
+      "ap_rank": 25,
+      "games_used": 6,
+      "rank": 14,
+      "ap_model_rating": 10.992073437161114,
+      "ap_model_rank": 16
+    },
+    {
+      "team": "Wisconsin Badgers",
+      "rating": 10.850481905142615,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 15,
+      "ap_model_rating": 9.905851192357812,
+      "ap_model_rank": 18
+    },
+    {
+      "team": "Nebraska Cornhuskers",
+      "rating": 10.721278126475166,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 16,
+      "ap_model_rating": 9.724298683774759,
+      "ap_model_rank": 20
+    },
+    {
+      "team": "Texas A&M Aggies",
+      "rating": 10.15042529012256,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 17,
+      "ap_model_rating": 8.814825691970722,
+      "ap_model_rank": 23
+    },
+    {
+      "team": "Alabama Crimson Tide",
+      "rating": 9.37359605754212,
+      "record": "5-2",
+      "ap_rank": 13,
+      "games_used": 7,
+      "rank": 18,
+      "ap_model_rating": 11.085269124066222,
+      "ap_model_rank": 15
+    },
+    {
+      "team": "Michigan Wolverines",
+      "rating": 9.29476835784746,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 19,
+      "ap_model_rating": 8.058975218814268,
+      "ap_model_rank": 25
+    },
+    {
+      "team": "Duke Blue Devils",
+      "rating": 9.190700555622339,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 20,
+      "ap_model_rating": 8.046262377987684,
+      "ap_model_rank": 26
+    },
+    {
+      "team": "Clemson Tigers",
+      "rating": 9.105917709895756,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 21,
+      "ap_model_rating": 7.707160020715889,
+      "ap_model_rank": 29
+    },
+    {
+      "team": "Boise State Broncos",
+      "rating": 8.94833009126678,
+      "record": "5-1",
+      "ap_rank": 21,
+      "games_used": 6,
+      "rank": 22,
+      "ap_model_rating": 8.749924696810933,
+      "ap_model_rank": 24
+    },
+    {
+      "team": "Liberty Flames",
+      "rating": 8.597333887041852,
+      "record": "5-1",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 23,
+      "ap_model_rating": 7.36635883736789,
+      "ap_model_rank": 30
+    },
+    {
+      "team": "Iowa Hawkeyes",
+      "rating": 8.476400860612753,
+      "record": "5-1",
+      "ap_rank": 15,
+      "games_used": 6,
+      "rank": 24,
+      "ap_model_rating": 9.882521479824543,
+      "ap_model_rank": 19
+    },
+    {
+      "team": "BYU Cougars",
+      "rating": 8.248303618997564,
+      "record": "6-0",
+      "ap_rank": 2,
+      "games_used": 6,
+      "rank": 25,
+      "ap_model_rating": 12.996782020649928,
+      "ap_model_rank": 13
+    },
+    {
+      "team": "USC Trojans",
+      "rating": 8.145139847459063,
+      "record": "6-1",
+      "ap_rank": 16,
+      "games_used": 7,
+      "rank": 26,
+      "ap_model_rating": 8.888133780488662,
+      "ap_model_rank": 22
+    },
+    {
+      "team": "Northwestern Wildcats",
+      "rating": 7.964451646652813,
+      "record": "5-1",
+      "ap_rank": 24,
+      "games_used": 6,
+      "rank": 27,
+      "ap_model_rating": 7.853158968316968,
+      "ap_model_rank": 28
+    },
+    {
+      "team": "Missouri Tigers",
+      "rating": 7.907935422395096,
+      "record": "5-2",
+      "ap_rank": 22,
+      "games_used": 7,
+      "rank": 28,
+      "ap_model_rating": 8.024536261929033,
+      "ap_model_rank": 27
+    },
+    {
+      "team": "Tennessee Volunteers",
+      "rating": 7.693807619812005,
+      "record": "6-1",
+      "ap_rank": 11,
+      "games_used": 7,
+      "rank": 29,
+      "ap_model_rating": 10.69289064722572,
+      "ap_model_rank": 17
+    },
+    {
+      "team": "Oklahoma Sooners",
+      "rating": 7.098798920787812,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 30,
+      "ap_model_rating": 6.173007426516711,
+      "ap_model_rank": 32
+    },
+    {
+      "team": "SMU Mustangs",
+      "rating": 6.874544314250035,
+      "record": "5-1",
+      "ap_rank": 23,
+      "games_used": 6,
+      "rank": 31,
+      "ap_model_rating": 6.69089985304652,
+      "ap_model_rank": 31
+    },
+    {
+      "team": "Florida State Seminoles",
+      "rating": 6.677562837312533,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 32,
+      "ap_model_rating": 5.660064030666972,
+      "ap_model_rank": 35
+    },
+    {
+      "team": "Illinois Fighting Illini",
+      "rating": 6.65200959970027,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 33,
+      "ap_model_rating": 5.80718016924667,
+      "ap_model_rank": 34
+    },
+    {
+      "team": "UCLA Bruins",
+      "rating": 5.972900989583331,
+      "record": "6-0",
+      "ap_rank": 9,
+      "games_used": 6,
+      "rank": 34,
+      "ap_model_rating": 9.273123038260778,
+      "ap_model_rank": 21
+    },
+    {
+      "team": "Oklahoma State Cowboys",
+      "rating": 5.972524809107509,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 35,
+      "ap_model_rating": 5.268574054058436,
+      "ap_model_rank": 36
+    },
+    {
+      "team": "Baylor Bears",
+      "rating": 5.561044529490219,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 36,
+      "ap_model_rating": 4.5613894681956735,
+      "ap_model_rank": 38
+    },
+    {
+      "team": "Louisville Cardinals",
+      "rating": 5.435230817282815,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 37,
+      "ap_model_rating": 4.621546776930756,
+      "ap_model_rank": 37
+    },
+    {
+      "team": "South Carolina Gamecocks",
+      "rating": 5.274217910842691,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 38,
+      "ap_model_rating": 4.332501634795977,
+      "ap_model_rank": 40
+    },
+    {
+      "team": "Auburn Tigers",
+      "rating": 5.021854033932519,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 39,
+      "ap_model_rating": 4.388085871526701,
+      "ap_model_rank": 39
+    },
+    {
+      "team": "Oregon State Beavers",
+      "rating": 4.949090978218879,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 40,
+      "ap_model_rating": 3.7532026855909804,
+      "ap_model_rank": 43
+    },
+    {
+      "team": "New Mexico Lobos",
+      "rating": 4.745696582314449,
+      "record": "5-1",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 41,
+      "ap_model_rating": 3.9319161532258198,
+      "ap_model_rank": 42
+    },
+    {
+      "team": "Houston Cougars",
+      "rating": 4.222642700379846,
+      "record": "6-1",
+      "ap_rank": 14,
+      "games_used": 7,
+      "rank": 42,
+      "ap_model_rating": 6.098217682307037,
+      "ap_model_rank": 33
+    },
+    {
+      "team": "Pittsburgh Panthers",
+      "rating": 4.062260422527717,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 43,
+      "ap_model_rating": 3.2293187220228274,
+      "ap_model_rank": 45
+    },
+    {
+      "team": "Western Kentucky Hilltoppers",
+      "rating": 4.012469769826949,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 44,
+      "ap_model_rating": 3.245132379738844,
+      "ap_model_rank": 44
+    },
+    {
+      "team": "North Dakota State Bison",
+      "rating": 3.8490511761169204,
+      "record": "6-1",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 45,
+      "ap_model_rating": 2.8803016907305006,
+      "ap_model_rank": 46
+    },
+    {
+      "team": "Ohio Bobcats",
+      "rating": 3.543061988173384,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 46,
+      "ap_model_rating": 2.7636790698709452,
+      "ap_model_rank": 47
+    },
+    {
+      "team": "Florida Gators",
+      "rating": 3.4753062483827586,
+      "record": "5-2",
+      "ap_rank": 20,
+      "games_used": 7,
+      "rank": 47,
+      "ap_model_rating": 4.023604089977144,
+      "ap_model_rank": 41
+    },
+    {
+      "team": "Virginia Cavaliers",
+      "rating": 3.4128569886809013,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 48,
+      "ap_model_rating": 2.722909453628497,
+      "ap_model_rank": 48
+    },
+    {
+      "team": "North Texas Mean Green",
+      "rating": 3.246001982179494,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 49,
+      "ap_model_rating": 2.086852302243069,
+      "ap_model_rank": 53
+    },
+    {
+      "team": "Minnesota Golden Gophers",
+      "rating": 3.2159881859437762,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 50,
+      "ap_model_rating": 2.477121882355962,
+      "ap_model_rank": 50
+    },
+    {
+      "team": "Washington Huskies",
+      "rating": 3.208605659002374,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 51,
+      "ap_model_rating": 2.3096539114744497,
+      "ap_model_rank": 51
+    },
+    {
+      "team": "Memphis Tigers",
+      "rating": 3.112115431673126,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 52,
+      "ap_model_rating": 2.285681747445767,
+      "ap_model_rank": 52
+    },
+    {
+      "team": "Georgia Tech Yellow Jackets",
+      "rating": 3.0556115388707257,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 53,
+      "ap_model_rating": 2.082770569853536,
+      "ap_model_rank": 54
+    },
+    {
+      "team": "Kansas Jayhawks",
+      "rating": 2.864909810475841,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 54,
+      "ap_model_rating": 2.0710884912961935,
+      "ap_model_rank": 55
+    },
+    {
+      "team": "UTSA Roadrunners",
+      "rating": 2.201434717877281,
+      "record": "6-1",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 55,
+      "ap_model_rating": 1.2518304083030563,
+      "ap_model_rank": 58
+    },
+    {
+      "team": "James Madison Dukes",
+      "rating": 2.1530680371100646,
+      "record": "7-0",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 56,
+      "ap_model_rating": 1.2653971315929402,
+      "ap_model_rank": 57
+    },
+    {
+      "team": "Virginia Tech Hokies",
+      "rating": 1.9884019306003156,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 57,
+      "ap_model_rating": 1.484042154512987,
+      "ap_model_rank": 56
+    },
+    {
+      "team": "Rutgers Scarlet Knights",
+      "rating": 1.9818375499280387,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 58,
+      "ap_model_rating": 0.9543234685184157,
+      "ap_model_rank": 61
+    },
+    {
+      "team": "NC State Wolfpack",
+      "rating": 1.871200690546428,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 59,
+      "ap_model_rating": 1.1237456869179265,
+      "ap_model_rank": 59
+    },
+    {
+      "team": "Iowa State Cyclones",
+      "rating": 1.641882715261655,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 60,
+      "ap_model_rating": 1.0977761964028048,
+      "ap_model_rank": 60
+    },
+    {
+      "team": "East Carolina Pirates",
+      "rating": 1.5307210128972972,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 61,
+      "ap_model_rating": 0.6864847998962311,
+      "ap_model_rank": 62
+    },
+    {
+      "team": "Arkansas Razorbacks",
+      "rating": 1.3168426677061822,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 62,
+      "ap_model_rating": 0.5249593393754273,
+      "ap_model_rank": 63
+    },
+    {
+      "team": "Kansas State Wildcats",
+      "rating": 1.1250585201763652,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 63,
+      "ap_model_rating": 0.39796158774953483,
+      "ap_model_rank": 64
+    },
+    {
+      "team": "UConn Huskies",
+      "rating": 1.0578885067113513,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 64,
+      "ap_model_rating": 0.25367925519922174,
+      "ap_model_rank": 65
+    },
+    {
+      "team": "TCU Horned Frogs",
+      "rating": 0.8204880217964741,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 65,
+      "ap_model_rating": 0.1278111285235397,
+      "ap_model_rank": 67
+    },
+    {
+      "team": "Western Michigan Broncos",
+      "rating": 0.6538810495478344,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 66,
+      "ap_model_rating": 0.17042619301389106,
+      "ap_model_rank": 66
+    },
+    {
+      "team": "UNLV Rebels",
+      "rating": 0.5804780999838686,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 67,
+      "ap_model_rating": -0.06385813271667562,
+      "ap_model_rank": 69
+    },
+    {
+      "team": "UCF Knights",
+      "rating": 0.525100053940804,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 68,
+      "ap_model_rating": 0.09756619952942991,
+      "ap_model_rank": 68
+    },
+    {
+      "team": "Fresno State Bulldogs",
+      "rating": 0.2526326123432323,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 69,
+      "ap_model_rating": -0.3760054956779433,
+      "ap_model_rank": 70
+    },
+    {
+      "team": "Kentucky Wildcats",
+      "rating": 0.06157007710767459,
+      "record": "6-1",
+      "ap_rank": 12,
+      "games_used": 7,
+      "rank": 70,
+      "ap_model_rating": 2.643740845944081,
+      "ap_model_rank": 49
+    },
+    {
+      "team": "Florida Atlantic Owls",
+      "rating": -0.1981894386832046,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 71,
+      "ap_model_rating": -1.06561140442464,
+      "ap_model_rank": 74
+    },
+    {
+      "team": "Louisiana Ragin' Cajuns",
+      "rating": -0.2448138710711385,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 72,
+      "ap_model_rating": -0.7168429213538792,
+      "ap_model_rank": 71
+    },
+    {
+      "team": "Mississippi State Bulldogs",
+      "rating": -0.4916684397964248,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 73,
+      "ap_model_rating": -1.0142347759659405,
+      "ap_model_rank": 73
+    },
+    {
+      "team": "Syracuse Orange",
+      "rating": -0.6495447587229073,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 74,
+      "ap_model_rating": -0.8974440904403611,
+      "ap_model_rank": 72
+    },
+    {
+      "team": "Cincinnati Bearcats",
+      "rating": -0.7333672959434212,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 75,
+      "ap_model_rating": -1.2440965636366084,
+      "ap_model_rank": 75
+    },
+    {
+      "team": "Florida International Panthers",
+      "rating": -0.889217956703507,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 76,
+      "ap_model_rating": -1.2921173509958699,
+      "ap_model_rank": 76
+    },
+    {
+      "team": "South Florida Bulls",
+      "rating": -0.978467248976834,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 77,
+      "ap_model_rating": -1.6913034784470566,
+      "ap_model_rank": 79
+    },
+    {
+      "team": "Miami (OH) RedHawks",
+      "rating": -0.9898587990254866,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 78,
+      "ap_model_rating": -1.36843880578368,
+      "ap_model_rank": 77
+    },
+    {
+      "team": "Toledo Rockets",
+      "rating": -1.0325555721962614,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 79,
+      "ap_model_rating": -1.6070425195673925,
+      "ap_model_rank": 78
+    },
+    {
+      "team": "Jacksonville State Gamecocks",
+      "rating": -1.623593153364605,
+      "record": "5-2",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 80,
+      "ap_model_rating": -2.0482590929793956,
+      "ap_model_rank": 80
+    },
+    {
+      "team": "North Carolina Tar Heels",
+      "rating": -1.8138764092439699,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 81,
+      "ap_model_rating": -2.2424693544961816,
+      "ap_model_rank": 81
+    },
+    {
+      "team": "Arizona State Sun Devils",
+      "rating": -1.9441229952131858,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 82,
+      "ap_model_rating": -2.402418866514994,
+      "ap_model_rank": 82
+    },
+    {
+      "team": "Eastern Michigan Eagles",
+      "rating": -2.1998064607721712,
+      "record": "4-4",
+      "ap_rank": null,
+      "games_used": 8,
+      "rank": 83,
+      "ap_model_rating": -2.554365355022565,
+      "ap_model_rank": 83
+    },
+    {
+      "team": "South Alabama Jaguars",
+      "rating": -2.680403515201547,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 84,
+      "ap_model_rating": -3.2730058024253985,
+      "ap_model_rank": 85
+    },
+    {
+      "team": "Penn State Nittany Lions",
+      "rating": -2.748710513133962,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 85,
+      "ap_model_rating": -3.1556349872894716,
+      "ap_model_rank": 84
+    },
+    {
+      "team": "Louisiana Tech Bulldogs",
+      "rating": -3.237981974042323,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 86,
+      "ap_model_rating": -3.6240804478950697,
+      "ap_model_rank": 86
+    },
+    {
+      "team": "California Golden Bears",
+      "rating": -3.8930477367911207,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 87,
+      "ap_model_rating": -4.034373891933439,
+      "ap_model_rank": 87
+    },
+    {
+      "team": "Air Force Falcons",
+      "rating": -4.237322697724419,
+      "record": "5-1",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 88,
+      "ap_model_rating": -4.3560651424612615,
+      "ap_model_rank": 88
+    },
+    {
+      "team": "Buffalo Bulls",
+      "rating": -4.352872968161135,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 89,
+      "ap_model_rating": -4.570618537734426,
+      "ap_model_rank": 90
+    },
+    {
+      "team": "Wyoming Cowboys",
+      "rating": -4.528260694120423,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 90,
+      "ap_model_rating": -4.518422047833034,
+      "ap_model_rank": 89
+    },
+    {
+      "team": "Bowling Green Falcons",
+      "rating": -4.565306058150997,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 91,
+      "ap_model_rating": -4.855502517048653,
+      "ap_model_rank": 91
+    },
+    {
+      "team": "Marshall Thundering Herd",
+      "rating": -4.732303738300296,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 92,
+      "ap_model_rating": -4.921152688417922,
+      "ap_model_rank": 92
+    },
+    {
+      "team": "Boston College Eagles",
+      "rating": -4.8016010074165765,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 93,
+      "ap_model_rating": -5.088518159586175,
+      "ap_model_rank": 93
+    },
+    {
+      "team": "West Virginia Mountaineers",
+      "rating": -4.843924646846887,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 94,
+      "ap_model_rating": -5.1333651777853335,
+      "ap_model_rank": 94
+    },
+    {
+      "team": "Army Black Knights",
+      "rating": -5.005352940181897,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 95,
+      "ap_model_rating": -5.186805682169947,
+      "ap_model_rank": 95
+    },
+    {
+      "team": "Purdue Boilermakers",
+      "rating": -5.1188642883747235,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 96,
+      "ap_model_rating": -5.326513344539041,
+      "ap_model_rank": 98
+    },
+    {
+      "team": "Temple Owls",
+      "rating": -5.146002935033324,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 97,
+      "ap_model_rating": -5.325117719031653,
+      "ap_model_rank": 97
+    },
+    {
+      "team": "Arkansas State Red Wolves",
+      "rating": -5.374777790453822,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 98,
+      "ap_model_rating": -5.662654508098453,
+      "ap_model_rank": 99
+    },
+    {
+      "team": "Colorado Buffaloes",
+      "rating": -5.4567467627513375,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 99,
+      "ap_model_rating": -5.263046901162053,
+      "ap_model_rank": 96
+    },
+    {
+      "team": "Georgia State Panthers",
+      "rating": -5.571709365844377,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 100,
+      "ap_model_rating": -5.779542738798411,
+      "ap_model_rank": 100
+    },
+    {
+      "team": "Tulane Green Wave",
+      "rating": -5.574924993983383,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 101,
+      "ap_model_rating": -5.927523783704295,
+      "ap_model_rank": 102
+    },
+    {
+      "team": "Troy Trojans",
+      "rating": -5.653944865854426,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 102,
+      "ap_model_rating": -5.796307321886111,
+      "ap_model_rank": 101
+    },
+    {
+      "team": "UAB Blazers",
+      "rating": -6.130746481096807,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 103,
+      "ap_model_rating": -6.372322113850543,
+      "ap_model_rank": 104
+    },
+    {
+      "team": "San Diego State Aztecs",
+      "rating": -6.218707483873105,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 104,
+      "ap_model_rating": -6.308698484898891,
+      "ap_model_rank": 103
+    },
+    {
+      "team": "App State Mountaineers",
+      "rating": -6.2770317675356475,
+      "record": "4-2",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 105,
+      "ap_model_rating": -6.499060010337249,
+      "ap_model_rank": 105
+    },
+    {
+      "team": "Georgia Southern Eagles",
+      "rating": -6.568000927973917,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 106,
+      "ap_model_rating": -6.78138292262107,
+      "ap_model_rank": 106
+    },
+    {
+      "team": "Nevada Wolf Pack",
+      "rating": -6.72220244274391,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 107,
+      "ap_model_rating": -7.061660648479563,
+      "ap_model_rank": 108
+    },
+    {
+      "team": "Vanderbilt Commodores",
+      "rating": -6.7462004599877465,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 108,
+      "ap_model_rating": -6.960496005649387,
+      "ap_model_rank": 107
+    },
+    {
+      "team": "Michigan State Spartans",
+      "rating": -7.399620224979995,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 109,
+      "ap_model_rating": -7.380437990128654,
+      "ap_model_rank": 109
+    },
+    {
+      "team": "Utah State Aggies",
+      "rating": -7.882528604923996,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 110,
+      "ap_model_rating": -7.852928307836351,
+      "ap_model_rank": 110
+    },
+    {
+      "team": "Tulsa Golden Hurricane",
+      "rating": -7.940164871133775,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 111,
+      "ap_model_rating": -8.172281481287595,
+      "ap_model_rank": 111
+    },
+    {
+      "team": "Sam Houston Bearkats",
+      "rating": -9.21355075894937,
+      "record": "1-5",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 112,
+      "ap_model_rating": -9.009504634328525,
+      "ap_model_rank": 113
+    },
+    {
+      "team": "New Mexico State Aggies",
+      "rating": -9.24206181137096,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 113,
+      "ap_model_rating": -8.93087720566098,
+      "ap_model_rank": 112
+    },
+    {
+      "team": "Delaware Blue Hens",
+      "rating": -9.246782081714231,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 114,
+      "ap_model_rating": -9.101163241880386,
+      "ap_model_rank": 116
+    },
+    {
+      "team": "Maryland Terrapins",
+      "rating": -9.318412463891232,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 115,
+      "ap_model_rating": -9.09527550766612,
+      "ap_model_rank": 114
+    },
+    {
+      "team": "San Jos\u00e9 State Spartans",
+      "rating": -9.330089699691028,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 116,
+      "ap_model_rating": -9.097273766707836,
+      "ap_model_rank": 115
+    },
+    {
+      "team": "Washington State Cougars",
+      "rating": -9.559526282314668,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 117,
+      "ap_model_rating": -9.458860698790904,
+      "ap_model_rank": 118
+    },
+    {
+      "team": "Hawai'i Rainbow Warriors",
+      "rating": -9.563183456206563,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 118,
+      "ap_model_rating": -9.418735413772652,
+      "ap_model_rank": 117
+    },
+    {
+      "team": "Missouri State Bears",
+      "rating": -9.639936852068,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 119,
+      "ap_model_rating": -9.485283406506047,
+      "ap_model_rank": 119
+    },
+    {
+      "team": "Rice Owls",
+      "rating": -9.86535589013136,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 120,
+      "ap_model_rating": -9.574542784121764,
+      "ap_model_rank": 120
+    },
+    {
+      "team": "Central Michigan Chippewas",
+      "rating": -9.910395495622627,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 121,
+      "ap_model_rating": -9.633362241630735,
+      "ap_model_rank": 121
+    },
+    {
+      "team": "Kennesaw State Owls",
+      "rating": -10.364973172774523,
+      "record": "1-5",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 122,
+      "ap_model_rating": -10.23838688975063,
+      "ap_model_rank": 122
+    },
+    {
+      "team": "Old Dominion Monarchs",
+      "rating": -11.454829686270926,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 123,
+      "ap_model_rating": -11.274942801463997,
+      "ap_model_rank": 124
+    },
+    {
+      "team": "Kent State Golden Flashes",
+      "rating": -11.578170906517375,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 124,
+      "ap_model_rating": -11.239848227063824,
+      "ap_model_rank": 123
+    },
+    {
+      "team": "Middle Tennessee Blue Raiders",
+      "rating": -11.583111714732912,
+      "record": "3-3",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 125,
+      "ap_model_rating": -11.448735756714319,
+      "ap_model_rank": 125
+    },
+    {
+      "team": "Navy Midshipmen",
+      "rating": -12.06001229344658,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 126,
+      "ap_model_rating": -11.880064370343163,
+      "ap_model_rank": 127
+    },
+    {
+      "team": "Massachusetts Minutemen",
+      "rating": -12.210629637865633,
+      "record": "4-3",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 127,
+      "ap_model_rating": -11.87389611340162,
+      "ap_model_rank": 126
+    },
+    {
+      "team": "Coastal Carolina Chanticleers",
+      "rating": -12.56511687177369,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 128,
+      "ap_model_rating": -12.13244124819867,
+      "ap_model_rank": 128
+    },
+    {
+      "team": "Stanford Cardinal",
+      "rating": -13.259594190985418,
+      "record": "3-4",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 129,
+      "ap_model_rating": -13.042330517891852,
+      "ap_model_rank": 129
+    },
+    {
+      "team": "Ball State Cardinals",
+      "rating": -13.656487975968208,
+      "record": "2-5",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 130,
+      "ap_model_rating": -13.33647111799575,
+      "ap_model_rank": 130
+    },
+    {
+      "team": "Northern Illinois Huskies",
+      "rating": -14.119100255268918,
+      "record": "0-6",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 131,
+      "ap_model_rating": -13.661622167736462,
+      "ap_model_rank": 131
+    },
+    {
+      "team": "Southern Miss Golden Eagles",
+      "rating": -14.147218560783212,
+      "record": "1-5",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 132,
+      "ap_model_rating": -14.03004836352951,
+      "ap_model_rank": 132
+    },
+    {
+      "team": "UL Monroe Warhawks",
+      "rating": -14.715804121426949,
+      "record": "0-6",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 133,
+      "ap_model_rating": -14.387083809514177,
+      "ap_model_rank": 134
+    },
+    {
+      "team": "Akron Zips",
+      "rating": -14.98219972748548,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 134,
+      "ap_model_rating": -14.29830195679418,
+      "ap_model_rank": 133
+    },
+    {
+      "team": "Colorado State Rams",
+      "rating": -17.77692411347614,
+      "record": "2-4",
+      "ap_rank": null,
+      "games_used": 6,
+      "rank": 135,
+      "ap_model_rating": -17.394972571250456,
+      "ap_model_rank": 135
+    },
+    {
+      "team": "Sacramento State Hornets",
+      "rating": -18.36349019344526,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 136,
+      "ap_model_rating": -17.822202325338292,
+      "ap_model_rank": 137
+    },
+    {
+      "team": "Charlotte 49ers",
+      "rating": -18.541522809317314,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 137,
+      "ap_model_rating": -17.804040894583032,
+      "ap_model_rank": 136
+    },
+    {
+      "team": "UTEP Miners",
+      "rating": -18.989011515074537,
+      "record": "1-6",
+      "ap_rank": null,
+      "games_used": 7,
+      "rank": 138,
+      "ap_model_rating": -18.213027386528104,
+      "ap_model_rank": 138
+    }
+  ]
+}

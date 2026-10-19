@@ -9,7 +9,7 @@
 <div class="power-eyebrow">CFB · Week 6 · Power ratings</div><h2>The model's Top 25</h2>
 <p class="power-intro">Who v2.2 rates strongest on a neutral field. Points above the average FBS team, not a resume ranking.</p>
 <div class="power-hero"><div><div class="power-eyebrow" id="powerLeaderLabel">Model No. 1</div><h3 id="powerLeader">Miami Hurricanes</h3><p id="powerLeaderMeta"></p></div><div><div class="power-hero-value" id="powerLeaderRating">+29.4</div><div class="power-hero-unit">points above average</div></div></div>
-<div class="power-toolbar"><div class="power-toggle" aria-label="Rating view"><button id="powerFull" class="active" aria-pressed="true">Current model</button><button id="powerNoAp" aria-pressed="false">AP removed</button></div><span class="power-note">Ratings through Week 5 · records Oct 8</span></div>
+<div class="power-toolbar"><div class="power-toggle" aria-label="Rating view"><button id="powerFull" class="active" aria-pressed="true">Current model</button><button id="powerNoAp" aria-pressed="false">AP removed</button></div><span class="power-note">STALE - ratings through Week 5, records Oct 8; rebuild pending under the post-verdict no-AP reference (graded Oct 18). Both views below derive from the AP-including fit; the AP feature failed its forward gate and is not adopted.</span></div>
 <p class="power-note" id="powerLabel">138 FBS teams ranked; showing 25. Bars share a fixed 0 to +35 point scale.</p>
 <div class="power-list" role="table" aria-label="CFB model Top 25"><div class="power-head" role="row"><span role="columnheader">Rank</span><span role="columnheader">Team / record</span><span role="columnheader">Rating · pts</span><span role="columnheader">Compared with AP</span><span role="columnheader" id="powerCompareHead">No-AP rank</span></div><div id="cfbPowerBody" role="rowgroup"></div></div>
 <p class="power-footer">AP comparison uses the Oct 4 poll. Arrows show rank difference from AP, not a change over time. NR means unranked; no numeric gap is assigned. Ratings sort at full precision and round to one decimal.</p>
@@ -79,4 +79,4 @@ for(const [id,on] of [['powerFull',!noAp],['powerNoAp',noAp]]){const b=document.
 }
 document.getElementById('powerFull').onclick=()=>renderCfbPower(false);document.getElementById('powerNoAp').onclick=()=>renderCfbPower(true);renderCfbPower();
 </script>
-<script src="cfb-inline.js?v=20261018-forward2"></script></body></html>
+<script src="cfb-inline.js?v=20261018-forward3"></script></body></html>

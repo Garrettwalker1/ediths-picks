@@ -109,8 +109,9 @@ out = {
                + AS_OF + ' (' + str(len(g)) + ' games, all opponents connected through the full schedule). Only the '
                + str(len(members)) + '-team FBS set is ranked. Current-season performance only: no preseason talent, '
                'returning-production, portal, draft or AP-poll inputs, and no prior-season results. Values sit on a '
-               'points-style rating scale centered on the average FBS team, not yet validated as a calibrated '
-               'expected margin; fitted home-field is '
+               'points-style rating scale centered on the average FBS team. It is an unvalidated rating scale: '
+               'establishing it as a calibrated expected margin would require freezing this composite\'s own '
+               'pregame outputs and grading them separately; fitted home-field is '
                + format(hfa, '.1f') + ' points. The AP-fit column is a separately trained research variant that failed its '
                'Week 7 gate; the fixed-reference column is the sealed Oct 11 forecast specification (which does use '
                'preseason inputs) shown for audit only. Neither is a validated betting edge.'),

@@ -1,0 +1,134 @@
+{
+  "cohort": "injury-experiment-20261015-w6-v1",
+  "frozen_file_sha256": "a93322e44be8beda5704dc54cdf19a33a8dcc079735a8c3e272ddf8c7a695319",
+  "n": 12,
+  "withheld": [
+    "BUF at LV",
+    "WSH at SF"
+  ],
+  "withheld_reason": "BUF/SF/WSH injury reports absent at freeze (explicit at freeze time)",
+  "baseline_mae": 8.604,
+  "experiment_mae": 8.759,
+  "mean_paired_delta_exp_minus_base": 0.155,
+  "paired_bootstrap_95": [
+    -0.995,
+    1.233
+  ],
+  "bootstrap": "10000 game resamples, seed 261020",
+  "experiment_better_games": 5,
+  "baseline_better_games": 7,
+  "equal_games": 0,
+  "games_with_missing_role_players": 12,
+  "conflicts": 0,
+  "rows": [
+    {
+      "game": "SEA at DEN",
+      "baseline": -0.71,
+      "experiment": 0.19,
+      "actual_home_margin": 3,
+      "baseline_abs_err": 3.71,
+      "experiment_abs_err": 2.81,
+      "missing_role": 4
+    },
+    {
+      "game": "HOU at JAX",
+      "baseline": 5.18,
+      "experiment": 5.88,
+      "actual_home_margin": -3,
+      "baseline_abs_err": 8.18,
+      "experiment_abs_err": 8.88,
+      "missing_role": 9
+    },
+    {
+      "game": "BAL at CLE",
+      "baseline": -3.95,
+      "experiment": -0.05,
+      "actual_home_margin": 3,
+      "baseline_abs_err": 6.95,
+      "experiment_abs_err": 3.05,
+      "missing_role": 5
+    },
+    {
+      "game": "CAR at PHI",
+      "baseline": 5.19,
+      "experiment": 8.54,
+      "actual_home_margin": -11,
+      "baseline_abs_err": 16.19,
+      "experiment_abs_err": 19.54,
+      "missing_role": 4
+    },
+    {
+      "game": "CHI at ATL",
+      "baseline": -0.73,
+      "experiment": -0.66,
+      "actual_home_margin": -8,
+      "baseline_abs_err": 7.27,
+      "experiment_abs_err": 7.34,
+      "missing_role": 4
+    },
+    {
+      "game": "NO at NYG",
+      "baseline": 4.49,
+      "experiment": 5.01,
+      "actual_home_margin": -7,
+      "baseline_abs_err": 11.49,
+      "experiment_abs_err": 12.01,
+      "missing_role": 2
+    },
+    {
+      "game": "NYJ at NE",
+      "baseline": 10.39,
+      "experiment": 7.6,
+      "actual_home_margin": 7,
+      "baseline_abs_err": 3.39,
+      "experiment_abs_err": 0.6,
+      "missing_role": 9
+    },
+    {
+      "game": "PIT at TB",
+      "baseline": -1.0,
+      "experiment": -1.23,
+      "actual_home_margin": -7,
+      "baseline_abs_err": 6.0,
+      "experiment_abs_err": 5.77,
+      "missing_role": 5
+    },
+    {
+      "game": "TEN at IND",
+      "baseline": 8.73,
+      "experiment": 9.15,
+      "actual_home_margin": -6,
+      "baseline_abs_err": 14.73,
+      "experiment_abs_err": 15.15,
+      "missing_role": 5
+    },
+    {
+      "game": "ARI at LA",
+      "baseline": 10.25,
+      "experiment": 12.86,
+      "actual_home_margin": -2,
+      "baseline_abs_err": 12.25,
+      "experiment_abs_err": 14.86,
+      "missing_role": 10
+    },
+    {
+      "game": "LAC at KC",
+      "baseline": 7.66,
+      "experiment": 7.85,
+      "actual_home_margin": 16,
+      "baseline_abs_err": 8.34,
+      "experiment_abs_err": 8.15,
+      "missing_role": 5
+    },
+    {
+      "game": "DAL at GB",
+      "baseline": 5.25,
+      "experiment": 3.05,
+      "actual_home_margin": 10,
+      "baseline_abs_err": 4.75,
+      "experiment_abs_err": 6.95,
+      "missing_role": 4
+    }
+  ],
+  "note": "Diagnostic only, one week, 12 numerical games. No promotion, no refit. Research gate needs >=100 untouched forecasts. Week5 diagnostic was baseline 9.257 vs experiment 9.370; preserve both weeks as separate immutable cohorts."
+}

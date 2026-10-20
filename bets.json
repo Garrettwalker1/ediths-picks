@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-19T18:55:10.209776+00:00",
+  "updated_at": "2026-10-20T04:17:38Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7463,10 +7463,10 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -2.0,
+      "net_usd": -20,
       "line": null,
       "source": "Owner iMessage phonemsg-01M5AR6RMC2W36R0W00J5PKYYX, Oct19; receipt visually inspected. Cash-out button is an offer, not an execution.",
       "bet_id": "us-tn:01m5aq2fkvez39q7psmn9e9yem",
@@ -7490,9 +7490,17 @@
           "market": "anytime_touchdown",
           "selection": "Terry McLaurin",
           "line": null,
-          "hit": null
+          "hit": false
         }
-      ]
+      ],
+      "grading": {
+        "source": "official final score and scoring summary (ESPN summary API, event 401873008 verified Final)",
+        "graded_at": "2026-10-20T04:17:38Z",
+        "final_score": "SF 23, WSH 17 (Final). WSH touchdowns: Stefon Diggs 1-yd catch, Rachaad White 9-yd catch. Terry McLaurin did not score.",
+        "net_units": -2.0,
+        "net_usd": -20,
+        "source_note": "ESPN event 401873008 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed."
+      }
     },
     {
       "sport": "NFL",
@@ -7501,10 +7509,10 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "win",
+      "net_units": 4.561,
+      "net_usd": 45.61,
       "line": null,
       "source": "Owner iMessage phonemsg-01M5AR6RMC2W36R0W00J5PKYYX, Oct19; receipt visually inspected. Cash-out button is an offer, not an execution.",
       "bet_id": "us-tn:01m5ar62rhf4avsnfxqqx7hvre",
@@ -7528,7 +7536,7 @@
           "market": "alternate_spread",
           "selection": "San Francisco 49ers",
           "line": -3.5,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Washington Commanders @ San Francisco 49ers",
@@ -7536,7 +7544,7 @@
           "market": "alternate_total_under",
           "selection": "Under",
           "line": 55.5,
-          "hit": null
+          "hit": true
         },
         {
           "event": "Washington Commanders @ San Francisco 49ers",
@@ -7544,9 +7552,17 @@
           "market": "anytime_touchdown",
           "selection": "George Kittle",
           "line": null,
-          "hit": null
+          "hit": true
         }
-      ]
+      ],
+      "grading": {
+        "source": "official final score and scoring summary (ESPN summary API, event 401873008 verified Final)",
+        "graded_at": "2026-10-20T04:17:38Z",
+        "final_score": "SF 23, WSH 17 (Final). SF -3.5 covered (won by 6); total 40 went Under 55.5; George Kittle scored (11-yd TD catch Q1). All 3 legs hit. Exact receipt payout $55.61 on $10 (+456 boosted); exact payout overrides rounded-odds arithmetic.",
+        "net_units": 4.561,
+        "net_usd": 45.61,
+        "source_note": "ESPN event 401873008 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed."
+      }
     }
   ]
 }

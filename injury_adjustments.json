@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20T12:34:24.364032+00:00",
+ "generated_at": "2026-10-20T19:55:34.826358+00:00",
  "week": 7,
- "model_version": "injury-experiment-20261020-w7-v2",
- "caveat": "New immutable Week7 cohort; unvalidated experiment, not a betting edge. Baseline frozen and shown beside it.",
+ "model_version": "injury-experiment-20261020-w7-v3",
+ "caveat": "New immutable Week7 cohort v3 (adds Terry McLaurin OUT for season, ESPN/Quinn Oct 20 3:11 PM ET; v1 and v2 stay as published); unvalidated experiment, not a betting edge. Baseline frozen and shown beside it.",
  "method": "Same Oct7 fitted practice/status residual-margin coefficients as Week 5/6 cohorts, no refit (fit sha256 87e03553c5bd90a1123710d222e25af72042262f3251c6c24bfb30563545e358). Snap weights through Week6; 2025 fallback for missing. IR inventory + verified news only; adjustment relative to no-injury row. No book/weather inputs or manual point bumps.",
  "limitations": [
-  "Week 7 practice participation and game-status designations are not issued until Wednesday Oct 21; this cohort reflects the provider IR inventory (week 6 roster rows) plus verified news statuses (Hurts, Adams, Ford) only, so report-based absences (Out/Doubtful/Questionable/DNP) are NOT yet reflected. Expect material changes when reports land.",
+  "Week 7 practice participation and game-status designations are not issued until Wednesday Oct 21; this cohort reflects the provider IR inventory (week 6 roster rows) plus verified news statuses (Hurts, Adams, Ford, McLaurin) only, so report-based absences (Out/Doubtful/Questionable/DNP) are NOT yet reflected. Expect material changes when reports land.",
   "IR provider inventory is not a 32-team transaction audit and long absences can already be in the scores-only baseline, so double counting is possible.",
   "Missing snap roles have zero contribution and are listed, not assumed healthy.",
   "No fitted DNP play probability or teammate redistribution.",
@@ -14,7 +14,7 @@
  ],
  "coverage": {
   "ir_players": 295,
-  "availability_rows": 297,
+  "availability_rows": 298,
   "missing_snap_weights": 81,
   "roster_inventory_teams": [
    "ARI",
@@ -54,13 +54,15 @@
   "news_overrides": [
    "Davante Adams (LA WR) Out",
    "Poona Ford (LA DT) Out",
-   "Jalen Hurts (PHI QB) IR, roster-confirmed"
+   "Jalen Hurts (PHI QB) IR, roster-confirmed",
+   "Terry McLaurin (WSH WR) Out for season (coach Dan Quinn via ESPN Oct 20; torn patellar tendon per ESPN/NBC Sports PFT)"
   ],
   "sources": [
    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
    "https://www.nfl.com/news/davante-adams-hamstring-expected-to-miss-6-10-weeks-as-injuries-pile-up-rams",
-   "https://apnews.com/article/rams-davante-adams-poona-ford-injuries-b8140c5993e799a0c5a44dab5e8b87b2"
+   "https://apnews.com/article/rams-davante-adams-poona-ford-injuries-b8140c5993e799a0c5a44dab5e8b87b2",
+   "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon"
   ]
  },
  "inventory": [
@@ -72,7 +74,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3675,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -85,7 +87,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -98,7 +100,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -111,7 +113,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "QB"
@@ -124,7 +126,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.595,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -137,7 +139,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -150,7 +152,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.275,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -163,7 +165,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -176,7 +178,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -189,7 +191,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -202,7 +204,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -215,7 +217,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5575,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -228,7 +230,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -241,7 +243,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.305,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -254,7 +256,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -267,7 +269,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0033,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -280,7 +282,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.03,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -293,7 +295,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.015,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -306,7 +308,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.7467,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "QB"
@@ -319,7 +321,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0275,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -332,7 +334,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -345,7 +347,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -358,7 +360,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -371,7 +373,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -384,7 +386,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -397,7 +399,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -410,7 +412,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.04,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -423,7 +425,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.09,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -436,7 +438,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4675,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -449,7 +451,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.525,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -462,7 +464,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -475,7 +477,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5533,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -488,7 +490,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -501,7 +503,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5567,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -514,7 +516,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.035,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -527,7 +529,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -540,7 +542,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.7725,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -553,7 +555,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6133,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -566,7 +568,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.65,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -579,7 +581,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -592,7 +594,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -605,7 +607,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.36,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -618,7 +620,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.57,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -631,7 +633,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.45,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -644,7 +646,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 1.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -657,7 +659,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -670,7 +672,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -683,7 +685,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -696,7 +698,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -709,7 +711,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -722,7 +724,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.37,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -735,7 +737,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.9475,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -748,7 +750,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5033,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -761,7 +763,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.17,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -774,7 +776,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8733,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -787,7 +789,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.9625,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -800,7 +802,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3775,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "QB"
@@ -813,7 +815,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -826,7 +828,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 1.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -839,7 +841,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3225,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -852,7 +854,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5175,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -865,7 +867,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.005,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -878,7 +880,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.12,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -891,7 +893,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4075,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -904,7 +906,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3175,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -917,7 +919,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.65,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -930,7 +932,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -943,7 +945,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.68,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -956,7 +958,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -969,7 +971,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2233,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -982,7 +984,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -995,7 +997,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.685,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1008,7 +1010,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.18,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1021,7 +1023,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2525,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1034,7 +1036,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "QB"
@@ -1047,7 +1049,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0667,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1060,7 +1062,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1073,7 +1075,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.05,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1086,7 +1088,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.23,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1099,7 +1101,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1112,7 +1114,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1125,7 +1127,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.425,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1138,7 +1140,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4925,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1151,7 +1153,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3675,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1164,7 +1166,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1177,7 +1179,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.065,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1190,7 +1192,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3625,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1203,7 +1205,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.36,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1216,7 +1218,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1533,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -1229,7 +1231,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4425,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1242,7 +1244,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3075,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1255,7 +1257,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.525,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -1268,7 +1270,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4933,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1281,7 +1283,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.59,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1294,7 +1296,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1307,7 +1309,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.255,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1320,7 +1322,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8975,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1333,7 +1335,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1346,7 +1348,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1359,7 +1361,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 1.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -1372,7 +1374,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0125,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1385,7 +1387,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2425,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1398,7 +1400,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.995,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -1411,7 +1413,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4675,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1424,7 +1426,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3025,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1437,7 +1439,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.9067,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -1450,7 +1452,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OTHER"
@@ -1463,7 +1465,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1476,7 +1478,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5475,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1489,7 +1491,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.525,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1502,7 +1504,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1515,7 +1517,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1528,7 +1530,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.68,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1541,7 +1543,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1554,7 +1556,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1567,7 +1569,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.155,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -1580,7 +1582,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -1593,7 +1595,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.84,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -1606,7 +1608,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "news_source": "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/19/eagles-jalen-hurts-blood-clots-lungs-nicole-lynn-statement/92328312007/",
    "snap_weight": 0.98,
    "snap_weight_source": "2026 through Week6",
@@ -1620,7 +1622,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.895,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -1633,7 +1635,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1646,7 +1648,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 1.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -1659,7 +1661,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3625,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1672,7 +1674,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.625,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1685,7 +1687,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -1698,7 +1700,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2725,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1711,7 +1713,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1724,7 +1726,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1737,7 +1739,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2075,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1750,7 +1752,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0233,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1763,7 +1765,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1776,7 +1778,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -1789,7 +1791,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -1802,7 +1804,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.245,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1815,7 +1817,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.515,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1828,7 +1830,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.04,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1841,7 +1843,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.08,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1854,7 +1856,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1225,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1867,7 +1869,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0125,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -1880,7 +1882,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.51,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -1893,7 +1895,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.7767,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1906,7 +1908,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.125,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1919,7 +1921,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6125,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1932,7 +1934,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -1945,7 +1947,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4925,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -1958,7 +1960,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2225,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -1971,7 +1973,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -1984,7 +1986,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.05,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -1997,7 +1999,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.125,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2010,7 +2012,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2023,7 +2025,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2036,7 +2038,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -2049,7 +2051,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2062,7 +2064,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.15,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2075,7 +2077,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2425,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2088,7 +2090,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.455,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2101,7 +2103,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.365,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2114,7 +2116,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8067,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -2127,7 +2129,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6925,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2140,7 +2142,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.51,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2153,7 +2155,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.825,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2166,7 +2168,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.07,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2179,7 +2181,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2192,7 +2194,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2205,7 +2207,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -2218,7 +2220,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0267,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2231,7 +2233,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -2244,7 +2246,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4825,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2257,7 +2259,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.755,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2270,7 +2272,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4925,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2283,7 +2285,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.99,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2296,7 +2298,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.46,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2309,7 +2311,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.45,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2322,7 +2324,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.27,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2335,7 +2337,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8067,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2348,7 +2350,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6467,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2361,7 +2363,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2374,7 +2376,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.36,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -2387,7 +2389,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -2400,7 +2402,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5775,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2413,7 +2415,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.05,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2426,7 +2428,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.795,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -2439,7 +2441,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.64,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2452,7 +2454,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2465,7 +2467,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.02,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2478,7 +2480,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.125,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2491,7 +2493,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.045,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2504,7 +2506,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2517,7 +2519,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.03,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2530,7 +2532,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.265,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2543,7 +2545,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3267,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -2556,7 +2558,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2569,7 +2571,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.54,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2582,7 +2584,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.025,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2595,7 +2597,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "QB"
@@ -2608,7 +2610,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.26,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2621,7 +2623,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2634,7 +2636,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0825,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2647,7 +2649,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -2660,7 +2662,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0175,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2673,7 +2675,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3025,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2686,7 +2688,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.18,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2699,7 +2701,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2712,7 +2714,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1533,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2725,7 +2727,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.69,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2738,7 +2740,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2751,7 +2753,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3125,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2764,7 +2766,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1025,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2777,7 +2779,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -2790,7 +2792,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.225,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2803,7 +2805,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.07,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2816,7 +2818,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8175,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2829,7 +2831,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.35,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2842,7 +2844,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2855,7 +2857,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.055,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2868,7 +2870,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -2881,7 +2883,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.515,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -2894,7 +2896,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -2907,7 +2909,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2925,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2920,7 +2922,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.02,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -2933,7 +2935,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.01,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2946,7 +2948,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.24,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -2959,7 +2961,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.41,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -2972,7 +2974,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3825,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "QB"
@@ -2985,7 +2987,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -2998,7 +3000,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.56,
    "snap_weight_source": "2026 through Week6",
    "position_group": "QB"
@@ -3011,7 +3013,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.37,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3024,7 +3026,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.745,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3037,7 +3039,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.895,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3050,7 +3052,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.45,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3063,7 +3065,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3667,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3076,7 +3078,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.58,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3089,7 +3091,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4675,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3102,7 +3104,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6475,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3115,7 +3117,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.495,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3128,7 +3130,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.47,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -3141,7 +3143,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.01,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3154,7 +3156,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3167,7 +3169,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3180,7 +3182,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3193,7 +3195,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3206,7 +3208,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.6733,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -3219,7 +3221,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3232,7 +3234,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3245,7 +3247,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.0925,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3258,7 +3260,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3271,7 +3273,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3284,7 +3286,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.1,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3297,7 +3299,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8375,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3310,7 +3312,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3323,7 +3325,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3336,7 +3338,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3349,7 +3351,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3362,7 +3364,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.32,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3375,7 +3377,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3388,7 +3390,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3401,7 +3403,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3414,7 +3416,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3427,7 +3429,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3440,7 +3442,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3453,7 +3455,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3466,7 +3468,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.18,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3479,7 +3481,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.355,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3492,7 +3494,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.16,
    "snap_weight_source": "2026 through Week6",
    "position_group": "OL"
@@ -3505,7 +3507,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3625,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3518,7 +3520,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3531,7 +3533,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3544,7 +3546,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.62,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3557,7 +3559,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "SKILL"
@@ -3570,7 +3572,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.645,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3583,7 +3585,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3596,7 +3598,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3167,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3609,7 +3611,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.4575,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3622,7 +3624,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3635,7 +3637,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3648,7 +3650,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3661,7 +3663,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3674,7 +3676,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3687,7 +3689,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.46,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3700,7 +3702,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.47,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3713,7 +3715,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.625,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3726,7 +3728,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "QB"
@@ -3739,7 +3741,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.115,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3752,7 +3754,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3765,7 +3767,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3778,7 +3780,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.2967,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
@@ -3791,7 +3793,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.87,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "OL"
@@ -3804,7 +3806,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.5725,
    "snap_weight_source": "2025 fallback (may be previous team)",
    "position_group": "DEF"
@@ -3817,7 +3819,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "SKILL"
@@ -3830,7 +3832,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "OL"
@@ -3843,7 +3845,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3856,7 +3858,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.3667,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3869,7 +3871,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.23,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3882,7 +3884,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3895,7 +3897,7 @@
    "practice": "",
    "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": null,
    "snap_weight_source": "missing",
    "position_group": "DEF"
@@ -3908,7 +3910,7 @@
    "practice": "",
    "source": "https://www.nfl.com/news/davante-adams-hamstring-expected-to-miss-6-10-weeks-as-injuries-pile-up-rams",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.8125,
    "snap_weight_source": "2026 through Week6",
    "position_group": "SKILL"
@@ -3921,10 +3923,23 @@
    "practice": "",
    "source": "https://apnews.com/article/rams-davante-adams-poona-ford-injuries-b8140c5993e799a0c5a44dab5e8b87b2",
    "conflict": false,
-   "observed_at": "2026-10-20T12:34:24.364032+00:00",
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
    "snap_weight": 0.385,
    "snap_weight_source": "2026 through Week6",
    "position_group": "DEF"
+  },
+  {
+   "player": "Terry McLaurin",
+   "team": "WSH",
+   "position": "WR",
+   "status": "Out",
+   "practice": "",
+   "source": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+   "conflict": false,
+   "observed_at": "2026-10-20T19:55:34.826358+00:00",
+   "snap_weight": 0.5325,
+   "snap_weight_source": "2026 through Week6",
+   "position_group": "SKILL"
   }
  ],
  "games": [
@@ -5611,14 +5626,14 @@
    "injury_adjusted": {
     "passing_yards": null,
     "passing_tds": null,
-    "receiving_yards": 43.1,
-    "rushing_yards": 3.2,
-    "receptions": 3.4,
-    "anytime_td_probability": 0.187
+    "receiving_yards": 0,
+    "rushing_yards": 0,
+    "receptions": 0,
+    "anytime_td_probability": 0
    },
-   "status": "No captured designation (not proof healthy)",
+   "status": "Out",
    "practice": "",
-   "note": "Generic baseline unchanged; no teammate redistribution."
+   "note": "IR/Out: zero participation, not book settlement odds."
   },
   {
    "player_id": "00-0040138",
@@ -9667,14 +9682,14 @@
    "injury_adjusted": {
     "passing_yards": null,
     "passing_tds": null,
-    "receiving_yards": 12.2,
-    "rushing_yards": 10.5,
-    "receptions": 1.3,
-    "anytime_td_probability": 0.108
+    "receiving_yards": 0,
+    "rushing_yards": 0,
+    "receptions": 0,
+    "anytime_td_probability": 0
    },
-   "status": "No captured designation (not proof healthy)",
+   "status": "IR",
    "practice": "",
-   "note": "Generic baseline unchanged; no teammate redistribution."
+   "note": "IR/Out: zero participation, not book settlement odds."
   },
   {
    "player_id": "00-0030506",

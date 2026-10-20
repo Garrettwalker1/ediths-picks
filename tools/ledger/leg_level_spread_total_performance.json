@@ -1,0 +1,446 @@
+{
+ "generated_at": "2026-10-20T16:01:26.272757+00:00",
+ "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
+ "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
+ "totals": {
+  "graded": 21,
+  "wins": 13,
+  "losses": 8,
+  "ungraded": 16
+ },
+ "by_sport": {
+  "CFB": {
+   "graded": 13,
+   "wins": 9,
+   "losses": 4,
+   "ungraded": 13
+  },
+  "NFL": {
+   "graded": 8,
+   "wins": 4,
+   "losses": 4,
+   "ungraded": 3
+  }
+ },
+ "nfl_alt": {
+  "graded": 7,
+  "wins": 4,
+  "losses": 3,
+  "ungraded": 1
+ },
+ "nfl_standard": {
+  "graded": 1,
+  "wins": 0,
+  "losses": 1,
+  "ungraded": 2
+ },
+ "legs": [
+  {
+   "event": "Washington State @ Washington",
+   "market": "total",
+   "selection": "Over",
+   "line": 51.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
+   "ticket_date": "2026-09-06",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Louisville @ Ole Miss",
+   "market": "alternate spread",
+   "selection": "Ole Miss",
+   "line": -9.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
+   "ticket_date": "2026-09-06",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Wisconsin @ Notre Dame",
+   "market": "spread",
+   "selection": "Notre Dame",
+   "line": -21.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Over 51.5 total (Washington State @ Washington), Ole Miss -9.5 (alternate spread), Notre Dame -21.5",
+   "ticket_date": "2026-09-06",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Wisconsin @ Notre Dame",
+   "market": "spread",
+   "selection": "Notre Dame",
+   "line": -20.5,
+   "sport": "CFB",
+   "ticket": "2-leg parlay: Notre Dame -20.5, Ole Miss -6.5",
+   "ticket_date": "2026-09-06",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Louisville @ Ole Miss",
+   "market": "spread",
+   "selection": "Ole Miss",
+   "line": -6.5,
+   "sport": "CFB",
+   "ticket": "2-leg parlay: Notre Dame -20.5, Ole Miss -6.5",
+   "ticket_date": "2026-09-06",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Miami (FL) @ Wake Forest",
+   "market": "spread",
+   "selection": "Miami (FL)",
+   "line": -20.5,
+   "sport": "CFB",
+   "ticket": "2-leg parlay: Miami (FL) -20.5 + Texas Tech -7.5",
+   "ticket_date": "2026-09-18",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Houston @ Texas Tech",
+   "market": "spread",
+   "selection": "Texas Tech",
+   "line": -7.5,
+   "sport": "CFB",
+   "ticket": "2-leg parlay: Miami (FL) -20.5 + Texas Tech -7.5",
+   "ticket_date": "2026-09-18",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Minnesota Vikings @ Chicago Bears",
+   "market": "spread",
+   "selection": "Chicago Bears",
+   "line": -4.5,
+   "sport": "NFL",
+   "ticket": "3-leg parlay: Chicago -4.5 + Houston -2.5 + Jacksonville ML",
+   "ticket_date": "2026-09-20",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Cincinnati Bengals @ Houston Texans",
+   "market": "spread",
+   "selection": "Houston Texans",
+   "line": -2.5,
+   "sport": "NFL",
+   "ticket": "3-leg parlay: Chicago -4.5 + Houston -2.5 + Jacksonville ML",
+   "ticket_date": "2026-09-20",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Atlanta Falcons @ Green Bay Packers",
+   "market": "alternate_spread",
+   "selection": "Atlanta Falcons",
+   "line": 5.5,
+   "sport": "NFL",
+   "ticket": "Same Game Parlay: Falcons +5.5 alt spread + Jordan Love 150+ pass yds + Michael Penix Jr. 150+ pass yds + Bijan Robinson 50+ rush yds",
+   "ticket_date": "2026-09-24",
+   "ticket_result": "win",
+   "hit": null
+  },
+  {
+   "event": "Texas @ Tennessee",
+   "market": "spread",
+   "selection": "Tennessee",
+   "line": 5.5,
+   "sport": "CFB",
+   "ticket": "5-leg parlay: Tennessee +5.5, Wyoming ML, Ole Miss ML, Iowa ML, Vanderbilt +9.5",
+   "ticket_date": "2026-09-25",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Vanderbilt @ Auburn",
+   "market": "spread",
+   "selection": "Vanderbilt",
+   "line": 9.5,
+   "sport": "CFB",
+   "ticket": "5-leg parlay: Tennessee +5.5, Wyoming ML, Ole Miss ML, Iowa ML, Vanderbilt +9.5",
+   "ticket_date": "2026-09-25",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "UCLA @ Maryland",
+   "market": "spread",
+   "selection": "Maryland",
+   "line": 1.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Maryland +1.5, Iowa +5.5, Nebraska -5.5",
+   "ticket_date": "2026-09-25",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Iowa @ Michigan",
+   "market": "spread",
+   "selection": "Iowa",
+   "line": 5.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Maryland +1.5, Iowa +5.5, Nebraska -5.5",
+   "ticket_date": "2026-09-25",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Nebraska @ Michigan State",
+   "market": "spread",
+   "selection": "Nebraska",
+   "line": -5.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Maryland +1.5, Iowa +5.5, Nebraska -5.5",
+   "ticket_date": "2026-09-25",
+   "ticket_result": "loss",
+   "hit": null
+  },
+  {
+   "event": "Oklahoma State @ West Virginia",
+   "market": "spread",
+   "selection": "Oklahoma State",
+   "line": 1.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Oklahoma State +1.5, Oregon ML, LSU ML, Mississippi State ML",
+   "ticket_date": "2026-09-26",
+   "ticket_result": "win",
+   "hit": null
+  },
+  {
+   "event": "Auburn @ Tennessee",
+   "market": "spread",
+   "selection": "Tennessee -6.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee -6.5, South Carolina -2.5, BYU -5.5 (spreads)",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Kentucky @ South Carolina",
+   "market": "spread",
+   "selection": "South Carolina -2.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee -6.5, South Carolina -2.5, BYU -5.5 (spreads)",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "BYU @ TCU",
+   "market": "spread",
+   "selection": "BYU -5.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee -6.5, South Carolina -2.5, BYU -5.5 (spreads)",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Michigan @ Minnesota",
+   "market": "spread",
+   "selection": "Minnesota +6.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Minnesota +6.5, NC State ML, Miami Florida -14.5, Fresno State +1.5",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "cashout",
+   "hit": true
+  },
+  {
+   "event": "Miami Florida @ Clemson",
+   "market": "spread",
+   "selection": "Miami Florida -14.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Minnesota +6.5, NC State ML, Miami Florida -14.5, Fresno State +1.5",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "cashout",
+   "hit": true
+  },
+  {
+   "event": "Fresno State @ Washington State",
+   "market": "spread",
+   "selection": "Fresno State +1.5",
+   "line": null,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Minnesota +6.5, NC State ML, Miami Florida -14.5, Fresno State +1.5",
+   "ticket_date": "2026-10-03",
+   "ticket_result": "cashout",
+   "hit": true
+  },
+  {
+   "event": "Indiana Hoosiers at Nebraska Cornhuskers",
+   "market": "spread",
+   "selection": "Nebraska Cornhuskers",
+   "line": 7.5,
+   "sport": "CFB",
+   "ticket": "Straight: Nebraska +7.5",
+   "ticket_date": "2026-10-10",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Boise State Broncos at Fresno State Bulldogs",
+   "market": "spread",
+   "selection": "Fresno State Bulldogs",
+   "line": 6.5,
+   "sport": "CFB",
+   "ticket": "4-leg: NC State ML; USC ML; Georgia ML; Fresno State +6.5",
+   "ticket_date": "2026-10-10",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Boise State Broncos at Fresno State Bulldogs",
+   "market": "spread",
+   "selection": "Fresno State Bulldogs",
+   "line": 7.5,
+   "sport": "CFB",
+   "ticket": "3-leg: USC ML; Georgia ML; Fresno State +7.5",
+   "ticket_date": "2026-10-10",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Buffalo Bills @ Los Angeles Rams",
+   "market": "alternate_spread",
+   "selection": "Buffalo Bills",
+   "line": 6.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Josh Allen anytime TD; Bills +6.5 alt spread; Over 41.5 alt total (50% profit boost)",
+   "ticket_date": "2026-10-12",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Buffalo Bills @ Los Angeles Rams",
+   "market": "alternate_total",
+   "selection": "Over",
+   "line": 41.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Josh Allen anytime TD; Bills +6.5 alt spread; Over 41.5 alt total (50% profit boost)",
+   "ticket_date": "2026-10-12",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Seattle Seahawks @ Denver Broncos",
+   "market": "alternate_spread",
+   "selection": "Seattle Seahawks",
+   "line": 2.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Jaxon Smith-Njigba anytime TD; Seahawks +2.5 alt spread; Over 34.5 alt total (50% profit boost)",
+   "ticket_date": "2026-10-15",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Seattle Seahawks @ Denver Broncos",
+   "market": "alternate_total",
+   "selection": "Over",
+   "line": 34.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Jaxon Smith-Njigba anytime TD; Seahawks +2.5 alt spread; Over 34.5 alt total (50% profit boost)",
+   "ticket_date": "2026-10-15",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Seattle Seahawks @ Denver Broncos",
+   "market": "spread",
+   "selection": "Seattle Seahawks",
+   "line": -2.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Seahawks -2.5 spread; Jaxon Smith-Njigba anytime TD; Over47.5 alt total",
+   "ticket_date": "2026-10-15",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Seattle Seahawks @ Denver Broncos",
+   "market": "alternate_total",
+   "selection": "Over",
+   "line": 47.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Seahawks -2.5 spread; Jaxon Smith-Njigba anytime TD; Over47.5 alt total",
+   "ticket_date": "2026-10-15",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Rutgers @ Maryland",
+   "market": "spread",
+   "selection": "Rutgers",
+   "line": 4.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Rutgers +4.5 spread, Eastern Michigan ML, Oklahoma State ML, Wisconsin ML",
+   "ticket_date": "2026-10-17",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Alabama @ Tennessee",
+   "market": "spread",
+   "selection": "Tennessee",
+   "line": 7.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee +7.5 spread, Duke -2.5 spread, Miami Florida -19.5 spread",
+   "ticket_date": "2026-10-17",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "North Carolina @ Duke",
+   "market": "spread",
+   "selection": "Duke",
+   "line": -2.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee +7.5 spread, Duke -2.5 spread, Miami Florida -19.5 spread",
+   "ticket_date": "2026-10-17",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Florida State @ Miami Florida",
+   "market": "spread",
+   "selection": "Miami Florida",
+   "line": -19.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Tennessee +7.5 spread, Duke -2.5 spread, Miami Florida -19.5 spread",
+   "ticket_date": "2026-10-17",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Washington Commanders @ San Francisco 49ers",
+   "market": "alternate_spread",
+   "selection": "San Francisco 49ers",
+   "line": -3.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: San Francisco -3.5 + Under 55.5 + George Kittle anytime TD",
+   "ticket_date": "2026-10-19",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Washington Commanders @ San Francisco 49ers",
+   "market": "alternate_total_under",
+   "selection": "Under",
+   "line": 55.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: San Francisco -3.5 + Under 55.5 + George Kittle anytime TD",
+   "ticket_date": "2026-10-19",
+   "ticket_result": "win",
+   "hit": true
+  }
+ ]
+}

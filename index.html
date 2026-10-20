@@ -52,7 +52,7 @@ async function loadTDMarket(){
  await loadInjury();
  const me=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  try{
-  let r=await fetch('week7_anytime_td.json?ts=+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('source unavailable');let d=await r.json();if(!Array.isArray(d.rows))throw Error('invalid');
+  let r=await fetch('week7_anytime_td.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('source unavailable');let d=await r.json();if(!Array.isArray(d.rows))throw Error('invalid');
   const fmt=t=>new Date(t).toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' CT';
   let rows=d.rows.filter(x=>x.book||x.model>=0.10),games={};
   rows.forEach(x=>{let key=[x.team,x.opp].sort().join(' vs ');(games[key]??=[]).push(x)});

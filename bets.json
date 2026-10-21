@@ -7501,11 +7501,13 @@
         "net_usd": 0,
         "source_note": "ESPN event 401873008 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed.",
         "settlement": "push_bet_protect",
-        "settlement_source": "Owner iMessage phonemsg-01M5D0MJ3H5V84KQVKJ2GMJ2Z3, Oct 20",
+        "settlement_source": "Owner iMessage phonemsg-01M5D0MJ3H5V84KQVKJ2GMJ2Z3, Oct 20; FanDuel email 1a1599369a1c2b33 confirms Bet Protect coverage, refund form Sportsbook Bonus Bets (posting/amount unverified)",
         "settlement_note": "Scoring grade stands (leg missed); financial settlement is a push via Bet Protect, net 0."
       },
       "protection": "Bet Protect",
-      "settlement_note": "Recorded as a push under FanDuel Bet Protect per owner Oct 20 (iMessage phonemsg-01M5D0MJ3H5V84KQVKJ2GMJ2Z3). The on-field leg missed (no McLaurin TD). Cash refund versus bonus-bet credit is not established."
+      "settlement_note": "Recorded as a push under FanDuel Bet Protect per owner Oct 20 (iMessage phonemsg-01M5D0MJ3H5V84KQVKJ2GMJ2Z3). The on-field leg missed (no McLaurin TD). FanDuel email 1a1599369a1c2b33 (Oct 20, 8:49 AM CT, 'Bet Protect: You Got Injury Protection!') says the bet was covered and that a qualifying refund is paid in Sportsbook Bonus Bets within about 24 hours, not cash. Whether the bonus bets posted, and their exact amount, are not verified. The email also notes a 3% stake fee applies when Full Game Bet Protection is activated; whether it was charged on this ticket is not established, and no fee is booked here. Ledger keeps the push treatment (net 0).",
+      "protection_form": "sportsbook_bonus_bets",
+      "protection_status": "qualified per FanDuel email; credit posting and exact amount not verified"
     },
     {
       "sport": "NFL",

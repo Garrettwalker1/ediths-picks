@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-22T22:43:53.695215+00:00",
+ "updated_at": "2026-10-23T03:58:26.084140+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7578,10 +7578,10 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10.0,
    "source": "Owner iMessage phonemsg-01M5JWF96BQM0K89CCDZF0XX1A, Oct 22 5:42 PM CT ('Add to the tracker'); all four receipts visually inspected. Cash-out buttons are offers, not executions.",
    "bet_id": "us-tn:01m5jwemv5ehkbq9cd9zg3vcrj",
    "date": "2026-10-22T22:42:00Z",
@@ -7605,7 +7605,7 @@
      "market": "anytime_touchdown",
      "selection": "Demario Douglas",
      "line": null,
-     "hit": null
+     "hit": false
     }
    ],
    "model_at_placement": {
@@ -7613,7 +7613,15 @@
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
     "note": "Model 25.8% vs +310 implied 24.4% (gap +1.4 pp). Mid-board probability, not one of the model's top scorers. Measurement, not a pick."
    },
-   "grading": null
+   "grading": {
+    "source": "official final score and scoring summary (ESPN summary API, event 401873010, verified STATUS_FINAL)",
+    "graded_at": "2026-10-23T03:58:26.084140+00:00",
+    "final_score": "CHI 30, NE 24 (Final, ESPN event 401873010). TDs: Swift (CHI), Maye rush (NE), Burden III (CHI), Stevenson (NE), Loveland (CHI), Raridon (NE); FGs Santos x3 (43,31,58), Borregales (47).",
+    "detail": "Demario Douglas did not score (NE TDs: Maye rush, Stevenson, Raridon). Leg miss; straight ticket loses. $10 cash lost.",
+    "net_units": -1.0,
+    "net_usd": -10.0,
+    "source_note": "ESPN event 401873010 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed. Exact receipt payouts preserved; bonus bet loss nets $0 (stake not returned, no cash at risk)."
+   }
   },
   {
    "sport": "NFL",
@@ -7622,10 +7630,10 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10.0,
    "source": "Owner iMessage phonemsg-01M5JWF96BQM0K89CCDZF0XX1A, Oct 22 5:42 PM CT ('Add to the tracker'); all four receipts visually inspected. Cash-out buttons are offers, not executions.",
    "bet_id": "us-tn:01m5jwc40mfaqt82sw9y6x1fzp",
    "date": "2026-10-22T22:40:00Z",
@@ -7649,7 +7657,7 @@
      "market": "alternate_spread",
      "selection": "New England Patriots",
      "line": 6.5,
-     "hit": null
+     "hit": true
     },
     {
      "event": "New England Patriots @ Chicago Bears",
@@ -7657,7 +7665,7 @@
      "market": "alternate_total_under",
      "selection": "Under",
      "line": 53.5,
-     "hit": null
+     "hit": false
     },
     {
      "event": "New England Patriots @ Chicago Bears",
@@ -7665,7 +7673,7 @@
      "market": "anytime_touchdown",
      "selection": "TreVeyon Henderson",
      "line": null,
-     "hit": null
+     "hit": false
     }
    ],
    "model_at_placement": {
@@ -7673,7 +7681,15 @@
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
     "note": "Baseline PK (raw home margin +0.12) vs book CHI -3: NE +6.5 sits inside the book cushion under both the baseline and the unproven injury overlay (CHI -1). Model total 45.8 vs book 50.5 (under lean 4.7 pts; totals always baseline). Henderson model 39.0% vs +340 leg implied 22.7% (gap +16.3 pp), the model's largest positive gap among regular-rotation players. Measurements, not picks; injury overlay unproven."
    },
-   "grading": null
+   "grading": {
+    "source": "official final score and scoring summary (ESPN summary API, event 401873010, verified STATUS_FINAL)",
+    "graded_at": "2026-10-23T03:58:26.084140+00:00",
+    "final_score": "CHI 30, NE 24 (Final, ESPN event 401873010). TDs: Swift (CHI), Maye rush (NE), Burden III (CHI), Stevenson (NE), Loveland (CHI), Raridon (NE); FGs Santos x3 (43,31,58), Borregales (47).",
+    "detail": "Leg results: NE +6.5 HIT (lost by 6, inside +6.5); Under 53.5 MISS (total 54); Henderson ATD MISS (no TD). Two legs miss; SGP loses. $10 cash lost.",
+    "net_units": -1.0,
+    "net_usd": -10.0,
+    "source_note": "ESPN event 401873010 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed. Exact receipt payouts preserved; bonus bet loss nets $0 (stake not returned, no cash at risk)."
+   }
   },
   {
    "sport": "NFL",
@@ -7682,10 +7698,10 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10.0,
    "source": "Owner iMessage phonemsg-01M5JWF96BQM0K89CCDZF0XX1A, Oct 22 5:42 PM CT ('Add to the tracker'); all four receipts visually inspected. Cash-out buttons are offers, not executions.",
    "bet_id": "us-tn:01m5jwd1ceef88m04nw5md214g",
    "date": "2026-10-22T22:41:00Z",
@@ -7709,7 +7725,7 @@
      "market": "anytime_touchdown",
      "selection": "Luther Burden III",
      "line": null,
-     "hit": null
+     "hit": true
     },
     {
      "event": "New England Patriots @ Chicago Bears",
@@ -7717,7 +7733,7 @@
      "market": "anytime_touchdown",
      "selection": "Demario Douglas",
      "line": null,
-     "hit": null
+     "hit": false
     }
    ],
    "model_at_placement": {
@@ -7725,7 +7741,15 @@
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
     "note": "Burden model 16.3% (IL leg +185 implied 35.1%, gap -18.8 pp); Douglas model 25.8% (+310 implied 24.4%, gap +1.4 pp). SGP +920 implies 9.8%. Douglas appears on two tickets (also straight +310) - ticket leg counts are not model-performance figures. Measurements, not picks."
    },
-   "grading": null
+   "grading": {
+    "source": "official final score and scoring summary (ESPN summary API, event 401873010, verified STATUS_FINAL)",
+    "graded_at": "2026-10-23T03:58:26.084140+00:00",
+    "final_score": "CHI 30, NE 24 (Final, ESPN event 401873010). TDs: Swift (CHI), Maye rush (NE), Burden III (CHI), Stevenson (NE), Loveland (CHI), Raridon (NE); FGs Santos x3 (43,31,58), Borregales (47).",
+    "detail": "Leg results: Luther Burden III ATD HIT (24-yd TD catch Q2 0:14); Demario Douglas ATD MISS. One leg miss; SGP loses. $10 cash lost.",
+    "net_units": -1.0,
+    "net_usd": -10.0,
+    "source_note": "ESPN event 401873010 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed. Exact receipt payouts preserved; bonus bet loss nets $0 (stake not returned, no cash at risk)."
+   }
   },
   {
    "sport": "NFL",
@@ -7735,10 +7759,10 @@
    "state": "TN",
    "stake_type": "bonus_bet",
    "cash_stake_at_risk_usd": 0,
-   "status": "open",
-   "result": null,
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": 0.0,
+   "net_usd": 0.0,
    "source": "Owner iMessage phonemsg-01M5JWF96BQM0K89CCDZF0XX1A, Oct 22 5:42 PM CT ('Add to the tracker'); all four receipts visually inspected. Cash-out buttons are offers, not executions. Bonus-bet origin unverified - not assumed to be the Bet Protect sportsbook bonus.",
    "bet_id": "us-tn:01m5jwdm8dft6rd6caex374x5p",
    "date": "2026-10-22T22:41:00Z",
@@ -7762,7 +7786,7 @@
      "market": "anytime_touchdown",
      "selection": "TreVeyon Henderson",
      "line": null,
-     "hit": null
+     "hit": false
     }
    ],
    "model_at_placement": {
@@ -7770,7 +7794,15 @@
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
     "note": "Henderson model 39.0% vs +340 implied 22.7% (gap +16.3 pp) - the model's largest positive gap among regular-rotation players tonight. Research-only model; measurement, not a pick."
    },
-   "grading": null
+   "grading": {
+    "source": "official final score and scoring summary (ESPN summary API, event 401873010, verified STATUS_FINAL)",
+    "graded_at": "2026-10-23T03:58:26.084140+00:00",
+    "final_score": "CHI 30, NE 24 (Final, ESPN event 401873010). TDs: Swift (CHI), Maye rush (NE), Burden III (CHI), Stevenson (NE), Loveland (CHI), Raridon (NE); FGs Santos x3 (43,31,58), Borregales (47).",
+    "detail": "Henderson did not score. Bonus-bet loss: stake not returned and no cash at risk, net $0.",
+    "net_units": 0.0,
+    "net_usd": 0.0,
+    "source_note": "ESPN event 401873010 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed. Exact receipt payouts preserved; bonus bet loss nets $0 (stake not returned, no cash at risk)."
+   }
   }
  ]
 }

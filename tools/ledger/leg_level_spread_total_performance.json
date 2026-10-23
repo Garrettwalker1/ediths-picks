@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20T16:01:26.272757+00:00",
+ "generated_at": "2026-10-23T04:54:09.170574+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 21,
-  "wins": 13,
-  "losses": 8,
+  "graded": 23,
+  "wins": 14,
+  "losses": 9,
   "ungraded": 16
  },
  "by_sport": {
@@ -16,16 +16,16 @@
    "ungraded": 13
   },
   "NFL": {
-   "graded": 8,
-   "wins": 4,
-   "losses": 4,
+   "graded": 10,
+   "wins": 5,
+   "losses": 5,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 7,
-  "wins": 4,
-  "losses": 3,
+  "graded": 9,
+  "wins": 5,
+  "losses": 4,
   "ungraded": 1
  },
  "nfl_standard": {
@@ -441,6 +441,28 @@
    "ticket_date": "2026-10-19",
    "ticket_result": "win",
    "hit": true
+  },
+  {
+   "event": "New England Patriots @ Chicago Bears",
+   "market": "alternate_spread",
+   "selection": "New England Patriots",
+   "line": 6.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: New England +6.5 (alternate spread) + Under 53.5 (alternate total) + TreVeyon Henderson anytime TD",
+   "ticket_date": "2026-10-22",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "New England Patriots @ Chicago Bears",
+   "market": "alternate_total_under",
+   "selection": "Under",
+   "line": 53.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: New England +6.5 (alternate spread) + Under 53.5 (alternate total) + TreVeyon Henderson anytime TD",
+   "ticket_date": "2026-10-22",
+   "ticket_result": "loss",
+   "hit": false
   }
  ]
 }

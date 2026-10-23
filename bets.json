@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-23T03:58:26.084140+00:00",
+ "updated_at": "2026-10-23T19:58:04Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7803,6 +7803,250 @@
     "net_usd": 0.0,
     "source_note": "ESPN event 401873010 verified Final with full scoring summary. TD scoring checked against official scoring plays. Cash-out offers were never executed. Exact receipt payouts preserved; bonus bet loss nets $0 (stake not returned, no cash at risk)."
    }
+  },
+  {
+   "sport": "NFL",
+   "game": "New York Giants @ Houston Texans",
+   "kickoff": "2026-10-25T17:00:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
+   "bet_id": "us-tn:01m5n4wbkpe69vtyydb6p5dkpy",
+   "date": "2026-10-23T19:47:00Z",
+   "placed_at": "2026-10-23T19:47:00Z",
+   "stake_usd": 10,
+   "stake_units": 1,
+   "potential_payout_usd": 35.0,
+   "potential_profit_usd": 25.0,
+   "cashout_value_usd_at_capture": 10.0,
+   "bet": "Straight: Isaiah Likely anytime touchdown",
+   "selection": "Isaiah Likely ATD",
+   "market": "anytime_touchdown",
+   "line": null,
+   "price": 250,
+   "price_note": "Exact displayed payout $35.00 on $10 at +250 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "24a5fb85d0c18030ec7d3662903d121d6d23d1e8c8d1fe3830ba2636628d9d15",
+   "legs": [
+    {
+     "event": "New York Giants @ Houston Texans",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Isaiah Likely",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
+    "note": "Model 32.7% vs +250 implied 28.6% (gap +4.1 pp). Not on the Week 7 injury report. Measurement, not a pick."
+   },
+   "grading": null
+  },
+  {
+   "sport": "NFL",
+   "game": "Pittsburgh Steelers @ New Orleans Saints",
+   "kickoff": "2026-10-25T13:30:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
+   "bet_id": "us-tn:01m5n57kbgefrvzrcg3gehp0a1",
+   "date": "2026-10-23T19:53:00Z",
+   "placed_at": "2026-10-23T19:53:00Z",
+   "stake_usd": 10,
+   "stake_units": 1,
+   "potential_payout_usd": 35.0,
+   "potential_profit_usd": 25.0,
+   "cashout_value_usd_at_capture": 10.0,
+   "bet": "Straight: Pat Freiermuth anytime touchdown",
+   "selection": "Pat Freiermuth ATD",
+   "market": "anytime_touchdown",
+   "line": null,
+   "price": 250,
+   "price_note": "Exact displayed payout $35.00 on $10 at +250 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "5b12e39ea37881d1a76b482f7f51ee215ab9cf1cf53469c6d021b1f3f53f369b",
+   "legs": [
+    {
+     "event": "Pittsburgh Steelers @ New Orleans Saints",
+     "kickoff": "2026-10-25T13:30:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Pat Freiermuth",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
+    "note": "Model 34.1% vs +250 implied 28.6% (gap +5.5 pp). Not on the Week 7 injury report. PIT at NO kicks off Sunday 8:30 AM CT, the week's earliest game. Measurement, not a pick."
+   },
+   "grading": null
+  },
+  {
+   "sport": "NFL",
+   "game": "Indianapolis Colts @ Minnesota Vikings",
+   "kickoff": "2026-10-25T17:00:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
+   "bet_id": "us-tn:01m5n57xx9fwdbthcfvgm8zz0e",
+   "date": "2026-10-23T19:54:00Z",
+   "placed_at": "2026-10-23T19:54:00Z",
+   "stake_usd": 10,
+   "stake_units": 1,
+   "potential_payout_usd": 26.5,
+   "potential_profit_usd": 16.5,
+   "cashout_value_usd_at_capture": 10.0,
+   "bet": "Straight: Justin Jefferson anytime touchdown",
+   "selection": "Justin Jefferson ATD",
+   "market": "anytime_touchdown",
+   "line": null,
+   "price": 165,
+   "price_note": "Exact displayed payout $26.50 on $10 at +165 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "6b758b54bb08aab74ba6c9a030bc0ccc1f3bb26bea1bab3abcef22cdf2a407ec",
+   "legs": [
+    {
+     "event": "Indianapolis Colts @ Minnesota Vikings",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Justin Jefferson",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
+    "note": "No row on the Week 7 anytime-TD board: the build's name-keyed groupby merges him with CLE LB Justin Jefferson and the trailing LB row drops the MIN WR (documented defect). Published v6 player baseline (player_id-keyed) = 25.8%; same-spec board recomputation on his MIN receiving history = ~24.0%. Both vs +165 implied 37.7% (gap about -12 to -14 pp). Week 7 injury report: full practice, no game designation. Measurement, not a pick."
+   },
+   "grading": null
+  },
+  {
+   "sport": "NFL",
+   "game": "Green Bay Packers @ Detroit Lions",
+   "kickoff": "2026-10-25T20:25:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
+   "bet_id": "us-tn:01m5n586vxescs9hdgjv2bp1er",
+   "date": "2026-10-23T19:54:00Z",
+   "placed_at": "2026-10-23T19:54:00Z",
+   "stake_usd": 10,
+   "stake_units": 1,
+   "potential_payout_usd": 25.0,
+   "potential_profit_usd": 15.0,
+   "cashout_value_usd_at_capture": 10.0,
+   "bet": "Straight: Matthew Golden anytime touchdown",
+   "selection": "Matthew Golden ATD",
+   "market": "anytime_touchdown",
+   "line": null,
+   "price": 150,
+   "price_note": "Exact displayed payout $25.00 on $10 at +150 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "7476302c761d6b5ac67d9003ee078a492df99d84dfd10d49f402dc332019447d",
+   "legs": [
+    {
+     "event": "Green Bay Packers @ Detroit Lions",
+     "kickoff": "2026-10-25T20:25:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Matthew Golden",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
+    "note": "Model 22.8% vs +150 implied 40.0% (gap -17.2 pp). Week 7 injury report: limited practice, no game designation; IR/Out zeroing does not apply. Measurement, not a pick."
+   },
+   "grading": null
+  },
+  {
+   "sport": "NFL",
+   "game": "4-game anytime TD parlay (PIT@NO, NYG@HOU, IND@MIN, GB@DET)",
+   "kickoff": "2026-10-25T13:30:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
+   "bet_id": "us-tn:01m5n4vwq9fckrq6bsntrtpskg",
+   "date": "2026-10-23T19:47:00Z",
+   "placed_at": "2026-10-23T19:47:00Z",
+   "stake_usd": 10,
+   "stake_units": 1,
+   "potential_payout_usd": 811.56,
+   "potential_profit_usd": 801.56,
+   "cashout_value_usd_at_capture": 10.0,
+   "bet": "Parlay (4 legs): Pat Freiermuth ATD + Isaiah Likely ATD + Justin Jefferson ATD + Matthew Golden ATD",
+   "selection": "Freiermuth ATD, Likely ATD, Jefferson ATD, Golden ATD",
+   "market": "multi-game parlay - anytime touchdowns",
+   "line": null,
+   "price": 8015,
+   "price_note": "Displayed +8015; exact displayed payout $811.56 on $10 (TN receipt) governs. Receipt leg prices +250/+250/+165/+150 (3.5 x 3.5 x 2.65 x 2.5 = 81.156x, consistent).",
+   "source_receipt_sha256": "27d3a6334901c086107f290b753b2051c31187bd170a8319e89760ae81a4f8ec",
+   "legs": [
+    {
+     "event": "Pittsburgh Steelers @ New Orleans Saints",
+     "kickoff": "2026-10-25T13:30:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Pat Freiermuth",
+     "line": null,
+     "hit": null
+    },
+    {
+     "event": "New York Giants @ Houston Texans",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Isaiah Likely",
+     "line": null,
+     "hit": null
+    },
+    {
+     "event": "Indianapolis Colts @ Minnesota Vikings",
+     "kickoff": "2026-10-25T17:00:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Justin Jefferson",
+     "line": null,
+     "hit": null
+    },
+    {
+     "event": "Green Bay Packers @ Detroit Lions",
+     "kickoff": "2026-10-25T20:25:00Z",
+     "market": "anytime_touchdown",
+     "selection": "Matthew Golden",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
+    "note": "Four different games, so the legs are independent and the model joint is the product: 32.7% x 34.1% x ~24.0%* x 22.8% = 0.61% vs +8015 implied 1.23% - the model prices the parlay well below the TN price, driven by the Jefferson and Golden legs (both model-under-implied); Likely and Freiermuth are model-over-implied. *Jefferson uses the same-spec recomputation (~24.0%) because his board row is missing (name-collision defect); the published 25.8% baseline would give 0.66%. Measurement, not a pick."
+   },
+   "grading": null
   }
  ]
 }

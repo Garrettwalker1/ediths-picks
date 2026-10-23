@@ -1,0 +1,617 @@
+{
+ "generated_at": "2026-10-23T04:50:45.708868+00:00",
+ "game_id": "2026_07_NE_CHI",
+ "final": "CHI 30, NE 24 (Final)",
+ "sources": {
+  "games": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv (asset updated 2026-10-23T04:46:36Z)",
+  "player_stats": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv (asset updated 2026-10-23T04:46:11Z)",
+  "espn_summary": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010 (STATUS_FINAL, archived espn_final.json)"
+ },
+ "misses": {
+  "frozen_home_margin": {
+   "prediction": 0.12,
+   "actual": 6,
+   "absolute_error": 5.88,
+   "note": "Baseline picked a pure coin-flip game (PK, home win 50%); actual CHI by 6. One game."
+  },
+  "injury_overlay_margin": {
+   "prediction": 1.1,
+   "actual": 6,
+   "absolute_error": 4.9,
+   "note": "Unproven overlay was closer this once; one game does not validate it. Weeks 5 and 6 favored the baseline."
+  },
+  "frozen_total": {
+   "prediction": 45.8,
+   "actual": 54,
+   "signed_error_prediction_minus_actual": -8.2,
+   "note": "Use frozen model_total 45.8, not the rounded 23-23 displayed scores (sum 46)."
+  },
+  "home_win_brier": 0.25
+ },
+ "totals_forward_record": {
+  "n": 46,
+  "mae": 10.815217391304346,
+  "mean_signed_error_prediction_minus_actual": -1.1847826086956523,
+  "rmse": 12.111645491911457,
+  "train_mean_baseline_mae": 11.15414784420829
+ },
+ "totals_rows": [
+  {
+   "week": 4,
+   "game_id": "2026_04_PIT_CLE",
+   "frozen_total": 40.7,
+   "actual_total": 51.0,
+   "signed_error_prediction_minus_actual": -10.299999999999997,
+   "absolute_error": 10.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_ARI_NYG",
+   "frozen_total": 44.4,
+   "actual_total": 60.0,
+   "signed_error_prediction_minus_actual": -15.600000000000001,
+   "absolute_error": 15.600000000000001
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DAL_HOU",
+   "frozen_total": 47.9,
+   "actual_total": 64.0,
+   "signed_error_prediction_minus_actual": -16.1,
+   "absolute_error": 16.1
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DEN_SF",
+   "frozen_total": 46.7,
+   "actual_total": 38.0,
+   "signed_error_prediction_minus_actual": 8.700000000000003,
+   "absolute_error": 8.700000000000003
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DET_CAR",
+   "frozen_total": 48.8,
+   "actual_total": 58.0,
+   "signed_error_prediction_minus_actual": -9.200000000000003,
+   "absolute_error": 9.200000000000003
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_GB_TB",
+   "frozen_total": 44.3,
+   "actual_total": 31.0,
+   "signed_error_prediction_minus_actual": 13.299999999999997,
+   "absolute_error": 13.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_IND_WAS",
+   "frozen_total": 48.5,
+   "actual_total": 43.0,
+   "signed_error_prediction_minus_actual": 5.5,
+   "absolute_error": 5.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_JAX_CIN",
+   "frozen_total": 47.3,
+   "actual_total": 39.0,
+   "signed_error_prediction_minus_actual": 8.299999999999997,
+   "absolute_error": 8.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_KC_LV",
+   "frozen_total": 44.5,
+   "actual_total": 57.0,
+   "signed_error_prediction_minus_actual": -12.5,
+   "absolute_error": 12.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_LAC_SEA",
+   "frozen_total": 43.0,
+   "actual_total": 53.0,
+   "signed_error_prediction_minus_actual": -10.0,
+   "absolute_error": 10.0
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_LA_PHI",
+   "frozen_total": 44.5,
+   "actual_total": 44.0,
+   "signed_error_prediction_minus_actual": 0.5,
+   "absolute_error": 0.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_MIA_MIN",
+   "frozen_total": 43.3,
+   "actual_total": 25.0,
+   "signed_error_prediction_minus_actual": 18.299999999999997,
+   "absolute_error": 18.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_NE_BUF",
+   "frozen_total": 47.0,
+   "actual_total": 55.0,
+   "signed_error_prediction_minus_actual": -8.0,
+   "absolute_error": 8.0
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_NYJ_CHI",
+   "frozen_total": 45.4,
+   "actual_total": 35.0,
+   "signed_error_prediction_minus_actual": 10.399999999999999,
+   "absolute_error": 10.399999999999999
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_TEN_BAL",
+   "frozen_total": 45.1,
+   "actual_total": 42.0,
+   "signed_error_prediction_minus_actual": 3.1000000000000014,
+   "absolute_error": 3.1000000000000014
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_ATL_NO",
+   "frozen_total": 46.5,
+   "actual_total": 69.0,
+   "signed_error_prediction_minus_actual": -22.5,
+   "absolute_error": 22.5
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_TB_DAL",
+   "frozen_total": 48.4,
+   "actual_total": 40.0,
+   "signed_error_prediction_minus_actual": 8.399999999999999,
+   "absolute_error": 8.399999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_PHI_JAX",
+   "frozen_total": 43.9,
+   "actual_total": 36.0,
+   "signed_error_prediction_minus_actual": 7.899999999999999,
+   "absolute_error": 7.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CHI_GB",
+   "frozen_total": 43.9,
+   "actual_total": 38.0,
+   "signed_error_prediction_minus_actual": 5.899999999999999,
+   "absolute_error": 5.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CIN_MIA",
+   "frozen_total": 43.1,
+   "actual_total": 55.0,
+   "signed_error_prediction_minus_actual": -11.899999999999999,
+   "absolute_error": 11.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CLE_NYJ",
+   "frozen_total": 41.1,
+   "actual_total": 29.0,
+   "signed_error_prediction_minus_actual": 12.100000000000001,
+   "absolute_error": 12.100000000000001
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_HOU_TEN",
+   "frozen_total": 42.2,
+   "actual_total": 29.0,
+   "signed_error_prediction_minus_actual": 13.200000000000003,
+   "absolute_error": 13.200000000000003
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_IND_PIT",
+   "frozen_total": 46.0,
+   "actual_total": 56.0,
+   "signed_error_prediction_minus_actual": -10.0,
+   "absolute_error": 10.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_LV_NE",
+   "frozen_total": 44.0,
+   "actual_total": 62.0,
+   "signed_error_prediction_minus_actual": -18.0,
+   "absolute_error": 18.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_MIN_NO",
+   "frozen_total": 44.8,
+   "actual_total": 36.0,
+   "signed_error_prediction_minus_actual": 8.799999999999997,
+   "absolute_error": 8.799999999999997
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_NYG_WAS",
+   "frozen_total": 45.1,
+   "actual_total": 54.0,
+   "signed_error_prediction_minus_actual": -8.899999999999999,
+   "absolute_error": 8.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_DEN_LAC",
+   "frozen_total": 44.0,
+   "actual_total": 40.0,
+   "signed_error_prediction_minus_actual": 4.0,
+   "absolute_error": 4.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_DET_ARI",
+   "frozen_total": 50.1,
+   "actual_total": 66.0,
+   "signed_error_prediction_minus_actual": -15.899999999999999,
+   "absolute_error": 15.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_SF_SEA",
+   "frozen_total": 47.2,
+   "actual_total": 61.0,
+   "signed_error_prediction_minus_actual": -13.799999999999997,
+   "absolute_error": 13.799999999999997
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_BAL_ATL",
+   "frozen_total": 47.4,
+   "actual_total": 53.0,
+   "signed_error_prediction_minus_actual": -5.600000000000001,
+   "absolute_error": 5.600000000000001
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_BUF_LA",
+   "frozen_total": 52.2,
+   "actual_total": 71.0,
+   "signed_error_prediction_minus_actual": -18.799999999999997,
+   "absolute_error": 18.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_SEA_DEN",
+   "frozen_total": 44.5,
+   "actual_total": 31.0,
+   "signed_error_prediction_minus_actual": 13.5,
+   "absolute_error": 13.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_HOU_JAX",
+   "frozen_total": 44.7,
+   "actual_total": 65.0,
+   "signed_error_prediction_minus_actual": -20.299999999999997,
+   "absolute_error": 20.299999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_BAL_CLE",
+   "frozen_total": 43.9,
+   "actual_total": 23.0,
+   "signed_error_prediction_minus_actual": 20.9,
+   "absolute_error": 20.9
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_CAR_PHI",
+   "frozen_total": 43.5,
+   "actual_total": 39.0,
+   "signed_error_prediction_minus_actual": 4.5,
+   "absolute_error": 4.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_CHI_ATL",
+   "frozen_total": 45.5,
+   "actual_total": 54.0,
+   "signed_error_prediction_minus_actual": -8.5,
+   "absolute_error": 8.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_NO_NYG",
+   "frozen_total": 45.3,
+   "actual_total": 61.0,
+   "signed_error_prediction_minus_actual": -15.700000000000003,
+   "absolute_error": 15.700000000000003
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_NYJ_NE",
+   "frozen_total": 44.0,
+   "actual_total": 45.0,
+   "signed_error_prediction_minus_actual": -1.0,
+   "absolute_error": 1.0
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_PIT_TB",
+   "frozen_total": 43.5,
+   "actual_total": 45.0,
+   "signed_error_prediction_minus_actual": -1.5,
+   "absolute_error": 1.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_TEN_IND",
+   "frozen_total": 44.1,
+   "actual_total": 46.0,
+   "signed_error_prediction_minus_actual": -1.8999999999999986,
+   "absolute_error": 1.8999999999999986
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_ARI_LA",
+   "frozen_total": 52.7,
+   "actual_total": 34.0,
+   "signed_error_prediction_minus_actual": 18.700000000000003,
+   "absolute_error": 18.700000000000003
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_BUF_LV",
+   "frozen_total": 51.2,
+   "actual_total": 63.0,
+   "signed_error_prediction_minus_actual": -11.799999999999997,
+   "absolute_error": 11.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_LAC_KC",
+   "frozen_total": 42.8,
+   "actual_total": 28.0,
+   "signed_error_prediction_minus_actual": 14.799999999999997,
+   "absolute_error": 14.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_DAL_GB",
+   "frozen_total": 47.4,
+   "actual_total": 36.0,
+   "signed_error_prediction_minus_actual": 11.399999999999999,
+   "absolute_error": 11.399999999999999
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_WAS_SF",
+   "frozen_total": 49.3,
+   "actual_total": 40.0,
+   "signed_error_prediction_minus_actual": 9.299999999999997,
+   "absolute_error": 9.299999999999997
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_NE_CHI",
+   "frozen_total": 45.8,
+   "actual_total": 54.0,
+   "signed_error_prediction_minus_actual": -8.200000000000003,
+   "absolute_error": 8.200000000000003
+  }
+ ],
+ "anytime_td_audit": {
+  "players": 25,
+  "mean_brier": 0.157762,
+  "locked_test_reference": "Brier 0.184 vs 0.193 constant baseline, bootstrap intervals cross zero; research-only, not a validated edge",
+  "rows": [
+   {
+    "player": "D'Andre Swift",
+    "pos": "RB",
+    "model": 0.497,
+    "scored": 1,
+    "brier": 0.253009
+   },
+   {
+    "player": "Rhamondre Stevenson",
+    "pos": "RB",
+    "model": 0.433,
+    "scored": 1,
+    "brier": 0.321489
+   },
+   {
+    "player": "TreVeyon Henderson",
+    "pos": "RB",
+    "model": 0.39,
+    "scored": 0,
+    "brier": 0.1521
+   },
+   {
+    "player": "A.J. Brown",
+    "pos": "WR",
+    "model": 0.31,
+    "scored": 0,
+    "brier": 0.0961
+   },
+   {
+    "player": "Colston Loveland",
+    "pos": "TE",
+    "model": 0.295,
+    "scored": 1,
+    "brier": 0.497025
+   },
+   {
+    "player": "Hunter Henry",
+    "pos": "TE",
+    "model": 0.291,
+    "scored": 0,
+    "brier": 0.084681
+   },
+   {
+    "player": "Jahdae Walker",
+    "pos": "WR",
+    "model": 0.278,
+    "scored": 0,
+    "brier": 0.077284
+   },
+   {
+    "player": "DeMario Douglas",
+    "pos": "WR",
+    "model": 0.258,
+    "scored": 0,
+    "brier": 0.066564
+   },
+   {
+    "player": "Caleb Williams",
+    "pos": "QB",
+    "model": 0.242,
+    "scored": 0,
+    "brier": 0.058564
+   },
+   {
+    "player": "Kyle Williams",
+    "pos": "WR",
+    "model": 0.221,
+    "scored": 0,
+    "brier": 0.048841
+   },
+   {
+    "player": "Rome Odunze",
+    "pos": "WR",
+    "model": 0.203,
+    "scored": 0,
+    "brier": 0.041209
+   },
+   {
+    "player": "Eli Raridon",
+    "pos": "TE",
+    "model": 0.192,
+    "scored": 1,
+    "brier": 0.652864
+   },
+   {
+    "player": "Roschon Johnson",
+    "pos": "RB",
+    "model": 0.191,
+    "scored": 0,
+    "brier": 0.036481
+   },
+   {
+    "player": "Efton Chism III",
+    "pos": "WR",
+    "model": 0.187,
+    "scored": 0,
+    "brier": 0.034969
+   },
+   {
+    "player": "Drake Maye",
+    "pos": "QB",
+    "model": 0.185,
+    "scored": 1,
+    "brier": 0.664225
+   },
+   {
+    "player": "Tanner Arkin",
+    "pos": "TE",
+    "model": 0.184,
+    "scored": 0,
+    "brier": 0.033856
+   },
+   {
+    "player": "Luther Burden III",
+    "pos": "WR",
+    "model": 0.163,
+    "scored": 1,
+    "brier": 0.700569
+   },
+   {
+    "player": "Kalif Raymond",
+    "pos": "WR",
+    "model": 0.16,
+    "scored": 0,
+    "brier": 0.0256
+   },
+   {
+    "player": "Cole Kmet",
+    "pos": "TE",
+    "model": 0.141,
+    "scored": 0,
+    "brier": 0.019881
+   },
+   {
+    "player": "Zavier Scott",
+    "pos": "RB",
+    "model": 0.131,
+    "scored": 0,
+    "brier": 0.017161
+   },
+   {
+    "player": "Zavion Thomas",
+    "pos": "WR",
+    "model": 0.13,
+    "scored": 0,
+    "brier": 0.0169
+   },
+   {
+    "player": "Mack Hollins",
+    "pos": "WR",
+    "model": 0.125,
+    "scored": 0,
+    "brier": 0.015625
+   },
+   {
+    "player": "Sam Roush",
+    "pos": "TE",
+    "model": 0.113,
+    "scored": 0,
+    "brier": 0.012769
+   },
+   {
+    "player": "Corey Kiner",
+    "pos": "RB",
+    "model": 0.108,
+    "scored": 0,
+    "brier": 0.011664
+   },
+   {
+    "player": "Cameron Latu",
+    "pos": "TE",
+    "model": 0.068,
+    "scored": 0,
+    "brier": 0.004624
+   }
+  ],
+  "note": "Henderson and DeMario Douglas each appeared on two tickets; shared players across tickets are not independent observations. Monangai (Out) and Doubs (IR) excluded: zero participation, display-zeroed."
+ },
+ "team_state_assimilation": {
+  "NE": {
+   "last_completed_game": "2026_07_NE_CHI",
+   "next_game_id": "2026_08_NE_MIA",
+   "points_for_before": 25.70815910366432,
+   "points_for_after": 25.521796755834295,
+   "points_against_before": 19.782466987031032,
+   "points_against_after": 20.897212936189348,
+   "next_game_elo_difference_before": -234.92904706864738,
+   "next_game_elo_difference_after": -215.46313902973748,
+   "note": "Unrounded model state, not a new game prediction; no future Week7 results available yet."
+  },
+  "CHI": {
+   "last_completed_game": "2026_07_NE_CHI",
+   "next_game_id": "2026_08_CHI_SEA",
+   "points_for_before": 24.01514874828225,
+   "points_for_after": 24.66810369158405,
+   "points_against_before": 21.43553126541406,
+   "points_against_after": 21.71531809164641,
+   "next_game_elo_difference_before": 99.23867694739374,
+   "next_game_elo_difference_after": 79.77276890848384,
+   "note": "Unrounded model state, not a new game prediction; no future Week7 results available yet."
+  }
+ },
+ "player_stats_assertions": "Week 7 rows archived and verified for all eight audited players (TD counts match the ESPN scoring summary). Tuesday Week-8 rebuild must fresh-fetch completed schedule/player inputs and include this game; no refit, no tuning from one game.",
+ "no_cause_asserted": "Injury/weather/play-calling causes for the misses are not established and none are invented."
+}

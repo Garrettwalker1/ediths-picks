@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-23T19:58:04Z",
+ "updated_at": "2026-10-23T20:02:49Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7932,7 +7932,7 @@
    "model_at_placement": {
     "available": true,
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
-    "note": "No row on the Week 7 anytime-TD board: the build's name-keyed groupby merges him with CLE LB Justin Jefferson and the trailing LB row drops the MIN WR (documented defect). Published v6 player baseline (player_id-keyed) = 25.8%; same-spec board recomputation on his MIN receiving history = ~24.0%. Both vs +165 implied 37.7% (gap about -12 to -14 pp). Week 7 injury report: full practice, no game designation. Measurement, not a pick."
+    "note": "Model 24.9% vs +165 implied 37.7% (gap -12.8 pp). Board row restored Oct 23 by the TD-board identity fix (pre-fix build merged him with CLE LB Justin Jefferson via normalized-name groupby and dropped the MIN WR row; fix keys rows by player_id, model spec unchanged). Quoted pipeline is the Week 7 anytime-TD board (recency-weighted TD rate through Week 6, locked h=12/k=4); the separate fantasy-projection baseline pipeline reads 25.8% - different model, same conclusion. Week 7 injury report: full practice, no game designation. Measurement, not a pick. Supersedes the original entry's ~24.0% figure, which had been computed on the same corrupted merged group it described."
    },
    "grading": null
   },
@@ -8044,7 +8044,7 @@
    "model_at_placement": {
     "available": true,
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
-    "note": "Four different games, so the legs are independent and the model joint is the product: 32.7% x 34.1% x ~24.0%* x 22.8% = 0.61% vs +8015 implied 1.23% - the model prices the parlay well below the TN price, driven by the Jefferson and Golden legs (both model-under-implied); Likely and Freiermuth are model-over-implied. *Jefferson uses the same-spec recomputation (~24.0%) because his board row is missing (name-collision defect); the published 25.8% baseline would give 0.66%. Measurement, not a pick."
+    "note": "Four different games, so the legs are independent and the model joint is the product: 32.7% x 34.1% x 24.9% x 22.8% = 0.63% vs +8015 implied 1.23% - the model prices the parlay well below the TN price, driven by the Jefferson and Golden legs (both model-under-implied); Likely and Freiermuth are model-over-implied. Jefferson leg uses the corrected TD-board number (24.9%) published with the Oct 23 identity fix. Measurement, not a pick; legs are different games (independence stated)."
    },
    "grading": null
   }

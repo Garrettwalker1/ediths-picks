@@ -4,7 +4,7 @@
  "captured_from": "2026-10-22T22:30:13.848250+00:00",
  "captured_to": "2026-10-22T22:30:13.848250+00:00",
  "state": "IL",
- "note": "FanDuel Illinois anytime TD prices, Thursday NE at CHI prices refreshed Oct 22 ~5:29 PM CT pre-game; other games blank = not posted yet. Model = recency-weighted TD rate through Week 6 2026, shrunk to locked per-position average (h=12, k=4, tools/props_w4/validation_atd.json). IR/Out zeroing applies on display via injury_adjustments.json.",
+ "note": "FanDuel Illinois anytime TD prices, Thursday NE at CHI prices refreshed Oct 22 ~5:29 PM CT pre-game; other games blank = not posted yet. Model = recency-weighted TD rate through Week 6 2026, shrunk to locked per-position average (h=12, k=4, tools/props_w4/validation_atd.json). IR/Out zeroing applies on display via injury_adjustments.json. IDENTITY FIX Oct 23: rows are now keyed by player_id instead of normalized name - the pre-fix build merged same-name players (dropped MIN WR Justin Jefferson via CLE LB Justin Jefferson); pre-fix artifact preserved as week7_anytime_td_prefix_namecollision_20261023.json. Model spec unchanged.",
  "rows": [
   {
    "player": "D'Andre Swift",
@@ -527,11 +527,11 @@
    "kick": "2026-10-25 09:30 ET"
   },
   {
-   "player": "Bryce Lance",
+   "player": "Michael Pittman",
    "pos": "WR",
-   "team": "NO",
-   "opp": "PIT",
-   "games": 6,
+   "team": "PIT",
+   "opp": "NO",
+   "games": 17,
    "model": 0.21,
    "book": null,
    "book_prob": null,
@@ -540,11 +540,11 @@
    "kick": "2026-10-25 09:30 ET"
   },
   {
-   "player": "Michael Pittman",
+   "player": "Bryce Lance",
    "pos": "WR",
-   "team": "PIT",
-   "opp": "NO",
-   "games": 17,
+   "team": "NO",
+   "opp": "PIT",
+   "games": 6,
    "model": 0.21,
    "book": null,
    "book_prob": null,
@@ -735,10 +735,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Harold Fannin Jr.",
-   "pos": "TE",
-   "team": "CLE",
-   "opp": "TEN",
+   "player": "Nico Collins",
+   "pos": "WR",
+   "team": "HOU",
+   "opp": "NYG",
    "games": 17,
    "model": 0.38,
    "book": null,
@@ -748,10 +748,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Nico Collins",
-   "pos": "WR",
-   "team": "HOU",
-   "opp": "NYG",
+   "player": "Harold Fannin Jr.",
+   "pos": "TE",
+   "team": "CLE",
+   "opp": "TEN",
    "games": 17,
    "model": 0.38,
    "book": null,
@@ -813,10 +813,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Bucky Irving",
-   "pos": "RB",
-   "team": "TB",
-   "opp": "CAR",
+   "player": "Mike Evans",
+   "pos": "WR",
+   "team": "SF",
+   "opp": "ATL",
    "games": 17,
    "model": 0.344,
    "book": null,
@@ -839,25 +839,12 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Mike Evans",
-   "pos": "WR",
-   "team": "SF",
-   "opp": "ATL",
+   "player": "Bucky Irving",
+   "pos": "RB",
+   "team": "TB",
+   "opp": "CAR",
    "games": 17,
    "model": 0.344,
-   "book": null,
-   "book_prob": null,
-   "gap": null,
-   "cap": null,
-   "kick": "2026-10-25 13:00 ET"
-  },
-  {
-   "player": "Malik Nabers",
-   "pos": "WR",
-   "team": "NYG",
-   "opp": "HOU",
-   "games": 17,
-   "model": 0.343,
    "book": null,
    "book_prob": null,
    "gap": null,
@@ -878,12 +865,12 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Denzel Boston",
+   "player": "Malik Nabers",
    "pos": "WR",
-   "team": "CLE",
-   "opp": "TEN",
-   "games": 6,
-   "model": 0.328,
+   "team": "NYG",
+   "opp": "HOU",
+   "games": 17,
+   "model": 0.343,
    "book": null,
    "book_prob": null,
    "gap": null,
@@ -896,6 +883,19 @@
    "team": "CIN",
    "opp": "BAL",
    "games": 17,
+   "model": 0.328,
+   "book": null,
+   "book_prob": null,
+   "gap": null,
+   "cap": null,
+   "kick": "2026-10-25 13:00 ET"
+  },
+  {
+   "player": "Denzel Boston",
+   "pos": "WR",
+   "team": "CLE",
+   "opp": "TEN",
+   "games": 6,
    "model": 0.328,
    "book": null,
    "book_prob": null,
@@ -1216,6 +1216,19 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
+   "player": "Justin Jefferson",
+   "pos": "WR",
+   "team": "MIN",
+   "opp": "IND",
+   "games": 17,
+   "model": 0.249,
+   "book": null,
+   "book_prob": null,
+   "gap": null,
+   "cap": null,
+   "kick": "2026-10-25 13:00 ET"
+  },
+  {
    "player": "Kevin Coleman Jr.",
    "pos": "WR",
    "team": "MIA",
@@ -1255,10 +1268,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Marvin Harrison Jr.",
-   "pos": "WR",
-   "team": "HOU",
-   "opp": "NYG",
+   "player": "Samaje Perine",
+   "pos": "RB",
+   "team": "CIN",
+   "opp": "BAL",
    "games": 17,
    "model": 0.243,
    "book": null,
@@ -1268,10 +1281,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Samaje Perine",
-   "pos": "RB",
-   "team": "CIN",
-   "opp": "BAL",
+   "player": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "team": "HOU",
+   "opp": "NYG",
    "games": 17,
    "model": 0.243,
    "book": null,
@@ -1541,11 +1554,24 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Caleb Douglas",
-   "pos": "WR",
-   "team": "MIA",
-   "opp": "NYJ",
-   "games": 2,
+   "player": "Justice Hill",
+   "pos": "RB",
+   "team": "BAL",
+   "opp": "CIN",
+   "games": 17,
+   "model": 0.18,
+   "book": null,
+   "book_prob": null,
+   "gap": null,
+   "cap": null,
+   "kick": "2026-10-25 13:00 ET"
+  },
+  {
+   "player": "Tyler Huntley",
+   "pos": "QB",
+   "team": "BAL",
+   "opp": "CIN",
+   "games": 17,
    "model": 0.18,
    "book": null,
    "book_prob": null,
@@ -1567,24 +1593,11 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Justice Hill",
-   "pos": "RB",
-   "team": "BAL",
-   "opp": "CIN",
-   "games": 17,
-   "model": 0.18,
-   "book": null,
-   "book_prob": null,
-   "gap": null,
-   "cap": null,
-   "kick": "2026-10-25 13:00 ET"
-  },
-  {
-   "player": "Tyler Huntley",
-   "pos": "QB",
-   "team": "BAL",
-   "opp": "CIN",
-   "games": 17,
+   "player": "Caleb Douglas",
+   "pos": "WR",
+   "team": "MIA",
+   "opp": "NYJ",
+   "games": 2,
    "model": 0.18,
    "book": null,
    "book_prob": null,
@@ -1801,10 +1814,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Chris Bell",
+   "player": "Dohnte Meyers",
    "pos": "WR",
-   "team": "MIA",
-   "opp": "NYJ",
+   "team": "CIN",
+   "opp": "BAL",
    "games": 5,
    "model": 0.13,
    "book": null,
@@ -1814,10 +1827,10 @@
    "kick": "2026-10-25 13:00 ET"
   },
   {
-   "player": "Dohnte Meyers",
+   "player": "Chris Bell",
    "pos": "WR",
-   "team": "CIN",
-   "opp": "BAL",
+   "team": "MIA",
+   "opp": "NYJ",
    "games": 5,
    "model": 0.13,
    "book": null,
@@ -2308,10 +2321,10 @@
    "kick": "2026-10-25 16:25 ET"
   },
   {
-   "player": "Blake Corum",
-   "pos": "RB",
-   "team": "LA",
-   "opp": "LV",
+   "player": "Jameson Williams",
+   "pos": "WR",
+   "team": "DET",
+   "opp": "GB",
    "games": 17,
    "model": 0.335,
    "book": null,
@@ -2321,10 +2334,10 @@
    "kick": "2026-10-25 16:25 ET"
   },
   {
-   "player": "Jameson Williams",
-   "pos": "WR",
-   "team": "DET",
-   "opp": "GB",
+   "player": "Blake Corum",
+   "pos": "RB",
+   "team": "LA",
+   "opp": "LV",
    "games": 17,
    "model": 0.335,
    "book": null,
@@ -2542,7 +2555,7 @@
    "kick": "2026-10-25 16:25 ET"
   },
   {
-   "player": "Chris Brooks",
+   "player": "Pierre Strong",
    "pos": "RB",
    "team": "GB",
    "opp": "DET",
@@ -2555,7 +2568,7 @@
    "kick": "2026-10-25 16:25 ET"
   },
   {
-   "player": "Pierre Strong",
+   "player": "Chris Brooks",
    "pos": "RB",
    "team": "GB",
    "opp": "DET",
@@ -2919,8 +2932,8 @@
    "kick": "2026-10-26 20:15 ET"
   },
   {
-   "player": "Dameon Pierce",
-   "pos": "RB",
+   "player": "Zach Ertz",
+   "pos": "TE",
    "team": "PHI",
    "opp": "DAL",
    "games": 17,
@@ -2932,8 +2945,8 @@
    "kick": "2026-10-26 20:15 ET"
   },
   {
-   "player": "Zach Ertz",
-   "pos": "TE",
+   "player": "Dameon Pierce",
+   "pos": "RB",
    "team": "PHI",
    "opp": "DAL",
    "games": 17,

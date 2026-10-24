@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-23T20:02:49Z",
+ "updated_at": "2026-10-24T22:36:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8045,6 +8045,198 @@
     "available": true,
     "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
     "note": "Four different games, so the legs are independent and the model joint is the product: 32.7% x 34.1% x 24.9% x 22.8% = 0.63% vs +8015 implied 1.23% - the model prices the parlay well below the TN price, driven by the Jefferson and Golden legs (both model-under-implied); Likely and Freiermuth are model-over-implied. Jefferson leg uses the corrected TD-board number (24.9%) published with the Oct 23 identity fix. Measurement, not a pick; legs are different games (independence stated)."
+   },
+   "grading": null
+  },
+  {
+   "sport": "CFB",
+   "game": "Kansas State Wildcats @ Arizona State Sun Devils / Georgia State Panthers @ Arkansas State Red Wolves / USC Trojans @ Wisconsin Badgers",
+   "kickoff": "2026-10-24T19:45:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "bet_id": "us-tn:01m5qpk462ed192cq1nvtxp2em",
+   "date": "2026-10-24T19:35:00Z",
+   "placed_at": "2026-10-24T19:35:00Z",
+   "stake_usd": 1.41,
+   "stake_units": 0.141,
+   "potential_payout_usd": 13.26,
+   "potential_profit_usd": 11.85,
+   "cashout_value_usd_at_capture": 1.37,
+   "bet": "3-leg parlay: Arizona State ML, Arkansas State ML, Wisconsin ML",
+   "selection": "ASU + Ark State + Wisconsin ML parlay",
+   "market": "parlay_moneyline",
+   "line": null,
+   "price": 840,
+   "price_note": "Exact displayed payout $13.26 on $1.41 at +840 (TN receipt); receipt governs. Owner's variant of the published 4-leg model long shot with the Kansas leg dropped.",
+   "source_receipt_sha256": "5b384eda92a867e79bd09b0dfba8e905fa34c2c979222bea1e1cee7f50eebce1e",
+   "legs": [
+    {
+     "event": "Kansas State Wildcats @ Arizona State Sun Devils",
+     "kickoff": "2026-10-24T19:45:00Z",
+     "market": "moneyline",
+     "selection": "Arizona State",
+     "line": null,
+     "hit": null
+    },
+    {
+     "event": "Georgia State Panthers @ Arkansas State Red Wolves",
+     "kickoff": "2026-10-24T23:00:00Z",
+     "market": "moneyline",
+     "selection": "Arkansas State",
+     "line": null,
+     "hit": null
+    },
+    {
+     "event": "USC Trojans @ Wisconsin Badgers",
+     "kickoff": "2026-10-24T23:30:00Z",
+     "market": "moneyline",
+     "selection": "Wisconsin",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "CFB no-AP reference, sealed Week 8 (Oct 19 feature cutoff; unproven)",
+    "note": "Model margins: Wisconsin by 6 (sealed 5.99), Arkansas State by 3.5 (sealed 3.48), Arizona State by 0.2 (sealed 0.21). ASU leg is a sub-point model edge. +840 implies 10.6% joint; no validated CFB win-probability mapping, so no model joint percentage quoted."
+   },
+   "grading": null
+  },
+  {
+   "sport": "CFB",
+   "game": "Tennessee Volunteers @ South Carolina Gamecocks",
+   "kickoff": "2026-10-24T19:30:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "bet_id": "us-tn:01m5q81b8xfe5bes84mmhs8e5v",
+   "date": "2026-10-24T15:21:00Z",
+   "placed_at": "2026-10-24T15:21:00Z",
+   "stake_usd": 10.0,
+   "stake_units": 1.0,
+   "potential_payout_usd": 26.8,
+   "potential_profit_usd": 16.8,
+   "cashout_value_usd_at_capture": 16.77,
+   "bet": "Straight: Tennessee moneyline (50% profit boost applied)",
+   "selection": "Tennessee ML",
+   "market": "moneyline",
+   "line": null,
+   "price": 168,
+   "price_note": "Boosted price +168 (base +112, 50% profit boost token); exact displayed payout $26.80 on $10 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "47cf89a5ab806451628c7c6cb2c81d7769e888c57b7b789fdcfe0fda0ca74dc7",
+   "legs": [
+    {
+     "event": "Tennessee Volunteers @ South Carolina Gamecocks",
+     "kickoff": "2026-10-24T19:30:00Z",
+     "market": "moneyline",
+     "selection": "Tennessee",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "CFB no-AP reference, sealed Week 8 (unproven)",
+    "note": "Model South Carolina by 0.9 - Tennessee is a slight model underdog outright (coin-flip game). Boost math: +168 implies 37.3%; unboosted +112 implies 47.2%. Placed 10:21 AM CT, before the model Q&A."
+   },
+   "grading": null
+  },
+  {
+   "sport": "CFB",
+   "game": "Tennessee Volunteers @ South Carolina Gamecocks",
+   "kickoff": "2026-10-24T19:30:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "bet_id": "us-tn:01m5meafcegnby6s4d0kg09v6",
+   "date": "2026-10-24T18:58:00Z",
+   "placed_at": "2026-10-24T18:58:00Z",
+   "stake_usd": 15.0,
+   "stake_units": 1.5,
+   "potential_payout_usd": 48.0,
+   "potential_profit_usd": 33.0,
+   "cashout_value_usd_at_capture": 28.29,
+   "bet": "Straight: Tennessee -6.5 alternate spread",
+   "selection": "Tennessee -6.5 alt",
+   "market": "alternate_spread",
+   "line": -6.5,
+   "price": 220,
+   "price_note": "Exact displayed payout $48.00 on $15 at +220 (TN receipt); receipt governs.",
+   "source_receipt_sha256": "274d918038feef79b817f142e27aef352e650ca352f04cada58de545a499025b",
+   "legs": [
+    {
+     "event": "Tennessee Volunteers @ South Carolina Gamecocks",
+     "kickoff": "2026-10-24T19:30:00Z",
+     "market": "alternate_spread",
+     "selection": "Tennessee",
+     "line": -6.5,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "CFB no-AP reference, sealed Week 8 (unproven)",
+    "note": "Model South Carolina by 0.9 - the -6.5 alt is 7.4 points through the model margin, firmly against the model. Owner's own play, not a model leg."
+   },
+   "grading": null
+  },
+  {
+   "sport": "CFB",
+   "game": "Tennessee Volunteers @ South Carolina Gamecocks",
+   "kickoff": "2026-10-24T19:30:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "net_units": null,
+   "net_usd": null,
+   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "bet_id": "us-tn:01m5qqm9wee1y90z29h9c96c8b",
+   "date": "2026-10-24T19:53:00Z",
+   "placed_at": "2026-10-24T19:53:00Z",
+   "stake_usd": 20.0,
+   "stake_units": 2.0,
+   "potential_payout_usd": 76.0,
+   "potential_profit_usd": 56.0,
+   "cashout_value_usd_at_capture": 60.11,
+   "bet": "Straight: Tennessee moneyline",
+   "selection": "Tennessee ML",
+   "market": "moneyline",
+   "line": null,
+   "price": 280,
+   "price_note": "Exact displayed payout $76.00 on $20 at +280 (TN receipt); receipt governs. Placed 2:53 PM CT after the 2:30 kickoff (in-game price; Tennessee trailed 14-0 in Q1) - distinct ticket from the 10:21 AM boosted ML, priced at its own placement time.",
+   "source_receipt_sha256": "fc485e672688ba89d6dce1abe8cc9f48b9f1c5071d8696941aaa80db06f56545",
+   "legs": [
+    {
+     "event": "Tennessee Volunteers @ South Carolina Gamecocks",
+     "kickoff": "2026-10-24T19:30:00Z",
+     "market": "moneyline",
+     "selection": "Tennessee",
+     "line": null,
+     "hit": null
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "CFB no-AP reference, sealed Week 8 (unproven)",
+    "note": "Model South Carolina by 0.9 pregame; +280 implies 26.3%. In-game placement price reflects Tennessee's early 14-0 deficit, not a model input."
    },
    "grading": null
   }

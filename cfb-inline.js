@@ -48,15 +48,6 @@ async function loadInlineCfb(){
   const notes=[...wrap.querySelectorAll('.note-card')].map(n=>n.outerHTML).join('');
   host.innerHTML=`<div class="cfb-fresh">Week 7 final - 59/59 sealed games graded. Forward gate: no AP adoption (no-AP 40/59 winners, MAE 11.97; AP variant 38/59, MAE 12.16). Sealed predictions unchanged. Previous quote capture: ${doc.getElementById('updated').textContent}</div><div class="cfb-stats"><div><strong>${data.games.length}</strong><span>Games covered</span></div><div><strong>${data.games.filter(g=>fresh.events[g.event_id]?.state==='pre').length}</strong><span>Upcoming</span></div><div><strong>${data.games.length}</strong><span>Sealed forecasts</span></div><div><strong>Graded</strong><span>Week 7 forward test</span></div></div><div class="cfb-warning">Oct 16 pregame audit retained for context: stats 455/455 completed FBS-involving games (7 new Week7 finals, 3 repaired nonfinals); weather snapshots for all 52 then-remaining games; availability 64/104 official reports, 40/104 secondary-only. No adopted injury or weather adjustment.</div><div class="cfb-warning">Forward test complete: on the untouched Week 7 holdout the AP variant picked 38/59 winners vs the no-AP reference 40/59 (winner CI95 [-0.085, 0.000]) - no adoption; AP stays research-only and the no-AP spec is the reference for Week 8. Book comparison only, not picks.</div><div id="cfbParlay"></div><div class="cfb-toolbar"><input id="cfbSearch" aria-label="Search CFB teams" placeholder="Search teams..."><div class="cfb-filter"><button class="active" data-cfb-filter="all">All games</button><button data-cfb-filter="upcoming">Upcoming</button><button data-cfb-filter="frozen">Frozen</button><button data-cfb-filter="weather">Weather</button></div></div><div id="cfbCount" class="cfb-count"></div><div id="cfbGames"></div><p id="cfbEmpty" hidden>No games match. Try another team or filter.</p><details class="cfb-method"><summary>Model, sources and limits</summary>${notes}<p>${data.weather_context_note||''}</p></details>`;
   host.querySelector('#cfbGames').appendChild(board);
-  try{
-   const pr=await fetch('tools/cfb/parlay_20261024/parlay_candidates.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null);
-   const slot=host.querySelector('#cfbParlay');
-   if(pr&&slot){
-    const legRow=l=>'<div class="cfb-leg"><div class="bgrid"><span class="bg-lab">'+l.kickoff_ct+' CT</span><span class="bnum">'+l.leg+'</span></div><p class="muted">'+l.model+(l.context?' · '+l.context:'')+'</p></div>';
-    const ticket=(t,title)=>'<div class="cfb-ticket"><h4>'+title+'</h4>'+t.legs.map(legRow).join('')+'<p class="cfb-price">$'+t.payout_at_captured_prices.stake+' returns $'+t.payout_at_captured_prices.total_return+' (about '+t.payout_at_captured_prices.approx_american+') at FanDuel IL prices captured 10:03-10:10 AM CT Oct 17 - TN not verified, confirm in app</p></div>';
-    slot.innerHTML='<details class="cfb-parlay" open><summary><span>Model parlay research - Sat Oct 24</span><span class="cfb-parlay-head">3-leg $10 → $'+pr.three_leg_model_favorite.payout_at_captured_prices.total_return+' · 4-leg $10 → $'+pr.four_leg_long_shot.payout_at_captured_prices.total_return+' · research only, unproven model</span></summary>'+ticket(pr.three_leg_model_favorite,'3-leg - model favorite')+ticket(pr.four_leg_long_shot,'4-leg long shot')+'<p class="muted cfb-parlay-caveats">'+pr.caveats.join(' ')+'</p></details>';
-   }
-  }catch(e){}
   let mode='all';function filter(){const q=host.querySelector('#cfbSearch').value.toLowerCase();let n=0;games.forEach(g=>{const show=g.dataset.name.includes(q)&&(mode==='all'||mode==='upcoming'&&g.dataset.started==='false'||mode==='frozen'&&g.dataset.frozen==='true'||mode==='weather'&&g.dataset.wx==='true');g.hidden=!show;if(show)n++;});board.querySelectorAll('.day-label').forEach(label=>{let node=label.nextElementSibling,visible=false;while(node&&!node.classList.contains('day-label')){if(node.matches('details.game')&&!node.hidden)visible=true;node=node.nextElementSibling;}label.hidden=!visible;});host.querySelector('#cfbCount').textContent=`${n} games · WEEK 7 FINAL / BOOK IL`;host.querySelector('#cfbEmpty').hidden=n!==0;}
   host.querySelector('#cfbSearch').oninput=filter;host.querySelectorAll('[data-cfb-filter]').forEach(b=>b.onclick=()=>{mode=b.dataset.cfbFilter;host.querySelectorAll('[data-cfb-filter]').forEach(x=>x.classList.toggle('active',x===b));filter();});filter();
   window.inlineCfbData=data;cfbLoaded=true;
@@ -72,6 +63,7 @@ async function loadCfbWeek8(){
   const line=(g,x)=>Math.abs(x)<0.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
   host.textContent='';const note=document.createElement('p');note.className='muted';const p=d.protocol;
   note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP. Margins rounded to half points; unrounded values in each card. No book lines, injury or weather adjustments, or totals are included. Not a bet signal.';host.appendChild(note);
+  const pslot=document.createElement('div');pslot.id='cfbParlayW8';host.appendChild(pslot);
   let day='';d.games.forEach(g=>{
    const dt=new Date(g.date),k=dt.toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric',timeZone:'America/Chicago'});
    if(k!==day){day=k;const h=document.createElement('h3');h.textContent=k;host.appendChild(h);}
@@ -79,6 +71,14 @@ async function loadCfbWeek8(){
    const s=document.createElement('summary');s.textContent=g.away+' at '+g.home+' - Model '+line(g,m['2026_no_ap'])+' ('+dt.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT)';det.appendChild(s);
    const t=document.createElement('p');t.className='muted';t.textContent='Reference no-AP home margin '+m['2026_no_ap'].toFixed(3)+'. AP research '+m['2026_ap'].toFixed(3)+'. Historical-only fits: no-AP '+m.historical_no_ap.toFixed(3)+', AP '+m.historical_ap.toFixed(3)+'. Positive favors home'+(g.neutral_site?' (neutral site)':'')+'.';det.appendChild(t);host.appendChild(det);});
   const a=document.createElement('a');a.href=base+'week8_sealed_research.json';a.textContent='Sealed Week 8 file';a.target='_blank';a.rel='noopener noreferrer';host.appendChild(a);
+  try{
+   const pr=await fetch('tools/cfb/parlay_20261024/parlay_candidates.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null);
+   if(pr){
+    const legRow=l=>'<div class="cfb-leg"><div class="bgrid"><span class="bg-lab">'+l.kickoff_ct+' CT</span><span class="bnum">'+l.leg+'</span></div><p class="muted">'+l.model+(l.context?' · '+l.context:'')+'</p></div>';
+    const ticket=(t,title)=>'<div class="cfb-ticket"><h4>'+title+'</h4>'+t.legs.map(legRow).join('')+'<p class="cfb-price">$'+t.payout_at_captured_prices.stake+' returns $'+t.payout_at_captured_prices.total_return+' (about '+t.payout_at_captured_prices.approx_american+') at FanDuel IL prices captured 10:01-10:02 AM CT Oct 24 - TN not verified, confirm in app</p></div>';
+    pslot.innerHTML='<details class="cfb-parlay" open><summary><span>Model parlay research - Sat Oct 24</span><span class="cfb-parlay-head">3-leg $10 → $'+pr.three_leg_model_favorite.payout_at_captured_prices.total_return+' · 4-leg $10 → $'+pr.four_leg_long_shot.payout_at_captured_prices.total_return+' · research only, unproven model</span></summary>'+ticket(pr.three_leg_model_favorite,'3-leg - model favorite')+ticket(pr.four_leg_long_shot,'4-leg long shot')+'<p class="muted cfb-parlay-caveats">'+pr.caveats.join(' ')+'</p></details>';
+   }
+  }catch(e){}
  }catch(e){host.textContent='Week 8 board failed to load: '+e.message;}
 }
 loadCfbWeek8();

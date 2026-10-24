@@ -1,0 +1,141 @@
+{
+ "generated_at": "2026-10-24T15:04:00Z",
+ "kind": "cfb_parlay_research",
+ "request": "User iMessage Oct 24 9:59 AM CT: 'Generate me the models favorite parlay for today. Also Make a 4 leg log shot' (long shot). Research only; user places bets himself.",
+ "model": {
+  "name": "E.D.I.T.H. CFB 2026 no-AP reference (sealed Week 8 slate, Oct 19 feature cutoff)",
+  "status": "UNPROVEN - Week 7 forward gate graded: no-AP reference 40/59 winners (MAE 11.97) beat AP variant; adopted as reference. Still a one-week diagnostic; injuries not in the model; weather candidate failed validation.",
+  "sealed": true,
+  "no_injury_adjustment": true,
+  "weather_candidate": "failed validation; not used"
+ },
+ "prices": {
+  "book": "FanDuel",
+  "state": "Illinois (site-detected; page footer: authorized by the Illinois Gaming Board)",
+  "captured_at_ct": "2026-10-24 10:01-10:02 AM CT",
+  "tn_verified": false,
+  "source": "https://sportsbook.fanduel.com/navigation/ncaaf",
+  "note": "TN availability/prices not verified; user must confirm in his own app. All legs of each ticket priced from this single same-book capture. IL does not list Illinois-team games (Oregon-Illinois, Rutgers-Northwestern, Hawaii-NIU) or ULM-Troy, so those model games are unpriced here."
+ },
+ "three_leg_model_favorite": {
+  "selection_rule": "Largest sealed-model vs current-book gaps among big-name/marquee games per user's known taste (close games, no fades of huge favorites, no small-program lays). Raw-gap departures listed below.",
+  "legs": [
+   {
+    "leg": "Texas A&M +13.5 (-110) at Alabama",
+    "model": "Alabama by 3 (sealed 2.51 raw) vs book Bama -13.5",
+    "gap_vs_current_line": 11.0,
+    "kickoff_ct": "2:30 PM",
+    "event_id": "401856727",
+    "context": "Marquee SEC. Same shape as last week's Tennessee +7.5 leg (model called Bama games far tighter than the book). Model has NO injury adjustment."
+   },
+   {
+    "leg": "Wisconsin +2.5 (+100) vs USC",
+    "model": "Wisconsin by 6 (sealed 5.99 raw) vs book USC -2.5",
+    "gap_vs_current_line": 8.5,
+    "kickoff_ct": "6:30 PM",
+    "event_id": "401858500",
+    "context": "Model takes Wisconsin outright (also a long-shot leg). Big Ten names."
+   },
+   {
+    "leg": "Clemson -2.5 (-124) vs Virginia Tech",
+    "model": "Clemson by 10 (sealed 10.40 raw) vs book Clemson -2.5",
+    "gap_vs_current_line": 7.9,
+    "kickoff_ct": "6:00 PM",
+    "event_id": "401858276",
+    "context": "Big-name home favorite laying only 2.5; model's strongest same-direction favorite gap on a marquee name today."
+   }
+  ],
+  "payout_at_captured_prices": {
+   "stake": 10,
+   "total_return": 68.97,
+   "profit": 58.97,
+   "approx_american": "+590"
+  }
+ },
+ "four_leg_long_shot": {
+  "selection_rule": "The model picks exactly 4 underdogs to win outright among today's priced games; all 4 moneylines, longest-price construction. Wisconsin also appears in the 3-leg (flagged). Kansas (model by 0.6) and Arizona State (model by 0.2) are fragile sub-point calls.",
+  "legs": [
+   {
+    "leg": "Wisconsin ML +126 vs USC",
+    "model": "Wisconsin by 6 (sealed 5.99 raw)",
+    "kickoff_ct": "6:30 PM",
+    "event_id": "401858500",
+    "context": "Strongest model dog-win of the day. Overlaps the 3-leg ticket."
+   },
+   {
+    "leg": "Arkansas State ML +116 vs Georgia State",
+    "model": "Arkansas State by 3.5 (sealed 3.48 raw)",
+    "kickoff_ct": "6:00 PM",
+    "event_id": "401869935",
+    "context": "Sun Belt home dog."
+   },
+   {
+    "leg": "Kansas ML -110 vs Baylor",
+    "model": "Kansas by 0.6 (sealed 0.59 raw)",
+    "kickoff_ct": "12:00 PM",
+    "event_id": "401856834",
+    "context": "FRAGILE: sub-point model edge, near pick'em price. Earliest kickoff (noon CT)."
+   },
+   {
+    "leg": "Arizona State ML -108 vs Kansas State",
+    "model": "Arizona State by 0.2 (sealed 0.21 raw)",
+    "kickoff_ct": "2:45 PM",
+    "event_id": "401856839",
+    "context": "FRAGILE: 0.2-pt model edge, essentially a coin flip the book prices as a pick'em."
+   }
+  ],
+  "payout_at_captured_prices": {
+   "stake": 10,
+   "total_return": 179.49,
+   "profit": 169.49,
+   "approx_american": "+1695"
+  }
+ },
+ "caveats": [
+  "Unproven research numbers, not validated picks: one graded week (40/59 winners, MAE 11.97) behind the reference build; injuries NOT in the model; weather candidate failed validation.",
+  "Prices: FanDuel Illinois, captured 10:01-10:02 AM CT Oct 24; TN not verified - confirm prices and availability in his own app before playing.",
+  "One model behind every leg (shared model bias); no same-game stacking inside either ticket; a parlay multiplies any single model error.",
+  "Wisconsin appears on BOTH tickets (spread in the 3-leg, ML in the long shot). Kansas and Arizona State long-shot legs are sub-point model calls - the most fragile legs on the board.",
+  "No overlap with the $50 open Sunday NFL TD tickets (different slate).",
+  "Illinois board excludes Illinois-team games (Oregon-Illinois, Rutgers-Northwestern, Hawaii-NIU) and ULM-Troy; model leans there are unpriced in this capture.",
+  "Tennessee at South Carolina (2:30 PM CT): model South Carolina by 0.9 vs book SC -2.5 - only a 1.6-pt gap, NOT a model-edge leg; left off both tickets."
+ ],
+ "raw_gap_ranking_departures": [
+  {
+   "game": "Utah State at Texas State",
+   "raw_gap": 10.6,
+   "current_line": "TXST -13.5",
+   "note": "Raw #2 gap; passed (small-program lay of 13.5)"
+  },
+  {
+   "game": "North Texas at Navy",
+   "raw_gap": 8.5,
+   "current_line": "Navy -3.5",
+   "note": "Raw #3 tie; passed (small programs)"
+  },
+  {
+   "game": "Sacramento State at Ball State",
+   "raw_gap": 6.5,
+   "current_line": "Ball State -14.5",
+   "note": "Passed (fade of huge favorite, small programs)"
+  },
+  {
+   "game": "Texas Tech at Cincinnati",
+   "raw_gap": 6.7,
+   "current_line": "TTU -11.5",
+   "note": "Passed per user's Oct 17 steering away from a Texas Tech leg"
+  },
+  {
+   "game": "Syracuse at North Carolina",
+   "raw_gap": 6.4,
+   "current_line": "UNC -8.5",
+   "note": "Passed; Clemson/Wisconsin carry bigger gaps on bigger names"
+  },
+  {
+   "game": "Indiana at Michigan",
+   "raw_gap": 5.2,
+   "current_line": "Michigan -7.5",
+   "note": "Marquee alternate if user wants a swap (Indiana +7.5)"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-25T02:05:00Z",
+ "updated_at": "2026-10-25T02:48:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8245,6 +8245,82 @@
     "note": "Model South Carolina by 0.9 pregame; +280 implies 26.3%. In-game placement price reflects Tennessee's early 14-0 deficit, not a model input."
    },
    "grading": null
+  },
+  {
+   "sport": "CFB",
+   "game": "Baylor Bears @ Kansas Jayhawks / Kansas State Wildcats @ Arizona State Sun Devils / Georgia State Panthers @ Arkansas State Red Wolves / USC Trojans @ Wisconsin Badgers",
+   "kickoff": "2026-10-24T17:00:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "settled",
+   "result": "won",
+   "net_units": 22.356,
+   "net_usd": 223.56,
+   "source": "Owner iMessage phonemsg-01M5RF95KX989T909SG99JJ9F7, Oct 24 9:47 PM CT ('I think this is the models first big win. How can we learn from this'); settled winning slip visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "bet_id": "us-tn:01m5q7zdsaf85s1af4zzqh47qt",
+   "date": "2026-10-24T15:20:00Z",
+   "placed_at": "2026-10-24T15:20:00Z",
+   "stake_usd": 10.0,
+   "stake_units": 1.0,
+   "potential_payout_usd": 233.56,
+   "potential_profit_usd": 223.56,
+   "bet": "4-leg parlay: Kansas ML, Arizona State ML, Arkansas State ML, Wisconsin ML",
+   "selection": "Kansas + ASU + Ark State + Wisconsin ML parlay",
+   "market": "parlay_moneyline",
+   "line": null,
+   "price": 2235,
+   "price_note": "Exact receipt values govern: combined +1720 boosted to displayed +2235 with 30% profit boost; $10.00 stake, $233.56 won on FanDuel ($223.56 profit). Individual TN leg prices: Kansas +103, Arizona State +107, Arkansas State +129, Wisconsin +140. These differ from the published research card (FanDuel IL capture 10:01-10:02 AM CT, +1695/$179.49 estimate) - receipt is the actual placed ticket.",
+   "source_receipt_sha256": "8fa8e2755ba9ce910875929c97c9187e5ff9f454865d90753d644d5ac1b5ba94",
+   "legs": [
+    {
+     "event": "Baylor Bears @ Kansas Jayhawks",
+     "kickoff": "2026-10-24T17:00:00Z",
+     "market": "moneyline",
+     "selection": "Kansas",
+     "line": null,
+     "price": 103,
+     "hit": true
+    },
+    {
+     "event": "Kansas State Wildcats @ Arizona State Sun Devils",
+     "kickoff": "2026-10-24T19:45:00Z",
+     "market": "moneyline",
+     "selection": "Arizona State",
+     "line": null,
+     "price": 107,
+     "hit": true
+    },
+    {
+     "event": "Georgia State Panthers @ Arkansas State Red Wolves",
+     "kickoff": "2026-10-24T23:00:00Z",
+     "market": "moneyline",
+     "selection": "Arkansas State",
+     "line": null,
+     "price": 129,
+     "hit": true
+    },
+    {
+     "event": "USC Trojans @ Wisconsin Badgers",
+     "kickoff": "2026-10-24T23:30:00Z",
+     "market": "moneyline",
+     "selection": "Wisconsin",
+     "line": null,
+     "price": 140,
+     "hit": true
+    }
+   ],
+   "model_at_placement": {
+    "available": true,
+    "model_version": "CFB no-AP reference, sealed Week 8 (Oct 19 feature cutoff; unproven)",
+    "note": "Same four legs as the published model long shot (parlay_candidates.json): Wisconsin by 6 (5.99), Arkansas State by 3.5 (3.48), Kansas by 0.6 (0.59), Arizona State by 0.2 (0.21). Kansas and ASU were flagged FRAGILE sub-point calls. No injury adjustment; no validated win-probability mapping."
+   },
+   "grading": {
+    "source": "Owner-provided FanDuel settled winning slip (sha256 8fa8e2755ba9ce910875929c97c9187e5ff9f454865d90753d644d5ac1b5ba94)",
+    "graded_at": "2026-10-25T02:48:00Z",
+    "final_score": "Kansas 25, Baylor 24; Arizona State 28, Kansas State 17; Arkansas State 38, Georgia State 32; Wisconsin over USC (receipt row showed LIVE 4th, Wisconsin 24-7, while slip already displayed WON ON FANDUEL - Wisconsin final to be ESPN-verified at tonight's grading wake)",
+    "detail": "All four model underdog ML legs won. Settled per receipt: +$223.56 (+22.356u). 30% profit boost contributed the difference between +1720 and +2235 pricing - a book promotion, not model performance."
+   }
   }
  ]
 }

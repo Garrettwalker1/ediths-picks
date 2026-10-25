@@ -123,7 +123,7 @@
    "3:25PM CT": "Nacua Q (calf, left Thursday practice early) - true game-time decision. Kraft not on Packers report (Q: Banks, St-Juste, Melton, Riley; Franklin out) = clean. Golden shoulder, estimated-limited Wednesday, NO game designation = active. Inactives post ~1:55 PM CT.",
    "context_only": "Lamar Jackson OUT (BAL) - descriptive context for Henry's game; the locked board does not re-rate on QB news. Calvin Ridley game-time call (TEN). Adams (LA) IR, excluded and zeroed."
   },
-  "baseline_vs_adjusted": "Every price-check name has no game designation this morning, so injury-adjusted = baseline for all of them (no adjustment applied; shown explicitly per name). The adjustment overlay is not backtest-proven regardless.",
+  "baseline_vs_adjusted": "Every price-check name has no game designation this morning, so injury-adjusted = baseline for all of them (no adjustment applied; shown explicitly per name). SCOPE LIMIT: the adjustment reflects only the player's OWN designation - it does not capture teammate/QB/game-environment effects (e.g. Lamar Jackson OUT for Henry's game has no supported QB-impact number and none should be inferred). The overlay is not backtest-proven regardless.",
   "price_checks": [
    {
     "player": "Juwan Johnson",

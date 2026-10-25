@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-25T14:00:00Z",
+  "updated_at": "2026-10-25T22:24:35Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -701,7 +701,7 @@
       "selection": "Patrick Mahomes under 223.5 passing yards + Courtland Sutton over 42.5 receiving yards",
       "line": null,
       "price": 255,
-      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at \u201cUnder +22...\u201d; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
+      "price_note": "Same Game Parlay price +255 shown on user-provided FanDuel slip. No boost/token shown in the screenshot. Screenshot truncates Mahomes at “Under +22...”; exact 223.5 line verified against live Tennessee FanDuel event source immediately before logging.",
       "book": "FanDuel",
       "state": "TN",
       "stake_units": 1,
@@ -8373,14 +8373,14 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10.0,
       "stake_units": 1.0,
       "market": "parlay_anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 6.643,
+      "net_usd": 66.43,
       "bet_id": "us-tn:01m5skj4azfsnt8dpqg54y2ctj",
       "date": "2026-10-25T13:21:00Z",
       "placed_at": "2026-10-25T13:21:00Z",
@@ -8392,7 +8392,15 @@
       "potential_payout_usd": 76.43,
       "potential_profit_usd": 66.43,
       "price_note": "30% profit boost; base +511 struck through, displayed +664; $10.00 stake, $76.43 total payout. Receipt sha256 ab17da0174f1e037... Leg vs locked board: McBride .411 model vs .381679 implied (+0.029321); Kraft .302 vs .344828 (-0.042828). Kraft also appears on ticket us-tn:01m5khfxkevd8qeqmst7h2j0d at +160 - same player, different receipt price on this ticket; both preserved.",
-      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions."
+      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions.",
+      "grading": {
+        "source": "Owner FanDuel settled-receipt screenshots via iMessage (WON ON FANDUEL), phonemsg-01M5TJJNA0HNHEJHTEEPVFCSRH Oct 25 5:23 PM CT; visually inspected",
+        "graded_at": "2026-10-25T22:24:35Z",
+        "final_score": "DEN@ARI and GB@DET still in progress at settlement (receipt governs): DEN 20-13 ARI 3Q 3:42, DET 17-14 GB 3Q 6:33 per receipt",
+        "net_units": 6.643,
+        "net_usd": 66.43,
+        "source_note": "Receipt shows WON, $76.43 total return on $10.00 at +664 - receipt settlement governs before involved games are final. All legs scored: McBride (ARI) and Kraft (GB) each 1 TD per receipt leg trackers."
+      }
     },
     {
       "sport": "NFL",
@@ -8426,14 +8434,14 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10.0,
       "stake_units": 1.0,
       "market": "parlay_anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 19.163,
+      "net_usd": 191.63,
       "bet_id": "us-tn:01m5khfxkevd8qeqmst7h2j0d",
       "date": "2026-10-25T13:21:00Z",
       "placed_at": "2026-10-25T13:21:00Z",
@@ -8446,7 +8454,15 @@
       "potential_profit_usd": 191.63,
       "price_note": "Unboosted combined +1916; $10.00 stake, $201.63 total payout. Receipt sha256 f45f401a2c3c1055... Leg vs locked board: Hockenson .178 model vs .303030 implied (-0.125030); McBride .411 vs .425532 (-0.014532); Kraft .302 vs .384615 (-0.082615). McBride and Kraft each appear on ticket us-tn:01m5skj4azfsnt8dpqg54y2ctj at different prices (+162/+190) - preserved per receipt.",
       "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions.",
-      "leg_note": "Leg progress 4:45 PM CT: Hockenson HIT (5-yd catch, MIN 16-10 final per ESPN event 401873014). McBride pending (DEN@ARI halftime), Kraft pending (GB@DET 2nd quarter)."
+      "leg_note": "All three legs HIT - ticket settled WON at receipt payout. Hockenson 5-yd catch (MIN final); McBride and Kraft scored in games still in progress at settlement.",
+      "grading": {
+        "source": "Owner FanDuel settled-receipt screenshots via iMessage (WON ON FANDUEL), phonemsg-01M5TJJNA0HNHEJHTEEPVFCSRH Oct 25 5:23 PM CT; visually inspected",
+        "graded_at": "2026-10-25T22:24:35Z",
+        "final_score": "IND 10-16 MIN final (ESPN event 401873014); DEN@ARI and GB@DET still in progress at settlement (receipt governs)",
+        "net_units": 19.163,
+        "net_usd": 191.63,
+        "source_note": "Receipt shows WON, $201.63 total return on $10.00 at +1916 - receipt settlement governs before involved games are final. All legs scored: Hockenson (MIN, 5-yd catch), McBride (ARI) and Kraft (GB) each 1 TD per receipt leg trackers."
+      }
     },
     {
       "bet_id": "us-tn:01m5npksgevz8c6ya4f6w1057",

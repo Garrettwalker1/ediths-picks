@@ -1,0 +1,1664 @@
+{
+ "artifact": "week8_forward_grade",
+ "generated_at": "2026-10-25T15:49:51Z",
+ "holdout": "2026 Week 8, 56 sealed FBS-vs-FBS games, Oct 20-25. Sealed predictions: tools/cfb/week8_20261019/week8_sealed_research.json (sha256 ea4555a7388368dbc8db1d6d3cbbcc88dd7d102f31d0df543ac77745abf9871e, verified byte-for-byte unchanged before grading).",
+ "protocol_source": "week8_20261019 sealed protocol: paired winner accuracy primary, paired margin MAE secondary, bootstrap 5000 game-level resamples seed 261019. Gates: winner-accuracy improvement AP vs noAP and 2026-inclusive vs historical-only each with 95% CI lower bound above zero; MAE not settled worse (CI lower bound must not exceed zero); zero-crossing CI means no adoption, candidates stay research-only; no refit or retuning against Week 8 outcomes; no promotion on one week.",
+ "finals_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=<event_id> per event, fetched 2026-10-25T15:49:51Z; all 56 events STATUS_FINAL; home/away names matched the sealed board for all 56.",
+ "book_benchmark_note": "The sealed Week 8 file carries no pregame book quotes (book field null for all 56 games), so the book-favorite benchmark is not computable this week. Book lines remain comparison-only and were never model inputs.",
+ "n": 56,
+ "results": {
+  "2026_no_ap": {
+   "winner_accuracy": 0.7143,
+   "winners": 40,
+   "winner_acc_ci95": [
+    0.5893,
+    0.8214
+   ],
+   "margin_mae": 10.795,
+   "margin_mae_ci95": [
+    8.662,
+    13.094
+   ]
+  },
+  "2026_ap": {
+   "winner_accuracy": 0.6964,
+   "winners": 39,
+   "winner_acc_ci95": [
+    0.5714,
+    0.8036
+   ],
+   "margin_mae": 10.76,
+   "margin_mae_ci95": [
+    8.561,
+    13.148
+   ]
+  },
+  "historical_no_ap": {
+   "winner_accuracy": 0.7143,
+   "winners": 40,
+   "winner_acc_ci95": [
+    0.5893,
+    0.8214
+   ],
+   "margin_mae": 10.949,
+   "margin_mae_ci95": [
+    8.864,
+    13.23
+   ]
+  },
+  "historical_ap": {
+   "winner_accuracy": 0.6786,
+   "winners": 38,
+   "winner_acc_ci95": [
+    0.5536,
+    0.8036
+   ],
+   "margin_mae": 10.876,
+   "margin_mae_ci95": [
+    8.71,
+    13.216
+   ]
+  }
+ },
+ "paired": {
+  "ap_minus_noap_winner_acc": {
+   "point": -0.0179,
+   "ci95": [
+    -0.0536,
+    0.0
+   ]
+  },
+  "noap_2026_minus_historical_winner_acc": {
+   "point": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "ap_minus_noap_margin_mae": {
+   "point": -0.035,
+   "ci95": [
+    -0.461,
+    0.391
+   ]
+  },
+  "noap_2026_minus_historical_margin_mae": {
+   "point": -0.154,
+   "ci95": [
+    -0.277,
+    -0.03
+   ]
+  }
+ },
+ "decision": "No AP adoption: paired AP-minus-noAP winner accuracy -0.018 with CI95 [-0.054, 0.000] - lower bound not above zero, gate failed. 2026-inclusive vs historical-only (no-AP): winner accuracy identical (40/56 both); MAE -0.154 with CI95 [-0.277, -0.030] favors 2026-inclusive but the winner-first gate is not passed, so no change. The no-AP spec stays the reference; AP and historical-only variants stay research-only. No refit, no retuning, no promotion on one week.",
+ "games": [
+  {
+   "event_id": "401871055",
+   "name": "Middle Tennessee Blue Raiders at Florida International Panthers",
+   "date": "2026-10-20T23:00Z",
+   "home": "Florida International Panthers",
+   "away": "Middle Tennessee Blue Raiders",
+   "home_score": 23,
+   "away_score": 26,
+   "actual_margin_home": -3,
+   "predicted_margin_home": {
+    "2026_no_ap": 13.977732748294411,
+    "2026_ap": 13.469116835851949,
+    "historical_no_ap": 13.309406909978147,
+    "historical_ap": 12.73092082086405
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 16.9777,
+    "2026_ap": 16.4691,
+    "historical_no_ap": 16.3094,
+    "historical_ap": 15.7309
+   }
+  },
+  {
+   "event_id": "401871069",
+   "name": "Missouri State Bears at Delaware Blue Hens",
+   "date": "2026-10-20T23:00Z",
+   "home": "Delaware Blue Hens",
+   "away": "Missouri State Bears",
+   "home_score": 61,
+   "away_score": 38,
+   "actual_margin_home": 23,
+   "predicted_margin_home": {
+    "2026_no_ap": 3.6769937606187773,
+    "2026_ap": 3.6966185947591668,
+    "historical_no_ap": 3.8298092332631315,
+    "historical_ap": 3.8192858558499343
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 19.323,
+    "2026_ap": 19.3034,
+    "historical_no_ap": 19.1702,
+    "historical_ap": 19.1807
+   }
+  },
+  {
+   "event_id": "401871092",
+   "name": "South Alabama Jaguars at Marshall Thundering Herd",
+   "date": "2026-10-20T23:30Z",
+   "home": "Marshall Thundering Herd",
+   "away": "South Alabama Jaguars",
+   "home_score": 20,
+   "away_score": 13,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": 1.2319387671662558,
+    "2026_ap": 1.664351544140981,
+    "historical_no_ap": 1.5400551584993378,
+    "historical_ap": 2.0371214320380195
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 5.7681,
+    "2026_ap": 5.3356,
+    "historical_no_ap": 5.4599,
+    "historical_ap": 4.9629
+   }
+  },
+  {
+   "event_id": "401871070",
+   "name": "New Mexico State Aggies at Sam Houston Bearkats",
+   "date": "2026-10-22T00:00Z",
+   "home": "Sam Houston Bearkats",
+   "away": "New Mexico State Aggies",
+   "home_score": 24,
+   "away_score": 30,
+   "actual_margin_home": -6,
+   "predicted_margin_home": {
+    "2026_no_ap": 3.3123500426865986,
+    "2026_ap": 3.2338710014659555,
+    "historical_no_ap": 3.841752309727762,
+    "historical_ap": 3.708402366703031
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 9.3124,
+    "2026_ap": 9.2339,
+    "historical_no_ap": 9.8418,
+    "historical_ap": 9.7084
+   }
+  },
+  {
+   "event_id": "401869845",
+   "name": "James Madison Dukes at App State Mountaineers",
+   "date": "2026-10-22T23:00Z",
+   "home": "App State Mountaineers",
+   "away": "James Madison Dukes",
+   "home_score": 34,
+   "away_score": 31,
+   "actual_margin_home": 3,
+   "predicted_margin_home": {
+    "2026_no_ap": -5.146260814380711,
+    "2026_ap": -4.451958711796682,
+    "historical_no_ap": -5.278512083446113,
+    "historical_ap": -4.463622222383856
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 8.1463,
+    "2026_ap": 7.452,
+    "historical_no_ap": 8.2785,
+    "historical_ap": 7.4636
+   }
+  },
+  {
+   "event_id": "401871056",
+   "name": "Liberty Flames at Kennesaw State Owls",
+   "date": "2026-10-22T23:00Z",
+   "home": "Kennesaw State Owls",
+   "away": "Liberty Flames",
+   "home_score": 6,
+   "away_score": 34,
+   "actual_margin_home": -28,
+   "predicted_margin_home": {
+    "2026_no_ap": -15.678468069551371,
+    "2026_ap": -14.292247296985021,
+    "historical_no_ap": -15.681186951613356,
+    "historical_ap": -14.072974880097465
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 12.3215,
+    "2026_ap": 13.7078,
+    "historical_no_ap": 12.3188,
+    "historical_ap": 13.927
+   }
+  },
+  {
+   "event_id": "401862807",
+   "name": "East Carolina Pirates at Memphis Tigers",
+   "date": "2026-10-22T23:30Z",
+   "home": "Memphis Tigers",
+   "away": "East Carolina Pirates",
+   "home_score": 41,
+   "away_score": 34,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": 4.865233409040832,
+    "2026_ap": 4.911695377683038,
+    "historical_no_ap": 4.006212446153128,
+    "historical_ap": 4.0745832592576265
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 2.1348,
+    "2026_ap": 2.0883,
+    "historical_no_ap": 2.9938,
+    "historical_ap": 2.9254
+   }
+  },
+  {
+   "event_id": "401858271",
+   "name": "Duke Blue Devils at Virginia Cavaliers",
+   "date": "2026-10-23T23:00Z",
+   "home": "Virginia Cavaliers",
+   "away": "Duke Blue Devils",
+   "home_score": 16,
+   "away_score": 19,
+   "actual_margin_home": -3,
+   "predicted_margin_home": {
+    "2026_no_ap": -2.4940045766764296,
+    "2026_ap": -2.010854494225682,
+    "historical_no_ap": -3.3817158974221275,
+    "historical_ap": -2.892935705020264
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 0.506,
+    "2026_ap": 0.9891,
+    "historical_no_ap": 0.3817,
+    "historical_ap": 0.1071
+   }
+  },
+  {
+   "event_id": "401861965",
+   "name": "Massachusetts Minutemen at UConn Huskies",
+   "date": "2026-10-23T23:00Z",
+   "home": "UConn Huskies",
+   "away": "Massachusetts Minutemen",
+   "home_score": 35,
+   "away_score": 16,
+   "actual_margin_home": 19,
+   "predicted_margin_home": {
+    "2026_no_ap": 16.55235713484199,
+    "2026_ap": 15.440073798734339,
+    "historical_no_ap": 14.97555606268429,
+    "historical_ap": 13.673105540447658
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 2.4476,
+    "2026_ap": 3.5599,
+    "historical_no_ap": 4.0244,
+    "historical_ap": 5.3269
+   }
+  },
+  {
+   "event_id": "401862808",
+   "name": "Army Black Knights at Tulsa Golden Hurricane",
+   "date": "2026-10-24T00:30Z",
+   "home": "Tulsa Golden Hurricane",
+   "away": "Army Black Knights",
+   "home_score": 35,
+   "away_score": 38,
+   "actual_margin_home": -3,
+   "predicted_margin_home": {
+    "2026_no_ap": 0.34902705931312816,
+    "2026_ap": 0.3270226310158577,
+    "historical_no_ap": 0.33210054674901546,
+    "historical_ap": 0.2310694049369495
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 3.349,
+    "2026_ap": 3.327,
+    "historical_no_ap": 3.3321,
+    "historical_ap": 3.2311
+   }
+  },
+  {
+   "event_id": "401864525",
+   "name": "Air Force Falcons at Wyoming Cowboys",
+   "date": "2026-10-24T01:00Z",
+   "home": "Wyoming Cowboys",
+   "away": "Air Force Falcons",
+   "home_score": 28,
+   "away_score": 14,
+   "actual_margin_home": 14,
+   "predicted_margin_home": {
+    "2026_no_ap": 2.992900993869,
+    "2026_ap": 3.150141524761733,
+    "historical_no_ap": 3.3159204006772445,
+    "historical_ap": 3.474491553994505
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 11.0071,
+    "2026_ap": 10.8499,
+    "historical_no_ap": 10.6841,
+    "historical_ap": 10.5255
+   }
+  },
+  {
+   "event_id": "401858272",
+   "name": "NC State Wolfpack at Stanford Cardinal",
+   "date": "2026-10-24T02:30Z",
+   "home": "Stanford Cardinal",
+   "away": "NC State Wolfpack",
+   "home_score": 31,
+   "away_score": 28,
+   "actual_margin_home": 3,
+   "predicted_margin_home": {
+    "2026_no_ap": -11.846955891266841,
+    "2026_ap": -10.853577774676275,
+    "historical_no_ap": -11.916768294886133,
+    "historical_ap": -10.767635887467781
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 14.847,
+    "2026_ap": 13.8536,
+    "historical_no_ap": 14.9168,
+    "historical_ap": 13.7676
+   }
+  },
+  {
+   "event_id": "401858274",
+   "name": "Pittsburgh Panthers at Miami Hurricanes",
+   "date": "2026-10-24T16:00Z",
+   "home": "Miami Hurricanes",
+   "away": "Pittsburgh Panthers",
+   "home_score": 52,
+   "away_score": 23,
+   "actual_margin_home": 29,
+   "predicted_margin_home": {
+    "2026_no_ap": 22.960978088455054,
+    "2026_ap": 27.6899388761397,
+    "historical_no_ap": 22.150737516037,
+    "historical_ap": 27.3897681520961
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 6.039,
+    "2026_ap": 1.3101,
+    "historical_no_ap": 6.8493,
+    "historical_ap": 1.6102
+   }
+  },
+  {
+   "event_id": "401858496",
+   "name": "Indiana Hoosiers at Michigan Wolverines",
+   "date": "2026-10-24T16:00Z",
+   "home": "Michigan Wolverines",
+   "away": "Indiana Hoosiers",
+   "home_score": 6,
+   "away_score": 13,
+   "actual_margin_home": -7,
+   "predicted_margin_home": {
+    "2026_no_ap": -2.297076285598613,
+    "2026_ap": -6.718617977544992,
+    "historical_no_ap": -2.051893637347189,
+    "historical_ap": -7.001634879983657
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 4.7029,
+    "2026_ap": 0.2814,
+    "historical_no_ap": 4.9481,
+    "historical_ap": 0.0016
+   }
+  },
+  {
+   "event_id": "401856840",
+   "name": "Texas Tech Red Raiders at Cincinnati Bearcats",
+   "date": "2026-10-24T16:00Z",
+   "home": "Cincinnati Bearcats",
+   "away": "Texas Tech Red Raiders",
+   "home_score": 37,
+   "away_score": 24,
+   "actual_margin_home": 13,
+   "predicted_margin_home": {
+    "2026_no_ap": -18.216624589020306,
+    "2026_ap": -21.585546707112044,
+    "historical_no_ap": -18.013899943053843,
+    "historical_ap": -21.761245399352706
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 31.2166,
+    "2026_ap": 34.5855,
+    "historical_no_ap": 31.0139,
+    "historical_ap": 34.7612
+   }
+  },
+  {
+   "event_id": "401856728",
+   "name": "LSU Tigers at Auburn Tigers",
+   "date": "2026-10-24T16:00Z",
+   "home": "Auburn Tigers",
+   "away": "LSU Tigers",
+   "home_score": 17,
+   "away_score": 38,
+   "actual_margin_home": -21,
+   "predicted_margin_home": {
+    "2026_no_ap": -9.640471219486322,
+    "2026_ap": -10.357749511506746,
+    "historical_no_ap": -9.479362251756843,
+    "historical_ap": -10.286908319665784
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 11.3595,
+    "2026_ap": 10.6423,
+    "historical_no_ap": 11.5206,
+    "historical_ap": 10.7131
+   }
+  },
+  {
+   "event_id": "401858270",
+   "name": "California Golden Bears at SMU Mustangs",
+   "date": "2026-10-24T16:00Z",
+   "home": "SMU Mustangs",
+   "away": "California Golden Bears",
+   "home_score": 59,
+   "away_score": 20,
+   "actual_margin_home": 39,
+   "predicted_margin_home": {
+    "2026_no_ap": 14.05143104130616,
+    "2026_ap": 14.03777217511346,
+    "historical_no_ap": 14.562294493349793,
+    "historical_ap": 14.513900707156747
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 24.9486,
+    "2026_ap": 24.9622,
+    "historical_no_ap": 24.4377,
+    "historical_ap": 24.4861
+   }
+  },
+  {
+   "event_id": "401858498",
+   "name": "Rutgers Scarlet Knights at Northwestern Wildcats",
+   "date": "2026-10-24T16:00Z",
+   "home": "Northwestern Wildcats",
+   "away": "Rutgers Scarlet Knights",
+   "home_score": 42,
+   "away_score": 14,
+   "actual_margin_home": 28,
+   "predicted_margin_home": {
+    "2026_no_ap": 9.266453086989781,
+    "2026_ap": 10.211333929932055,
+    "historical_no_ap": 9.111552393245836,
+    "historical_ap": 10.133790666660815
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 18.7335,
+    "2026_ap": 17.7887,
+    "historical_no_ap": 18.8884,
+    "historical_ap": 17.8662
+   }
+  },
+  {
+   "event_id": "401856841",
+   "name": "West Virginia Mountaineers at TCU Horned Frogs",
+   "date": "2026-10-24T16:00Z",
+   "home": "TCU Horned Frogs",
+   "away": "West Virginia Mountaineers",
+   "home_score": 20,
+   "away_score": 24,
+   "actual_margin_home": -4,
+   "predicted_margin_home": {
+    "2026_no_ap": 8.948251658908369,
+    "2026_ap": 8.573674736442374,
+    "historical_no_ap": 9.735288905691908,
+    "historical_ap": 9.211079171970525
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 12.9483,
+    "2026_ap": 12.5737,
+    "historical_no_ap": 13.7353,
+    "historical_ap": 13.2111
+   }
+  },
+  {
+   "event_id": "401862809",
+   "name": "Rice Owls at Florida Atlantic Owls",
+   "date": "2026-10-24T16:00Z",
+   "home": "Florida Atlantic Owls",
+   "away": "Rice Owls",
+   "home_score": 51,
+   "away_score": 49,
+   "actual_margin_home": 2,
+   "predicted_margin_home": {
+    "2026_no_ap": 12.95100544171316,
+    "2026_ap": 11.821429809830624,
+    "historical_no_ap": 12.867123624927617,
+    "historical_ap": 11.48867364371636
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 10.951,
+    "2026_ap": 9.8214,
+    "historical_no_ap": 10.8671,
+    "historical_ap": 9.4887
+   }
+  },
+  {
+   "event_id": "401866450",
+   "name": "Western Michigan Broncos at Toledo Rockets",
+   "date": "2026-10-24T16:00Z",
+   "home": "Toledo Rockets",
+   "away": "Western Michigan Broncos",
+   "home_score": 45,
+   "away_score": 38,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": 1.597402368520913,
+    "2026_ap": 1.5350297175522236,
+    "historical_no_ap": 0.7254318452516779,
+    "historical_ap": 0.6671980820257506
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 5.4026,
+    "2026_ap": 5.465,
+    "historical_no_ap": 6.2746,
+    "historical_ap": 6.3328
+   }
+  },
+  {
+   "event_id": "401856834",
+   "name": "Baylor Bears at Kansas Jayhawks",
+   "date": "2026-10-24T17:00Z",
+   "home": "Kansas Jayhawks",
+   "away": "Baylor Bears",
+   "home_score": 25,
+   "away_score": 24,
+   "actual_margin_home": 1,
+   "predicted_margin_home": {
+    "2026_no_ap": 0.5877042712506233,
+    "2026_ap": 0.8221974532340264,
+    "historical_no_ap": 0.4135041476683776,
+    "historical_ap": 0.6861888025388048
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 0.4123,
+    "2026_ap": 0.1778,
+    "historical_no_ap": 0.5865,
+    "historical_ap": 0.3138
+   }
+  },
+  {
+   "event_id": "401866446",
+   "name": "Akron Zips at Kent State Golden Flashes",
+   "date": "2026-10-24T17:00Z",
+   "home": "Kent State Golden Flashes",
+   "away": "Akron Zips",
+   "home_score": 35,
+   "away_score": 20,
+   "actual_margin_home": 15,
+   "predicted_margin_home": {
+    "2026_no_ap": 6.687867811233108,
+    "2026_ap": 6.370952159863862,
+    "historical_no_ap": 6.172234969330172,
+    "historical_ap": 5.746868218760261
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 8.3121,
+    "2026_ap": 8.629,
+    "historical_no_ap": 8.8278,
+    "historical_ap": 9.2531
+   }
+  },
+  {
+   "event_id": "401866476",
+   "name": "Miami (OH) RedHawks at Central Michigan Chippewas",
+   "date": "2026-10-24T17:00Z",
+   "home": "Central Michigan Chippewas",
+   "away": "Miami (OH) RedHawks",
+   "home_score": 27,
+   "away_score": 28,
+   "actual_margin_home": -1,
+   "predicted_margin_home": {
+    "2026_no_ap": -5.636697706332135,
+    "2026_ap": -4.952425005713551,
+    "historical_no_ap": -5.083542755220803,
+    "historical_ap": -4.307265727872444
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 4.6367,
+    "2026_ap": 3.9524,
+    "historical_no_ap": 4.0835,
+    "historical_ap": 3.3073
+   }
+  },
+  {
+   "event_id": "401858495",
+   "name": "Oregon Ducks at Illinois Fighting Illini",
+   "date": "2026-10-24T19:00Z",
+   "home": "Illinois Fighting Illini",
+   "away": "Oregon Ducks",
+   "home_score": 21,
+   "away_score": 10,
+   "actual_margin_home": 11,
+   "predicted_margin_home": {
+    "2026_no_ap": -12.605247274156273,
+    "2026_ap": -11.172647056555562,
+    "historical_no_ap": -12.920896913434486,
+    "historical_ap": -11.261152550823724
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 23.6052,
+    "2026_ap": 22.1726,
+    "historical_no_ap": 23.9209,
+    "historical_ap": 22.2612
+   }
+  },
+  {
+   "event_id": "401856835",
+   "name": "BYU Cougars at UCF Knights",
+   "date": "2026-10-24T19:30Z",
+   "home": "UCF Knights",
+   "away": "BYU Cougars",
+   "home_score": 39,
+   "away_score": 31,
+   "actual_margin_home": 8,
+   "predicted_margin_home": {
+    "2026_no_ap": -4.4393645747917505,
+    "2026_ap": -9.58671739098699,
+    "historical_no_ap": -4.733604174112116,
+    "historical_ap": -10.496302441800928
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 12.4394,
+    "2026_ap": 17.5867,
+    "historical_no_ap": 12.7336,
+    "historical_ap": 18.4963
+   }
+  },
+  {
+   "event_id": "401858499",
+   "name": "Michigan State Spartans at UCLA Bruins",
+   "date": "2026-10-24T19:30Z",
+   "home": "UCLA Bruins",
+   "away": "Michigan State Spartans",
+   "home_score": 28,
+   "away_score": 10,
+   "actual_margin_home": 18,
+   "predicted_margin_home": {
+    "2026_no_ap": 16.65636020482833,
+    "2026_ap": 19.96605945852294,
+    "historical_no_ap": 15.944115952910643,
+    "historical_ap": 19.690572336127666
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 1.3436,
+    "2026_ap": 1.9661,
+    "historical_no_ap": 2.0559,
+    "historical_ap": 1.6906
+   }
+  },
+  {
+   "event_id": "401856731",
+   "name": "Tennessee Volunteers at South Carolina Gamecocks",
+   "date": "2026-10-24T19:30Z",
+   "home": "South Carolina Gamecocks",
+   "away": "Tennessee Volunteers",
+   "home_score": 27,
+   "away_score": 24,
+   "actual_margin_home": 3,
+   "predicted_margin_home": {
+    "2026_no_ap": 0.8642492812956926,
+    "2026_ap": -3.0478905822962377,
+    "historical_no_ap": 0.48142600913344946,
+    "historical_ap": -3.910798063086478
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": false,
+    "historical_no_ap": true,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 2.1358,
+    "2026_ap": 6.0479,
+    "historical_no_ap": 2.5186,
+    "historical_ap": 6.9108
+   }
+  },
+  {
+   "event_id": "401856727",
+   "name": "Texas A&M Aggies at Alabama Crimson Tide",
+   "date": "2026-10-24T19:30Z",
+   "home": "Alabama Crimson Tide",
+   "away": "Texas A&M Aggies",
+   "home_score": 31,
+   "away_score": 20,
+   "actual_margin_home": 11,
+   "predicted_margin_home": {
+    "2026_no_ap": 2.507009757684565,
+    "2026_ap": 5.582941862229005,
+    "historical_no_ap": 2.409576480380408,
+    "historical_ap": 5.848735152653834
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 8.493,
+    "2026_ap": 5.4171,
+    "historical_no_ap": 8.5904,
+    "historical_ap": 5.1513
+   }
+  },
+  {
+   "event_id": "401858497",
+   "name": "Iowa Hawkeyes at Minnesota Golden Gophers",
+   "date": "2026-10-24T19:30Z",
+   "home": "Minnesota Golden Gophers",
+   "away": "Iowa Hawkeyes",
+   "home_score": 13,
+   "away_score": 10,
+   "actual_margin_home": 3,
+   "predicted_margin_home": {
+    "2026_no_ap": -1.9765736844039719,
+    "2026_ap": -4.092901167335076,
+    "historical_no_ap": -2.0575640233708503,
+    "historical_ap": -4.432396047696228
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 4.9766,
+    "2026_ap": 7.0929,
+    "historical_no_ap": 5.0576,
+    "historical_ap": 7.4324
+   }
+  },
+  {
+   "event_id": "401856730",
+   "name": "Oklahoma Sooners at Mississippi State Bulldogs",
+   "date": "2026-10-24T19:30Z",
+   "home": "Mississippi State Bulldogs",
+   "away": "Oklahoma Sooners",
+   "home_score": 15,
+   "away_score": 23,
+   "actual_margin_home": -8,
+   "predicted_margin_home": {
+    "2026_no_ap": -4.306628370319232,
+    "2026_ap": -3.874743772349146,
+    "historical_no_ap": -4.184433193494845,
+    "historical_ap": -3.6700724447150357
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 3.6934,
+    "2026_ap": 4.1253,
+    "historical_no_ap": 3.8156,
+    "historical_ap": 4.3299
+   }
+  },
+  {
+   "event_id": "401858273",
+   "name": "Boston College Eagles at Georgia Tech Yellow Jackets",
+   "date": "2026-10-24T19:30Z",
+   "home": "Georgia Tech Yellow Jackets",
+   "away": "Boston College Eagles",
+   "home_score": 27,
+   "away_score": 49,
+   "actual_margin_home": -22,
+   "predicted_margin_home": {
+    "2026_no_ap": 11.141051536552308,
+    "2026_ap": 10.483787159573216,
+    "historical_no_ap": 10.660555495187175,
+    "historical_ap": 9.85959946192891
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 33.1411,
+    "2026_ap": 32.4838,
+    "historical_no_ap": 32.6606,
+    "historical_ap": 31.8596
+   }
+  },
+  {
+   "event_id": "401862810",
+   "name": "North Texas Mean Green at Navy Midshipmen",
+   "date": "2026-10-24T19:30Z",
+   "home": "Navy Midshipmen",
+   "away": "North Texas Mean Green",
+   "home_score": 39,
+   "away_score": 49,
+   "actual_margin_home": -10,
+   "predicted_margin_home": {
+    "2026_no_ap": -12.022175285361065,
+    "2026_ap": -10.654418242452731,
+    "historical_no_ap": -11.894990768706144,
+    "historical_ap": -10.286426689823747
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 2.0222,
+    "2026_ap": 0.6544,
+    "historical_no_ap": 1.895,
+    "historical_ap": 0.2864
+   }
+  },
+  {
+   "event_id": "401864526",
+   "name": "Hawai'i Rainbow Warriors at Northern Illinois Huskies",
+   "date": "2026-10-24T19:30Z",
+   "home": "Northern Illinois Huskies",
+   "away": "Hawai'i Rainbow Warriors",
+   "home_score": 21,
+   "away_score": 56,
+   "actual_margin_home": -35,
+   "predicted_margin_home": {
+    "2026_no_ap": -1.2720778087973512,
+    "2026_ap": -0.9303883238303046,
+    "historical_no_ap": -1.3810685863985777,
+    "historical_ap": -0.9959433968910991
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 33.7279,
+    "2026_ap": 34.0696,
+    "historical_no_ap": 33.6189,
+    "historical_ap": 34.0041
+   }
+  },
+  {
+   "event_id": "401866447",
+   "name": "Sacramento State Hornets at Ball State Cardinals",
+   "date": "2026-10-24T19:30Z",
+   "home": "Ball State Cardinals",
+   "away": "Sacramento State Hornets",
+   "home_score": 34,
+   "away_score": 17,
+   "actual_margin_home": 17,
+   "predicted_margin_home": {
+    "2026_no_ap": 7.990841207742061,
+    "2026_ap": 7.798229637476048,
+    "historical_no_ap": 7.591807929894442,
+    "historical_ap": 7.381011778222132
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 9.0092,
+    "2026_ap": 9.2018,
+    "historical_no_ap": 9.4082,
+    "historical_ap": 9.619
+   }
+  },
+  {
+   "event_id": "401866448",
+   "name": "Bowling Green Falcons at Buffalo Bulls",
+   "date": "2026-10-24T19:30Z",
+   "home": "Buffalo Bulls",
+   "away": "Bowling Green Falcons",
+   "home_score": 31,
+   "away_score": 24,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": 3.4962720802548697,
+    "2026_ap": 3.5973824094477282,
+    "historical_no_ap": 2.891128364259604,
+    "historical_ap": 3.030717471914495
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 3.5037,
+    "2026_ap": 3.4026,
+    "historical_no_ap": 4.1089,
+    "historical_ap": 3.9693
+   }
+  },
+  {
+   "event_id": "401856839",
+   "name": "Kansas State Wildcats at Arizona State Sun Devils",
+   "date": "2026-10-24T19:45Z",
+   "home": "Arizona State Sun Devils",
+   "away": "Kansas State Wildcats",
+   "home_score": 28,
+   "away_score": 17,
+   "actual_margin_home": 11,
+   "predicted_margin_home": {
+    "2026_no_ap": 0.2146574748754535,
+    "2026_ap": 0.5121179758689784,
+    "historical_no_ap": 0.12555140095354922,
+    "historical_ap": 0.4492932998277377
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 10.7853,
+    "2026_ap": 10.4879,
+    "historical_no_ap": 10.8744,
+    "historical_ap": 10.5507
+   }
+  },
+  {
+   "event_id": "401866449",
+   "name": "Eastern Michigan Eagles at Ohio Bobcats",
+   "date": "2026-10-24T20:00Z",
+   "home": "Ohio Bobcats",
+   "away": "Eastern Michigan Eagles",
+   "home_score": 24,
+   "away_score": 20,
+   "actual_margin_home": 4,
+   "predicted_margin_home": {
+    "2026_no_ap": 9.026707439210558,
+    "2026_ap": 8.630542855027015,
+    "historical_no_ap": 8.839423448114605,
+    "historical_ap": 8.394521264518719
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 5.0267,
+    "2026_ap": 4.6305,
+    "historical_no_ap": 4.8394,
+    "historical_ap": 4.3945
+   }
+  },
+  {
+   "event_id": "401871094",
+   "name": "UL Monroe Warhawks at Troy Trojans",
+   "date": "2026-10-24T20:00Z",
+   "home": "Troy Trojans",
+   "away": "UL Monroe Warhawks",
+   "home_score": 14,
+   "away_score": 21,
+   "actual_margin_home": -7,
+   "predicted_margin_home": {
+    "2026_no_ap": 12.345698245837527,
+    "2026_ap": 11.903274917761568,
+    "historical_no_ap": 12.223057503920172,
+    "historical_ap": 11.72410412456751
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 19.3457,
+    "2026_ap": 18.9033,
+    "historical_no_ap": 19.2231,
+    "historical_ap": 18.7241
+   }
+  },
+  {
+   "event_id": "401864528",
+   "name": "San Jos\u00e9 State Spartans at Nevada Wolf Pack",
+   "date": "2026-10-24T21:00Z",
+   "home": "Nevada Wolf Pack",
+   "away": "San Jos\u00e9 State Spartans",
+   "home_score": 28,
+   "away_score": 13,
+   "actual_margin_home": 15,
+   "predicted_margin_home": {
+    "2026_no_ap": 5.891726247212122,
+    "2026_ap": 5.3481115483617785,
+    "historical_no_ap": 4.6217496414846915,
+    "historical_ap": 3.9616559232107647
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 9.1083,
+    "2026_ap": 9.6519,
+    "historical_no_ap": 10.3783,
+    "historical_ap": 11.0383
+   }
+  },
+  {
+   "event_id": "401869967",
+   "name": "Louisiana Ragin' Cajuns at Southern Miss Golden Eagles",
+   "date": "2026-10-24T21:00Z",
+   "home": "Southern Miss Golden Eagles",
+   "away": "Louisiana Ragin' Cajuns",
+   "home_score": 35,
+   "away_score": 31,
+   "actual_margin_home": 4,
+   "predicted_margin_home": {
+    "2026_no_ap": -10.618565699447071,
+    "2026_ap": -10.000707012042131,
+    "historical_no_ap": -11.358993641436161,
+    "historical_ap": -10.685114772712089
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 14.6186,
+    "2026_ap": 14.0007,
+    "historical_no_ap": 15.359,
+    "historical_ap": 14.6851
+   }
+  },
+  {
+   "event_id": "401871093",
+   "name": "Old Dominion Monarchs at Louisiana Tech Bulldogs",
+   "date": "2026-10-24T21:00Z",
+   "home": "Louisiana Tech Bulldogs",
+   "away": "Old Dominion Monarchs",
+   "home_score": 26,
+   "away_score": 0,
+   "actual_margin_home": 26,
+   "predicted_margin_home": {
+    "2026_no_ap": 11.50068670249361,
+    "2026_ap": 10.963360783702434,
+    "historical_no_ap": 11.439317363384898,
+    "historical_ap": 10.845167083516294
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 14.4993,
+    "2026_ap": 15.0366,
+    "historical_no_ap": 14.5607,
+    "historical_ap": 15.1548
+   }
+  },
+  {
+   "event_id": "401860907",
+   "name": "Boise State Broncos at Washington State Cougars",
+   "date": "2026-10-24T22:00Z",
+   "home": "Washington State Cougars",
+   "away": "Boise State Broncos",
+   "home_score": 10,
+   "away_score": 31,
+   "actual_margin_home": -21,
+   "predicted_margin_home": {
+    "2026_no_ap": -15.224017383316447,
+    "2026_ap": -14.896286965468331,
+    "historical_no_ap": -16.04282703126821,
+    "historical_ap": -15.62740796815709
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 5.776,
+    "2026_ap": 6.1037,
+    "historical_no_ap": 4.9572,
+    "historical_ap": 5.3726
+   }
+  },
+  {
+   "event_id": "401860905",
+   "name": "San Diego State Aztecs at Colorado State Rams",
+   "date": "2026-10-24T22:30Z",
+   "home": "Colorado State Rams",
+   "away": "San Diego State Aztecs",
+   "home_score": 56,
+   "away_score": 49,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": -8.27437763933803,
+    "2026_ap": -7.773775656218057,
+    "historical_no_ap": -8.202054718332597,
+    "historical_ap": -7.592900371845069
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 15.2744,
+    "2026_ap": 14.7738,
+    "historical_no_ap": 15.2021,
+    "historical_ap": 14.5929
+   }
+  },
+  {
+   "event_id": "401856836",
+   "name": "Colorado Buffaloes at Oklahoma State Cowboys",
+   "date": "2026-10-24T23:00Z",
+   "home": "Oklahoma State Cowboys",
+   "away": "Colorado Buffaloes",
+   "home_score": 57,
+   "away_score": 24,
+   "actual_margin_home": 33,
+   "predicted_margin_home": {
+    "2026_no_ap": 14.713110562123848,
+    "2026_ap": 13.844119385353991,
+    "historical_no_ap": 14.32589596811712,
+    "historical_ap": 13.243191643779685
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 18.2869,
+    "2026_ap": 19.1559,
+    "historical_no_ap": 18.6741,
+    "historical_ap": 19.7568
+   }
+  },
+  {
+   "event_id": "401858276",
+   "name": "Virginia Tech Hokies at Clemson Tigers",
+   "date": "2026-10-24T23:00Z",
+   "home": "Clemson Tigers",
+   "away": "Virginia Tech Hokies",
+   "home_score": 16,
+   "away_score": 20,
+   "actual_margin_home": -4,
+   "predicted_margin_home": {
+    "2026_no_ap": 10.401354769560443,
+    "2026_ap": 9.535616296336407,
+    "historical_no_ap": 10.833266020910047,
+    "historical_ap": 9.894165025977177
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 14.4014,
+    "2026_ap": 13.5356,
+    "historical_no_ap": 14.8333,
+    "historical_ap": 13.8942
+   }
+  },
+  {
+   "event_id": "401869935",
+   "name": "Georgia State Panthers at Arkansas State Red Wolves",
+   "date": "2026-10-24T23:00Z",
+   "home": "Arkansas State Red Wolves",
+   "away": "Georgia State Panthers",
+   "home_score": 38,
+   "away_score": 32,
+   "actual_margin_home": 6,
+   "predicted_margin_home": {
+    "2026_no_ap": 3.48077056565556,
+    "2026_ap": 3.4293866608334627,
+    "historical_no_ap": 3.9081144247210515,
+    "historical_ap": 3.8006085018759963
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 2.5192,
+    "2026_ap": 2.5706,
+    "historical_no_ap": 2.0919,
+    "historical_ap": 2.1994
+   }
+  },
+  {
+   "event_id": "401856732",
+   "name": "Ole Miss Rebels at Texas Longhorns",
+   "date": "2026-10-24T23:30Z",
+   "home": "Texas Longhorns",
+   "away": "Ole Miss Rebels",
+   "home_score": 34,
+   "away_score": 27,
+   "actual_margin_home": 7,
+   "predicted_margin_home": {
+    "2026_no_ap": 4.438568448998175,
+    "2026_ap": 1.1977452216824154,
+    "historical_no_ap": 3.614766351273504,
+    "historical_ap": -0.04149962159368137
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 2.5614,
+    "2026_ap": 5.8023,
+    "historical_no_ap": 3.3852,
+    "historical_ap": 7.0415
+   }
+  },
+  {
+   "event_id": "401856729",
+   "name": "Vanderbilt Commodores at Kentucky Wildcats",
+   "date": "2026-10-24T23:30Z",
+   "home": "Kentucky Wildcats",
+   "away": "Vanderbilt Commodores",
+   "home_score": 34,
+   "away_score": 17,
+   "actual_margin_home": 17,
+   "predicted_margin_home": {
+    "2026_no_ap": 10.09160952736043,
+    "2026_ap": 12.916735281726968,
+    "historical_no_ap": 10.146880264982318,
+    "historical_ap": 13.293699554829281
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 6.9084,
+    "2026_ap": 4.0833,
+    "historical_no_ap": 6.8531,
+    "historical_ap": 3.7063
+   }
+  },
+  {
+   "event_id": "401858500",
+   "name": "USC Trojans at Wisconsin Badgers",
+   "date": "2026-10-24T23:30Z",
+   "home": "Wisconsin Badgers",
+   "away": "USC Trojans",
+   "home_score": 24,
+   "away_score": 7,
+   "actual_margin_home": 17,
+   "predicted_margin_home": {
+    "2026_no_ap": 5.9891810479485565,
+    "2026_ap": 4.33021584200265,
+    "historical_no_ap": 5.514906817162027,
+    "historical_ap": 3.6196292201698337
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 11.0108,
+    "2026_ap": 12.6698,
+    "historical_no_ap": 11.4851,
+    "historical_ap": 13.3804
+   }
+  },
+  {
+   "event_id": "401856838",
+   "name": "Iowa State Cyclones at Arizona Wildcats",
+   "date": "2026-10-24T23:30Z",
+   "home": "Arizona Wildcats",
+   "away": "Iowa State Cyclones",
+   "home_score": 39,
+   "away_score": 3,
+   "actual_margin_home": 36,
+   "predicted_margin_home": {
+    "2026_no_ap": 13.595701054427835,
+    "2026_ap": 13.206795670891815,
+    "historical_no_ap": 13.86227164986394,
+    "historical_ap": 13.365879322986618
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 22.4043,
+    "2026_ap": 22.7932,
+    "historical_no_ap": 22.1377,
+    "historical_ap": 22.6341
+   }
+  },
+  {
+   "event_id": "401858275",
+   "name": "Syracuse Orange at North Carolina Tar Heels",
+   "date": "2026-10-24T23:30Z",
+   "home": "North Carolina Tar Heels",
+   "away": "Syracuse Orange",
+   "home_score": 30,
+   "away_score": 31,
+   "actual_margin_home": -1,
+   "predicted_margin_home": {
+    "2026_no_ap": 2.1195073397439406,
+    "2026_ap": 1.9674731660776832,
+    "historical_no_ap": 2.590585271476668,
+    "historical_ap": 2.3783787588165968
+   },
+   "winner_correct": {
+    "2026_no_ap": false,
+    "2026_ap": false,
+    "historical_no_ap": false,
+    "historical_ap": false
+   },
+   "abs_error": {
+    "2026_no_ap": 3.1195,
+    "2026_ap": 2.9675,
+    "historical_no_ap": 3.5906,
+    "historical_ap": 3.3784
+   }
+  },
+  {
+   "event_id": "401860906",
+   "name": "Utah State Aggies at Texas State Bobcats",
+   "date": "2026-10-24T23:30Z",
+   "home": "Texas State Bobcats",
+   "away": "Utah State Aggies",
+   "home_score": 20,
+   "away_score": 17,
+   "actual_margin_home": 3,
+   "predicted_margin_home": {
+    "2026_no_ap": 24.13674445236187,
+    "2026_ap": 22.675909352358556,
+    "historical_no_ap": 23.747309745219574,
+    "historical_ap": 22.089826726061723
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 21.1367,
+    "2026_ap": 19.6759,
+    "historical_no_ap": 20.7473,
+    "historical_ap": 19.0898
+   }
+  },
+  {
+   "event_id": "401862811",
+   "name": "UTSA Roadrunners at Tulane Green Wave",
+   "date": "2026-10-25T00:00Z",
+   "home": "Tulane Green Wave",
+   "away": "UTSA Roadrunners",
+   "home_score": 19,
+   "away_score": 42,
+   "actual_margin_home": -23,
+   "predicted_margin_home": {
+    "2026_no_ap": -4.492520721595663,
+    "2026_ap": -3.8668557618738477,
+    "historical_no_ap": -4.659407356016411,
+    "historical_ap": -3.956127393134235
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 18.5075,
+    "2026_ap": 19.1331,
+    "historical_no_ap": 18.3406,
+    "historical_ap": 19.0439
+   }
+  },
+  {
+   "event_id": "401864527",
+   "name": "North Dakota State Bison at New Mexico Lobos",
+   "date": "2026-10-25T02:00Z",
+   "home": "New Mexico Lobos",
+   "away": "North Dakota State Bison",
+   "home_score": 21,
+   "away_score": 16,
+   "actual_margin_home": 5,
+   "predicted_margin_home": {
+    "2026_no_ap": 4.180484396462531,
+    "2026_ap": 4.364112892628822,
+    "historical_no_ap": 3.863313086874296,
+    "historical_ap": 4.05918273971159
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 0.8195,
+    "2026_ap": 0.6359,
+    "historical_no_ap": 1.1367,
+    "historical_ap": 0.9408
+   }
+  },
+  {
+   "event_id": "401856837",
+   "name": "Houston Cougars at Utah Utes",
+   "date": "2026-10-25T02:15Z",
+   "home": "Utah Utes",
+   "away": "Houston Cougars",
+   "home_score": 21,
+   "away_score": 13,
+   "actual_margin_home": 8,
+   "predicted_margin_home": {
+    "2026_no_ap": 12.532460560369639,
+    "2026_ap": 13.368691278051973,
+    "historical_no_ap": 12.358839883128843,
+    "historical_ap": 13.245635250472477
+   },
+   "winner_correct": {
+    "2026_no_ap": true,
+    "2026_ap": true,
+    "historical_no_ap": true,
+    "historical_ap": true
+   },
+   "abs_error": {
+    "2026_no_ap": 4.5325,
+    "2026_ap": 5.3687,
+    "historical_no_ap": 4.3588,
+    "historical_ap": 5.2456
+   }
+  }
+ ]
+}

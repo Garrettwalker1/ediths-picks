@@ -7811,10 +7811,10 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
       "bet_id": "us-tn:01m5n4wbkpe69vtyydb6p5dkpy",
       "date": "2026-10-23T19:47:00Z",
@@ -7846,7 +7846,8 @@
         "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
         "note": "Model 32.7% vs +250 implied 28.6% (gap +4.1 pp). Not on the Week 7 injury report. Measurement, not a pick."
       },
-      "grading": null
+      "grading": null,
+      "grading_note": "Graded 2026-10-25 4:45 PM CT from official ESPN scoring summary (event 401873016, final NYG 27 HOU 21). NYG TDs: Tyrone Tracy Jr., Jameis Winston, Cam Skattebo, Devin Singletary. Isaiah Likely did not score."
     },
     {
       "sport": "NFL",
@@ -7900,10 +7901,10 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
       "bet_id": "us-tn:01m5n57xx9fwdbthcfvgm8zz0e",
       "date": "2026-10-23T19:54:00Z",
@@ -7935,7 +7936,8 @@
         "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
         "note": "Model 24.9% vs +165 implied 37.7% (gap -12.8 pp). Board row restored Oct 23 by the TD-board identity fix (pre-fix build merged him with CLE LB Justin Jefferson via normalized-name groupby and dropped the MIN WR row; fix keys rows by player_id, model spec unchanged). Quoted pipeline is the Week 7 anytime-TD board (recency-weighted TD rate through Week 6, locked h=12/k=4); the separate fantasy-projection baseline pipeline reads 25.8% - different model, same conclusion. Week 7 injury report: full practice, no game designation. Measurement, not a pick. Supersedes the original entry's ~24.0% figure, which had been computed on the same corrupted merged group it described."
       },
-      "grading": null
+      "grading": null,
+      "grading_note": "Graded 2026-10-25 4:45 PM CT from official ESPN scoring summary (event 401873014, final MIN 16 IND 10). MIN's only TD: T.J. Hockenson. Justin Jefferson did not score."
     },
     {
       "sport": "NFL",
@@ -8344,14 +8346,14 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10.0,
       "stake_units": 1.0,
       "market": "parlay_anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 29.362,
+      "net_usd": 293.62,
       "bet_id": "us-tn:01m5skvfe7e8391bhs2mbfv4mf",
       "date": "2026-10-25T13:26:00Z",
       "placed_at": "2026-10-25T13:26:00Z",
@@ -8363,7 +8365,8 @@
       "potential_payout_usd": 303.62,
       "potential_profit_usd": 293.62,
       "price_note": "Unboosted combined +2936; $10.00 stake, $303.62 total payout. Receipt sha256 88681531f8558d4d... Leg vs locked h=12/k=4 board (raw implied includes vig): Gordon .320 model vs .344828 implied (-0.024828); Harrison Jr. .243 vs .250000 (-0.007000); Taylor .575 vs .534884 (+0.040116, better than the stale -120 IL featured price); McCaffrey .614 vs .714286 (-0.100286). Model-over-implied gaps are tracked measurements, not proven edges.",
-      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions."
+      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions.",
+      "grading_note": "Graded 2026-10-25 4:45 PM CT from official ESPN scoring summaries - ALL FOUR LEGS HIT: Ollie Gordon II 1-yd run (event 401873015, final MIA 28 NYJ 25); Marvin Harrison Jr. 6-yd catch from Stroud (event 401873016, final NYG 27 HOU 21 - MHJ is HOU in 2026, confirmed by the scoring play); Jonathan Taylor 38-yd rush (event 401873014, final MIN 16 IND 10); Christian McCaffrey 1-yd rush (event 401873017, final ATL 29 SF 20). +2936 pays receipt $303.62 on $10."
     },
     {
       "sport": "NFL",
@@ -8442,7 +8445,8 @@
       "potential_payout_usd": 201.63,
       "potential_profit_usd": 191.63,
       "price_note": "Unboosted combined +1916; $10.00 stake, $201.63 total payout. Receipt sha256 f45f401a2c3c1055... Leg vs locked board: Hockenson .178 model vs .303030 implied (-0.125030); McBride .411 vs .425532 (-0.014532); Kraft .302 vs .384615 (-0.082615). McBride and Kraft each appear on ticket us-tn:01m5skj4azfsnt8dpqg54y2ctj at different prices (+162/+190) - preserved per receipt.",
-      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions."
+      "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions.",
+      "leg_note": "Leg progress 4:45 PM CT: Hockenson HIT (5-yd catch, MIN 16-10 final per ESPN event 401873014). McBride pending (DEN@ARI halftime), Kraft pending (GB@DET 2nd quarter)."
     },
     {
       "bet_id": "us-tn:01m5npksgevz8c6ya4f6w1057",
@@ -8454,8 +8458,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10.0,
       "stake_units": 1.0,
       "market": "parlay_anytime_touchdown",
@@ -8465,10 +8469,11 @@
       "price": 547,
       "potential_payout_usd": 64.78,
       "potential_profit_usd": 54.78,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "price_note": "SGP+ combined headline +547; receipt total payout $64.78 (headline +547 implies $64.70 - 8-cent display discrepancy preserved as shown, receipt payout governs if it wins). Unboosted. $10.00 stake. Receipt sha256 9a67373a7d8ff442... Per-leg JSN/Walker prices not shown on the SGP+ view - not inferred. Leg reads vs locked h=12/k=4 board: Henry .619 model vs .649123 raw implied at -185 (-0.030123); Lamar Jackson OUT means the frozen .619 carries no QB-environment adjustment (own-designation scope limit). JSN .501 x Walker .475 = .2380 independent joint vs .238095 implied by +320 - coincidence noted, same-game correlation unknown, per-leg prices hidden. Combined ticket model-independent ~.1473 (~+579 fair) vs +547 receipt; independence and Lamar caveats dominate - not an edge claim.",
-      "source": "Owner iMessage phonemsg-01M5SNQC120AQA1Z6SQ75BDKCR, Oct 25 8:59 AM CT (slip image, no text); visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out $10 button is an offer, not a transaction. Receipt sha256 9a67373a7d8ff442..."
+      "source": "Owner iMessage phonemsg-01M5SNQC120AQA1Z6SQ75BDKCR, Oct 25 8:59 AM CT (slip image, no text); visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out $10 button is an offer, not a transaction. Receipt sha256 9a67373a7d8ff442...",
+      "grading_note": "Graded 2026-10-25 4:45 PM CT from official ESPN scoring summary (event 401873012, final CIN 35 BAL 13). BAL's only TD: Zay Flowers. Derrick Henry did not score, so the SGP+ is dead regardless of the pending Walker/JSN SNF pair."
     },
     {
       "sport": "NFL",

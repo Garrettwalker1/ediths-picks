@@ -1,0 +1,72 @@
+{
+ "artifact": "week8_learning_audit",
+ "generated_at": "2026-10-25T15:55:14Z",
+ "question": "Owner iMessage Oct 24 9:47 PM CT (phonemsg-01M5RF95KX989T909SG99JJ9F7): \"I think this is the models first big win. How can we learn from this\" - winning 4-leg Kansas/ASU/Arkansas State/Wisconsin ML receipt.",
+ "ticket_facts": {
+  "receipt": "FanDuel TN, placed Oct 24 10:20 AM CT, $10 stake, 4 moneyline legs: Kansas +103, Arizona State +107, Arkansas State +129, Wisconsin +140. Combined +1720 boosted to +2235 by a 30% profit boost. Won $233.56 ($223.56 profit).",
+  "boost_separated": "At the unboosted +1720 the same $10 returns $182.00 ($172.00 profit). The 30% boost added $51.56 - 23.1% of the actual profit came from the promotion, not the picks. Tracker records net against the actual receipt; model learning uses only the 4 winner picks, never the payout.",
+  "note": "Owner variant of the published research long shot (IL morning capture had Kansas -110, ASU -108, ArkSt +116, Wisconsin +126); receipt prices govern for money, and all four receipt legs were plus-money underdogs."
+ },
+ "what_the_model_did": {
+  "legs": [
+   {
+    "leg": "Wisconsin vs USC",
+    "model_home_margin": 5.99,
+    "actual_home_margin": 17,
+    "note": "Strongest sealed dog-win call of the day; won by 17."
+   },
+   {
+    "leg": "Arkansas State vs Georgia State",
+    "model_home_margin": 3.48,
+    "actual_home_margin": 6,
+    "note": "Sun Belt home dog; won by 6."
+   },
+   {
+    "leg": "Kansas vs Baylor",
+    "model_home_margin": 0.59,
+    "actual_home_margin": 1,
+    "note": "FRAGILE sub-point call flagged pregame; won by 1."
+   },
+   {
+    "leg": "Arizona State vs Kansas State",
+    "model_home_margin": 0.21,
+    "actual_home_margin": 11,
+    "note": "FRAGILE sub-point call flagged pregame; won by 11."
+   }
+  ],
+  "line_context": "By ESPN/DraftKings closing lines (comparison only), 3 of the 4 legs closed as underdogs; Kansas closed a pick'em/slight favorite - the +103 on the receipt was a morning TN price. All four were sealed outright model picks published before kickoff.",
+  "slate_context": "Saturday CT slate: no-AP reference 33/44 winners (75.0%). Full Week 8 holdout: 40/56 (71.4%, CI95 [58.9, 82.1]), MAE 10.79."
+ },
+ "the_misses": {
+  "three_leg_model_favorite": "Went 2/3: Texas A&M +13.5 covered (Bama won by 11), Wisconsin +2.5 won outright, Clemson -2.5 missed - model had Clemson by 10.4 and Clemson lost by 4 (14.4-pt error, the model's worst same-direction favorite call of the day).",
+  "tennessee": "Tennessee at South Carolina was correctly left OFF both tickets: model SC by 0.9 vs book SC -2.5, only a 1.6-pt gap, below the edge bar. Model still had SC right (won 27-24) - the discipline was in not forcing a small gap into a leg.",
+  "biggest_saturday_errors": [
+   "NIU: model Hawaii by 1.3, NIU won by 35 (33.7-pt error)",
+   "Georgia Tech: model BC by 11.1, GT won by 22 (33.1)",
+   "Cincinnati: model Texas Tech by 18.2, Cincinnati won by 13 (31.2)",
+   "SMU: model Cal by 14.1, SMU won by 39 (24.9)",
+   "Illinois: model Oregon by 12.6, Illinois won by 11 (23.6)"
+  ]
+ },
+ "signal_vs_luck": {
+  "pattern": "\"Model picks a book underdog to win outright\" - the pattern behind the winning ticket. Dog classification uses ESPN/DraftKings closing lines (comparison only; receipt legs were FanDuel TN morning prices).",
+  "derivation_week": "Week 8: model dog picks went 6/8 (75.0%) while all book dogs went 19/55 (34.5%). Binomial tail vs the dog base rate: p=0.024 - but this is the week the pattern was noticed on, so it cannot validate itself.",
+  "unseen_test": "Week 7 (unseen for this pattern, same repaired model lineage): model dog picks went 6/11 (54.5%) vs all dogs 20/59 (33.9%); binomial tail p=0.131 - above baseline but inside luck at this sample.",
+  "combined_descriptive": "12/19 (63.2%) vs 39/114 (34.2%), p=0.009 - descriptive only; combining the derivation week inflates it.",
+  "verdict": "Promising, not proven. The unseen week points the same direction but does not clear a significance bar. No new betting signal is adopted; the winner-first sealed gates still govern any model change, and nothing about the model changes on one week."
+ },
+ "what_changes": {
+  "model": "Nothing. No AP adoption (Week 8 gate failed again: paired winner CI95 [-0.054, 0.000]); no refit or retuning against Week 8 outcomes; no promotion on one week.",
+  "process": [
+   "Keep publishing fragile-call flags - the two sub-point legs (Kansas 0.59, ASU 0.21) were flagged before kickoff, and that honesty is what makes the wins interpretable.",
+   "Boost math stays separated from pick quality in the tracker (23.1% of this profit was the promotion).",
+   "Predeclared prospective tracking: log every model dog-pick each week with its closing-line reference and grade the bucket after each week, rather than re-measuring on the week that suggested it.",
+   "Small-gap discipline (the Tennessee exclusion) stays the rule: a model lean under the edge bar is not a leg."
+  ]
+ },
+ "limits": [
+  "Dog/favorite reference is ESPN/DraftKings closing lines, not the owner's FanDuel TN prices; closing vs morning movement matters (Kansas).",
+  "The model has no injury adjustment and the weather candidate failed validation.",
+  "Week 8 is the second graded holdout week; both the 71.4% winner rate and the dog-bucket edge rest on small samples."
+ ]
+}

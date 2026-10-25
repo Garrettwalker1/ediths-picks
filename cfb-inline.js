@@ -72,6 +72,21 @@ async function loadCfbWeek8(){
    const t=document.createElement('p');t.className='muted';t.textContent='Reference no-AP home margin '+m['2026_no_ap'].toFixed(3)+'. AP research '+m['2026_ap'].toFixed(3)+'. Historical-only fits: no-AP '+m.historical_no_ap.toFixed(3)+', AP '+m.historical_ap.toFixed(3)+'. Positive favors home'+(g.neutral_site?' (neutral site)':'')+'.';det.appendChild(t);host.appendChild(det);});
   const a=document.createElement('a');a.href=base+'week8_sealed_research.json';a.textContent='Sealed Week 8 file';a.target='_blank';a.rel='noopener noreferrer';host.appendChild(a);
   try{
+   const au=await fetch(base+'week8_learning_audit.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null);
+   if(au){
+    const det=document.createElement('details');det.className='cfb-learning';
+    const sm=document.createElement('summary');sm.textContent='Learning audit: the Oct 24 four-leg win (published Oct 25)';det.appendChild(sm);
+    const sec=(t,lines)=>{const h=document.createElement('h4');h.textContent=t;det.appendChild(h);const ul=document.createElement('ul');for(const x of lines){const li=document.createElement('li');li.textContent=x;ul.appendChild(li);}det.appendChild(ul);};
+    sec('The ticket (boost separated)',[au.ticket_facts.receipt,au.ticket_facts.boost_separated,au.ticket_facts.note]);
+    sec('What the model did',au.what_the_model_did.legs.map(l=>l.leg+': model by '+l.model_home_margin+', won by '+l.actual_home_margin+'. '+l.note).concat([au.what_the_model_did.line_context,au.what_the_model_did.slate_context]));
+    sec('The misses - full slate, no cherry-picking',[au.the_misses.three_leg_model_favorite,au.the_misses.tennessee].concat(au.the_misses.biggest_saturday_errors));
+    sec('Repeatable signal or luck',[au.signal_vs_luck.pattern,au.signal_vs_luck.derivation_week,au.signal_vs_luck.unseen_test,au.signal_vs_luck.combined_descriptive,au.signal_vs_luck.verdict]);
+    sec('What changes',[au.what_changes.model].concat(au.what_changes.process).concat(au.limits.map(x=>'Limit: '+x)));
+    const al=document.createElement('a');al.href=base+'week8_learning_audit.json';al.textContent='Full audit data';al.target='_blank';al.rel='noopener noreferrer';det.appendChild(al);
+    host.appendChild(det);
+   }
+  }catch(e){}
+  try{
    const pr=await fetch('tools/cfb/parlay_20261024/parlay_candidates.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null);
    if(pr){
     const legRow=l=>'<div class="cfb-leg"><div class="bgrid"><span class="bg-lab">'+l.kickoff_ct+' CT</span><span class="bnum">'+l.leg+'</span></div><p class="muted">'+l.model+(l.context?' · '+l.context:'')+'</p></div>';

@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-25T13:30:00Z",
+ "updated_at": "2026-10-25T14:00:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8440,6 +8440,32 @@
    "potential_profit_usd": 191.63,
    "price_note": "Unboosted combined +1916; $10.00 stake, $201.63 total payout. Receipt sha256 f45f401a2c3c1055... Leg vs locked board: Hockenson .178 model vs .303030 implied (-0.125030); McBride .411 vs .425532 (-0.014532); Kraft .302 vs .384615 (-0.082615). McBride and Kraft each appear on ticket us-tn:01m5skj4azfsnt8dpqg54y2ctj at different prices (+162/+190) - preserved per receipt.",
    "source": "Owner iMessage phonemsg-01M5SKWHGPM4F00QX9Q006G36K, Oct 25 8:27 AM CT ('Add to the tracker', 4 slip images); slips visually inspected. Duplicate check: these exact bet IDs were not present in the ledger at insert. Cash-out buttons on slips are offers, not transactions."
+  },
+  {
+   "bet_id": "us-tn:01m5npksgevz8c6ya4f6w1057",
+   "date": "2026-10-25T13:58:00Z",
+   "placed_at": "2026-10-25T13:58:00Z",
+   "sport": "NFL",
+   "game": "CIN @ BAL; KC @ SEA (NFL Week 7)",
+   "kickoff": "2026-10-26T00:21:00Z",
+   "book": "FanDuel",
+   "state": "TN",
+   "stake_type": "cash",
+   "status": "open",
+   "result": null,
+   "stake_usd": 10.0,
+   "stake_units": 1.0,
+   "market": "parlay_anytime_touchdown",
+   "line": null,
+   "bet": "3-leg SGP+ anytime TD: Derrick Henry; Jaxon Smith-Njigba + Kenneth Walker III (same-game pair)",
+   "selection": "Derrick Henry -185; JSN + Walker III SGP +320 (per-leg prices not shown)",
+   "price": 547,
+   "potential_payout_usd": 64.78,
+   "potential_profit_usd": 54.78,
+   "net_units": null,
+   "net_usd": null,
+   "price_note": "SGP+ combined headline +547; receipt total payout $64.78 (headline +547 implies $64.70 - 8-cent display discrepancy preserved as shown, receipt payout governs if it wins). Unboosted. $10.00 stake. Receipt sha256 9a67373a7d8ff442... Per-leg JSN/Walker prices not shown on the SGP+ view - not inferred. Leg reads vs locked h=12/k=4 board: Henry .619 model vs .649123 raw implied at -185 (-0.030123); Lamar Jackson OUT means the frozen .619 carries no QB-environment adjustment (own-designation scope limit). JSN .501 x Walker .475 = .2380 independent joint vs .238095 implied by +320 - coincidence noted, same-game correlation unknown, per-leg prices hidden. Combined ticket model-independent ~.1473 (~+579 fair) vs +547 receipt; independence and Lamar caveats dominate - not an edge claim.",
+   "source": "Owner iMessage phonemsg-01M5SNQC120AQA1Z6SQ75BDKCR, Oct 25 8:59 AM CT (slip image, no text); visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out $10 button is an offer, not a transaction. Receipt sha256 9a67373a7d8ff442..."
   }
  ]
 }

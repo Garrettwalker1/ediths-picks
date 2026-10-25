@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-21T14:32:44Z",
+  "generated_at": "2026-10-25T16:51:48Z",
   "week": 7,
   "coverage": {
     "league_count": 8,
-    "rostered_player_count": 106,
+    "rostered_player_count": 108,
     "source_status": "partial_x_unavailable",
-    "source_snapshot_at": "2026-10-21T14:32:44Z",
+    "source_snapshot_at": "2026-10-25T16:51:48Z",
     "x_note": "Public X unavailable; X coverage partial."
   },
   "sources": [
     {
       "name": "ESPN Fantasy player injury status and player news (logged-in league data)",
       "url": "https://fantasy.espn.com/football/",
-      "observed_at": "2026-10-21T14:32:44Z"
+      "observed_at": "2026-10-25T16:51:48Z"
     }
   ],
   "players": [
@@ -43,7 +43,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -73,7 +73,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -101,15 +101,15 @@
       "rostered_player_names": [
         "Emeka Egbuka"
       ],
-      "injury_status": null,
+      "injury_status": "Out",
       "practice_status": null,
       "game_status": null,
-      "headline": "No injury flag in current ESPN Fantasy status",
-      "detail": null,
-      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
-      "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
-      "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "headline": "ESPN Fantasy status: Out",
+      "detail": "Buccaneers coach Todd Bowles previously indicated that Egbuka was doubtful to play, but the official designation is more definitive. Chris Godwin, Ted Hurst and Tez Johnson figure to take most of the WR snaps for the Buccaneers this Sunday at Carolina.",
+      "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4567750",
+      "source_published_at": "2026-10-23",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -145,7 +145,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -171,11 +171,11 @@
       "practice_status": null,
       "game_status": null,
       "headline": "ESPN Fantasy status: Out",
-      "detail": "With McLaurin done for the season as the result of the injury, Stefon Diggs profiles as the Commanders' top wideout. Also in the mix to see added reps are Antonio Williams, Treylon Burks, Dyami Brown and Luke McCaffrey. Additionally, the team could look add depth at the position in the coming days. McLaurin, who is under contract with Washington through 2028, faces a lengthy recovery.",
+      "detail": "McLaurin went down with the injury on the Commanders' second possession of Monday's 23-17 loss to the 49ers. With McLaurin out of the mix for the rest of 2026, Stefon Diggs profiles as the Commanders' top wideout, while players such as Chig Okonkwo, Antonio Williams, Treylon Burks, Dyami Brown and Rachaad White could see their roles in the passing game expand further.",
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=3121422",
       "source_published_at": "2026-10-20",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -201,8 +201,7 @@
         "For The Boys: Fantasy"
       ],
       "rostered_player_names": [
-        "Luther Burden III",
-        "Luther Burden"
+        "Luther Burden III"
       ],
       "injury_status": null,
       "practice_status": null,
@@ -212,7 +211,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -248,7 +247,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -278,7 +277,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -320,7 +319,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -350,7 +349,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -380,7 +379,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -416,7 +415,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -446,7 +445,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -468,15 +467,15 @@
       "rostered_player_names": [
         "Jonah Coleman"
       ],
-      "injury_status": "Injured Reserve",
+      "injury_status": "Questionable",
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Injured Reserve",
-      "detail": null,
-      "source_name": "ESPN Fantasy player status",
+      "headline": "ESPN Fantasy status: Questionable",
+      "detail": "Though he'll still carry a designation into Sunday, Coleman's reinstatement from IR indicates that he's on track to play for the first time since Week 2. With Tyler Badie (thumb) on injured reserve, Coleman will likely in as the No. 3 back behind J.K. Dobbins and RJ Harvey.",
+      "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4702555",
-      "source_published_at": "2026-09-26",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-24",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -518,7 +517,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -548,7 +547,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -584,7 +583,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -614,7 +613,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -644,7 +643,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -686,7 +685,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -720,15 +719,15 @@
       "rostered_player_names": [
         "A.J. Brown"
       ],
-      "injury_status": "Questionable",
+      "injury_status": null,
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Questionable",
-      "detail": "Brown returned from a four-game absence this past Sunday against the Jets. He's been limited in each of the first two sessions of Week 7 prep, and the veteran wide receiver told reporters after Tuesday's practice that his ankle is \"feeling good,\" per Doug Kyed of the Boston Herald. Wednesday's injury report should clarify whether the Patriots' top WR will be fully cleared for Thursday night's game against the Bears.",
-      "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
-      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4047646",
-      "source_published_at": "2026-10-20",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -758,7 +757,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -788,7 +787,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -810,15 +809,15 @@
       "rostered_player_names": [
         "Tyler Warren"
       ],
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Questionable",
+      "headline": "ESPN Fantasy status: Out",
       "detail": null,
       "source_name": "ESPN Fantasy player status",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4431459",
-      "source_published_at": "2026-10-18",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-23",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -860,7 +859,7 @@
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4685512",
       "source_published_at": "2026-10-16",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -896,7 +895,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -938,7 +937,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -968,7 +967,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1004,7 +1003,7 @@
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4575131",
       "source_published_at": "2026-10-19",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -1034,7 +1033,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1064,7 +1063,7 @@
       "source_name": "ESPN Fantasy player status",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=3915416",
       "source_published_at": "2026-10-18",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1094,7 +1093,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1124,7 +1123,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1160,44 +1159,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
-      "stale": false,
-      "roster_count": 2
-    },
-    {
-      "player_id": "omarcooper",
-      "player_name": "Omar Cooper Jr.",
-      "team": "NYJ",
-      "position": "WR",
-      "leagues": [
-        {
-          "id": "espn-184489982",
-          "name": "Dirty Mike and the Boys",
-          "team_name": "Save my Team Netanyahu"
-        },
-        {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
-        }
-      ],
-      "rostered_league_names": [
-        "Dirty Mike and the Boys",
-        "Billions "
-      ],
-      "rostered_player_names": [
-        "Omar Cooper Jr.",
-        "Omar Cooper"
-      ],
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": "No injury flag in current ESPN Fantasy status",
-      "detail": null,
-      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
-      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
-      "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -1227,7 +1189,37 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
+      "stale": false,
+      "roster_count": 1
+    },
+    {
+      "player_id": "ajbarner",
+      "player_name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "leagues": [
+        {
+          "id": "espn-184489982",
+          "name": "Dirty Mike and the Boys",
+          "team_name": "Save my Team Netanyahu"
+        }
+      ],
+      "rostered_league_names": [
+        "Dirty Mike and the Boys"
+      ],
+      "rostered_player_names": [
+        "AJ Barner"
+      ],
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1257,7 +1249,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1287,7 +1279,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1317,7 +1309,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1347,7 +1339,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1377,7 +1369,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1407,7 +1399,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1443,7 +1435,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -1473,7 +1465,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1503,7 +1495,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1539,7 +1531,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -1587,7 +1579,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 4
     },
@@ -1617,7 +1609,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1647,7 +1639,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1669,15 +1661,15 @@
       "rostered_player_names": [
         "Breece Hall"
       ],
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Questionable",
-      "detail": "With Hall set to miss a third straight contest, Braelon Allen is in line for another start. Hall still hasn't returned to practice and thus looks uncertain for Week 7.",
+      "headline": "ESPN Fantasy status: Out",
+      "detail": "Early Sunday reports indicated Hall was unlikely to play, and a fourth straight absence for the star running back is now official. With Hall sidelined again Sunday, Braelon Allen, who's averaged 18.3 carries, 84.3 rushing yards, 1.7 receptions and 11.3 receiving yards over the past three games while serving in the lead role, will once again helm the Jets' ground attack.",
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4427366",
-      "source_published_at": "2026-10-16",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-25",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1703,8 +1695,7 @@
         "National Choochers Association"
       ],
       "rostered_player_names": [
-        "Harold Fannin Jr.",
-        "Harold Fannin"
+        "Harold Fannin Jr."
       ],
       "injury_status": null,
       "practice_status": null,
@@ -1714,7 +1705,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -1744,7 +1735,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1786,7 +1777,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -1828,7 +1819,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -1842,10 +1833,16 @@
           "id": "espn-14911042",
           "name": "Not a Dell Fantasy League ",
           "team_name": "Lisan Al-Caleb"
+        },
+        {
+          "id": "sleeper-1395822791856525312",
+          "name": "FTB Fantasy Re-Draft",
+          "team_name": "garrettwalker1"
         }
       ],
       "rostered_league_names": [
-        "Not a Dell Fantasy League "
+        "Not a Dell Fantasy League ",
+        "FTB Fantasy Re-Draft"
       ],
       "rostered_player_names": [
         "Jaylin Noel"
@@ -1858,9 +1855,9 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
-      "roster_count": 1
+      "roster_count": 2
     },
     {
       "player_id": "camward",
@@ -1888,7 +1885,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1918,7 +1915,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1948,7 +1945,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -1984,7 +1981,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2020,7 +2017,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2056,7 +2053,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2082,11 +2079,11 @@
       "practice_status": null,
       "game_status": null,
       "headline": "ESPN Fantasy status: Questionable",
-      "detail": "After missing a second straight week of practice due to a right hamstring injury, Barkley subsequently will be inactive for a second occasion this season. The Eagles placed Will Shipley (foot) on injured reserve Friday, so the backfield currently is occupied by Dameon Pierce and Carson Steele, the former of whom is the favorite to garner more of the workload for as long as Barkley is sidelined.",
+      "detail": "Barkley followed up limited sessions Thursday and Friday with a full practice Saturday, but his status remains up in the air for Week 7 action. He's seeking his first game action since Week 4 as he tends to a lingering hamstring injury, something that'll be confirmed, one way or another, about 90 minutes before Monday's 8:15 p.m. ET kickoff.",
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=3929630",
-      "source_published_at": "2026-10-16",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-24",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2116,7 +2113,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2146,37 +2143,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
-      "stale": false,
-      "roster_count": 1
-    },
-    {
-      "player_id": "michaelpittman",
-      "player_name": "Michael Pittman",
-      "team": "PIT",
-      "position": "WR",
-      "leagues": [
-        {
-          "id": "sleeper-1395822791856525312",
-          "name": "FTB Fantasy Re-Draft",
-          "team_name": "garrettwalker1"
-        }
-      ],
-      "rostered_league_names": [
-        "FTB Fantasy Re-Draft"
-      ],
-      "rostered_player_names": [
-        "Michael Pittman"
-      ],
-      "injury_status": "Injured Reserve",
-      "practice_status": null,
-      "game_status": null,
-      "headline": "ESPN Fantasy status: Injured Reserve",
-      "detail": null,
-      "source_name": "ESPN Fantasy player status",
-      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4035687",
-      "source_published_at": "2026-10-10",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2206,7 +2173,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2248,7 +2215,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 3
     },
@@ -2284,7 +2251,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2320,7 +2287,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2356,9 +2323,39 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
+    },
+    {
+      "player_id": "omarcooper",
+      "player_name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "rostered_player_names": [
+        "Omar Cooper Jr."
+      ],
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
+      "stale": false,
+      "roster_count": 1
     },
     {
       "player_id": "treysmack",
@@ -2386,7 +2383,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2416,7 +2413,37 @@
       "source_name": "ESPN Fantasy player status",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=16800",
       "source_published_at": "2026-10-20",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
+      "stale": false,
+      "roster_count": 1
+    },
+    {
+      "player_id": "jaredgoff",
+      "player_name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "leagues": [
+        {
+          "id": "sleeper-1389357500502917120",
+          "name": "Billions ",
+          "team_name": "Dicker? I Barely Know Her"
+        }
+      ],
+      "rostered_league_names": [
+        "Billions "
+      ],
+      "rostered_player_names": [
+        "Jared Goff"
+      ],
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2446,7 +2473,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2468,45 +2495,15 @@
       "rostered_player_names": [
         "Lamar Jackson"
       ],
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Questionable",
-      "detail": "Since spraining his left ankle in an Oct. 4 win over the Titans, Jackson hasn't practiced in any fashion and has been inactive for both of the Ravens' ensuing games. Though Jackson hasn't taken any steps forward in terms of practice activity, Minter noted that the two-time NFL MVP is making progress in his recovery from the ankle injury.",
+      "headline": "ESPN Fantasy status: Out",
+      "detail": "Tyler Huntley will start a third consecutive game while Jackson remains sidelined due to a left ankle sprain. Though Jackson has taken longer than initially anticipated to make a full recovery from the injury, he took some clear steps forward in Week 7 by practicing as a limited participant Wednesday through Friday.",
       "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=3916387",
-      "source_published_at": "2026-10-19",
-      "observed_at": "2026-10-21T14:32:44Z",
-      "stale": false,
-      "roster_count": 1
-    },
-    {
-      "player_id": "courtlandsutton",
-      "player_name": "Courtland Sutton",
-      "team": "DEN",
-      "position": "WR",
-      "leagues": [
-        {
-          "id": "sleeper-1389357500502917120",
-          "name": "Billions ",
-          "team_name": "Dicker? I Barely Know Her"
-        }
-      ],
-      "rostered_league_names": [
-        "Billions "
-      ],
-      "rostered_player_names": [
-        "Courtland Sutton"
-      ],
-      "injury_status": null,
-      "practice_status": null,
-      "game_status": null,
-      "headline": "No injury flag in current ESPN Fantasy status",
-      "detail": null,
-      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
-      "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-      "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-25",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2536,7 +2533,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2566,7 +2563,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2596,7 +2593,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2626,7 +2623,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2656,7 +2653,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2692,7 +2689,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2728,7 +2725,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 2
     },
@@ -2758,7 +2755,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2788,7 +2785,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2818,7 +2815,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2848,7 +2845,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2878,7 +2875,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2908,7 +2905,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2938,7 +2935,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -2968,13 +2965,13 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
     {
       "player_id": "jimmyhorn",
-      "player_name": "Jimmy Horn",
+      "player_name": "Jimmy Horn Jr.",
       "team": "CLE",
       "position": "WR",
       "leagues": [
@@ -2988,7 +2985,7 @@
         "For The Boys: Fantasy"
       ],
       "rostered_player_names": [
-        "Jimmy Horn"
+        "Jimmy Horn Jr."
       ],
       "injury_status": null,
       "practice_status": null,
@@ -2998,7 +2995,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3028,7 +3025,67 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
+      "stale": false,
+      "roster_count": 1
+    },
+    {
+      "player_id": "dominiczvada",
+      "player_name": "Dominic Zvada",
+      "team": "NYG",
+      "position": "K",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "rostered_player_names": [
+        "Dominic Zvada"
+      ],
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
+      "stale": false,
+      "roster_count": 1
+    },
+    {
+      "player_id": "brandincooks",
+      "player_name": "Brandin Cooks",
+      "team": "SF",
+      "position": "WR",
+      "leagues": [
+        {
+          "id": "sleeper-1386111628138782720",
+          "name": "For The Boys: Fantasy",
+          "team_name": "I Chase Young Kids"
+        }
+      ],
+      "rostered_league_names": [
+        "For The Boys: Fantasy"
+      ],
+      "rostered_player_names": [
+        "Brandin Cooks"
+      ],
+      "injury_status": null,
+      "practice_status": null,
+      "game_status": null,
+      "headline": "No injury flag in current ESPN Fantasy status",
+      "detail": null,
+      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
+      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
+      "source_published_at": null,
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3058,7 +3115,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3088,7 +3145,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3110,15 +3167,15 @@
       "rostered_player_names": [
         "David Montgomery"
       ],
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "practice_status": null,
       "game_status": null,
-      "headline": "ESPN Fantasy status: Questionable",
-      "detail": null,
-      "source_name": "ESPN Fantasy player status",
+      "headline": "ESPN Fantasy status: Out",
+      "detail": "Montgomery still hasn't returned to practice and will miss a second straight game, leaving Woody Marks to handle a large workload against the Giants. Jawhar Jordan (quad) was effective off the bench last week, but he's now on the practice-squad injured list, which leaves Dare Ogunbowale as the No. 2 RB. Ogunbowale's history as a special teamer and passing-down specialist suggest Marks should dominate carries.",
+      "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
       "source_url": "https://fantasy.espn.com/football/players/card?playerId=4035538",
-      "source_published_at": "2026-10-15",
-      "observed_at": "2026-10-21T14:32:44Z",
+      "source_published_at": "2026-10-23",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3148,7 +3205,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3178,7 +3235,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3200,15 +3257,15 @@
       "rostered_player_names": [
         "Cole Kmet"
       ],
-      "injury_status": null,
+      "injury_status": "Injured Reserve",
       "practice_status": null,
       "game_status": null,
-      "headline": "No injury flag in current ESPN Fantasy status",
-      "detail": null,
-      "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
-      "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-      "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "headline": "ESPN Fantasy status: Injured Reserve",
+      "detail": "Kmet suffered a season-ending right knee injury during the fourth quarter of the Bears' 30-24 win over the Patriots on Thursday. Even with the emergence of Colston Loveland, Kmet was still a key piece in Chicago's offense as a run blocker, and he'll end his 2026 regular season with a 10-87-1 receiving line (on 14 targets) across seven games.",
+      "source_name": "ESPN Fantasy player status · ESPN Fantasy news",
+      "source_url": "https://fantasy.espn.com/football/players/card?playerId=4258595",
+      "source_published_at": "2026-10-23",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3238,7 +3295,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3268,7 +3325,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3298,7 +3355,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3328,7 +3385,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3358,7 +3415,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3388,7 +3445,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3418,7 +3475,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     },
@@ -3448,7 +3505,7 @@
       "source_name": "ESPN Fantasy status; current ESPN/Sleeper rosters",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "source_published_at": null,
-      "observed_at": "2026-10-21T14:32:44Z",
+      "observed_at": "2026-10-25T16:51:48Z",
       "stale": false,
       "roster_count": 1
     }

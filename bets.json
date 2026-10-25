@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-24T22:36:00Z",
+ "updated_at": "2026-10-25T02:05:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8055,11 +8055,11 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
-   "net_units": null,
-   "net_usd": null,
-   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert.",
+   "status": "settled",
+   "result": "cashout",
+   "net_units": 0.653,
+   "net_usd": 6.53,
+   "source": "Owner iMessage phonemsg-01M5R0X12N1EJFTSNZ1W8Z7D6R, Oct 24 5:36 PM CT ('Add to the tracker'); receipt visually inspected. Cash-out button is an offer, not an execution. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out confirmed by owner iMessage phonemsg-01M5RCV2Y6JDDEK0W7ABAA4WB7 Oct 24 9:04 PM CT with settled-slip screenshot.",
    "bet_id": "us-tn:01m5qpk462ed192cq1nvtxp2em",
    "date": "2026-10-24T19:35:00Z",
    "placed_at": "2026-10-24T19:35:00Z",
@@ -8082,7 +8082,7 @@
      "market": "moneyline",
      "selection": "Arizona State",
      "line": null,
-     "hit": null
+     "hit": true
     },
     {
      "event": "Georgia State Panthers @ Arkansas State Red Wolves",
@@ -8106,7 +8106,13 @@
     "model_version": "CFB no-AP reference, sealed Week 8 (Oct 19 feature cutoff; unproven)",
     "note": "Model margins: Wisconsin by 6 (sealed 5.99), Arkansas State by 3.5 (sealed 3.48), Arizona State by 0.2 (sealed 0.21). ASU leg is a sub-point model edge. +840 implies 10.6% joint; no validated CFB win-probability mapping, so no model joint percentage quoted."
    },
-   "grading": null
+   "grading": {
+    "source": "Owner-confirmed FanDuel settled slip screenshot (sha256 712cd940039374c1276f9a53d1b0d9b309832b4a1ee3148d35edf195bfef72c9), iMessage phonemsg-01M5RCV2Y6JDDEK0W7ABAA4WB7",
+    "graded_at": "2026-10-25T02:05:00Z",
+    "final_score": "Arizona State 28, Kansas State 17 (per settled receipt, Finished); Arkansas State and Wisconsin finals pending ESPN verification at tonight's grading wake",
+    "detail": "Cashed out for exactly $7.94 on a $1.41 stake while Arkansas State (38-32, 4th) and Wisconsin (17-7, 4th) were live and ASU already won. Settled as cash-out, +$6.53 (+0.653u). Full potential was $13.26; whether the ticket would have won is unverified until the remaining two finals are confirmed - will be noted then, never counted in record."
+   },
+   "cashout_executed_usd": 7.94
   },
   {
    "sport": "CFB",

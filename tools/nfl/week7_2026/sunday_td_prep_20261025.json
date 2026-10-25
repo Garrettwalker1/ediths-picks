@@ -107,5 +107,102 @@
   "Christian Watson 0.471"
  ],
  "parlay_evaluation": "No parlay built tonight: only one priced name (Taylor) shows model above raw implied, boards incomplete, and forcing a +2000-style ticket against an unproven model is exactly the discipline failure the audit is meant to check. Re-evaluate at the 7:15 AM CT refresh when full boards post.",
- "rounding_note": "implied and gap are exact computations from the listed American price and locked model probability. The site card displays model/book as whole percents and gap to 0.1pp (display rounding); use this file for arithmetic."
+ "rounding_note": "implied and gap are exact computations from the listed American price and locked model probability. The site card displays model/book as whole percents and gap to 0.1pp (display rounding); use this file for arithmetic.",
+ "morning_refresh": {
+  "captured_at_ct": "2026-10-25 7:13-7:20 AM CT",
+  "price_recapture": "FAILED - FanDuel IL props and event surfaces all PerimeterX press-and-hold this morning (4 fresh sessions: event page direct, props tab direct, nav+fetch, SPA click-through; 9s drag hold did not clear; game-lines nav pages load fine). No fresh FD IL ATD price was verified. Prices in 'prices' remain the Sat 9:56-9:59 PM CT featured captures and are stale. Tennessee app prices were requested from Garrett and not supplied.",
+  "status_verified": {
+   "sources": [
+    "NFL.com week 7 injury report",
+    "Saints inactives article posted 7:02 AM CT",
+    "Steelers/Packers/Rams team reports",
+    "NBC Sports (Kamara)"
+   ],
+   "PIT@NO 8:30AM CT (Paris)": "No offensive skill designations. Kamara cleared (back, off injury report). Juwan Johnson, Vele, Freiermuth, Warren, Metcalf clean. Steelers OUT Skowronek/Echols, Q Dowdle/Elliott; Saints Q Ruiz/Shepherd. Saints inactives list has no skill players; Steelers official inactives not separately captured but no skill designations on final report.",
+   "noon CT": "Taylor no flags (Colts/Vikings final report clean). Estime (CLE), W. Robinson (TEN), Likely (NYG), Jefferson (MIN) no designation found; final inactives post ~10:30 AM CT.",
+   "3:25PM CT": "Nacua Q (calf, left Thursday practice early) - true game-time decision. Kraft not on Packers report (Q: Banks, St-Juste, Melton, Riley; Franklin out) = clean. Golden shoulder, estimated-limited Wednesday, NO game designation = active. Inactives post ~1:55 PM CT.",
+   "context_only": "Lamar Jackson OUT (BAL) - descriptive context for Henry's game; the locked board does not re-rate on QB news. Calvin Ridley game-time call (TEN). Adams (LA) IR, excluded and zeroed."
+  },
+  "baseline_vs_adjusted": "Every price-check name has no game designation this morning, so injury-adjusted = baseline for all of them (no adjustment applied; shown explicitly per name). The adjustment overlay is not backtest-proven regardless.",
+  "price_checks": [
+   {
+    "player": "Juwan Johnson",
+    "team": "NO",
+    "kick_ct": "8:30 AM",
+    "baseline": 0.25,
+    "adjusted": 0.25,
+    "model_fair_american": 300,
+    "book_price": null,
+    "note": "Garrett's requested leg. My tentative judgment cushion: +350 or longer before I'd call the price interesting - a cushion, not a validated bettable cutoff. If his TN app shows a price, compare the math and uncertainty; he decides."
+   },
+   {
+    "player": "Alvin Kamara",
+    "team": "NO",
+    "kick_ct": "8:30 AM",
+    "baseline": 0.279,
+    "adjusted": 0.279,
+    "model_fair_american": 258,
+    "book_price": null
+   },
+   {
+    "player": "Devaughn Vele",
+    "team": "NO",
+    "kick_ct": "8:30 AM",
+    "baseline": 0.249,
+    "adjusted": 0.249,
+    "model_fair_american": 302,
+    "book_price": null
+   },
+   {
+    "player": "Audric Estime",
+    "team": "CLE",
+    "kick_ct": "12:01 PM",
+    "baseline": 0.261,
+    "adjusted": 0.261,
+    "model_fair_american": 283,
+    "book_price": null
+   },
+   {
+    "player": "Wan'Dale Robinson",
+    "team": "TEN",
+    "kick_ct": "12:01 PM",
+    "baseline": 0.257,
+    "adjusted": 0.257,
+    "model_fair_american": 289,
+    "book_price": null
+   },
+   {
+    "player": "Tucker Kraft",
+    "team": "GB",
+    "kick_ct": "3:25 PM",
+    "baseline": 0.302,
+    "adjusted": 0.302,
+    "model_fair_american": 231,
+    "book_price": null
+   },
+   {
+    "player": "Jonathan Taylor",
+    "team": "IND",
+    "kick_ct": "12:01 PM",
+    "baseline": 0.575,
+    "adjusted": 0.575,
+    "model_fair_american": null,
+    "book_price": -120,
+    "book_captured_ct": "Sat 9:59 PM CT (stale, not re-verified)",
+    "gap": 0.029545,
+    "note": "Only captured name with model above raw implied; +2.9545pp exact against vig-included implied is thin and unproven, not an edge claim."
+   }
+  ],
+  "trio_joint": {
+   "legs": [
+    "Juwan Johnson 0.25",
+    "Audric Estime 0.261",
+    "Tucker Kraft 0.302"
+   ],
+   "joint_independent": 0.0196953,
+   "model_fair_american": 4977,
+   "caveat": "Independence assumed and unvalidated; ~+4977 is model-fair math, NOT a FanDuel or TN quote; combined slip price requested from Garrett, not supplied."
+  },
+  "existing_exposure": "Unchanged: $50 open (Likely +250 NYG@HOU noon, Freiermuth +250 PIT@NO 8:30 AM, Jefferson +165 IND@MIN noon, Golden +150 GB@DET 3:25 PM, $10 +8015 4-leg parlay on the same four)."
+ }
 }

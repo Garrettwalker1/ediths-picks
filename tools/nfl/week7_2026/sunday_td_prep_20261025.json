@@ -16,73 +16,73 @@
    "player": "Jaylen Warren",
    "team": "PIT",
    "price": -110,
-   "implied": 0.524,
+   "implied": 0.52381,
    "model": 0.367,
-   "gap": -0.157
+   "gap": -0.15681
   },
   {
    "player": "Kendre Miller",
    "team": "NO",
    "price": 165,
-   "implied": 0.377,
+   "implied": 0.377358,
    "model": 0.239,
-   "gap": -0.138
+   "gap": -0.138358
   },
   {
    "player": "DK Metcalf",
    "team": "PIT",
    "price": 170,
-   "implied": 0.37,
+   "implied": 0.37037,
    "model": 0.237,
-   "gap": -0.133
+   "gap": -0.13337
   },
   {
    "player": "Jonathan Taylor",
    "team": "IND",
    "price": -120,
-   "implied": 0.545,
+   "implied": 0.545455,
    "model": 0.575,
-   "gap": 0.03
+   "gap": 0.029545
   },
   {
    "player": "Aaron Jones",
    "team": "MIN",
    "price": 130,
-   "implied": 0.435,
+   "implied": 0.434783,
    "model": 0.271,
-   "gap": -0.164
+   "gap": -0.163783
   },
   {
    "player": "Justin Jefferson",
    "team": "MIN",
    "price": 160,
-   "implied": 0.385,
+   "implied": 0.384615,
    "model": 0.249,
-   "gap": -0.136
+   "gap": -0.135615
   },
   {
    "player": "Derrick Henry",
    "team": "BAL",
    "price": -190,
-   "implied": 0.655,
+   "implied": 0.655172,
    "model": 0.619,
-   "gap": -0.036
+   "gap": -0.036172
   },
   {
    "player": "Chase Brown",
    "team": "CIN",
    "price": -105,
-   "implied": 0.512,
+   "implied": 0.512195,
    "model": 0.425,
-   "gap": -0.087
+   "gap": -0.087195
   },
   {
    "player": "Ja'Marr Chase",
    "team": "CIN",
    "price": 110,
-   "implied": 0.476,
+   "implied": 0.47619,
    "model": 0.432,
-   "gap": -0.044
+   "gap": -0.04419
   }
  ],
  "model": "Locked h=12/k=4 recency-weighted anytime-TD board (same spec as week7_anytime_td.json). Book % is raw implied with vig.",
@@ -106,5 +106,6 @@
   "Kyren Williams 0.472",
   "Christian Watson 0.471"
  ],
- "parlay_evaluation": "No parlay built tonight: only one priced name (Taylor) shows model above raw implied, boards incomplete, and forcing a +2000-style ticket against an unproven model is exactly the discipline failure the audit is meant to check. Re-evaluate at the 7:15 AM CT refresh when full boards post."
+ "parlay_evaluation": "No parlay built tonight: only one priced name (Taylor) shows model above raw implied, boards incomplete, and forcing a +2000-style ticket against an unproven model is exactly the discipline failure the audit is meant to check. Re-evaluate at the 7:15 AM CT refresh when full boards post.",
+ "rounding_note": "implied and gap are exact computations from the listed American price and locked model probability. The site card displays model/book as whole percents and gap to 0.1pp (display rounding); use this file for arithmetic."
 }

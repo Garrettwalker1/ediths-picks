@@ -52,7 +52,7 @@ def sleeper_snapshot(ts, player_db):
         for pid in roster.get('players') or []:
             p=player_db.get(str(pid),{}); name=(p.get('full_name') or ' '.join(x for x in [p.get('first_name'),p.get('last_name')] if x) or str(pid))
             slot='START' if pid in starters else ('IR' if pid in reserve else ('TAXI' if pid in taxi else 'BENCH'))
-            players.append({'id':str(pid),'name':name,'position':p.get('position'),'nfl_team':p.get('team'),'slot':slot,'source':'Sleeper','source_url':f'https://api.sleeper.app/v1/league/{lid}/rosters','observed_at':ts,'provider_updated_at':None})
+            players.append({'id':str(pid),'name':name,'position':p.get('position'),'nfl_team':p.get('team'),'slot':slot,'sleeper_status':p.get('injury_status'),'source':'Sleeper','source_url':f'https://api.sleeper.app/v1/league/{lid}/rosters','observed_at':ts,'provider_updated_at':None})
         rec={'id':'sleeper-'+lid,'provider':'Sleeper','account':SLEEPER_USER,'league_id':lid,'league_name':league.get('name') or fallback,'team':{'roster_id':rid,'name':team_name},'status':'pre_draft' if status=='pre_draft' else status,'season':league.get('season'),'week':week,'observed_at':ts,'source':'Sleeper','source_url':f'https://api.sleeper.app/v1/league/{lid}','matchup':match,'players':players}
         if draft_at: rec['draft_at']=draft_at
         out.append(rec)
@@ -64,16 +64,23 @@ def injury_pass(leagues, status_rows, ts):
     M={'QUESTIONABLE':'Questionable','DOUBTFUL':'Doubtful','OUT':'Out','INJURY_RESERVE':'Injured Reserve','SUSPENSION':'Suspended','DAY_TO_DAY':'Day-To-Day'}
     norm=lambda s: re.sub(r'[^a-z]','',re.sub(r'\b(jr|sr|ii|iii|iv)\b','',str(s).lower()))
     by={norm(r['name']):r for r in status_rows if r.get('name')}
-    flags=set()
+    flags=set(); matched=set()
     for league in leagues:
         for p in league.get('players',[]):
             for f in ('injury_status','injury_detail','injury_estimated_return','injury_source','injury_source_url','injury_observed_at','injury_provider_updated_at'): p.pop(f,None)
             r=by.get(norm(p.get('name','')))
-            if not r or r.get('inj') in (None,'ACTIVE','NORMAL'): continue
+            if r: matched.add(norm(p.get('name','')))
+            if not r or r.get('inj') in (None,'ACTIVE','NORMAL'):
+                ss=p.get('sleeper_status')
+                if ss and ss not in ('ACTIVE',):
+                    sm={'Questionable':'Questionable','Doubtful':'Doubtful','Out':'Out','IR':'Injured Reserve','PUP':'PUP','Sus':'Suspended','NA':'Inactive'}
+                    p.update({'injury_status':sm.get(ss,str(ss)),'injury_detail':None,'injury_source':'Sleeper roster designation (no ESPN Fantasy designation - sources differ or player unmatched)','injury_source_url':p.get('source_url'),'injury_observed_at':ts,'injury_provider_updated_at':None})
+                    flags.add(p['name'])
+                continue
             pd=dt.datetime.fromtimestamp(r['lastNewsDate']/1000,dt.timezone.utc).strftime('%Y-%m-%d') if r.get('lastNewsDate') else None
             detail=r.get('detail') or None
             p.update({'injury_status':M.get(r['inj'],str(r['inj']).title()),'injury_detail':detail,'injury_source':'ESPN Fantasy player status'+(' · ESPN Fantasy news' if detail else ''),'injury_source_url':f"https://fantasy.espn.com/football/players/card?playerId={r['id']}",'injury_observed_at':ts,'injury_provider_updated_at':pd});flags.add(p['name'])
-    return len(flags)
+    return len(flags), len(matched), sum(len(l.get('players',[])) for l in leagues)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--espn',required=True);ap.add_argument('--injury-status',required=True,help='ESPN Fantasy status JSON: [{id,name,inj,lastNewsDate,detail}]');ap.add_argument('--output',default='fantasy.json');ap.add_argument('--previous',default='fantasy.json');a=ap.parse_args()
@@ -86,7 +93,7 @@ def main():
     leagues=espn['leagues']+sleeper
     rows=json.load(open(a.injury_status))
     if not isinstance(rows,list) or len(rows)<50 or not any(r.get('inj') for r in rows): raise SystemExit('ESPN Fantasy injury status invalid; preserving prior fantasy.json')
-    count=injury_pass(leagues,rows,ts)
-    out={'updated_at':ts,'refresh_note':'Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.','providers':[{'name':'ESPN','status':'ok','observed_at':espn.get('observed_at',ts)},{'name':'Sleeper','status':'ok','observed_at':ts}],'injury_check':{'status':'checked','checked_at':ts,'source':'ESPN Fantasy player injury status and player news (logged-in league data)','source_url':'https://fantasy.espn.com/football/','rostered_player_flags':count},'leagues':leagues}
+    count,matched,total=injury_pass(leagues,rows,ts)
+    out={'updated_at':ts,'refresh_note':'Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.','providers':[{'name':'ESPN','status':'ok','observed_at':espn.get('observed_at',ts)},{'name':'Sleeper','status':'ok','observed_at':ts}],'injury_check':{'status':'checked','checked_at':ts,'source':'ESPN Fantasy player injury status and player news (logged-in league data)','source_url':'https://fantasy.espn.com/football/','rostered_player_flags':count,'coverage':f'ESPN status matched {matched} of {total} rostered players by ESPN id or exact unique name; unmatched players carry no ESPN flag. Sleeper cards also carry Sleeper designations - where sources differ (e.g. a Sleeper Q with no ESPN designation), both labels are preserved with their sources.'},'leagues':leagues}
     write_atomic(a.output,out);print(f'wrote {a.output}: {len(leagues)} leagues, {count} unique injury flags')
 if __name__=='__main__':main()

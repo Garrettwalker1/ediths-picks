@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-10-25T02:52:00Z",
+ "updated_at": "2026-10-25T03:03:00Z",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8098,7 +8098,7 @@
      "market": "moneyline",
      "selection": "Wisconsin",
      "line": null,
-     "hit": null
+     "hit": true
     }
    ],
    "model_at_placement": {
@@ -8109,8 +8109,8 @@
    "grading": {
     "source": "Owner-confirmed FanDuel settled slip screenshot (sha256 712cd940039374c1276f9a53d1b0d9b309832b4a1ee3148d35edf195bfef72c9), iMessage phonemsg-01M5RCV2Y6JDDEK0W7ABAA4WB7",
     "graded_at": "2026-10-25T02:05:00Z",
-    "final_score": "Arizona State 28, Kansas State 17; Arkansas State 38, Georgia State 32 (ESPN finals); Wisconsin 24, USC 7 (ESPN 'End of 4th', Final mark pending)",
-    "detail": "Cashed out for exactly $7.94 on a $1.41 stake while Arkansas State (38-32, 4th) and Wisconsin (17-7, 4th) were live and ASU already won. Settled as cash-out, +$6.53 (+0.653u). Full potential was $13.26; whether the ticket would have won is unverified until the remaining two finals are confirmed - will be noted then, never counted in record. UPDATE 02:52Z: ASU and Arkansas State both won (ESPN finals); Wisconsin leads USC 24-7 at end of 4th, Final mark pending. If it holds, the cashed ticket would have paid $13.26 - hypothetical note only, settlement stays the $7.94 cash-out."
+    "final_score": "Arizona State 28, Kansas State 17; Arkansas State 38, Georgia State 32; Wisconsin 24, USC 7 (all ESPN finals, verified 2026-10-25T03:03Z)",
+    "detail": "Cashed out for exactly $7.94 on a $1.41 stake while Arkansas State (38-32, 4th) and Wisconsin (17-7, 4th) were live and ASU already won. Settled as cash-out, +$6.53 (+0.653u). FINAL UPDATE 03:03Z: all three legs won (ESPN finals), so the ticket would have paid $13.26 - hypothetical note only; settlement stays the $7.94 cash-out. Cash-out cost $5.32 vs full payout."
    },
    "cashout_executed_usd": 7.94
   },
@@ -8333,7 +8333,7 @@
    "grading": {
     "source": "Owner-provided FanDuel settled winning slip (sha256 8fa8e2755ba9ce910875929c97c9187e5ff9f454865d90753d644d5ac1b5ba94)",
     "graded_at": "2026-10-25T02:48:00Z",
-    "final_score": "Kansas 25, Baylor 24; Arizona State 28, Kansas State 17; Arkansas State 38, Georgia State 32; Wisconsin 24, USC 7 (ESPN 'End of 4th', Final mark pending - FanDuel already settled the ticket WON, receipt governs)",
+    "final_score": "Kansas 25, Baylor 24; Arizona State 28, Kansas State 17; Arkansas State 38, Georgia State 32; Wisconsin 24, USC 7 (all ESPN finals, verified 2026-10-25T03:03Z)",
     "detail": "All four model underdog ML legs won. Settled per receipt: +$223.56 (+22.356u). 30% profit boost contributed the difference between +1720 and +2235 pricing - a book promotion, not model performance."
    }
   }

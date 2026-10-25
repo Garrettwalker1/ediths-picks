@@ -1,0 +1,110 @@
+{
+ "kind": "nfl_sunday_td_prep",
+ "captured_at_ct": "2026-10-24 9:56-9:59 PM CT",
+ "book": "FanDuel",
+ "state": "Illinois (page footer verified)",
+ "tn_verified": false,
+ "capture_route": "props navigation page DOM (featured ATD prices, 3 per game). Event pages with full boards consistently tripped FanDuel's bot challenge tonight (3 fresh sessions, press-and-hold not cleared) - full boards not captured.",
+ "posted_games_with_atd": [
+  "PIT@NO (Sun 8:30 AM CT)",
+  "IND@MIN (Sun 12:01 PM CT)",
+  "CIN@BAL (Sun 12:01 PM CT)"
+ ],
+ "not_posted_yet": "NYG@HOU, GB@DET, MIA@NYJ, SF@ATL, TB@CAR, CLE@TEN (props page shell only), ARI@DEN, LA@LV, KC@SEA ATD markets not posted at capture",
+ "prices": [
+  {
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "price": -110,
+   "implied": 0.524,
+   "model": 0.367,
+   "gap": -0.157
+  },
+  {
+   "player": "Kendre Miller",
+   "team": "NO",
+   "price": 165,
+   "implied": 0.377,
+   "model": 0.239,
+   "gap": -0.138
+  },
+  {
+   "player": "DK Metcalf",
+   "team": "PIT",
+   "price": 170,
+   "implied": 0.37,
+   "model": 0.237,
+   "gap": -0.133
+  },
+  {
+   "player": "Jonathan Taylor",
+   "team": "IND",
+   "price": -120,
+   "implied": 0.545,
+   "model": 0.575,
+   "gap": 0.03
+  },
+  {
+   "player": "Aaron Jones",
+   "team": "MIN",
+   "price": 130,
+   "implied": 0.435,
+   "model": 0.271,
+   "gap": -0.164
+  },
+  {
+   "player": "Justin Jefferson",
+   "team": "MIN",
+   "price": 160,
+   "implied": 0.385,
+   "model": 0.249,
+   "gap": -0.136
+  },
+  {
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "price": -190,
+   "implied": 0.655,
+   "model": 0.619,
+   "gap": -0.036
+  },
+  {
+   "player": "Chase Brown",
+   "team": "CIN",
+   "price": -105,
+   "implied": 0.512,
+   "model": 0.425,
+   "gap": -0.087
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "team": "CIN",
+   "price": 110,
+   "implied": 0.476,
+   "model": 0.432,
+   "gap": -0.044
+  }
+ ],
+ "model": "Locked h=12/k=4 recency-weighted anytime-TD board (same spec as week7_anytime_td.json). Book % is raw implied with vig.",
+ "injury_overlay": {
+  "IR_excluded": [
+   "Davante Adams (LA) - IR, zeroed"
+  ],
+  "questionable": [
+   "Puka Nacua (LA) - Q, calf, DNP Friday"
+  ],
+  "bet_players_clean": "Likely, Freiermuth, Jefferson, Golden: no game designation in Oct 24 provider file"
+ },
+ "existing_exposure": "$50 already open on Sunday ATD: Likely +250, Freiermuth +250, Jefferson +165, Golden +150 (each $10) + $10 4-leg parlay +8015 on the same four. Freiermuth kicks 8:30 AM CT.",
+ "unpriced_top_model": [
+  "Jahmyr Gibbs 0.662",
+  "Derrick Henry 0.619",
+  "Christian McCaffrey 0.614",
+  "Jonathan Taylor 0.575",
+  "Jaxon Smith-Njigba 0.501",
+  "Kenneth Walker III 0.475",
+  "Kyren Williams 0.472",
+  "Christian Watson 0.471"
+ ],
+ "parlay_evaluation": "No parlay built tonight: only one priced name (Taylor) shows model above raw implied, boards incomplete, and forcing a +2000-style ticket against an unproven model is exactly the discipline failure the audit is meant to check. Re-evaluate at the 7:15 AM CT refresh when full boards post."
+}

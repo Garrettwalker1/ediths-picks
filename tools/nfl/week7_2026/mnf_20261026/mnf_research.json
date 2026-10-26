@@ -1,0 +1,137 @@
+{
+  "checked_at": "2026-10-26T22:21:51.071941+00:00",
+  "event_id": "401873009",
+  "kickoff": "2026-10-27T00:15:00Z",
+  "baseline": {
+    "margin_home": 4.78,
+    "total": 44.9,
+    "home_win_probability": 0.652,
+    "score_display": "PHI 25, DAL 20"
+  },
+  "existing_injury_experiment": {
+    "margin_home": 3.81,
+    "total": null,
+    "note": "Aggregate status/snap-weight residual, not McKee-vs-Hurts or teammate redistribution. Failed prior forward diagnostics; not promoted."
+  },
+  "lineup_aware_prediction": null,
+  "lineup_note": "Insufficient basis for a numerical QB/receiver adjustment; do not treat baseline or own-status TD rates as lineup-aware.",
+  "book": {
+    "provider": "DraftKings via ESPN",
+    "checked_at": "2026-10-26T22:21:51.071941+00:00",
+    "spread_home": 4.5,
+    "total": 43.5,
+    "not_verified_fanduel_or_tennessee": true
+  },
+  "research_parlay": {
+    "legs": [
+      "Dallas +7.5 alternate spread",
+      "Under 55.5 alternate total",
+      "Javonte Williams anytime TD"
+    ],
+    "price": null,
+    "availability_verified": false,
+    "combined_probability": null,
+    "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed."
+  },
+  "td_ranking": [
+    {
+      "player": "Javonte Williams",
+      "team": "DAL",
+      "baseline": 0.55,
+      "own_status_adjusted": 0.55,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "Dallas Goedert",
+      "team": "PHI",
+      "baseline": 0.422,
+      "own_status_adjusted": 0.422,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "CeeDee Lamb",
+      "team": "DAL",
+      "baseline": 0.318,
+      "own_status_adjusted": 0.318,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "Jake Ferguson",
+      "team": "DAL",
+      "baseline": 0.299,
+      "own_status_adjusted": 0.299,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "Saquon Barkley",
+      "team": "PHI",
+      "baseline": 0.295,
+      "own_status_adjusted": 0.295,
+      "status": "Questionable; conditional on active",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "Ryan Flournoy",
+      "team": "DAL",
+      "baseline": 0.253,
+      "own_status_adjusted": 0.253,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "Marquise Brown",
+      "team": "PHI",
+      "baseline": 0.233,
+      "own_status_adjusted": 0.233,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    },
+    {
+      "player": "George Pickens",
+      "team": "DAL",
+      "baseline": 0.218,
+      "own_status_adjusted": 0.218,
+      "status": "No captured own game designation; official inactives pending",
+      "lineup_adjusted_probability": null
+    }
+  ],
+  "status": {
+    "out": [
+      "Jalen Hurts (IR)",
+      "DeVonta Smith",
+      "Dontayvion Wicks",
+      "Nolan Smith",
+      "Michael Carter II",
+      "Jakorian Bennett (remains IR)",
+      "KaVontae Turpin",
+      "Dee Winters",
+      "Drew Shelton"
+    ],
+    "questionable": [
+      "Saquon Barkley",
+      "Jalyx Hunt",
+      "Jonathan Greenard"
+    ],
+    "activated": [
+      "Landon Dickerson",
+      "Grant Calcaterra",
+      "Eli Stowers"
+    ],
+    "confirmed_starter": "Tanner McKee",
+    "official_inactives": "Awaiting official game-day list"
+  },
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261026",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/dal/roster",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/phi/roster",
+    "https://www.philadelphiaeagles.com/news/cowboys-vs-eagles-injury-report-2026-nfl-week-7-saquon-barkley-jalyx-hunt",
+    "https://www.philadelphiaeagles.com/news/eagles-activate-grant-calcaterra-landon-dickerson-and-eli-stowers-from-injured-reserve",
+    "https://www.nfl.com/news/eagles-tanner-mckee-ready-to-make-the-most-of-starting-chance-jalen-hurts-sidelined",
+    "https://www.dallascowboys.com/news/big-picture-10-storylines-for-cowboys-eagles-x4004",
+    "https://www.inquirer.com/eagles/landon-dickerson-eli-stowers-grant-calcaterra-activated-week-7-cowboys-20261026.html"
+  ]
+}

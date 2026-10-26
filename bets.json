@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-25T22:24:35Z",
+  "updated_at": "2026-10-26T01:11:31Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -7946,10 +7946,10 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
-      "net_units": null,
-      "net_usd": null,
+      "status": "settled",
+      "result": "loss",
+      "net_units": -1.0,
+      "net_usd": -10.0,
       "source": "Owner iMessage phonemsg-01M5N59R5H0TRQKSHHYR978E4A, Oct 23 2:55 PM CT ('Add to the tracker'); all five receipts visually inspected. Cash-out buttons ($10.00 each) are offers, not executions. All five stakes cash; no bonus bets.",
       "bet_id": "us-tn:01m5n586vxescs9hdgjv2bp1er",
       "date": "2026-10-23T19:54:00Z",
@@ -7981,7 +7981,14 @@
         "model_version": "margin-Elo v1 baseline (frozen) + Week 7 anytime-TD model (recency-weighted TD rate through Week 6, locked h=12/k=4; research-only)",
         "note": "Model 22.8% vs +150 implied 40.0% (gap -17.2 pp). Week 7 injury report: limited practice, no game designation; IR/Out zeroing does not apply. Measurement, not a pick."
       },
-      "grading": null
+      "grading": {
+        "source": "Official final score + ESPN scoring summary (event 401873020)",
+        "graded_at": "2026-10-26T01:11:31Z",
+        "final_score": "Detroit 20, Green Bay 17 (final)",
+        "net_units": -1.0,
+        "net_usd": -10.0,
+        "source_note": "GB TDs: Tucker Kraft 14-yd, Josh Jacobs 25-yd (both from Love); DET TDs: Jameson Williams x2. Matthew Golden did not score."
+      }
     },
     {
       "sport": "NFL",
@@ -8496,14 +8503,14 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": null,
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 20.0,
       "stake_units": 2.0,
       "market": "parlay_anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": -2.0,
+      "net_usd": -20.0,
       "bet_id": "us-tn:01m5t9tx1dexgt8p7sfvaf76p1",
       "date": "2026-10-25T19:50:00Z",
       "placed_at": "2026-10-25T19:50:00Z",
@@ -8515,7 +8522,16 @@
       "potential_payout_usd": 98.43,
       "potential_profit_usd": 78.43,
       "price_note": "SGP+ combined headline +392; $20.00 stake, receipt total payout $98.43 (headline +392 implies $98.40 - 3-cent display difference preserved, receipt payout governs if it wins). Receipt sha256 0d11c749540b6a92... SGP view hides Gibbs/Watson per-leg prices - not fabricated. Leg reads vs locked h=12/k=4 board: Gibbs .662 model, Watson .471 model -> independent pair .3117 vs +191 implied .3436 (same-game correlation unknown); Kyren .472 model vs .5918 implied at -145 (-.1198). Combined model-independent joint .1472 (~+579 fair) vs +392 implied .2033 - SGP pricing embeds correlation and vig, raw-implied gap is descriptive only, not a proven edge; no bettability classification. Rewards 80 pts pending per receipt.",
-      "source": "Owner iMessage phonemsg-01M5T9WFMN4399CAM045SBN0JW, Oct 25 2:51 PM CT (2 slip images, no text); both slips visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out $20.00 button is an offer, not a transaction."
+      "source": "Owner iMessage phonemsg-01M5T9WFMN4399CAM045SBN0JW, Oct 25 2:51 PM CT (2 slip images, no text); both slips visually inspected. Duplicate check: this exact bet ID was not present in the ledger at insert. Cash-out $20.00 button is an offer, not a transaction.",
+      "grading": {
+        "source": "Official final scores + ESPN scoring summaries (events 401873020, 401873021)",
+        "graded_at": "2026-10-26T01:11:31Z",
+        "final_score": "Detroit 20, Green Bay 17; Los Angeles Rams 35, Las Vegas 21 (both final)",
+        "net_units": -2.0,
+        "net_usd": -20.0,
+        "source_note": "Ticket dead on the same-game pair: Gibbs no TD (DET TDs Jameson Williams x2), Watson no TD (GB TDs Kraft, Jacobs). Kyren Williams leg HIT (17-yd rush, LAR 35-21) but parlay requires all legs."
+      },
+      "leg_note": "Legs: Gibbs MISS, Watson MISS (GB@DET final), Kyren Williams HIT 17-yd rush (LAR@LV final). Ticket settled LOSS."
     },
     {
       "sport": "NFL",

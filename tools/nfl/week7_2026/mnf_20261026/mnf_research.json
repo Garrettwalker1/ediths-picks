@@ -13,8 +13,8 @@
     "total": null,
     "note": "Aggregate status/snap-weight residual, not McKee-vs-Hurts or teammate redistribution. Failed prior forward diagnostics; not promoted."
   },
-  "lineup_aware_prediction": null,
-  "lineup_note": "Insufficient basis for a numerical QB/receiver adjustment; do not treat baseline or own-status TD rates as lineup-aware.",
+  "lineup_aware_prediction": "QB-context plus current nonQB designation experimental forecast",
+  "lineup_note": "QB impact estimated from shrunk prior-game EPA versus team recent QB mix; sparse McKee sample, long-term IR and teammate TD redistribution remain gaps.",
   "book": {
     "provider": "DraftKings via ESPN",
     "checked_at": "2026-10-26T22:21:51.071941+00:00",
@@ -133,5 +133,15 @@
     "https://www.nfl.com/news/eagles-tanner-mckee-ready-to-make-the-most-of-starting-chance-jalen-hurts-sidelined",
     "https://www.dallascowboys.com/news/big-picture-10-storylines-for-cowboys-eagles-x4004",
     "https://www.inquirer.com/eagles/landon-dickerson-eli-stowers-grant-calcaterra-activated-week-7-cowboys-20261026.html"
-  ]
+  ],
+  "current_experimental_forecast": {
+    "margin_home": 1.4468209040595017,
+    "total": 45.199273146199005,
+    "score_display": "PHI 23, DAL 22",
+    "home_win_probability": null,
+    "promoted": false,
+    "qb_context_delta": -0.2969846479169339,
+    "nonqb_designation_delta": -3.0393195805625974,
+    "note": "New version, not proven more accurate. Historical baseline preserved. Pending official inactives."
+  }
 }

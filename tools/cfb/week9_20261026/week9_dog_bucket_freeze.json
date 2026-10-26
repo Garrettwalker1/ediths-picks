@@ -1,0 +1,566 @@
+{
+  "sealed_at": "2026-10-26T02:33:31.970078+00:00",
+  "rule": "bucket hit when model pick equals the selection-time book underdog; derivation-only until prospective grading; closing lines captured later",
+  "games": [
+    {
+      "event_id": "401871071",
+      "name": "Delaware Blue Hens at Western Kentucky Hilltoppers",
+      "date": "2026-10-27T23:00Z",
+      "model_pick": "Western Kentucky Hilltoppers",
+      "model_margin_home": 16.200833228308,
+      "book_home_line": 1.5,
+      "book_underdog": "Western Kentucky Hilltoppers",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401871072",
+      "name": "Sam Houston Bearkats at Missouri State Bears",
+      "date": "2026-10-28T00:00Z",
+      "model_pick": "Missouri State Bears",
+      "model_margin_home": 7.67084867106921,
+      "book_home_line": -6.5,
+      "book_underdog": "Sam Houston Bearkats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871058",
+      "name": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
+      "date": "2026-10-28T23:00Z",
+      "model_pick": "Middle Tennessee Blue Raiders",
+      "model_margin_home": 1.5081739706163866,
+      "book_home_line": -3.0,
+      "book_underdog": "Kennesaw State Owls",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871057",
+      "name": "Jacksonville State Gamecocks at New Mexico State Aggies",
+      "date": "2026-10-29T00:00Z",
+      "model_pick": "Jacksonville State Gamecocks",
+      "model_margin_home": -3.827073358426807,
+      "book_home_line": 3.0,
+      "book_underdog": "New Mexico State Aggies",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862812",
+      "name": "Florida Atlantic Owls at North Texas Mean Green",
+      "date": "2026-10-29T23:30Z",
+      "model_pick": "North Texas Mean Green",
+      "model_margin_home": 9.86458401599414,
+      "book_home_line": -13.5,
+      "book_underdog": "Florida Atlantic Owls",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401869963",
+      "name": "Troy Trojans at James Madison Dukes",
+      "date": "2026-10-29T23:30Z",
+      "model_pick": "James Madison Dukes",
+      "model_margin_home": 8.020512699280959,
+      "book_home_line": -20.5,
+      "book_underdog": "Troy Trojans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862813",
+      "name": "Tulane Green Wave at Charlotte 49ers",
+      "date": "2026-10-30T23:00Z",
+      "model_pick": "Tulane Green Wave",
+      "model_margin_home": -6.414410990855805,
+      "book_home_line": 10.0,
+      "book_underdog": "Charlotte 49ers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856844",
+      "name": "Baylor Bears at UCF Knights",
+      "date": "2026-10-30T23:30Z",
+      "model_pick": "UCF Knights",
+      "model_margin_home": 0.13414131148788133,
+      "book_home_line": 1.5,
+      "book_underdog": "UCF Knights",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401866451",
+      "name": "Kent State Golden Flashes at Sacramento State Hornets",
+      "date": "2026-10-31T02:30Z",
+      "model_pick": "Kent State Golden Flashes",
+      "model_margin_home": -3.0711287841143466,
+      "book_home_line": 10.5,
+      "book_underdog": "Sacramento State Hornets",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401859185",
+      "name": "Notre Dame Fighting Irish at Navy Midshipmen",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Notre Dame Fighting Irish",
+      "model_margin_home": -28.48716406571706,
+      "book_home_line": 29.5,
+      "book_underdog": "Navy Midshipmen",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856842",
+      "name": "Arizona Wildcats at Texas Tech Red Raiders",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Texas Tech Red Raiders",
+      "model_margin_home": 8.751334385646754,
+      "book_home_line": -3.5,
+      "book_underdog": "Arizona Wildcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858278",
+      "name": "SMU Mustangs at Syracuse Orange",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "SMU Mustangs",
+      "model_margin_home": -6.9712864939589565,
+      "book_home_line": 9.5,
+      "book_underdog": "Syracuse Orange",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858502",
+      "name": "Wisconsin Badgers at Iowa Hawkeyes",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Wisconsin Badgers",
+      "model_margin_home": -3.822726028945045,
+      "book_home_line": -3.5,
+      "book_underdog": "Wisconsin Badgers",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401858277",
+      "name": "California Golden Bears at NC State Wolfpack",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "NC State Wolfpack",
+      "model_margin_home": 11.145828502256606,
+      "book_home_line": -8.5,
+      "book_underdog": "California Golden Bears",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858279",
+      "name": "Boston College Eagles at Duke Blue Devils",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Duke Blue Devils",
+      "model_margin_home": 11.43982975980147,
+      "book_home_line": -7.5,
+      "book_underdog": "Boston College Eagles",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858503",
+      "name": "Illinois Fighting Illini at Maryland Terrapins",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Illinois Fighting Illini",
+      "model_margin_home": -8.574809479176762,
+      "book_home_line": 2.5,
+      "book_underdog": "Maryland Terrapins",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862816",
+      "name": "UAB Blazers at South Florida Bulls",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "South Florida Bulls",
+      "model_margin_home": 8.52975684159127,
+      "book_home_line": -7.5,
+      "book_underdog": "UAB Blazers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401866452",
+      "name": "Bowling Green Falcons at Western Michigan Broncos",
+      "date": "2026-10-31T16:00Z",
+      "model_pick": "Western Michigan Broncos",
+      "model_margin_home": 9.77842286340649,
+      "book_home_line": -14.0,
+      "book_underdog": "Bowling Green Falcons",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858507",
+      "name": "Michigan Wolverines at Rutgers Scarlet Knights",
+      "date": "2026-10-31T16:30Z",
+      "model_pick": "Michigan Wolverines",
+      "model_margin_home": -1.3211925597613572,
+      "book_home_line": 14.0,
+      "book_underdog": "Rutgers Scarlet Knights",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856735",
+      "name": "Auburn Tigers at Ole Miss Rebels",
+      "date": "2026-10-31T16:45Z",
+      "model_pick": "Ole Miss Rebels",
+      "model_margin_home": 10.060485080747142,
+      "book_home_line": -13.5,
+      "book_underdog": "Auburn Tigers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871096",
+      "name": "Marshall Thundering Herd at Old Dominion Monarchs",
+      "date": "2026-10-31T17:00Z",
+      "model_pick": "Marshall Thundering Herd",
+      "model_margin_home": -3.378463778954737,
+      "book_home_line": 3.0,
+      "book_underdog": "Old Dominion Monarchs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856846",
+      "name": "Kansas State Wildcats at Colorado Buffaloes",
+      "date": "2026-10-31T18:00Z",
+      "model_pick": "Kansas State Wildcats",
+      "model_margin_home": -0.8174630783677008,
+      "book_home_line": 2.5,
+      "book_underdog": "Colorado Buffaloes",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401869944",
+      "name": "Coastal Carolina Chanticleers at Georgia State Panthers",
+      "date": "2026-10-31T18:00Z",
+      "model_pick": "Georgia State Panthers",
+      "model_margin_home": 10.972744025210998,
+      "book_home_line": -6.5,
+      "book_underdog": "Coastal Carolina Chanticleers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401861966",
+      "name": "UConn Huskies at Air Force Falcons",
+      "date": "2026-10-31T19:00Z",
+      "model_pick": "UConn Huskies",
+      "model_margin_home": -3.1427639725390257,
+      "book_home_line": -3.0,
+      "book_underdog": "UConn Huskies",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401862815",
+      "name": "Temple Owls at East Carolina Pirates",
+      "date": "2026-10-31T19:00Z",
+      "model_pick": "East Carolina Pirates",
+      "model_margin_home": 8.132069932451513,
+      "book_home_line": -5.5,
+      "book_underdog": "Temple Owls",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871097",
+      "name": "Louisiana Tech Bulldogs at South Alabama Jaguars",
+      "date": "2026-10-31T19:00Z",
+      "model_pick": "Louisiana Tech Bulldogs",
+      "model_margin_home": -2.1185155722697875,
+      "book_home_line": 5.5,
+      "book_underdog": "South Alabama Jaguars",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858283",
+      "name": "Stanford Cardinal at Louisville Cardinals",
+      "date": "2026-10-31T19:15Z",
+      "model_pick": "Louisville Cardinals",
+      "model_margin_home": 22.76130667668937,
+      "book_home_line": -22.5,
+      "book_underdog": "Stanford Cardinal",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856734",
+      "name": "Florida Gators at Georgia Bulldogs",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Georgia Bulldogs",
+      "model_margin_home": 13.036302714969574,
+      "book_home_line": -10.5,
+      "book_underdog": "Florida Gators",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858501",
+      "name": "Minnesota Golden Gophers at Indiana Hoosiers",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Indiana Hoosiers",
+      "model_margin_home": 17.279766449963702,
+      "book_home_line": -19.5,
+      "book_underdog": "Minnesota Golden Gophers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856843",
+      "name": "Arizona State Sun Devils at BYU Cougars",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "BYU Cougars",
+      "model_margin_home": 9.182305299137495,
+      "book_home_line": -15.5,
+      "book_underdog": "Arizona State Sun Devils",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858505",
+      "name": "Northwestern Wildcats at Oregon Ducks",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Oregon Ducks",
+      "model_margin_home": 5.520630059143441,
+      "book_home_line": -3.5,
+      "book_underdog": "Northwestern Wildcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856845",
+      "name": "Kansas Jayhawks at TCU Horned Frogs",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Kansas Jayhawks",
+      "model_margin_home": -2.0560719202634097,
+      "book_home_line": -5.5,
+      "book_underdog": "Kansas Jayhawks",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401860910",
+      "name": "Colorado State Rams at Utah State Aggies",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Utah State Aggies",
+      "model_margin_home": 13.548335688807894,
+      "book_home_line": -6.0,
+      "book_underdog": "Colorado State Rams",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864531",
+      "name": "UTEP Miners at North Dakota State Bison",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "North Dakota State Bison",
+      "model_margin_home": 21.730223161325686,
+      "book_home_line": -25.5,
+      "book_underdog": "UTEP Miners",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871059",
+      "name": "Florida International Panthers at Liberty Flames",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Liberty Flames",
+      "model_margin_home": 12.994197547174789,
+      "book_home_line": -14.0,
+      "book_underdog": "Florida International Panthers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871095",
+      "name": "Southern Miss Golden Eagles at UL Monroe Warhawks",
+      "date": "2026-10-31T19:30Z",
+      "model_pick": "Southern Miss Golden Eagles",
+      "model_margin_home": -0.48818853108283555,
+      "book_home_line": 3.0,
+      "book_underdog": "UL Monroe Warhawks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856848",
+      "name": "Utah Utes at Cincinnati Bearcats",
+      "date": "2026-10-31T19:45Z",
+      "model_pick": "Utah Utes",
+      "model_margin_home": -8.190305183149475,
+      "book_home_line": 6.5,
+      "book_underdog": "Cincinnati Bearcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858284",
+      "name": "Virginia Cavaliers at Wake Forest Demon Deacons",
+      "date": "2026-10-31T19:45Z",
+      "model_pick": "Wake Forest Demon Deacons",
+      "model_margin_home": 17.631876275047897,
+      "book_home_line": -14.0,
+      "book_underdog": "Virginia Cavaliers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864529",
+      "name": "New Mexico Lobos at San Jos\u00e9 State Spartans",
+      "date": "2026-10-31T20:00Z",
+      "model_pick": "New Mexico Lobos",
+      "model_margin_home": -11.69081409001036,
+      "book_home_line": 14.5,
+      "book_underdog": "San Jos\u00e9 State Spartans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858508",
+      "name": "Nevada Wolf Pack at UCLA Bruins",
+      "date": "2026-10-31T20:15Z",
+      "model_pick": "UCLA Bruins",
+      "model_margin_home": 13.667107717554918,
+      "book_home_line": -22.5,
+      "book_underdog": "Nevada Wolf Pack",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856736",
+      "name": "South Carolina Gamecocks at Oklahoma Sooners",
+      "date": "2026-10-31T20:15Z",
+      "model_pick": "Oklahoma Sooners",
+      "model_margin_home": 4.219571705405658,
+      "book_home_line": -4.5,
+      "book_underdog": "South Carolina Gamecocks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858506",
+      "name": "Purdue Boilermakers at Penn State Nittany Lions",
+      "date": "2026-10-31T20:15Z",
+      "model_pick": "Penn State Nittany Lions",
+      "model_margin_home": 5.6928766273415325,
+      "book_home_line": -7.5,
+      "book_underdog": "Purdue Boilermakers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401869846",
+      "name": "App State Mountaineers at Georgia Southern Eagles",
+      "date": "2026-10-31T22:30Z",
+      "model_pick": "Georgia Southern Eagles",
+      "model_margin_home": 4.352148438817187,
+      "book_home_line": -4.5,
+      "book_underdog": "App State Mountaineers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856847",
+      "name": "Oklahoma State Cowboys at Iowa State Cyclones",
+      "date": "2026-10-31T23:00Z",
+      "model_pick": "Oklahoma State Cowboys",
+      "model_margin_home": -6.9949743872288455,
+      "book_home_line": 10.0,
+      "book_underdog": "Iowa State Cyclones",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858280",
+      "name": "Clemson Tigers at Florida State Seminoles",
+      "date": "2026-10-31T23:00Z",
+      "model_pick": "Florida State Seminoles",
+      "model_margin_home": 2.157538397022755,
+      "book_home_line": -6.0,
+      "book_underdog": "Clemson Tigers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860909",
+      "name": "Washington State Cougars at San Diego State Aztecs",
+      "date": "2026-10-31T23:00Z",
+      "model_pick": "San Diego State Aztecs",
+      "model_margin_home": 9.606600783465336,
+      "book_home_line": -3.0,
+      "book_underdog": "Washington State Cougars",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858282",
+      "name": "Miami Hurricanes at North Carolina Tar Heels",
+      "date": "2026-10-31T23:30Z",
+      "model_pick": "Miami Hurricanes",
+      "model_margin_home": -22.642522497035213,
+      "book_home_line": 14.5,
+      "book_underdog": "North Carolina Tar Heels",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858509",
+      "name": "Ohio State Buckeyes at USC Trojans",
+      "date": "2026-10-31T23:30Z",
+      "model_pick": "Ohio State Buckeyes",
+      "model_margin_home": -11.012512033559176,
+      "book_home_line": 7.0,
+      "book_underdog": "USC Trojans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856737",
+      "name": "Mississippi State Bulldogs at Texas Longhorns",
+      "date": "2026-10-31T23:30Z",
+      "model_pick": "Texas Longhorns",
+      "model_margin_home": 16.973132919613377,
+      "book_home_line": -20.5,
+      "book_underdog": "Mississippi State Bulldogs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858281",
+      "name": "Georgia Tech Yellow Jackets at Pittsburgh Panthers",
+      "date": "2026-10-31T23:30Z",
+      "model_pick": "Pittsburgh Panthers",
+      "model_margin_home": 1.2240995239970411,
+      "book_home_line": -7.5,
+      "book_underdog": "Georgia Tech Yellow Jackets",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856733",
+      "name": "Missouri Tigers at Arkansas Razorbacks",
+      "date": "2026-10-31T23:45Z",
+      "model_pick": "Missouri Tigers",
+      "model_margin_home": -3.160403312158495,
+      "book_home_line": 10.0,
+      "book_underdog": "Arkansas Razorbacks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858504",
+      "name": "Washington Huskies at Nebraska Cornhuskers",
+      "date": "2026-11-01T00:00Z",
+      "model_pick": "Nebraska Cornhuskers",
+      "model_margin_home": 10.628226090066885,
+      "book_home_line": -8.5,
+      "book_underdog": "Washington Huskies",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862814",
+      "name": "Army Black Knights at Memphis Tigers",
+      "date": "2026-11-01T00:00Z",
+      "model_pick": "Memphis Tigers",
+      "model_margin_home": 8.672684388854499,
+      "book_home_line": -6.5,
+      "book_underdog": "Army Black Knights",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860908",
+      "name": "Texas State Bobcats at Boise State Broncos",
+      "date": "2026-11-01T02:00Z",
+      "model_pick": "Boise State Broncos",
+      "model_margin_home": 1.0756273240643495,
+      "book_home_line": -11.5,
+      "book_underdog": "Texas State Bobcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864530",
+      "name": "Northern Illinois Huskies at UNLV Rebels",
+      "date": "2026-11-01T02:30Z",
+      "model_pick": "UNLV Rebels",
+      "model_margin_home": 20.93840001277639,
+      "book_home_line": -24.5,
+      "book_underdog": "Northern Illinois Huskies",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860924",
+      "name": "Oregon State Beavers at Fresno State Bulldogs",
+      "date": "2026-11-01T03:00Z",
+      "model_pick": "Oregon State Beavers",
+      "model_margin_home": -1.6010128696194537,
+      "book_home_line": 6.5,
+      "book_underdog": "Fresno State Bulldogs",
+      "dog_bucket": false
+    }
+  ]
+}

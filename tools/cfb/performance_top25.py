@@ -32,7 +32,8 @@ H2H_THRESHOLD = 1.5  # rating points; head-to-head applies only inside this near
 
 # Merged current boxstore: originals, then Oct16 replacements, then latest refresh.
 by = {}
-for folder in ['tools/cfb/boxscores', 'tools/cfb/current_inputs_20261016/boxscores', str(WEEK_DIR.relative_to(R) / 'boxscores')]:
+folders = ['tools/cfb/boxscores', 'tools/cfb/current_inputs_20261016/boxscores'] + sorted(str(d.relative_to(R)) for d in (R / 'tools/cfb').glob('week*_20*/boxscores'))
+for folder in folders:
     for f in (R / folder).glob('*.json'):
         d = json.load(open(f)); by[str(d['header']['id'])] = f
 
@@ -86,7 +87,8 @@ walk(stand)
 played = pd.concat([g[['home']].rename(columns={'home': 't'}), g[['away']].rename(columns={'away': 't'})]).value_counts('t')
 
 # AP poll comparison (Week 8, Oct 18).
-ap = next(p for p in json.load(open(R / 'tools/model_cfb_v2/ap_poll/ap-2026-week8.json'))['rankings'] if p.get('type') == 'ap')
+_apfiles = sorted((R / 'tools/model_cfb_v2/ap_poll').glob('ap-2026-week*.json'), key=lambda f: int(f.stem.split('week')[1]))
+ap = next(p for p in json.load(open(_apfiles[-1]))['rankings'] if p.get('type') == 'ap')
 apr = {r['team']['location'] + ' ' + r['team']['name']: r['current'] for r in ap['ranks']}
 
 # FBS membership frozen; sealed reference + AP research fit from the archived snapshot.

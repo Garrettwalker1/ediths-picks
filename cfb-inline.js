@@ -97,3 +97,25 @@ async function loadCfbWeek8(){
  }catch(e){host.textContent='Week 8 board failed to load: '+e.message;}
 }
 loadCfbWeek8();
+
+async function loadCfbWeek9(){
+ const host=document.getElementById('cfbWeek9');if(!host)return;
+ try{
+  const base='tools/cfb/week9_20261026/';const d=await fetch(base+'week9_sealed_research.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+  const half=x=>{const n=Math.round(Math.abs(x)*2)/2;return n.toFixed(n%1?1:0);};
+  const line=(g,x)=>Math.abs(x)<0.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
+  host.textContent='';const note=document.createElement('p');note.className='muted';const p=d.protocol;
+  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 8 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. No injury or weather adjustments or totals.';host.appendChild(note);
+  let day='';d.games.forEach(g=>{
+   const dt=new Date(g.date),k=dt.toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric',timeZone:'America/Chicago'});
+   if(k!==day){day=k;const h=document.createElement('h3');h.textContent=k;host.appendChild(h);}
+   const m=g.predicted_margin_home,det=document.createElement('details');det.className='game';
+   const s=document.createElement('summary');s.textContent=g.away+' at '+g.home+' - Model '+line(g,m['2026_no_ap'])+(g.book&&g.book.home_line!=null?' · Book '+line(g,-g.book.home_line):'')+' ('+dt.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT)';det.appendChild(s);
+   const t=document.createElement('p');t.className='muted';t.textContent='Reference no-AP home margin '+m['2026_no_ap'].toFixed(3)+'. AP research '+m['2026_ap'].toFixed(3)+'. Historical-only fits: no-AP '+m.historical_no_ap.toFixed(3)+', AP '+m.historical_ap.toFixed(3)+'. Positive favors home'+(g.neutral_site?' (neutral site)':'')+'.';det.appendChild(t);
+   if(g.book){const b=document.createElement('p');b.className='muted';b.textContent='Book reference frozen '+new Date(g.book.captured_at).toLocaleString()+': '+(g.book.home_line!=null?line(g,-g.book.home_line):'no spread')+(g.book.over_under!=null?', total '+g.book.over_under:'')+' ('+(g.book.provider||'provider unknown')+' via ESPN pregame). Comparison only - the book number is not a model input and not a recommendation.';det.appendChild(b);}
+   host.appendChild(det);});
+  const a=document.createElement('a');a.href=base+'week9_sealed_research.json';a.textContent='Sealed Week 9 file';a.target='_blank';a.rel='noopener noreferrer';host.appendChild(a);
+  const a2=document.createElement('a');a2.href=base+'week9_dog_bucket_freeze.json';a2.textContent='Selection-time book reference and dog-bucket freeze (research)';a2.target='_blank';a2.rel='noopener noreferrer';host.appendChild(a2);
+ }catch(e){host.textContent='Week 9 board failed to load: '+e.message;}
+}
+loadCfbWeek9();

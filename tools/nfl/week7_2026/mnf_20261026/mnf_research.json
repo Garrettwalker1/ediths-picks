@@ -24,14 +24,16 @@
   },
   "research_parlay": {
     "legs": [
-      "Dallas +7.5 alternate spread",
+      "Philadelphia +7.5 alternate spread",
       "Under 55.5 alternate total",
       "Javonte Williams anytime TD"
     ],
     "price": null,
     "availability_verified": false,
     "combined_probability": null,
-    "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed."
+    "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed.",
+    "rebuilt_at": "2026-10-26T22:30:53.806928+00:00",
+    "reason": "PHI +7.5 aligns with the current PHI-by1.447 experiment, rather than preserving the old Dallas hedge. Under55.5 stays above45.199 exploratory total. Javonte remains top roster-verified TD baseline. Experimental model versus book disagreement is not an edge. Reassess if Barkley OUT."
   },
   "td_ranking": [
     {
@@ -143,5 +145,16 @@
     "qb_context_delta": -0.2969846479169339,
     "nonqb_designation_delta": -3.0393195805625974,
     "note": "New version, not proven more accurate. Historical baseline preserved. Pending official inactives."
+  },
+  "previous_research_parlay": {
+    "legs": [
+      "Dallas +7.5 alternate spread",
+      "Under 55.5 alternate total",
+      "Javonte Williams anytime TD"
+    ],
+    "price": null,
+    "availability_verified": false,
+    "combined_probability": null,
+    "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed."
   }
 }

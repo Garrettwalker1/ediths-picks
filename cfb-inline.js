@@ -102,20 +102,39 @@ async function loadCfbWeek9(){
  const host=document.getElementById('cfbWeek9');if(!host)return;
  try{
   const base='tools/cfb/week9_20261026/';const d=await fetch(base+'week9_sealed_research.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+  const wx=await fetch(base+'week9_weather_overlay.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null);
+  const wxmap={};if(wx)wx.games.forEach(w=>wxmap[w.event_id]=w);
   const half=x=>{const n=Math.round(Math.abs(x)*2)/2;return n.toFixed(n%1?1:0);};
   const line=(g,x)=>Math.abs(x)<0.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
+  const wxWatch=w=>w&&!w.venue.indoor&&(Math.abs(w.weather_delta_home_raw)>=1||w.window.rain_inches>=0.1||w.window.wind_max_mph>=15);
   host.textContent='';const note=document.createElement('p');note.className='muted';const p=d.protocol;
-  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 8 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. No injury or weather adjustments or totals.';host.appendChild(note);
+  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 8 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. WX UNPROVEN rows add a failed-validation weather candidate on top of the sealed baseline - exploratory, not a bet signal; the sealed baseline is unchanged.';host.appendChild(note);
+  const bar=document.createElement('div');bar.className='cfb-filter';
+  const bAll=document.createElement('button');bAll.textContent='All games';bAll.className='active';
+  const bWx=document.createElement('button');bWx.textContent='Weather watch';
+  bar.append(bAll,bWx);host.appendChild(bar);
+  const listWrap=document.createElement('div');host.appendChild(listWrap);
+  const cards=[];
   let day='';d.games.forEach(g=>{
    const dt=new Date(g.date),k=dt.toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric',timeZone:'America/Chicago'});
-   if(k!==day){day=k;const h=document.createElement('h3');h.textContent=k;host.appendChild(h);}
-   const m=g.predicted_margin_home,det=document.createElement('details');det.className='game';
+   if(k!==day){day=k;const h=document.createElement('h3');h.textContent=k;h.dataset.dayhead='1';listWrap.appendChild(h);cards.push(h);}
+   const m=g.predicted_margin_home,det=document.createElement('details');det.className='game';const w=wxmap[g.event_id];
+   det.dataset.wxwatch=String(!!wxWatch(w));
    const s=document.createElement('summary');s.textContent=g.away+' at '+g.home+' - Model '+line(g,m['2026_no_ap'])+(g.book&&g.book.home_line!=null?' · Book '+line(g,-g.book.home_line):'')+' ('+dt.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT)';det.appendChild(s);
    const t=document.createElement('p');t.className='muted';t.textContent='Reference no-AP home margin '+m['2026_no_ap'].toFixed(3)+'. AP research '+m['2026_ap'].toFixed(3)+'. Historical-only fits: no-AP '+m.historical_no_ap.toFixed(3)+', AP '+m.historical_ap.toFixed(3)+'. Positive favors home'+(g.neutral_site?' (neutral site)':'')+'.';det.appendChild(t);
    if(g.book){const b=document.createElement('p');b.className='muted';b.textContent='Book reference frozen '+new Date(g.book.captured_at).toLocaleString()+': '+(g.book.home_line!=null?line(g,-g.book.home_line):'no spread')+(g.book.over_under!=null?', total '+g.book.over_under:'')+' ('+(g.book.provider||'provider unknown')+' via ESPN pregame). Comparison only - the book number is not a model input and not a recommendation.';det.appendChild(b);}
-   host.appendChild(det);});
+   if(w){
+    const wxp=document.createElement('p');wxp.className='muted';
+    wxp.textContent='WX UNPROVEN: '+line(g,w.weather_margin_home_raw)+' (sealed baseline '+(w.weather_delta_home_raw>=0?'+':'')+w.weather_delta_home_raw.toFixed(3)+' home margin). '+(w.venue.indoor?'Indoor venue - no outdoor weather delta.':w.venue.fullName+', '+w.location.name+', '+w.location.admin1+' city forecast, not stadium microclimate. Kickoff '+w.temperature_f+' F, wind '+w.wind_mph_kickoff+' mph; 5-hour window rain max '+w.window.rain_chance_max+'%, accumulated '+w.window.rain_inches.toFixed(2)+' in, sustained wind max '+w.window.wind_max_mph+' mph, gust '+w.window.gust_max_mph+' mph.')+' Forecast snapshot '+new Date(wx.built_at).toLocaleString()+' (Open-Meteo). Failed 2024 validation; 2025 inconclusive - exploratory, not a bet signal. Baseline unchanged.';
+    det.appendChild(wxp);
+   }
+   listWrap.appendChild(det);cards.push(det);});
+  function applyFilter(mode){let lastHead=null;cards.forEach(el=>{if(el.dataset.dayhead){lastHead=el;el.hidden=false;return;}const show=mode==='all'||el.dataset.wxwatch==='true';el.hidden=!show;if(show&&lastHead)lastHead._has=true;});let head=null,any=false;cards.forEach(el=>{if(el.dataset.dayhead){if(head)head.hidden=!any;head=el;any=false;}else if(!el.hidden)any=true;});if(head)head.hidden=!any;}
+  bAll.onclick=()=>{bAll.classList.add('active');bWx.classList.remove('active');applyFilter('all');};
+  bWx.onclick=()=>{bWx.classList.add('active');bAll.classList.remove('active');applyFilter('wx');};
   const a=document.createElement('a');a.href=base+'week9_sealed_research.json';a.textContent='Sealed Week 9 file';a.target='_blank';a.rel='noopener noreferrer';host.appendChild(a);
   const a2=document.createElement('a');a2.href=base+'week9_dog_bucket_freeze.json';a2.textContent='Selection-time book reference and dog-bucket freeze (research)';a2.target='_blank';a2.rel='noopener noreferrer';host.appendChild(a2);
+  const a3=document.createElement('a');a3.href=base+'week9_weather_overlay.json';a3.textContent='WX UNPROVEN overlay data (snapshot '+ (wx?new Date(wx.built_at).toLocaleString():'unavailable') +')';a3.target='_blank';a3.rel='noopener noreferrer';host.appendChild(a3);
  }catch(e){host.textContent='Week 9 board failed to load: '+e.message;}
 }
 loadCfbWeek9();

@@ -41,7 +41,7 @@ for a in inv:
  f=teamfeat.setdefault(a['team'],{});w=a.get('snap_weight') or 0;gr=a['position_group'];st=a['status'];practice=a['practice']
  if a['player'] in ['Dallas Goedert','Saquon Barkley','Marquise Brown']:practice='Full Participation in Practice'
  if a['player'] in ['DeVonta Smith','Dontayvion Wicks','Nolan Smith','Michael Carter II','KaVontae Turpin','Dee Winters','Drew Shelton']:st='Out'
- if a['player'] in ['Saquon Barkley','Jalyx Hunt','Jonathan Greenard']:st='Questionable'
+ if a['player'] in ['Saquon Barkley','Jalyx Hunt','Jonathan Greenard']:st='Active' # Official Eagles inactives Oct26 6:45PM ET; practice flags preserved
  for typ,flag in [('absent',st in ['IR','Out','Doubtful']),('question',st=='Questionable'),('practice',practice=='Did Not Participate In Practice')]:f[gr+'_'+typ]=f.get(gr+'_'+typ,0)+w*flag
 cur=g[g.game_id=='2026_07_DAL_PHI'].iloc[0].copy()
 # Set externally verified starter explicitly, using strictly prior-game stats.

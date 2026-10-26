@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T22:21:51.071941+00:00",
+  "checked_at": "2026-10-26T22:50:43.679125+00:00",
   "event_id": "401873009",
   "kickoff": "2026-10-27T00:15:00Z",
   "baseline": {
@@ -33,7 +33,7 @@
     "combined_probability": null,
     "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed.",
     "rebuilt_at": "2026-10-26T22:30:53.806928+00:00",
-    "reason": "PHI +7.5 aligns with the current PHI-by1.447 experiment, rather than preserving the old Dallas hedge. Under55.5 stays above45.199 exploratory total. Javonte remains top roster-verified TD baseline. Experimental model versus book disagreement is not an edge. Reassess if Barkley OUT."
+    "reason": "Official active update moves experiment to PHI1.7667,total45.5557; PHI+7.5/U55.5/JavonteATD construction unchanged. Owner placed exact50%boost+384/$10 receiptreturn48.41, separately logged. No joint probability."
   },
   "td_ranking": [
     {
@@ -41,7 +41,7 @@
       "team": "DAL",
       "baseline": 0.55,
       "own_status_adjusted": 0.55,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "No captured own designation; cited DAL injury OUTs checked, no full DAL list captured",
       "lineup_adjusted_probability": null
     },
     {
@@ -49,7 +49,7 @@
       "team": "PHI",
       "baseline": 0.422,
       "own_status_adjusted": 0.422,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "Not on official PHI inactive list; role/QB redistribution unmodeled",
       "lineup_adjusted_probability": null
     },
     {
@@ -57,7 +57,7 @@
       "team": "DAL",
       "baseline": 0.318,
       "own_status_adjusted": 0.318,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "No captured own designation; cited DAL injury OUTs checked, no full DAL list captured",
       "lineup_adjusted_probability": null
     },
     {
@@ -65,7 +65,7 @@
       "team": "DAL",
       "baseline": 0.299,
       "own_status_adjusted": 0.299,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "No captured own designation; cited DAL injury OUTs checked, no full DAL list captured",
       "lineup_adjusted_probability": null
     },
     {
@@ -73,7 +73,7 @@
       "team": "PHI",
       "baseline": 0.295,
       "own_status_adjusted": 0.295,
-      "status": "Questionable; conditional on active",
+      "status": "Officially active; workload uncertainty, no role-adjustment model",
       "lineup_adjusted_probability": null
     },
     {
@@ -81,7 +81,7 @@
       "team": "DAL",
       "baseline": 0.253,
       "own_status_adjusted": 0.253,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "No captured own designation; cited DAL injury OUTs checked, no full DAL list captured",
       "lineup_adjusted_probability": null
     },
     {
@@ -89,7 +89,7 @@
       "team": "PHI",
       "baseline": 0.233,
       "own_status_adjusted": 0.233,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "Not on official PHI inactive list; role/QB redistribution unmodeled",
       "lineup_adjusted_probability": null
     },
     {
@@ -97,7 +97,7 @@
       "team": "DAL",
       "baseline": 0.218,
       "own_status_adjusted": 0.218,
-      "status": "No captured own game designation; official inactives pending",
+      "status": "No captured own designation; cited DAL injury OUTs checked, no full DAL list captured",
       "lineup_adjusted_probability": null
     }
   ],
@@ -113,18 +113,19 @@
       "Dee Winters",
       "Drew Shelton"
     ],
-    "questionable": [
-      "Saquon Barkley",
-      "Jalyx Hunt",
-      "Jonathan Greenard"
-    ],
+    "questionable": [],
     "activated": [
       "Landon Dickerson",
       "Grant Calcaterra",
       "Eli Stowers"
     ],
     "confirmed_starter": "Tanner McKee",
-    "official_inactives": "Awaiting official game-day list"
+    "official_inactives": "PHI: Nolan Smith, DeVonta Smith, Dontayvion Wicks, Cole Payton (emergency3QB), Michael Carter II, Jake Majors. DAL injury OUTs Shelton/Turpin/Winters confirmed by Eagles report.",
+    "confirmed_active": [
+      "Saquon Barkley",
+      "Jalyx Hunt",
+      "Jonathan Greenard"
+    ]
   },
   "sources": [
     "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261026",
@@ -134,17 +135,18 @@
     "https://www.philadelphiaeagles.com/news/eagles-activate-grant-calcaterra-landon-dickerson-and-eli-stowers-from-injured-reserve",
     "https://www.nfl.com/news/eagles-tanner-mckee-ready-to-make-the-most-of-starting-chance-jalen-hurts-sidelined",
     "https://www.dallascowboys.com/news/big-picture-10-storylines-for-cowboys-eagles-x4004",
-    "https://www.inquirer.com/eagles/landon-dickerson-eli-stowers-grant-calcaterra-activated-week-7-cowboys-20261026.html"
+    "https://www.inquirer.com/eagles/landon-dickerson-eli-stowers-grant-calcaterra-activated-week-7-cowboys-20261026.html",
+    "https://www.philadelphiaeagles.com/news/cowboys-vs-eagles-inactives-saquon-barkley-jalyx-hunt-2026-week-7-monday-night-football"
   ],
   "current_experimental_forecast": {
-    "margin_home": 1.4468209040595017,
-    "total": 45.199273146199005,
-    "score_display": "PHI 23, DAL 22",
+    "margin_home": 1.7666853130445181,
+    "total": 45.555735867580786,
+    "score_display": "PHI 24, DAL 22",
     "home_win_probability": null,
     "promoted": false,
     "qb_context_delta": -0.2969846479169339,
-    "nonqb_designation_delta": -3.0393195805625974,
-    "note": "New version, not proven more accurate. Historical baseline preserved. Pending official inactives."
+    "nonqb_designation_delta": -2.719455171577581,
+    "note": "Official inactives verified; Barkley/Hunt/Greenard active. Active does not guarantee normal workload. Experiment remains unproven; TD redistribution unmodeled."
   },
   "previous_research_parlay": {
     "legs": [
@@ -156,5 +158,15 @@
     "availability_verified": false,
     "combined_probability": null,
     "note": "Assistant research construction, not fitted model picks or a verified sportsbook offer. Check exact lines and combined price in app; no substitution presumed."
+  },
+  "preinactives_experimental_forecast": {
+    "margin_home": 1.4468209040595017,
+    "total": 45.199273146199005,
+    "score_display": "PHI 23, DAL 22",
+    "home_win_probability": null,
+    "promoted": false,
+    "qb_context_delta": -0.2969846479169339,
+    "nonqb_designation_delta": -3.0393195805625974,
+    "note": "New version, not proven more accurate. Historical baseline preserved. Pending official inactives."
   }
 }

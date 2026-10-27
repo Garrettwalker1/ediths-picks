@@ -1,0 +1,132 @@
+{
+  "checked_at": "2026-10-27T03:42:48.446150+00:00",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+  "status": {
+    "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+    },
+    "isTBDFlex": false
+  },
+  "score": {
+    "PHI": "21",
+    "DAL": "38"
+  },
+  "scoring_plays": [
+    {
+      "id": "401873009213",
+      "text": "Brandon Aubrey 55 Yd Field Goal",
+      "period": {
+        "number": 1
+      },
+      "clock": {
+        "value": 750.0,
+        "displayValue": "12:30"
+      }
+    },
+    {
+      "id": "401873009385",
+      "text": "Saquon Barkley 8 Yd Rush (Jake Elliott Kick)",
+      "period": {
+        "number": 1
+      },
+      "clock": {
+        "value": 625.0,
+        "displayValue": "10:25"
+      }
+    },
+    {
+      "id": "401873009658",
+      "text": "CeeDee Lamb 9 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "period": {
+        "number": 1
+      },
+      "clock": {
+        "value": 332.0,
+        "displayValue": "5:32"
+      }
+    },
+    {
+      "id": "4018730091152",
+      "text": "Dameon Pierce 5 Yd Rush (Jake Elliott Kick)",
+      "period": {
+        "number": 2
+      },
+      "clock": {
+        "value": 805.0,
+        "displayValue": "13:25"
+      }
+    },
+    {
+      "id": "4018730091551",
+      "text": "George Pickens 21 Yd pass from Dak Prescott (Brandon Aubrey Kick)",
+      "period": {
+        "number": 2
+      },
+      "clock": {
+        "value": 337.0,
+        "displayValue": "5:37"
+      }
+    },
+    {
+      "id": "4018730092272",
+      "text": "Brandon Aubrey 27 Yd Field Goal",
+      "period": {
+        "number": 2
+      },
+      "clock": {
+        "value": 0.0,
+        "displayValue": "0:00"
+      }
+    },
+    {
+      "id": "4018730092717",
+      "text": "Makai Lemon 4 Yd pass from Tanner McKee (Jake Elliott Kick)",
+      "period": {
+        "number": 3
+      },
+      "clock": {
+        "value": 344.0,
+        "displayValue": "5:44"
+      }
+    },
+    {
+      "id": "4018730093048",
+      "text": "CeeDee Lamb 16 Yd pass from Dak Prescott (Dak Prescott Run for Two-Point Conversion)",
+      "period": {
+        "number": 3
+      },
+      "clock": {
+        "value": 90.0,
+        "displayValue": "1:30"
+      }
+    },
+    {
+      "id": "4018730093568",
+      "text": "Brandon Aubrey 24 Yd Field Goal",
+      "period": {
+        "number": 4
+      },
+      "clock": {
+        "value": 550.0,
+        "displayValue": "9:10"
+      }
+    },
+    {
+      "id": "4018730094082",
+      "text": "Javonte Williams 2 Yd Rush (Brandon Aubrey Kick)",
+      "period": {
+        "number": 4
+      },
+      "clock": {
+        "value": 141.0,
+        "displayValue": "2:21"
+      }
+    }
+  ]
+}

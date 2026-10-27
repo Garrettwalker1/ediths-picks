@@ -1,0 +1,691 @@
+{
+ "summary": [
+  {
+   "sport": "NFL",
+   "train_n": 815,
+   "test_n": 544,
+   "bets": 355,
+   "wins": 166,
+   "losses": 187,
+   "pushes": 2,
+   "ats_pct": 0.4702549575070821,
+   "roi": -0.10223626062322942,
+   "mae": 11.05461938434665,
+   "rmse": 14.200517912381521,
+   "brier": 0.24770043219522134,
+   "threshold": 3,
+   "sigma": 13.903063847862608,
+   "margin_coef": [
+    -0.6330050877705824,
+    5.890873945233383,
+    -4.70842060128338,
+    2.0695869101139883,
+    -3.8165736277097277,
+    0.29775969345290676,
+    -0.24287529174227188,
+    -0.6330050877704757,
+    0.17396434389319806
+   ],
+   "total_coef": [
+    20.716592241687913,
+    5.9399337243535735,
+    4.972376757207979,
+    3.9761627963159483,
+    2.8146920129244113,
+    0.02542507356198986,
+    0.06341032695102099,
+    20.716592241688055,
+    0.0776163745584703
+   ]
+  },
+  {
+   "sport": "CFB",
+   "train_n": 1078,
+   "test_n": 1828,
+   "bets": 1376,
+   "wins": 694,
+   "losses": 682,
+   "pushes": 0,
+   "ats_pct": 0.5043604651162791,
+   "roi": -0.037125436046511646,
+   "mae": 16.9247032972386,
+   "rmse": 21.3554437009876,
+   "brier": 0.2244457348625616,
+   "threshold": 4,
+   "sigma": 21.002174191503176,
+   "margin_coef": [
+    14.24404526754275,
+    6.972711143942303,
+    -5.103398522782389,
+    2.4267357341974733,
+    1.1101127824831638,
+    0.2638093487024054,
+    -0.6338753499721231,
+    11.672480875388223,
+    0.0
+   ],
+   "total_coef": [
+    31.570860561447425,
+    5.2586510644153055,
+    -0.694135940129939,
+    7.587444795917022,
+    1.7538611280530316,
+    0.31365593422178445,
+    -0.17089820089613608,
+    17.116769053379727,
+    0.0
+   ]
+  }
+ ],
+ "v2": {
+  "sport": "NFL v2",
+  "bets": 345,
+  "wins": 166,
+  "losses": 177,
+  "pushes": 2,
+  "ats_pct": 0.4839650145772595,
+  "roi": -0.07606239067055388,
+  "mae": 10.863612215194,
+  "rmse": 13.87851583242922,
+  "features": [
+   "h_match_epa",
+   "a_match_epa",
+   "h_match_sr",
+   "a_match_sr",
+   "h_pace",
+   "a_pace",
+   "homefield",
+   "rest_edge",
+   "home_inj",
+   "away_inj",
+   "wind_eff",
+   "cold",
+   "outdoor"
+  ],
+  "margin_coef": [
+   -1.1052880471540236,
+   5.366082551714385,
+   -3.9508398826748197,
+   1.4220801871823088,
+   -3.4964987199323523,
+   0.289317604809426,
+   -0.24235541714077444,
+   -1.1052880471539617,
+   0.16408058758100189,
+   -0.4461242140852898,
+   0.6540961539994615,
+   -0.07023482152667843,
+   0.017953957115444105,
+   1.2977702119794685
+  ],
+  "total_coef": [
+   21.83448498323092,
+   5.735594645546659,
+   4.395230021744135,
+   4.086771434889187,
+   3.076872455715377,
+   0.033007823023199837,
+   0.09626068877702905,
+   21.83448498323095,
+   0.07652624854492902,
+   -0.3131720770721385,
+   -0.41740258406817,
+   -0.17109239478310392,
+   -0.10301752206368604,
+   -1.6200856350289985
+  ]
+ },
+ "current": [
+  {
+   "sport": "NFL",
+   "matchup": "NE at CHI",
+   "book": "FanDuel IL \u00b7 captured Thu Oct 22 at 5:29 PM CT \u00b7 interim non-TN",
+   "market": "CHI -3 \u00b7 O/U 50.5 \u00b7 ML CHI -158 / NE +134",
+   "model": "PK",
+   "edge": null,
+   "pick": null,
+   "home_win": 50.0,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-23T00:15Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 0.12.",
+   "score_projection": {
+    "away_score": 23,
+    "home_score": 23,
+    "model_total": 45.8
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "PIT at NO",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "PIT -3 \u00b7 O/U 44.5 \u00b7 ML PIT -174 / NO +146",
+   "model": "PIT -3.06",
+   "edge": null,
+   "pick": null,
+   "home_win": 39.5,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T13:30Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin -3.06.",
+   "score_projection": {
+    "away_score": 26,
+    "home_score": 23,
+    "model_total": 48.3
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "CIN at BAL",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "BAL -2.5 \u00b7 O/U 50.5 \u00b7 ML BAL -146 / CIN +124",
+   "model": "BAL -3.87",
+   "edge": null,
+   "pick": null,
+   "home_win": 62.3,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 3.87.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 26,
+    "model_total": 47.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "CLE at TEN",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "CLE -1.5 \u00b7 O/U 38.5 \u00b7 ML CLE -120 / TEN +102",
+   "model": "CLE -3.35",
+   "edge": null,
+   "pick": null,
+   "home_win": 38.6,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin -3.35.",
+   "score_projection": {
+    "away_score": 21,
+    "home_score": 17,
+    "model_total": 38.1
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "IND at MIN",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "MIN -6.5 \u00b7 O/U 41.5 \u00b7 ML MIN -290 / IND +235",
+   "model": "MIN -9.65",
+   "edge": null,
+   "pick": null,
+   "home_win": 78.3,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 9.65.",
+   "score_projection": {
+    "away_score": 18,
+    "home_score": 28,
+    "model_total": 46.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "MIA at NYJ",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "NYJ -4.5 \u00b7 O/U 39.5 \u00b7 ML NYJ -250 / MIA +205",
+   "model": "NYJ -2.02",
+   "edge": null,
+   "pick": null,
+   "home_win": 56.4,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 2.02.",
+   "score_projection": {
+    "away_score": 19,
+    "home_score": 21,
+    "model_total": 40.8
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "NYG at HOU",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "HOU -9.5 \u00b7 O/U 43.5 \u00b7 ML HOU -480 / NYG +370",
+   "model": "HOU -6.67",
+   "edge": null,
+   "pick": null,
+   "home_win": 70.7,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 6.67.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 27,
+    "model_total": 46.6
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "SF at ATL",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "SF -3.5 \u00b7 O/U 49.5 \u00b7 ML SF -190 / ATL +160",
+   "model": "SF -6.08",
+   "edge": null,
+   "pick": null,
+   "home_win": 30.3,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin -6.08.",
+   "score_projection": {
+    "away_score": 27,
+    "home_score": 21,
+    "model_total": 47.8
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "TB at CAR",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "CAR -3.5 \u00b7 O/U 44.5 \u00b7 ML CAR -180 / TB +152",
+   "model": "CAR -4.03",
+   "edge": null,
+   "pick": null,
+   "home_win": 62.8,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T17:00Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 4.03.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 24,
+    "model_total": 44.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "DEN at ARI",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "DEN -4.5 \u00b7 O/U 43.5 \u00b7 ML DEN -240 / ARI +198",
+   "model": "DEN -7.04",
+   "edge": null,
+   "pick": null,
+   "home_win": 27.6,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T20:05Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin -7.04.",
+   "score_projection": {
+    "away_score": 25,
+    "home_score": 18,
+    "model_total": 43.9
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "GB at DET",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "DET -3 \u00b7 O/U 52.5 \u00b7 ML DET -164 / GB +138",
+   "model": "DET -2.48",
+   "edge": null,
+   "pick": null,
+   "home_win": 57.9,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T20:25Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 2.48.",
+   "score_projection": {
+    "away_score": 24,
+    "home_score": 27,
+    "model_total": 51.2
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "LA at LV",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "LA -4.5 \u00b7 O/U 47.5 \u00b7 ML LA -210 / LV +180",
+   "model": "LA -4.04",
+   "edge": null,
+   "pick": null,
+   "home_win": 36.4,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-25T20:25Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin -4.04.",
+   "score_projection": {
+    "away_score": 27,
+    "home_score": 23,
+    "model_total": 49.7
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "KC at SEA",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "SEA -2.5 \u00b7 O/U 42.5 \u00b7 ML SEA -134 / KC +114",
+   "model": "SEA -4.42",
+   "edge": null,
+   "pick": null,
+   "home_win": 64.1,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-26T00:20Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 4.42.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 24,
+    "model_total": 44.1
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "DAL at PHI",
+   "book": "FanDuel IL \u00b7 captured Tue Oct 20 at 7:14 AM CT \u00b7 interim non-TN",
+   "market": "DAL -4.5 \u00b7 O/U 44.5 \u00b7 ML DAL -225 / PHI +188",
+   "model": "PHI -4.78",
+   "edge": null,
+   "pick": null,
+   "home_win": 65.2,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-27T00:15Z",
+   "model_note": "Margin-Elo v1 (game scores only, no injury/QB/weather adjustment). Raw home margin 4.78.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 25,
+    "model_total": 44.9
+   }
+  }
+ ],
+ "cal": {
+  "nfl": [
+   {
+    "prob_bin": "(-0.001, 0.2]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   },
+   {
+    "prob_bin": "(0.2, 0.4]",
+    "n": 1,
+    "predicted": 0.3611245003474054,
+    "actual": 1.0
+   },
+   {
+    "prob_bin": "(0.4, 0.6]",
+    "n": 378,
+    "predicted": 0.5445325857912161,
+    "actual": 0.5105820105820106
+   },
+   {
+    "prob_bin": "(0.6, 0.8]",
+    "n": 165,
+    "predicted": 0.6376573948172782,
+    "actual": 0.5878787878787879
+   },
+   {
+    "prob_bin": "(0.8, 1.0]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   }
+  ],
+  "cfb": [
+   {
+    "prob_bin": "(-0.001, 0.2]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   },
+   {
+    "prob_bin": "(0.2, 0.4]",
+    "n": 35,
+    "predicted": 0.3115542297983054,
+    "actual": 0.4571428571428571
+   },
+   {
+    "prob_bin": "(0.4, 0.6]",
+    "n": 571,
+    "predicted": 0.5416738230176764,
+    "actual": 0.51138353765324
+   },
+   {
+    "prob_bin": "(0.6, 0.8]",
+    "n": 1066,
+    "predicted": 0.6897518893801458,
+    "actual": 0.6425891181988743
+   },
+   {
+    "prob_bin": "(0.8, 1.0]",
+    "n": 156,
+    "predicted": 0.821893067114932,
+    "actual": 0.903846153846154
+   }
+  ]
+ },
+ "errors": {
+  "nfl": [
+   {
+    "week": 1.0,
+    "n": 32,
+    "mae": 8.62
+   },
+   {
+    "week": 2.0,
+    "n": 32,
+    "mae": 10.17
+   },
+   {
+    "week": 3.0,
+    "n": 32,
+    "mae": 12.58
+   },
+   {
+    "week": 4.0,
+    "n": 32,
+    "mae": 10.09
+   },
+   {
+    "week": 5.0,
+    "n": 28,
+    "mae": 9.53
+   },
+   {
+    "week": 6.0,
+    "n": 29,
+    "mae": 11.08
+   },
+   {
+    "week": 7.0,
+    "n": 30,
+    "mae": 12.89
+   },
+   {
+    "week": 8.0,
+    "n": 29,
+    "mae": 13.54
+   },
+   {
+    "week": 9.0,
+    "n": 29,
+    "mae": 9.39
+   },
+   {
+    "week": 10.0,
+    "n": 28,
+    "mae": 9.98
+   },
+   {
+    "week": 11.0,
+    "n": 29,
+    "mae": 11.56
+   },
+   {
+    "week": 12.0,
+    "n": 27,
+    "mae": 10.83
+   },
+   {
+    "week": 13.0,
+    "n": 32,
+    "mae": 9.12
+   },
+   {
+    "week": 14.0,
+    "n": 27,
+    "mae": 11.83
+   },
+   {
+    "week": 15.0,
+    "n": 32,
+    "mae": 12.69
+   },
+   {
+    "week": 16.0,
+    "n": 32,
+    "mae": 10.34
+   },
+   {
+    "week": 17.0,
+    "n": 32,
+    "mae": 13.41
+   },
+   {
+    "week": 18.0,
+    "n": 32,
+    "mae": 11.32
+   }
+  ],
+  "cfb": [
+   {
+    "week": 1,
+    "n": 200,
+    "mae": 18.81
+   },
+   {
+    "week": 2,
+    "n": 163,
+    "mae": 19.8
+   },
+   {
+    "week": 3,
+    "n": 139,
+    "mae": 20.69
+   },
+   {
+    "week": 4,
+    "n": 131,
+    "mae": 18.43
+   },
+   {
+    "week": 5,
+    "n": 113,
+    "mae": 16.09
+   },
+   {
+    "week": 6,
+    "n": 103,
+    "mae": 15.06
+   },
+   {
+    "week": 7,
+    "n": 114,
+    "mae": 15.77
+   },
+   {
+    "week": 8,
+    "n": 125,
+    "mae": 13.71
+   },
+   {
+    "week": 9,
+    "n": 116,
+    "mae": 14.22
+   },
+   {
+    "week": 10,
+    "n": 106,
+    "mae": 15.72
+   },
+   {
+    "week": 11,
+    "n": 107,
+    "mae": 15.66
+   },
+   {
+    "week": 12,
+    "n": 119,
+    "mae": 15.8
+   },
+   {
+    "week": 13,
+    "n": 135,
+    "mae": 17.29
+   },
+   {
+    "week": 14,
+    "n": 134,
+    "mae": 16.25
+   },
+   {
+    "week": 15,
+    "n": 20,
+    "mae": 17.49
+   },
+   {
+    "week": 16,
+    "n": 3,
+    "mae": 14.5
+   }
+  ]
+ },
+ "news": [
+  {
+   "player": "Jalen Hurts (QB)",
+   "team": "PHI",
+   "in_overlay": true,
+   "status": "OUT INDEFINITELY - Oct 19 joint Eagles/agent statement: DVT and blood clots in both lungs, on anticoagulation, no contact football during treatment; no return timetable announced. McKee is the current starter.",
+   "source": "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/19/eagles-jalen-hurts-blood-clots-lungs-nicole-lynn-statement/92328312007/",
+   "observed_at": "Oct 19-20, 2026"
+  },
+  {
+   "player": "Terry McLaurin (WR)",
+   "team": "WSH",
+   "in_overlay": true,
+   "status": "OUT FOR SEASON - torn patellar tendon in left knee per ESPN (coach Dan Quinn, Oct 20). Season-ending status is confirmed by the team coach; the specific diagnosis is as reported by ESPN and NBC Sports. Applied as OUT (zero participation) in injury cohort v4.",
+   "source": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+   "observed_at": "Oct 20, 2026"
+  },
+  {
+   "player": "Romeo Doubs (WR)",
+   "team": "NE",
+   "in_overlay": true,
+   "status": "OUT - placed on injured reserve (shoulder) Oct 19 per the team and AP; standard IR minimum applies. Roster-confirmed in the Oct 21 provider IR inventory and applied as OUT (zero participation) in injury cohort v4.",
+   "source": "https://www.patriots.com/news/patriots-place-wr-romeo-doubs-on-injured-reserve-sign-db-elliott-davison-to-the-53-man-roster-from-the-practice-squad-announce-additional-practice-squad-moves",
+   "observed_at": "Oct 21, 2026"
+  },
+  {
+   "player": "Davante Adams (WR)",
+   "team": "LAR",
+   "in_overlay": true,
+   "status": "OUT 6-10 WEEKS - hamstring injury, per McVay Oct 19 (NFL.com/AP/ESPN). Supersedes the initial apparent-knee report from the Oct 18 game. Roster-confirmed IR Oct 21.",
+   "source": "https://www.nfl.com/news/davante-adams-hamstring-expected-to-miss-6-10-weeks-as-injuries-pile-up-rams",
+   "observed_at": "Oct 19-20, 2026"
+  },
+  {
+   "player": "Poona Ford (DT)",
+   "team": "LAR",
+   "in_overlay": true,
+   "status": "OUT FOR SEASON - per AP Oct 19; rotation defensive tackle. Roster-confirmed IR Oct 21.",
+   "source": "https://apnews.com/article/rams-davante-adams-poona-ford-injuries-b8140c5993e799a0c5a44dab5e8b87b2",
+   "observed_at": "Oct 19-20, 2026"
+  }
+ ],
+ "weather": []
+}

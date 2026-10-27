@@ -1,0 +1,51 @@
+[
+  {
+    "file": "games.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
+    "fetched_at": "2026-10-27T12:11:55.557307+00:00",
+    "sha256": "ca9ef455b4652a75dc63a8ba63897de18899d966d7d6836bd3ce362d4fc7a2b7",
+    "last_modified": "Tue, 27 Oct 2026 09:35:24 GMT"
+  },
+  {
+    "file": "player_stats_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "fetched_at": "2026-10-27T12:11:55.930060+00:00",
+    "sha256": "24b95fd79ea1ea96354ccbe444e21cc75df3a7d466b1ccf30a5c93fcf481df37",
+    "last_modified": "Tue, 27 Oct 2026 11:16:16 GMT"
+  },
+  {
+    "file": "injuries_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+    "fetched_at": "2026-10-27T12:11:56.107178+00:00",
+    "sha256": "8f43bbc84087bd4d11a1658c9bb58e51eeb492e8f864a4ade25ea8d55c2b24a4",
+    "last_modified": "Tue, 27 Oct 2026 06:01:21 GMT"
+  },
+  {
+    "file": "roster_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "fetched_at": "2026-10-27T12:11:56.531581+00:00",
+    "sha256": "a1cfce136e6c3d0e5d3b08db77a43931d438ac813fece7def570f2217a67e885",
+    "last_modified": "Tue, 27 Oct 2026 06:02:24 GMT"
+  },
+  {
+    "file": "snap_counts_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "fetched_at": "2026-10-27T12:11:56.958948+00:00",
+    "sha256": "0994bd2c1126e06fdae2e130f379736e311c12c7dd0300c5958d6b2d86cd4098",
+    "last_modified": "Tue, 27 Oct 2026 11:08:32 GMT"
+  },
+  {
+    "file": "espn_week7.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=7",
+    "fetched_at": "2026-10-27T12:11:57.328773+00:00",
+    "sha256": "36dd59c6dbcdc752d9aa3c787672b058a3ddb810220a8969efb7c615e5d983e9",
+    "last_modified": null
+  },
+  {
+    "file": "espn_week8.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8",
+    "fetched_at": "2026-10-27T12:11:57.451189+00:00",
+    "sha256": "9979fe57abf87fecb2df2ede84ef9dbc19358bbe9fc5c9b631a6f0ced81a57c0",
+    "last_modified": null
+  }
+]

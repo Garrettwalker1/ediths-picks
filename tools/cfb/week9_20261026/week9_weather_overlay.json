@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-26T04:45:19Z",
+ "built_at": "2026-10-27T12:10:55Z",
  "source": "Open-Meteo hourly forecast (https://open-meteo.com/en/docs), city resolution, not stadium microclimate",
  "coefficients": {
   "wind_pass": 0.32476128972464136,
@@ -26,19 +26,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-27T23:00",
-   "temperature_f": 66.5,
-   "wind_mph_kickoff": 3.0,
+   "temperature_f": 65.6,
+   "wind_mph_kickoff": 5.0,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 3.1,
-    "gust_max_mph": 3.7
+    "wind_max_mph": 5.0,
+    "gust_max_mph": 5.6
    },
    "pass_share_diff_home": -0.0020058082299665436,
    "baseline_margin_home_raw": 16.200833228308,
-   "weather_delta_home_raw": -0.0001954226603112704,
-   "weather_margin_home_raw": 16.200637805647688,
+   "weather_delta_home_raw": -0.0003257044338521174,
+   "weather_margin_home_raw": 16.200507523874148,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -63,19 +63,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-28T00:00",
-   "temperature_f": 65.5,
-   "wind_mph_kickoff": 7.0,
+   "temperature_f": 65.8,
+   "wind_mph_kickoff": 6.0,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 0,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 11.5,
-    "gust_max_mph": 28.9
+    "wind_max_mph": 8.5,
+    "gust_max_mph": 17.2
    },
    "pass_share_diff_home": -0.01797852741248973,
    "baseline_margin_home_raw": 7.67084867106921,
-   "weather_delta_home_raw": -0.004087110824880989,
-   "weather_margin_home_raw": 7.666761560244329,
+   "weather_delta_home_raw": -0.0035032378498979903,
+   "weather_margin_home_raw": 7.667345433219312,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -100,19 +100,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-28T23:00",
-   "temperature_f": 62.1,
-   "wind_mph_kickoff": 5.7,
+   "temperature_f": 69.9,
+   "wind_mph_kickoff": 5.9,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 5.7,
-    "gust_max_mph": 7.6
+    "wind_max_mph": 6.4,
+    "gust_max_mph": 13.4
    },
    "pass_share_diff_home": -0.06272258840320732,
    "baseline_margin_home_raw": 1.5081739706163866,
-   "weather_delta_home_raw": -0.011610825161675265,
-   "weather_margin_home_raw": 1.4965631454547113,
+   "weather_delta_home_raw": -0.012018222535769134,
+   "weather_margin_home_raw": 1.4961557480806174,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -137,19 +137,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-29T00:00",
-   "temperature_f": 74.5,
-   "wind_mph_kickoff": 2.9,
+   "temperature_f": 76.6,
+   "wind_mph_kickoff": 4.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 1,
+    "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 2.9,
-    "gust_max_mph": 2.9
+    "wind_max_mph": 5.2,
+    "gust_max_mph": 8.1
    },
    "pass_share_diff_home": -0.08889595050224419,
    "baseline_margin_home_raw": -3.827073358426807,
-   "weather_delta_home_raw": -0.008372289425557943,
-   "weather_margin_home_raw": -3.8354456478523646,
+   "weather_delta_home_raw": -0.012125384685290817,
+   "weather_margin_home_raw": -3.8391987431120977,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -174,19 +174,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-29T23:00",
-   "temperature_f": 75.8,
-   "wind_mph_kickoff": 6.0,
+   "temperature_f": 78.6,
+   "wind_mph_kickoff": 8.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 15,
+    "rain_chance_max": 5,
     "rain_inches": 0,
-    "wind_max_mph": 7.0,
-    "gust_max_mph": 9.6
+    "wind_max_mph": 13.4,
+    "gust_max_mph": 19.5
    },
    "pass_share_diff_home": -0.06272615856913544,
    "baseline_margin_home_raw": 9.86458401599414,
-   "weather_delta_home_raw": -0.012222616893830873,
-   "weather_margin_home_raw": 9.852361399100309,
+   "weather_delta_home_raw": -0.016704243088235524,
+   "weather_margin_home_raw": 9.847879772905905,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -211,19 +211,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-29T23:00",
-   "temperature_f": 58.2,
-   "wind_mph_kickoff": 4.4,
+   "temperature_f": 59.0,
+   "wind_mph_kickoff": 0.9,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 7.0,
-    "gust_max_mph": 5.6
+    "wind_max_mph": 5.4,
+    "gust_max_mph": 5.4
    },
    "pass_share_diff_home": 0.13894365372106837,
    "baseline_margin_home_raw": 8.020512699280959,
-   "weather_delta_home_raw": 0.01985434887986358,
-   "weather_margin_home_raw": 8.040367048160823,
+   "weather_delta_home_raw": 0.004061116816335731,
+   "weather_margin_home_raw": 8.024573816097295,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -248,19 +248,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-30T23:00",
-   "temperature_f": 69.6,
-   "wind_mph_kickoff": 0.9,
+   "temperature_f": 71.6,
+   "wind_mph_kickoff": 4.3,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 1,
+    "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 3.5,
-    "gust_max_mph": 3.4
+    "wind_max_mph": 4.3,
+    "gust_max_mph": 4.9
    },
    "pass_share_diff_home": 0.09128186939116989,
    "baseline_margin_home_raw": -6.414410990855805,
-   "weather_delta_home_raw": 0.002668033586875733,
-   "weather_margin_home_raw": -6.411742957268929,
+   "weather_delta_home_raw": 0.012747271581739618,
+   "weather_margin_home_raw": -6.401663719274065,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -285,19 +285,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-30T23:00",
-   "temperature_f": 79.0,
-   "wind_mph_kickoff": 11.8,
+   "temperature_f": 78.5,
+   "wind_mph_kickoff": 10.3,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 16,
+    "rain_chance_max": 13,
     "rain_inches": 0,
-    "wind_max_mph": 11.8,
-    "gust_max_mph": 21.5
+    "wind_max_mph": 10.3,
+    "gust_max_mph": 19.2
    },
    "pass_share_diff_home": 0.021980982511082603,
    "baseline_margin_home_raw": 0.13414131148788133,
-   "weather_delta_home_raw": 0.008423515231062488,
-   "weather_margin_home_raw": 0.14256482671894383,
+   "weather_delta_home_raw": 0.007352729396605391,
+   "weather_margin_home_raw": 0.14149404088448672,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -322,19 +322,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T02:00",
-   "temperature_f": 62.4,
-   "wind_mph_kickoff": 8.9,
+   "temperature_f": 62.5,
+   "wind_mph_kickoff": 7.6,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 2,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 8.9,
-    "gust_max_mph": 19.0
+    "wind_max_mph": 7.6,
+    "gust_max_mph": 16.6
    },
    "pass_share_diff_home": -0.09929028689101216,
    "baseline_margin_home_raw": -3.0711287841143466,
-   "weather_delta_home_raw": -0.028698621048790736,
-   "weather_margin_home_raw": -3.0998274051631376,
+   "weather_delta_home_raw": -0.02450668763716962,
+   "weather_margin_home_raw": -3.095635471751516,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -359,19 +359,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 51.2,
-   "wind_mph_kickoff": 8.3,
+   "temperature_f": 50.6,
+   "wind_mph_kickoff": 9.9,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 8.3,
-    "gust_max_mph": 10.7
+    "wind_max_mph": 9.9,
+    "gust_max_mph": 14.1
    },
    "pass_share_diff_home": -0.19925384912873684,
    "baseline_margin_home_raw": -28.48716406571706,
-   "weather_delta_home_raw": -0.053709247731287574,
-   "weather_margin_home_raw": -28.540873313448348,
+   "weather_delta_home_raw": -0.06406283765539121,
+   "weather_margin_home_raw": -28.551226903372452,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -396,19 +396,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 58.5,
-   "wind_mph_kickoff": 2.0,
+   "temperature_f": 59.6,
+   "wind_mph_kickoff": 5.6,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 14,
+    "rain_chance_max": 5,
     "rain_inches": 0,
-    "wind_max_mph": 5.3,
-    "gust_max_mph": 5.4
+    "wind_max_mph": 10.2,
+    "gust_max_mph": 15.2
    },
    "pass_share_diff_home": -0.14626556016597514,
    "baseline_margin_home_raw": 8.751334385646754,
-   "weather_delta_home_raw": -0.009500278392359843,
-   "weather_margin_home_raw": 8.741834107254395,
+   "weather_delta_home_raw": -0.026600779498607556,
+   "weather_margin_home_raw": 8.724733606148146,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -433,14 +433,14 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 47.5,
-   "wind_mph_kickoff": 4.5,
+   "temperature_f": 51.6,
+   "wind_mph_kickoff": 5.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 3,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 4.6,
-    "gust_max_mph": 5.6
+    "wind_max_mph": 5.2,
+    "gust_max_mph": 5.8
    },
    "pass_share_diff_home": -0.003364772405708094,
    "baseline_margin_home_raw": -6.9712864939589565,
@@ -470,19 +470,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 50.2,
-   "wind_mph_kickoff": 8.3,
+   "temperature_f": 56.2,
+   "wind_mph_kickoff": 5.8,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 35,
-    "rain_inches": 0.008,
-    "wind_max_mph": 8.3,
-    "gust_max_mph": 19.9
+    "rain_chance_max": 33,
+    "rain_inches": 0,
+    "wind_max_mph": 7.1,
+    "gust_max_mph": 22.4
    },
    "pass_share_diff_home": 0.20600442494880566,
    "baseline_margin_home_raw": -3.822726028945045,
-   "weather_delta_home_raw": 0.05552887807034649,
-   "weather_margin_home_raw": -3.7671971508746984,
+   "weather_delta_home_raw": 0.03880331238650718,
+   "weather_margin_home_raw": -3.783922716558538,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -507,19 +507,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 69.5,
-   "wind_mph_kickoff": 10.5,
+   "temperature_f": 68.5,
+   "wind_mph_kickoff": 8.7,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 2,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 10.5,
-    "gust_max_mph": 13.6
+    "wind_max_mph": 9.2,
+    "gust_max_mph": 12.8
    },
    "pass_share_diff_home": -0.10791841102026434,
    "baseline_margin_home_raw": 11.145828502256606,
-   "weather_delta_home_raw": -0.036800108465373745,
-   "weather_margin_home_raw": 11.109028393791233,
+   "weather_delta_home_raw": -0.030491518442738244,
+   "weather_margin_home_raw": 11.115336983813867,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -544,19 +544,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 69.1,
-   "wind_mph_kickoff": 9.1,
+   "temperature_f": 68.2,
+   "wind_mph_kickoff": 7.4,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 2,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 9.1,
-    "gust_max_mph": 12.3
+    "wind_max_mph": 7.7,
+    "gust_max_mph": 11.6
    },
    "pass_share_diff_home": 0.15275340339824567,
    "baseline_margin_home_raw": 11.43982975980147,
-   "weather_delta_home_raw": 0.04514363699067283,
-   "weather_margin_home_raw": 11.484973396792142,
+   "weather_delta_home_raw": 0.036710210300107585,
+   "weather_margin_home_raw": 11.476539970101577,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -581,19 +581,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 58.7,
-   "wind_mph_kickoff": 5.1,
+   "temperature_f": 62.8,
+   "wind_mph_kickoff": 4.0,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 1,
+    "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 5.1,
-    "gust_max_mph": 6.0
+    "wind_max_mph": 4.8,
+    "gust_max_mph": 4.3
    },
    "pass_share_diff_home": 0.0958348187759952,
    "baseline_margin_home_raw": -8.574809479176762,
-   "weather_delta_home_raw": 0.015872954066571934,
-   "weather_margin_home_raw": -8.558936525110191,
+   "weather_delta_home_raw": 0.01244937573848779,
+   "weather_margin_home_raw": -8.562360103438275,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -618,19 +618,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 84.2,
-   "wind_mph_kickoff": 14.4,
+   "temperature_f": 83.8,
+   "wind_mph_kickoff": 13.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 24,
-    "rain_inches": 0.008,
-    "wind_max_mph": 14.5,
-    "gust_max_mph": 18.8
+    "rain_chance_max": 25,
+    "rain_inches": 0.044,
+    "wind_max_mph": 14.6,
+    "gust_max_mph": 20.1
    },
    "pass_share_diff_home": 0.045887800663700684,
    "baseline_margin_home_raw": 8.52975684159127,
-   "weather_delta_home_raw": 0.02145971710968579,
-   "weather_margin_home_raw": 8.551216558700956,
+   "weather_delta_home_raw": 0.019671407350545306,
+   "weather_margin_home_raw": 8.549428248941815,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -655,19 +655,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 50.9,
-   "wind_mph_kickoff": 6.2,
+   "temperature_f": 60.3,
+   "wind_mph_kickoff": 11.9,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 14,
+    "rain_chance_max": 25,
     "rain_inches": 0,
-    "wind_max_mph": 6.2,
-    "gust_max_mph": 8.5
+    "wind_max_mph": 11.9,
+    "gust_max_mph": 18.6
    },
    "pass_share_diff_home": -0.12034391013007495,
    "baseline_margin_home_raw": 9.77842286340649,
-   "weather_delta_home_raw": -0.024231486947896674,
-   "weather_margin_home_raw": 9.754191376458593,
+   "weather_delta_home_raw": -0.04650882172257587,
+   "weather_margin_home_raw": 9.731914041683915,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -692,19 +692,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T16:00",
-   "temperature_f": 56.6,
-   "wind_mph_kickoff": 3.3,
+   "temperature_f": 57.8,
+   "wind_mph_kickoff": 5.1,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 0,
     "rain_inches": 0,
-    "wind_max_mph": 3.3,
-    "gust_max_mph": 3.8
+    "wind_max_mph": 5.1,
+    "gust_max_mph": 7.6
    },
    "pass_share_diff_home": -0.016516183394624795,
    "baseline_margin_home_raw": -1.3211925597613572,
-   "weather_delta_home_raw": -0.0017700596167871273,
-   "weather_margin_home_raw": -1.3229626193781443,
+   "weather_delta_home_raw": -0.0027355466804891973,
+   "weather_margin_home_raw": -1.3239281064418464,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -729,19 +729,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T17:00",
-   "temperature_f": 68.4,
-   "wind_mph_kickoff": 5.2,
-   "precip_in_kickoff": 0.0,
+   "temperature_f": 65.5,
+   "wind_mph_kickoff": 7.4,
+   "precip_in_kickoff": 0.024,
    "window": {
-    "rain_chance_max": 19,
-    "rain_inches": 0,
-    "wind_max_mph": 6.6,
-    "gust_max_mph": 16.1
+    "rain_chance_max": 43,
+    "rain_inches": 0.307,
+    "wind_max_mph": 7.4,
+    "gust_max_mph": 22.1
    },
    "pass_share_diff_home": 0.05392639115407061,
    "baseline_margin_home_raw": 10.060485080747142,
-   "weather_delta_home_raw": 0.009106866257523561,
-   "weather_margin_home_raw": 10.069591947004666,
+   "weather_delta_home_raw": -0.7140313082608047,
+   "weather_margin_home_raw": 9.346453772486338,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -766,19 +766,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T17:00",
-   "temperature_f": 63.8,
-   "wind_mph_kickoff": 11.5,
+   "temperature_f": 65.0,
+   "wind_mph_kickoff": 10.4,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 11.5,
-    "gust_max_mph": 15.0
+    "wind_max_mph": 10.4,
+    "gust_max_mph": 14.1
    },
    "pass_share_diff_home": -0.024298467367407373,
    "baseline_margin_home_raw": -3.378463778954737,
-   "weather_delta_home_raw": -0.009074881840657028,
-   "weather_margin_home_raw": -3.387538660795394,
+   "weather_delta_home_raw": -0.008206849664594182,
+   "weather_margin_home_raw": -3.3866706286193313,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -803,19 +803,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T18:00",
-   "temperature_f": 60.7,
-   "wind_mph_kickoff": 6.2,
+   "temperature_f": 62.5,
+   "wind_mph_kickoff": 7.0,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 10,
+    "rain_chance_max": 8,
     "rain_inches": 0,
-    "wind_max_mph": 6.5,
-    "gust_max_mph": 6.3
+    "wind_max_mph": 8.4,
+    "gust_max_mph": 9.6
    },
    "pass_share_diff_home": 0.21724601124499043,
    "baseline_margin_home_raw": -0.8174630783677008,
-   "weather_delta_home_raw": 0.04374291877566336,
-   "weather_margin_home_raw": -0.7737201595920374,
+   "weather_delta_home_raw": 0.04938716635961991,
+   "weather_margin_home_raw": -0.7680759120080809,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -840,19 +840,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T18:00",
-   "temperature_f": 76.3,
-   "wind_mph_kickoff": 10.1,
+   "temperature_f": 74.3,
+   "wind_mph_kickoff": 12.6,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 5,
+    "rain_chance_max": 13,
     "rain_inches": 0,
-    "wind_max_mph": 10.1,
-    "gust_max_mph": 17.0
+    "wind_max_mph": 12.8,
+    "gust_max_mph": 19.2
    },
    "pass_share_diff_home": -0.023211082135789485,
    "baseline_margin_home_raw": 10.972744025210998,
-   "weather_delta_home_raw": -0.0076134415800268125,
-   "weather_margin_home_raw": 10.965130583630971,
+   "weather_delta_home_raw": -0.009497956822607706,
+   "weather_margin_home_raw": 10.96324606838839,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -877,19 +877,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 54.2,
-   "wind_mph_kickoff": 4.4,
+   "temperature_f": 59.5,
+   "wind_mph_kickoff": 3.5,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 5,
+    "rain_chance_max": 3,
     "rain_inches": 0,
-    "wind_max_mph": 6.0,
-    "gust_max_mph": 8.1
+    "wind_max_mph": 7.3,
+    "gust_max_mph": 8.5
    },
    "pass_share_diff_home": -0.4143272393482751,
    "baseline_margin_home_raw": -3.1427639725390257,
-   "weather_delta_home_raw": -0.059205277392270245,
-   "weather_margin_home_raw": -3.201969249931296,
+   "weather_delta_home_raw": -0.04709510701657859,
+   "weather_margin_home_raw": -3.189859079555604,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -914,19 +914,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 71.5,
-   "wind_mph_kickoff": 12.3,
+   "temperature_f": 70.2,
+   "wind_mph_kickoff": 11.3,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 2,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 12.3,
-    "gust_max_mph": 18.3
+    "wind_max_mph": 11.3,
+    "gust_max_mph": 20.6
    },
    "pass_share_diff_home": 0.005493161859974061,
    "baseline_margin_home_raw": 8.132069932451513,
-   "weather_delta_home_raw": 0.0021942785862830044,
-   "weather_margin_home_raw": 8.134264211037795,
+   "weather_delta_home_raw": 0.002015881953251866,
+   "weather_margin_home_raw": 8.134085814404765,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -951,19 +951,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 77.4,
-   "wind_mph_kickoff": 6.4,
-   "precip_in_kickoff": 0.016,
+   "temperature_f": 80.5,
+   "wind_mph_kickoff": 9.2,
+   "precip_in_kickoff": 0.008,
    "window": {
-    "rain_chance_max": 19,
-    "rain_inches": 0.072,
-    "wind_max_mph": 6.4,
-    "gust_max_mph": 13.9
+    "rain_chance_max": 45,
+    "rain_inches": 0.366,
+    "wind_max_mph": 9.2,
+    "gust_max_mph": 21.7
    },
    "pass_share_diff_home": -0.11098527746319364,
    "baseline_margin_home_raw": -2.1185155722697875,
-   "weather_delta_home_raw": 1.4731438901979235,
-   "weather_margin_home_raw": -0.645371682071864,
+   "weather_delta_home_raw": -0.03316022410144242,
+   "weather_margin_home_raw": -2.15167579637123,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -988,19 +988,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 68.9,
-   "wind_mph_kickoff": 5.9,
+   "temperature_f": 72.4,
+   "wind_mph_kickoff": 3.7,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 12,
     "rain_inches": 0,
-    "wind_max_mph": 6.3,
-    "gust_max_mph": 16.6
+    "wind_max_mph": 4.3,
+    "gust_max_mph": 10.7
    },
    "pass_share_diff_home": -0.08150990775711064,
    "baseline_margin_home_raw": 22.76130667668937,
-   "weather_delta_home_raw": -0.015618045033436126,
-   "weather_margin_home_raw": 22.745688631655934,
+   "weather_delta_home_raw": -0.009794367224358246,
+   "weather_margin_home_raw": 22.75151230946501,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1025,14 +1025,14 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 76.2,
-   "wind_mph_kickoff": 9.8,
+   "temperature_f": 74.7,
+   "wind_mph_kickoff": 12.7,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 5,
+    "rain_chance_max": 13,
     "rain_inches": 0,
-    "wind_max_mph": 9.8,
-    "gust_max_mph": 18.3
+    "wind_max_mph": 12.8,
+    "gust_max_mph": 20.4
    },
    "pass_share_diff_home": 0.03519872324516904,
    "baseline_margin_home_raw": 13.036302714969574,
@@ -1062,19 +1062,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 66.4,
-   "wind_mph_kickoff": 7.4,
+   "temperature_f": 69.9,
+   "wind_mph_kickoff": 6.5,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 14,
+    "rain_chance_max": 12,
     "rain_inches": 0,
-    "wind_max_mph": 7.6,
-    "gust_max_mph": 17.2
+    "wind_max_mph": 7.3,
+    "gust_max_mph": 15.7
    },
    "pass_share_diff_home": -0.07255442355928532,
    "baseline_margin_home_raw": 17.279766449963702,
-   "weather_delta_home_raw": -0.01743652244605264,
-   "weather_margin_home_raw": 17.26232992751765,
+   "weather_delta_home_raw": -0.015315864310721914,
+   "weather_margin_home_raw": 17.26445058565298,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1099,19 +1099,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 64.6,
-   "wind_mph_kickoff": 2.2,
+   "temperature_f": 62.1,
+   "wind_mph_kickoff": 2.5,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 45,
+    "rain_chance_max": 38,
     "rain_inches": 0,
-    "wind_max_mph": 3.4,
-    "gust_max_mph": 9.4
+    "wind_max_mph": 3.2,
+    "gust_max_mph": 12.8
    },
    "pass_share_diff_home": -0.0709768839782795,
    "baseline_margin_home_raw": 9.182305299137495,
-   "weather_delta_home_raw": -0.005071119763912903,
-   "weather_margin_home_raw": 9.177234179373581,
+   "weather_delta_home_raw": -0.005762636095355571,
+   "weather_margin_home_raw": 9.17654266304214,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1136,19 +1136,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 54.3,
-   "wind_mph_kickoff": 1.6,
+   "temperature_f": 53.2,
+   "wind_mph_kickoff": 1.9,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 9,
+    "rain_chance_max": 24,
     "rain_inches": 0,
-    "wind_max_mph": 2.5,
-    "gust_max_mph": 6.0
+    "wind_max_mph": 2.1,
+    "gust_max_mph": 5.8
    },
    "pass_share_diff_home": 0.19088697938100008,
    "baseline_margin_home_raw": 5.520630059143441,
-   "weather_delta_home_raw": 0.009918832258466338,
-   "weather_margin_home_raw": 5.530548891401907,
+   "weather_delta_home_raw": 0.011778613306928774,
+   "weather_margin_home_raw": 5.532408672450369,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1173,19 +1173,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 64.8,
-   "wind_mph_kickoff": 4.9,
+   "temperature_f": 78.4,
+   "wind_mph_kickoff": 9.0,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 20,
+    "rain_chance_max": 11,
     "rain_inches": 0,
-    "wind_max_mph": 6.5,
-    "gust_max_mph": 8.5
+    "wind_max_mph": 9.0,
+    "gust_max_mph": 10.7
    },
    "pass_share_diff_home": 0.3211661987740404,
    "baseline_margin_home_raw": -2.0560719202634097,
-   "weather_delta_home_raw": 0.05110815097561077,
-   "weather_margin_home_raw": -2.004963769287799,
+   "weather_delta_home_raw": 0.0938721140368361,
+   "weather_margin_home_raw": -1.9621998062265735,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1210,19 +1210,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 63.9,
-   "wind_mph_kickoff": 6.6,
+   "temperature_f": 59.2,
+   "wind_mph_kickoff": 5.6,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 61,
+    "rain_chance_max": 71,
     "rain_inches": 0,
-    "wind_max_mph": 7.4,
-    "gust_max_mph": 15.4
+    "wind_max_mph": 5.8,
+    "gust_max_mph": 11.4
    },
    "pass_share_diff_home": -0.007859136710814507,
    "baseline_margin_home_raw": 13.548335688807894,
-   "weather_delta_home_raw": -0.0016845466270554205,
-   "weather_margin_home_raw": 13.546651142180838,
+   "weather_delta_home_raw": -0.0014293122896227811,
+   "weather_margin_home_raw": 13.54690637651827,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1247,14 +1247,14 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 53.9,
-   "wind_mph_kickoff": 13.3,
+   "temperature_f": 51.7,
+   "wind_mph_kickoff": 8.8,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 28,
+    "rain_chance_max": 20,
     "rain_inches": 0,
-    "wind_max_mph": 13.3,
-    "gust_max_mph": 20.4
+    "wind_max_mph": 8.8,
+    "gust_max_mph": 12.3
    },
    "pass_share_diff_home": -0.04558974173169206,
    "baseline_margin_home_raw": 21.730223161325686,
@@ -1284,19 +1284,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 65.8,
-   "wind_mph_kickoff": 5.3,
+   "temperature_f": 66.9,
+   "wind_mph_kickoff": 4.9,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 2,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 5.3,
-    "gust_max_mph": 5.6
+    "wind_max_mph": 5.5,
+    "gust_max_mph": 7.4
    },
    "pass_share_diff_home": -0.19899662801217205,
    "baseline_margin_home_raw": 12.994197547174789,
-   "weather_delta_home_raw": -0.034251992828966474,
-   "weather_margin_home_raw": 12.959945554345822,
+   "weather_delta_home_raw": -0.03166693676640297,
+   "weather_margin_home_raw": 12.962530610408386,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1321,19 +1321,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T19:00",
-   "temperature_f": 71.1,
-   "wind_mph_kickoff": 5.8,
-   "precip_in_kickoff": 0.004,
+   "temperature_f": 70.5,
+   "wind_mph_kickoff": 5.9,
+   "precip_in_kickoff": 0.11,
    "window": {
-    "rain_chance_max": 39,
-    "rain_inches": 0.414,
-    "wind_max_mph": 5.8,
-    "gust_max_mph": 12.1
+    "rain_chance_max": 42,
+    "rain_inches": 0.287,
+    "wind_max_mph": 6.6,
+    "gust_max_mph": 11.4
    },
    "pass_share_diff_home": 0.13533990684286779,
    "baseline_margin_home_raw": -0.48818853108283555,
-   "weather_delta_home_raw": 0.02549283436455148,
-   "weather_margin_home_raw": -0.4626956967182841,
+   "weather_delta_home_raw": -1.7986085103007956,
+   "weather_margin_home_raw": -2.286797041383631,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1358,19 +1358,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 65.8,
-   "wind_mph_kickoff": 5.5,
+   "temperature_f": 67.9,
+   "wind_mph_kickoff": 3.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 15,
+    "rain_chance_max": 5,
     "rain_inches": 0,
-    "wind_max_mph": 5.5,
-    "gust_max_mph": 17.9
+    "wind_max_mph": 4.1,
+    "gust_max_mph": 7.6
    },
    "pass_share_diff_home": -0.013584919167989984,
    "baseline_margin_home_raw": -8.190305183149475,
-   "weather_delta_home_raw": -0.002426520728390786,
-   "weather_margin_home_raw": -8.192731703877865,
+   "weather_delta_home_raw": -0.0014117938783364573,
+   "weather_margin_home_raw": -8.191716977027811,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1395,19 +1395,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 69.1,
-   "wind_mph_kickoff": 6.7,
+   "temperature_f": 69.3,
+   "wind_mph_kickoff": 6.9,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 2,
     "rain_inches": 0,
-    "wind_max_mph": 6.7,
-    "gust_max_mph": 16.6
+    "wind_max_mph": 6.9,
+    "gust_max_mph": 13.9
    },
    "pass_share_diff_home": 0.09968354430379744,
    "baseline_margin_home_raw": 17.631876275047897,
-   "weather_delta_home_raw": 0.02169014879632454,
-   "weather_margin_home_raw": 17.65356642384422,
+   "weather_delta_home_raw": 0.022337615924573034,
+   "weather_margin_home_raw": 17.65421389097247,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1432,19 +1432,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 62.1,
-   "wind_mph_kickoff": 0.3,
+   "temperature_f": 63.6,
+   "wind_mph_kickoff": 2.4,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 15,
+    "rain_chance_max": 6,
     "rain_inches": 0,
-    "wind_max_mph": 1.7,
-    "gust_max_mph": 3.4
+    "wind_max_mph": 5.4,
+    "gust_max_mph": 5.4
    },
    "pass_share_diff_home": 0.24244452361563523,
    "baseline_margin_home_raw": -11.69081409001036,
-   "weather_delta_home_raw": 0.0023620978852826988,
-   "weather_margin_home_raw": -11.688451992125078,
+   "weather_delta_home_raw": 0.01889678308226159,
+   "weather_margin_home_raw": -11.671917306928098,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1469,19 +1469,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 66.6,
-   "wind_mph_kickoff": 4.7,
+   "temperature_f": 67.9,
+   "wind_mph_kickoff": 4.5,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 23,
+    "rain_chance_max": 29,
     "rain_inches": 0,
-    "wind_max_mph": 6.0,
-    "gust_max_mph": 6.5
+    "wind_max_mph": 6.1,
+    "gust_max_mph": 5.8
    },
    "pass_share_diff_home": 0.012191099063436739,
    "baseline_margin_home_raw": 13.667107717554918,
-   "weather_delta_home_raw": 0.0018608226158512138,
-   "weather_margin_home_raw": 13.66896854017077,
+   "weather_delta_home_raw": 0.0017816386747511624,
+   "weather_margin_home_raw": 13.66888935622967,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1506,19 +1506,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 59.5,
-   "wind_mph_kickoff": 3.1,
-   "precip_in_kickoff": 0.004,
+   "temperature_f": 72.4,
+   "wind_mph_kickoff": 16.5,
+   "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 32,
-    "rain_inches": 0.008,
-    "wind_max_mph": 5.5,
-    "gust_max_mph": 8.5
+    "rain_chance_max": 4,
+    "rain_inches": 0,
+    "wind_max_mph": 16.5,
+    "gust_max_mph": 20.4
    },
    "pass_share_diff_home": 0.12833144285939013,
    "baseline_margin_home_raw": 4.219571705405658,
-   "weather_delta_home_raw": 0.012919896317524293,
-   "weather_margin_home_raw": 4.232491601723182,
+   "weather_delta_home_raw": 0.06876719007714543,
+   "weather_margin_home_raw": 4.288338895482803,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1543,19 +1543,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T20:00",
-   "temperature_f": 62.6,
-   "wind_mph_kickoff": 0.7,
+   "temperature_f": 63.3,
+   "wind_mph_kickoff": 3.2,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 17,
+    "rain_chance_max": 7,
     "rain_inches": 0,
-    "wind_max_mph": 2.5,
-    "gust_max_mph": 3.6
+    "wind_max_mph": 5.2,
+    "gust_max_mph": 6.0
    },
    "pass_share_diff_home": 0.13393824884683925,
    "baseline_margin_home_raw": 5.6928766273415325,
-   "weather_delta_home_raw": 0.0030448570907271625,
-   "weather_margin_home_raw": 5.69592148443226,
+   "weather_delta_home_raw": 0.013919346700467032,
+   "weather_margin_home_raw": 5.706795974042,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1580,19 +1580,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T22:00",
-   "temperature_f": 75.1,
-   "wind_mph_kickoff": 12.4,
+   "temperature_f": 73.3,
+   "wind_mph_kickoff": 14.4,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 10,
+    "rain_chance_max": 25,
     "rain_inches": 0,
-    "wind_max_mph": 12.4,
-    "gust_max_mph": 27.1
+    "wind_max_mph": 14.4,
+    "gust_max_mph": 29.5
    },
    "pass_share_diff_home": 0.045497295112548186,
    "baseline_margin_home_raw": 4.352148438817187,
-   "weather_delta_home_raw": 0.018321942697269875,
-   "weather_margin_home_raw": 4.3704703815144565,
+   "weather_delta_home_raw": 0.02127709474521663,
+   "weather_margin_home_raw": 4.373425533562403,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1617,19 +1617,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 52.0,
-   "wind_mph_kickoff": 8.0,
-   "precip_in_kickoff": 0.004,
+   "temperature_f": 54.0,
+   "wind_mph_kickoff": 6.9,
+   "precip_in_kickoff": 0.035,
    "window": {
-    "rain_chance_max": 34,
-    "rain_inches": 0.056,
-    "wind_max_mph": 8.0,
-    "gust_max_mph": 15.2
+    "rain_chance_max": 54,
+    "rain_inches": 0.154,
+    "wind_max_mph": 11.0,
+    "gust_max_mph": 23.0
    },
    "pass_share_diff_home": -0.09580138422216478,
    "baseline_margin_home_raw": -6.9949743872288455,
-   "weather_delta_home_raw": -0.024890064877916916,
-   "weather_margin_home_raw": -7.019864452106763,
+   "weather_delta_home_raw": 1.2700474796204124,
+   "weather_margin_home_raw": -5.724926907608433,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1654,19 +1654,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 75.4,
-   "wind_mph_kickoff": 7.9,
-   "precip_in_kickoff": 0.004,
+   "temperature_f": 72.4,
+   "wind_mph_kickoff": 4.5,
+   "precip_in_kickoff": 0.016,
    "window": {
-    "rain_chance_max": 10,
-    "rain_inches": 0.008,
-    "wind_max_mph": 10.0,
-    "gust_max_mph": 26.8
+    "rain_chance_max": 19,
+    "rain_inches": 0.083,
+    "wind_max_mph": 7.6,
+    "gust_max_mph": 27.5
    },
    "pass_share_diff_home": 0.024337696617774518,
    "baseline_margin_home_raw": 2.157538397022755,
-   "weather_delta_home_raw": 0.006244113976587241,
-   "weather_margin_home_raw": 2.1637825109993423,
+   "weather_delta_home_raw": -0.3245439568118052,
+   "weather_margin_home_raw": 1.8329944402109497,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1691,19 +1691,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 68.3,
-   "wind_mph_kickoff": 8.2,
+   "temperature_f": 69.7,
+   "wind_mph_kickoff": 7.8,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 46,
-    "rain_inches": 0,
-    "wind_max_mph": 8.2,
-    "gust_max_mph": 6.3
+    "rain_chance_max": 57,
+    "rain_inches": 0.048,
+    "wind_max_mph": 10.3,
+    "gust_max_mph": 10.5
    },
    "pass_share_diff_home": -0.13072013748138822,
    "baseline_margin_home_raw": 9.606600783465336,
-   "weather_delta_home_raw": -0.03481132916197922,
-   "weather_margin_home_raw": 9.571789454303357,
+   "weather_delta_home_raw": -0.03311321554432169,
+   "weather_margin_home_raw": 9.573487567921013,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1728,19 +1728,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 64.7,
-   "wind_mph_kickoff": 6.1,
+   "temperature_f": 60.1,
+   "wind_mph_kickoff": 3.5,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 4,
+    "rain_chance_max": 3,
     "rain_inches": 0,
-    "wind_max_mph": 6.1,
-    "gust_max_mph": 17.9
+    "wind_max_mph": 5.4,
+    "gust_max_mph": 20.8
    },
    "pass_share_diff_home": 0.1037370975669698,
    "baseline_margin_home_raw": -22.642522497035213,
-   "weather_delta_home_raw": 0.02055077409486544,
-   "weather_margin_home_raw": -22.621971722940348,
+   "weather_delta_home_raw": 0.011791427759349023,
+   "weather_margin_home_raw": -22.630731069275864,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1765,19 +1765,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 69.1,
-   "wind_mph_kickoff": 8.5,
+   "temperature_f": 70.6,
+   "wind_mph_kickoff": 7.4,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 38,
-    "rain_inches": 0,
-    "wind_max_mph": 9.1,
-    "gust_max_mph": 6.3
+    "rain_chance_max": 51,
+    "rain_inches": 0.012,
+    "wind_max_mph": 8.1,
+    "gust_max_mph": 7.8
    },
    "pass_share_diff_home": 0.10293280029231278,
    "baseline_margin_home_raw": -11.012512033559176,
-   "weather_delta_home_raw": 0.02841430063121537,
-   "weather_margin_home_raw": -10.98409773292796,
+   "weather_delta_home_raw": 0.024737155843646323,
+   "weather_margin_home_raw": -10.98777487771553,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1802,19 +1802,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 66.0,
-   "wind_mph_kickoff": 3.8,
+   "temperature_f": 84.5,
+   "wind_mph_kickoff": 1.6,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 11,
+    "rain_chance_max": 6,
     "rain_inches": 0,
-    "wind_max_mph": 4.1,
-    "gust_max_mph": 10.3
+    "wind_max_mph": 4.9,
+    "gust_max_mph": 6.5
    },
    "pass_share_diff_home": -0.02487939244918924,
    "baseline_margin_home_raw": 16.973132919613377,
-   "weather_delta_home_raw": -0.0030703481601583966,
-   "weather_margin_home_raw": 16.97006257145322,
+   "weather_delta_home_raw": -0.0012927781726982722,
+   "weather_margin_home_raw": 16.97184014144068,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1839,19 +1839,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-10-31T23:00",
-   "temperature_f": 55.6,
-   "wind_mph_kickoff": 3.0,
+   "temperature_f": 59.0,
+   "wind_mph_kickoff": 6.1,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 6,
+    "rain_chance_max": 1,
     "rain_inches": 0,
-    "wind_max_mph": 3.0,
-    "gust_max_mph": 6.5
+    "wind_max_mph": 6.1,
+    "gust_max_mph": 18.1
    },
    "pass_share_diff_home": -0.03193660426180778,
    "baseline_margin_home_raw": 1.2240995239970411,
-   "weather_delta_home_raw": -0.003111531836847051,
-   "weather_margin_home_raw": 1.220987992160194,
+   "weather_delta_home_raw": -0.006326781401589005,
+   "weather_margin_home_raw": 1.217772742595452,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1876,19 +1876,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T00:00",
-   "temperature_f": 64.1,
-   "wind_mph_kickoff": 8.5,
+   "temperature_f": 61.8,
+   "wind_mph_kickoff": 7.4,
    "precip_in_kickoff": 0.0,
    "window": {
     "rain_chance_max": 3,
     "rain_inches": 0,
-    "wind_max_mph": 8.5,
-    "gust_max_mph": 20.8
+    "wind_max_mph": 8.8,
+    "gust_max_mph": 23.3
    },
    "pass_share_diff_home": -0.04208829050204477,
    "baseline_margin_home_raw": -3.160403312158495,
-   "weather_delta_home_raw": -0.011618350379887017,
-   "weather_margin_home_raw": -3.1720216625383824,
+   "weather_delta_home_raw": -0.010114799154254579,
+   "weather_margin_home_raw": -3.1705181113127496,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1913,19 +1913,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T00:00",
-   "temperature_f": 55.3,
-   "wind_mph_kickoff": 6.4,
-   "precip_in_kickoff": 0.0,
+   "temperature_f": 54.3,
+   "wind_mph_kickoff": 12.0,
+   "precip_in_kickoff": 0.028,
    "window": {
-    "rain_chance_max": 26,
-    "rain_inches": 0,
-    "wind_max_mph": 8.1,
-    "gust_max_mph": 18.3
+    "rain_chance_max": 37,
+    "rain_inches": 0.072,
+    "wind_max_mph": 12.0,
+    "gust_max_mph": 6.7
    },
    "pass_share_diff_home": -0.15312991435585876,
    "baseline_margin_home_raw": 10.628226090066885,
-   "weather_delta_home_raw": -0.031827627828244845,
-   "weather_margin_home_raw": 10.596398462238641,
+   "weather_delta_home_raw": 2.0046942665104948,
+   "weather_margin_home_raw": 12.63292035657738,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1950,19 +1950,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T00:00",
-   "temperature_f": 71.1,
-   "wind_mph_kickoff": 5.1,
-   "precip_in_kickoff": 0.0,
+   "temperature_f": 67.3,
+   "wind_mph_kickoff": 6.1,
+   "precip_in_kickoff": 0.028,
    "window": {
-    "rain_chance_max": 33,
-    "rain_inches": 0.188,
-    "wind_max_mph": 7.1,
-    "gust_max_mph": 17.9
+    "rain_chance_max": 44,
+    "rain_inches": 0.028,
+    "wind_max_mph": 6.5,
+    "gust_max_mph": 18.1
    },
    "pass_share_diff_home": 0.404499964000288,
    "baseline_margin_home_raw": 8.672684388854499,
-   "weather_delta_home_raw": 0.06699662430117531,
-   "weather_margin_home_raw": 8.739681013155675,
+   "weather_delta_home_raw": -5.3730013088968525,
+   "weather_margin_home_raw": 3.2996830799576466,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -1987,19 +1987,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T02:00",
-   "temperature_f": 55.4,
-   "wind_mph_kickoff": 6.8,
-   "precip_in_kickoff": 0.004,
+   "temperature_f": 51.4,
+   "wind_mph_kickoff": 7.9,
+   "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 21,
-    "rain_inches": 0.044,
-    "wind_max_mph": 7.1,
-    "gust_max_mph": 10.7
+    "rain_chance_max": 23,
+    "rain_inches": 0.008,
+    "wind_max_mph": 7.9,
+    "gust_max_mph": 19.5
    },
    "pass_share_diff_home": -0.005663362927946725,
    "baseline_margin_home_raw": 1.0756273240643495,
-   "weather_delta_home_raw": -0.0012506839130879154,
-   "weather_margin_home_raw": 1.0743766401512616,
+   "weather_delta_home_raw": -0.0014530004284403725,
+   "weather_margin_home_raw": 1.0741743236359091,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
@@ -2024,14 +2024,14 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T02:00",
-   "temperature_f": 73.2,
-   "wind_mph_kickoff": 17.1,
+   "temperature_f": 71.6,
+   "wind_mph_kickoff": 15.4,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 28,
-    "rain_inches": 0,
-    "wind_max_mph": 17.1,
-    "gust_max_mph": 18.8
+    "rain_chance_max": 32,
+    "rain_inches": 0.008,
+    "wind_max_mph": 21.3,
+    "gust_max_mph": 22.8
    },
    "pass_share_diff_home": -0.09472100675799233,
    "baseline_margin_home_raw": 20.93840001277639,
@@ -2061,19 +2061,19 @@
     "geocoding_source": "Open-Meteo geocoding"
    },
    "kickoff_forecast_hour_utc": "2026-11-01T03:00",
-   "temperature_f": 62.9,
-   "wind_mph_kickoff": 13.5,
+   "temperature_f": 68.3,
+   "wind_mph_kickoff": 4.8,
    "precip_in_kickoff": 0.0,
    "window": {
-    "rain_chance_max": 31,
+    "rain_chance_max": 26,
     "rain_inches": 0,
-    "wind_max_mph": 13.5,
-    "gust_max_mph": 19.5
+    "wind_max_mph": 8.1,
+    "gust_max_mph": 12.5
    },
    "pass_share_diff_home": -0.06664529120640961,
    "baseline_margin_home_raw": -1.6010128696194537,
-   "weather_delta_home_raw": -0.029219144480461645,
-   "weather_margin_home_raw": -1.6302320140999154,
+   "weather_delta_home_raw": -0.010389029148608585,
+   "weather_margin_home_raw": -1.6114018987680623,
    "label": "WX UNPROVEN",
    "failed_validation": true,
    "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."

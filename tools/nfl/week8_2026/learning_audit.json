@@ -1,0 +1,442 @@
+{
+ "built_at": "2026-10-27T12:12:51.017490+00:00",
+ "week7_games": 14,
+ "week7_comparison_record": {
+  "model": 6,
+  "book": 8,
+  "tie": 0
+ },
+ "week7_margin_mae": 11.235000000000001,
+ "week7_book_mae": 10.535714285714286,
+ "book_caveat": "Frozen Oct20 FanDuelIL snapshot, not closing lines. No edge claim.",
+ "totals_forward": {
+  "n": 59,
+  "mae": 10.801694915254236,
+  "mean_signed_error": -0.6627118644067798
+ },
+ "totals_rows": [
+  {
+   "week": 4,
+   "game_id": "2026_04_PIT_CLE",
+   "predicted": 40.7,
+   "actual": 51.0,
+   "error": -10.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_ARI_NYG",
+   "predicted": 44.4,
+   "actual": 60.0,
+   "error": -15.600000000000001
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DAL_HOU",
+   "predicted": 47.9,
+   "actual": 64.0,
+   "error": -16.1
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DEN_SF",
+   "predicted": 46.7,
+   "actual": 38.0,
+   "error": 8.700000000000003
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_DET_CAR",
+   "predicted": 48.8,
+   "actual": 58.0,
+   "error": -9.200000000000003
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_GB_TB",
+   "predicted": 44.3,
+   "actual": 31.0,
+   "error": 13.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_IND_WAS",
+   "predicted": 48.5,
+   "actual": 43.0,
+   "error": 5.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_JAX_CIN",
+   "predicted": 47.3,
+   "actual": 39.0,
+   "error": 8.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_KC_LV",
+   "predicted": 44.5,
+   "actual": 57.0,
+   "error": -12.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_LAC_SEA",
+   "predicted": 43.0,
+   "actual": 53.0,
+   "error": -10.0
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_LA_PHI",
+   "predicted": 44.5,
+   "actual": 44.0,
+   "error": 0.5
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_MIA_MIN",
+   "predicted": 43.3,
+   "actual": 25.0,
+   "error": 18.299999999999997
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_NE_BUF",
+   "predicted": 47.0,
+   "actual": 55.0,
+   "error": -8.0
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_NYJ_CHI",
+   "predicted": 45.4,
+   "actual": 35.0,
+   "error": 10.399999999999999
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_TEN_BAL",
+   "predicted": 45.1,
+   "actual": 42.0,
+   "error": 3.1000000000000014
+  },
+  {
+   "week": 4,
+   "game_id": "2026_04_ATL_NO",
+   "predicted": 46.5,
+   "actual": 69.0,
+   "error": -22.5
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_TB_DAL",
+   "predicted": 48.4,
+   "actual": 40.0,
+   "error": 8.399999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_PHI_JAX",
+   "predicted": 43.9,
+   "actual": 36.0,
+   "error": 7.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CHI_GB",
+   "predicted": 43.9,
+   "actual": 38.0,
+   "error": 5.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CIN_MIA",
+   "predicted": 43.1,
+   "actual": 55.0,
+   "error": -11.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_CLE_NYJ",
+   "predicted": 41.1,
+   "actual": 29.0,
+   "error": 12.100000000000001
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_HOU_TEN",
+   "predicted": 42.2,
+   "actual": 29.0,
+   "error": 13.200000000000003
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_IND_PIT",
+   "predicted": 46.0,
+   "actual": 56.0,
+   "error": -10.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_LV_NE",
+   "predicted": 44.0,
+   "actual": 62.0,
+   "error": -18.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_MIN_NO",
+   "predicted": 44.8,
+   "actual": 36.0,
+   "error": 8.799999999999997
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_NYG_WAS",
+   "predicted": 45.1,
+   "actual": 54.0,
+   "error": -8.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_DEN_LAC",
+   "predicted": 44.0,
+   "actual": 40.0,
+   "error": 4.0
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_DET_ARI",
+   "predicted": 50.1,
+   "actual": 66.0,
+   "error": -15.899999999999999
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_SF_SEA",
+   "predicted": 47.2,
+   "actual": 61.0,
+   "error": -13.799999999999997
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_BAL_ATL",
+   "predicted": 47.4,
+   "actual": 53.0,
+   "error": -5.600000000000001
+  },
+  {
+   "week": 5,
+   "game_id": "2026_05_BUF_LA",
+   "predicted": 52.2,
+   "actual": 71.0,
+   "error": -18.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_SEA_DEN",
+   "predicted": 44.5,
+   "actual": 31.0,
+   "error": 13.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_HOU_JAX",
+   "predicted": 44.7,
+   "actual": 65.0,
+   "error": -20.299999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_BAL_CLE",
+   "predicted": 43.9,
+   "actual": 23.0,
+   "error": 20.9
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_CAR_PHI",
+   "predicted": 43.5,
+   "actual": 39.0,
+   "error": 4.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_CHI_ATL",
+   "predicted": 45.5,
+   "actual": 54.0,
+   "error": -8.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_NO_NYG",
+   "predicted": 45.3,
+   "actual": 61.0,
+   "error": -15.700000000000003
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_NYJ_NE",
+   "predicted": 44.0,
+   "actual": 45.0,
+   "error": -1.0
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_PIT_TB",
+   "predicted": 43.5,
+   "actual": 45.0,
+   "error": -1.5
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_TEN_IND",
+   "predicted": 44.1,
+   "actual": 46.0,
+   "error": -1.8999999999999986
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_ARI_LA",
+   "predicted": 52.7,
+   "actual": 34.0,
+   "error": 18.700000000000003
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_BUF_LV",
+   "predicted": 51.2,
+   "actual": 63.0,
+   "error": -11.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_LAC_KC",
+   "predicted": 42.8,
+   "actual": 28.0,
+   "error": 14.799999999999997
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_DAL_GB",
+   "predicted": 47.4,
+   "actual": 36.0,
+   "error": 11.399999999999999
+  },
+  {
+   "week": 6,
+   "game_id": "2026_06_WAS_SF",
+   "predicted": 49.3,
+   "actual": 40.0,
+   "error": 9.299999999999997
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_NE_CHI",
+   "predicted": 45.8,
+   "actual": 54.0,
+   "error": -8.200000000000003
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_PIT_NO",
+   "predicted": 48.3,
+   "actual": 26.0,
+   "error": 22.299999999999997
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_CIN_BAL",
+   "predicted": 47.5,
+   "actual": 48.0,
+   "error": -0.5
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_CLE_TEN",
+   "predicted": 38.1,
+   "actual": 51.0,
+   "error": -12.899999999999999
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_IND_MIN",
+   "predicted": 46.0,
+   "actual": 26.0,
+   "error": 20.0
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_MIA_NYJ",
+   "predicted": 40.8,
+   "actual": 53.0,
+   "error": -12.200000000000003
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_NYG_HOU",
+   "predicted": 46.6,
+   "actual": 48.0,
+   "error": -1.3999999999999986
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_SF_ATL",
+   "predicted": 47.8,
+   "actual": 49.0,
+   "error": -1.2000000000000028
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_TB_CAR",
+   "predicted": 44.5,
+   "actual": 56.0,
+   "error": -11.5
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_DEN_ARI",
+   "predicted": 43.9,
+   "actual": 46.0,
+   "error": -2.1000000000000014
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_GB_DET",
+   "predicted": 51.2,
+   "actual": 37.0,
+   "error": 14.200000000000003
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_LA_LV",
+   "predicted": 49.7,
+   "actual": 56.0,
+   "error": -6.299999999999997
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_KC_SEA",
+   "predicted": 44.1,
+   "actual": 23.0,
+   "error": 21.1
+  },
+  {
+   "week": 7,
+   "game_id": "2026_07_DAL_PHI",
+   "predicted": 44.9,
+   "actual": 59.0,
+   "error": -14.100000000000001
+  }
+ ],
+ "mnf_current_experiment": {
+  "predicted_home_margin": 1.7666853130445181,
+  "actual_home_margin": -17,
+  "margin_absolute_error": 18.76668531304452,
+  "predicted_total": 45.555735867580786,
+  "actual_total": 59,
+  "total_error": -13.444264132419214,
+  "note": "Experiment not promoted; inconclusive historical margin tests/worse2025 total. One game cannot validate."
+ },
+ "assimilation": "All14 Week7 finals including Thursday and Monday in Week8 scores-only state. Fresh Week7 player stats stored, same locked TD-rate spec. No tuning or guessed injury cause."
+}

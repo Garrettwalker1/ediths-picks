@@ -2,9 +2,7 @@
 """Build the public fantasy.json snapshot without storing credentials.
 
 Authenticated ESPN collection happens in the cloud browser and is passed in as a
-normalized JSON file. Sleeper is refreshed from its public API here. The injury
-pass consumes Markdown from the current ESPN NFL injury page (saved by the live
-web fetch tool) and intersects it with rostered players only.
+normalized JSON file. Sleeper is refreshed from its public API here. The injury pass uses ESPN Fantasy status and player news, intersected with rostered players only.
 """
 import argparse, copy, datetime as dt, json, re, sys, urllib.request
 from pathlib import Path
@@ -80,7 +78,7 @@ def injury_pass(leagues, status_rows, ts):
             pd=dt.datetime.fromtimestamp(r['lastNewsDate']/1000,dt.timezone.utc).strftime('%Y-%m-%d') if r.get('lastNewsDate') else None
             detail=r.get('detail') or None
             p.update({'injury_status':M.get(r['inj'],str(r['inj']).title()),'injury_detail':detail,'injury_source':'ESPN Fantasy player status'+(' · ESPN Fantasy news' if detail else ''),'injury_source_url':f"https://fantasy.espn.com/football/players/card?playerId={r['id']}",'injury_observed_at':ts,'injury_provider_updated_at':pd});flags.add(p['name'])
-    return len(flags), len(matched), sum(len(l.get('players',[])) for l in leagues)
+    return len(flags), len(matched), len({norm(p.get('name','')) for l in leagues for p in l.get('players',[])})
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--espn',required=True);ap.add_argument('--injury-status',required=True,help='ESPN Fantasy status JSON: [{id,name,inj,lastNewsDate,detail}]');ap.add_argument('--output',default='fantasy.json');ap.add_argument('--previous',default='fantasy.json');a=ap.parse_args()
@@ -94,6 +92,6 @@ def main():
     rows=json.load(open(a.injury_status))
     if not isinstance(rows,list) or len(rows)<50 or not any(r.get('inj') for r in rows): raise SystemExit('ESPN Fantasy injury status invalid; preserving prior fantasy.json')
     count,matched,total=injury_pass(leagues,rows,ts)
-    out={'updated_at':ts,'refresh_note':'Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.','providers':[{'name':'ESPN','status':'ok','observed_at':espn.get('observed_at',ts)},{'name':'Sleeper','status':'ok','observed_at':ts}],'injury_check':{'status':'checked','checked_at':ts,'source':'ESPN Fantasy player injury status and player news (logged-in league data)','source_url':'https://fantasy.espn.com/football/','rostered_player_flags':count,'coverage':f'ESPN status matched {matched} of {total} rostered players by ESPN id or exact unique name; unmatched players carry no ESPN flag. Sleeper cards also carry Sleeper designations - where sources differ (e.g. a Sleeper Q with no ESPN designation), both labels are preserved with their sources.'},'leagues':leagues}
+    out={'updated_at':ts,'refresh_note':'Scores, rosters and roster injury flags are regenerated from ESPN, Sleeper and the current injury feed.','providers':[{'name':'ESPN','status':'ok','observed_at':espn.get('observed_at',ts)},{'name':'Sleeper','status':'ok','observed_at':ts}],'injury_check':{'status':'checked','checked_at':ts,'source':'ESPN Fantasy player injury status and player news (logged-in league data)','source_url':'https://fantasy.espn.com/football/','rostered_player_flags':count,'coverage':f'ESPN status matched {matched} of {total} unique rostered players by ESPN id or exact unique name; unmatched players carry no ESPN flag. Sleeper cards also carry Sleeper designations - where sources differ (e.g. a Sleeper Q with no ESPN designation), both labels are preserved with their sources.'},'leagues':leagues}
     write_atomic(a.output,out);print(f'wrote {a.output}: {len(leagues)} leagues, {count} unique injury flags')
 if __name__=='__main__':main()

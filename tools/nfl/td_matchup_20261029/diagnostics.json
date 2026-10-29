@@ -48,5 +48,30 @@
   "seen2025_brier_delta_CI95": [
     -0.006410149392325812,
     -0.001000759761645453
-  ]
+  ],
+  "calibration_ablation_audit": {
+    "calibrated_history_only": {
+      "C": 1,
+      "validation2024": {
+        "brier": 0.18847502473271163,
+        "logloss": 0.5619376087542417
+      },
+      "seen2025": {
+        "brier": 0.1863530839776765,
+        "logloss": 0.5568005155073956
+      }
+    },
+    "history_plus_position": {
+      "C": 1,
+      "validation2024": {
+        "brier": 0.18860746455446828,
+        "logloss": 0.5623165041413777
+      },
+      "seen2025": {
+        "brier": 0.18623181702739353,
+        "logloss": 0.5566116493905753
+      }
+    }
+  },
+  "interpretation": "Research-only. Cohort excludes inactive zeros; current role/availability conditioning not validated.2025seen. Need prospective comparison."
 }

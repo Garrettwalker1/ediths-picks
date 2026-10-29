@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-29T19:24:00.258274+00:00",
+  "selected_C": 0.01,
+  "features": [
+    "baseline_logit",
+    "is_home",
+    "targets_share",
+    "carries_share",
+    "carry_rz_share",
+    "carry_gl_share",
+    "target_rz_share",
+    "target_gl_share",
+    "targets_recent4",
+    "carries_recent4",
+    "off_epa_rate",
+    "opp_epa_rate",
+    "off_rush_rate",
+    "opp_rush_rate",
+    "off_pass_rate",
+    "opp_pass_rate",
+    "pos_QB",
+    "pos_RB",
+    "pos_TE"
+  ],
+  "splits": {
+    "validation2024": {
+      "n": 3015,
+      "events": 829,
+      "candidate_brier": 0.18679562001364666,
+      "baseline_brier": 0.18827639734212512,
+      "candidate_logloss": 0.5565601158053157,
+      "baseline_logloss": 0.5623111438838407,
+      "mean_probability": 0.2508233329598342,
+      "event_rate": 0.27495854063018244
+    },
+    "seen2025": {
+      "n": 2936,
+      "events": 780,
+      "candidate_brier": 0.1834062652452525,
+      "baseline_brier": 0.18697239086647335,
+      "candidate_logloss": 0.5487599010305604,
+      "baseline_logloss": 0.558573792478226,
+      "mean_probability": 0.256254440402535,
+      "event_rate": 0.2656675749318801
+    }
+  },
+  "warning": "2025 seen diagnostic; conditional played-player cohort, not inactive/role availability test",
+  "seen2025_brier_delta_CI95": [
+    -0.006410149392325812,
+    -0.001000759761645453
+  ]
+}

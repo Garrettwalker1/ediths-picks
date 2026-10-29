@@ -4,7 +4,7 @@
  "captured_from": null,
  "captured_to": null,
  "state": "IL",
- "note": "Week8 fresh locked TD-rate model through completed Week7; player-ID joins, h12/k4 fixed. No current book prices. Own-status filtering only; QB/teammate/opponent redistribution unmodeled.",
+ "note": "Locked baseline through Week7 unchanged; Oct29 own-status review, 26/28 team reports. Q/Doubtful/DNP and missing current-week reports are pending, never clearance. No QB/teammate redistribution or fresh FD prices.",
  "rows": [
   {
    "player": "Josh Jacobs",
@@ -17,7 +17,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Christian Watson",
@@ -30,7 +32,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Chuba Hubbard",
@@ -43,7 +47,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Darren Waller",
@@ -56,7 +62,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tucker Kraft",
@@ -69,7 +77,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tetairoa McMillan",
@@ -82,7 +92,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "MarShawn Lloyd",
@@ -95,7 +107,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jalen Coker",
@@ -108,7 +122,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Matthew Golden",
@@ -121,7 +137,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "Questionable",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Tommy Tremble",
@@ -134,7 +152,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jayden Reed",
@@ -147,7 +167,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "John Metchie III",
@@ -160,7 +182,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jonathon Brooks",
@@ -173,7 +197,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jonnu Smith",
@@ -186,7 +212,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "AJ Dillon",
@@ -199,7 +227,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyrod Taylor",
@@ -212,7 +242,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kaleb Johnson",
@@ -225,7 +257,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Pierre Strong",
@@ -238,7 +272,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Chris Brooks",
@@ -251,7 +287,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-10-29 20:15 ET"
+   "kick": "2026-10-29 20:15 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jahmyr Gibbs",
@@ -264,7 +302,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Josh Allen",
@@ -277,7 +317,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Derrick Henry",
@@ -290,7 +332,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Javonte Williams",
@@ -303,7 +347,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jonathan Taylor",
@@ -316,7 +362,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "James Cook",
@@ -329,7 +377,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Bijan Robinson",
@@ -342,7 +392,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ja'Marr Chase",
@@ -355,7 +407,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Tee Higgins",
@@ -368,7 +422,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Chase Brown",
@@ -381,7 +437,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Sean Tucker",
@@ -394,7 +452,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Bhayshul Tuten",
@@ -407,7 +467,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Trey McBride",
@@ -420,7 +482,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Bucky Irving",
@@ -433,7 +497,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Brock Bowers",
@@ -446,7 +512,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Amon-Ra St. Brown",
@@ -459,7 +527,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Jameson Williams",
@@ -472,7 +542,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ashton Jeanty",
@@ -485,7 +557,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "CeeDee Lamb",
@@ -498,7 +572,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kyle Pitts",
@@ -511,7 +587,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Zay Flowers",
@@ -524,7 +602,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Parker Washington",
@@ -537,7 +617,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Omar Cooper Jr.",
@@ -550,7 +632,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Harold Fannin Jr.",
@@ -563,7 +647,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tony Pollard",
@@ -576,7 +662,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Mike Gesicki",
@@ -589,7 +677,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Quinshon Judkins",
@@ -602,7 +692,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jaylen Warren",
@@ -615,7 +707,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Chris Rodriguez Jr.",
@@ -628,7 +722,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Garrett Wilson",
@@ -641,7 +737,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Sam LaPorta",
@@ -654,7 +752,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Alec Pierce",
@@ -667,7 +767,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jalen McMillan",
@@ -680,7 +782,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Brian Robinson",
@@ -693,7 +797,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Drake London",
@@ -706,7 +812,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Keon Coleman",
@@ -719,7 +827,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "DJ Moore",
@@ -732,7 +842,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Jordan Mason",
@@ -745,7 +857,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Michael Wilson",
@@ -758,7 +872,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Jeremiyah Love",
@@ -771,7 +887,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Denzel Boston",
@@ -784,7 +902,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Breece Hall",
@@ -797,7 +917,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Pat Freiermuth",
@@ -810,7 +932,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tre Tucker",
@@ -823,7 +947,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Samaje Perine",
@@ -836,7 +962,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyler Warren",
@@ -849,7 +977,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Kenny Gainwell",
@@ -862,7 +992,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Ty Johnson",
@@ -875,7 +1007,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "George Pickens",
@@ -888,7 +1022,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Audric Estim\u00e9",
@@ -901,7 +1037,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Roman Wilson",
@@ -914,7 +1052,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jake Ferguson",
@@ -927,7 +1067,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jakobi Meyers",
@@ -940,7 +1082,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Rico Dowdle",
@@ -953,7 +1097,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Emeka Egbuka",
@@ -966,7 +1112,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Bam Knight",
@@ -979,7 +1127,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ryan Flournoy",
@@ -992,7 +1142,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Aaron Jones",
@@ -1005,7 +1157,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Darnell Washington",
@@ -1018,7 +1172,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Justin Jefferson",
@@ -1031,7 +1187,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyler Allgeier",
@@ -1044,7 +1202,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Isaac TeSlaa",
@@ -1057,7 +1217,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Cody White",
@@ -1070,7 +1232,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Wan'Dale Robinson",
@@ -1083,7 +1247,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "T.J. Hockenson",
@@ -1096,7 +1262,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kenyon Sadiq",
@@ -1109,7 +1277,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Dalton Kincaid",
@@ -1122,7 +1292,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Jordan Addison",
@@ -1135,7 +1307,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Brenton Strange",
@@ -1148,7 +1322,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Mason Taylor",
@@ -1161,7 +1337,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Michael Pittman",
@@ -1174,7 +1352,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Reggie Virgil",
@@ -1187,7 +1367,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "DK Metcalf",
@@ -1200,7 +1382,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Braelon Allen",
@@ -1213,7 +1397,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Mark Andrews",
@@ -1226,7 +1412,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Germie Bernard",
@@ -1239,7 +1427,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Nicholas Singleton",
@@ -1252,7 +1442,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jahan Dotson",
@@ -1265,7 +1457,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ted Hurst III",
@@ -1278,7 +1472,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Mike Washington Jr.",
@@ -1291,7 +1487,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Mitchell Tinsley",
@@ -1304,7 +1502,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Carnell Tate",
@@ -1317,7 +1517,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Khalil Shakir",
@@ -1330,7 +1532,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Brian Thomas Jr.",
@@ -1343,7 +1547,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Elic Ayomanor",
@@ -1356,7 +1562,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Justice Hill",
@@ -1369,7 +1577,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jalen Nailor",
@@ -1382,7 +1592,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyler Huntley",
@@ -1395,7 +1607,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Lamar Jackson",
@@ -1408,7 +1622,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "David Sills",
@@ -1421,7 +1637,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Daniel Jones",
@@ -1434,7 +1652,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jaleel McLaughlin",
@@ -1447,7 +1667,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Raheim Sanders",
@@ -1460,7 +1682,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Ja'Kobi Lane",
@@ -1473,7 +1697,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Josh Downs",
@@ -1486,7 +1712,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Adonai Mitchell",
@@ -1499,7 +1727,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ray Davis",
@@ -1512,7 +1742,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Dylan Sampson",
@@ -1525,7 +1757,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Deshaun Watson",
@@ -1538,7 +1772,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Rashod Bateman",
@@ -1551,7 +1787,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Keenan Allen",
@@ -1564,7 +1802,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyjae Spears",
@@ -1577,7 +1817,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Chris Godwin Jr.",
@@ -1590,7 +1832,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Baker Mayfield",
@@ -1603,7 +1847,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Michael Carter",
@@ -1616,7 +1862,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kyler Murray",
@@ -1629,7 +1877,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Michael Mayer",
@@ -1642,7 +1892,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jerry Jeudy",
@@ -1655,7 +1907,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jack Bech",
@@ -1668,7 +1922,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jacoby Brissett",
@@ -1681,7 +1937,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Seth McGowan",
@@ -1694,7 +1952,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Dohnte Meyers",
@@ -1707,7 +1967,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Emari Demercado",
@@ -1720,7 +1982,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "KC Concepcion",
@@ -1733,7 +1997,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Khalil Herbert",
@@ -1746,7 +2012,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jalon Daniels",
@@ -1759,7 +2027,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Cade Otton",
@@ -1772,7 +2042,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyler Goodson",
@@ -1785,7 +2057,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Sione Vaki",
@@ -1798,7 +2072,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Laquon Treadwell",
@@ -1811,7 +2087,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kendrick Bourne",
@@ -1824,7 +2102,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 13:00 ET"
+   "kick": "2026-11-01 13:00 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Davante Adams",
@@ -1837,7 +2117,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Kyren Williams",
@@ -1850,7 +2132,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Puka Nacua",
@@ -1863,7 +2147,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Omarion Hampton",
@@ -1876,7 +2162,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Blake Corum",
@@ -1889,7 +2177,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Colby Parkinson",
@@ -1902,7 +2192,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Kimani Vidal",
@@ -1915,7 +2207,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Ladd McConkey",
@@ -1928,7 +2222,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Terrance Ferguson",
@@ -1941,7 +2237,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Quentin Johnston",
@@ -1954,7 +2252,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyler Higbee",
@@ -1967,7 +2267,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Brenen Thompson",
@@ -1980,7 +2282,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Oronde Gadsden II",
@@ -1993,7 +2297,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Keaton Mitchell",
@@ -2006,7 +2312,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Konata Mumpfield",
@@ -2019,7 +2327,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "KeAndre Lambert-Smith",
@@ -2032,7 +2342,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Marquez Valdes-Scantling",
@@ -2045,7 +2357,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Justin Herbert",
@@ -2058,7 +2372,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tre Harris",
@@ -2071,7 +2387,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:05 ET"
+   "kick": "2026-11-01 16:05 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Kenneth Walker III",
@@ -2084,7 +2402,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Rhamondre Stevenson",
@@ -2097,7 +2417,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "RJ Harvey",
@@ -2110,7 +2432,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "TreVeyon Henderson",
@@ -2123,7 +2447,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "De'Von Achane",
@@ -2136,7 +2462,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Caleb Douglas",
@@ -2149,7 +2477,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Rashee Rice",
@@ -2162,7 +2492,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Ollie Gordon II",
@@ -2175,7 +2507,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "J.K. Dobbins",
@@ -2188,7 +2522,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Malik Willis",
@@ -2201,7 +2537,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "A.J. Brown",
@@ -2214,7 +2552,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Romeo Doubs",
@@ -2227,7 +2567,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jonah Coleman",
@@ -2240,7 +2582,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Hunter Henry",
@@ -2253,7 +2597,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tyquan Thornton",
@@ -2266,7 +2612,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "DeMario Douglas",
@@ -2279,7 +2627,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Courtland Sutton",
@@ -2292,7 +2642,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Travis Kelce",
@@ -2305,7 +2657,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Drake Maye",
@@ -2318,7 +2672,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Bo Nix",
@@ -2331,7 +2687,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kevin Coleman Jr.",
@@ -2344,7 +2702,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jaylen Waddle",
@@ -2357,7 +2717,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Malik Washington",
@@ -2370,7 +2732,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Patrick Mahomes",
@@ -2383,7 +2747,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Pat Bryant",
@@ -2396,7 +2762,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jaylen Wright",
@@ -2409,7 +2777,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Xavier Worthy",
@@ -2422,7 +2792,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Emmett Johnson",
@@ -2435,7 +2807,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Brashard Smith",
@@ -2448,7 +2822,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Mack Hollins",
@@ -2461,7 +2837,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Chris Bell",
@@ -2474,7 +2852,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Greg Dulcich",
@@ -2487,7 +2867,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Corey Kiner",
@@ -2500,7 +2882,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 16:25 ET"
+   "kick": "2026-11-01 16:25 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Dallas Goedert",
@@ -2513,7 +2897,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Saquon Barkley",
@@ -2526,7 +2912,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Darius Cooper",
@@ -2539,7 +2927,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "DeVonta Smith",
@@ -2552,7 +2942,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Dameon Pierce",
@@ -2565,7 +2957,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jalen Hurts",
@@ -2578,7 +2972,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Marquise Brown",
@@ -2591,7 +2987,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Tank Bigsby",
@@ -2604,7 +3002,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Elijah Mitchell",
@@ -2617,7 +3017,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Zach Ertz",
@@ -2630,7 +3032,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Makai Lemon",
@@ -2643,7 +3047,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Dontayvion Wicks",
@@ -2656,7 +3062,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "No game designation",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
   },
   {
    "player": "Will Shipley",
@@ -2669,7 +3077,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-01 20:20 ET"
+   "kick": "2026-11-01 20:20 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "Jaxon Smith-Njigba",
@@ -2682,7 +3092,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "D'Andre Swift",
@@ -2695,7 +3107,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kyle Monangai",
@@ -2708,7 +3122,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Emanuel Wilson",
@@ -2721,7 +3137,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Colston Loveland",
@@ -2734,7 +3152,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Caleb Williams",
@@ -2747,7 +3167,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Luther Burden III",
@@ -2760,7 +3182,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "AJ Barner",
@@ -2773,7 +3197,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Roschon Johnson",
@@ -2786,7 +3212,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Jadarian Price",
@@ -2799,7 +3227,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "IR",
+   "status_source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
   },
   {
    "player": "George Holani",
@@ -2812,7 +3242,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Kalif Raymond",
@@ -2825,7 +3257,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Rome Odunze",
@@ -2838,7 +3272,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Cooper Kupp",
@@ -2851,7 +3287,9 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   },
   {
    "player": "Rashid Shaheed",
@@ -2864,7 +3302,11 @@
    "book_prob": null,
    "gap": null,
    "cap": null,
-   "kick": "2026-11-02 20:15 ET"
+   "kick": "2026-11-02 20:15 ET",
+   "own_status": "No captured designation (not proof healthy)",
+   "status_source": null
   }
- ]
+ ],
+ "status_checked_at": "2026-10-29T18:52:16.374933+00:00",
+ "injury_version": "injury-experiment-20261029-w8-v2"
 }

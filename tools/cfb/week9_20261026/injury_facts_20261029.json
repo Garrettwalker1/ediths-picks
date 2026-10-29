@@ -1,0 +1,27 @@
+{
+ "checked_at": "2026-10-29T18:53:02.878449+00:00",
+ "scope": "Partial Week9 CFB availability facts, not national completeness or numerical model adjustments",
+ "gaps": [
+  "SEC landing page exposes no player table to fetch.",
+  "ESPN college injuries endpoint returned only3 historical2020 rows, rejected as current.",
+  "Other conferences and remaining SEC teams not comprehensively verified.",
+  "Updates and final game-day reports still pending."
+ ],
+ "sources": [
+  {
+   "url": "https://gatorswire.usatoday.com/story/sports/college/gators/football/2026/10/29/florida-football-sec-availability-report-georgia-bulldogs-week-9-initial-wednesday/92494551007/",
+   "facts": [
+    "Florida QB Aaron Philo and Tramell Jones Jr questionable; RB Duke Clark questionable; WR Bailey Stockton and LB Jaden Robinson doubtful; WR Vernell Brown III probable.",
+    "Georgia WR Thomas Blackshear, OLB Amaris Williams, S Tariq Green out; DB KJ Bolden, RB Chauncey Bowens, WR Isiah Canion questionable."
+   ]
+  },
+  {
+   "url": "https://auburnwire.usatoday.com/story/sports/college/auburn/football/2026/10/29/auburn-football-injury-jeremiah-koger-sec-report-ole-miss/92494313007/",
+   "facts": [
+    "Auburn TE Hunter Herring and OL Tai Buster out, WR Jeremiah Koger questionable.",
+    "Ole Miss RB Kewan Lacy among reported outs; complete national coverage not established."
+   ]
+  }
+ ],
+ "model_effect": "None. Fixed no-AP reference preserved; no invented QB or injury point adjustments."
+}

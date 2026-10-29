@@ -1,0 +1,22 @@
+{
+ "checked_at": "2026-10-29T18:57:06.171284+00:00",
+ "CAR": {
+  "starter": "Bryce Young",
+  "backup": "Kenny Pickett",
+  "status": "Full practice, no final injury designation"
+ },
+ "GB": {
+  "starter": "Jordan Love",
+  "backup": "Tyrod Taylor",
+  "status": "Love not on official final injury report"
+ },
+ "sources": [
+  "https://www.cbssports.com/nfl/teams/GB/green-bay-packers/depth-chart/",
+  "https://www.foxsports.com/nfl/week-8-carolina-panthers-vs-green-bay-packers-oct-29-2026-game-boxscore-11250"
+ ],
+ "limitations": [
+  "No starter replacement quality model.",
+  "Tyrod historical rushingTD baseline not current playing-time conditioned; actionable current probability withheld.",
+  "Remaining weekend starter checks pending Friday refresh."
+ ]
+}

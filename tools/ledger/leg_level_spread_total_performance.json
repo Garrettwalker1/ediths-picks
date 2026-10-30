@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T03:42:48.543554+00:00",
+ "generated_at": "2026-10-30T03:45:09.383240+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 25,
-  "wins": 14,
+  "graded": 27,
+  "wins": 16,
   "losses": 11,
   "ungraded": 17
  },
@@ -16,15 +16,15 @@
    "ungraded": 14
   },
   "NFL": {
-   "graded": 12,
-   "wins": 5,
+   "graded": 14,
+   "wins": 7,
    "losses": 7,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 11,
-  "wins": 5,
+  "graded": 13,
+  "wins": 7,
   "losses": 6,
   "ungraded": 1
  },
@@ -496,6 +496,28 @@
    "ticket_date": "2026-10-26",
    "ticket_result": "loss",
    "hit": false
+  },
+  {
+   "event": "CAR @ GB",
+   "market": "alternate spread",
+   "selection": "Green Bay Packers",
+   "line": 3.5,
+   "sport": "NFL",
+   "ticket": "Green Bay +3.5 alternate spread + Under54.5 alternate total + Chuba Hubbard ATD",
+   "ticket_date": "2026-10-29",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "CAR @ GB",
+   "market": "alternate total",
+   "selection": "Under",
+   "line": 54.5,
+   "sport": "NFL",
+   "ticket": "Green Bay +3.5 alternate spread + Under54.5 alternate total + Chuba Hubbard ATD",
+   "ticket_date": "2026-10-29",
+   "ticket_result": "win",
+   "hit": true
   }
  ]
 }

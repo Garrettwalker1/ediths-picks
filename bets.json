@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-29T22:59:20.070162+00:00",
+  "updated_at": "2026-10-30T03:45:08.496745+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -8818,14 +8818,14 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 20,
       "stake_units": 2.0,
       "market": "anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 5.0,
+      "net_usd": 50,
       "bet_id": "us-tn:01m64h1d3ve4zspnx15p4rw8dq",
       "date": "2026-10-29T14:08:00-05:00",
       "placed_at": "2026-10-29T14:08:00-05:00",
@@ -8853,26 +8853,36 @@
             "candidate": 0.26637950469846317
           },
           "price": 250,
-          "implied_probability": 0.2857142857142857
+          "implied_probability": 0.2857142857142857,
+          "hit": true
         }
       ],
       "source": "Owner iMessage phonemsg-01M64Y5QPWTBAJQT8632CBZVFB Oct29 5:58:29PMCT; originalreceipt pixels inspected includingfooter. SHA256 f1af612d0e224bb427acf7b95291015d38316480c50b6345de62bb3b9c0d1bf2. DuplicateIDcheckpassed. Cashoutbuttonisofferonly; receipt7:16PMCT vs official7:15 retained separately.",
       "receipt_kickoff_display": "7:16PMCT",
-      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json"
+      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json",
+      "leg_note": "Jalen Coker HIT",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "graded_at": "2026-10-30T03:45:08.496745+00:00",
+        "final_score": "Green Bay27,Carolina19(Final),total46",
+        "net_units": 5.0,
+        "net_usd": 50,
+        "source_note": "Final scoring summary and rush/receiving box verified; normal settlement assumed per owner Oct9 instruction, no cashout update found. Graded from sports results, not independent sportsbook settlement. Exact receipt payouts retained."
+      }
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 20,
       "stake_units": 2.0,
       "market": "anytime_touchdown",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": -2.0,
+      "net_usd": -20,
       "bet_id": "us-tn:01m64h1kypfgpvthcz3favw1zz",
       "date": "2026-10-29T14:09:00-05:00",
       "placed_at": "2026-10-29T14:09:00-05:00",
@@ -8900,26 +8910,36 @@
             "candidate": 0.3336783467289815
           },
           "price": 145,
-          "implied_probability": 0.40816326530612246
+          "implied_probability": 0.40816326530612246,
+          "hit": false
         }
       ],
       "source": "Owner iMessage phonemsg-01M64Y5QPWTBAJQT8632CBZVFB Oct29 5:58:29PMCT; originalreceipt pixels inspected includingfooter. SHA256 ab0fa04f61c6a6098e2e09c29ab2a2723e7eae6bca6fb506d0fbc1898c753249. DuplicateIDcheckpassed. Cashoutbuttonisofferonly; receipt7:16PMCT vs official7:15 retained separately.",
       "receipt_kickoff_display": "7:16PMCT",
-      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json"
+      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json",
+      "leg_note": "Christian Watson MISS",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "graded_at": "2026-10-30T03:45:08.496745+00:00",
+        "final_score": "Green Bay27,Carolina19(Final),total46",
+        "net_units": -2.0,
+        "net_usd": -20,
+        "source_note": "Final scoring summary and rush/receiving box verified; normal settlement assumed per owner Oct9 instruction, no cashout update found. Graded from sports results, not independent sportsbook settlement. Exact receipt payouts retained."
+      }
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10,
       "stake_units": 1.0,
       "market": "same_game_parlay",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 6.379,
+      "net_usd": 63.79,
       "bet_id": "us-tn:01m64h2fdgf7wrz32c623exass",
       "date": "2026-10-29T14:09:00-05:00",
       "placed_at": "2026-10-29T14:09:00-05:00",
@@ -8947,7 +8967,8 @@
             "candidate": 0.26637950469846317
           },
           "price": null,
-          "implied_probability": null
+          "implied_probability": null,
+          "hit": true
         },
         {
           "event": "CAR @ GB",
@@ -8959,26 +8980,36 @@
             "candidate": 0.2958608902425112
           },
           "price": null,
-          "implied_probability": null
+          "implied_probability": null,
+          "hit": true
         }
       ],
       "source": "Owner iMessage phonemsg-01M64Y5QPWTBAJQT8632CBZVFB Oct29 5:58:29PMCT; originalreceipt pixels inspected includingfooter. SHA256 594f6499890dbe38e8461e90450876e4f80aec3f4f26e238c8e291f69baac0f5. DuplicateIDcheckpassed. Cashoutbuttonisofferonly; receipt7:16PMCT vs official7:15 retained separately.",
       "receipt_kickoff_display": "7:16PMCT",
-      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json"
+      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json",
+      "leg_note": "Jalen Coker HIT; Tucker Kraft HIT",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "graded_at": "2026-10-30T03:45:08.496745+00:00",
+        "final_score": "Green Bay27,Carolina19(Final),total46",
+        "net_units": 6.379,
+        "net_usd": 63.79,
+        "source_note": "Final scoring summary and rush/receiving box verified; normal settlement assumed per owner Oct9 instruction, no cashout update found. Graded from sports results, not independent sportsbook settlement. Exact receipt payouts retained."
+      }
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10,
       "stake_units": 1.0,
       "market": "same_game_parlay",
       "line": null,
-      "net_units": null,
-      "net_usd": null,
+      "net_units": 4.247,
+      "net_usd": 42.47,
       "bet_id": "us-tn:01m64y4ad1ef7tmn35crf2aa7k",
       "date": "2026-10-29T17:57:00-05:00",
       "placed_at": "2026-10-29T17:57:00-05:00",
@@ -9003,7 +9034,8 @@
           "line": 3.5,
           "price": null,
           "implied_probability": null,
-          "model_probability": null
+          "model_probability": null,
+          "hit": true
         },
         {
           "event": "CAR @ GB",
@@ -9012,7 +9044,8 @@
           "line": 54.5,
           "price": null,
           "implied_probability": null,
-          "model_probability": null
+          "model_probability": null,
+          "hit": true
         },
         {
           "event": "CAR @ GB",
@@ -9024,12 +9057,22 @@
             "candidate": 0.47908094823653363
           },
           "price": null,
-          "implied_probability": null
+          "implied_probability": null,
+          "hit": true
         }
       ],
       "source": "Owner iMessage phonemsg-01M64Y5QPWTBAJQT8632CBZVFB Oct29 5:58:29PMCT; originalreceipt pixels inspected includingfooter. SHA256 e34fd809681c2e78354651ec3b5f3fc31a1a4e08529a4777eada3214fe88f6d4. DuplicateIDcheckpassed. Cashoutbuttonisofferonly; receipt7:16PMCT vs official7:15 retained separately.",
       "receipt_kickoff_display": "7:16PMCT",
-      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json"
+      "sealed_model_file": "tools/nfl/td_matchup_20261029/tonight_sealed_20261029.json",
+      "leg_note": "Green Bay Packers HIT; Under HIT; Chuba Hubbard HIT",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "graded_at": "2026-10-30T03:45:08.496745+00:00",
+        "final_score": "Green Bay27,Carolina19(Final),total46",
+        "net_units": 4.247,
+        "net_usd": 42.47,
+        "source_note": "Final scoring summary and rush/receiving box verified; normal settlement assumed per owner Oct9 instruction, no cashout update found. Graded from sports results, not independent sportsbook settlement. Exact receipt payouts retained."
+      }
     }
   ]
 }

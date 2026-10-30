@@ -1,0 +1,92 @@
+{
+  "graded_at": "2026-10-30T03:45:08.496745+00:00",
+  "event_id": "401873023",
+  "final": "GB27,CAR19",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+  "seal_sha256": "e65ca23af3d3c0de554233f5db3865e3457ed2fbb44e21a38f8be6cdfe60b769",
+  "n": 9,
+  "rows": [
+    {
+      "player": "Christian Watson",
+      "old": 0.455,
+      "candidate": 0.3336783467289815,
+      "tds": 0,
+      "y": 0
+    },
+    {
+      "player": "Chuba Hubbard",
+      "old": 0.384,
+      "candidate": 0.47908094823653363,
+      "tds": 1,
+      "y": 1
+    },
+    {
+      "player": "Darren Waller",
+      "old": 0.359,
+      "candidate": 0.24491205670374067,
+      "tds": 0,
+      "y": 0
+    },
+    {
+      "player": "Tucker Kraft",
+      "old": 0.336,
+      "candidate": 0.2958608902425112,
+      "tds": 1,
+      "y": 1
+    },
+    {
+      "player": "Tetairoa McMillan",
+      "old": 0.313,
+      "candidate": 0.3192328401031155,
+      "tds": 0,
+      "y": 0
+    },
+    {
+      "player": "Jalen Coker",
+      "old": 0.269,
+      "candidate": 0.26637950469846317,
+      "tds": 1,
+      "y": 1
+    },
+    {
+      "player": "Matthew Golden",
+      "old": 0.22,
+      "candidate": 0.3181517731837633,
+      "tds": 1,
+      "y": 1
+    },
+    {
+      "player": "Tommy Tremble",
+      "old": 0.212,
+      "candidate": 0.1922630465083472,
+      "tds": 0,
+      "y": 0
+    },
+    {
+      "player": "John Metchie III",
+      "old": 0.182,
+      "candidate": 0.17637889482350802,
+      "tds": 0,
+      "y": 0
+    }
+  ],
+  "metrics": {
+    "old": {
+      "brier": 0.2750062222222222,
+      "logloss": 0.7490216557852458
+    },
+    "candidate": {
+      "brier": 0.23462132603399036,
+      "logloss": 0.6556459864711341
+    }
+  },
+  "winner_tonight": "candidate",
+  "caveat": "One-game prospective diagnostic only, not overall accuracy/edge proof. Same9players, no postgame filtering or retuning. Jacobs preexcluded by2currentgamegate; he scored2TD but cannot be added retroactively. PassingTDs excluded.",
+  "all_scorers": {
+    "Chuba Hubbard": 1,
+    "Jalen Coker": 1,
+    "Josh Jacobs": 2,
+    "Matthew Golden": 1,
+    "Tucker Kraft": 1
+  }
+}

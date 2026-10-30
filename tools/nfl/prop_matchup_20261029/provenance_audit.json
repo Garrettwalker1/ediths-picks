@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-30T03:54:24.814411+00:00",
+  "root_file": "player_projections.json",
+  "root_sha256": "323d207d7b2353cf090a9c7b558900f761b46907e83c062179dd4bb2dc3d6a6c",
+  "actual_generator": "tools/nfl/week7_2026/players/generate_players_w7.py",
+  "origin_commit": "27abd11c3f1a110928df380dbf95ba54bab0f656",
+  "generated_at": "2026-10-20T12:33:42.673075+00:00",
+  "features": "2026 throughWeek6; rolling last3/6 playedgames cross seasons when fewer2026games; fit2023-25",
+  "current_gap": "Not refreshed throughWeek7. MatchupcontextWeek7, not currentWeek8. Old Oct13/Week6 UIlabels were leftover and incorrect.",
+  "metadata_gap": "sources/history_seasons fields omit2026 despite actualW7generator including2026. Do not infer2025onlyfeatureinput from obsolete rootgenerator.",
+  "tonight_recommendations": "Separate sealedTDcandidate and currentWeek8oldTDboard used; not rootgeneric63%Hubbard.",
+  "example": {
+    "player": "Chuba Hubbard",
+    "targets_last3": 2.7,
+    "carries_last3": 22.3,
+    "weeks2026": [
+      3,
+      4,
+      6
+    ]
+  },
+  "sources": [
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv"
+  ]
+}

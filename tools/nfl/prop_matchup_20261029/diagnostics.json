@@ -1,0 +1,137 @@
+{
+  "created_at": "2026-10-30T03:52:23.545906+00:00",
+  "scope": "Skill-player props only; same prior-history eligibility as TDtrial, conditional played-player not expected-availability model. No QBpassingtested.",
+  "split": "Train2021-23; selectRidgealpha2024MAE;2025SEENdiagnostic, not newholdout.",
+  "comparators": "old_formula refitted only2021-23 (not deployed2024-25fit), current4mean, usage_matchup candidate with TDfeaturefamily but stat-specific target. No future outcomes in features.",
+  "features": [
+    "is_home",
+    "targets_share",
+    "carries_share",
+    "carry_rz_share",
+    "carry_gl_share",
+    "target_rz_share",
+    "target_gl_share",
+    "targets_recent4",
+    "carries_recent4",
+    "off_epa_rate",
+    "opp_epa_rate",
+    "off_rush_rate",
+    "opp_rush_rate",
+    "off_pass_rate",
+    "opp_pass_rate",
+    "pos_QB",
+    "pos_RB",
+    "pos_TE",
+    "receiving_yards_current4",
+    "rushing_yards_current4",
+    "receptions_current4",
+    "receiving_air_yards_current4"
+  ],
+  "targets": {
+    "receiving_yards": {
+      "n": 12976,
+      "models": {
+        "old_formula": {
+          "alpha": 100,
+          "validation2024": {
+            "n": 2652,
+            "MAE": 20.198348750262678,
+            "RMSE": 27.85434088020976
+          },
+          "seen2025": {
+            "n": 2575,
+            "MAE": 19.971869029547953,
+            "RMSE": 27.27606060830938
+          }
+        },
+        "usage_matchup": {
+          "alpha": 100,
+          "validation2024": {
+            "n": 2652,
+            "MAE": 19.99870566975855,
+            "RMSE": 27.684099229007476
+          },
+          "seen2025": {
+            "n": 2575,
+            "MAE": 19.908862634280187,
+            "RMSE": 27.142171308188782
+          }
+        }
+      },
+      "seen2025_paired_game_MAE_delta_CI95": [
+        -0.21574829211007526,
+        0.08159393979445068
+      ]
+    },
+    "rushing_yards": {
+      "n": 4705,
+      "models": {
+        "old_formula": {
+          "alpha": 1,
+          "validation2024": {
+            "n": 966,
+            "MAE": 23.122479688176938,
+            "RMSE": 30.179332390075125
+          },
+          "seen2025": {
+            "n": 942,
+            "MAE": 23.55043787376714,
+            "RMSE": 32.39923254651202
+          }
+        },
+        "usage_matchup": {
+          "alpha": 1,
+          "validation2024": {
+            "n": 966,
+            "MAE": 22.978900056302017,
+            "RMSE": 30.00970940145341
+          },
+          "seen2025": {
+            "n": 942,
+            "MAE": 23.226604538129486,
+            "RMSE": 32.163120117774476
+          }
+        }
+      },
+      "seen2025_paired_game_MAE_delta_CI95": [
+        -0.6049105698260394,
+        -0.04658539435458693
+      ]
+    },
+    "receptions": {
+      "n": 12976,
+      "models": {
+        "old_formula": {
+          "alpha": 100,
+          "validation2024": {
+            "n": 2652,
+            "MAE": 1.5642534464049873,
+            "RMSE": 2.0465950432030002
+          },
+          "seen2025": {
+            "n": 2575,
+            "MAE": 1.5196490417988902,
+            "RMSE": 1.9546489796915383
+          }
+        },
+        "usage_matchup": {
+          "alpha": 100,
+          "validation2024": {
+            "n": 2652,
+            "MAE": 1.551050655560856,
+            "RMSE": 2.029303024178939
+          },
+          "seen2025": {
+            "n": 2575,
+            "MAE": 1.4997687970887108,
+            "RMSE": 1.9237798810331903
+          }
+        }
+      },
+      "seen2025_paired_game_MAE_delta_CI95": [
+        -0.031202075635417922,
+        -0.009778486090043071
+      ]
+    }
+  }
+}

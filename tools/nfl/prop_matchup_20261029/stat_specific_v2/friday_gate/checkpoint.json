@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-30T21:28:17.714202+00:00",
+  "research_only": true,
+  "live_predictions_unchanged": true,
+  "numeric_forecasts_withheld": true,
+  "reproduced_counts": {
+    "identities": 361,
+    "non_ACT": 47,
+    "team_mismatch": 5,
+    "numeric_model_stat_rows": 1552,
+    "cleared_for_pregame_seal": 0
+  },
+  "comparison": {
+    "receiving_yards": {
+      "n": 325,
+      "median_absolute_forecast_difference": 1.8269545568454006,
+      "accuracy_validation": false,
+      "comparator": "Reconstructed deployed2023-25 linear recipe + fresh throughWeek7 features, not stored Week7 values."
+    },
+    "rushing_yards": {
+      "n": 90,
+      "median_absolute_forecast_difference": 2.816485452724688,
+      "accuracy_validation": false,
+      "comparator": "Reconstructed deployed2023-25 linear recipe + fresh throughWeek7 features, not stored Week7 values."
+    },
+    "receptions": {
+      "n": 325,
+      "median_absolute_forecast_difference": 0.11073194261318897,
+      "accuracy_validation": false,
+      "comparator": "Reconstructed deployed2023-25 linear recipe + fresh throughWeek7 features, not stored Week7 values."
+    }
+  },
+  "protocol": "Train2021-23, alpha2024,2025 repeatedly-seen diagnostics, conditional played-player cohort. Rolling comparator is not deployed fit. Broader v2 cohort differs from first-pass TDeligible cohort. v2 lacks RZ features, not full TDformula equivalent. No promotion or full readiness claim.",
+  "forward_unverified_sha256": "662b1f213e08485ff7f3108d01c8dbf182081c0a85a5a9954217e250ad4922da",
+  "forward_comparison_sha256": "2e4693ef0ca0ff6b418d19ffd21bc790e1973a0fd0be8789972d02339b1b1fae",
+  "bounds": "Ridge means, 2024 marginal residual bands. Not conditional guarantees. Every361 universe member retained in audit. NonACT and team mismatches overlap, not additive. No current expected-snap model or teammate redistribution.",
+  "sources": [
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+      "sha256": "8521a2b63238025be2df4e7a5a11aefaeed295231f996e42b3409f9ce15f621d",
+      "observed_at": "2026-10-30T21:28:17.714202+00:00"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+      "observed_at": "2026-10-30T21:22:00.596659+00:00",
+      "sha256": "d7b7021b17ef704395172dce1ebca90f8902e72f88dc59f293dbf5703fc94741"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "observed_at": "2026-10-30T21:22:00.923097+00:00",
+      "sha256": "8ffca14b3f42a7a7cec9f21b53c98cd65f359a3411f4a5eea6d1edf21a3cf809"
+    }
+  ]
+}

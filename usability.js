@@ -2,6 +2,7 @@
 (()=>{
 const ready=()=>{
  const main=document.querySelector('main'),tabs=document.querySelector('.tabs');if(!main||!tabs)return;
+ const tdnav=tabs.querySelector('[data-tab=touchdowns]');if(tdnav){tdnav.textContent='TD research';tdnav.setAttribute('aria-label','Touchdown research');}
  tabs.setAttribute('aria-label','Dashboard sections');tabs.setAttribute('role','navigation');
  const title=main.querySelector('h1');if(title){const p=document.createElement('p');p.className='site-subtitle';p.textContent='Football models, player research and your results.';title.after(p);}
  // Lift the existing current board out of the old learning-log wrapper.

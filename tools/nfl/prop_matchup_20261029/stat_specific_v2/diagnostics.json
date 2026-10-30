@@ -1,0 +1,330 @@
+{
+  "created_at": "2026-10-30T04:09:46.615668+00:00",
+  "scope": "Research only. Train2021-23, select alpha2024;2025 seen diagnostic. Conditional played-player sample. Forward current-team inferred from latest stats, NOT verified roster/availability. No injury redistribution.",
+  "sources": [
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "sha256": "8301e4e3ab62af3f65d201251676dd79f912dce7a87a402835fe5ea4fb5d0379",
+      "observed_at": "2026-10-30T04:09:40.820631+00:00"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
+      "sha256": "61df5598e05f78fbf120703779952d6fa9cf134652e13ac4361ad16c8fc4ff4d",
+      "observed_at": "2026-10-30T04:09:41.201684+00:00"
+    }
+  ],
+  "targets": {
+    "receiving_yards": {
+      "rolling_comparator": {
+        "alpha": 100,
+        "features": [
+          "receiving_yards_r3",
+          "receiving_yards_r6",
+          "targets_r3",
+          "targets_r6",
+          "receptions_r3",
+          "receptions_r6",
+          "receiving_air_yards_r3",
+          "receiving_air_yards_r6",
+          "target_share_r3",
+          "target_share_r6",
+          "air_yards_share_r3",
+          "air_yards_share_r6",
+          "wopr_r3",
+          "wopr_r6"
+        ],
+        "validation2024": {
+          "n": 4109,
+          "MAE": 17.018798686116675,
+          "RMSE": 24.357103870110002
+        },
+        "seen2025": {
+          "n": 4229,
+          "MAE": 16.454803191183764,
+          "RMSE": 23.461168859740688
+        },
+        "validation_residual_quantiles_10_90": [
+          -23.555803282695283,
+          30.571015684110634
+        ],
+        "seen2025_interval_coverage": 0.7942776069992906
+      },
+      "usage_stat_matchup": {
+        "alpha": 100,
+        "features": [
+          "receiving_yards_r3",
+          "receiving_yards_r6",
+          "targets_r3",
+          "targets_r6",
+          "receptions_r3",
+          "receptions_r6",
+          "receiving_air_yards_r3",
+          "receiving_air_yards_r6",
+          "target_share_r3",
+          "target_share_r6",
+          "air_yards_share_r3",
+          "air_yards_share_r6",
+          "wopr_r3",
+          "wopr_r6",
+          "receiving_yards_current4",
+          "targets_current4",
+          "receptions_current4",
+          "receiving_air_yards_current4",
+          "target_share_current4",
+          "air_yards_share_current4",
+          "wopr_current4",
+          "carries_share",
+          "targets_share",
+          "attempts_share",
+          "is_home",
+          "prior_current_games",
+          "opp_sample_games",
+          "opp_receiving_yards_allowed",
+          "opp_targets_allowed",
+          "opp_receptions_allowed",
+          "opp_receiving_air_yards_allowed",
+          "pos_QB",
+          "pos_RB",
+          "pos_TE"
+        ],
+        "validation2024": {
+          "n": 4109,
+          "MAE": 16.852008369190987,
+          "RMSE": 24.256150807602925
+        },
+        "seen2025": {
+          "n": 4229,
+          "MAE": 16.300458187007248,
+          "RMSE": 23.34714002801809
+        },
+        "validation_residual_quantiles_10_90": [
+          -23.216803721153983,
+          30.347899267129645
+        ],
+        "seen2025_interval_coverage": 0.7938046819579097
+      },
+      "paired_game_cluster_MAE_delta_CI95": [
+        -0.23445062808799014,
+        -0.07187187603297052
+      ]
+    },
+    "rushing_yards": {
+      "rolling_comparator": {
+        "alpha": 1,
+        "features": [
+          "rushing_yards_r3",
+          "rushing_yards_r6",
+          "carries_r3",
+          "carries_r6"
+        ],
+        "validation2024": {
+          "n": 1228,
+          "MAE": 20.7654170133451,
+          "RMSE": 28.383874300460008
+        },
+        "seen2025": {
+          "n": 1247,
+          "MAE": 20.360426253234834,
+          "RMSE": 29.46455659178029
+        },
+        "validation_residual_quantiles_10_90": [
+          -28.691583038325696,
+          35.3080580617413
+        ],
+        "seen2025_interval_coverage": 0.781074578989575
+      },
+      "usage_stat_matchup": {
+        "alpha": 1,
+        "features": [
+          "rushing_yards_r3",
+          "rushing_yards_r6",
+          "carries_r3",
+          "carries_r6",
+          "rushing_yards_current4",
+          "carries_current4",
+          "carries_share",
+          "targets_share",
+          "attempts_share",
+          "is_home",
+          "prior_current_games",
+          "opp_sample_games",
+          "opp_rushing_yards_allowed",
+          "opp_carries_allowed",
+          "pos_QB",
+          "pos_RB",
+          "pos_TE"
+        ],
+        "validation2024": {
+          "n": 1228,
+          "MAE": 20.602521170743355,
+          "RMSE": 28.127153265593442
+        },
+        "seen2025": {
+          "n": 1247,
+          "MAE": 19.998259416923,
+          "RMSE": 29.018330654809855
+        },
+        "validation_residual_quantiles_10_90": [
+          -29.402209438109878,
+          35.38738742927708
+        ],
+        "seen2025_interval_coverage": 0.7923015236567763
+      },
+      "paired_game_cluster_MAE_delta_CI95": [
+        -0.5789870127854791,
+        -0.12974526585521493
+      ]
+    },
+    "receptions": {
+      "rolling_comparator": {
+        "alpha": 100,
+        "features": [
+          "receptions_r3",
+          "receptions_r6",
+          "targets_r3",
+          "targets_r6"
+        ],
+        "validation2024": {
+          "n": 4109,
+          "MAE": 1.3405483350669298,
+          "RMSE": 1.8142163764862762
+        },
+        "seen2025": {
+          "n": 4229,
+          "MAE": 1.2678691888702833,
+          "RMSE": 1.6900942926969362
+        },
+        "validation_residual_quantiles_10_90": [
+          -1.8174860630111582,
+          2.4291661290271853
+        ],
+        "seen2025_interval_coverage": 0.8202884842752424
+      },
+      "usage_stat_matchup": {
+        "alpha": 100,
+        "features": [
+          "receptions_r3",
+          "receptions_r6",
+          "targets_r3",
+          "targets_r6",
+          "receptions_current4",
+          "targets_current4",
+          "carries_share",
+          "targets_share",
+          "attempts_share",
+          "is_home",
+          "prior_current_games",
+          "opp_sample_games",
+          "opp_receptions_allowed",
+          "opp_targets_allowed",
+          "pos_QB",
+          "pos_RB",
+          "pos_TE"
+        ],
+        "validation2024": {
+          "n": 4109,
+          "MAE": 1.3239300660459403,
+          "RMSE": 1.8003092119660624
+        },
+        "seen2025": {
+          "n": 4229,
+          "MAE": 1.2521909084426959,
+          "RMSE": 1.6708615214817026
+        },
+        "validation_residual_quantiles_10_90": [
+          -1.786668281180899,
+          2.393957838020986
+        ],
+        "seen2025_interval_coverage": 0.8129581461338378
+      },
+      "paired_game_cluster_MAE_delta_CI95": [
+        -0.022035250508518255,
+        -0.009511211268963779
+      ]
+    },
+    "passing_yards": {
+      "rolling_comparator": {
+        "alpha": 100,
+        "features": [
+          "passing_yards_r3",
+          "passing_yards_r6",
+          "attempts_r3",
+          "attempts_r6",
+          "completions_r3",
+          "completions_r6",
+          "passing_air_yards_r3",
+          "passing_air_yards_r6",
+          "sacks_suffered_r3",
+          "sacks_suffered_r6"
+        ],
+        "validation2024": {
+          "n": 506,
+          "MAE": 65.3535036275579,
+          "RMSE": 82.25841018020878
+        },
+        "seen2025": {
+          "n": 494,
+          "MAE": 67.55940805575848,
+          "RMSE": 84.33925389606706
+        },
+        "validation_residual_quantiles_10_90": [
+          -97.95354301923625,
+          108.2411742776302
+        ],
+        "seen2025_interval_coverage": 0.7935222672064778
+      },
+      "usage_stat_matchup": {
+        "alpha": 100,
+        "features": [
+          "passing_yards_r3",
+          "passing_yards_r6",
+          "attempts_r3",
+          "attempts_r6",
+          "completions_r3",
+          "completions_r6",
+          "passing_air_yards_r3",
+          "passing_air_yards_r6",
+          "sacks_suffered_r3",
+          "sacks_suffered_r6",
+          "passing_yards_current4",
+          "attempts_current4",
+          "completions_current4",
+          "passing_air_yards_current4",
+          "sacks_suffered_current4",
+          "carries_share",
+          "targets_share",
+          "attempts_share",
+          "is_home",
+          "prior_current_games",
+          "opp_sample_games",
+          "opp_passing_yards_allowed",
+          "opp_attempts_allowed",
+          "opp_completions_allowed",
+          "opp_sacks_suffered_allowed",
+          "pos_QB",
+          "pos_RB",
+          "pos_TE"
+        ],
+        "validation2024": {
+          "n": 506,
+          "MAE": 64.87274124797892,
+          "RMSE": 80.99426209188583
+        },
+        "seen2025": {
+          "n": 494,
+          "MAE": 64.98518185795781,
+          "RMSE": 81.8546505924982
+        },
+        "validation_residual_quantiles_10_90": [
+          -92.31065854437738,
+          109.97524532355948
+        ],
+        "seen2025_interval_coverage": 0.8218623481781376
+      },
+      "paired_game_cluster_MAE_delta_CI95": [
+        -4.001515391577705,
+        -1.1355859491865208
+      ]
+    }
+  }
+}

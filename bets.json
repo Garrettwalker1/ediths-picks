@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-30T03:45:08.496745+00:00",
+  "updated_at": "2026-10-30T17:24:31.381286+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9073,6 +9073,119 @@
         "net_usd": 42.47,
         "source_note": "Final scoring summary and rush/receiving box verified; normal settlement assumed per owner Oct9 instruction, no cashout update found. Graded from sports results, not independent sportsbook settlement. Exact receipt payouts retained."
       }
+    },
+    {
+      "bet_id": "us-tn:01m66xbwgqf738e1cnskj1sb0b",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-30T12:22:00-05:00",
+      "placed_at": "2026-10-30T12:22:00-05:00",
+      "game": "MIN @ DET; CLE @ PIT; LV @ NYJ (NFL Week8)",
+      "event_ids": [
+        "401873030",
+        "401873027",
+        "401873029"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "SUN12:01PMCT",
+      "market": "parlay",
+      "bet": "4-leg SGP+: T.J. Hockenson ATD + Amon-Ra St. Brown ATD + Darnell Washington ATD + Mason Taylor ATD",
+      "selection": "T.J. Hockenson ATD + Amon-Ra St. Brown ATD + Darnell Washington ATD + Mason Taylor ATD",
+      "price": 14717,
+      "line": null,
+      "potential_payout_usd": 1481.78,
+      "potential_profit_usd": 1471.78,
+      "implied_probability": 0.006749004521833029,
+      "payout_implied_probability": 0.006748640149009975,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": null,
+      "legs": [
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "T.J. Hockenson",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.225,
+            "candidate": null
+          },
+          "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
+          "hit": null
+        },
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.396,
+            "candidate": null
+          },
+          "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
+          "hit": null
+        },
+        {
+          "event": "CLE @ PIT",
+          "event_id": "401873027",
+          "market": "anytime touchdown",
+          "selection": "Darnell Washington",
+          "line": null,
+          "price": 300,
+          "implied_probability": 0.25,
+          "model_probabilities": {
+            "old": 0.242,
+            "candidate": null
+          },
+          "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
+          "hit": null
+        },
+        {
+          "event": "LV @ NYJ",
+          "event_id": "401873029",
+          "market": "anytime touchdown",
+          "selection": "Mason Taylor",
+          "line": null,
+          "price": 370,
+          "implied_probability": 0.2127659574468085,
+          "model_probabilities": {
+            "old": 0.212,
+            "candidate": null
+          },
+          "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
+          "hit": null
+        }
+      ],
+      "sgp_components": [
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "selections": [
+            "T.J. Hockenson",
+            "Amon-Ra St. Brown"
+          ],
+          "price": 688,
+          "implied_probability": 0.12690355329949238,
+          "individual_leg_prices": null
+        }
+      ],
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction; no cashout recorded.",
+      "price_note": "Receipt headline+14717 and exacttotalpayout$1481.78 preserved independently. MIN/DET two-leg component+688; no Hockenson/St.Brown individual prices. Washington+300 andTaylor+370 are individual actual receipt prices. No supportedjointmodelprobability; do notmultiplysamegamemarginals. Receiptkickoff12:01PMCT differs ESPNscheduled12:00PMCT, both retained.",
+      "source": "OwneriMessage phonemsg-01M66XD2HQK7WFWY71CVEPK29A Oct30 12:23:30PMCT; originalreceiptpixels includingTNfooter inspected. SHA256 dd7a7b135a6e7016236bcdfd61ccbf04d1bd70a3c84e4d3b2ff41da1fd3d5691",
+      "leg_note": "All four TD legs pending. Final active/role checks and sports-result grading retained."
     }
   ]
 }

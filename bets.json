@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T19:19:52.250073+00:00",
+  "updated_at": "2026-10-31T22:07:12.270451+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9387,8 +9387,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-31T09:29:00-05:00",
@@ -9407,8 +9407,8 @@
       "potential_profit_usd": 17.8,
       "implied_probability": 0.3597122302158273,
       "payout_implied_probability": 0.3597122302158273,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1,
+      "net_usd": -10,
       "cashout_offer_usd": 10,
       "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
       "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
@@ -9423,7 +9423,11 @@
       },
       "price_note": "Actual user TN receipt +178 after25%profitboost, base+142, exactpayout$27.80 retained. Cashout$10 offer only. Third Saturday ticket, no shared teams with either parlay; same-slate/shared-model risks are not independence proof.",
       "source": "Owner iMessage phonemsg-01M695VEM1Y7XBMRKZWQ2B6FC2 Oct31 9:29:38AMCT. Original pixels including enlarged footer inspected. SHA256 4a928914b72e59d3f50e8c8f28cbc0c57fd25ca192b654afa078c0d415058de2",
-      "leg_note": "Arizona win required, pending; grade final sports result, normal-settlement standing grant unless user reports cashout."
+      "leg_note": "Arizona win required, pending; grade final sports result, normal-settlement standing grant unless user reports cashout.",
+      "payout_usd": 0,
+      "settled_at": "2026-10-31T22:07:12.270451+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856842",
+      "settlement_note": "Normal loss graded from ESPN final TexasTech34 Arizona26. No owner cashout report; cashout10 button was an offer only."
     },
     {
       "bet_id": "us-tn:01m69arveze0cspdecx8t5gx89",
@@ -9481,7 +9485,10 @@
           "implied_probability": 0.4065040650406504,
           "model_raw_home_margin": 8.751334385646754,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "TexasTech34-Arizona26",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856842"
         },
         {
           "event": "Northwestern Wildcats at Oregon Ducks",
@@ -9511,7 +9518,7 @@
       },
       "price_note": "Actual TN receipt +1128 and exact payout $122.80 retained, no boost shown. Repeats Wisconsin from earlier threeleg and Arizona from single; correlated exposure, not independent diversification.",
       "source": "Owner iMessage phonemsg-01M69ASH1AW6NQWH9M701V89KF Oct31 10:55:58AMCT. Original pixels and enlarged footer inspected. SHA256 af0779370a0f299504328b95c0e413deaef5fdf4825e03198997c855b192e897",
-      "leg_note": "WisconsinML lost on final30-0. Other legs remain individually pending and will be graded later; ticket correctly settled loss now. No cashout assumed.",
+      "leg_note": "WisconsinML and ArizonaML lost on finals; Northwestern individuallypending. Ticketnet already -10, not chargedagain.",
       "settled_at": "2026-10-31T19:19:52.250073+00:00",
       "payout_usd": 0,
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",

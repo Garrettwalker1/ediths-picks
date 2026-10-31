@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T14:16:45.520324+00:00",
+  "updated_at": "2026-10-31T14:30:20.065726+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9373,6 +9373,50 @@
       "price_note": "Headline +2112, base +1625, 30% profit boost and exact payout $221.26 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
       "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 5cd1157d8eaa5767916d51241d6bfc433edb86c0cd69ba6902d0034e8b9265df",
       "leg_note": "All legs pending; grade from official final sports results. Availability monitoring continues, no forecast edits."
+    },
+    {
+      "bet_id": "us-tn:01m695tvyff558pswd94xdmy2h",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-31T09:29:00-05:00",
+      "placed_at": "2026-10-31T09:29:00-05:00",
+      "game": "Arizona Wildcats at Texas Tech Red Raiders",
+      "event_id": "401856842",
+      "kickoff": "2026-10-31T16:00:00Z",
+      "market": "moneyline",
+      "bet": "Straight: Arizona moneyline",
+      "selection": "Arizona",
+      "price": 178,
+      "unboosted_price": 142,
+      "profit_boost_percent": 25,
+      "line": null,
+      "potential_payout_usd": 27.8,
+      "potential_profit_usd": 17.8,
+      "implied_probability": 0.3597122302158273,
+      "payout_implied_probability": 0.3597122302158273,
+      "net_units": 0,
+      "net_usd": 0,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week9 sealed no-AP baseline, unchanged through Oct25",
+        "model_raw_home_margin": 8.751334385646754,
+        "model_favorite": "Texas Tech",
+        "model_display_spread": "Texas Tech -9",
+        "model_probability": null,
+        "note": "Arizona moneyline opposes the frozen model winner. Verified receiver absences/returns do not establish a numerical QB/roster adjustment or flip. No supported Arizona win probability or price edge."
+      },
+      "price_note": "Actual user TN receipt +178 after25%profitboost, base+142, exactpayout$27.80 retained. Cashout$10 offer only. Third Saturday ticket, no shared teams with either parlay; same-slate/shared-model risks are not independence proof.",
+      "source": "Owner iMessage phonemsg-01M695VEM1Y7XBMRKZWQ2B6FC2 Oct31 9:29:38AMCT. Original pixels including enlarged footer inspected. SHA256 4a928914b72e59d3f50e8c8f28cbc0c57fd25ca192b654afa078c0d415058de2",
+      "leg_note": "Arizona win required, pending; grade final sports result, normal-settlement standing grant unless user reports cashout."
     }
   ]
 }

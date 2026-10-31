@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T19:17:07.669534+00:00",
+  "updated_at": "2026-10-31T19:19:52.250073+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9193,8 +9193,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-31T09:06:00-05:00",
@@ -9217,8 +9217,8 @@
       "potential_profit_usd": 94.21,
       "implied_probability": 0.09596928982725528,
       "payout_implied_probability": 0.09596008060646771,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "legs": [
         {
           "event": "Wisconsin Badgers at Iowa Hawkeyes",
@@ -9230,7 +9230,10 @@
           "implied_probability": 0.42735042735042733,
           "model_raw_home_margin": -3.822726028945045,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "Iowa30-Wisconsin0",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502"
         },
         {
           "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
@@ -9272,7 +9275,11 @@
       },
       "price_note": "Headline +942, base +628, 50% profit boost and exact payout $104.21 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
       "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 ddc7cab1ff07a0a731546124f6f4a2a403d3a8e33ac1d496fc860a585edf7a3e",
-      "leg_note": "All legs pending; grade from official final sports results. Availability monitoring continues, no forecast edits."
+      "leg_note": "WisconsinML lost on final30-0. Other legs remain individually pending and will be graded later; ticket correctly settled loss now. No cashout assumed.",
+      "settled_at": "2026-10-31T19:19:52.250073+00:00",
+      "payout_usd": 0,
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
+      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss."
     },
     {
       "bet_id": "us-tn:01m6950taye79804j9s3gdv6q6",
@@ -9424,8 +9431,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-31T10:55:00-05:00",
@@ -9446,8 +9453,8 @@
       "potential_profit_usd": 112.8,
       "implied_probability": 0.08143322475570032,
       "payout_implied_probability": 0.08143322475570033,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "legs": [
         {
           "event": "Wisconsin Badgers at Iowa Hawkeyes",
@@ -9459,7 +9466,10 @@
           "implied_probability": 0.4807692307692308,
           "model_raw_home_margin": -3.822726028945045,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "Iowa30-Wisconsin0",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502"
         },
         {
           "event": "Arizona Wildcats at Texas Tech Red Raiders",
@@ -9501,7 +9511,11 @@
       },
       "price_note": "Actual TN receipt +1128 and exact payout $122.80 retained, no boost shown. Repeats Wisconsin from earlier threeleg and Arizona from single; correlated exposure, not independent diversification.",
       "source": "Owner iMessage phonemsg-01M69ASH1AW6NQWH9M701V89KF Oct31 10:55:58AMCT. Original pixels and enlarged footer inspected. SHA256 af0779370a0f299504328b95c0e413deaef5fdf4825e03198997c855b192e897",
-      "leg_note": "Pending; normal sports-result settlement unless owner reports cashout. $10 cashout button is offer only. Northwestern role/final availability follow-through arranged."
+      "leg_note": "WisconsinML lost on final30-0. Other legs remain individually pending and will be graded later; ticket correctly settled loss now. No cashout assumed.",
+      "settled_at": "2026-10-31T19:19:52.250073+00:00",
+      "payout_usd": 0,
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
+      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss."
     },
     {
       "bet_id": "us-tn:01m69p8he8f55te8hqt56br4j9",

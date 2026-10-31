@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T14:30:20.065726+00:00",
+  "updated_at": "2026-10-31T15:56:37.177890+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9417,6 +9417,91 @@
       "price_note": "Actual user TN receipt +178 after25%profitboost, base+142, exactpayout$27.80 retained. Cashout$10 offer only. Third Saturday ticket, no shared teams with either parlay; same-slate/shared-model risks are not independence proof.",
       "source": "Owner iMessage phonemsg-01M695VEM1Y7XBMRKZWQ2B6FC2 Oct31 9:29:38AMCT. Original pixels including enlarged footer inspected. SHA256 4a928914b72e59d3f50e8c8f28cbc0c57fd25ca192b654afa078c0d415058de2",
       "leg_note": "Arizona win required, pending; grade final sports result, normal-settlement standing grant unless user reports cashout."
+    },
+    {
+      "bet_id": "us-tn:01m69arveze0cspdecx8t5gx89",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-31T10:55:00-05:00",
+      "placed_at": "2026-10-31T10:55:00-05:00",
+      "game": "Wisconsin Badgers at Iowa Hawkeyes; Arizona Wildcats at Texas Tech Red Raiders; Northwestern Wildcats at Oregon Ducks",
+      "event_ids": [
+        "401858502",
+        "401856842",
+        "401858505"
+      ],
+      "kickoff": "2026-10-31T16:00:00Z",
+      "market": "parlay",
+      "bet": "3-leg parlay: Wisconsin ML + Arizona ML + Northwestern ML",
+      "selection": "Wisconsin ML + Arizona ML + Northwestern ML",
+      "price": 1128,
+      "line": null,
+      "potential_payout_usd": 122.8,
+      "potential_profit_usd": 112.8,
+      "implied_probability": 0.08143322475570032,
+      "payout_implied_probability": 0.08143322475570033,
+      "net_units": 0,
+      "net_usd": 0,
+      "legs": [
+        {
+          "event": "Wisconsin Badgers at Iowa Hawkeyes",
+          "event_id": "401858502",
+          "market": "moneyline",
+          "selection": "Wisconsin",
+          "line": null,
+          "price": 108,
+          "implied_probability": 0.4807692307692308,
+          "model_raw_home_margin": -3.822726028945045,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Arizona Wildcats at Texas Tech Red Raiders",
+          "event_id": "401856842",
+          "market": "moneyline",
+          "selection": "Arizona",
+          "line": null,
+          "price": 146,
+          "implied_probability": 0.4065040650406504,
+          "model_raw_home_margin": 8.751334385646754,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Northwestern Wildcats at Oregon Ducks",
+          "event_id": "401858505",
+          "market": "moneyline",
+          "selection": "Northwestern",
+          "line": null,
+          "price": 140,
+          "implied_probability": 0.4166666666666667,
+          "model_raw_home_margin": 5.520630059143441,
+          "model_probability": null,
+          "hit": null
+        }
+      ],
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week9 sealed no-AP baseline, unchanged through Oct25",
+        "note": "Frozen no-AP baseline agrees with Wisconsin winner; opposes Arizona and Northwestern (Texas Tech -9, Oregon -5.5). No supported joint/win probabilities or numerical injury adjustments."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual user TN placed receipt",
+        "note": "Exact user variant, not earlier ESPN/DraftKings suggested card."
+      },
+      "price_note": "Actual TN receipt +1128 and exact payout $122.80 retained, no boost shown. Repeats Wisconsin from earlier threeleg and Arizona from single; correlated exposure, not independent diversification.",
+      "source": "Owner iMessage phonemsg-01M69ASH1AW6NQWH9M701V89KF Oct31 10:55:58AMCT. Original pixels and enlarged footer inspected. SHA256 af0779370a0f299504328b95c0e413deaef5fdf4825e03198997c855b192e897",
+      "leg_note": "Pending; normal sports-result settlement unless owner reports cashout. $10 cashout button is offer only. Northwestern role/final availability follow-through arranged."
     }
   ]
 }

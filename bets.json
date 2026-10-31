@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-30T17:24:31.381286+00:00",
+  "updated_at": "2026-10-31T14:16:45.520324+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9186,6 +9186,193 @@
       "price_note": "Receipt headline+14717 and exacttotalpayout$1481.78 preserved independently. MIN/DET two-leg component+688; no Hockenson/St.Brown individual prices. Washington+300 andTaylor+370 are individual actual receipt prices. No supportedjointmodelprobability; do notmultiplysamegamemarginals. Receiptkickoff12:01PMCT differs ESPNscheduled12:00PMCT, both retained.",
       "source": "OwneriMessage phonemsg-01M66XD2HQK7WFWY71CVEPK29A Oct30 12:23:30PMCT; originalreceiptpixels includingTNfooter inspected. SHA256 dd7a7b135a6e7016236bcdfd61ccbf04d1bd70a3c84e4d3b2ff41da1fd3d5691",
       "leg_note": "All four TD legs pending. Final active/role checks and sports-result grading retained."
+    },
+    {
+      "bet_id": "us-tn:01m694h2yffn3sykr91xxc869g",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-31T09:06:00-05:00",
+      "placed_at": "2026-10-31T09:06:00-05:00",
+      "game": "Wisconsin Badgers at Iowa Hawkeyes; Virginia Cavaliers at Wake Forest Demon Deacons; Miami Hurricanes at North Carolina Tar Heels",
+      "event_ids": [
+        "401858502",
+        "401858284",
+        "401858282"
+      ],
+      "kickoff": "2026-10-31T16:00:00Z",
+      "market": "parlay",
+      "bet": "3-leg parlay: Wisconsin ML + Wake Forest -12.5 + Miami Florida -13.5",
+      "selection": "Wisconsin ML + Wake Forest -12.5 + Miami Florida -13.5",
+      "price": 942,
+      "unboosted_price": 628,
+      "profit_boost_percent": 50,
+      "line": null,
+      "potential_payout_usd": 104.21,
+      "potential_profit_usd": 94.21,
+      "implied_probability": 0.09596928982725528,
+      "payout_implied_probability": 0.09596008060646771,
+      "net_units": 0,
+      "net_usd": 0,
+      "legs": [
+        {
+          "event": "Wisconsin Badgers at Iowa Hawkeyes",
+          "event_id": "401858502",
+          "market": "moneyline",
+          "selection": "Wisconsin",
+          "line": null,
+          "price": 134,
+          "implied_probability": 0.42735042735042733,
+          "model_raw_home_margin": -3.822726028945045,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
+          "event_id": "401858284",
+          "market": "spread",
+          "selection": "Wake Forest",
+          "line": -12.5,
+          "price": 115,
+          "implied_probability": 0.46511627906976744,
+          "model_raw_home_margin": 17.631876275047897,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Miami Hurricanes at North Carolina Tar Heels",
+          "event_id": "401858282",
+          "market": "alternate spread",
+          "selection": "Miami Florida",
+          "line": -13.5,
+          "price": 106,
+          "implied_probability": 0.4854368932038835,
+          "model_raw_home_margin": -22.642522497035213,
+          "model_probability": null,
+          "hit": null
+        }
+      ],
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week9 sealed no-AP baseline, unchanged through Oct25",
+        "note": "Raw home margins retained per leg; no injury/weather adjustment or supported joint/spread-cover probability. Wisconsin depth RB Palmer out on game-day report."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual user TN placed receipt",
+        "note": "Exact user variant, not earlier ESPN/DraftKings suggested card."
+      },
+      "price_note": "Headline +942, base +628, 50% profit boost and exact payout $104.21 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
+      "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 ddc7cab1ff07a0a731546124f6f4a2a403d3a8e33ac1d496fc860a585edf7a3e",
+      "leg_note": "All legs pending; grade from official final sports results. Availability monitoring continues, no forecast edits."
+    },
+    {
+      "bet_id": "us-tn:01m6950taye79804j9s3gdv6q6",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-31T09:15:00-05:00",
+      "placed_at": "2026-10-31T09:15:00-05:00",
+      "game": "Kansas Jayhawks at TCU Horned Frogs; Utah Utes at Cincinnati Bearcats; Washington Huskies at Nebraska Cornhuskers; Army Black Knights at Memphis Tigers",
+      "event_ids": [
+        "401856845",
+        "401856848",
+        "401858504",
+        "401862814"
+      ],
+      "kickoff": "2026-10-31T19:30:00Z",
+      "market": "parlay",
+      "bet": "4-leg parlay: Kansas ML + Utah -6.5 + Nebraska -7.5 + Memphis -5.5",
+      "selection": "Kansas ML + Utah -6.5 + Nebraska -7.5 + Memphis -5.5",
+      "price": 2112,
+      "unboosted_price": 1625,
+      "profit_boost_percent": 30,
+      "line": null,
+      "potential_payout_usd": 221.26,
+      "potential_profit_usd": 211.26,
+      "implied_probability": 0.045207956600361664,
+      "payout_implied_probability": 0.04519569736961041,
+      "net_units": 0,
+      "net_usd": 0,
+      "legs": [
+        {
+          "event": "Kansas Jayhawks at TCU Horned Frogs",
+          "event_id": "401856845",
+          "market": "moneyline",
+          "selection": "Kansas",
+          "line": null,
+          "price": 202,
+          "implied_probability": 0.33112582781456956,
+          "model_raw_home_margin": -2.0560719202634097,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Utah Utes at Cincinnati Bearcats",
+          "event_id": "401856848",
+          "market": "alternate spread",
+          "selection": "Utah",
+          "line": -6.5,
+          "price": -119,
+          "implied_probability": 0.54337899543379,
+          "model_raw_home_margin": -8.190305183149475,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Washington Huskies at Nebraska Cornhuskers",
+          "event_id": "401858504",
+          "market": "spread",
+          "selection": "Nebraska",
+          "line": -7.5,
+          "price": 103,
+          "implied_probability": 0.49261083743842365,
+          "model_raw_home_margin": 10.628226090066885,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Army Black Knights at Memphis Tigers",
+          "event_id": "401862814",
+          "market": "spread",
+          "selection": "Memphis",
+          "line": -5.5,
+          "price": -106,
+          "implied_probability": 0.5145631067961165,
+          "model_raw_home_margin": 8.672684388854499,
+          "model_probability": null,
+          "hit": null
+        }
+      ],
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week9 sealed no-AP baseline, unchanged through Oct25",
+        "note": "Raw home margins retained per leg; no injury/quarterback/weather adjustment or supported joint/spread-cover probability. Model means are not probabilities. Kansas QB Marshall questionable; Memphis final availability unverified at placement."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual user TN placed receipt",
+        "note": "Exact user variant, not earlier ESPN/DraftKings suggested card."
+      },
+      "price_note": "Headline +2112, base +1625, 30% profit boost and exact payout $221.26 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
+      "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 5cd1157d8eaa5767916d51241d6bfc433edb86c0cd69ba6902d0034e8b9265df",
+      "leg_note": "All legs pending; grade from official final sports results. Availability monitoring continues, no forecast edits."
     }
   ]
 }

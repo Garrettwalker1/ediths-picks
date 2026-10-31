@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T15:56:37.177890+00:00",
+  "updated_at": "2026-10-31T19:17:07.669534+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9502,6 +9502,91 @@
       "price_note": "Actual TN receipt +1128 and exact payout $122.80 retained, no boost shown. Repeats Wisconsin from earlier threeleg and Arizona from single; correlated exposure, not independent diversification.",
       "source": "Owner iMessage phonemsg-01M69ASH1AW6NQWH9M701V89KF Oct31 10:55:58AMCT. Original pixels and enlarged footer inspected. SHA256 af0779370a0f299504328b95c0e413deaef5fdf4825e03198997c855b192e897",
       "leg_note": "Pending; normal sports-result settlement unless owner reports cashout. $10 cashout button is offer only. Northwestern role/final availability follow-through arranged."
+    },
+    {
+      "bet_id": "us-tn:01m69p8he8f55te8hqt56br4j9",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-10-31T14:16:00-05:00",
+      "placed_at": "2026-10-31T14:16:00-05:00",
+      "game": "Colorado State Rams at Utah State Aggies; Florida Gators at Georgia Bulldogs; Virginia Cavaliers at Wake Forest Demon Deacons",
+      "event_ids": [
+        "401860910",
+        "401856734",
+        "401858284"
+      ],
+      "kickoff": "2026-10-31T19:30:00Z",
+      "market": "parlay",
+      "bet": "3-leg parlay: Utah State -9.5 + Georgia -11.5 + Wake Forest -13.5",
+      "selection": "Utah State -9.5 + Georgia -11.5 + Wake Forest -13.5",
+      "price": 605,
+      "line": null,
+      "potential_payout_usd": 70.55,
+      "potential_profit_usd": 60.55,
+      "implied_probability": 0.14184397163120568,
+      "payout_implied_probability": 0.14174344436569808,
+      "net_units": 0,
+      "net_usd": 0,
+      "legs": [
+        {
+          "event": "Colorado State Rams at Utah State Aggies",
+          "event_id": "401860910",
+          "market": "spread",
+          "selection": "Utah State",
+          "line": -9.5,
+          "price": -110,
+          "implied_probability": 0.5238095238095238,
+          "model_raw_home_margin": 13.548335688807894,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Florida Gators at Georgia Bulldogs",
+          "event_id": "401856734",
+          "market": "spread",
+          "selection": "Georgia",
+          "line": -11.5,
+          "price": -112,
+          "implied_probability": 0.5283018867924528,
+          "model_raw_home_margin": 13.036302714969574,
+          "model_probability": null,
+          "hit": null
+        },
+        {
+          "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
+          "event_id": "401858284",
+          "market": "spread",
+          "selection": "Wake Forest",
+          "line": -13.5,
+          "price": -105,
+          "implied_probability": 0.5121951219512195,
+          "model_raw_home_margin": 17.631876275047897,
+          "model_probability": null,
+          "hit": null
+        }
+      ],
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "sealed_model_file": "tools/cfb/week9_20261026/week9_sealed_research.json",
+      "model_at_placement": {
+        "available": true,
+        "model_version": "Week9 sealed no-AP baseline, unchanged through Oct25",
+        "note": "Frozen no-AP baseline Georgia-13/UtahState-13.5/Wake-17.5. Injury-adjusted numbers null. USU13OUT, Georgia2GTD; unchanged margins not an injury-adjusted edge. No supported combined cover probability."
+      },
+      "market_context_at_placement": {
+        "available": true,
+        "source": "Actual user TN placed receipt",
+        "note": "Exact user variant, not earlier ESPN/DraftKings suggested card."
+      },
+      "price_note": "Actual TN slip +605 and exactreturn$70.55 override earlier computed reference+606. No boost shown. $10/1u, not earlier suggested $5maximum. Wake repeated at-13.5 versus earlier-12.5; correlated exposure, no independence assumption.",
+      "source": "Owner iMessage phonemsg-01M69P9C6KTNDPN3PYHGSYGXXF Oct31 2:16:52PMCT. Original pixels including footer inspected. SHA256 f06cdb775f6942b3748daf29609480d1b4ecd23dcff70ca38dcb9fd9cb70fdad",
+      "leg_note": "All pending. Normal sports-result settlement unless owner reports cashout; cashout10 offer not transaction. All three game-day reports checked beforeplacement."
     }
   ]
 }

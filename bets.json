@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T18:01:50.992295+00:00",
+  "updated_at": "2026-11-01T20:45:49.058556+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10425,6 +10425,123 @@
       "source": "Owner iMessage phonemsg-01M6C4C675HQKEY5CPY0HE60GR Nov1 12:01:33PMCST; originalpixels/footerinspected SHA256 ede2ca3f248183dff3f26c48b7d0879c31297c4f9d60e5c945621bfe0c4c90d5",
       "price_note": "ActualTNreceipt+440,$10stake,$54exactreturn. Cashout$8.62isofferonly,nottransaction; no boost. Sunday11tickets110,MINDET8tickets80unchanged. TEN/CINnow2tickets20includingGesickiopposingteamleg.",
       "leg_note": "Pending final TD sports-result grading; receipt placed12:01CST nearkickoff. No new prediction."
+    },
+    {
+      "bet_id": "us-tn:01m6cdq1rnf12v2hqvvp4wjfpw",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-01T14:44:00-06:00",
+      "placed_at": "2026-11-01T14:44:00-06:00",
+      "game": "LAC @ LA; KC @ DEN; NE @ MIA (NFL Week8)",
+      "event_ids": [
+        "401873032",
+        "401873033",
+        "401873034"
+      ],
+      "kickoff": "2026-11-01T21:05:00Z",
+      "receipt_kickoff_display": "3:06PMCT Rams;3:26PMCT Chiefs/Patriots",
+      "market": "same_game_parlay_plus",
+      "bet": "4-leg SGP+: Kyren Williams ATD + Puka Nacua ATD + Kenneth Walker III ATD + Rhamondre Stevenson ATD",
+      "selection": "Kyren Williams ATD + Puka Nacua ATD + Kenneth Walker III ATD + Rhamondre Stevenson ATD",
+      "price": 1063,
+      "line": null,
+      "potential_payout_usd": 116.37,
+      "potential_profit_usd": 106.37,
+      "implied_probability": 0.08598452278589853,
+      "payout_implied_probability": 0.08593280054996992,
+      "net_usd": 0,
+      "net_units": 0,
+      "profit_boost_percent": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "LAC @ LA",
+          "event_id": "401873032",
+          "market": "anytime touchdown",
+          "selection": "Kyren Williams",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.49,
+            "candidate": null
+          },
+          "model_note": "Unchanged Week8 scoring-history baseline throughWeek7, current injury/usage-adjusted probability unavailable. Official final inactive-list gate cleared2:38-2:43CST. No workload guarantee or joint model probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T21:05:00Z"
+        },
+        {
+          "event": "LAC @ LA",
+          "event_id": "401873032",
+          "market": "anytime touchdown",
+          "selection": "Puka Nacua",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.455,
+            "candidate": null
+          },
+          "model_note": "Unchanged Week8 scoring-history baseline throughWeek7, current injury/usage-adjusted probability unavailable. Official final inactive-list gate cleared2:38-2:43CST. No workload guarantee or joint model probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T21:05:00Z"
+        },
+        {
+          "event": "KC @ DEN",
+          "event_id": "401873033",
+          "market": "anytime touchdown",
+          "selection": "Kenneth Walker III",
+          "line": null,
+          "price": -120,
+          "implied_probability": 0.5454545454545454,
+          "model_probabilities": {
+            "old": 0.459,
+            "candidate": null
+          },
+          "model_note": "Unchanged Week8 scoring-history baseline throughWeek7, current injury/usage-adjusted probability unavailable. Official final inactive-list gate cleared2:38-2:43CST. No workload guarantee or joint model probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T21:25:00Z"
+        },
+        {
+          "event": "NE @ MIA",
+          "event_id": "401873034",
+          "market": "anytime touchdown",
+          "selection": "Rhamondre Stevenson",
+          "line": null,
+          "price": -125,
+          "implied_probability": 0.5555555555555556,
+          "model_probabilities": {
+            "old": 0.454,
+            "candidate": null
+          },
+          "model_note": "Unchanged Week8 scoring-history baseline throughWeek7, current injury/usage-adjusted probability unavailable. Official final inactive-list gate cleared2:38-2:43CST. No workload guarantee or joint model probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T21:25:00Z"
+        }
+      ],
+      "sgp_components": [
+        {
+          "event": "LAC @ LA",
+          "event_id": "401873032",
+          "selections": [
+            "Kyren Williams",
+            "Puka Nacua"
+          ],
+          "price": 252,
+          "implied_probability": 0.2840909090909091,
+          "individual_leg_prices": null
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6CDQRAEHDV04YN5G2WCFEAW Nov1 2:45:09PMCST; originalreceipt/footerpixelsinspected SHA256 75be3a0d560df46a3aaee427c744dc736e7c869bf7a3c110ad6958c21cd44d58",
+      "price_note": "ActualTNreceiptprices supersede aggregatorreferences. Exact116.37return authoritative over rounded1063headline. No boost;cashout10offeronly. Kyren/PukaSGP252,individualpricesunknown,no reverseengineering. Walker-12054.5%impliedvs45.9%baseline;Stevenson-12555.6%vs45.4%;notprovenedges. Sunday12tickets120committed,Puka2tickets20,LACLA2tickets20,MINDET8tickets80unchanged.",
+      "leg_note": "All pending; final sports-result grading including bounded late games retained."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T03:42:29.174894+00:00",
+  "updated_at": "2026-11-01T06:20:25.979589+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9664,6 +9664,332 @@
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80&limit=400",
       "settlement_note": "Normal sports-result settlement from all final scores; exact receipt payout retained. Owner Oct9 normal settlement grant, no cashout report found. Not independently checked sportsbook account.",
       "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
+    },
+    {
+      "bet_id": "us-tn:01m6aw1fawe20a3qgm3c1jvd5f",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T01:16:00-05:00",
+      "placed_at": "2026-11-01T01:16:00-05:00",
+      "game": "MIN @ DET; ATL @ TB; ARI @ DAL; LAC @ LA (NFL Week8)",
+      "event_ids": [
+        "401873030",
+        "401873025",
+        "401873024",
+        "401873032"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT early legs;3:06PMCT Puka",
+      "market": "parlay",
+      "bet": "4-leg parlay: Jahmyr Gibbs ATD + Bijan Robinson ATD + CeeDee Lamb ATD + Puka Nacua ATD",
+      "selection": "Jahmyr Gibbs ATD + Bijan Robinson ATD + CeeDee Lamb ATD + Puka Nacua ATD",
+      "price": 737,
+      "line": null,
+      "potential_payout_usd": 83.73,
+      "potential_profit_usd": 73.73,
+      "implied_probability": 0.11947431302270012,
+      "payout_implied_probability": 0.11943150603129105,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": 30,
+      "unboosted_price": 567,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Jahmyr Gibbs",
+          "line": null,
+          "price": -215,
+          "implied_probability": 0.6825396825396826,
+          "model_probabilities": {
+            "old": 0.643,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        },
+        {
+          "event": "ATL @ TB",
+          "event_id": "401873025",
+          "market": "anytime touchdown",
+          "selection": "Bijan Robinson",
+          "line": null,
+          "price": -167,
+          "implied_probability": 0.6254681647940075,
+          "model_probabilities": {
+            "old": 0.453,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        },
+        {
+          "event": "ARI @ DAL",
+          "event_id": "401873024",
+          "market": "anytime touchdown",
+          "selection": "CeeDee Lamb",
+          "line": null,
+          "price": -115,
+          "implied_probability": 0.5348837209302325,
+          "model_probabilities": {
+            "old": 0.377,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        },
+        {
+          "event": "LAC @ LA",
+          "event_id": "401873032",
+          "market": "anytime touchdown",
+          "selection": "Puka Nacua",
+          "line": null,
+          "price": -111,
+          "implied_probability": 0.5260663507109005,
+          "model_probabilities": {
+            "old": 0.455,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T21:05:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 f0254720a0c9fc1ac6d233b631cda335acf28ac57860bdaf5489d6e129df99b7",
+      "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
+      "leg_note": "All legs pending; final active/role checks and sports-result grading retained. Puka late game requires separate follow-through."
+    },
+    {
+      "bet_id": "us-tn:01m6aw2kjjfdrscckb1jznh96r",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T01:17:00-05:00",
+      "placed_at": "2026-11-01T01:17:00-05:00",
+      "game": "MIN @ DET (NFL Week8)",
+      "event_ids": [
+        "401873030"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: T.J. Hockenson ATD",
+      "selection": "T.J. Hockenson ATD",
+      "price": 260,
+      "line": null,
+      "potential_payout_usd": 36,
+      "potential_profit_usd": 26,
+      "implied_probability": 0.2777777777777778,
+      "payout_implied_probability": 0.2777777777777778,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "T.J. Hockenson",
+          "line": null,
+          "price": 260,
+          "implied_probability": 0.2777777777777778,
+          "model_probabilities": {
+            "old": 0.225,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 f68d95bb6cede2b9ab0574239798b14644ad694b139b18abc6bac0c0ced9ddd3",
+      "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
+      "leg_note": "Pending; no game result available."
+    },
+    {
+      "bet_id": "us-tn:01m6aw250fezr8xyrkwdc81ped",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T01:17:00-05:00",
+      "placed_at": "2026-11-01T01:17:00-05:00",
+      "game": "LV @ NYJ (NFL Week8)",
+      "event_ids": [
+        "401873029"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: Mason Taylor ATD",
+      "selection": "Mason Taylor ATD",
+      "price": 370,
+      "line": null,
+      "potential_payout_usd": 47,
+      "potential_profit_usd": 37,
+      "implied_probability": 0.2127659574468085,
+      "payout_implied_probability": 0.2127659574468085,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "LV @ NYJ",
+          "event_id": "401873029",
+          "market": "anytime touchdown",
+          "selection": "Mason Taylor",
+          "line": null,
+          "price": 370,
+          "implied_probability": 0.2127659574468085,
+          "model_probabilities": {
+            "old": 0.212,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 a0f204b2c20b376e141400a46887674954b6ca174361d56011c4f8cb09c8f9be",
+      "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
+      "leg_note": "Pending; no game result available."
+    },
+    {
+      "bet_id": "us-tn:01m6aw3425e9x890jsgcgwngfe",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T01:17:00-05:00",
+      "placed_at": "2026-11-01T01:17:00-05:00",
+      "game": "MIN @ DET (NFL Week8)",
+      "event_ids": [
+        "401873030"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: Amon-Ra St. Brown ATD",
+      "selection": "Amon-Ra St. Brown ATD",
+      "price": 176,
+      "line": null,
+      "potential_payout_usd": 27.6,
+      "potential_profit_usd": 17.6,
+      "implied_probability": 0.36231884057971014,
+      "payout_implied_probability": 0.36231884057971014,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": 30,
+      "unboosted_price": 135,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": 135,
+          "implied_probability": 0.425531914893617,
+          "model_probabilities": {
+            "old": 0.396,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 133ce318d321989d91add86b992e91d83f0a44fa766e48283eb2c9079a2dd8f6",
+      "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets. StBrown leg base+135; ticket30%boostheadline+176; payout27.60 implies36.2319% breakeven, not roundedheadline36.2319% assumed arithmetic.",
+      "leg_note": "Pending; no game result available."
+    },
+    {
+      "bet_id": "us-tn:01m6aw4aecftbthd1yah7a84vw",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T01:18:00-05:00",
+      "placed_at": "2026-11-01T01:18:00-05:00",
+      "game": "CLE @ PIT (NFL Week8)",
+      "event_ids": [
+        "401873027"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: Darnell Washington ATD",
+      "selection": "Darnell Washington ATD",
+      "price": 240,
+      "line": null,
+      "potential_payout_usd": 34,
+      "potential_profit_usd": 24,
+      "implied_probability": 0.29411764705882354,
+      "payout_implied_probability": 0.29411764705882354,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CLE @ PIT",
+          "event_id": "401873027",
+          "market": "anytime touchdown",
+          "selection": "Darnell Washington",
+          "line": null,
+          "price": 240,
+          "implied_probability": 0.29411764705882354,
+          "model_probabilities": {
+            "old": 0.242,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 a08271d2c96b2a01d81ced5ccebd9b17849f19aabf7f59af22020a3cc15a1bf9",
+      "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
+      "leg_note": "Pending; no game result available."
     }
   ]
 }

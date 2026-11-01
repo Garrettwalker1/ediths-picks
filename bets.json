@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T17:00:23.817145+00:00",
+  "updated_at": "2026-11-01T17:47:36.650697+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10273,6 +10273,103 @@
       "source": "Owner iMessage phonemsg-01M6C0VA4GAEB7TGZ8TFE153S2 Nov1 10:59:54AMCST; originalpixels/footerinspected SHA256 d6381557b02589bb6ae4a2dbb855eb9214ce384b0136b8eb06538fd278b2bc59",
       "price_note": "ActualTNreceiptprices supersede earlier aggregatorquotes. Exact payout retained independently of roundedheadlineodds. No boostshown. Allen/HenryindividualpricesnotavailablefromSGP; no reverse-derivedsingleprices or jointmodelprobability. All9Sundaytickets90stake; MINDET7tickets70, Gibbs2tickets20, StBrown3tickets30. Cashoutoffersnottransactions.",
       "leg_note": "All legs pending; official inactives and final sports-result grading retained."
+    },
+    {
+      "bet_id": "us-tn:01m6c3gdwmf6c8dspa99hdfcpm",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-01T11:46:00-06:00",
+      "placed_at": "2026-11-01T11:46:00-06:00",
+      "game": "BAL @ BUF; MIN @ DET (NFL Week8)",
+      "event_ids": [
+        "401873026",
+        "401873030"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "same_game_parlay_plus",
+      "bet": "3-leg SGP+: Zay Flowers ATD + D.J. Moore ATD + T.J. Hockenson ATD",
+      "selection": "Zay Flowers ATD + D.J. Moore ATD + T.J. Hockenson ATD",
+      "price": 2050,
+      "line": null,
+      "potential_payout_usd": 215.09,
+      "potential_profit_usd": 205.09,
+      "implied_probability": 0.046511627906976744,
+      "payout_implied_probability": 0.0464921660700172,
+      "net_usd": 0,
+      "net_units": 0,
+      "profit_boost_percent": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "market": "anytime touchdown",
+          "selection": "Zay Flowers",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.373,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
+          "hit": null
+        },
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "market": "anytime touchdown",
+          "selection": "D.J. Moore",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
+          "hit": null
+        },
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "T.J. Hockenson",
+          "line": null,
+          "price": 240,
+          "implied_probability": 0.29411764705882354,
+          "model_probabilities": {
+            "old": 0.225,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
+          "hit": null
+        }
+      ],
+      "sgp_components": [
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "selections": [
+            "Zay Flowers",
+            "D.J. Moore"
+          ],
+          "price": 532,
+          "implied_probability": 0.15822784810126583,
+          "individual_leg_prices": null
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6C3H2DGPRWBRYZ53N71F0FQ Nov1 11:46:44AMCST; originalpixels/footerinspected SHA256 df65274fe362e1d7e377c70d3479b34e4fd6ffcb1f30ed81b3b14fa520abc691",
+      "price_note": "Exact receipt payout authoritative over rounded +2050 headline. No boost. Flowers/Moore SGP +532 only; individual prices unknown, no reverse engineering or joint model probability. Bills D.J. Moore and BAL@BUF mapping preserved from receipt and current CBS active report. Cashout10 offer only, not a transaction. Sunday10tickets100; MINDET8tickets80,Hockenson3tickets30.",
+      "leg_note": "All legs pending; official inactive-list gates cleared, workload unknown. Final sports-result grading retained."
     }
   ]
 }

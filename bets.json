@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T06:20:25.979589+00:00",
+  "updated_at": "2026-11-01T15:49:05.580749+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9990,6 +9990,107 @@
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 a08271d2c96b2a01d81ced5ccebd9b17849f19aabf7f59af22020a3cc15a1bf9",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
       "leg_note": "Pending; no game result available."
+    },
+    {
+      "bet_id": "us-tn:01m6bwqse4f37b5c8w47bv296a",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-01T09:48:00-06:00",
+      "placed_at": "2026-11-01T09:48:00-06:00",
+      "game": "BAL @ BUF; MIN @ DET; ARI @ DAL; LV @ NYJ (NFL Week8)",
+      "event_ids": [
+        "401873026",
+        "401873030",
+        "401873024",
+        "401873029"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "parlay",
+      "bet": "4-leg parlay: Flowers ATD + St. Brown ATD + Pickens ATD + Bowers ATD",
+      "selection": "Zay Flowers ATD + Amon-Ra St. Brown ATD + George Pickens ATD + Brock Bowers ATD",
+      "price": 2174,
+      "line": null,
+      "potential_payout_usd": 227.48,
+      "potential_profit_usd": 217.48,
+      "implied_probability": 0.04397537379067722,
+      "payout_implied_probability": 0.04395990856339019,
+      "net_usd": 0,
+      "net_units": 0,
+      "profit_boost_percent": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "market": "anytime touchdown",
+          "selection": "Zay Flowers",
+          "line": null,
+          "price": 135,
+          "implied_probability": 0.425531914893617,
+          "model_probabilities": {
+            "old": 0.373,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        },
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Amon-Ra St. Brown",
+          "line": null,
+          "price": 120,
+          "implied_probability": 0.45454545454545453,
+          "model_probabilities": {
+            "old": 0.396,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        },
+        {
+          "event": "ARI @ DAL",
+          "event_id": "401873024",
+          "market": "anytime touchdown",
+          "selection": "George Pickens",
+          "line": null,
+          "price": 100,
+          "implied_probability": 0.5,
+          "model_probabilities": {
+            "old": 0.261,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable. Pickens questionable shoulder/hamstring, reported expected to play, not confirmed active/unrestricted.",
+          "hit": null
+        },
+        {
+          "event": "LV @ NYJ",
+          "event_id": "401873029",
+          "market": "anytime touchdown",
+          "selection": "Brock Bowers",
+          "line": null,
+          "price": 120,
+          "implied_probability": 0.45454545454545453,
+          "model_probabilities": {
+            "old": 0.399,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6BWRB01KXE6QMNGWSVTN8VT Nov1 9:48:22AMCST, originalreceiptpixels/footerinspected SHA256 23fb9fb6d10bf2c213bc0aa1d884d09420d08344ae80e9e4e6cc46521c105e16",
+      "price_note": "Exact receipt return227.48 retained separately from rounded+2174headline; no boostshown. ActualTNreceiptprices9:48AMCST, notcurrentquotes. No supportedjointprobability or quantifiedcorrelation. StBrown3tickets30stake; MINDET5tickets50stake. Pickens/LambsameDALgame; BowersopposesMasonTaylorinLVNYJ, sharedenvironment notindependence.",
+      "leg_note": "All pending. Final inactives and sports-result grading retained."
     }
   ]
 }

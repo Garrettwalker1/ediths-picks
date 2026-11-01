@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T15:49:05.580749+00:00",
+  "updated_at": "2026-11-01T17:00:23.817145+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10091,6 +10091,188 @@
       "source": "Owner iMessage phonemsg-01M6BWRB01KXE6QMNGWSVTN8VT Nov1 9:48:22AMCST, originalreceiptpixels/footerinspected SHA256 23fb9fb6d10bf2c213bc0aa1d884d09420d08344ae80e9e4e6cc46521c105e16",
       "price_note": "Exact receipt return227.48 retained separately from rounded+2174headline; no boostshown. ActualTNreceiptprices9:48AMCST, notcurrentquotes. No supportedjointprobability or quantifiedcorrelation. StBrown3tickets30stake; MINDET5tickets50stake. Pickens/LambsameDALgame; BowersopposesMasonTaylorinLVNYJ, sharedenvironment notindependence.",
       "leg_note": "All pending. Final inactives and sports-result grading retained."
+    },
+    {
+      "bet_id": "us-tn:01m6c0shzkfcaaxqasna4smsvx",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-01T10:58:00-06:00",
+      "placed_at": "2026-11-01T10:58:00-06:00",
+      "game": "BAL @ BUF; MIN @ DET (NFL Week8)",
+      "event_ids": [
+        "401873026",
+        "401873030"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "same_game_parlay_plus",
+      "bet": "3-leg SGP+: Derrick Henry ATD + Josh Allen ATD + Jahmyr Gibbs ATD",
+      "selection": "Derrick Henry ATD + Josh Allen ATD + Jahmyr Gibbs ATD",
+      "price": 252,
+      "line": null,
+      "potential_payout_usd": 35.25,
+      "potential_profit_usd": 25.25,
+      "implied_probability": 0.2840909090909091,
+      "payout_implied_probability": 0.28368794326241137,
+      "net_usd": 0,
+      "net_units": 0,
+      "profit_boost_percent": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "market": "anytime touchdown",
+          "selection": "Derrick Henry",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.58,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        },
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "market": "anytime touchdown",
+          "selection": "Josh Allen",
+          "line": null,
+          "price": null,
+          "implied_probability": null,
+          "model_probabilities": {
+            "old": 0.586,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; no supported joint probability. Josh Allen baseline covers rushing TD only, not passing.",
+          "hit": null
+        },
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Jahmyr Gibbs",
+          "line": null,
+          "price": -250,
+          "implied_probability": 0.7142857142857143,
+          "model_probabilities": {
+            "old": 0.643,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        }
+      ],
+      "sgp_components": [
+        {
+          "event": "BAL @ BUF",
+          "event_id": "401873026",
+          "selections": [
+            "Derrick Henry",
+            "Josh Allen"
+          ],
+          "price": 151,
+          "implied_probability": 0.398406374501992,
+          "individual_leg_prices": null
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6C0VA4GAEB7TGZ8TFE153S2 Nov1 10:59:54AMCST; originalpixels/footerinspected SHA256 95f0e19746808e07ef8945aa7df28733e050db402c8e6b2079c24bbbf585b90c",
+      "price_note": "ActualTNreceiptprices supersede earlier aggregatorquotes. Exact payout retained independently of roundedheadlineodds. No boostshown. Allen/HenryindividualpricesnotavailablefromSGP; no reverse-derivedsingleprices or jointmodelprobability. All9Sundaytickets90stake; MINDET7tickets70, Gibbs2tickets20, StBrown3tickets30. Cashoutoffersnottransactions.",
+      "leg_note": "All legs pending; official inactives and final sports-result grading retained."
+    },
+    {
+      "bet_id": "us-tn:01m6c0tpj4e4jr79n3ensyd85g",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-01T10:59:00-06:00",
+      "placed_at": "2026-11-01T10:59:00-06:00",
+      "game": "ATL @ TB; MIN @ DET; TEN @ CIN (NFL Week8)",
+      "event_ids": [
+        "401873025",
+        "401873030",
+        "401873031"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "parlay",
+      "bet": "3-leg parlay: Kyle Pitts ATD + Jameson Williams ATD + Mike Gesicki ATD",
+      "selection": "Kyle Pitts ATD + Jameson Williams ATD + Mike Gesicki ATD",
+      "price": 3899,
+      "line": null,
+      "potential_payout_usd": 399.9,
+      "potential_profit_usd": 389.9,
+      "implied_probability": 0.025006251562890724,
+      "payout_implied_probability": 0.025006251562890724,
+      "net_usd": 0,
+      "net_units": 0,
+      "profit_boost_percent": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "ATL @ TB",
+          "event_id": "401873025",
+          "market": "anytime touchdown",
+          "selection": "Kyle Pitts",
+          "line": null,
+          "price": 330,
+          "implied_probability": 0.23255813953488372,
+          "model_probabilities": {
+            "old": 0.373,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        },
+        {
+          "event": "MIN @ DET",
+          "event_id": "401873030",
+          "market": "anytime touchdown",
+          "selection": "Jameson Williams",
+          "line": null,
+          "price": 200,
+          "implied_probability": 0.3333333333333333,
+          "model_probabilities": {
+            "old": 0.392,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        },
+        {
+          "event": "TEN @ CIN",
+          "event_id": "401873031",
+          "market": "anytime touchdown",
+          "selection": "Mike Gesicki",
+          "line": null,
+          "price": 210,
+          "implied_probability": 0.3225806451612903,
+          "model_probabilities": {
+            "old": 0.36,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
+          "hit": null
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6C0VA4GAEB7TGZ8TFE153S2 Nov1 10:59:54AMCST; originalpixels/footerinspected SHA256 d6381557b02589bb6ae4a2dbb855eb9214ce384b0136b8eb06538fd278b2bc59",
+      "price_note": "ActualTNreceiptprices supersede earlier aggregatorquotes. Exact payout retained independently of roundedheadlineodds. No boostshown. Allen/HenryindividualpricesnotavailablefromSGP; no reverse-derivedsingleprices or jointmodelprobability. All9Sundaytickets90stake; MINDET7tickets70, Gibbs2tickets20, StBrown3tickets30. Cashoutoffersnottransactions.",
+      "leg_note": "All legs pending; official inactives and final sports-result grading retained."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-10-31T22:07:12.270451+00:00",
+  "updated_at": "2026-11-01T03:42:29.174894+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9232,8 +9232,9 @@
           "model_probability": null,
           "hit": false,
           "result": "loss",
-          "final_score": "Iowa30-Wisconsin0",
-          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502"
+          "final_score": "Iowa Hawkeyes 30; Wisconsin Badgers 0 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
@@ -9245,7 +9246,11 @@
           "implied_probability": 0.46511627906976744,
           "model_raw_home_margin": 17.631876275047897,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Wake Forest Demon Deacons 51; Virginia Cavaliers 7 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858284",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Miami Hurricanes at North Carolina Tar Heels",
@@ -9257,7 +9262,11 @@
           "implied_probability": 0.4854368932038835,
           "model_raw_home_margin": -22.642522497035213,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "North Carolina Tar Heels 35; Miami Hurricanes 38 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858282",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         }
       ],
       "cashout_offer_usd": 10,
@@ -9275,11 +9284,12 @@
       },
       "price_note": "Headline +942, base +628, 50% profit boost and exact payout $104.21 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
       "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 ddc7cab1ff07a0a731546124f6f4a2a403d3a8e33ac1d496fc860a585edf7a3e",
-      "leg_note": "WisconsinML lost on final30-0. Other legs remain individually pending and will be graded later; ticket correctly settled loss now. No cashout assumed.",
+      "leg_note": "Wisconsin ML: LOSS; Wake Forest -12.5: WIN; Miami Florida -13.5: LOSS",
       "settled_at": "2026-10-31T19:19:52.250073+00:00",
       "payout_usd": 0,
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
-      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss."
+      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss.",
+      "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
     },
     {
       "bet_id": "us-tn:01m6950taye79804j9s3gdv6q6",
@@ -9287,8 +9297,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-31T09:15:00-05:00",
@@ -9312,8 +9322,8 @@
       "potential_profit_usd": 211.26,
       "implied_probability": 0.045207956600361664,
       "payout_implied_probability": 0.04519569736961041,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "legs": [
         {
           "event": "Kansas Jayhawks at TCU Horned Frogs",
@@ -9325,7 +9335,11 @@
           "implied_probability": 0.33112582781456956,
           "model_raw_home_margin": -2.0560719202634097,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "TCU Horned Frogs 22; Kansas Jayhawks 16 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856845",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Utah Utes at Cincinnati Bearcats",
@@ -9337,7 +9351,11 @@
           "implied_probability": 0.54337899543379,
           "model_raw_home_margin": -8.190305183149475,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Cincinnati Bearcats 25; Utah Utes 49 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856848",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Washington Huskies at Nebraska Cornhuskers",
@@ -9349,7 +9367,11 @@
           "implied_probability": 0.49261083743842365,
           "model_raw_home_margin": 10.628226090066885,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "Nebraska Cornhuskers 10; Washington Huskies 17 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858504",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Army Black Knights at Memphis Tigers",
@@ -9361,7 +9383,11 @@
           "implied_probability": 0.5145631067961165,
           "model_raw_home_margin": 8.672684388854499,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Memphis Tigers 49; Army Black Knights 22 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862814",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         }
       ],
       "cashout_offer_usd": 10,
@@ -9379,7 +9405,12 @@
       },
       "price_note": "Headline +2112, base +1625, 30% profit boost and exact payout $221.26 independently retained. Headline odds rounded; grade exact payout, never recompute from headline. No supported joint model probability. No shared teams across the two Saturday tickets; same-model bias remains.",
       "source": "Owner iMessage phonemsg-01M6951FH3X3JB2BV72TV0TFC0 Oct31 9:15:27AMCT. Original receipt pixels including enlarged footer inspected. SHA256 5cd1157d8eaa5767916d51241d6bfc433edb86c0cd69ba6902d0034e8b9265df",
-      "leg_note": "All legs pending; grade from official final sports results. Availability monitoring continues, no forecast edits."
+      "leg_note": "Kansas ML: LOSS; Utah -6.5: WIN; Nebraska -7.5: LOSS; Memphis -5.5: WIN",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T03:42:29.174894+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80&limit=400",
+      "settlement_note": "Normal sports-result settlement from all final scores; exact receipt payout retained. Owner Oct9 normal settlement grant, no cashout report found. Not independently checked sportsbook account.",
+      "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
     },
     {
       "bet_id": "us-tn:01m695tvyff558pswd94xdmy2h",
@@ -9423,11 +9454,12 @@
       },
       "price_note": "Actual user TN receipt +178 after25%profitboost, base+142, exactpayout$27.80 retained. Cashout$10 offer only. Third Saturday ticket, no shared teams with either parlay; same-slate/shared-model risks are not independence proof.",
       "source": "Owner iMessage phonemsg-01M695VEM1Y7XBMRKZWQ2B6FC2 Oct31 9:29:38AMCT. Original pixels including enlarged footer inspected. SHA256 4a928914b72e59d3f50e8c8f28cbc0c57fd25ca192b654afa078c0d415058de2",
-      "leg_note": "Arizona win required, pending; grade final sports result, normal-settlement standing grant unless user reports cashout.",
+      "leg_note": "Arizona ML LOSS: Texas Tech34, Arizona26 Final. Previously settled, no double charge.",
       "payout_usd": 0,
       "settled_at": "2026-10-31T22:07:12.270451+00:00",
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856842",
-      "settlement_note": "Normal loss graded from ESPN final TexasTech34 Arizona26. No owner cashout report; cashout10 button was an offer only."
+      "settlement_note": "Normal loss graded from ESPN final TexasTech34 Arizona26. No owner cashout report; cashout10 button was an offer only.",
+      "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
     },
     {
       "bet_id": "us-tn:01m69arveze0cspdecx8t5gx89",
@@ -9472,8 +9504,9 @@
           "model_probability": null,
           "hit": false,
           "result": "loss",
-          "final_score": "Iowa30-Wisconsin0",
-          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502"
+          "final_score": "Iowa Hawkeyes 30; Wisconsin Badgers 0 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Arizona Wildcats at Texas Tech Red Raiders",
@@ -9487,8 +9520,9 @@
           "model_probability": null,
           "hit": false,
           "result": "loss",
-          "final_score": "TexasTech34-Arizona26",
-          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856842"
+          "final_score": "Texas Tech Red Raiders 34; Arizona Wildcats 26 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856842",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Northwestern Wildcats at Oregon Ducks",
@@ -9500,7 +9534,11 @@
           "implied_probability": 0.4166666666666667,
           "model_raw_home_margin": 5.520630059143441,
           "model_probability": null,
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "final_score": "Oregon Ducks 34; Northwestern Wildcats 26 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858505",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         }
       ],
       "cashout_offer_usd": 10,
@@ -9518,11 +9556,12 @@
       },
       "price_note": "Actual TN receipt +1128 and exact payout $122.80 retained, no boost shown. Repeats Wisconsin from earlier threeleg and Arizona from single; correlated exposure, not independent diversification.",
       "source": "Owner iMessage phonemsg-01M69ASH1AW6NQWH9M701V89KF Oct31 10:55:58AMCT. Original pixels and enlarged footer inspected. SHA256 af0779370a0f299504328b95c0e413deaef5fdf4825e03198997c855b192e897",
-      "leg_note": "WisconsinML and ArizonaML lost on finals; Northwestern individuallypending. Ticketnet already -10, not chargedagain.",
+      "leg_note": "Wisconsin ML: LOSS; Arizona ML: LOSS; Northwestern ML: LOSS",
       "settled_at": "2026-10-31T19:19:52.250073+00:00",
       "payout_usd": 0,
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858502",
-      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss."
+      "settlement_note": "Normal loss graded from ESPN final Iowa30 Wisconsin0. Wisconsin ML failed, conclusively losing parlay even while other legs pending. No cashout reported. Remaining leg grades follow their finals; not imputed from ticket loss.",
+      "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
     },
     {
       "bet_id": "us-tn:01m69p8he8f55te8hqt56br4j9",
@@ -9530,8 +9569,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-31T14:16:00-05:00",
@@ -9552,8 +9591,8 @@
       "potential_profit_usd": 60.55,
       "implied_probability": 0.14184397163120568,
       "payout_implied_probability": 0.14174344436569808,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": 6.055,
+      "net_usd": 60.55,
       "legs": [
         {
           "event": "Colorado State Rams at Utah State Aggies",
@@ -9565,7 +9604,11 @@
           "implied_probability": 0.5238095238095238,
           "model_raw_home_margin": 13.548335688807894,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Utah State Aggies 31; Colorado State Rams 14 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860910",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Florida Gators at Georgia Bulldogs",
@@ -9577,7 +9620,11 @@
           "implied_probability": 0.5283018867924528,
           "model_raw_home_margin": 13.036302714969574,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Georgia Bulldogs 27; Florida Gators 8 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856734",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         },
         {
           "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
@@ -9589,7 +9636,11 @@
           "implied_probability": 0.5121951219512195,
           "model_raw_home_margin": 17.631876275047897,
           "model_probability": null,
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "final_score": "Wake Forest Demon Deacons 51; Virginia Cavaliers 7 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858284",
+          "graded_at": "2026-11-01T03:42:29.174894+00:00"
         }
       ],
       "cashout_offer_usd": 10,
@@ -9607,7 +9658,12 @@
       },
       "price_note": "Actual TN slip +605 and exactreturn$70.55 override earlier computed reference+606. No boost shown. $10/1u, not earlier suggested $5maximum. Wake repeated at-13.5 versus earlier-12.5; correlated exposure, no independence assumption.",
       "source": "Owner iMessage phonemsg-01M69P9C6KTNDPN3PYHGSYGXXF Oct31 2:16:52PMCT. Original pixels including footer inspected. SHA256 f06cdb775f6942b3748daf29609480d1b4ecd23dcff70ca38dcb9fd9cb70fdad",
-      "leg_note": "All pending. Normal sports-result settlement unless owner reports cashout; cashout10 offer not transaction. All three game-day reports checked beforeplacement."
+      "leg_note": "Utah State -9.5: WIN; Georgia -11.5: WIN; Wake Forest -13.5: WIN",
+      "payout_usd": 70.55,
+      "settled_at": "2026-11-01T03:42:29.174894+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261031&groups=80&limit=400",
+      "settlement_note": "Normal sports-result settlement from all final scores; exact receipt payout retained. Owner Oct9 normal settlement grant, no cashout report found. Not independently checked sportsbook account.",
+      "all_legs_graded_at": "2026-11-01T03:42:29.174894+00:00"
     }
   ]
 }

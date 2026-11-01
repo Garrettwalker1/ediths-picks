@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-01T15:33:00-06:00",
-  "refresh_note": "Scores and player points updated 3:32 PM CT. ESPN matchup projections are live; player projections and Sleeper totals remain PRE-GAME 11:52 AM values. Injury coverage has NOT refreshed since the 11:46 AM early inactive check and cited news; no in-game injury coverage.",
+  "refresh_note": "Scores and player points updated 3:32 PM CT. ESPN matchup projections are live; player projections and Sleeper totals remain PRE-GAME 11:52 AM values. Injury coverage has NOT refreshed since the 11:46 AM early inactive check and cited news; no in-game injury coverage. Exception: Lamar right-thumb in-game injury verified 3:35 PM; 0.0 confirmed real.",
   "providers": [
     {
       "name": "ESPN",
@@ -1619,18 +1619,18 @@
           "nfl_team": "BAL",
           "name": "Lamar Jackson",
           "slot": "QB",
-          "points": null,
+          "points": 0.0,
           "projected": 20.52,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120",
           "observed_at": "2026-11-01T15:32:00-06:00",
           "provider_updated_at": null,
           "injury_checked": true,
-          "injury_status": "Active",
-          "injury_detail": "confirmed playing",
-          "injury_source": "Ravens team report",
-          "injury_source_url": "https://www.baltimoreravens.com/news/lamar-jackson-ravens-bills-set-to-play-2026",
-          "injury_observed_at": "2026-11-01T11:52:00-06:00"
+          "injury_status": "Out in-game",
+          "injury_detail": "Right thumb injury on first offensive snap; ruled out. Final BUF36-BAL10, 0.0 fantasy points confirmed by fantasy provider. Week9 status unknown.",
+          "injury_source": "NFL report \u00b7 Nov 1",
+          "injury_source_url": "https://www.nfl.com/news/ravens-qb-lamar-jackson-suffers-right-thumb-injury-bills",
+          "injury_observed_at": "2026-11-01T15:35:00-06:00"
         },
         {
           "id": "11576",
@@ -1888,7 +1888,7 @@
           "injury_checked": false
         }
       ],
-      "roster_note": "Scores and player points read 3:32 PM CT. Projected totals and players are PRE-GAME Rotowire full-PPR sums (11:52 AM), not live-adjusted Sleeper projections. Injury coverage remains 11:46 AM final early lists and cited news, not a new in-game injury check. No workload inference. Lamar individual points unavailable pending source confirmation; matchup total preserved from provider."
+      "roster_note": "Scores and player points read 3:32 PM CT. Projected totals and players are PRE-GAME Rotowire full-PPR sums (11:52 AM), not live-adjusted Sleeper projections. Injury coverage remains 11:46 AM final early lists and cited news, not a new in-game injury check. No workload inference. Lamar 0.0 confirmed: right thumb injury on first snap, ruled out in-game; Week9 status unknown."
     },
     {
       "id": "sleeper-1387915755609157632",

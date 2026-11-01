@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T20:45:49.058556+00:00",
+  "updated_at": "2026-11-01T22:00:18.656735+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -9080,8 +9080,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-10-30T12:22:00-05:00",
@@ -9103,8 +9103,8 @@
       "potential_profit_usd": 1471.78,
       "implied_probability": 0.006749004521833029,
       "payout_implied_probability": 0.006748640149009975,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": null,
       "legs": [
         {
@@ -9120,7 +9120,15 @@
             "candidate": null
           },
           "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "T.J. Hockenson 8 Yd pass from Kyler Murray (Kyler Murray Pass to Jordan Addison for Two-Point Conversion)"
+          ]
         },
         {
           "event": "MIN @ DET",
@@ -9135,7 +9143,13 @@
             "candidate": null
           },
           "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "CLE @ PIT",
@@ -9150,7 +9164,13 @@
             "candidate": null
           },
           "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "PIT 27; CLE 6 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "LV @ NYJ",
@@ -9165,7 +9185,13 @@
             "candidate": null
           },
           "model_note": "Existing Week8 h12/k4 baseline throughWeek7, not the new usage/matchup candidate. Current final availability/role not verified by this receipt.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "NYJ 33; LV 38 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         }
       ],
       "sgp_components": [
@@ -9185,7 +9211,12 @@
       "cashout_offer_note": "Offer only, not a transaction; no cashout recorded.",
       "price_note": "Receipt headline+14717 and exacttotalpayout$1481.78 preserved independently. MIN/DET two-leg component+688; no Hockenson/St.Brown individual prices. Washington+300 andTaylor+370 are individual actual receipt prices. No supportedjointmodelprobability; do notmultiplysamegamemarginals. Receiptkickoff12:01PMCT differs ESPNscheduled12:00PMCT, both retained.",
       "source": "OwneriMessage phonemsg-01M66XD2HQK7WFWY71CVEPK29A Oct30 12:23:30PMCT; originalreceiptpixels includingTNfooter inspected. SHA256 dd7a7b135a6e7016236bcdfd61ccbf04d1bd70a3c84e4d3b2ff41da1fd3d5691",
-      "leg_note": "All four TD legs pending. Final active/role checks and sports-result grading retained."
+      "leg_note": "T.J. Hockenson: WIN; Amon-Ra St. Brown: LOSS; Darnell Washington: LOSS; Mason Taylor: LOSS",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m694h2yffn3sykr91xxc869g",
@@ -9671,8 +9702,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T01:16:00-05:00",
@@ -9695,8 +9726,8 @@
       "potential_profit_usd": 73.73,
       "implied_probability": 0.11947431302270012,
       "payout_implied_probability": 0.11943150603129105,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": 30,
       "unboosted_price": 567,
       "cashout_offer_usd": 10,
@@ -9715,8 +9746,16 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": true,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Jahmyr Gibbs 30 Yd Rush (Two-Point Run Conversion Failed)"
+          ]
         },
         {
           "event": "ATL @ TB",
@@ -9731,8 +9770,14 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "TB 16; ATL 0 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "ARI @ DAL",
@@ -9747,8 +9792,14 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DAL 30; ARI 33 (Final/OT)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "LAC @ LA",
@@ -9769,7 +9820,11 @@
       ],
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 f0254720a0c9fc1ac6d233b631cda335acf28ac57860bdaf5489d6e129df99b7",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
-      "leg_note": "All legs pending; final active/role checks and sports-result grading retained. Puka late game requires separate follow-through."
+      "leg_note": "Jahmyr Gibbs: WIN; Bijan Robinson: LOSS; CeeDee Lamb: LOSS; Puka Nacua: PENDING",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live."
     },
     {
       "bet_id": "us-tn:01m6aw2kjjfdrscckb1jznh96r",
@@ -9777,8 +9832,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T01:17:00-05:00",
@@ -9798,8 +9853,8 @@
       "potential_profit_usd": 26,
       "implied_probability": 0.2777777777777778,
       "payout_implied_probability": 0.2777777777777778,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": 2.6,
+      "net_usd": 26,
       "profit_boost_percent": null,
       "unboosted_price": null,
       "cashout_offer_usd": 10,
@@ -9818,13 +9873,26 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": true,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "T.J. Hockenson 8 Yd pass from Kyler Murray (Kyler Murray Pass to Jordan Addison for Two-Point Conversion)"
+          ]
         }
       ],
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 f68d95bb6cede2b9ab0574239798b14644ad694b139b18abc6bac0c0ced9ddd3",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
-      "leg_note": "Pending; no game result available."
+      "leg_note": "T.J. Hockenson: WIN",
+      "payout_usd": 36,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6aw250fezr8xyrkwdc81ped",
@@ -9832,8 +9900,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T01:17:00-05:00",
@@ -9853,8 +9921,8 @@
       "potential_profit_usd": 37,
       "implied_probability": 0.2127659574468085,
       "payout_implied_probability": 0.2127659574468085,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": null,
       "unboosted_price": null,
       "cashout_offer_usd": 10,
@@ -9873,13 +9941,24 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "NYJ 33; LV 38 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         }
       ],
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 a0f204b2c20b376e141400a46887674954b6ca174361d56011c4f8cb09c8f9be",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
-      "leg_note": "Pending; no game result available."
+      "leg_note": "Mason Taylor: LOSS",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6aw3425e9x890jsgcgwngfe",
@@ -9887,8 +9966,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T01:17:00-05:00",
@@ -9908,8 +9987,8 @@
       "potential_profit_usd": 17.6,
       "implied_probability": 0.36231884057971014,
       "payout_implied_probability": 0.36231884057971014,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": 30,
       "unboosted_price": 135,
       "cashout_offer_usd": 10,
@@ -9928,13 +10007,24 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         }
       ],
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 133ce318d321989d91add86b992e91d83f0a44fa766e48283eb2c9079a2dd8f6",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets. StBrown leg base+135; ticket30%boostheadline+176; payout27.60 implies36.2319% breakeven, not roundedheadline36.2319% assumed arithmetic.",
-      "leg_note": "Pending; no game result available."
+      "leg_note": "Amon-Ra St. Brown: LOSS",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6aw4aecftbthd1yah7a84vw",
@@ -9942,8 +10032,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T01:18:00-05:00",
@@ -9963,8 +10053,8 @@
       "potential_profit_usd": 24,
       "implied_probability": 0.29411764705882354,
       "payout_implied_probability": 0.29411764705882354,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": null,
       "unboosted_price": null,
       "cashout_offer_usd": 10,
@@ -9983,13 +10073,24 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 h12/k4 scoring-history baseline throughWeek7. Current adjusted probability unavailable; final active/role checks pending. No validated joint probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "PIT 27; CLE 6 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         }
       ],
       "source": "Owner iMessage phonemsg-01M6AW6DRA3C6BV1RJ9YH2982J Nov1 1:19:21AMCDT; originalreceipt/fullfooterpixels inspected. SHA256 a08271d2c96b2a01d81ced5ccebd9b17849f19aabf7f59af22020a3cc15a1bf9",
       "price_note": "Exact receipt payout retained independently of rounded headline odds. No supported combined model probability; no independence assumption. Cashout10 is offer only. All singles repeat players in existing Hockenson/StBrown/Washington/MasonTaylor parlay; totalSundaycommitted60across6tickets.",
-      "leg_note": "Pending; no game result available."
+      "leg_note": "Darnell Washington: LOSS",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6bwqse4f37b5c8w47bv296a",
@@ -9997,8 +10098,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1,
       "date": "2026-11-01T09:48:00-06:00",
@@ -10021,8 +10122,8 @@
       "potential_profit_usd": 217.48,
       "implied_probability": 0.04397537379067722,
       "payout_implied_probability": 0.04395990856339019,
-      "net_usd": 0,
-      "net_units": 0,
+      "net_usd": -10,
+      "net_units": -1.0,
       "profit_boost_percent": null,
       "cashout_offer_usd": 10,
       "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
@@ -10040,7 +10141,13 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "BUF 36; BAL 10 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "MIN @ DET",
@@ -10055,7 +10162,13 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "ARI @ DAL",
@@ -10070,7 +10183,13 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable. Pickens questionable shoulder/hamstring, reported expected to play, not confirmed active/unrestricted.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DAL 30; ARI 33 (Final/OT)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "LV @ NYJ",
@@ -10085,12 +10204,26 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 scoring-history baseline; current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 2,
+          "final_score": "NYJ 33; LV 38 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Brock Bowers 12 Yd pass from Kirk Cousins (Matt Gay Kick)",
+            "Brock Bowers 2 Yd pass from Kirk Cousins (Matt Gay Kick)"
+          ]
         }
       ],
       "source": "Owner iMessage phonemsg-01M6BWRB01KXE6QMNGWSVTN8VT Nov1 9:48:22AMCST, originalreceiptpixels/footerinspected SHA256 23fb9fb6d10bf2c213bc0aa1d884d09420d08344ae80e9e4e6cc46521c105e16",
       "price_note": "Exact receipt return227.48 retained separately from rounded+2174headline; no boostshown. ActualTNreceiptprices9:48AMCST, notcurrentquotes. No supportedjointprobability or quantifiedcorrelation. StBrown3tickets30stake; MINDET5tickets50stake. Pickens/LambsameDALgame; BowersopposesMasonTaylorinLVNYJ, sharedenvironment notindependence.",
-      "leg_note": "All pending. Final inactives and sports-result grading retained."
+      "leg_note": "Zay Flowers: LOSS; Amon-Ra St. Brown: LOSS; George Pickens: LOSS; Brock Bowers: WIN",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6c0shzkfcaaxqasna4smsvx",
@@ -10098,8 +10231,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_usd": 10,
       "stake_units": 1,
       "date": "2026-11-01T10:58:00-06:00",
@@ -10120,8 +10253,8 @@
       "potential_profit_usd": 25.25,
       "implied_probability": 0.2840909090909091,
       "payout_implied_probability": 0.28368794326241137,
-      "net_usd": 0,
-      "net_units": 0,
+      "net_usd": 25.25,
+      "net_units": 2.525,
       "profit_boost_percent": null,
       "cashout_offer_usd": 10,
       "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
@@ -10139,7 +10272,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "BUF 36; BAL 10 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Derrick Henry 2 Yd Rush (Tyler Loop Kick)"
+          ]
         },
         {
           "event": "BAL @ BUF",
@@ -10154,7 +10295,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; no supported joint probability. Josh Allen baseline covers rushing TD only, not passing.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "BUF 36; BAL 10 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Josh Allen 1 Yd Rush (Tyler Bass Kick)"
+          ]
         },
         {
           "event": "MIN @ DET",
@@ -10169,7 +10318,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Jahmyr Gibbs 30 Yd Rush (Two-Point Run Conversion Failed)"
+          ]
         }
       ],
       "sgp_components": [
@@ -10187,7 +10344,12 @@
       ],
       "source": "Owner iMessage phonemsg-01M6C0VA4GAEB7TGZ8TFE153S2 Nov1 10:59:54AMCST; originalpixels/footerinspected SHA256 95f0e19746808e07ef8945aa7df28733e050db402c8e6b2079c24bbbf585b90c",
       "price_note": "ActualTNreceiptprices supersede earlier aggregatorquotes. Exact payout retained independently of roundedheadlineodds. No boostshown. Allen/HenryindividualpricesnotavailablefromSGP; no reverse-derivedsingleprices or jointmodelprobability. All9Sundaytickets90stake; MINDET7tickets70, Gibbs2tickets20, StBrown3tickets30. Cashoutoffersnottransactions.",
-      "leg_note": "All legs pending; official inactives and final sports-result grading retained."
+      "leg_note": "Derrick Henry: WIN; Josh Allen: WIN; Jahmyr Gibbs: WIN",
+      "payout_usd": 35.25,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6c0tpj4e4jr79n3ensyd85g",
@@ -10195,8 +10357,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1,
       "date": "2026-11-01T10:59:00-06:00",
@@ -10218,8 +10380,8 @@
       "potential_profit_usd": 389.9,
       "implied_probability": 0.025006251562890724,
       "payout_implied_probability": 0.025006251562890724,
-      "net_usd": 0,
-      "net_units": 0,
+      "net_usd": -10,
+      "net_units": -1.0,
       "profit_boost_percent": null,
       "cashout_offer_usd": 10,
       "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
@@ -10237,7 +10399,13 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "TB 16; ATL 0 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "MIN @ DET",
@@ -10252,7 +10420,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Jameson Williams 7 Yd pass from Jared Goff (Jake Bates Kick)"
+          ]
         },
         {
           "event": "TEN @ CIN",
@@ -10267,12 +10443,25 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline, current adjusted probability unavailable; final inactives pending.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "CIN 43; TEN 36 (Final/OT)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "Mike Gesicki 25 Yd pass from Joe Burrow (Two-Point Pass Conversion Failed)"
+          ]
         }
       ],
       "source": "Owner iMessage phonemsg-01M6C0VA4GAEB7TGZ8TFE153S2 Nov1 10:59:54AMCST; originalpixels/footerinspected SHA256 d6381557b02589bb6ae4a2dbb855eb9214ce384b0136b8eb06538fd278b2bc59",
       "price_note": "ActualTNreceiptprices supersede earlier aggregatorquotes. Exact payout retained independently of roundedheadlineodds. No boostshown. Allen/HenryindividualpricesnotavailablefromSGP; no reverse-derivedsingleprices or jointmodelprobability. All9Sundaytickets90stake; MINDET7tickets70, Gibbs2tickets20, StBrown3tickets30. Cashoutoffersnottransactions.",
-      "leg_note": "All legs pending; official inactives and final sports-result grading retained."
+      "leg_note": "Kyle Pitts: LOSS; Jameson Williams: WIN; Mike Gesicki: WIN",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6c3gdwmf6c8dspa99hdfcpm",
@@ -10280,8 +10469,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1,
       "date": "2026-11-01T11:46:00-06:00",
@@ -10302,8 +10491,8 @@
       "potential_profit_usd": 205.09,
       "implied_probability": 0.046511627906976744,
       "payout_implied_probability": 0.0464921660700172,
-      "net_usd": 0,
-      "net_units": 0,
+      "net_usd": -10,
+      "net_units": -1.0,
       "profit_boost_percent": null,
       "cashout_offer_usd": 10,
       "cashout_offer_note": "Offer only, not transaction. No cashout recorded.",
@@ -10321,7 +10510,13 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
-          "hit": null
+          "hit": false,
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "BUF 36; BAL 10 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         },
         {
           "event": "BAL @ BUF",
@@ -10336,7 +10531,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "BUF 36; BAL 10 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "DJ Moore 11 Yd pass from Josh Allen (Two-Point Pass Conversion Failed)"
+          ]
         },
         {
           "event": "MIN @ DET",
@@ -10351,7 +10554,15 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 baseline where available, not a current injury-adjusted probability. Official inactive-list gate cleared 11:44-11:47 CST; Moore explicitly active per CBS. No workload guarantee or joint probability.",
-          "hit": null
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "final_score": "DET 19; MIN 15 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": [
+            "T.J. Hockenson 8 Yd pass from Kyler Murray (Kyler Murray Pass to Jordan Addison for Two-Point Conversion)"
+          ]
         }
       ],
       "sgp_components": [
@@ -10369,7 +10580,12 @@
       ],
       "source": "Owner iMessage phonemsg-01M6C3H2DGPRWBRYZ53N71F0FQ Nov1 11:46:44AMCST; originalpixels/footerinspected SHA256 df65274fe362e1d7e377c70d3479b34e4fd6ffcb1f30ed81b3b14fa520abc691",
       "price_note": "Exact receipt payout authoritative over rounded +2050 headline. No boost. Flowers/Moore SGP +532 only; individual prices unknown, no reverse engineering or joint model probability. Bills D.J. Moore and BAL@BUF mapping preserved from receipt and current CBS active report. Cashout10 offer only, not a transaction. Sunday10tickets100; MINDET8tickets80,Hockenson3tickets30.",
-      "leg_note": "All legs pending; official inactive-list gates cleared, workload unknown. Final sports-result grading retained."
+      "leg_note": "Zay Flowers: LOSS; D.J. Moore: WIN; T.J. Hockenson: WIN",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026; https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6c4bmgce20abc9gc8pvd9w4",
@@ -10377,8 +10593,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-01T12:01:00-06:00",
@@ -10398,8 +10614,8 @@
       "potential_profit_usd": 44,
       "implied_probability": 0.18518518518518517,
       "payout_implied_probability": 0.18518518518518517,
-      "net_units": 0,
-      "net_usd": 0,
+      "net_units": -1.0,
+      "net_usd": -10,
       "profit_boost_percent": null,
       "unboosted_price": null,
       "cashout_offer_usd": 8.62,
@@ -10418,13 +10634,24 @@
             "candidate": null
           },
           "model_note": "Frozen Week8 scoring-history baseline where available, not a current adjusted probability. No workload guarantee or inferred edge.",
-          "hit": null,
-          "kickoff": "2026-11-01T18:00:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T18:00:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "CIN 43; TEN 36 (Final/OT)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+          "graded_at": "2026-11-01T22:00:18.656735+00:00",
+          "scoring_plays": []
         }
       ],
       "source": "Owner iMessage phonemsg-01M6C4C675HQKEY5CPY0HE60GR Nov1 12:01:33PMCST; originalpixels/footerinspected SHA256 ede2ca3f248183dff3f26c48b7d0879c31297c4f9d60e5c945621bfe0c4c90d5",
       "price_note": "ActualTNreceipt+440,$10stake,$54exactreturn. Cashout$8.62isofferonly,nottransaction; no boost. Sunday11tickets110,MINDET8tickets80unchanged. TEN/CINnow2tickets20includingGesickiopposingteamleg.",
-      "leg_note": "Pending final TD sports-result grading; receipt placed12:01CST nearkickoff. No new prediction."
+      "leg_note": "Elic Ayomanor: LOSS",
+      "payout_usd": 0,
+      "settled_at": "2026-11-01T22:00:18.656735+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+      "settlement_note": "Normal sports-result settlement per owner Oct9 original phonemsg-01M4G9DPKW13BJ6T349S1ZX95S; no later cashout report found. Not independently checked sportsbook account. Exact receipt payout used. Failed final leg settles parlay loss even when another game remains live.",
+      "all_legs_graded_at": "2026-11-01T22:00:18.656735+00:00"
     },
     {
       "bet_id": "us-tn:01m6cdq1rnf12v2hqvvp4wjfpw",
@@ -10541,7 +10768,7 @@
       ],
       "source": "Owner iMessage phonemsg-01M6CDQRAEHDV04YN5G2WCFEAW Nov1 2:45:09PMCST; originalreceipt/footerpixelsinspected SHA256 75be3a0d560df46a3aaee427c744dc736e7c869bf7a3c110ad6958c21cd44d58",
       "price_note": "ActualTNreceiptprices supersede aggregatorreferences. Exact116.37return authoritative over rounded1063headline. No boost;cashout10offeronly. Kyren/PukaSGP252,individualpricesunknown,no reverseengineering. Walker-12054.5%impliedvs45.9%baseline;Stevenson-12555.6%vs45.4%;notprovenedges. Sunday12tickets120committed,Puka2tickets20,LACLA2tickets20,MINDET8tickets80unchanged.",
-      "leg_note": "All pending; final sports-result grading including bounded late games retained."
+      "leg_note": "Kyren Williams: PENDING; Puka Nacua: PENDING; Kenneth Walker III: PENDING; Rhamondre Stevenson: PENDING"
     }
   ]
 }

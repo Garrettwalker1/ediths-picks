@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-01T17:47:36.650697+00:00",
+  "updated_at": "2026-11-01T18:01:50.992295+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10370,6 +10370,61 @@
       "source": "Owner iMessage phonemsg-01M6C3H2DGPRWBRYZ53N71F0FQ Nov1 11:46:44AMCST; originalpixels/footerinspected SHA256 df65274fe362e1d7e377c70d3479b34e4fd6ffcb1f30ed81b3b14fa520abc691",
       "price_note": "Exact receipt payout authoritative over rounded +2050 headline. No boost. Flowers/Moore SGP +532 only; individual prices unknown, no reverse engineering or joint model probability. Bills D.J. Moore and BAL@BUF mapping preserved from receipt and current CBS active report. Cashout10 offer only, not a transaction. Sunday10tickets100; MINDET8tickets80,Hockenson3tickets30.",
       "leg_note": "All legs pending; official inactive-list gates cleared, workload unknown. Final sports-result grading retained."
+    },
+    {
+      "bet_id": "us-tn:01m6c4bmgce20abc9gc8pvd9w4",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T12:01:00-06:00",
+      "placed_at": "2026-11-01T12:01:00-06:00",
+      "game": "TEN @ CIN (NFL Week8)",
+      "event_ids": [
+        "401873031"
+      ],
+      "kickoff": "2026-11-01T18:00:00Z",
+      "receipt_kickoff_display": "12:01PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: Elic Ayomanor ATD",
+      "selection": "Elic Ayomanor ATD",
+      "price": 440,
+      "line": null,
+      "potential_payout_usd": 54,
+      "potential_profit_usd": 44,
+      "implied_probability": 0.18518518518518517,
+      "payout_implied_probability": 0.18518518518518517,
+      "net_units": 0,
+      "net_usd": 0,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 8.62,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "TEN @ CIN",
+          "event_id": "401873031",
+          "market": "anytime touchdown",
+          "selection": "Elic Ayomanor",
+          "line": null,
+          "price": 440,
+          "implied_probability": 0.18518518518518517,
+          "model_probabilities": {
+            "old": 0.182,
+            "candidate": null
+          },
+          "model_note": "Frozen Week8 scoring-history baseline where available, not a current adjusted probability. No workload guarantee or inferred edge.",
+          "hit": null,
+          "kickoff": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6C4C675HQKEY5CPY0HE60GR Nov1 12:01:33PMCST; originalpixels/footerinspected SHA256 ede2ca3f248183dff3f26c48b7d0879c31297c4f9d60e5c945621bfe0c4c90d5",
+      "price_note": "ActualTNreceipt+440,$10stake,$54exactreturn. Cashout$8.62isofferonly,nottransaction; no boost. Sunday11tickets110,MINDET8tickets80unchanged. TEN/CINnow2tickets20includingGesickiopposingteamleg.",
+      "leg_note": "Pending final TD sports-result grading; receipt placed12:01CST nearkickoff. No new prediction."
     }
   ]
 }

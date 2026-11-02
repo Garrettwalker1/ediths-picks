@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T00:38:07.593190+00:00",
+  "updated_at": "2026-11-02T00:58:00Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10811,6 +10811,148 @@
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034",
       "settlement_note": "Normal sports-result loss: Stevenson and Walker failed in final games; Kyren/Puka scored. Final leg detail filled without second charge. Owner Oct9 normal-settlement grant; no cashout report found. Not independently checked sportsbook.",
       "all_legs_graded_at": "2026-11-02T00:38:07.593190+00:00"
+    },
+    {
+      "bet_id": "us-tn:01m6cw47t0ehh9marqvr6jps7n",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 20,
+      "stake_units": 2.0,
+      "date": "2026-11-01T18:56:00-06:00",
+      "placed_at": "2026-11-01T18:56:00-06:00",
+      "game": "PHI @ WAS (NFL Week8)",
+      "event_ids": [
+        "401873035"
+      ],
+      "kickoff": "2026-11-02T01:20:00Z",
+      "receipt_kickoff_display": "7:21PMCT",
+      "market": "anytime touchdown",
+      "bet": "Straight: Dallas Goedert ATD",
+      "selection": "Straight: Dallas Goedert ATD",
+      "price": 250,
+      "line": null,
+      "potential_payout_usd": 70,
+      "potential_profit_usd": 50,
+      "implied_probability": 0.2857142857142857,
+      "payout_implied_probability": 0.2857142857142857,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 20,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "PHI @ WAS",
+          "event_id": "401873035",
+          "market": "anytime touchdown",
+          "selection": "Dallas Goedert",
+          "line": null,
+          "price": 250,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-02T01:20:00Z",
+          "model_probabilities": {
+            "old": 0.377,
+            "candidate": null
+          },
+          "model_note": "Frozen TD-rate baseline only; current QB/injury/usage/matchup-adjusted probability unavailable. Separate generic TD output26.2%; no validated edge or joint hit rate."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6CW4T50WZS5M2APJ65G3V4D Nov1 18:56:53CST, original pixels/footer independently inspected. Duplicate image phonemsg-01M6CW60SZNQWWZTHH006CYZHQ is same single, counted once.",
+      "price_note": "Actual TN receipt. Exact potential return preserved over rounded displayed odds. Both logged SNF tickets depend on Goedert TD: $30/3u shared exposure. Cropped third ticket not logged at owner request; no inference about its status/stake.",
+      "leg_note": "Pending SNF; shared Goedert exposure $30/3u."
+    },
+    {
+      "bet_id": "us-tn:01m6cw3pkjeyfbn71y61z10n52",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-01T18:56:00-06:00",
+      "placed_at": "2026-11-01T18:56:00-06:00",
+      "game": "PHI @ WAS (NFL Week8)",
+      "event_ids": [
+        "401873035"
+      ],
+      "kickoff": "2026-11-02T01:20:00Z",
+      "receipt_kickoff_display": "7:21PMCT",
+      "market": "same_game_parlay",
+      "bet": "3-leg SGP: Eagles +10.5 + Under 47.5 + Dallas Goedert ATD",
+      "selection": "3-leg SGP: Eagles +10.5 + Under 47.5 + Dallas Goedert ATD",
+      "price": 645,
+      "line": null,
+      "potential_payout_usd": 74.58,
+      "potential_profit_usd": 64.58,
+      "implied_probability": 0.1342281879194631,
+      "payout_implied_probability": 0.13408420488066505,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": 30,
+      "unboosted_price": 497,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "PHI @ WAS",
+          "event_id": "401873035",
+          "market": "anytime touchdown",
+          "selection": "Dallas Goedert",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-02T01:20:00Z",
+          "model_probabilities": {
+            "old": 0.377,
+            "candidate": null
+          },
+          "model_note": "Frozen TD-rate baseline only; current QB/injury/usage/matchup-adjusted probability unavailable. Separate generic TD output26.2%; no validated edge or joint hit rate."
+        },
+        {
+          "event": "PHI @ WAS",
+          "event_id": "401873035",
+          "market": "alternate spread",
+          "selection": "Philadelphia Eagles",
+          "line": 10.5,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-02T01:20:00Z",
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          },
+          "model_note": "Frozen TD-rate baseline only; current QB/injury/usage/matchup-adjusted probability unavailable. Separate generic TD output26.2%; no validated edge or joint hit rate."
+        },
+        {
+          "event": "PHI @ WAS",
+          "event_id": "401873035",
+          "market": "alternate total points",
+          "selection": "Under",
+          "line": 47.5,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-02T01:20:00Z",
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          },
+          "model_note": "Frozen TD-rate baseline only; current QB/injury/usage/matchup-adjusted probability unavailable. Separate generic TD output26.2%; no validated edge or joint hit rate."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6CW4T50WZS5M2APJ65G3V4D Nov1 18:56:53CST, original pixels/footer independently inspected. Duplicate image phonemsg-01M6CW60SZNQWWZTHH006CYZHQ is same single, counted once.",
+      "price_note": "Actual TN receipt. Exact potential return preserved over rounded displayed odds. Both logged SNF tickets depend on Goedert TD: $30/3u shared exposure. Cropped third ticket not logged at owner request; no inference about its status/stake.",
+      "leg_note": "Pending SNF; shared Goedert exposure $30/3u."
     }
   ]
 }

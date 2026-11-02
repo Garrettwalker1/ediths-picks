@@ -1,0 +1,2 @@
+Nov 1 AP release verified after publication. ESPN date 07:00Z is a poll-day label, not release time. Archived 2026-11-02T03:28Z. Source https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings?season=2026&seasontype=2&week=10
+AP publication corroboration: https://apnews.com/live/top-25-college-football-poll-11-1-2026 (updated 5:57 PM EST). All 25 ranks and points cross-checked with https://www.cbssports.com/college-football/rankings/ap/ . AP remains research-only, never adopted.

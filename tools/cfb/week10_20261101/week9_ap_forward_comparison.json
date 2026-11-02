@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-02T03:30:08.906080+00:00",
+  "scope": "Week9 sealed AP versus no-AP paired game-level forward comparison. No tuning or repeated locked historical test. Existing 2024 validation and examined 2025 diagnostic remain unchanged.",
+  "n": 56,
+  "ap_hits": 39,
+  "no_ap_hits": 39,
+  "ap_mae": 13.114744141782642,
+  "no_ap_mae": 12.968375581902961,
+  "ap_minus_noap_winner": 0.0,
+  "winner_ci95": [
+    0.0,
+    0.0
+  ],
+  "ap_minus_noap_mae": 0.1463685598796816,
+  "mae_ci95": [
+    -0.2706695351818028,
+    0.5804000384182826
+  ],
+  "bootstrap": {
+    "unit": "game",
+    "resamples": 5000,
+    "seed": 261101
+  },
+  "adopted": false,
+  "decision": "No AP adoption unless winner CI lower bound strictly exceeds zero and MAE is not settled worse. Reference unchanged.",
+  "sealed_predictions_sha256": "daeba2b4c3b9018c93d4cd73a1e2e1741a3f101819141a6f02a95409cdcfc758"
+}

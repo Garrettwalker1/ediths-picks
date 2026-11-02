@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T04:41:46.227861+00:00",
+  "updated_at": "2026-11-02T17:47:16.252349+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -11038,6 +11038,193 @@
       "settlement_note": "Exact receipt confirms $60 WON on $20 stake, normal settled win under Oct9 owner instruction. Game still live at receipt, no need wait for final. No cashout. This is newly disclosed distinct single, not inferred cropped ticket.",
       "leg_note": "Stefon Diggs ATD: WIN per sportsbook receipt. Other two SNF tickets remain pending.",
       "price_note": "Actual TN receipt +200, $20/2u wager, exact $60 return. Previously unlogged; deduplicated by footer ID."
+    },
+    {
+      "bet_id": "us-tn:01m6envb4te0yvdz05rr483tqc",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 20,
+      "stake_units": 2.0,
+      "date": "2026-11-02T11:45:00-06:00",
+      "placed_at": "2026-11-02T11:45:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "anytime touchdown",
+      "bet": "Straight: Jaxon Smith-Njigba ATD",
+      "selection": "Straight: Jaxon Smith-Njigba ATD",
+      "price": 120,
+      "line": null,
+      "potential_payout_usd": 44,
+      "potential_profit_usd": 24,
+      "implied_probability": 0.45454545454545453,
+      "payout_implied_probability": 0.45454545454545453,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": 25,
+      "unboosted_price": -105,
+      "cashout_offer_usd": 20,
+      "cashout_offer_note": "Receipt offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "line": null,
+          "price": 120,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.504,
+            "candidate": null
+          },
+          "model_note": "Frozen h12/k4 scoring-history baseline only, unproven; current QB/injury/usage/matchup-adjusted TD probability unavailable. Caleb ATD is rushing/receiving, never passing TD."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6ENX1YC556KSP46NFS5EYFN Nov2 11:46:20CST; original receipt pixels and enlarged footer independently inspected. SHA256 0f45fcac4b69c4ca362cbf4401ee0a21cfa38a814bf6171526096870d5ca0ec8",
+      "price_note": "Actual TN receipt, exact payout retained over rounded displayed odds. Three tickets $40/4u same-game exposure; JSN on $30 stake and Caleb on $20, overlapping $10 SGP. No validated joint probability.",
+      "leg_note": "Pending. Caleb ATD requires rushing/receiving TD, not passing TD.",
+      "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102"
+    },
+    {
+      "bet_id": "us-tn:01m6envmzjfz0th21gqb59yj2k",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-02T11:45:00-06:00",
+      "placed_at": "2026-11-02T11:45:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "anytime touchdown",
+      "bet": "Straight: Caleb Williams ATD",
+      "selection": "Straight: Caleb Williams ATD",
+      "price": 615,
+      "line": null,
+      "potential_payout_usd": 71.5,
+      "potential_profit_usd": 61.5,
+      "implied_probability": 0.13986013986013987,
+      "payout_implied_probability": 0.13986013986013987,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": 25,
+      "unboosted_price": 490,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Receipt offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Caleb Williams",
+          "line": null,
+          "price": 615,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.233,
+            "candidate": null
+          },
+          "model_note": "Frozen h12/k4 scoring-history baseline only, unproven; current QB/injury/usage/matchup-adjusted TD probability unavailable. Caleb ATD is rushing/receiving, never passing TD."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6ENX1YC556KSP46NFS5EYFN Nov2 11:46:20CST; original receipt pixels and enlarged footer independently inspected. SHA256 619e8ca77a8c0d83027dcd8c119bfe44d13341965f6e64d1d0c1d42f74ef3f48",
+      "price_note": "Actual TN receipt, exact payout retained over rounded displayed odds. Three tickets $40/4u same-game exposure; JSN on $30 stake and Caleb on $20, overlapping $10 SGP. No validated joint probability.",
+      "leg_note": "Pending. Caleb ATD requires rushing/receiving TD, not passing TD.",
+      "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102"
+    },
+    {
+      "bet_id": "us-tn:01m6envy0wf6ebysbn9j08hczn",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1.0,
+      "date": "2026-11-02T11:45:00-06:00",
+      "placed_at": "2026-11-02T11:45:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "same_game_parlay",
+      "bet": "2-leg SGP: Caleb Williams ATD + Jaxon Smith-Njigba ATD",
+      "selection": "2-leg SGP: Caleb Williams ATD + Jaxon Smith-Njigba ATD",
+      "price": 925,
+      "line": null,
+      "potential_payout_usd": 102.59,
+      "potential_profit_usd": 92.59,
+      "implied_probability": 0.0975609756097561,
+      "payout_implied_probability": 0.09747538746466516,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Receipt offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Caleb Williams",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.233,
+            "candidate": null
+          },
+          "model_note": "Frozen h12/k4 scoring-history baseline only, unproven; current QB/injury/usage/matchup-adjusted TD probability unavailable. Caleb ATD is rushing/receiving, never passing TD."
+        },
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.504,
+            "candidate": null
+          },
+          "model_note": "Frozen h12/k4 scoring-history baseline only, unproven; current QB/injury/usage/matchup-adjusted TD probability unavailable. Caleb ATD is rushing/receiving, never passing TD."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6ENX1YC556KSP46NFS5EYFN Nov2 11:46:20CST; original receipt pixels and enlarged footer independently inspected. SHA256 0f8aeae5fd65163f432adf926da7c67801c5caab82e6d2d9e4368268fa401e8c",
+      "price_note": "Actual TN receipt, exact payout retained over rounded displayed odds. Three tickets $40/4u same-game exposure; JSN on $30 stake and Caleb on $20, overlapping $10 SGP. No validated joint probability.",
+      "leg_note": "Pending. Caleb ATD requires rushing/receiving TD, not passing TD.",
+      "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T17:47:16.252349+00:00",
+  "updated_at": "2026-11-02T22:56:08.166962+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -11225,6 +11225,65 @@
       "price_note": "Actual TN receipt, exact payout retained over rounded displayed odds. Three tickets $40/4u same-game exposure; JSN on $30 stake and Caleb on $20, overlapping $10 SGP. No validated joint probability.",
       "leg_note": "Pending. Caleb ATD requires rushing/receiving TD, not passing TD.",
       "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102"
+    },
+    {
+      "bet_id": "us-tn:01m6f7hqntfkqt607v5ffyrxf2",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-02T16:54:00-06:00",
+      "placed_at": "2026-11-02T16:54:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "player to record a sack",
+      "bet": "Straight: Jeffery Simmons to record a sack",
+      "selection": "Jeffery Simmons to record a sack",
+      "price": 154,
+      "line": null,
+      "potential_payout_usd": 25.4,
+      "potential_profit_usd": 15.4,
+      "implied_probability": 0.3937007874015748,
+      "payout_implied_probability": 0.3937007874015748,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "player to record a sack",
+          "selection": "Jeffery Simmons",
+          "team": "CHI",
+          "athlete_id": "4035369",
+          "line": null,
+          "price": 154,
+          "hit": null,
+          "result": null,
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          },
+          "model_note": "Sack-model probability unavailable. Current Chicago roster and receipt agree. Player to record a sack settles on governing-body sack credit; half sacks count Yes. Zero snaps void under TN player-prop rule.",
+          "rules_source": "https://www.fanduel.com/fanduel-sportsbook-house-rules-tn",
+          "roster_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/chi/roster"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6F7JC9VPDWK0QWQVX5KNGPN Nov2 16:55:05CST; original pixels/footer independently inspected SHA256 370ab3b6dd15139f7c447da5f72076ac2a8d565c2ee3604d22be46ce0a07958b",
+      "price_note": "Exact actual TN receipt return25.40. Four same-game tickets50/5u total. No new recommendation or group disclosure.",
+      "leg_note": "Pending. Grade official defensive sack credit, including half sack; do not confuse QB sacks taken."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T00:58:00Z",
+  "updated_at": "2026-11-02T02:29:28Z",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10953,6 +10953,65 @@
       "source": "Owner iMessage phonemsg-01M6CW4T50WZS5M2APJ65G3V4D Nov1 18:56:53CST, original pixels/footer independently inspected. Duplicate image phonemsg-01M6CW60SZNQWWZTHH006CYZHQ is same single, counted once.",
       "price_note": "Actual TN receipt. Exact potential return preserved over rounded displayed odds. Both logged SNF tickets depend on Goedert TD: $30/3u shared exposure. Cropped third ticket not logged at owner request; no inference about its status/stake.",
       "leg_note": "Pending SNF; shared Goedert exposure $30/3u."
+    },
+    {
+      "bet_id": "us-tn:01m6cw5fhmfzzbgqaerj10xdqq",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "settled",
+      "result": "win",
+      "stake_usd": 20,
+      "stake_units": 2,
+      "date": "2026-11-01T18:57:00-06:00",
+      "placed_at": "2026-11-01T18:57:00-06:00",
+      "game": "PHI @ WAS (NFL Week8)",
+      "event_ids": [
+        "401873035"
+      ],
+      "kickoff": "2026-11-02T01:20:00Z",
+      "market": "anytime touchdown",
+      "bet": "Straight: Stefon Diggs ATD",
+      "selection": "Stefon Diggs ATD",
+      "price": 200,
+      "line": null,
+      "potential_payout_usd": 60,
+      "potential_profit_usd": 40,
+      "payout_usd": 60,
+      "net_usd": 40,
+      "net_units": 4,
+      "implied_probability": 0.3333333333333333,
+      "payout_implied_probability": 0.3333333333333333,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": null,
+      "legs": [
+        {
+          "event": "PHI @ WAS",
+          "event_id": "401873035",
+          "selection": "Stefon Diggs",
+          "market": "anytime touchdown",
+          "price": 200,
+          "line": null,
+          "hit": true,
+          "result": "win",
+          "touchdowns": 1,
+          "model_probabilities": {
+            "old": 0.361,
+            "candidate": null
+          },
+          "model_note": "Same-spec h12/k4 corrected complete SNF cohort baseline, current adjusted probability unavailable.",
+          "grading_source": "Owner WON ON FANDUEL receipt phonemsg-01M6D1E7DXJP30RWDPW94W4NPM",
+          "graded_at": "2026-11-02T02:29:28Z"
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6D1E7DXJP30RWDPW94W4NPM Nov1 20:29:28CST, original WON receipt/footer independently inspected SHA256 67f24f459289db81e576262d6490347b95fc41ce76536c6edc8d8027a40c29dd",
+      "settled_at": "2026-11-02T02:29:28Z",
+      "settlement_source": "Owner WON ON FANDUEL receipt phonemsg-01M6D1E7DXJP30RWDPW94W4NPM",
+      "settlement_note": "Exact receipt confirms $60 WON on $20 stake, normal settled win under Oct9 owner instruction. Game still live at receipt, no need wait for final. No cashout. This is newly disclosed distinct single, not inferred cropped ticket.",
+      "leg_note": "Stefon Diggs ATD: WIN per sportsbook receipt. Other two SNF tickets remain pending.",
+      "price_note": "Actual TN receipt +200, $20/2u wager, exact $60 return. Previously unlogged; deduplicated by footer ID."
     }
   ]
 }

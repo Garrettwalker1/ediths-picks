@@ -1,0 +1,183 @@
+{
+  "built_at": "2026-11-02T00:55:48Z",
+  "purpose": "SNF missing Washington cohort correction; not a new model",
+  "method": "Exact frozen h12/k4 per-position shrinkage with recency-weighted rushing+receiving TD rate over last17 weekly records, same cached2023-26inputs and player IDs as build_td_week8.py. No retraining, no changed input cutoff. Correct WAS/WSH team alias in cohort eligibility only.",
+  "source_builder": "tools/nfl/week8_2026/build_td_week8.py",
+  "source_builder_sha256": "c28509f6285d85b29007f02bd4f8f22379a1c8645d76df7ec959d61da7250a21",
+  "rows": [
+    {
+      "player": "Dallas Goedert",
+      "team": "PHI",
+      "model": 0.377,
+      "lastweek": 7
+    },
+    {
+      "player": "Stefon Diggs",
+      "team": "WAS",
+      "model": 0.361,
+      "lastweek": 6
+    },
+    {
+      "player": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "model": 0.321,
+      "lastweek": 5
+    },
+    {
+      "player": "Saquon Barkley",
+      "team": "PHI",
+      "model": 0.313,
+      "lastweek": 7
+    },
+    {
+      "player": "Jayden Daniels",
+      "team": "WAS",
+      "model": 0.287,
+      "lastweek": 6
+    },
+    {
+      "player": "Darius Cooper",
+      "team": "PHI",
+      "model": 0.285,
+      "lastweek": 7
+    },
+    {
+      "player": "DeVonta Smith",
+      "team": "PHI",
+      "model": 0.268,
+      "lastweek": 6
+    },
+    {
+      "player": "Dameon Pierce",
+      "team": "PHI",
+      "model": 0.248,
+      "lastweek": 7
+    },
+    {
+      "player": "Terry McLaurin",
+      "team": "WAS",
+      "model": 0.243,
+      "lastweek": 6
+    },
+    {
+      "player": "Jalen Hurts",
+      "team": "PHI",
+      "model": 0.228,
+      "lastweek": 5
+    },
+    {
+      "player": "Marquise Brown",
+      "team": "PHI",
+      "model": 0.225,
+      "lastweek": 7
+    },
+    {
+      "player": "Tank Bigsby",
+      "team": "PHI",
+      "model": 0.219,
+      "lastweek": 4
+    },
+    {
+      "player": "Austin Ekeler",
+      "team": "WAS",
+      "model": 0.214,
+      "lastweek": 6
+    },
+    {
+      "player": "Rachaad White",
+      "team": "WAS",
+      "model": 0.213,
+      "lastweek": 6
+    },
+    {
+      "player": "Elijah Mitchell",
+      "team": "PHI",
+      "model": 0.205,
+      "lastweek": 7
+    },
+    {
+      "player": "Treylon Burks",
+      "team": "WAS",
+      "model": 0.205,
+      "lastweek": 6
+    },
+    {
+      "player": "Zach Ertz",
+      "team": "PHI",
+      "model": 0.203,
+      "lastweek": 5
+    },
+    {
+      "player": "Makai Lemon",
+      "team": "PHI",
+      "model": 0.197,
+      "lastweek": 7
+    },
+    {
+      "player": "Antonio Williams",
+      "team": "WAS",
+      "model": 0.189,
+      "lastweek": 6
+    },
+    {
+      "player": "Dontayvion Wicks",
+      "team": "PHI",
+      "model": 0.186,
+      "lastweek": 6
+    },
+    {
+      "player": "Kaytron Allen",
+      "team": "WAS",
+      "model": 0.179,
+      "lastweek": 4
+    },
+    {
+      "player": "Athan Kaliakmanis",
+      "team": "WAS",
+      "model": 0.175,
+      "lastweek": 4
+    },
+    {
+      "player": "Chig Okonkwo",
+      "team": "WAS",
+      "model": 0.151,
+      "lastweek": 6
+    },
+    {
+      "player": "Will Shipley",
+      "team": "PHI",
+      "model": 0.144,
+      "lastweek": 5
+    },
+    {
+      "player": "Marcus Mariota",
+      "team": "WAS",
+      "model": 0.12,
+      "lastweek": 4
+    },
+    {
+      "player": "Jeremy McNichols",
+      "team": "WAS",
+      "model": 0.11,
+      "lastweek": 6
+    }
+  ],
+  "eligible_top3": [
+    "Dallas Goedert",
+    "Stefon Diggs",
+    "Saquon Barkley"
+  ],
+  "current_adjusted_probabilities": null,
+  "generic_baseline_disagreement": {
+    "Dallas Goedert": 0.262,
+    "Stefon Diggs": 0.318,
+    "Saquon Barkley": 0.172
+  },
+  "quote": {
+    "state": "IL",
+    "captured_at": "2026-11-01T18:54:00-06:00",
+    "Dallas Goedert": 250,
+    "Stefon Diggs": 200,
+    "Saquon Barkley": 160
+  }
+}

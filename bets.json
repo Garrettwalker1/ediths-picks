@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T00:35:39.815244+00:00",
+  "updated_at": "2026-11-02T00:38:07.593190+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -10758,8 +10758,14 @@
             "candidate": null
           },
           "model_note": "Unchanged Week8 scoring-history baseline throughWeek7, current injury/usage-adjusted probability unavailable. Official final inactive-list gate cleared2:38-2:43CST. No workload guarantee or joint model probability.",
-          "hit": null,
-          "kickoff": "2026-11-01T21:25:00Z"
+          "hit": false,
+          "kickoff": "2026-11-01T21:25:00Z",
+          "result": "loss",
+          "touchdowns": 0,
+          "final_score": "DEN28;KC24 (Final)",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033",
+          "graded_at": "2026-11-02T00:38:07.593190+00:00",
+          "scoring_plays": []
         },
         {
           "event": "NE @ MIA",
@@ -10799,11 +10805,12 @@
       ],
       "source": "Owner iMessage phonemsg-01M6CDQRAEHDV04YN5G2WCFEAW Nov1 2:45:09PMCST; originalreceipt/footerpixelsinspected SHA256 75be3a0d560df46a3aaee427c744dc736e7c869bf7a3c110ad6958c21cd44d58",
       "price_note": "ActualTNreceiptprices supersede aggregatorreferences. Exact116.37return authoritative over rounded1063headline. No boost;cashout10offeronly. Kyren/PukaSGP252,individualpricesunknown,no reverseengineering. Walker-12054.5%impliedvs45.9%baseline;Stevenson-12555.6%vs45.4%;notprovenedges. Sunday12tickets120committed,Puka2tickets20,LACLA2tickets20,MINDET8tickets80unchanged.",
-      "leg_note": "Kyren Williams: WIN; Puka Nacua: WIN; Kenneth Walker III: PENDING; Rhamondre Stevenson: LOSS",
+      "leg_note": "Kyren Williams: WIN; Puka Nacua: WIN; Kenneth Walker III: LOSS; Rhamondre Stevenson: LOSS",
       "payout_usd": 0,
       "settled_at": "2026-11-02T00:35:39.815244+00:00",
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034",
-      "settlement_note": "Normal sports-result settlement: Stevenson failed in final game. Exact receipt retained. Owner Oct9 normal-settlement grant; no cashout report found. Not independently checked sportsbook. Walker final-leg detail pending, ticket already loss; no later double charge."
+      "settlement_note": "Normal sports-result loss: Stevenson and Walker failed in final games; Kyren/Puka scored. Final leg detail filled without second charge. Owner Oct9 normal-settlement grant; no cashout report found. Not independently checked sportsbook.",
+      "all_legs_graded_at": "2026-11-02T00:38:07.593190+00:00"
     }
   ]
 }

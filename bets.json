@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-02T22:56:08.166962+00:00",
+  "updated_at": "2026-11-02T23:07:24.662798+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -11284,6 +11284,149 @@
       "source": "Owner iMessage phonemsg-01M6F7JC9VPDWK0QWQVX5KNGPN Nov2 16:55:05CST; original pixels/footer independently inspected SHA256 370ab3b6dd15139f7c447da5f72076ac2a8d565c2ee3604d22be46ce0a07958b",
       "price_note": "Exact actual TN receipt return25.40. Four same-game tickets50/5u total. No new recommendation or group disclosure.",
       "leg_note": "Pending. Grade official defensive sack credit, including half sack; do not confuse QB sacks taken."
+    },
+    {
+      "bet_id": "us-tn:01m6f86704fdfv3qeqbmyz42q9",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-02T17:05:00-06:00",
+      "placed_at": "2026-11-02T17:05:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "same_game_parlay",
+      "bet": "3-leg SGP: Seattle -1.5 + Under 51.5 + Jaxon Smith-Njigba ATD",
+      "selection": "3-leg SGP: Seattle -1.5 + Under 51.5 + Jaxon Smith-Njigba ATD",
+      "price": 456,
+      "line": null,
+      "potential_payout_usd": 55.66,
+      "potential_profit_usd": 45.66,
+      "implied_probability": 0.17985611510791366,
+      "payout_implied_probability": 0.17966223499820339,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": 30,
+      "unboosted_price": 351,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Receipt offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "alternate spread",
+          "selection": "Seattle Seahawks",
+          "line": -1.5,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          }
+        },
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "alternate total",
+          "selection": "Under",
+          "line": 51.5,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": null,
+            "candidate": null
+          }
+        },
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Jaxon Smith-Njigba",
+          "line": null,
+          "price": null,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.504,
+            "candidate": null
+          },
+          "model_note": "Recaptured h12/k4 historical TD-rate baseline only; current role/injury adjustment unavailable. Alternate thresholds judgment choices, no hit probabilities."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6F878QDKK3TMCZS1ZSKW5CP Nov2 17:06:29CST; original pixels/footer independently inspected; SHA256 a8a2e42bcdd688a400e1480062e402a4c0862bb357d7447eccd4c95ff21e12fe",
+      "price_note": "Actual TN receipt. Exact payout retained rather than recomputed from rounded displayed odds. Six same-game tickets70/7u total. No group financial disclosure.",
+      "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102",
+      "leg_note": "Pending. Three exact legs; joint probability unavailable.30%profitboost on+351, displayed+456, exact receipt55.66retained."
+    },
+    {
+      "bet_id": "us-tn:01m6f86gcje6j941g2j8gyxmdq",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "stake_usd": 10,
+      "stake_units": 1,
+      "date": "2026-11-02T17:06:00-06:00",
+      "placed_at": "2026-11-02T17:06:00-06:00",
+      "game": "CHI @ SEA (NFL Week8)",
+      "event_ids": [
+        "401873036"
+      ],
+      "kickoff": "2026-11-03T01:15:00Z",
+      "receipt_kickoff_display": "7:16PMCT",
+      "venue": "Lumen Field, Seattle",
+      "market": "anytime touchdown scorer",
+      "bet": "Straight: Tory Horton ATD",
+      "selection": "Straight: Tory Horton ATD",
+      "price": 410,
+      "line": null,
+      "potential_payout_usd": 51,
+      "potential_profit_usd": 41,
+      "implied_probability": 0.19607843137254902,
+      "payout_implied_probability": 0.19607843137254902,
+      "net_usd": null,
+      "net_units": null,
+      "profit_boost_percent": null,
+      "unboosted_price": null,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Receipt offer only, not a transaction. No cashout recorded.",
+      "legs": [
+        {
+          "event": "CHI @ SEA",
+          "event_id": "401873036",
+          "market": "anytime touchdown",
+          "selection": "Tory Horton",
+          "line": null,
+          "price": 410,
+          "hit": null,
+          "result": null,
+          "kickoff": "2026-11-03T01:15:00Z",
+          "model_probabilities": {
+            "old": 0.346,
+            "candidate": null
+          },
+          "model_note": "Nov2 recaptured roster-first h12/k4 historical TD-rate baseline; eligibility coverage correction, not newly validated. ShaheedOUT/CharbonnetandPricereturn not quantified. Current workload/injury adjusted chance unavailable."
+        }
+      ],
+      "source": "Owner iMessage phonemsg-01M6F878QDKK3TMCZS1ZSKW5CP Nov2 17:06:29CST; original pixels/footer independently inspected; SHA256 955b788fd484473fd330387d44125c808d8e9a17a58e8088679b169beaeb0771",
+      "price_note": "Actual TN receipt. Exact payout retained rather than recomputed from rounded displayed odds. Six same-game tickets70/7u total. No group financial disclosure.",
+      "event_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102"
     }
   ]
 }

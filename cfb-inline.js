@@ -143,17 +143,17 @@ async function loadCfbWeek10(){
  const host=document.getElementById('cfbWeek10');if(!host)return;
  try{
   const base='tools/cfb/week10_20261101/';const d=await fetch(base+'week10_sealed_research.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
-  const wx=null;
+  const wx=await fetch(base+'week10_weather_overlay.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).catch(()=>null);
   const wxmap={};if(wx)wx.games.forEach(w=>wxmap[w.event_id]=w);
   const half=x=>{const n=Math.round(Math.abs(x)*2)/2;return n.toFixed(n%1?1:0);};
   const line=(g,x)=>Math.abs(x)<0.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
   const wxWatch=w=>w&&!w.venue.indoor&&(Math.abs(w.weather_delta_home_raw)>=1||w.window.rain_inches>=0.1||w.window.wind_max_mph>=15);
   host.textContent='';const note=document.createElement('p');note.className='muted';const p=d.protocol;
-  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 9 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. Week 10 injury/QB and weather coverage are unverified; adjustments and model totals remain null.';host.appendChild(note);
+  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 9 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. Week 10 injury/QB adjustments and model totals remain null. Separate WX UNPROVEN overlay uses current city forecasts and a failed-validation candidate; sealed baseline unchanged, not a bet signal.';host.appendChild(note);
   const bar=document.createElement('div');bar.className='cfb-filter';
   const bAll=document.createElement('button');bAll.textContent='All games';bAll.className='active';
   const bWx=document.createElement('button');bWx.textContent='Weather watch';
-  bar.append(bAll);host.appendChild(bar);
+  bar.append(bAll,bWx);host.appendChild(bar);
   const listWrap=document.createElement('div');host.appendChild(listWrap);
   const cards=[];
   let day='';d.games.forEach(g=>{

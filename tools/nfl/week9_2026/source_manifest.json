@@ -1,0 +1,58 @@
+[
+  {
+    "file": "games.csv",
+    "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+    "bytes": 2187848,
+    "sha256": "3f8c506afd09565ac8fa7abebae87a5e82f5e4beb215aba42f10b311752b99bd",
+    "captured_at": "2026-11-03T13:11:10.640835+00:00"
+  },
+  {
+    "file": "player_stats_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "bytes": 3749992,
+    "sha256": "1d3a256f5e3545b3c6dd1ad5ab1c788b3242587204c7e77a3c60c6b79f8cbe93",
+    "captured_at": "2026-11-03T13:11:10.979457+00:00"
+  },
+  {
+    "file": "roster_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "bytes": 981620,
+    "sha256": "63cd13600a3d1196c27aec7cf5b586d3b602955a82e56675f3d28a24dfa527fc",
+    "captured_at": "2026-11-03T13:11:10.885046+00:00"
+  },
+  {
+    "file": "injuries_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+    "bytes": 281154,
+    "sha256": "16d5a88e806dc6427c49b6f2de442426fc7d1bbaa018e5cb19d3185ce20e4b03",
+    "captured_at": "2026-11-03T13:11:11.294433+00:00"
+  },
+  {
+    "file": "espn-current.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+    "bytes": 242729,
+    "sha256": "458b9628fcbc8593e7975e76a3667c29719ffd669a3cfd3f49efd3388cfb25da",
+    "captured_at": "2026-11-03T13:11:10.630167+00:00"
+  },
+  {
+    "file": "cfb-current.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=400",
+    "bytes": 1184314,
+    "sha256": "78e43fb6303d6186559c8f054f59f1866db1e135ace905783be62deb467508d8",
+    "captured_at": "2026-11-03T13:11:10.677716+00:00"
+  },
+  {
+    "file": "espn_week8.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8",
+    "bytes": 242729,
+    "sha256": "458b9628fcbc8593e7975e76a3667c29719ffd669a3cfd3f49efd3388cfb25da",
+    "captured_at": "2026-11-03T13:11:10.661777+00:00"
+  },
+  {
+    "file": "espn_week9.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=9",
+    "bytes": 271062,
+    "sha256": "ecf17bb6e284e29ab23139fb74f3598b5c3714cd0f0645b919223604fa82cd8a",
+    "captured_at": "2026-11-03T13:11:10.649105+00:00"
+  }
+]

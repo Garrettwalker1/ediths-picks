@@ -1,0 +1,700 @@
+{
+ "summary": [
+  {
+   "sport": "NFL",
+   "train_n": 815,
+   "test_n": 544,
+   "bets": 355,
+   "wins": 166,
+   "losses": 187,
+   "pushes": 2,
+   "ats_pct": 0.4702549575070821,
+   "roi": -0.10223626062322942,
+   "mae": 11.05461938434665,
+   "rmse": 14.200517912381521,
+   "brier": 0.24770043219522134,
+   "threshold": 3,
+   "sigma": 13.903063847862608,
+   "margin_coef": [
+    -0.6330050877705824,
+    5.890873945233383,
+    -4.70842060128338,
+    2.0695869101139883,
+    -3.8165736277097277,
+    0.29775969345290676,
+    -0.24287529174227188,
+    -0.6330050877704757,
+    0.17396434389319806
+   ],
+   "total_coef": [
+    20.716592241687913,
+    5.9399337243535735,
+    4.972376757207979,
+    3.9761627963159483,
+    2.8146920129244113,
+    0.02542507356198986,
+    0.06341032695102099,
+    20.716592241688055,
+    0.0776163745584703
+   ]
+  },
+  {
+   "sport": "CFB",
+   "train_n": 1078,
+   "test_n": 1828,
+   "bets": 1376,
+   "wins": 694,
+   "losses": 682,
+   "pushes": 0,
+   "ats_pct": 0.5043604651162791,
+   "roi": -0.037125436046511646,
+   "mae": 16.9247032972386,
+   "rmse": 21.3554437009876,
+   "brier": 0.2244457348625616,
+   "threshold": 4,
+   "sigma": 21.002174191503176,
+   "margin_coef": [
+    14.24404526754275,
+    6.972711143942303,
+    -5.103398522782389,
+    2.4267357341974733,
+    1.1101127824831638,
+    0.2638093487024054,
+    -0.6338753499721231,
+    11.672480875388223,
+    0.0
+   ],
+   "total_coef": [
+    31.570860561447425,
+    5.2586510644153055,
+    -0.694135940129939,
+    7.587444795917022,
+    1.7538611280530316,
+    0.31365593422178445,
+    -0.17089820089613608,
+    17.116769053379727,
+    0.0
+   ]
+  }
+ ],
+ "v2": {
+  "sport": "NFL v2",
+  "bets": 345,
+  "wins": 166,
+  "losses": 177,
+  "pushes": 2,
+  "ats_pct": 0.4839650145772595,
+  "roi": -0.07606239067055388,
+  "mae": 10.863612215194,
+  "rmse": 13.87851583242922,
+  "features": [
+   "h_match_epa",
+   "a_match_epa",
+   "h_match_sr",
+   "a_match_sr",
+   "h_pace",
+   "a_pace",
+   "homefield",
+   "rest_edge",
+   "home_inj",
+   "away_inj",
+   "wind_eff",
+   "cold",
+   "outdoor"
+  ],
+  "margin_coef": [
+   -1.1052880471540236,
+   5.366082551714385,
+   -3.9508398826748197,
+   1.4220801871823088,
+   -3.4964987199323523,
+   0.289317604809426,
+   -0.24235541714077444,
+   -1.1052880471539617,
+   0.16408058758100189,
+   -0.4461242140852898,
+   0.6540961539994615,
+   -0.07023482152667843,
+   0.017953957115444105,
+   1.2977702119794685
+  ],
+  "total_coef": [
+   21.83448498323092,
+   5.735594645546659,
+   4.395230021744135,
+   4.086771434889187,
+   3.076872455715377,
+   0.033007823023199837,
+   0.09626068877702905,
+   21.83448498323095,
+   0.07652624854492902,
+   -0.3131720770721385,
+   -0.41740258406817,
+   -0.17109239478310392,
+   -0.10301752206368604,
+   -1.6200856350289985
+  ]
+ },
+ "current": [
+  {
+   "sport": "NFL",
+   "matchup": "CAR at GB",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "GB -3.5 \u00b7 O/U 47.5",
+   "model": "GB -5.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 67.3,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-10-30T00:15Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 5.5; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 19,
+    "home_score": 25,
+    "model_total": 44.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "ARI at DAL",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "DAL -6.5 \u00b7 O/U 54.5",
+   "model": "DAL -5.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 68.0,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 5.71; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 28,
+    "model_total": 49.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "ATL at TB",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "TB -2.5 \u00b7 O/U 46.5",
+   "model": "TB -1.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 55.4,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 1.73; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 24,
+    "model_total": 46.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "BAL at BUF",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "BUF -3.5 \u00b7 O/U 53.5",
+   "model": "BUF -7",
+   "edge": null,
+   "pick": null,
+   "home_win": 71.5,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 6.97; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 29,
+    "model_total": 50.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "CLE at PIT",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "PIT -3.5 \u00b7 O/U 39.5",
+   "model": "PIT -6",
+   "edge": null,
+   "pick": null,
+   "home_win": 68.3,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 5.84; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 18,
+    "home_score": 24,
+    "model_total": 41.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "IND at JAX",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "JAX -7.5 \u00b7 O/U 46.5",
+   "model": "JAX -8.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 75.9,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 8.65; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 19,
+    "home_score": 28,
+    "model_total": 47.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "LV at NYJ",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "LV -1.5 \u00b7 O/U 45.5",
+   "model": "NYJ -0.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 51.9,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 0.69; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 23,
+    "model_total": 44.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "MIN at DET",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "DET -3 \u00b7 O/U 46.5",
+   "model": "MIN -0.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 47.4,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin -0.67; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 24,
+    "home_score": 23,
+    "model_total": 47.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "TEN at CIN",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "CIN -10 \u00b7 O/U 46.5",
+   "model": "CIN -12",
+   "edge": null,
+   "pick": null,
+   "home_win": 82.8,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T18:00Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 11.81; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 17,
+    "home_score": 28,
+    "model_total": 45.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "LAC at LA",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "LA -6.5 \u00b7 O/U 44.5",
+   "model": "LA -8.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 74.9,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T21:05Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 8.27; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 28,
+    "model_total": 47.5
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "KC at DEN",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "KC -1.5 \u00b7 O/U 41.5",
+   "model": "DEN -4",
+   "edge": null,
+   "pick": null,
+   "home_win": 63.0,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T21:25Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 4.07; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 18,
+    "home_score": 23,
+    "model_total": 41.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "NE at MIA",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "NE -7.5 \u00b7 O/U 44.5",
+   "model": "NE -5.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 31.4,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-01T21:25Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin -5.69; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 25,
+    "home_score": 19,
+    "model_total": 44.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "PHI at WSH",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "WSH -4.5 \u00b7 O/U 40.5",
+   "model": "PHI -0.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 48.1,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-02T01:20Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin -0.44; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 22,
+    "home_score": 22,
+    "model_total": 44.0
+   }
+  },
+  {
+   "sport": "NFL",
+   "matchup": "CHI at SEA",
+   "book": "DraftKings via ESPN \u00b7 Oct27 7:12AMCT snapshot \u00b7 NOT FanDuel/TN",
+   "market": "SEA -3.5 \u00b7 O/U 46.5",
+   "model": "SEA -5.5",
+   "edge": null,
+   "pick": null,
+   "home_win": 68.0,
+   "approved": false,
+   "line_only": true,
+   "kickoff": "2026-11-03T01:15Z",
+   "model_note": "Margin-Elo v1 scores-only; raw home margin 5.74; no injury/QB/weather adjustment.",
+   "score_projection": {
+    "away_score": 20,
+    "home_score": 25,
+    "model_total": 45.0
+   }
+  }
+ ],
+ "cal": {
+  "nfl": [
+   {
+    "prob_bin": "(-0.001, 0.2]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   },
+   {
+    "prob_bin": "(0.2, 0.4]",
+    "n": 1,
+    "predicted": 0.3611245003474054,
+    "actual": 1.0
+   },
+   {
+    "prob_bin": "(0.4, 0.6]",
+    "n": 378,
+    "predicted": 0.5445325857912161,
+    "actual": 0.5105820105820106
+   },
+   {
+    "prob_bin": "(0.6, 0.8]",
+    "n": 165,
+    "predicted": 0.6376573948172782,
+    "actual": 0.5878787878787879
+   },
+   {
+    "prob_bin": "(0.8, 1.0]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   }
+  ],
+  "cfb": [
+   {
+    "prob_bin": "(-0.001, 0.2]",
+    "n": 0,
+    "predicted": "",
+    "actual": ""
+   },
+   {
+    "prob_bin": "(0.2, 0.4]",
+    "n": 35,
+    "predicted": 0.3115542297983054,
+    "actual": 0.4571428571428571
+   },
+   {
+    "prob_bin": "(0.4, 0.6]",
+    "n": 571,
+    "predicted": 0.5416738230176764,
+    "actual": 0.51138353765324
+   },
+   {
+    "prob_bin": "(0.6, 0.8]",
+    "n": 1066,
+    "predicted": 0.6897518893801458,
+    "actual": 0.6425891181988743
+   },
+   {
+    "prob_bin": "(0.8, 1.0]",
+    "n": 156,
+    "predicted": 0.821893067114932,
+    "actual": 0.903846153846154
+   }
+  ]
+ },
+ "errors": {
+  "nfl": [
+   {
+    "week": 1.0,
+    "n": 32,
+    "mae": 8.62
+   },
+   {
+    "week": 2.0,
+    "n": 32,
+    "mae": 10.17
+   },
+   {
+    "week": 3.0,
+    "n": 32,
+    "mae": 12.58
+   },
+   {
+    "week": 4.0,
+    "n": 32,
+    "mae": 10.09
+   },
+   {
+    "week": 5.0,
+    "n": 28,
+    "mae": 9.53
+   },
+   {
+    "week": 6.0,
+    "n": 29,
+    "mae": 11.08
+   },
+   {
+    "week": 7.0,
+    "n": 30,
+    "mae": 12.89
+   },
+   {
+    "week": 8.0,
+    "n": 29,
+    "mae": 13.54
+   },
+   {
+    "week": 9.0,
+    "n": 29,
+    "mae": 9.39
+   },
+   {
+    "week": 10.0,
+    "n": 28,
+    "mae": 9.98
+   },
+   {
+    "week": 11.0,
+    "n": 29,
+    "mae": 11.56
+   },
+   {
+    "week": 12.0,
+    "n": 27,
+    "mae": 10.83
+   },
+   {
+    "week": 13.0,
+    "n": 32,
+    "mae": 9.12
+   },
+   {
+    "week": 14.0,
+    "n": 27,
+    "mae": 11.83
+   },
+   {
+    "week": 15.0,
+    "n": 32,
+    "mae": 12.69
+   },
+   {
+    "week": 16.0,
+    "n": 32,
+    "mae": 10.34
+   },
+   {
+    "week": 17.0,
+    "n": 32,
+    "mae": 13.41
+   },
+   {
+    "week": 18.0,
+    "n": 32,
+    "mae": 11.32
+   }
+  ],
+  "cfb": [
+   {
+    "week": 1,
+    "n": 200,
+    "mae": 18.81
+   },
+   {
+    "week": 2,
+    "n": 163,
+    "mae": 19.8
+   },
+   {
+    "week": 3,
+    "n": 139,
+    "mae": 20.69
+   },
+   {
+    "week": 4,
+    "n": 131,
+    "mae": 18.43
+   },
+   {
+    "week": 5,
+    "n": 113,
+    "mae": 16.09
+   },
+   {
+    "week": 6,
+    "n": 103,
+    "mae": 15.06
+   },
+   {
+    "week": 7,
+    "n": 114,
+    "mae": 15.77
+   },
+   {
+    "week": 8,
+    "n": 125,
+    "mae": 13.71
+   },
+   {
+    "week": 9,
+    "n": 116,
+    "mae": 14.22
+   },
+   {
+    "week": 10,
+    "n": 106,
+    "mae": 15.72
+   },
+   {
+    "week": 11,
+    "n": 107,
+    "mae": 15.66
+   },
+   {
+    "week": 12,
+    "n": 119,
+    "mae": 15.8
+   },
+   {
+    "week": 13,
+    "n": 135,
+    "mae": 17.29
+   },
+   {
+    "week": 14,
+    "n": 134,
+    "mae": 16.25
+   },
+   {
+    "week": 15,
+    "n": 20,
+    "mae": 17.49
+   },
+   {
+    "week": 16,
+    "n": 3,
+    "mae": 14.5
+   }
+  ]
+ },
+ "news": [
+  {
+   "player": "Jalen Hurts (QB)",
+   "team": "PHI",
+   "in_overlay": false,
+   "status": "OUT INDEFINITELY - Oct 19 joint Eagles/agent statement: DVT and blood clots in both lungs, on anticoagulation, no contact football during treatment; no return timetable announced. McKee is the current starter.",
+   "source": "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/19/eagles-jalen-hurts-blood-clots-lungs-nicole-lynn-statement/92328312007/",
+   "observed_at": "Oct 19-20, 2026"
+  },
+  {
+   "player": "Terry McLaurin (WR)",
+   "team": "WSH",
+   "in_overlay": false,
+   "status": "OUT FOR SEASON - torn patellar tendon in left knee per ESPN (coach Dan Quinn, Oct 20). Season-ending status is confirmed by the team coach; the specific diagnosis is as reported by ESPN and NBC Sports. Applied as OUT (zero participation) in injury cohort v4.",
+   "source": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+   "observed_at": "Oct 20, 2026"
+  },
+  {
+   "player": "Romeo Doubs (WR)",
+   "team": "NE",
+   "in_overlay": false,
+   "status": "OUT - placed on injured reserve (shoulder) Oct 19 per the team and AP; standard IR minimum applies. Roster-confirmed in the Oct 21 provider IR inventory and applied as OUT (zero participation) in injury cohort v4.",
+   "source": "https://www.patriots.com/news/patriots-place-wr-romeo-doubs-on-injured-reserve-sign-db-elliott-davison-to-the-53-man-roster-from-the-practice-squad-announce-additional-practice-squad-moves",
+   "observed_at": "Oct 21, 2026"
+  },
+  {
+   "player": "Davante Adams (WR)",
+   "team": "LAR",
+   "in_overlay": false,
+   "status": "OUT 6-10 WEEKS - hamstring injury, per McVay Oct 19 (NFL.com/AP/ESPN). Supersedes the initial apparent-knee report from the Oct 18 game. Roster-confirmed IR Oct 21.",
+   "source": "https://www.nfl.com/news/davante-adams-hamstring-expected-to-miss-6-10-weeks-as-injuries-pile-up-rams",
+   "observed_at": "Oct 19-20, 2026"
+  },
+  {
+   "player": "Poona Ford (DT)",
+   "team": "LAR",
+   "in_overlay": false,
+   "status": "OUT FOR SEASON - per AP Oct 19; rotation defensive tackle. Roster-confirmed IR Oct 21.",
+   "source": "https://apnews.com/article/rams-davante-adams-poona-ford-injuries-b8140c5993e799a0c5a44dab5e8b87b2",
+   "observed_at": "Oct 19-20, 2026"
+  },
+  {
+   "player": "Taylor Moton (OT)",
+   "team": "CAR",
+   "status": "IR Oct26, fractured fibula; official Panthers transaction. No manual point deduction. Week8 report coverage still pending.",
+   "source": "https://www.panthers.com/news/panthers-place-right-tackle-taylor-moton-on-injured-reserve",
+   "in_overlay": false,
+   "observed_at": "2026-10-27T12:12:51.017490+00:00"
+  }
+ ],
+ "weather": [],
+ "availability_warnings": []
+}

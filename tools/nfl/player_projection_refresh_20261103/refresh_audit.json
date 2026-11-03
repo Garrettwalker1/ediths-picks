@@ -1,0 +1,567 @@
+{
+  "built_at": "2026-11-03T13:25:15.300983+00:00",
+  "repair": "Current-season rolling input/roster/eight-league compatibility only; no refit or tuning",
+  "reproduction": {
+    "players": 252,
+    "differences": []
+  },
+  "fitted_parameter_sha256": "0754d43d0edd7fa9a6827e10d8dacfa4f67ba1f0a534eb18848aba95c625f266",
+  "training": "Unchanged2023-25fit from original generator; reproduced252/252Oct20predictions exactly",
+  "current_inputs": "2026REGweeks1-8only; allWeek8finalsavailable. All32currentESPNrosters",
+  "coverage": {
+    "modeled": 463,
+    "unranked": [
+      {
+        "player": "Reggie Virgil",
+        "team": "ARI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Matt Hibner",
+        "team": "BAL",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Elijah Sarratt",
+        "team": "BAL",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Adam Randall",
+        "team": "BAL",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Skyler Bell",
+        "team": "BUF",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Joshua Palmer",
+        "team": "BUF",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Ja'seem Reed",
+        "team": "CAR",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Chris Brazzell II",
+        "team": "CAR",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Stephen Carlson",
+        "team": "CHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Brittain Brown",
+        "team": "CHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Nikola Kalinic",
+        "team": "CHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Hayden Large",
+        "team": "CHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jack Endries",
+        "team": "CIN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Colbie Young",
+        "team": "CIN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Audric Estime",
+        "team": "CLE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Carsen Ryan",
+        "team": "CLE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Joe Royer",
+        "team": "CLE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Camden Brown",
+        "team": "DAL",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Princeton Fant",
+        "team": "DAL",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Dallen Bentley",
+        "team": "DEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Kolbe Katsis",
+        "team": "DEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Cody Schrader",
+        "team": "DEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Caleb Lohner",
+        "team": "DEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Justin Jackson",
+        "team": "DET",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jackson Meeks",
+        "team": "DET",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Kendrick Law",
+        "team": "DET",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Mark Redman",
+        "team": "GB",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Thomas Yassmin",
+        "team": "GB",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Lewis Bond",
+        "team": "HOU",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Marlin Klein",
+        "team": "HOU",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Drew Ogletree",
+        "team": "IND",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "D.J. Montgomery",
+        "team": "IND",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Carson Towt",
+        "team": "IND",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Tanner Koziol",
+        "team": "JAX",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "CJ Williams",
+        "team": "JAX",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jaydn Ott",
+        "team": "KC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jeff Caldwell",
+        "team": "KC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "John Michael Gyllenborg",
+        "team": "KC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jimmy Holiday",
+        "team": "KC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "CJ Daniels",
+        "team": "LA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Max Klare",
+        "team": "LA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Patrick Herbert",
+        "team": "LAC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Brenen Thompson",
+        "team": "LAC",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Roman Hemby",
+        "team": "LV",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Chris Myarick",
+        "team": "LV",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Justin Joly",
+        "team": "MIA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Carlos Washington Jr.",
+        "team": "MIA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Dillon Bell",
+        "team": "MIN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Justin Jefferson",
+        "team": "MIN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 51,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Tanner Arkin",
+        "team": "NE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jalen Hurd",
+        "team": "NE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Lan Larison",
+        "team": "NE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Myles Montgomery",
+        "team": "NE",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jalen Moreno-Cropper",
+        "team": "NO",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Treyton Welch",
+        "team": "NO",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Moliki Matavao",
+        "team": "NO",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jordyn Tyson",
+        "team": "NO",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": true
+      },
+      {
+        "player": "Greg Desrosiers Jr.",
+        "team": "NYG",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Caullin Lacy",
+        "team": "NYJ",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Chip Trayanum",
+        "team": "NYJ",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Hollywood Brown",
+        "team": "PHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Eli Stowers",
+        "team": "PHI",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Irv Charles",
+        "team": "SEA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Montorie Foster Jr.",
+        "team": "SEA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 1,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Robert Henry Jr.",
+        "team": "SEA",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "De'Zhaun Stribling",
+        "team": "SF",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Barika Kpeenu",
+        "team": "TB",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "David Sills V",
+        "team": "TB",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Eli Heidenreich",
+        "team": "PIT",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Brandon Johnson",
+        "team": "PIT",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 14,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Brandon Smith",
+        "team": "PIT",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 3,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Cole Burgess",
+        "team": "PIT",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Max Hurleman",
+        "team": "PIT",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Michael Carter",
+        "team": "TEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 69,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Nicholas Singleton",
+        "team": "TEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 2,
+        "fantasy_snapshot_rostered": false
+      },
+      {
+        "player": "Jaren Kanak",
+        "team": "TEN",
+        "reason": "fewer than3NFLregular-seasonhistoryrows or ambiguousID",
+        "history_rows": 0,
+        "fantasy_snapshot_rostered": false
+      }
+    ],
+    "fantasy_leagues": 8,
+    "fantasy_snapshot_at": "2026-11-01T18:58:00-06:00",
+    "fantasy_scope": "Rosterhighlightsonly,notliveownershiporscores; nofantasywrites",
+    "positions": [
+      "RB",
+      "WR",
+      "TE"
+    ],
+    "quarterbacks": "Notcoveredbythisgenericgenerator; separateQB/TDworkunaffected"
+  },
+  "matchup_context": "Same descriptive formula, now2026throughWeek8defensegroupaggregates; no current/futuregame row. NOTusedinpointestimates. No newtest/validationclaim",
+  "limits": [
+    "NoquarterbackforecastsfromthisRBWRTEgenerator",
+    "Injured/IRandpriorseasononlyhistorymayappear; notcurrentworkloadorclearance",
+    "2026rookieswithfewerthan3gamesunranked",
+    "Existingconstantintervalwidthsnotrecalibrated",
+    "FantasyhighlightNov1snapshotof8leagues,notliveroster",
+    "No current bookprices,adjusted oroverprobabilities",
+    "Priorholdoutevidencecarriedforwardunmodified,notretestedastouchedholdout"
+  ]
+}

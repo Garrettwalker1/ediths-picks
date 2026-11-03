@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-10-30T03:45:09.383240+00:00",
+ "generated_at": "2026-11-03T04:46:52.924167+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 27,
-  "wins": 16,
-  "losses": 11,
+  "graded": 39,
+  "wins": 24,
+  "losses": 15,
   "ungraded": 17
  },
  "by_sport": {
   "CFB": {
-   "graded": 13,
-   "wins": 9,
-   "losses": 4,
+   "graded": 21,
+   "wins": 15,
+   "losses": 6,
    "ungraded": 14
   },
   "NFL": {
-   "graded": 14,
-   "wins": 7,
-   "losses": 7,
+   "graded": 18,
+   "wins": 9,
+   "losses": 9,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 13,
-  "wins": 7,
-  "losses": 6,
+  "graded": 17,
+  "wins": 9,
+  "losses": 8,
   "ungraded": 1
  },
  "nfl_standard": {
@@ -517,6 +517,138 @@
    "ticket": "Green Bay +3.5 alternate spread + Under54.5 alternate total + Chuba Hubbard ATD",
    "ticket_date": "2026-10-29",
    "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
+   "market": "spread",
+   "selection": "Wake Forest",
+   "line": -12.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Wisconsin ML + Wake Forest -12.5 + Miami Florida -13.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Miami Hurricanes at North Carolina Tar Heels",
+   "market": "alternate spread",
+   "selection": "Miami Florida",
+   "line": -13.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Wisconsin ML + Wake Forest -12.5 + Miami Florida -13.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Utah Utes at Cincinnati Bearcats",
+   "market": "alternate spread",
+   "selection": "Utah",
+   "line": -6.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Kansas ML + Utah -6.5 + Nebraska -7.5 + Memphis -5.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Washington Huskies at Nebraska Cornhuskers",
+   "market": "spread",
+   "selection": "Nebraska",
+   "line": -7.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Kansas ML + Utah -6.5 + Nebraska -7.5 + Memphis -5.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Army Black Knights at Memphis Tigers",
+   "market": "spread",
+   "selection": "Memphis",
+   "line": -5.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Kansas ML + Utah -6.5 + Nebraska -7.5 + Memphis -5.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Colorado State Rams at Utah State Aggies",
+   "market": "spread",
+   "selection": "Utah State",
+   "line": -9.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Utah State -9.5 + Georgia -11.5 + Wake Forest -13.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Florida Gators at Georgia Bulldogs",
+   "market": "spread",
+   "selection": "Georgia",
+   "line": -11.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Utah State -9.5 + Georgia -11.5 + Wake Forest -13.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "Virginia Cavaliers at Wake Forest Demon Deacons",
+   "market": "spread",
+   "selection": "Wake Forest",
+   "line": -13.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: Utah State -9.5 + Georgia -11.5 + Wake Forest -13.5",
+   "ticket_date": "2026-10-31",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "PHI @ WAS",
+   "market": "alternate spread",
+   "selection": "Philadelphia Eagles",
+   "line": 10.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Eagles +10.5 + Under 47.5 + Dallas Goedert ATD",
+   "ticket_date": "2026-11-01",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "PHI @ WAS",
+   "market": "alternate total points",
+   "selection": "Under",
+   "line": 47.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Eagles +10.5 + Under 47.5 + Dallas Goedert ATD",
+   "ticket_date": "2026-11-01",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "CHI @ SEA",
+   "market": "alternate spread",
+   "selection": "Seattle Seahawks",
+   "line": -1.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Seattle -1.5 + Under 51.5 + Jaxon Smith-Njigba ATD",
+   "ticket_date": "2026-11-02",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "CHI @ SEA",
+   "market": "alternate total",
+   "selection": "Under",
+   "line": 51.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Seattle -1.5 + Under 51.5 + Jaxon Smith-Njigba ATD",
+   "ticket_date": "2026-11-02",
+   "ticket_result": "loss",
    "hit": true
   }
  ]

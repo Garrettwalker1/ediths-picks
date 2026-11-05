@@ -29,11 +29,15 @@ work; nothing here is validated or live.
   without the historical fit; the fit table ships in the artifact.
 - Vacated volume: an OUT or discounted player's season-to-date target/carry
   and red-zone shares are removed in proportion to expected-play probability.
-- Redistribution: vacated shares flow to same-team same-position teammates
-  proportional to their shares among remaining players, with a documented
-  cap so no backup inherits more than a fitted ceiling. QB changes use a
-  separate team-level passing/rushing efficiency penalty fit, never the
-  player-share path.
+- Redistribution: vacated shares flow to same-team same-position teammates.
+  The recovery fraction and any ceiling are FIT from historical comparable
+  absences (games where a player with a similar season-to-date share missed
+  time), never assumed. An assumed recovery rate (e.g. "backups cover
+  50-70%") is not a supported estimate and must not be presented as a
+  bounded range. Yards-to-points proportionality is likewise not assumed;
+  the mapping from lost share to expected points uses the historical fit.
+  QB changes use a separate team-level passing/rushing efficiency penalty
+  fit, never the player-share path.
 - Adjusted features feed the SAME frozen candidate coefficients. No refit of
   the TD model itself in v1.
 
@@ -54,6 +58,13 @@ work; nothing here is validated or live.
 
 ## 6. First deliverables (Friday Nov 6 checkpoint)
 - designation->availability fit table from historical nflverse reports.
+- historical comparable-absence fit: replacement production share by role
+  (WR1-level target share, lead RB, etc.) from historical games missed.
 - redistribution rule implemented against Week 8 as a retrospective
   reconstruction (clearly labeled retrospective; outcomes already known).
 - comparison of adjusted vs frozen candidate on that retrospective cohort.
+- CFB worked example: Toney absence at Miami using the same fitted rates
+  with observed replacement-role evidence (who actually absorbs targets),
+  plus reconciliation of Miami's scoring rate (model feature pf_f 41.0 ppg
+  full-season vs any higher recent-4 claims) before any points translation.
+- Every current-facts claim carries its exact observed source URL.

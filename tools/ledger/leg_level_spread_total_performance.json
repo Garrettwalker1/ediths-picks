@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-03T04:46:52.924167+00:00",
+ "generated_at": "2026-11-06T04:45:05.771904+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 39,
-  "wins": 24,
+  "graded": 41,
+  "wins": 26,
   "losses": 15,
   "ungraded": 17
  },
@@ -16,15 +16,15 @@
    "ungraded": 14
   },
   "NFL": {
-   "graded": 18,
-   "wins": 9,
+   "graded": 20,
+   "wins": 11,
    "losses": 9,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 17,
-  "wins": 9,
+  "graded": 19,
+  "wins": 11,
   "losses": 8,
   "ungraded": 1
  },
@@ -648,6 +648,28 @@
    "sport": "NFL",
    "ticket": "3-leg SGP: Seattle -1.5 + Under 51.5 + Jaxon Smith-Njigba ATD",
    "ticket_date": "2026-11-02",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "JAX @ BAL",
+   "market": "alternate spread",
+   "selection": "Jacksonville Jaguars",
+   "line": -2.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Jacksonville -2.5 + Under 45.5 + Derrick Henry ATD",
+   "ticket_date": "2026-11-05",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "JAX @ BAL",
+   "market": "alternate total points",
+   "selection": "Under",
+   "line": 45.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Jacksonville -2.5 + Under 45.5 + Derrick Henry ATD",
+   "ticket_date": "2026-11-05",
    "ticket_result": "loss",
    "hit": true
   }

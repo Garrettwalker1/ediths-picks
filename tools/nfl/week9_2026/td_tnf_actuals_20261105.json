@@ -1,0 +1,66 @@
+{
+ "game": "JAX @ BAL (NFL Week9 TNF)",
+ "event_id": "401873037",
+ "final": "JAX 33, BAL 10",
+ "status": "Final",
+ "captured_at": "2026-11-06T04:42:47+00:00",
+ "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+ "td_scorers": [
+  {
+   "player": "Bhayshul Tuten",
+   "team": "JAX",
+   "tds": 1,
+   "board_primary": 0.5397,
+   "board_baseline": 0.469,
+   "board_rank_in_game": 2
+  },
+  {
+   "player": "Parker Washington",
+   "team": "JAX",
+   "tds": 1,
+   "board_primary": 0.348,
+   "board_baseline": null,
+   "board_rank_in_game": 4
+  },
+  {
+   "player": "Chris Rodriguez Jr.",
+   "team": "JAX",
+   "tds": 1,
+   "board_primary": 0.254,
+   "board_baseline": null,
+   "board_rank_in_game": 6
+  },
+  {
+   "player": "Justice Hill",
+   "team": "BAL",
+   "tds": 1,
+   "board_primary": 0.195,
+   "board_baseline": null,
+   "board_rank_in_game": 10
+  }
+ ],
+ "non_scorers_of_note": [
+  {
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "board_primary": 0.5842,
+   "board_rank_in_game": 1,
+   "line": "17 att/57 yds/0 TD"
+  },
+  {
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "board_primary": 0.3725,
+   "board_rank_in_game": 3,
+   "line": "3 rec/6 yds, 3 rush/17 yds, 0 TD"
+  },
+  {
+   "player": "Jakobi Meyers",
+   "team": "JAX",
+   "board_primary": 0.2403,
+   "board_rank_in_game": 7,
+   "line": "4 rec/65 yds, 0 TD"
+  }
+ ],
+ "note": "Week 9 TNF is the only Week 9 game played as of capture. Board ranks from tools/nfl/week9_2026/td_week9_primary.json among the 13 ranked JAX/BAL names. Baselines for Washington/Rodriguez/Hill not transcribed here - read from the board file."
+}

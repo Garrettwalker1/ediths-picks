@@ -17,15 +17,18 @@
    "potential_payout_usd": 20.0,
    "potential_profit_usd": 10.0,
    "cashout_value_usd_at_capture": 7.3,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "win",
+   "net_units": 1.0,
+   "net_usd": 10.0,
    "bet": "Straight: Bhayshul Tuten ATD",
    "selection": "Straight: Bhayshul Tuten ATD",
    "price": 100,
    "profit_boost_percent": null,
-   "unboosted_price": null
+   "unboosted_price": null,
+   "payout_usd": 20.0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037"
   },
   {
    "bet_id": "us-tn:01m6pgez81fy89pskr1vv4kaaz",
@@ -42,15 +45,18 @@
    "potential_payout_usd": 48.0,
    "potential_profit_usd": 38.0,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Zay Flowers ATD",
    "selection": "Straight: Zay Flowers ATD",
    "price": 380,
    "profit_boost_percent": null,
-   "unboosted_price": null
+   "unboosted_price": null,
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037"
   },
   {
    "bet_id": "us-tn:01m6px743fecptng5as58w4nvm",
@@ -67,15 +73,18 @@
    "potential_payout_usd": 35.0,
    "potential_profit_usd": 25.0,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "Straight: Jakobi Meyers ATD",
    "selection": "Straight: Jakobi Meyers ATD",
    "price": 250,
    "profit_boost_percent": null,
-   "unboosted_price": null
+   "unboosted_price": null,
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037"
   },
   {
    "bet_id": "us-tn:01m6py6ygveb683k1y7m9sf3vd",
@@ -92,15 +101,19 @@
    "potential_payout_usd": 69.73,
    "potential_profit_usd": 59.73,
    "cashout_value_usd_at_capture": 10.0,
-   "status": "open",
-   "result": "open",
-   "net_units": null,
-   "net_usd": null,
+   "status": "settled",
+   "result": "loss",
+   "net_units": -1.0,
+   "net_usd": -10,
    "bet": "3-leg SGP: Jacksonville -2.5 + Under 45.5 + Derrick Henry ATD",
    "selection": "3-leg SGP: Jacksonville -2.5 + Under 45.5 + Derrick Henry ATD",
    "price": 597,
    "profit_boost_percent": 30,
-   "unboosted_price": 459
+   "unboosted_price": 459,
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037"
   }
- ]
+ ],
+ "graded_at": "2026-11-06T04:42:47+00:00"
 }

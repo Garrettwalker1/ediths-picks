@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-11-05T22:49:16Z",
+ "updated_at": "2026-11-06T04:42:47+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -11505,8 +11505,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
+   "status": "settled",
+   "result": "win",
    "stake_usd": 10,
    "stake_units": 1,
    "date": "2026-11-05T12:45:00-06:00",
@@ -11527,8 +11527,8 @@
    "potential_profit_usd": 10.0,
    "implied_probability": 0.5,
    "payout_implied_probability": 0.5,
-   "net_usd": null,
-   "net_units": null,
+   "net_usd": 10.0,
+   "net_units": 1.0,
    "profit_boost_percent": null,
    "unboosted_price": null,
    "cashout_offer_usd": 7.3,
@@ -11542,14 +11542,30 @@
      "team": "JAX",
      "line": null,
      "price": 100,
-     "hit": null,
-     "result": null,
+     "hit": true,
+     "result": "win",
      "kickoff": "2026-11-06T01:15:00Z",
-     "player_id": "00-0040719"
+     "player_id": "00-0040719",
+     "model_probabilities": {
+      "old": 0.469,
+      "candidate": 0.5396545627469606
+     },
+     "model_note": "Old = h12/k4 baseline, candidate = Week 9 primary TD model (adopted Nov 5). Stats-only; injury-adjusted probability unavailable. ATD settles on governing-body TD credit.",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "touchdowns": 1,
+     "stat_note": "1 rushing TD (1 yd, 1Q); 12 att/29 yds. Scoring plays and boxscore crosschecked."
     }
    ],
    "notes": "Model Week 9 primary board #2 for this game (54.0% primary / 46.9% baseline). Questionable after Wednesday DNP; expected to play per CBS Sports Nov 5. Injury-adjusted probability unavailable.",
-   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX"
+   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX",
+   "payout_usd": 20.0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+   "settlement_note": "Final JAX 33, BAL 10. Normal stat-based grading; latest phone history checked, no later cashout - receipt cashout buttons are offers only. Exact receipt payout used on win.",
+   "leg_note": "Bhayshul Tuten: win",
+   "source": "Owner iMessage phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX Nov 5; original pixels/footer independently inspected."
   },
   {
    "bet_id": "us-tn:01m6pgez81fy89pskr1vv4kaaz",
@@ -11557,8 +11573,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
+   "status": "settled",
+   "result": "loss",
    "stake_usd": 10,
    "stake_units": 1,
    "date": "2026-11-05T12:45:00-06:00",
@@ -11579,8 +11595,8 @@
    "potential_profit_usd": 38.0,
    "implied_probability": 0.20833333333333334,
    "payout_implied_probability": 0.2083333333,
-   "net_usd": null,
-   "net_units": null,
+   "net_usd": -10,
+   "net_units": -1.0,
    "profit_boost_percent": null,
    "unboosted_price": null,
    "cashout_offer_usd": 10.0,
@@ -11594,14 +11610,30 @@
      "team": "BAL",
      "line": null,
      "price": 380,
-     "hit": null,
-     "result": null,
+     "hit": false,
+     "result": "loss",
      "kickoff": "2026-11-06T01:15:00Z",
-     "player_id": "00-0039064"
+     "player_id": "00-0039064",
+     "model_probabilities": {
+      "old": 0.359,
+      "candidate": 0.37249639075746355
+     },
+     "model_note": "Old = h12/k4 baseline, candidate = Week 9 primary TD model (adopted Nov 5). Stats-only; injury-adjusted probability unavailable. ATD settles on governing-body TD credit.",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "touchdowns": 0,
+     "stat_note": "0 TD; 3 rec/6 yds, 3 rush/17 yds. Scoring plays and boxscore crosschecked."
     }
    ],
    "notes": "Model Week 9 primary board #3 for this game (37.2% primary / 35.9% baseline). Baltimore QB change (Fagnano first start) not priced into number. User withdrew the Flowers name from the VOLS group share; this placed ticket is unchanged.",
-   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX"
+   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX",
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+   "settlement_note": "Final JAX 33, BAL 10. Normal stat-based grading; latest phone history checked, no later cashout - receipt cashout buttons are offers only. Exact receipt payout used on win.",
+   "leg_note": "Zay Flowers: loss",
+   "source": "Owner iMessage phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX Nov 5; original pixels/footer independently inspected."
   },
   {
    "bet_id": "us-tn:01m6px743fecptng5as58w4nvm",
@@ -11609,8 +11641,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
+   "status": "settled",
+   "result": "loss",
    "stake_usd": 10,
    "stake_units": 1,
    "date": "2026-11-05T16:28:00-06:00",
@@ -11631,8 +11663,8 @@
    "potential_profit_usd": 25.0,
    "implied_probability": 0.2857142857142857,
    "payout_implied_probability": 0.2857142857,
-   "net_usd": null,
-   "net_units": null,
+   "net_usd": -10,
+   "net_units": -1.0,
    "profit_boost_percent": null,
    "unboosted_price": null,
    "cashout_offer_usd": 10.0,
@@ -11646,14 +11678,30 @@
      "team": "JAX",
      "line": null,
      "price": 250,
-     "hit": null,
-     "result": null,
+     "hit": false,
+     "result": "loss",
      "kickoff": "2026-11-06T01:15:00Z",
-     "player_id": "00-0034960"
+     "player_id": "00-0034960",
+     "model_probabilities": {
+      "old": 0.241,
+      "candidate": 0.24025508578766488
+     },
+     "model_note": "Old = h12/k4 baseline, candidate = Week 9 primary TD model (adopted Nov 5). Stats-only; injury-adjusted probability unavailable. ATD settles on governing-body TD credit.",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "touchdowns": 0,
+     "stat_note": "0 TD; 4 rec/65 yds (team-high). Scoring plays and boxscore crosschecked."
     }
    ],
    "notes": "User pick; outside the model top-3 for this game (24.0% primary / 24.1% baseline on the Week 9 board).",
-   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX"
+   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX",
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+   "settlement_note": "Final JAX 33, BAL 10. Normal stat-based grading; latest phone history checked, no later cashout - receipt cashout buttons are offers only. Exact receipt payout used on win.",
+   "leg_note": "Jakobi Meyers: loss",
+   "source": "Owner iMessage phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX Nov 5; original pixels/footer independently inspected."
   },
   {
    "bet_id": "us-tn:01m6py6ygveb683k1y7m9sf3vd",
@@ -11661,8 +11709,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "open",
-   "result": null,
+   "status": "settled",
+   "result": "loss",
    "stake_usd": 10,
    "stake_units": 1,
    "date": "2026-11-05T16:45:00-06:00",
@@ -11683,8 +11731,8 @@
    "potential_profit_usd": 59.73,
    "implied_probability": 0.14347202295552366,
    "payout_implied_probability": 0.1434102969,
-   "net_usd": null,
-   "net_units": null,
+   "net_usd": -10,
+   "net_units": -1.0,
    "profit_boost_percent": 30,
    "unboosted_price": 459,
    "cashout_offer_usd": 10.0,
@@ -11698,9 +11746,19 @@
      "team": "JAX",
      "line": -2.5,
      "price": null,
-     "hit": null,
-     "result": null,
-     "kickoff": "2026-11-06T01:15:00Z"
+     "hit": true,
+     "result": "win",
+     "kickoff": "2026-11-06T01:15:00Z",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "model_probabilities": {
+      "old": null,
+      "candidate": null
+     },
+     "model_note": "Alternate thresholds are judgment choices; no hit probabilities.",
+     "actual_margin": 23,
+     "stat_note": "Jacksonville won 33-10; -2.5 covers."
     },
     {
      "event": "JAX @ BAL",
@@ -11710,10 +11768,20 @@
      "team": "BAL",
      "line": null,
      "price": null,
-     "hit": null,
-     "result": null,
+     "hit": false,
+     "result": "loss",
      "kickoff": "2026-11-06T01:15:00Z",
-     "player_id": "00-0032764"
+     "player_id": "00-0032764",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "model_probabilities": {
+      "old": 0.589,
+      "candidate": 0.5841861866765042
+     },
+     "model_note": "Old = h12/k4 baseline, candidate = Week 9 primary TD model (adopted Nov 5). Stats-only; injury-adjusted probability unavailable. ATD settles on governing-body TD credit.",
+     "touchdowns": 0,
+     "stat_note": "0 TD; 17 att/57 yds. Baltimore's only TD was Justice Hill's 65-yd rush. Scoring plays and boxscore crosschecked."
     },
     {
      "event": "JAX @ BAL",
@@ -11723,13 +11791,29 @@
      "team": null,
      "line": 45.5,
      "price": null,
-     "hit": null,
-     "result": null,
-     "kickoff": "2026-11-06T01:15:00Z"
+     "hit": true,
+     "result": "win",
+     "kickoff": "2026-11-06T01:15:00Z",
+     "graded_at": "2026-11-06T04:42:47+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+     "final_score": "JAX33-BAL10",
+     "model_probabilities": {
+      "old": null,
+      "candidate": null
+     },
+     "model_note": "Alternate thresholds are judgment choices; no hit probabilities.",
+     "actual_total": 43,
+     "stat_note": "Final total 43 is below 45.5."
     }
    ],
    "notes": "30% profit boost applied: +459 -> +597 as shown on receipt; payout $69.73 exact. Placed alt lines (-2.5 / Under 45.5) differ from the JAX -1.5 / Under 45.5 / Henry ATD version released to the VOLS group; kept separate per user instruction (phonemsg-01M6PYA17GZV5KHW07TTNHP8YY). Henry is model board #1 (58.4% primary / 58.9% baseline).",
-   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX"
+   "source_message_id": "phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX",
+   "payout_usd": 0,
+   "settled_at": "2026-11-06T04:42:47+00:00",
+   "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+   "settlement_note": "Final JAX 33, BAL 10 (total 43). Normal stat-based grading; latest phone history checked, no later cashout - receipt cashout buttons are offers only.",
+   "leg_note": "Jacksonville -2.5: win; Under 45.5: win; Derrick Henry: loss",
+   "source": "Owner iMessage phonemsg-01M6PY9AA5JWKKW5MMTR6NDVSX Nov 5; original pixels/footer independently inspected. Placed -2.5 differs from VOLS-released -1.5, kept separate per phonemsg-01M6PYA17GZV5KHW07TTNHP8YY."
   }
  ]
 }

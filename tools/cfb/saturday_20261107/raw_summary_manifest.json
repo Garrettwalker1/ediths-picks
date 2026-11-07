@@ -1,0 +1,3205 @@
+{
+  "preserved_at": "2026-11-07T13:27:04.783510+00:00",
+  "warning": "Fresh historical re-fetch, not original snapshot bytes. Original field-level provider timestamps unavailable.",
+  "files": [
+    {
+      "event_id": "401856716",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856716",
+      "raw_sha256": "d0d6850c084283f8655f4584bf2dd5c0b185b2df132d81e5b78102113dd47c41",
+      "gzip_file": "boxscore-401856716.json.gz",
+      "raw_bytes": 572445
+    },
+    {
+      "event_id": "401860893",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860893",
+      "raw_sha256": "bc2054e201df64699be190ce23948cd07769fab3628ecc3a8338bfa8885f5d86",
+      "gzip_file": "boxscore-401860893.json.gz",
+      "raw_bytes": 544520
+    },
+    {
+      "event_id": "401856776",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856776",
+      "raw_sha256": "7482dba141baee8576501d71340c9a74749a4f9f57bb55e683bc02b20c415c87",
+      "gzip_file": "boxscore-401856776.json.gz",
+      "raw_bytes": 519552
+    },
+    {
+      "event_id": "401869933",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869933",
+      "raw_sha256": "29557d197ca7536fa4c8821f1133b6791b1c7ae6526ab2df7825b24528633730",
+      "gzip_file": "boxscore-401869933.json.gz",
+      "raw_bytes": 599149
+    },
+    {
+      "event_id": "401858217",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858217",
+      "raw_sha256": "0a37c390d67ef7bc4c90182c15300aec1104d0492c3fa9fb4bdc79db732a2724",
+      "gzip_file": "boxscore-401858217.json.gz",
+      "raw_bytes": 468729
+    },
+    {
+      "event_id": "401858433",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858433",
+      "raw_sha256": "fe3c11106e689e6ef880c51f292fd0c2f755f8ff95c13cc481a2bbe9499cd7e0",
+      "gzip_file": "boxscore-401858433.json.gz",
+      "raw_bytes": 540597
+    },
+    {
+      "event_id": "401856771",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856771",
+      "raw_sha256": "2fcaa819d89e4a5f73febbc563560926b67af9fffaa411fcf6a2653752f4cfb9",
+      "gzip_file": "boxscore-401856771.json.gz",
+      "raw_bytes": 570466
+    },
+    {
+      "event_id": "401866432",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866432",
+      "raw_sha256": "47aa35360504e99b970b1eb6b656d83e0b4a055884d8afa8dd0087774aae74ce",
+      "gzip_file": "boxscore-401866432.json.gz",
+      "raw_bytes": 480498
+    },
+    {
+      "event_id": "401858457",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858457",
+      "raw_sha256": "fd79d18d4f08cf691228b8c30fd86dbf07a75a3d19c84d5a76ed0c3fc3e726a7",
+      "gzip_file": "boxscore-401858457.json.gz",
+      "raw_bytes": 502623
+    },
+    {
+      "event_id": "401867973",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867973",
+      "raw_sha256": "5641cfc307a0b8a73188fb86c940cbdeb8231061f930ddd043c866a295d93a0e",
+      "gzip_file": "boxscore-401867973.json.gz",
+      "raw_bytes": 509594
+    },
+    {
+      "event_id": "401856781",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856781",
+      "raw_sha256": "abdf805558e8d33dc9f07a23f7771a95646f30df91671f7b5dc9545758a3f2c7",
+      "gzip_file": "boxscore-401856781.json.gz",
+      "raw_bytes": 458925
+    },
+    {
+      "event_id": "401871047",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871047",
+      "raw_sha256": "25b8306cd85c5bdefa9e9bfde0e37bb16804126d1686728589c78976838fb0ce",
+      "gzip_file": "boxscore-401871047.json.gz",
+      "raw_bytes": 479342
+    },
+    {
+      "event_id": "401858458",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858458",
+      "raw_sha256": "55d8045c65ebbb4ef632bec3fa7c3f2715acb3576e20470c3f1334b2a1f53d0f",
+      "gzip_file": "boxscore-401858458.json.gz",
+      "raw_bytes": 567165
+    },
+    {
+      "event_id": "401864572",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864572",
+      "raw_sha256": "d95743dd7884702342fe5fe5f7e4805d7c6272abef0ae7555d4f15bda57328e6",
+      "gzip_file": "boxscore-401864572.json.gz",
+      "raw_bytes": 598597
+    },
+    {
+      "event_id": "401856671",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856671",
+      "raw_sha256": "cb22d0f054d381938aa40c5c6f71a4ff3812f9d7e3dcc450c552ecb23cef100d",
+      "gzip_file": "boxscore-401856671.json.gz",
+      "raw_bytes": 578058
+    },
+    {
+      "event_id": "401856813",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856813",
+      "raw_sha256": "84c7a6e41c61cf3cff45981b30bf7a90cca2663b8d4dccb4464ec831f702d44d",
+      "gzip_file": "boxscore-401856813.json.gz",
+      "raw_bytes": 618641
+    },
+    {
+      "event_id": "401864579",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864579",
+      "raw_sha256": "db4b960d43bd776238116145506fcc6eef3ff624833b6f23894ba18a97bad31f",
+      "gzip_file": "boxscore-401864579.json.gz",
+      "raw_bytes": 502556
+    },
+    {
+      "event_id": "401858201",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858201",
+      "raw_sha256": "41527a96ccc69e9e6832fe57d5dfd6c790acdb00307372deb6ce6534e063cb54",
+      "gzip_file": "boxscore-401858201.json.gz",
+      "raw_bytes": 604714
+    },
+    {
+      "event_id": "401862783",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862783",
+      "raw_sha256": "ffd95a04273fd272daa052209811b5cef6f8a15378a579648309d81e7012c29e",
+      "gzip_file": "boxscore-401862783.json.gz",
+      "raw_bytes": 580172
+    },
+    {
+      "event_id": "401864499",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864499",
+      "raw_sha256": "f678258409c60b014fdbac62aa1d8d3eee85cfbd38dedffcba30c72f28a8fd10",
+      "gzip_file": "boxscore-401864499.json.gz",
+      "raw_bytes": 451355
+    },
+    {
+      "event_id": "401862696",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862696",
+      "raw_sha256": "a2e4c23d275a9d59ea80f4ac6bbf8d5604277f815bb642ed50038e8987a66ab7",
+      "gzip_file": "boxscore-401862696.json.gz",
+      "raw_bytes": 471545
+    },
+    {
+      "event_id": "401858226",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858226",
+      "raw_sha256": "04ec7a8ed9650ba915051b356c9de18624a2507b78bce39a2f87a221bae67d04",
+      "gzip_file": "boxscore-401858226.json.gz",
+      "raw_bytes": 559010
+    },
+    {
+      "event_id": "401858237",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858237",
+      "raw_sha256": "33b75b33b39d76194016bd4e21ed6cd1a2b3ab3e5fd774f63f9c821abd5131db",
+      "gzip_file": "boxscore-401858237.json.gz",
+      "raw_bytes": 502699
+    },
+    {
+      "event_id": "401864519",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864519",
+      "raw_sha256": "f59b13f27a9a332401673886123c3372dc985457c525181a70888dfe5bb7cb23",
+      "gzip_file": "boxscore-401864519.json.gz",
+      "raw_bytes": 505404
+    },
+    {
+      "event_id": "401858248",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858248",
+      "raw_sha256": "2ac79abd36e8f05a581c90b7d859059404e7b616673ec55b25f1013d400edd82",
+      "gzip_file": "boxscore-401858248.json.gz",
+      "raw_bytes": 547753
+    },
+    {
+      "event_id": "401856713",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856713",
+      "raw_sha256": "80a267ecf9817254bd49f7cfa696a8354c41dc569b9a087b3a83367a179aac6e",
+      "gzip_file": "boxscore-401856713.json.gz",
+      "raw_bytes": 532931
+    },
+    {
+      "event_id": "401862708",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862708",
+      "raw_sha256": "a3794fc1301d37791abd2345453e2c4b1b2f924663e0e77a1cb94c2ef9ac3e3c",
+      "gzip_file": "boxscore-401862708.json.gz",
+      "raw_bytes": 464288
+    },
+    {
+      "event_id": "401869940",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869940",
+      "raw_sha256": "06fa59e16b6aa18c0fbb77279a2571e6aee1e3db5cbe6442ccf4c27f03d88e74",
+      "gzip_file": "boxscore-401869940.json.gz",
+      "raw_bytes": 476886
+    },
+    {
+      "event_id": "401860921",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860921",
+      "raw_sha256": "55fda6230cdcaa0e9a9ef6783ec3de254e04f7aad019b6da00ce6945578e369c",
+      "gzip_file": "boxscore-401860921.json.gz",
+      "raw_bytes": 492692
+    },
+    {
+      "event_id": "401856782",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856782",
+      "raw_sha256": "46a659ab23f83b360e7f31cb3d969616b638e0348ecf6b2462ea26d8a1df8d5f",
+      "gzip_file": "boxscore-401856782.json.gz",
+      "raw_bytes": 628359
+    },
+    {
+      "event_id": "401867909",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867909",
+      "raw_sha256": "8b5fadadfeb0271073106041b5b8775632b03939390411a0f45e3a27eec90876",
+      "gzip_file": "boxscore-401867909.json.gz",
+      "raw_bytes": 458998
+    },
+    {
+      "event_id": "401858467",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858467",
+      "raw_sha256": "4ab277cdcd2f7b64f6e72710b0ab7b20a4d6ec9aea8b9e6a40b0acf67f9ec94f",
+      "gzip_file": "boxscore-401858467.json.gz",
+      "raw_bytes": 477908
+    },
+    {
+      "event_id": "401858482",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858482",
+      "raw_sha256": "e75bd71b5a5a5baa1b28c034483dcbe717a365137d9cb28eb8154fdbd4106fb3",
+      "gzip_file": "boxscore-401858482.json.gz",
+      "raw_bytes": 559922
+    },
+    {
+      "event_id": "401867796",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867796",
+      "raw_sha256": "cd5dcc85f9ba9b4326d91ceffe9989433640cab451ab9dfb04a93b79436743b6",
+      "gzip_file": "boxscore-401867796.json.gz",
+      "raw_bytes": 636175
+    },
+    {
+      "event_id": "401864496",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864496",
+      "raw_sha256": "0b3de49759f81ed097411dcae51d8d7248c399ede511452048b4bdadf5315d9e",
+      "gzip_file": "boxscore-401864496.json.gz",
+      "raw_bytes": 438166
+    },
+    {
+      "event_id": "401862796",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862796",
+      "raw_sha256": "1191140d7852a673265f4f478a33cb0476a96f08270488e0389d7ea57211b25e",
+      "gzip_file": "boxscore-401862796.json.gz",
+      "raw_bytes": 572838
+    },
+    {
+      "event_id": "401867804",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867804",
+      "raw_sha256": "76ede39fb1c769cb728fbbd7986fc485754a04d2f1c976620aeb3f6b6eaf33a7",
+      "gzip_file": "boxscore-401867804.json.gz",
+      "raw_bytes": 604708
+    },
+    {
+      "event_id": "401858219",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858219",
+      "raw_sha256": "82056cb53061df250e0f525fd00e7ec9e8b280fcaa30d9cba97188aa55df9393",
+      "gzip_file": "boxscore-401858219.json.gz",
+      "raw_bytes": 592424
+    },
+    {
+      "event_id": "401864533",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864533",
+      "raw_sha256": "3b29610ea4900e053ff52c3c1da5ab62a568a58010a5c2146bb5d12468c58eca",
+      "gzip_file": "boxscore-401864533.json.gz",
+      "raw_bytes": 422441
+    },
+    {
+      "event_id": "401868317",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868317",
+      "raw_sha256": "1704c682b3b9089edfb531b4f97a9f431dc6f1e32be03aacdd3c966d863d3530",
+      "gzip_file": "boxscore-401868317.json.gz",
+      "raw_bytes": 604962
+    },
+    {
+      "event_id": "401856790",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856790",
+      "raw_sha256": "82a492e7fac3f387d58de3c8b184dd1e2cc4dfee3d3b7f73cb0e63358567efee",
+      "gzip_file": "boxscore-401856790.json.gz",
+      "raw_bytes": 504498
+    },
+    {
+      "event_id": "401858245",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858245",
+      "raw_sha256": "52e7d2d14a6ca6369aab46bab9b8efac40f7ebb231fdd2a6bb2af07989aa9264",
+      "gzip_file": "boxscore-401858245.json.gz",
+      "raw_bytes": 595954
+    },
+    {
+      "event_id": "401866425",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866425",
+      "raw_sha256": "69d631ccbf0f13058ffa4ed0d6cd265513e28865880492f753e1577dd98278f8",
+      "gzip_file": "boxscore-401866425.json.gz",
+      "raw_bytes": 490620
+    },
+    {
+      "event_id": "401856715",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856715",
+      "raw_sha256": "7f524fd227333764bf15925814a2e44f9eec9b5722739016d9d6b76f604b3746",
+      "gzip_file": "boxscore-401856715.json.gz",
+      "raw_bytes": 568472
+    },
+    {
+      "event_id": "401858440",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858440",
+      "raw_sha256": "7b7e26582111ec948f23a73580c1f9a96f26fd125dc436d357e0fd7d4c785f3b",
+      "gzip_file": "boxscore-401858440.json.gz",
+      "raw_bytes": 510633
+    },
+    {
+      "event_id": "401858462",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858462",
+      "raw_sha256": "959a4c73daa53ec82d962c8d523d5ad7010dc5159c71922c8699a05e6bda743e",
+      "gzip_file": "boxscore-401858462.json.gz",
+      "raw_bytes": 590415
+    },
+    {
+      "event_id": "401856673",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856673",
+      "raw_sha256": "6ccd7e147492a7bcf46c42530cdea4cb8f3871e000fee4674e98973740614c36",
+      "gzip_file": "boxscore-401856673.json.gz",
+      "raw_bytes": 655202
+    },
+    {
+      "event_id": "401858475",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858475",
+      "raw_sha256": "e6100d17e5837d1e5245f2c246d3e46aa96648ab3e270932a7290d885b465c6b",
+      "gzip_file": "boxscore-401858475.json.gz",
+      "raw_bytes": 563599
+    },
+    {
+      "event_id": "401858447",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858447",
+      "raw_sha256": "6959362ba2391bcd2894e9e08781cd07f74b54df15afe7cb688339d49fc5a144",
+      "gzip_file": "boxscore-401858447.json.gz",
+      "raw_bytes": 519604
+    },
+    {
+      "event_id": "401866434",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866434",
+      "raw_sha256": "51776a35a2b9c64ea1d71c2bca89f3e276188d337e7b5ef57c5cadaac0cecf0a",
+      "gzip_file": "boxscore-401866434.json.gz",
+      "raw_bytes": 473667
+    },
+    {
+      "event_id": "401856780",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856780",
+      "raw_sha256": "149fcc7a8d63ca6c322c1b508a94d767d4d3a5d7ef30ddac5c4a9baa39411b73",
+      "gzip_file": "boxscore-401856780.json.gz",
+      "raw_bytes": 533046
+    },
+    {
+      "event_id": "401858234",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858234",
+      "raw_sha256": "e88177978e98fe9bfdb62dcb454c6e9b46507f7b02a78f0e1c4d10285cb8843d",
+      "gzip_file": "boxscore-401858234.json.gz",
+      "raw_bytes": 503432
+    },
+    {
+      "event_id": "401864424",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864424",
+      "raw_sha256": "feb8210ee9d6d48bdea8cc57d316f04d4e9c5e6c4b2aa5f00b2b3ca39c649beb",
+      "gzip_file": "boxscore-401864424.json.gz",
+      "raw_bytes": 569714
+    },
+    {
+      "event_id": "401856812",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856812",
+      "raw_sha256": "021c5e76f761037a3d601c52b3214662ce2e1759c79daf20ca010254bba2acef",
+      "gzip_file": "boxscore-401856812.json.gz",
+      "raw_bytes": 542744
+    },
+    {
+      "event_id": "401860884",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860884",
+      "raw_sha256": "10e6917aaa9536d17e54c0d6ab35844b29ef3f17c6d5ef2e22ab28e59bc03200",
+      "gzip_file": "boxscore-401860884.json.gz",
+      "raw_bytes": 549186
+    },
+    {
+      "event_id": "401864498",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864498",
+      "raw_sha256": "e7b5503727a64a047de5db98534d00662b434149145cf31d6306f57eb74a6f52",
+      "gzip_file": "boxscore-401864498.json.gz",
+      "raw_bytes": 454595
+    },
+    {
+      "event_id": "401869964",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869964",
+      "raw_sha256": "31edbeba7f2ea39b26f88722480bac8169da01b64c4f0c3d06189a6d3939ffcd",
+      "gzip_file": "boxscore-401869964.json.gz",
+      "raw_bytes": 554341
+    },
+    {
+      "event_id": "401858472",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858472",
+      "raw_sha256": "36af645c275e5926c685b3dd370b5995540458d1c84d46160e6488a305ba89f2",
+      "gzip_file": "boxscore-401858472.json.gz",
+      "raw_bytes": 512958
+    },
+    {
+      "event_id": "401871045",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871045",
+      "raw_sha256": "6566270e08cb1d50c778ace10c23f952ef56bc8e193c6a8096868abba03e187f",
+      "gzip_file": "boxscore-401871045.json.gz",
+      "raw_bytes": 510117
+    },
+    {
+      "event_id": "401856693",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856693",
+      "raw_sha256": "2c18bcbf721f2f8baf6c16d07ef01266fa304c4e66b9f773c593ba0ac938f4a5",
+      "gzip_file": "boxscore-401856693.json.gz",
+      "raw_bytes": 571488
+    },
+    {
+      "event_id": "401858435",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858435",
+      "raw_sha256": "cf54fb043abcd7886d69ef925d3103981950511303928a2f50c6e917ac6ec7c5",
+      "gzip_file": "boxscore-401858435.json.gz",
+      "raw_bytes": 538529
+    },
+    {
+      "event_id": "401858260",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858260",
+      "raw_sha256": "6d519c24a1f988d9208dca0e829ee47dc1626c08fd1565b5294edf3983876e1d",
+      "gzip_file": "boxscore-401858260.json.gz",
+      "raw_bytes": 481555
+    },
+    {
+      "event_id": "401856789",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856789",
+      "raw_sha256": "093c852ce2471b8f5cb210dcf599f47a80dd8e2330f322e81651727d957cbb40",
+      "gzip_file": "boxscore-401856789.json.gz",
+      "raw_bytes": 573049
+    },
+    {
+      "event_id": "401866421",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866421",
+      "raw_sha256": "8dd442b333c4880844908cafdf18ab6dbdbfdfe7a99d9d512c5a847f2d63c0d7",
+      "gzip_file": "boxscore-401866421.json.gz",
+      "raw_bytes": 573619
+    },
+    {
+      "event_id": "401858232",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858232",
+      "raw_sha256": "4f922f3e6b5eba818a9235fb81d084082ddefc20da7299a6f1418d59af39c528",
+      "gzip_file": "boxscore-401858232.json.gz",
+      "raw_bytes": 504863
+    },
+    {
+      "event_id": "401862795",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862795",
+      "raw_sha256": "2bb1242bc52eb9966aa492aa926101dc018665f455c5ee761c8d5739b1885df6",
+      "gzip_file": "boxscore-401862795.json.gz",
+      "raw_bytes": 453372
+    },
+    {
+      "event_id": "401864578",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864578",
+      "raw_sha256": "b10f27c604ad87f08a52f2c764f09e9ca909a19c152a8856af75c414ba919624",
+      "gzip_file": "boxscore-401864578.json.gz",
+      "raw_bytes": 516772
+    },
+    {
+      "event_id": "401858485",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858485",
+      "raw_sha256": "bcfe4a2031d8cada708c1ea8262c347a354abb16802b23511bf9405ca444ed52",
+      "gzip_file": "boxscore-401858485.json.gz",
+      "raw_bytes": 449421
+    },
+    {
+      "event_id": "401862788",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862788",
+      "raw_sha256": "9f055d994b1f8fade8d6e921b62f951f2156830947d04b8765f2505e8883535e",
+      "gzip_file": "boxscore-401862788.json.gz",
+      "raw_bytes": 512304
+    },
+    {
+      "event_id": "401860897",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860897",
+      "raw_sha256": "3873251fda08e2c2719affe83bae191eb559216961bb93727fd63d740fa4956d",
+      "gzip_file": "boxscore-401860897.json.gz",
+      "raw_bytes": 427669
+    },
+    {
+      "event_id": "401858439",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858439",
+      "raw_sha256": "afc241bf1dfa0607159560369aea05881e499dc0b679251d4d35614dc538a533",
+      "gzip_file": "boxscore-401858439.json.gz",
+      "raw_bytes": 507075
+    },
+    {
+      "event_id": "401858424",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858424",
+      "raw_sha256": "1e1888ce181aaaf0638a394d20e276c41f27f8a07fc473c6b4d5c49bc7b0214e",
+      "gzip_file": "boxscore-401858424.json.gz",
+      "raw_bytes": 520256
+    },
+    {
+      "event_id": "401856718",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856718",
+      "raw_sha256": "a6335a2442d1f352bc8e018cc0aeb3a640e8ab4f6df22523e299a14fd3f552bd",
+      "gzip_file": "boxscore-401856718.json.gz",
+      "raw_bytes": 600553
+    },
+    {
+      "event_id": "401866627",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866627",
+      "raw_sha256": "0932be9358ff42190bcb653bf502d77ef79d15f7d10bd005da413939753069e6",
+      "gzip_file": "boxscore-401866627.json.gz",
+      "raw_bytes": 556073
+    },
+    {
+      "event_id": "401858463",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858463",
+      "raw_sha256": "34111153b4cc47871aabad4b021ed7db2397fcf3a852b584d95773cd6c72ccb3",
+      "gzip_file": "boxscore-401858463.json.gz",
+      "raw_bytes": 498539
+    },
+    {
+      "event_id": "401858484",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858484",
+      "raw_sha256": "a231ab8f07b8709ed941f6465884b0ec6a83e5b300cac2df4bbf8997c8da3fcb",
+      "gzip_file": "boxscore-401858484.json.gz",
+      "raw_bytes": 566210
+    },
+    {
+      "event_id": "401866428",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866428",
+      "raw_sha256": "05514853206bcc4942ecd879123897162785a015f705c386ecd4c914fa899f38",
+      "gzip_file": "boxscore-401866428.json.gz",
+      "raw_bytes": 468802
+    },
+    {
+      "event_id": "401858231",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858231",
+      "raw_sha256": "4ed425aa04bc9f55e7e3f507d1780f68ffac7ca408a5b8cd7e9ecb6c19aaa515",
+      "gzip_file": "boxscore-401858231.json.gz",
+      "raw_bytes": 524049
+    },
+    {
+      "event_id": "401856791",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856791",
+      "raw_sha256": "5bc2058cfb7a78cac21d3b06ef32c59ecfb5c6c171e37b593aef74c46f32a00a",
+      "gzip_file": "boxscore-401856791.json.gz",
+      "raw_bytes": 539401
+    },
+    {
+      "event_id": "401866455",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866455",
+      "raw_sha256": "81e2983f786109d3269a7125adf749e192767c8d82b7d92d613aede44e3445b7",
+      "gzip_file": "boxscore-401866455.json.gz",
+      "raw_bytes": 525392
+    },
+    {
+      "event_id": "401862780",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862780",
+      "raw_sha256": "93a9d721529daad7730b2b9edc481894502b3c51c35371d90c62b03974a2d93c",
+      "gzip_file": "boxscore-401862780.json.gz",
+      "raw_bytes": 534245
+    },
+    {
+      "event_id": "401860881",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860881",
+      "raw_sha256": "d879e44e727027fe79736a478869917d2380a0afde118889287142392679ca60",
+      "gzip_file": "boxscore-401860881.json.gz",
+      "raw_bytes": 469809
+    },
+    {
+      "event_id": "401856777",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856777",
+      "raw_sha256": "ba0f40c2c210bb97bffc197908479953444203ba89bc1a23ed3ac265f3b3e52b",
+      "gzip_file": "boxscore-401856777.json.gz",
+      "raw_bytes": 529735
+    },
+    {
+      "event_id": "401870766",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870766",
+      "raw_sha256": "30ec6338deb258de129128163c8c36410afaaea55b200c61d13e334498589281",
+      "gzip_file": "boxscore-401870766.json.gz",
+      "raw_bytes": 491202
+    },
+    {
+      "event_id": "401856807",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856807",
+      "raw_sha256": "fdb988cf2ca7104d92b323795d5453b409cea81b98349f8c3ecebf521cd45b65",
+      "gzip_file": "boxscore-401856807.json.gz",
+      "raw_bytes": 534000
+    },
+    {
+      "event_id": "401856802",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856802",
+      "raw_sha256": "14b29ef9bed6d80c9e9dc217e78438b13c19839e3daa6151d80f52efe85b22a2",
+      "gzip_file": "boxscore-401856802.json.gz",
+      "raw_bytes": 584137
+    },
+    {
+      "event_id": "401856773",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856773",
+      "raw_sha256": "adef1c2b2461122d19ae1f710b67e5a89f38cf5754fdc52479c7466a29dd0d35",
+      "gzip_file": "boxscore-401856773.json.gz",
+      "raw_bytes": 537332
+    },
+    {
+      "event_id": "401858253",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858253",
+      "raw_sha256": "27abc23de5e2e4265cd44cc3b2c24e063ba8a4c50c4d82c0ee8b531afe503a25",
+      "gzip_file": "boxscore-401858253.json.gz",
+      "raw_bytes": 542412
+    },
+    {
+      "event_id": "401864511",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864511",
+      "raw_sha256": "40446a91da4c2ecce37bf1dad0d13ee764a8b64bb36de636e5117a5afe21cb75",
+      "gzip_file": "boxscore-401864511.json.gz",
+      "raw_bytes": 531450
+    },
+    {
+      "event_id": "401858451",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858451",
+      "raw_sha256": "961d96f4d2745d4d401de3af6dd08325a34dd1ab8a856c8ec5d0c11612598726",
+      "gzip_file": "boxscore-401858451.json.gz",
+      "raw_bytes": 565365
+    },
+    {
+      "event_id": "401858446",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858446",
+      "raw_sha256": "7829037cf76372ee69b8ae68da638657dae24d9844bcfb8f9d549de6ac967157",
+      "gzip_file": "boxscore-401858446.json.gz",
+      "raw_bytes": 542149
+    },
+    {
+      "event_id": "401856691",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856691",
+      "raw_sha256": "a2ec807399ff04eecb35febc278a79bd2a02b9815d1bcc2732c89edd6f8405e7",
+      "gzip_file": "boxscore-401856691.json.gz",
+      "raw_bytes": 643642
+    },
+    {
+      "event_id": "401858432",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858432",
+      "raw_sha256": "e392d920383f7a547dd9158ab715f1cb5e34b8165e284652a0f2200064b64506",
+      "gzip_file": "boxscore-401858432.json.gz",
+      "raw_bytes": 579760
+    },
+    {
+      "event_id": "401856697",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856697",
+      "raw_sha256": "689f8355a379fe84d435203648f7483fca7e871da72d6dcd25b24d51cfe156c8",
+      "gzip_file": "boxscore-401856697.json.gz",
+      "raw_bytes": 559169
+    },
+    {
+      "event_id": "401860922",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860922",
+      "raw_sha256": "0b81dd4b91878f513999bbc12203df49f28e669284976f5de0618780b53039bc",
+      "gzip_file": "boxscore-401860922.json.gz",
+      "raw_bytes": 521378
+    },
+    {
+      "event_id": "401864505",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864505",
+      "raw_sha256": "dc767753420c38e0eb7501ecd6045151111edea42750cc2856fa46a55334ee81",
+      "gzip_file": "boxscore-401864505.json.gz",
+      "raw_bytes": 495204
+    },
+    {
+      "event_id": "401858487",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858487",
+      "raw_sha256": "2569615718f82abcf1d7c12db35d47af9f9d5425df9e587cda4fd050bfff1aca",
+      "gzip_file": "boxscore-401858487.json.gz",
+      "raw_bytes": 497316
+    },
+    {
+      "event_id": "401858259",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858259",
+      "raw_sha256": "94622de330e79ff33b8e71668a9db0e5200830e62c8426cd3ad1e72ddc29112b",
+      "gzip_file": "boxscore-401858259.json.gz",
+      "raw_bytes": 548282
+    },
+    {
+      "event_id": "401856796",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856796",
+      "raw_sha256": "742fad56c8f460b73af70518a10ee7d5b3af380ea6a0a78d37c7d0846fd6fb95",
+      "gzip_file": "boxscore-401856796.json.gz",
+      "raw_bytes": 510653
+    },
+    {
+      "event_id": "401856798",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856798",
+      "raw_sha256": "fb69db5c20e481a99625d394f51f62cff1dff9b426009513aab6f95c59a44668",
+      "gzip_file": "boxscore-401856798.json.gz",
+      "raw_bytes": 567254
+    },
+    {
+      "event_id": "401856785",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856785",
+      "raw_sha256": "659be6687a71de8845210a70005eda4524558dec26eebc1f370d79b39b8d4b15",
+      "gzip_file": "boxscore-401856785.json.gz",
+      "raw_bytes": 647885
+    },
+    {
+      "event_id": "401869932",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869932",
+      "raw_sha256": "8dd2c1d2fa144dd1c97af41014287dc27c4aeccab74d6a290044af1e30b72faa",
+      "gzip_file": "boxscore-401869932.json.gz",
+      "raw_bytes": 454538
+    },
+    {
+      "event_id": "401858214",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858214",
+      "raw_sha256": "9ae964db1871c84e61388da56f217f1547a4a1c06decdb01afc30df7630044c2",
+      "gzip_file": "boxscore-401858214.json.gz",
+      "raw_bytes": 546479
+    },
+    {
+      "event_id": "401870763",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870763",
+      "raw_sha256": "c5db44b64937d23d62e7c94ded29399a0a4c17ca9695b1ea29f9373ec1e9c6d8",
+      "gzip_file": "boxscore-401870763.json.gz",
+      "raw_bytes": 568346
+    },
+    {
+      "event_id": "401866436",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866436",
+      "raw_sha256": "364c03f9611f696fa00e58c3dde24b60a3d0f113a2ea92aba88a3b11a6b8ea60",
+      "gzip_file": "boxscore-401866436.json.gz",
+      "raw_bytes": 487296
+    },
+    {
+      "event_id": "401860878",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860878",
+      "raw_sha256": "c16e4c2e4cbdbc9edab8c50529e9ba3a2b8e9879f2afcd4ccddb45e1aa6a944f",
+      "gzip_file": "boxscore-401860878.json.gz",
+      "raw_bytes": 470307
+    },
+    {
+      "event_id": "401856666",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856666",
+      "raw_sha256": "f515d0f0ae730002065bc9ce8ed64d6e5d8d87c341b6b7b410fc9d6cb817870c",
+      "gzip_file": "boxscore-401856666.json.gz",
+      "raw_bytes": 588071
+    },
+    {
+      "event_id": "401858481",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858481",
+      "raw_sha256": "28eca003c2dc67d3f55623c3a948280e1ecd7a116fa4a69d430f2894e3c2d57d",
+      "gzip_file": "boxscore-401858481.json.gz",
+      "raw_bytes": 474598
+    },
+    {
+      "event_id": "401862797",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862797",
+      "raw_sha256": "ccab995d1eb61bcd4fb25bd91619314a0e4a6a2d3564dd5ffd7fc68687d95f21",
+      "gzip_file": "boxscore-401862797.json.gz",
+      "raw_bytes": 566001
+    },
+    {
+      "event_id": "401868241",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868241",
+      "raw_sha256": "7526bf027c025d68df62b43b49b762067983607dba9d1ce5e59a8e3c0370b04a",
+      "gzip_file": "boxscore-401868241.json.gz",
+      "raw_bytes": 532695
+    },
+    {
+      "event_id": "401860901",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860901",
+      "raw_sha256": "391e068a3bc96075e29d754cf0049c5233838d3c12c361f5bcb077aa50e6742d",
+      "gzip_file": "boxscore-401860901.json.gz",
+      "raw_bytes": 475157
+    },
+    {
+      "event_id": "401858257",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858257",
+      "raw_sha256": "2eb012129af0b985f2c29b459995f30252c8319d19860371a36cca726a39bec4",
+      "gzip_file": "boxscore-401858257.json.gz",
+      "raw_bytes": 486571
+    },
+    {
+      "event_id": "401862701",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862701",
+      "raw_sha256": "90be132c4717e7614d94475e3188b33a61f40da060e17086112594397049821e",
+      "gzip_file": "boxscore-401862701.json.gz",
+      "raw_bytes": 511486
+    },
+    {
+      "event_id": "401856778",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856778",
+      "raw_sha256": "13e7b2c3480d8045257da3f8686927706293c5027a189bd164956d31a3343aac",
+      "gzip_file": "boxscore-401856778.json.gz",
+      "raw_bytes": 581761
+    },
+    {
+      "event_id": "401856706",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856706",
+      "raw_sha256": "5469e218653d033b045bdbcf3fda1ff0eb45343074ad27373bba7fa73590a2e4",
+      "gzip_file": "boxscore-401856706.json.gz",
+      "raw_bytes": 615130
+    },
+    {
+      "event_id": "401862775",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862775",
+      "raw_sha256": "1b0a66bd1e16f932f0583259ef7714349e39d99bbb7ea0000bd505a5a5b512ae",
+      "gzip_file": "boxscore-401862775.json.gz",
+      "raw_bytes": 556737
+    },
+    {
+      "event_id": "401856770",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856770",
+      "raw_sha256": "4657b5364dae96ed272e6d293d20e357a0807862aeabd217c408d35a23e10b04",
+      "gzip_file": "boxscore-401856770.json.gz",
+      "raw_bytes": 513353
+    },
+    {
+      "event_id": "401866417",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866417",
+      "raw_sha256": "b19678950f841633f90e6c36b53af7814101314b82274080ba1f915a4ea56502",
+      "gzip_file": "boxscore-401866417.json.gz",
+      "raw_bytes": 472340
+    },
+    {
+      "event_id": "401858288",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858288",
+      "raw_sha256": "c91e63fea23ff3af093405aea4f8e0d9416aa02874076832f6d37d7eab6b830a",
+      "gzip_file": "boxscore-401858288.json.gz",
+      "raw_bytes": 549233
+    },
+    {
+      "event_id": "401856634",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856634",
+      "raw_sha256": "0f11e7b38fedc50cf5ef6baef49376507ec57910e44718bc2b315117c3b6e3cc",
+      "gzip_file": "boxscore-401856634.json.gz",
+      "raw_bytes": 565470
+    },
+    {
+      "event_id": "401864503",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864503",
+      "raw_sha256": "92e7b6ea402c82b74115f0150788210cfc1606757691755559717f35fdab6fb3",
+      "gzip_file": "boxscore-401864503.json.gz",
+      "raw_bytes": 491255
+    },
+    {
+      "event_id": "401868316",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868316",
+      "raw_sha256": "0567cadeb69fd708b32de8d5034bb72e2ccbc91e2a21513f72c5dff226a49175",
+      "gzip_file": "boxscore-401868316.json.gz",
+      "raw_bytes": 520714
+    },
+    {
+      "event_id": "401862707",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862707",
+      "raw_sha256": "a2a1b56d44bee3d355823e01b00dc1438f4330ab4ebdeec6cd78a4f0cb3b9e5a",
+      "gzip_file": "boxscore-401862707.json.gz",
+      "raw_bytes": 544562
+    },
+    {
+      "event_id": "401862786",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862786",
+      "raw_sha256": "cb285e068e5cd90ab0e68a9155f309ef9b2f59bb614248cad2218b430966c1a7",
+      "gzip_file": "boxscore-401862786.json.gz",
+      "raw_bytes": 658252
+    },
+    {
+      "event_id": "401858454",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858454",
+      "raw_sha256": "956727bc64679b4bd0b449d1a2a29f113686320666cbc63427d8f58d8260a8e0",
+      "gzip_file": "boxscore-401858454.json.gz",
+      "raw_bytes": 525547
+    },
+    {
+      "event_id": "401856676",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856676",
+      "raw_sha256": "e4a2d50c99e1bcd5c6c5b71bcb43c8acfbe9c8044e44065eeeb78d19b87c0f50",
+      "gzip_file": "boxscore-401856676.json.gz",
+      "raw_bytes": 559210
+    },
+    {
+      "event_id": "401858223",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858223",
+      "raw_sha256": "530ba2210ca319dbd0362a922969055b72df8f0d6346e9e9d357b88c06524f31",
+      "gzip_file": "boxscore-401858223.json.gz",
+      "raw_bytes": 565007
+    },
+    {
+      "event_id": "401856662",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856662",
+      "raw_sha256": "2a87df2f686cc00f38f94b9c207079fc5475fe5a9bee7bef6259296f6f356074",
+      "gzip_file": "boxscore-401856662.json.gz",
+      "raw_bytes": 620625
+    },
+    {
+      "event_id": "401868326",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868326",
+      "raw_sha256": "c9d081d78778912e1b91f794f20900f90f6a64be456af644735fb03bf73978cf",
+      "gzip_file": "boxscore-401868326.json.gz",
+      "raw_bytes": 569694
+    },
+    {
+      "event_id": "401869842",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869842",
+      "raw_sha256": "cf90da2f963916f035f5888e91381e9c586ac29b4cf423a3e345eb924ccc9a5a",
+      "gzip_file": "boxscore-401869842.json.gz",
+      "raw_bytes": 519168
+    },
+    {
+      "event_id": "401856683",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856683",
+      "raw_sha256": "ec37d937346fa4471e75de73ab9e239fadeb9f442b4f741d8a658f0cd71ba1db",
+      "gzip_file": "boxscore-401856683.json.gz",
+      "raw_bytes": 589521
+    },
+    {
+      "event_id": "401862793",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862793",
+      "raw_sha256": "fe3ce8becaaab3a68ce87fde6bf07ed1b8ce9896cc42663ae74046735c54bca5",
+      "gzip_file": "boxscore-401862793.json.gz",
+      "raw_bytes": 526831
+    },
+    {
+      "event_id": "401856793",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856793",
+      "raw_sha256": "7ad652bdeadeb682a126da8c6dad7a1159db3d30aea12b68b9695d6ae68492f3",
+      "gzip_file": "boxscore-401856793.json.gz",
+      "raw_bytes": 457955
+    },
+    {
+      "event_id": "401866424",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866424",
+      "raw_sha256": "60d190f33ed50a590d1b969cf0abcb7eebc97df66bda7629f9e11925d6c8db7c",
+      "gzip_file": "boxscore-401866424.json.gz",
+      "raw_bytes": 566298
+    },
+    {
+      "event_id": "401858430",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858430",
+      "raw_sha256": "418657488c01bded059e40d1defbbfcc208799e34d5c685e5829362e941f180e",
+      "gzip_file": "boxscore-401858430.json.gz",
+      "raw_bytes": 496055
+    },
+    {
+      "event_id": "401856825",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856825",
+      "raw_sha256": "dca0446d8204e924c0a12feb1e5c425634e8ae502b87428e5a7f03b9d061f230",
+      "gzip_file": "boxscore-401856825.json.gz",
+      "raw_bytes": 485076
+    },
+    {
+      "event_id": "401866435",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866435",
+      "raw_sha256": "82c95f354b11dfca9383658675b5edb6efd64aa4765dbe5973e6cea7af1c0c3e",
+      "gzip_file": "boxscore-401866435.json.gz",
+      "raw_bytes": 543464
+    },
+    {
+      "event_id": "401856700",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856700",
+      "raw_sha256": "5d7d84725f10aebad3f2b59d43b51795180880a48c9efd79b5e7a90a2eaca7ff",
+      "gzip_file": "boxscore-401856700.json.gz",
+      "raw_bytes": 562576
+    },
+    {
+      "event_id": "401866414",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866414",
+      "raw_sha256": "05ece01ac40e16be84b6e571fd58184623d27c84487c4a3f05b89e9b90685259",
+      "gzip_file": "boxscore-401866414.json.gz",
+      "raw_bytes": 598016
+    },
+    {
+      "event_id": "401856774",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856774",
+      "raw_sha256": "b6781623904c8462b29cb166c624df975112691abad614b5734ca90c116bbf60",
+      "gzip_file": "boxscore-401856774.json.gz",
+      "raw_bytes": 554931
+    },
+    {
+      "event_id": "401862773",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862773",
+      "raw_sha256": "fce19b11f78ac848ca4fc3e06975c980572ef6698788bdc117f84000c2f9e78f",
+      "gzip_file": "boxscore-401862773.json.gz",
+      "raw_bytes": 511227
+    },
+    {
+      "event_id": "401864497",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864497",
+      "raw_sha256": "ba8f94a9cc20b634346b39186e7852f0dd3253d3afe23fbd27b5635f4ebe5256",
+      "gzip_file": "boxscore-401864497.json.gz",
+      "raw_bytes": 475250
+    },
+    {
+      "event_id": "401856705",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856705",
+      "raw_sha256": "4d003561af7e940c4ce438df716cfe6c76f92626ab650ee80d29aea178676e6b",
+      "gzip_file": "boxscore-401856705.json.gz",
+      "raw_bytes": 491754
+    },
+    {
+      "event_id": "401856801",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856801",
+      "raw_sha256": "c6dc3c4999ee77cf1bfc4bdb8ae56dac10b0d8e7f0460f3ce830c81b9f3845f5",
+      "gzip_file": "boxscore-401856801.json.gz",
+      "raw_bytes": 510948
+    },
+    {
+      "event_id": "401858466",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858466",
+      "raw_sha256": "595a945c1faef0d6a1e5636d6454e68519639389c2c0b313f58380056813eec8",
+      "gzip_file": "boxscore-401858466.json.gz",
+      "raw_bytes": 495060
+    },
+    {
+      "event_id": "401862774",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862774",
+      "raw_sha256": "87b670677fa5f1584fc326207ca423e9628aa1d0e9726641388e9d58871bc366",
+      "gzip_file": "boxscore-401862774.json.gz",
+      "raw_bytes": 542526
+    },
+    {
+      "event_id": "401866477",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866477",
+      "raw_sha256": "b58f65f908c6590535cbca9dcd44dd7f1017fdee7a14fb5cf8e60350deb70e91",
+      "gzip_file": "boxscore-401866477.json.gz",
+      "raw_bytes": 498716
+    },
+    {
+      "event_id": "401864443",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864443",
+      "raw_sha256": "413f958e4c76adc7dab913b649545278e0a3dcd85a7faead15b25ba72a91d957",
+      "gzip_file": "boxscore-401864443.json.gz",
+      "raw_bytes": 543765
+    },
+    {
+      "event_id": "401858207",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858207",
+      "raw_sha256": "cc41cfef71edad03e3448a3dd22d50ad79c184fc6d07a93ab138fca45530decb",
+      "gzip_file": "boxscore-401858207.json.gz",
+      "raw_bytes": 547206
+    },
+    {
+      "event_id": "401862697",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862697",
+      "raw_sha256": "abe082974b4c9062d689e1a88bd148eccb54dd1930fe6bfce2f1268565dd55bd",
+      "gzip_file": "boxscore-401862697.json.gz",
+      "raw_bytes": 503116
+    },
+    {
+      "event_id": "401866429",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866429",
+      "raw_sha256": "628d2af0b1fd3f66936497aa55572e6f5cd0427749508273549f4f7bdcabbd84",
+      "gzip_file": "boxscore-401866429.json.gz",
+      "raw_bytes": 509209
+    },
+    {
+      "event_id": "401858241",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858241",
+      "raw_sha256": "144db2647a48349a23ace8444cdb59777464cdef8ea340fb8c257a614252fadf",
+      "gzip_file": "boxscore-401858241.json.gz",
+      "raw_bytes": 566511
+    },
+    {
+      "event_id": "401868140",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868140",
+      "raw_sha256": "ac221217d7d58f614282915bca9c7e0e8426ae9f698cc00bcfac41ee4361fc74",
+      "gzip_file": "boxscore-401868140.json.gz",
+      "raw_bytes": 492277
+    },
+    {
+      "event_id": "401862772",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862772",
+      "raw_sha256": "257382fdfc5625b44a0477b306d17913f3278a7b6cff7a6ec76d12cd6881811c",
+      "gzip_file": "boxscore-401862772.json.gz",
+      "raw_bytes": 535592
+    },
+    {
+      "event_id": "401858202",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858202",
+      "raw_sha256": "f1ed1996d76052c4a6447052758261dfe27856e802f8181c01a845c2bbe76fb2",
+      "gzip_file": "boxscore-401858202.json.gz",
+      "raw_bytes": 520269
+    },
+    {
+      "event_id": "401858442",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858442",
+      "raw_sha256": "56bc1d403f9e21e40a171e266be6ea284634daa201daae69d851a7557da91209",
+      "gzip_file": "boxscore-401858442.json.gz",
+      "raw_bytes": 492211
+    },
+    {
+      "event_id": "401860896",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860896",
+      "raw_sha256": "d7ea1a0ff06ae9856426ddfa61fed2993018d4d3b926f8aa40bce9effff2ee1f",
+      "gzip_file": "boxscore-401860896.json.gz",
+      "raw_bytes": 625931
+    },
+    {
+      "event_id": "401856659",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856659",
+      "raw_sha256": "cdf1f61927de8b2d1e694808073a1c6be546f2188073a710f29eaa83f71479e3",
+      "gzip_file": "boxscore-401856659.json.gz",
+      "raw_bytes": 523108
+    },
+    {
+      "event_id": "401864516",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864516",
+      "raw_sha256": "0f0872cf73e6d0ba09d7e2610ca7a79d87f6db876ca5d457c294a5ec83aa916b",
+      "gzip_file": "boxscore-401864516.json.gz",
+      "raw_bytes": 380334
+    },
+    {
+      "event_id": "401860892",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860892",
+      "raw_sha256": "53d25d1d8769c791558b82421bf92517f653ddf6359d78e9349e4532f287c774",
+      "gzip_file": "boxscore-401860892.json.gz",
+      "raw_bytes": 562277
+    },
+    {
+      "event_id": "401858449",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858449",
+      "raw_sha256": "40d7df7e1c2cbd15bc0c0ab4e00705c0da2a06dbf821c0a1609817c6ccc2cdab",
+      "gzip_file": "boxscore-401858449.json.gz",
+      "raw_bytes": 487904
+    },
+    {
+      "event_id": "401858220",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858220",
+      "raw_sha256": "aa67e18d1a383c027ef0e0be2a6b301cf728d2c6eadb2198d3405439d0267354",
+      "gzip_file": "boxscore-401858220.json.gz",
+      "raw_bytes": 576344
+    },
+    {
+      "event_id": "401862695",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862695",
+      "raw_sha256": "a88963ad8165e24cccd30d00821a9bffe4d131d0e86f97dfd51d16a352f954b5",
+      "gzip_file": "boxscore-401862695.json.gz",
+      "raw_bytes": 538959
+    },
+    {
+      "event_id": "401856803",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856803",
+      "raw_sha256": "24780fe8633e1a3573c06a8796602513f3caafa9742cf5321a04786c197953a0",
+      "gzip_file": "boxscore-401856803.json.gz",
+      "raw_bytes": 534332
+    },
+    {
+      "event_id": "401856699",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856699",
+      "raw_sha256": "59934bfc2a06f03239c03574ef4545ecda88ef021c187bce3d9b282daf65fccb",
+      "gzip_file": "boxscore-401856699.json.gz",
+      "raw_bytes": 595630
+    },
+    {
+      "event_id": "401856702",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856702",
+      "raw_sha256": "df1afd7325b449a6b38341c3295b44ea60e4cc81dea0c39a03e985a53adc7e95",
+      "gzip_file": "boxscore-401856702.json.gz",
+      "raw_bytes": 557789
+    },
+    {
+      "event_id": "401856711",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856711",
+      "raw_sha256": "39b0cafc3c09bcb2e7373fac8bd76d994dca2424de66c80c1f3cd56a74413949",
+      "gzip_file": "boxscore-401856711.json.gz",
+      "raw_bytes": 477131
+    },
+    {
+      "event_id": "401858452",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858452",
+      "raw_sha256": "33cf7f30bbc3c385d3110d8df6d4ce6c3a23b6c1c5f6f6241d2dbed317ad2ee3",
+      "gzip_file": "boxscore-401858452.json.gz",
+      "raw_bytes": 503631
+    },
+    {
+      "event_id": "401866416",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866416",
+      "raw_sha256": "bc8682cbdc5772c9cff091794dc77304ca70b2efef1cea12c7b44186a656b558",
+      "gzip_file": "boxscore-401866416.json.gz",
+      "raw_bytes": 551405
+    },
+    {
+      "event_id": "401858247",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858247",
+      "raw_sha256": "aa353d755b52921f32d3a644629fe681ee37cc6160290ebd16ea1b2fbabb5b55",
+      "gzip_file": "boxscore-401858247.json.gz",
+      "raw_bytes": 605445
+    },
+    {
+      "event_id": "401866419",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866419",
+      "raw_sha256": "6497f57733ee91b4a2d4350ffda3070438a570e8613995bc34c44a4671ebc301",
+      "gzip_file": "boxscore-401866419.json.gz",
+      "raw_bytes": 574590
+    },
+    {
+      "event_id": "401869129",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869129",
+      "raw_sha256": "08d13af347606c86ca6de4c5cd684777bd8583145cc6297a0fae75b60ef436f8",
+      "gzip_file": "boxscore-401869129.json.gz",
+      "raw_bytes": 587976
+    },
+    {
+      "event_id": "401856792",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856792",
+      "raw_sha256": "76f96fdc2494e80d1813feb5e5eab3ad004181de794983e066b0205ecd694956",
+      "gzip_file": "boxscore-401856792.json.gz",
+      "raw_bytes": 527514
+    },
+    {
+      "event_id": "401871066",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871066",
+      "raw_sha256": "f2ce235169e9830b7c1912af49f173d74882d9df53a788b0ddee52a28ccbf2bb",
+      "gzip_file": "boxscore-401871066.json.gz",
+      "raw_bytes": 526300
+    },
+    {
+      "event_id": "401862694",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862694",
+      "raw_sha256": "bd2f574692a4e25e819375abd9029325b1bd08cb871132cbe48256fd41cee62b",
+      "gzip_file": "boxscore-401862694.json.gz",
+      "raw_bytes": 563002
+    },
+    {
+      "event_id": "401864513",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864513",
+      "raw_sha256": "e748891fcde1912775684fe3766b50099f78b5969e21b4de7e3416874037fec2",
+      "gzip_file": "boxscore-401864513.json.gz",
+      "raw_bytes": 485582
+    },
+    {
+      "event_id": "401861970",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401861970",
+      "raw_sha256": "44f2d564e6803af84300437f4aadaeb92c79357051ee79d42bcf45fe4649ecd6",
+      "gzip_file": "boxscore-401861970.json.gz",
+      "raw_bytes": 496136
+    },
+    {
+      "event_id": "401856682",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856682",
+      "raw_sha256": "f3fb48cd21dd9a005363e947bb8cafb15e78c9af05bf0881d8616615f12a8bd9",
+      "gzip_file": "boxscore-401856682.json.gz",
+      "raw_bytes": 583764
+    },
+    {
+      "event_id": "401864502",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864502",
+      "raw_sha256": "9729360bdea41287178a98662a3a80da05762759e1cc9e733f392932d8f65ed5",
+      "gzip_file": "boxscore-401864502.json.gz",
+      "raw_bytes": 466402
+    },
+    {
+      "event_id": "401858453",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858453",
+      "raw_sha256": "687be0465a0e5c0ac7ab6a9a8961c451bf180983a91df49c650d3ee3a1f36a43",
+      "gzip_file": "boxscore-401858453.json.gz",
+      "raw_bytes": 441175
+    },
+    {
+      "event_id": "401858428",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858428",
+      "raw_sha256": "482c65e1a252152810f8d06b7fc0e93ad19ba69056ab5ffa8f64a6382deb2c16",
+      "gzip_file": "boxscore-401858428.json.gz",
+      "raw_bytes": 462423
+    },
+    {
+      "event_id": "401866454",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866454",
+      "raw_sha256": "e17be65e954c86d60f1639538a12ffd44b88c598d013d60f79c5056386d9ee7a",
+      "gzip_file": "boxscore-401866454.json.gz",
+      "raw_bytes": 539811
+    },
+    {
+      "event_id": "401864506",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864506",
+      "raw_sha256": "4faf822663363c11101ee08abb082baf2d0f7313a4e50b7fb2f8f0415f3b8e24",
+      "gzip_file": "boxscore-401864506.json.gz",
+      "raw_bytes": 467791
+    },
+    {
+      "event_id": "401856658",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856658",
+      "raw_sha256": "258c0c527347f9f94d4a63c215524422dc1dc817940a948a5fd80a113b37175e",
+      "gzip_file": "boxscore-401856658.json.gz",
+      "raw_bytes": 547978
+    },
+    {
+      "event_id": "401858464",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858464",
+      "raw_sha256": "8e05311144f456ec5ac22346bc7f0f594211a61ec54bce7203cd3a4100e443ba",
+      "gzip_file": "boxscore-401858464.json.gz",
+      "raw_bytes": 539234
+    },
+    {
+      "event_id": "401858461",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858461",
+      "raw_sha256": "2122f38f43187e8cdd4411bf5631a7aabdaa7e596b2953b376498b439f14193e",
+      "gzip_file": "boxscore-401858461.json.gz",
+      "raw_bytes": 472980
+    },
+    {
+      "event_id": "401866410",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866410",
+      "raw_sha256": "9313aebbb88cf8519cb39a8dcea9faf014bde481404b1db065c8e22defffaa35",
+      "gzip_file": "boxscore-401866410.json.gz",
+      "raw_bytes": 486780
+    },
+    {
+      "event_id": "401866412",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866412",
+      "raw_sha256": "c4ba8203f7e84998626b65863d4955b029eb3a39a5c1196222276adcd02447ce",
+      "gzip_file": "boxscore-401866412.json.gz",
+      "raw_bytes": 532430
+    },
+    {
+      "event_id": "401864507",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864507",
+      "raw_sha256": "92ff3df57278730c0f9051468b9b354d544f1cbed0c8b64b0a636b0211ef0651",
+      "gzip_file": "boxscore-401864507.json.gz",
+      "raw_bytes": 512142
+    },
+    {
+      "event_id": "401871051",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871051",
+      "raw_sha256": "1238b8df3a8e70e60ef1940a3c7b40744838b0c9691e4a590aaf834d76b91b61",
+      "gzip_file": "boxscore-401871051.json.gz",
+      "raw_bytes": 503953
+    },
+    {
+      "event_id": "401864517",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864517",
+      "raw_sha256": "5205f933102f601c0ddc037f7faa2d2faa683b47d44f0a783e6e466455c8f0cb",
+      "gzip_file": "boxscore-401864517.json.gz",
+      "raw_bytes": 476316
+    },
+    {
+      "event_id": "401869965",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869965",
+      "raw_sha256": "af6e94230e3e6ab54916efa7df35b38afb03837ac3132ed44d362c0cb5a4b782",
+      "gzip_file": "boxscore-401869965.json.gz",
+      "raw_bytes": 555437
+    },
+    {
+      "event_id": "401856698",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856698",
+      "raw_sha256": "1b627a568e354db42b4e5e0dd46dad0dc5fbff4f633826cb48efb2aae3c5da51",
+      "gzip_file": "boxscore-401856698.json.gz",
+      "raw_bytes": 529815
+    },
+    {
+      "event_id": "401856779",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856779",
+      "raw_sha256": "2fc235887ff570302430f379bbfc89ffc00914db6affb1024e1ec296f1fa48f0",
+      "gzip_file": "boxscore-401856779.json.gz",
+      "raw_bytes": 552182
+    },
+    {
+      "event_id": "401864512",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864512",
+      "raw_sha256": "712d5d12aba842da5c4a45a97b8adb859bf3afbdb83da5b78cf274c4bdb55cbe",
+      "gzip_file": "boxscore-401864512.json.gz",
+      "raw_bytes": 497872
+    },
+    {
+      "event_id": "401856826",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856826",
+      "raw_sha256": "cd44a5d73d3a6c49766497321ee968deac28de9bdb6317d1e9e00eff5ef871b5",
+      "gzip_file": "boxscore-401856826.json.gz",
+      "raw_bytes": 501863
+    },
+    {
+      "event_id": "401856667",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856667",
+      "raw_sha256": "9489af2dfe50c8f720f2fef183188bff368cee20ec2df4ef18296114ef1c944f",
+      "gzip_file": "boxscore-401856667.json.gz",
+      "raw_bytes": 568365
+    },
+    {
+      "event_id": "401856806",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856806",
+      "raw_sha256": "14df4acebe26ce9e0816a14bc564cff75ee309adadb1c3f6640a29af24031f93",
+      "gzip_file": "boxscore-401856806.json.gz",
+      "raw_bytes": 456353
+    },
+    {
+      "event_id": "401858252",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858252",
+      "raw_sha256": "381fe33363280b9e7cb2dcd9da59096a31605015e329e0e7e82151810c2f5f31",
+      "gzip_file": "boxscore-401858252.json.gz",
+      "raw_bytes": 604771
+    },
+    {
+      "event_id": "401858429",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858429",
+      "raw_sha256": "758a6b9cdc073bb63bfe2474db2ec7a5c405f2383be06ce145bd9ff2f80c9ffe",
+      "gzip_file": "boxscore-401858429.json.gz",
+      "raw_bytes": 480843
+    },
+    {
+      "event_id": "401864576",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864576",
+      "raw_sha256": "adcb91d2fe61223e745e22d6034687bbe8b520e84cdc5fb6eb3612c9c8a17ad2",
+      "gzip_file": "boxscore-401864576.json.gz",
+      "raw_bytes": 585182
+    },
+    {
+      "event_id": "401869941",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869941",
+      "raw_sha256": "5a83fe045f285a5cdcdd0b4ba494693326263e7a789200a37f6df70fe841ac7f",
+      "gzip_file": "boxscore-401869941.json.gz",
+      "raw_bytes": 564725
+    },
+    {
+      "event_id": "401856817",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856817",
+      "raw_sha256": "77ac00ea8cdde4c132222bf639613bdfbd73aa2db85e82de4201ca841c8ef61b",
+      "gzip_file": "boxscore-401856817.json.gz",
+      "raw_bytes": 608207
+    },
+    {
+      "event_id": "401864570",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864570",
+      "raw_sha256": "99fc99adff0d1cc6a29cfec63421431dac1d3e3a4ad8ab87ed6dd87c6bcd504b",
+      "gzip_file": "boxscore-401864570.json.gz",
+      "raw_bytes": 490099
+    },
+    {
+      "event_id": "401858218",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858218",
+      "raw_sha256": "71c3e647cf4c8b8b164cbe23bff51c9f3d80d79123ab9ec333377ed98365521d",
+      "gzip_file": "boxscore-401858218.json.gz",
+      "raw_bytes": 501773
+    },
+    {
+      "event_id": "401856684",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856684",
+      "raw_sha256": "6c87ae6870bec0730ad39bc8651742a82273461b60c4d48fe129dcd30a71726d",
+      "gzip_file": "boxscore-401856684.json.gz",
+      "raw_bytes": 602917
+    },
+    {
+      "event_id": "401868356",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868356",
+      "raw_sha256": "e93fb536d3a5d1057bb913207c11ea0ba5944797fb72c6aac45877cee3d9c724",
+      "gzip_file": "boxscore-401868356.json.gz",
+      "raw_bytes": 588198
+    },
+    {
+      "event_id": "401866439",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866439",
+      "raw_sha256": "403715e2162fb548f3837d184bbd786cd1345bac8bcff2212ce261cf061168de",
+      "gzip_file": "boxscore-401866439.json.gz",
+      "raw_bytes": 512089
+    },
+    {
+      "event_id": "401862777",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862777",
+      "raw_sha256": "2fa8e8025ef812e01442982dff2228d0ac7af7e2385aa2655eda695a05d743c2",
+      "gzip_file": "boxscore-401862777.json.gz",
+      "raw_bytes": 548029
+    },
+    {
+      "event_id": "401856814",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856814",
+      "raw_sha256": "17236131b2a17162fe19c4d73acbe185bc55d423b4fe8c9ce770c7efdef87910",
+      "gzip_file": "boxscore-401856814.json.gz",
+      "raw_bytes": 530546
+    },
+    {
+      "event_id": "401866413",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866413",
+      "raw_sha256": "394fc59ae866171769b3541cf2fae98b5f0a8e50bd23be841ad64f0bb1f38b90",
+      "gzip_file": "boxscore-401866413.json.gz",
+      "raw_bytes": 594535
+    },
+    {
+      "event_id": "401856787",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856787",
+      "raw_sha256": "076d23fea46d14188befd8e9a51edee6971c3f32acb61d4de95438e9d2da85d8",
+      "gzip_file": "boxscore-401856787.json.gz",
+      "raw_bytes": 546755
+    },
+    {
+      "event_id": "401864509",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864509",
+      "raw_sha256": "387f2ea8fca9731b04fa53903dbee51ef9b1e9c39324849eb9debd68148b4d15",
+      "gzip_file": "boxscore-401864509.json.gz",
+      "raw_bytes": 505648
+    },
+    {
+      "event_id": "401858254",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858254",
+      "raw_sha256": "57bfc721b4340b7f42174f10b1248b309081124fbac98d9f777a75b828eab17c",
+      "gzip_file": "boxscore-401858254.json.gz",
+      "raw_bytes": 543317
+    },
+    {
+      "event_id": "401862698",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862698",
+      "raw_sha256": "16cb37d77326e33b2af4e96278cd7cd452590a541062fa844ed28e1bcc89b1cf",
+      "gzip_file": "boxscore-401862698.json.gz",
+      "raw_bytes": 513817
+    },
+    {
+      "event_id": "401866433",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866433",
+      "raw_sha256": "7c771350649751291ad399de47035b66f76c2a509adf939b26efe62a33f68d43",
+      "gzip_file": "boxscore-401866433.json.gz",
+      "raw_bytes": 473444
+    },
+    {
+      "event_id": "401858441",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858441",
+      "raw_sha256": "fa2b3b23fd05e6a9d4f816c84a930b257cbc7f60e46ee9959bbb2395b0210b29",
+      "gzip_file": "boxscore-401858441.json.gz",
+      "raw_bytes": 463293
+    },
+    {
+      "event_id": "401866420",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866420",
+      "raw_sha256": "0963c31f3f7793805da1089a32388a8099c2ff9b725503e2707975bef547d6b5",
+      "gzip_file": "boxscore-401866420.json.gz",
+      "raw_bytes": 482058
+    },
+    {
+      "event_id": "401864574",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864574",
+      "raw_sha256": "fcd0518efa9efa5f2016bd1374b35c784ed6195b9c7bfcf57d7e7a28739d5826",
+      "gzip_file": "boxscore-401864574.json.gz",
+      "raw_bytes": 563380
+    },
+    {
+      "event_id": "401856677",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856677",
+      "raw_sha256": "58e6ade5198b92f430d969c64d19ccbcf7bf813929a61347a4d27d389a4b9a67",
+      "gzip_file": "boxscore-401856677.json.gz",
+      "raw_bytes": 517091
+    },
+    {
+      "event_id": "401858443",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858443",
+      "raw_sha256": "7a7d0a81ce52a42e90863059408b8eace0a3cf3ee02e75067ee9dc29cb911d96",
+      "gzip_file": "boxscore-401858443.json.gz",
+      "raw_bytes": 523777
+    },
+    {
+      "event_id": "401868170",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868170",
+      "raw_sha256": "6f90c5b9baf32d27659e1fab74b12f2042653a656a90c270ba01dd2ccf1922fc",
+      "gzip_file": "boxscore-401868170.json.gz",
+      "raw_bytes": 566799
+    },
+    {
+      "event_id": "401862798",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862798",
+      "raw_sha256": "97e144ce99c98ddb3dade8f638493a94a4632f3a3974b4e010a47eff740d2d56",
+      "gzip_file": "boxscore-401862798.json.gz",
+      "raw_bytes": 540609
+    },
+    {
+      "event_id": "401862794",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862794",
+      "raw_sha256": "9a0bb9bb671e61589c6c3b062274248c62da46a4c5dc5118fc03480e7ca70813",
+      "gzip_file": "boxscore-401862794.json.gz",
+      "raw_bytes": 525617
+    },
+    {
+      "event_id": "401869961",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869961",
+      "raw_sha256": "cc59e2b696990c93e3bfafdd6256f8b595b068c0375adb60e5637abf2eefc2a6",
+      "gzip_file": "boxscore-401869961.json.gz",
+      "raw_bytes": 637078
+    },
+    {
+      "event_id": "401862782",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862782",
+      "raw_sha256": "ea6ce696b181bffb6a404cb682906a8b32aadbb4408f829bb2fda98ecd5b5b2e",
+      "gzip_file": "boxscore-401862782.json.gz",
+      "raw_bytes": 562803
+    },
+    {
+      "event_id": "401862787",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862787",
+      "raw_sha256": "16a6ec38bbd9e047b58f9d59a1b8fc3826cd2a7cfb91f10b0b1f87edbdf7b877",
+      "gzip_file": "boxscore-401862787.json.gz",
+      "raw_bytes": 538224
+    },
+    {
+      "event_id": "401869843",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869843",
+      "raw_sha256": "c4c2511623b8cf090fc5f7ac6274d247d21e69b02be96ce65c356aea6644be97",
+      "gzip_file": "boxscore-401869843.json.gz",
+      "raw_bytes": 572529
+    },
+    {
+      "event_id": "401860898",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860898",
+      "raw_sha256": "b3e72064ee560fed9c85135aa411e795357d2cc4603f3080d7b3e6f5a2452dae",
+      "gzip_file": "boxscore-401860898.json.gz",
+      "raw_bytes": 470939
+    },
+    {
+      "event_id": "401871046",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871046",
+      "raw_sha256": "725edb3505b3026350994bb428f22628259bc7f4fb00bf0975deb91de29a40e5",
+      "gzip_file": "boxscore-401871046.json.gz",
+      "raw_bytes": 487983
+    },
+    {
+      "event_id": "401858422",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858422",
+      "raw_sha256": "fe02ee4353b9daf43fedc24a54331f98742ba757f771d6a2c4666bda459f4061",
+      "gzip_file": "boxscore-401858422.json.gz",
+      "raw_bytes": 482206
+    },
+    {
+      "event_id": "401866456",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866456",
+      "raw_sha256": "4d85ea8d6c4fa103436cd4ce50cd960740733a4a68464ab0de036958086f24e7",
+      "gzip_file": "boxscore-401866456.json.gz",
+      "raw_bytes": 439309
+    },
+    {
+      "event_id": "401858258",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858258",
+      "raw_sha256": "913d7083f2a3c16d7455b55ab36d143a5c7729b7535a52a45ca2c694e4b3dc5c",
+      "gzip_file": "boxscore-401858258.json.gz",
+      "raw_bytes": 552770
+    },
+    {
+      "event_id": "401858437",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858437",
+      "raw_sha256": "3b2586d8623f3ff4247b7fc57276c9f1e4418bc68918b79439b69fddbcac0448",
+      "gzip_file": "boxscore-401858437.json.gz",
+      "raw_bytes": 476914
+    },
+    {
+      "event_id": "401856800",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856800",
+      "raw_sha256": "57e3b05fb0675e08f2b8b42be8566937e3014533295fd9a66b7b3aac99758997",
+      "gzip_file": "boxscore-401856800.json.gz",
+      "raw_bytes": 606506
+    },
+    {
+      "event_id": "401858255",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858255",
+      "raw_sha256": "ca17c1e3ee54212df70ae4fe201bd8f021ce941b446fbc0f983d8c4e9268f23b",
+      "gzip_file": "boxscore-401858255.json.gz",
+      "raw_bytes": 511862
+    },
+    {
+      "event_id": "401871048",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871048",
+      "raw_sha256": "9df703b184b591e8b54b53bcc9b1032d5b16f1033b57920746a12c022818f78e",
+      "gzip_file": "boxscore-401871048.json.gz",
+      "raw_bytes": 478864
+    },
+    {
+      "event_id": "401858249",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858249",
+      "raw_sha256": "e53e23573c20055e9579d2918495b026cfaefa4be1f487257d7a49ff7ac86901",
+      "gzip_file": "boxscore-401858249.json.gz",
+      "raw_bytes": 554426
+    },
+    {
+      "event_id": "401866427",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866427",
+      "raw_sha256": "2121df3adc8c6a37191afd6f14b32fb2151d024dd2ae16a82f4a07ab19073f73",
+      "gzip_file": "boxscore-401866427.json.gz",
+      "raw_bytes": 494837
+    },
+    {
+      "event_id": "401864510",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864510",
+      "raw_sha256": "3994bea3e7c2eb1cf6bde5565b5e4d7ad17bbc539b664e4e5307628c476dc6b6",
+      "gzip_file": "boxscore-401864510.json.gz",
+      "raw_bytes": 450554
+    },
+    {
+      "event_id": "401858460",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858460",
+      "raw_sha256": "1861399745c38f3c7d2a5ffc7c137adf1999415d81ff0baab19f12998ca325c2",
+      "gzip_file": "boxscore-401858460.json.gz",
+      "raw_bytes": 467762
+    },
+    {
+      "event_id": "401860883",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860883",
+      "raw_sha256": "8144bfef770152ff1d693167fb8b417c30390ceb335befa05dc481b0c47db2ad",
+      "gzip_file": "boxscore-401860883.json.gz",
+      "raw_bytes": 502730
+    },
+    {
+      "event_id": "401856635",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856635",
+      "raw_sha256": "50f06ea7f574b48fc5725651a2c1c8e8aa6eb923da5ebc6c1a94519449be8fea",
+      "gzip_file": "boxscore-401856635.json.gz",
+      "raw_bytes": 563538
+    },
+    {
+      "event_id": "401862693",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862693",
+      "raw_sha256": "5d6277b90c2a9c60aaeb21cc9576f157018abb03ff0c993f565f25c5dfcabc6d",
+      "gzip_file": "boxscore-401862693.json.gz",
+      "raw_bytes": 509893
+    },
+    {
+      "event_id": "401860879",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860879",
+      "raw_sha256": "2e36af5c225b3d9a721a577d7a3703c15a0a3256d58b08115685cd15bf1c4eaa",
+      "gzip_file": "boxscore-401860879.json.gz",
+      "raw_bytes": 533532
+    },
+    {
+      "event_id": "401856672",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856672",
+      "raw_sha256": "99b7c95a990ea25c504d683727bfcbbb11479556414a669b0826a647efbab42e",
+      "gzip_file": "boxscore-401856672.json.gz",
+      "raw_bytes": 560368
+    },
+    {
+      "event_id": "401858233",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858233",
+      "raw_sha256": "e0b9f7bca63714e89ed5385a7f2cdfcb5d6934c2ebf23c3642424e058c323981",
+      "gzip_file": "boxscore-401858233.json.gz",
+      "raw_bytes": 571380
+    },
+    {
+      "event_id": "401858240",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858240",
+      "raw_sha256": "b4352ba5050de84a52036f426fc98f61d95b355610a66943d89c57389590ae50",
+      "gzip_file": "boxscore-401858240.json.gz",
+      "raw_bytes": 575967
+    },
+    {
+      "event_id": "401856818",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856818",
+      "raw_sha256": "20cdee869b2733aece5a57ef3dbdb6ad5962cd0162e3941ff2cff229bfbdaf7c",
+      "gzip_file": "boxscore-401856818.json.gz",
+      "raw_bytes": 488676
+    },
+    {
+      "event_id": "401856799",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856799",
+      "raw_sha256": "9e40b13210d45e92199e47efb506be2b33e4671c2da785b33e5f6d30bdc787e7",
+      "gzip_file": "boxscore-401856799.json.gz",
+      "raw_bytes": 508972
+    },
+    {
+      "event_id": "401858236",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858236",
+      "raw_sha256": "6f61aaf78619ff4eeb69c71d73dbde9d52fc94f752db15515968060cb523dc63",
+      "gzip_file": "boxscore-401858236.json.gz",
+      "raw_bytes": 589169
+    },
+    {
+      "event_id": "401856804",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856804",
+      "raw_sha256": "8e4ef2d2a29b46183926c95910b58c5af070da955d3b5d4da95955140f717957",
+      "gzip_file": "boxscore-401856804.json.gz",
+      "raw_bytes": 547282
+    },
+    {
+      "event_id": "401858470",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858470",
+      "raw_sha256": "8601c9e5465a92c9ccba9a3477b6ad489e7eefe4ecc03edd38b94de86575a4b7",
+      "gzip_file": "boxscore-401858470.json.gz",
+      "raw_bytes": 479649
+    },
+    {
+      "event_id": "401858212",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858212",
+      "raw_sha256": "8dc770db51b87d0a7e22ca2359cc382a89bfd9fbe59c8c802a081424cd652a79",
+      "gzip_file": "boxscore-401858212.json.gz",
+      "raw_bytes": 554069
+    },
+    {
+      "event_id": "401858465",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858465",
+      "raw_sha256": "86adc65a39d380a92b560e86262fee85532f4cfc72a8eee98faff3dc39e61406",
+      "gzip_file": "boxscore-401858465.json.gz",
+      "raw_bytes": 486741
+    },
+    {
+      "event_id": "401866415",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866415",
+      "raw_sha256": "ec9d46924051edf14afb01dce44026be04c494484babab6c90de57f379412811",
+      "gzip_file": "boxscore-401866415.json.gz",
+      "raw_bytes": 530337
+    },
+    {
+      "event_id": "401858478",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858478",
+      "raw_sha256": "643901cb858570bef244c8ce649ae968dca81447113d57dac66ea295b8e103d3",
+      "gzip_file": "boxscore-401858478.json.gz",
+      "raw_bytes": 481869
+    },
+    {
+      "event_id": "401856636",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856636",
+      "raw_sha256": "b06c51175aebb88eb631891d1b6b86aab3bdfbde97a8fb30a4aaf22fd1358135",
+      "gzip_file": "boxscore-401856636.json.gz",
+      "raw_bytes": 639564
+    },
+    {
+      "event_id": "401868187",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868187",
+      "raw_sha256": "374dc81e078787425cd9ed3422598a31f200266a01b8daf6150b5fc041b61e78",
+      "gzip_file": "boxscore-401868187.json.gz",
+      "raw_bytes": 583941
+    },
+    {
+      "event_id": "401856788",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856788",
+      "raw_sha256": "3bb4329e400e88f4f079a6e17dbfbf659059fe4f66093a33ca7798e420eb73e6",
+      "gzip_file": "boxscore-401856788.json.gz",
+      "raw_bytes": 454399
+    },
+    {
+      "event_id": "401858251",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858251",
+      "raw_sha256": "b9148383c39c15e74bfa66da14fcb8825b8b2fe875de6cab365589d7fcec0727",
+      "gzip_file": "boxscore-401858251.json.gz",
+      "raw_bytes": 572496
+    },
+    {
+      "event_id": "401866423",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866423",
+      "raw_sha256": "3aefb33fb9920629d4eff421a017105ecbaa978c6205b29818901c003487d8c9",
+      "gzip_file": "boxscore-401866423.json.gz",
+      "raw_bytes": 542320
+    },
+    {
+      "event_id": "401860882",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860882",
+      "raw_sha256": "37c65cbea351f5b377dbb4958dce18322c1df9111c20871d9adb5f89c3264619",
+      "gzip_file": "boxscore-401860882.json.gz",
+      "raw_bytes": 575684
+    },
+    {
+      "event_id": "401856695",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856695",
+      "raw_sha256": "0666894b652e3affaec220cd1a6afa132028294a9469ea1263ff439981c93d33",
+      "gzip_file": "boxscore-401856695.json.gz",
+      "raw_bytes": 604802
+    },
+    {
+      "event_id": "401864575",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864575",
+      "raw_sha256": "677316069fc68d8b812b98cf6dc0f34ac31a9fd6ace9543c8ff9b76d263987e1",
+      "gzip_file": "boxscore-401864575.json.gz",
+      "raw_bytes": 513908
+    },
+    {
+      "event_id": "401859184",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401859184",
+      "raw_sha256": "ca9ef5945bb77a4eebf40c6ec12c09561cc6b8e7ed0b59ce478083f50294fea1",
+      "gzip_file": "boxscore-401859184.json.gz",
+      "raw_bytes": 450302
+    },
+    {
+      "event_id": "401862776",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862776",
+      "raw_sha256": "208f43eef711a39e42832ff4e45f0bc38ccbe8908451ca50a92af1620b9a020b",
+      "gzip_file": "boxscore-401862776.json.gz",
+      "raw_bytes": 522394
+    },
+    {
+      "event_id": "401860887",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860887",
+      "raw_sha256": "0c0a808590840367b1a6061813b9af6c14eb689f4602a2aea0fc62e434b48b80",
+      "gzip_file": "boxscore-401860887.json.gz",
+      "raw_bytes": 543899
+    },
+    {
+      "event_id": "401864500",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864500",
+      "raw_sha256": "a4c61bd529e5b8510ad8547ab34a5e2ff415d353d3b0d92ff6034aea59ae36bd",
+      "gzip_file": "boxscore-401864500.json.gz",
+      "raw_bytes": 506408
+    },
+    {
+      "event_id": "401858473",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858473",
+      "raw_sha256": "b903ae53aade67a98a3518825c5ebb0c76802731e6475bfa314952415fa3a6bc",
+      "gzip_file": "boxscore-401858473.json.gz",
+      "raw_bytes": 485881
+    },
+    {
+      "event_id": "401856665",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856665",
+      "raw_sha256": "ba17663a5e0c452a7bad233e64474e558b9ac5a29d86b879d838405a2c7ffba9",
+      "gzip_file": "boxscore-401856665.json.gz",
+      "raw_bytes": 544523
+    },
+    {
+      "event_id": "401858206",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858206",
+      "raw_sha256": "7bc001b9b9db5e7527f565899470019ff41a02b292e626e2be781f8d921b28ff",
+      "gzip_file": "boxscore-401858206.json.gz",
+      "raw_bytes": 550882
+    },
+    {
+      "event_id": "401856710",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856710",
+      "raw_sha256": "6505731d2a306058ebfe40c8d2c2e0e62271fa69a03ce4fbb112b5eb6edb7aed",
+      "gzip_file": "boxscore-401856710.json.gz",
+      "raw_bytes": 550547
+    },
+    {
+      "event_id": "401858230",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858230",
+      "raw_sha256": "164a1d9a18288354c933d84478a8e7bb97ef82e7de99c20c6c5eb9a5efa277f9",
+      "gzip_file": "boxscore-401858230.json.gz",
+      "raw_bytes": 571586
+    },
+    {
+      "event_id": "401860894",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860894",
+      "raw_sha256": "d266228a4713cfd59cf23deabbb53d30bcc27426cd90353b950ef5d67a22dafa",
+      "gzip_file": "boxscore-401860894.json.gz",
+      "raw_bytes": 522049
+    },
+    {
+      "event_id": "401866409",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866409",
+      "raw_sha256": "c0255b5ead56cf44f72d5ab6f3c02c026799845cf00717be057701c008e72007",
+      "gzip_file": "boxscore-401866409.json.gz",
+      "raw_bytes": 572550
+    },
+    {
+      "event_id": "401858209",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858209",
+      "raw_sha256": "753a850b1ce10bccfc6f10e501f5cfd9aac5c1cf8d3302c808a69fc9276abf63",
+      "gzip_file": "boxscore-401858209.json.gz",
+      "raw_bytes": 545699
+    },
+    {
+      "event_id": "401860891",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860891",
+      "raw_sha256": "d68625f23f660fe2d35d4ca5aa1640140748a223e8b0d411fb43c8ffdd089c2d",
+      "gzip_file": "boxscore-401860891.json.gz",
+      "raw_bytes": 497461
+    },
+    {
+      "event_id": "401858450",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858450",
+      "raw_sha256": "c243f2f0381ba111c68c6f5986b4e60532a29dc23b490292828e3a7cc5eb80e0",
+      "gzip_file": "boxscore-401858450.json.gz",
+      "raw_bytes": 545237
+    },
+    {
+      "event_id": "401856694",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856694",
+      "raw_sha256": "24b3620c905692d8e2459a40de071b145e5dab5c576489570d40c405181281ba",
+      "gzip_file": "boxscore-401856694.json.gz",
+      "raw_bytes": 538019
+    },
+    {
+      "event_id": "401861964",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401861964",
+      "raw_sha256": "4145d7c7651f8d1ec9458f7d64bc3293237fb14d1c68e0589611863c2997a060",
+      "gzip_file": "boxscore-401861964.json.gz",
+      "raw_bytes": 513544
+    },
+    {
+      "event_id": "401869962",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869962",
+      "raw_sha256": "239e01d997bbd976c62f990dc29d33ffc3eebf951ba8b92a98e679e84f2b2f68",
+      "gzip_file": "boxscore-401869962.json.gz",
+      "raw_bytes": 583355
+    },
+    {
+      "event_id": "401856637",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856637",
+      "raw_sha256": "6ce1c82e567e30863b5a4bcee3dbfa3eea7cfcd1769a17d269bf0b5ac111d012",
+      "gzip_file": "boxscore-401856637.json.gz",
+      "raw_bytes": 619424
+    },
+    {
+      "event_id": "401856708",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856708",
+      "raw_sha256": "2da092208a87bd1a2768df1f5a72edb124f218e6c6011b4da4f883a081931b6e",
+      "gzip_file": "boxscore-401856708.json.gz",
+      "raw_bytes": 542877
+    },
+    {
+      "event_id": "401856881",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856881",
+      "raw_sha256": "83d3e2cddcee923bf03e3f0ff284aee9ba65ffd94a4623b2bcd26b9f6f49608f",
+      "gzip_file": "boxscore-401856881.json.gz",
+      "raw_bytes": 533738
+    },
+    {
+      "event_id": "401862817",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862817",
+      "raw_sha256": "fc1562ba7187be56ff108c81744590e12cab3fc5ee3f251f6a036804ef02bab9",
+      "gzip_file": "boxscore-401862817.json.gz",
+      "raw_bytes": 586598
+    },
+    {
+      "event_id": "401861963",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401861963",
+      "raw_sha256": "415affe3802168f6e369bfcf14e6f063b35bebd1fcd85412a6dffdf0ac1c6935",
+      "gzip_file": "boxscore-401861963.json.gz",
+      "raw_bytes": 623924
+    },
+    {
+      "event_id": "401862781",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862781",
+      "raw_sha256": "2475d6601856ffbe1241c7c48ccdbaf22e23472ba1c11d4c7ffa2df9b7f3cb8d",
+      "gzip_file": "boxscore-401862781.json.gz",
+      "raw_bytes": 584026
+    },
+    {
+      "event_id": "401862703",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862703",
+      "raw_sha256": "01fe60ab4a0d7ca0e63c1a275af445defa1ba1ca9b54cb37db7e5f3b5ca6cc1e",
+      "gzip_file": "boxscore-401862703.json.gz",
+      "raw_bytes": 566902
+    },
+    {
+      "event_id": "401858229",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858229",
+      "raw_sha256": "6ad9292c288092b330803563c7275065439859a1eed148a13539597117a4677b",
+      "gzip_file": "boxscore-401858229.json.gz",
+      "raw_bytes": 578171
+    },
+    {
+      "event_id": "401858221",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858221",
+      "raw_sha256": "2891b7009153c8bc2bc5d6c2d522adf2c3f7d950805cfd143bc184e33f9a352d",
+      "gzip_file": "boxscore-401858221.json.gz",
+      "raw_bytes": 525659
+    },
+    {
+      "event_id": "401866437",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866437",
+      "raw_sha256": "684d4e5521a288b2f6af9663f730b5b01fcd6201cb81a66702a50e461e8ffabc",
+      "gzip_file": "boxscore-401866437.json.gz",
+      "raw_bytes": 528119
+    },
+    {
+      "event_id": "401866453",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866453",
+      "raw_sha256": "494600942eee8aa594113d5a27fa8cee889d80daed0f30d117d7707c17346901",
+      "gzip_file": "boxscore-401866453.json.gz",
+      "raw_bytes": 458952
+    },
+    {
+      "event_id": "401858242",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858242",
+      "raw_sha256": "4489b4e71b52bf8fb7e8cacef5e1afe49ad4051f914a4e579d121cd2ca882e72",
+      "gzip_file": "boxscore-401858242.json.gz",
+      "raw_bytes": 542097
+    },
+    {
+      "event_id": "401856680",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856680",
+      "raw_sha256": "5f432b26c362d5297f70e1d47bc5c1ec9e3270955bb6b9c396e7051e24e18df7",
+      "gzip_file": "boxscore-401856680.json.gz",
+      "raw_bytes": 587824
+    },
+    {
+      "event_id": "401858477",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858477",
+      "raw_sha256": "cc2d907967189c727ce7fbda28066e978fdb8054a5fcee5c7217f7c39c826139",
+      "gzip_file": "boxscore-401858477.json.gz",
+      "raw_bytes": 516951
+    },
+    {
+      "event_id": "401856811",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856811",
+      "raw_sha256": "7ea9e384f40ad9d57b78f30aeb8d8fa3f8b4153f2192611a3d6f0ffe49145e93",
+      "gzip_file": "boxscore-401856811.json.gz",
+      "raw_bytes": 511035
+    },
+    {
+      "event_id": "401864571",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864571",
+      "raw_sha256": "7bbe612820d5baeb8516469799f5be58240d3423338ae26397314bc348e67d09",
+      "gzip_file": "boxscore-401864571.json.gz",
+      "raw_bytes": 610803
+    },
+    {
+      "event_id": "401858510",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858510",
+      "raw_sha256": "a7fd345310eefd03d69fdeeca5e39467672888f73837bbca2029d34767f18c6f",
+      "gzip_file": "boxscore-401858510.json.gz",
+      "raw_bytes": 442813
+    },
+    {
+      "event_id": "401864494",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864494",
+      "raw_sha256": "8d247ac7d0a9353a4b81078caad0297b84f75210657432e1141c5ff38d65fd2c",
+      "gzip_file": "boxscore-401864494.json.gz",
+      "raw_bytes": 483479
+    },
+    {
+      "event_id": "401858243",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858243",
+      "raw_sha256": "186f976dd37a4e26200bee02a785f91b233553d8a59e3ea1b89d675ce4efbb04",
+      "gzip_file": "boxscore-401858243.json.gz",
+      "raw_bytes": 571049
+    },
+    {
+      "event_id": "401856687",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856687",
+      "raw_sha256": "aa1cd617080778b4280ec166009884dd44d757024e0e25087ae3504232895879",
+      "gzip_file": "boxscore-401856687.json.gz",
+      "raw_bytes": 590749
+    },
+    {
+      "event_id": "401856663",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856663",
+      "raw_sha256": "6b96aa393fa9e03fe322a10072d324f8452a24056bc559092cf35744dcbe79bd",
+      "gzip_file": "boxscore-401856663.json.gz",
+      "raw_bytes": 583795
+    },
+    {
+      "event_id": "401858486",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858486",
+      "raw_sha256": "735d264a134792d8c05b7c983c0ce88eaa1a72e82ca124ca95d84bb30aed6269",
+      "gzip_file": "boxscore-401858486.json.gz",
+      "raw_bytes": 523469
+    },
+    {
+      "event_id": "401866623",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866623",
+      "raw_sha256": "11a751736f8e8b95fd3a1431f3243009d366afb24109900ddae61231762ddab0",
+      "gzip_file": "boxscore-401866623.json.gz",
+      "raw_bytes": 565742
+    },
+    {
+      "event_id": "401858210",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858210",
+      "raw_sha256": "dafe9563ba4de45caa77a96e2fe007b7bb0d55abe4bae316af4f258f4b5cc57b",
+      "gzip_file": "boxscore-401858210.json.gz",
+      "raw_bytes": 645696
+    },
+    {
+      "event_id": "401862779",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862779",
+      "raw_sha256": "e6d5067b500ae9c93648752128ae096bc98812e62fd7927fcf54c62e9215edb8",
+      "gzip_file": "boxscore-401862779.json.gz",
+      "raw_bytes": 454400
+    },
+    {
+      "event_id": "401858448",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858448",
+      "raw_sha256": "2751d63c87fd489285227ac77338946b0c84aa7c62eea028cbfc003011dda0b8",
+      "gzip_file": "boxscore-401858448.json.gz",
+      "raw_bytes": 501343
+    },
+    {
+      "event_id": "401868008",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868008",
+      "raw_sha256": "5c01b8f8795bbe24e92a2a6f319360ce83e6c0703f10231bf39edf4d66b6dd65",
+      "gzip_file": "boxscore-401868008.json.gz",
+      "raw_bytes": 556020
+    },
+    {
+      "event_id": "401856810",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856810",
+      "raw_sha256": "665f8d0f60becd51c4c093ac707440fff290e69c0f0b531b212a7004d477fd2c",
+      "gzip_file": "boxscore-401856810.json.gz",
+      "raw_bytes": 478172
+    },
+    {
+      "event_id": "401862791",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862791",
+      "raw_sha256": "1b3b7e752c0d1eaad808b209fdae0fb83d53e986066bcbebffc4d0e0aeeb5da4",
+      "gzip_file": "boxscore-401862791.json.gz",
+      "raw_bytes": 479556
+    },
+    {
+      "event_id": "401871089",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871089",
+      "raw_sha256": "f17f516ade9e9b19e9b4860cf5efc6f2379702a007fd2c4958f9fc1f62f46c53",
+      "gzip_file": "boxscore-401871089.json.gz",
+      "raw_bytes": 562331
+    },
+    {
+      "event_id": "401856686",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856686",
+      "raw_sha256": "15f694ee98842ba99d3dab920855ed9f3eb1b027178b32bb8f626913b8ac3690",
+      "gzip_file": "boxscore-401856686.json.gz",
+      "raw_bytes": 560987
+    },
+    {
+      "event_id": "401856714",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856714",
+      "raw_sha256": "baf25cd6c74dc08ba8027371069cfd10d6e51d64cea3e026c390c7d7899585e6",
+      "gzip_file": "boxscore-401856714.json.gz",
+      "raw_bytes": 588484
+    },
+    {
+      "event_id": "401856797",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856797",
+      "raw_sha256": "aba7326959dd3e3cb21d423e06e1789b6803fbe5fc1cd10cb45796cb80fc0e53",
+      "gzip_file": "boxscore-401856797.json.gz",
+      "raw_bytes": 563447
+    },
+    {
+      "event_id": "401860885",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860885",
+      "raw_sha256": "fbc3300e04bf3aa79c7ab68cc58c4b9f34d5c4dc1daa0b780c8fa2b72d297122",
+      "gzip_file": "boxscore-401860885.json.gz",
+      "raw_bytes": 527219
+    },
+    {
+      "event_id": "401858244",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858244",
+      "raw_sha256": "2dbe28158cfd45e240cb51aaeab4921e139dc3d508f1eaf9a57e446b65353e72",
+      "gzip_file": "boxscore-401858244.json.gz",
+      "raw_bytes": 560149
+    },
+    {
+      "event_id": "401858445",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858445",
+      "raw_sha256": "8465950115d30fccfd7eaa254654a705978d104c5717f7dcf7c80d3ff3831ab2",
+      "gzip_file": "boxscore-401858445.json.gz",
+      "raw_bytes": 544482
+    },
+    {
+      "event_id": "401858204",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858204",
+      "raw_sha256": "570b54f16ed721917495cf3e86beca473ec5dcb446492b59c89d1e67c1c45177",
+      "gzip_file": "boxscore-401858204.json.gz",
+      "raw_bytes": 580303
+    },
+    {
+      "event_id": "401864425",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864425",
+      "raw_sha256": "fd4d9e49ae9f87afdb704a4d2f4757121e8d78b3da73f2dec8654432a1b9a576",
+      "gzip_file": "boxscore-401864425.json.gz",
+      "raw_bytes": 524592
+    },
+    {
+      "event_id": "401858239",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858239",
+      "raw_sha256": "6b7b2053a2992ba68e5822182cf035389990ea8fde74cbea9e659384450f2616",
+      "gzip_file": "boxscore-401858239.json.gz",
+      "raw_bytes": 574681
+    },
+    {
+      "event_id": "401866438",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866438",
+      "raw_sha256": "f6d3cc6e836452d413252ee05d6224855e034ad9d758235f683b4d39d7302f26",
+      "gzip_file": "boxscore-401866438.json.gz",
+      "raw_bytes": 515326
+    },
+    {
+      "event_id": "401856821",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856821",
+      "raw_sha256": "44890c74b1c9f5ee3e852b0b7b2dc66529c20cfd0b7ce3fedb511090dd1e652b",
+      "gzip_file": "boxscore-401856821.json.gz",
+      "raw_bytes": 542035
+    },
+    {
+      "event_id": "401856689",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856689",
+      "raw_sha256": "7b80e89f28cbcd24fa8b74fc1f5bf2248c5d42612337f1c45500d3aa6e3a8816",
+      "gzip_file": "boxscore-401856689.json.gz",
+      "raw_bytes": 554851
+    },
+    {
+      "event_id": "401858471",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858471",
+      "raw_sha256": "ba5d1efdbc07e135171235031f5a2cf6c3ca28059c012f329f373389482ca68f",
+      "gzip_file": "boxscore-401858471.json.gz",
+      "raw_bytes": 488453
+    },
+    {
+      "event_id": "401866411",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866411",
+      "raw_sha256": "bd73620116ae7d6f6f17e3f6c8a94a96a9a8de48571f1d17c6b4eb4cf9c03a90",
+      "gzip_file": "boxscore-401866411.json.gz",
+      "raw_bytes": 578648
+    },
+    {
+      "event_id": "401858431",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858431",
+      "raw_sha256": "d92ad4731e9989bcce9dcdc8d7fecc9e70acc4e4d866dfc00c437542a2561cbf",
+      "gzip_file": "boxscore-401858431.json.gz",
+      "raw_bytes": 523605
+    },
+    {
+      "event_id": "401858479",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858479",
+      "raw_sha256": "e8215b4bcaeedf96cfd4bcfe11c589a29f2952517a6bb71a349213e67e772348",
+      "gzip_file": "boxscore-401858479.json.gz",
+      "raw_bytes": 488021
+    },
+    {
+      "event_id": "401860899",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860899",
+      "raw_sha256": "abd34f310e1ae0b6b67f145fa460824c9b761709f29dafbc20c75114506abfbe",
+      "gzip_file": "boxscore-401860899.json.gz",
+      "raw_bytes": 483007
+    },
+    {
+      "event_id": "401858250",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858250",
+      "raw_sha256": "8b751735b32ff9a367c2d5c164b37a1b3be6fdc79d5b9bf7f822cd251e2d712c",
+      "gzip_file": "boxscore-401858250.json.gz",
+      "raw_bytes": 502533
+    },
+    {
+      "event_id": "401856668",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856668",
+      "raw_sha256": "f77a43a42b6e94ddb261acdb42017f632688641a580adbda3d4edadea8a81ff9",
+      "gzip_file": "boxscore-401856668.json.gz",
+      "raw_bytes": 558638
+    },
+    {
+      "event_id": "401858215",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858215",
+      "raw_sha256": "e0179cbe7241b15d37f17f4a472d002f6e0fa84d385f3b808d6a8e11cdd52f87",
+      "gzip_file": "boxscore-401858215.json.gz",
+      "raw_bytes": 584426
+    },
+    {
+      "event_id": "401871049",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871049",
+      "raw_sha256": "35c911dcb8cb3a3229330f1df5a3d2c83d1c04e0715bb6742cb5dcdbd696ae8b",
+      "gzip_file": "boxscore-401871049.json.gz",
+      "raw_bytes": 511716
+    },
+    {
+      "event_id": "401864518",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864518",
+      "raw_sha256": "130e4cb7b845d07e66d19205110632ab2dbeaa0fdd181419f533bc9ff30a7361",
+      "gzip_file": "boxscore-401864518.json.gz",
+      "raw_bytes": 463946
+    },
+    {
+      "event_id": "401871090",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871090",
+      "raw_sha256": "7e012e987b59a90284fdad755096512f4c827203561a18a0deead27dca92ee63",
+      "gzip_file": "boxscore-401871090.json.gz",
+      "raw_bytes": 574609
+    },
+    {
+      "event_id": "401858483",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858483",
+      "raw_sha256": "e68c384d6e10a73074c4c5c188d6497eed993ceb21a55fe427a9f2e81e4d801e",
+      "gzip_file": "boxscore-401858483.json.gz",
+      "raw_bytes": 539375
+    },
+    {
+      "event_id": "401864432",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864432",
+      "raw_sha256": "4dc6e8ec1676e1cfca6a483708ca4ff84acc1a626d9eba444de0e80d81d17724",
+      "gzip_file": "boxscore-401864432.json.gz",
+      "raw_bytes": 513646
+    },
+    {
+      "event_id": "401870745",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870745",
+      "raw_sha256": "97ec64c29ebab59d45bb7a44cc307815ebcb1a24a836f2ab2db145d0ce88701f",
+      "gzip_file": "boxscore-401870745.json.gz",
+      "raw_bytes": 518906
+    },
+    {
+      "event_id": "401856681",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856681",
+      "raw_sha256": "fa49b8f7aef5dbd8d413c9fcaed7e3f2fc6b7f33cc1bf5e7e7ae35c46c284451",
+      "gzip_file": "boxscore-401856681.json.gz",
+      "raw_bytes": 578178
+    },
+    {
+      "event_id": "401858455",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858455",
+      "raw_sha256": "d94c1214912052444d9a79124ae905c557b0fca267deb2f151ad9c9576f816e0",
+      "gzip_file": "boxscore-401858455.json.gz",
+      "raw_bytes": 593349
+    },
+    {
+      "event_id": "401866431",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866431",
+      "raw_sha256": "1023d5e851f9fca87c4ffd626e289f9d1c29ed18ea69722f69c9e46467db650b",
+      "gzip_file": "boxscore-401866431.json.gz",
+      "raw_bytes": 601038
+    },
+    {
+      "event_id": "401862790",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862790",
+      "raw_sha256": "2d2385e8125b3185d7b7f5f88627500a892c69867107297e21f03166c37d261d",
+      "gzip_file": "boxscore-401862790.json.gz",
+      "raw_bytes": 572170
+    },
+    {
+      "event_id": "401868188",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401868188",
+      "raw_sha256": "d3ffd409446c96e966c18f7a9cc999aa5379ee59f18a5c2f70eb960ed4450a40",
+      "gzip_file": "boxscore-401868188.json.gz",
+      "raw_bytes": 611427
+    },
+    {
+      "event_id": "401871050",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871050",
+      "raw_sha256": "a0bf29d7ad0a3afb10f3c012a9ebe13dc339c31efde20505f2df79b3ed5b7f11",
+      "gzip_file": "boxscore-401871050.json.gz",
+      "raw_bytes": 501815
+    },
+    {
+      "event_id": "401856822",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856822",
+      "raw_sha256": "3970e2cdffa7ec8019dae234647e7c86c55f6d951eab1a7473a17258d8267996",
+      "gzip_file": "boxscore-401856822.json.gz",
+      "raw_bytes": 540286
+    },
+    {
+      "event_id": "401858228",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858228",
+      "raw_sha256": "d40c04466d860bb3fc714277fd4ce17131a5780c7fcaf0dca41675f55eaf5981",
+      "gzip_file": "boxscore-401858228.json.gz",
+      "raw_bytes": 570065
+    },
+    {
+      "event_id": "401856815",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856815",
+      "raw_sha256": "d56618caa6c775a1f76bb6559dde9420ecea353f47ee0f2f7990a758b1a78e67",
+      "gzip_file": "boxscore-401856815.json.gz",
+      "raw_bytes": 452943
+    },
+    {
+      "event_id": "401864514",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864514",
+      "raw_sha256": "c625d33496d85b26eae209b010c45190218d12f5535c05d986ab8d8501a1dd02",
+      "gzip_file": "boxscore-401864514.json.gz",
+      "raw_bytes": 455277
+    },
+    {
+      "event_id": "401856685",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856685",
+      "raw_sha256": "251b2dae8ee15462897be43aee45510564dec85e4b5b2a659cf712c2963229f2",
+      "gzip_file": "boxscore-401856685.json.gz",
+      "raw_bytes": 630776
+    },
+    {
+      "event_id": "401856707",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856707",
+      "raw_sha256": "b3a1e0cd1ca7a68dc49226ba83e44aa16e6fa21200fb32026c96f699bf9cb4b3",
+      "gzip_file": "boxscore-401856707.json.gz",
+      "raw_bytes": 599935
+    },
+    {
+      "event_id": "401856824",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856824",
+      "raw_sha256": "3e5cbcc05f3203b5ae0df751a26edfdec71aa431c834f31ec8e73f2c057b76c8",
+      "gzip_file": "boxscore-401856824.json.gz",
+      "raw_bytes": 550696
+    },
+    {
+      "event_id": "401856709",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856709",
+      "raw_sha256": "eaaeb4ef4af3a563afd108c606d7e908aded6f2d344b67857adfa751ba1fc291",
+      "gzip_file": "boxscore-401856709.json.gz",
+      "raw_bytes": 614801
+    },
+    {
+      "event_id": "401858444",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858444",
+      "raw_sha256": "fa50ac307333bdafb1a53ed7e4eab71e333d3e16d0f7f908d714b0d5fbacde54",
+      "gzip_file": "boxscore-401858444.json.gz",
+      "raw_bytes": 511956
+    },
+    {
+      "event_id": "401856664",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856664",
+      "raw_sha256": "d9187dbd62052779e10030476cf969ccf8974e9cbdb351dc3c32efa8bc6e44fc",
+      "gzip_file": "boxscore-401856664.json.gz",
+      "raw_bytes": 541970
+    },
+    {
+      "event_id": "401858246",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858246",
+      "raw_sha256": "4e4c04e084c026ddb76c30502c7d3299f657a703e03fd0b77c9f9f60b83e9b82",
+      "gzip_file": "boxscore-401858246.json.gz",
+      "raw_bytes": 499465
+    },
+    {
+      "event_id": "401865252",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401865252",
+      "raw_sha256": "1747753f4cd7024a2f09adcc3482ecdc5257a2af525fa2a1488889f5aa8eeb7d",
+      "gzip_file": "boxscore-401865252.json.gz",
+      "raw_bytes": 532251
+    },
+    {
+      "event_id": "401866418",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866418",
+      "raw_sha256": "29125c414600cd2f706cd74a6ad34aa2e5645ba54d2343b4a786fc16f655c5d0",
+      "gzip_file": "boxscore-401866418.json.gz",
+      "raw_bytes": 579519
+    },
+    {
+      "event_id": "401860902",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860902",
+      "raw_sha256": "55241f77a77cf41b27c3a281b3891d4913b4940c9d748e84acd17e2e0ad106fe",
+      "gzip_file": "boxscore-401860902.json.gz",
+      "raw_bytes": 505681
+    },
+    {
+      "event_id": "401858425",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858425",
+      "raw_sha256": "27a30b190cdc47734b6413b25edef8b7ef2235820b41abca3d551fa7800f8ef2",
+      "gzip_file": "boxscore-401858425.json.gz",
+      "raw_bytes": 467203
+    },
+    {
+      "event_id": "401867929",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867929",
+      "raw_sha256": "4b61738b3c5b878537c7cfd9166675641b796c42dcab8c193e9edeee42cbb785",
+      "gzip_file": "boxscore-401867929.json.gz",
+      "raw_bytes": 632663
+    },
+    {
+      "event_id": "401862792",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862792",
+      "raw_sha256": "bc4e7d06a5f944357cd03d6b153858728033ccbd7ac41bb0ee01e4bebc765780",
+      "gzip_file": "boxscore-401862792.json.gz",
+      "raw_bytes": 459155
+    },
+    {
+      "event_id": "401864504",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864504",
+      "raw_sha256": "38610b9e281e958b639691744e871f784eaad4eaa4eaf125aab44367942fa339",
+      "gzip_file": "boxscore-401864504.json.gz",
+      "raw_bytes": 502276
+    },
+    {
+      "event_id": "401856820",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856820",
+      "raw_sha256": "52152764719eeaaf020b152e87843dcb7fe992e90f0876d34b5fedc2b2476589",
+      "gzip_file": "boxscore-401856820.json.gz",
+      "raw_bytes": 468618
+    },
+    {
+      "event_id": "401858227",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858227",
+      "raw_sha256": "55a751c6b8306fa5e573d5d85a7c082aed074e41bf4ace04506393e66af52389",
+      "gzip_file": "boxscore-401858227.json.gz",
+      "raw_bytes": 532296
+    },
+    {
+      "event_id": "401869142",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869142",
+      "raw_sha256": "4a3c5cb91563dd1d522b11bee17cf4ce6bf93b3008307ad8d5e565a31c6d59ab",
+      "gzip_file": "boxscore-401869142.json.gz",
+      "raw_bytes": 516564
+    },
+    {
+      "event_id": "401856660",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856660",
+      "raw_sha256": "871f2b92cda2babbd4574b488da09fa0d9e49036042fbad1e549d12dcf4231fd",
+      "gzip_file": "boxscore-401856660.json.gz",
+      "raw_bytes": 612459
+    },
+    {
+      "event_id": "401869960",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869960",
+      "raw_sha256": "bb79911d0288828a1ea3bba76635ffb2ac086799d571ffa1ac163ce89441bf16",
+      "gzip_file": "boxscore-401869960.json.gz",
+      "raw_bytes": 491496
+    },
+    {
+      "event_id": "401856692",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856692",
+      "raw_sha256": "e7b1de3b95e565a962dad954cbb478075b3a782d5a2f4d30790263e447c9c89b",
+      "gzip_file": "boxscore-401856692.json.gz",
+      "raw_bytes": 560503
+    },
+    {
+      "event_id": "401856795",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856795",
+      "raw_sha256": "70be877780f72f2c24145184411cba988f3c65b8c3bc06c21e4ea939100c5fb9",
+      "gzip_file": "boxscore-401856795.json.gz",
+      "raw_bytes": 527261
+    },
+    {
+      "event_id": "401866426",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866426",
+      "raw_sha256": "4ef277ff02db19a4bd9ce6b247ea1985a2a3db4a288b88be0d79464abb94f009",
+      "gzip_file": "boxscore-401866426.json.gz",
+      "raw_bytes": 571474
+    },
+    {
+      "event_id": "401858426",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858426",
+      "raw_sha256": "447ed1eeaa7f1bcc6815eb49002d76c29607b07ef1c4bb162fd74d376be97db9",
+      "gzip_file": "boxscore-401858426.json.gz",
+      "raw_bytes": 578962
+    },
+    {
+      "event_id": "401856823",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856823",
+      "raw_sha256": "e83878189cc86682c12e2090a01662e92418c98a35b3824b05bcc15efe4ef07a",
+      "gzip_file": "boxscore-401856823.json.gz",
+      "raw_bytes": 545526
+    },
+    {
+      "event_id": "401858211",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858211",
+      "raw_sha256": "3d1f2163aa5ed128a5669448ddb9eb33049a704ff0fb0a84eff541084f1f2bad",
+      "gzip_file": "boxscore-401858211.json.gz",
+      "raw_bytes": 618563
+    },
+    {
+      "event_id": "401856767",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856767",
+      "raw_sha256": "45f5970147b8260767ef190abc217a3b7d2929d0dc16bf3940295d81405b17fa",
+      "gzip_file": "boxscore-401856767.json.gz",
+      "raw_bytes": 588146
+    },
+    {
+      "event_id": "401861962",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401861962",
+      "raw_sha256": "aceaf4968dd42b5e8c4abc13fd0d8535115d04b329b3acc3b3b1a0d9b8976cf3",
+      "gzip_file": "boxscore-401861962.json.gz",
+      "raw_bytes": 527080
+    },
+    {
+      "event_id": "401858438",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858438",
+      "raw_sha256": "1da7d322811cf23f9fe40025449fc995d08167dde0dfbb9bf898ca3f7511ae73",
+      "gzip_file": "boxscore-401858438.json.gz",
+      "raw_bytes": 475589
+    },
+    {
+      "event_id": "401862702",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862702",
+      "raw_sha256": "fe367fad7546e4f6311ed688c4a87e800465426480e16742a3a6087cf492fd5d",
+      "gzip_file": "boxscore-401862702.json.gz",
+      "raw_bytes": 434081
+    },
+    {
+      "event_id": "401866422",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866422",
+      "raw_sha256": "0d34af8c4943be5dafd3da000c2a925bd44a45e9d0884920aca098645b5c103b",
+      "gzip_file": "boxscore-401866422.json.gz",
+      "raw_bytes": 548499
+    },
+    {
+      "event_id": "401858476",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858476",
+      "raw_sha256": "f79c53f321147dda14121109709a10381cd69200843aeeeaba5e3085e5476aa1",
+      "gzip_file": "boxscore-401858476.json.gz",
+      "raw_bytes": 488636
+    },
+    {
+      "event_id": "401856805",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856805",
+      "raw_sha256": "c1e1b9678c49ac328b3f1dd7aab2b776d1f092cd8818c1e3e8456dd877c1dfb8",
+      "gzip_file": "boxscore-401856805.json.gz",
+      "raw_bytes": 549384
+    },
+    {
+      "event_id": "401858238",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858238",
+      "raw_sha256": "61ed3d96eb10d5f8e3f9cf94b1ec530cb324c0475c689cdaa6e340dd657e364f",
+      "gzip_file": "boxscore-401858238.json.gz",
+      "raw_bytes": 500986
+    },
+    {
+      "event_id": "401856669",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856669",
+      "raw_sha256": "afc9130d03a23a6ce504f076d78ae01e9390ce5ae75fa74445dcbe80940a0852",
+      "gzip_file": "boxscore-401856669.json.gz",
+      "raw_bytes": 475768
+    },
+    {
+      "event_id": "401869956",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869956",
+      "raw_sha256": "6cd6820bd4b6963ba6c8bfa0d971179e68f2c603b105e707d2a0804ec9618379",
+      "gzip_file": "boxscore-401869956.json.gz",
+      "raw_bytes": 553266
+    },
+    {
+      "event_id": "401862771",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862771",
+      "raw_sha256": "8b3b6870a01a7f5e37f9173251bf8426244a3e31adedf45237085e58a5c22c4c",
+      "gzip_file": "boxscore-401862771.json.gz",
+      "raw_bytes": 567730
+    },
+    {
+      "event_id": "401858474",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858474",
+      "raw_sha256": "bf1a3cf135f879bf95b9f438b117b4418282d1270f5fc8af650d5a6241a7008e",
+      "gzip_file": "boxscore-401858474.json.gz",
+      "raw_bytes": 442541
+    },
+    {
+      "event_id": "401856696",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856696",
+      "raw_sha256": "8b64fe196a1062ee3780678792cd890feb07dd6f21a286328744c440573eb72e",
+      "gzip_file": "boxscore-401856696.json.gz",
+      "raw_bytes": 569698
+    },
+    {
+      "event_id": "401860889",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860889",
+      "raw_sha256": "5a32d51e44eea06a5a73b3a83953c8415127618ef56b710353c39cf8f30000bf",
+      "gzip_file": "boxscore-401860889.json.gz",
+      "raw_bytes": 525985
+    },
+    {
+      "event_id": "401862700",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862700",
+      "raw_sha256": "8a68be6a53a8175848f98812ae432b8181061af875fe0b944b643afdaf4a98ce",
+      "gzip_file": "boxscore-401862700.json.gz",
+      "raw_bytes": 581471
+    },
+    {
+      "event_id": "401862818",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862818",
+      "raw_sha256": "041b6b5e03eed6d720d98088fdf2171f04856ede72056a8bb03267929334cae2",
+      "gzip_file": "boxscore-401862818.json.gz",
+      "raw_bytes": 488408
+    },
+    {
+      "event_id": "401869948",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869948",
+      "raw_sha256": "ac8c0de55e65f6915c5dd2603a2f7502336c73e87999cad029dfafd54e449904",
+      "gzip_file": "boxscore-401869948.json.gz",
+      "raw_bytes": 523708
+    },
+    {
+      "event_id": "401860888",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860888",
+      "raw_sha256": "8c25f74ab3ef4ffcaaad8ddddaf90c7c8eb1479ee9fa61cd715bd7f623f7b2be",
+      "gzip_file": "boxscore-401860888.json.gz",
+      "raw_bytes": 551879
+    },
+    {
+      "event_id": "401864515",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864515",
+      "raw_sha256": "d468d389f7247a596d5e4631f00bca2b41f543abf2c03dcdc3ab5a00267e1bc9",
+      "gzip_file": "boxscore-401864515.json.gz",
+      "raw_bytes": 477463
+    },
+    {
+      "event_id": "401856674",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856674",
+      "raw_sha256": "2f515f8008081674057fc9cfe0b5903b908c35bc1cd7f140349c15faf41ded70",
+      "gzip_file": "boxscore-401856674.json.gz",
+      "raw_bytes": 567949
+    },
+    {
+      "event_id": "401869955",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869955",
+      "raw_sha256": "22d7d3e4c8170e1b1b4828d0b4a59749f48c521833fd3905dc2823e4abfe93d0",
+      "gzip_file": "boxscore-401869955.json.gz",
+      "raw_bytes": 541498
+    },
+    {
+      "event_id": "401856772",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856772",
+      "raw_sha256": "b4a1d71e3e199982c737823fbc93235e26bdc4136ce4fb885c1d37d670adda54",
+      "gzip_file": "boxscore-401856772.json.gz",
+      "raw_bytes": 552933
+    },
+    {
+      "event_id": "401858459",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858459",
+      "raw_sha256": "17a6aab590b2a309e5633664956cd56ad6727e4695eaee1b74f800278d360a9a",
+      "gzip_file": "boxscore-401858459.json.gz",
+      "raw_bytes": 586484
+    },
+    {
+      "event_id": "401869943",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869943",
+      "raw_sha256": "87ef46a15d32e75a6148ba87198d7f365c53639c0083b38df4fd1027c18d8ed3",
+      "gzip_file": "boxscore-401869943.json.gz",
+      "raw_bytes": 582764
+    },
+    {
+      "event_id": "401856855",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856855",
+      "raw_sha256": "f4a6f826075b82569978d801f8519c08c1617db674a8a6ac3169f2b500ab4899",
+      "gzip_file": "boxscore-401856855.json.gz",
+      "raw_bytes": 527375
+    },
+    {
+      "event_id": "401856769",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856769",
+      "raw_sha256": "4a5ede5f63320f013244363ecf3805ae6de0f78f3305c42bd2ecb02cc7c1d7f1",
+      "gzip_file": "boxscore-401856769.json.gz",
+      "raw_bytes": 539572
+    },
+    {
+      "event_id": "401858208",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858208",
+      "raw_sha256": "5b91aae0780a4c1d118c248a6af355257fb503cd575781a898c25743970b5d90",
+      "gzip_file": "boxscore-401858208.json.gz",
+      "raw_bytes": 601921
+    },
+    {
+      "event_id": "401869931",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869931",
+      "raw_sha256": "6c117a29875214d6558d7c29c3316c9c527b3bbdd0a144b940b3a1a754474f0c",
+      "gzip_file": "boxscore-401869931.json.gz",
+      "raw_bytes": 495558
+    },
+    {
+      "event_id": "401856808",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856808",
+      "raw_sha256": "eba3ebdc13df78ec85beb875800f5c2e301724de7dc0de3bd8d1d583d7583953",
+      "gzip_file": "boxscore-401856808.json.gz",
+      "raw_bytes": 517282
+    },
+    {
+      "event_id": "401858436",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858436",
+      "raw_sha256": "48e125ee8e46cdab8108446bda2e2640acf77e681a7b33db7f091e23bca1d371",
+      "gzip_file": "boxscore-401858436.json.gz",
+      "raw_bytes": 439519
+    },
+    {
+      "event_id": "401860880",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860880",
+      "raw_sha256": "219c4b83b2ef87c2af9183d76beadf299a7dcf93873b6b8854e1d70cd2b19538",
+      "gzip_file": "boxscore-401860880.json.gz",
+      "raw_bytes": 555016
+    },
+    {
+      "event_id": "401870790",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870790",
+      "raw_sha256": "eb301d66f278e04ad1a2a98f60269605233e78e4aaf08ccc048463d19a494f26",
+      "gzip_file": "boxscore-401870790.json.gz",
+      "raw_bytes": 489577
+    },
+    {
+      "event_id": "401860886",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860886",
+      "raw_sha256": "a4338dbbafdeb641a7e0564beb51dd6eb71d0ebf2292e66ba317b7e6bd97f798",
+      "gzip_file": "boxscore-401860886.json.gz",
+      "raw_bytes": 518186
+    },
+    {
+      "event_id": "401856670",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856670",
+      "raw_sha256": "a876f9dbe8c3483ee4fb0fa4e8ff614c20aab53d82ebfcf91c82b4c9d337d508",
+      "gzip_file": "boxscore-401856670.json.gz",
+      "raw_bytes": 554392
+    },
+    {
+      "event_id": "401858469",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858469",
+      "raw_sha256": "a41ea4ad9f75cd6479769517ba24d00d34164cbf446dde404adf8753c0fd72a8",
+      "gzip_file": "boxscore-401858469.json.gz",
+      "raw_bytes": 482553
+    },
+    {
+      "event_id": "401856678",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856678",
+      "raw_sha256": "a86ba4fb3b362238c17a44fc4573ef3469504a9077eb945bcd4e1142a13f3b61",
+      "gzip_file": "boxscore-401856678.json.gz",
+      "raw_bytes": 565668
+    },
+    {
+      "event_id": "401862785",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862785",
+      "raw_sha256": "5324fa26aff75afe1a3e285dcd326cfbeb037dc5da5cf7166eb5dd2db81a4197",
+      "gzip_file": "boxscore-401862785.json.gz",
+      "raw_bytes": 450198
+    },
+    {
+      "event_id": "401856690",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856690",
+      "raw_sha256": "0daea6c665f646d98c929eebf78727e55b3cdd2d0c39198d5fd5934c68ab741a",
+      "gzip_file": "boxscore-401856690.json.gz",
+      "raw_bytes": 494079
+    },
+    {
+      "event_id": "401856783",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856783",
+      "raw_sha256": "ac6b45f00e2266c9b5306a880b7eedfb160eb0f26b95c99b25f1015f619fb558",
+      "gzip_file": "boxscore-401856783.json.gz",
+      "raw_bytes": 578564
+    },
+    {
+      "event_id": "401864508",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864508",
+      "raw_sha256": "d236f1ce2edc293a94a48852baf1fff3643f382df3718b9935e72c7cf760d7c9",
+      "gzip_file": "boxscore-401864508.json.gz",
+      "raw_bytes": 498663
+    },
+    {
+      "event_id": "401858456",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858456",
+      "raw_sha256": "2bc811ae0ba6453711e330d0e5545cec32f72dafff9f1a67ea08946e18960960",
+      "gzip_file": "boxscore-401858456.json.gz",
+      "raw_bytes": 621957
+    },
+    {
+      "event_id": "401866430",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866430",
+      "raw_sha256": "0b73d2f8e21a03728d6bf75b3e16fd282fb9e2fa39b101af49cb3bda96ca48f4",
+      "gzip_file": "boxscore-401866430.json.gz",
+      "raw_bytes": 552228
+    },
+    {
+      "event_id": "401856766",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856766",
+      "raw_sha256": "4b32f5aeeb4aa0f54307b23e1d9c65c996e07544a26e6c9c0eb1bd553ce4f427",
+      "gzip_file": "boxscore-401856766.json.gz",
+      "raw_bytes": 512264
+    },
+    {
+      "event_id": "401862784",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862784",
+      "raw_sha256": "0c89fdc6516c964212632511768be42d5e1d26eb418ac8e8e0aacca1353c7e97",
+      "gzip_file": "boxscore-401862784.json.gz",
+      "raw_bytes": 577942
+    },
+    {
+      "event_id": "401858225",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858225",
+      "raw_sha256": "47b40dd4bf2251dac72596abf999c79cc919a15126ee79e2aba64fea310f4375",
+      "gzip_file": "boxscore-401858225.json.gz",
+      "raw_bytes": 536675
+    },
+    {
+      "event_id": "401869949",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869949",
+      "raw_sha256": "8b99c799e5d0cbe853c557e616755069b54c74b37cfbad6b9d1bb6d270bf2cbf",
+      "gzip_file": "boxscore-401869949.json.gz",
+      "raw_bytes": 552216
+    },
+    {
+      "event_id": "401860890",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860890",
+      "raw_sha256": "6da2701b58c15af9b5fb4ffcc957bd56ba370f63aec4358e9aee40906c1efeb4",
+      "gzip_file": "boxscore-401860890.json.gz",
+      "raw_bytes": 466466
+    },
+    {
+      "event_id": "401858224",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858224",
+      "raw_sha256": "bec70ddc1be0d6527d409c630903f34afe6b604707263a56f8c8bbb5225fed09",
+      "gzip_file": "boxscore-401858224.json.gz",
+      "raw_bytes": 521833
+    },
+    {
+      "event_id": "401856768",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856768",
+      "raw_sha256": "af9d93d86403466bca6ee8d57e912274e1a62cbeb1da0839ff4a981ddf9ce334",
+      "gzip_file": "boxscore-401856768.json.gz",
+      "raw_bytes": 586065
+    },
+    {
+      "event_id": "401856775",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856775",
+      "raw_sha256": "668237f336c1f92a4411d3628636b1f725adfbf671c37fc709337b46ffda2edc",
+      "gzip_file": "boxscore-401856775.json.gz",
+      "raw_bytes": 552833
+    },
+    {
+      "event_id": "401856784",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856784",
+      "raw_sha256": "8d942f6865b496db867dc23fbe79b3bfef08334c82395cc7ff4e101842733c4d",
+      "gzip_file": "boxscore-401856784.json.gz",
+      "raw_bytes": 612956
+    },
+    {
+      "event_id": "401858468",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858468",
+      "raw_sha256": "973d7edbd6fefc570ff0b835b004bc8314b7ce43f7c2f260e0dec0aa996a6647",
+      "gzip_file": "boxscore-401858468.json.gz",
+      "raw_bytes": 547197
+    },
+    {
+      "event_id": "401858216",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858216",
+      "raw_sha256": "0116730289f83e52c14a252b96129236a30eba7981720f2fa47b540c0af1f9cf",
+      "gzip_file": "boxscore-401858216.json.gz",
+      "raw_bytes": 573094
+    },
+    {
+      "event_id": "401858427",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858427",
+      "raw_sha256": "a9c8d1a40f9681282cff3878cbc618c86e0741fd8ef33ccd5a1be3dc71cd0cf7",
+      "gzip_file": "boxscore-401858427.json.gz",
+      "raw_bytes": 532835
+    },
+    {
+      "event_id": "401856679",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856679",
+      "raw_sha256": "e710a2e76b1336f2362fc2e31bfca57af83bfff457844b9e195dfffb6dbd377c",
+      "gzip_file": "boxscore-401856679.json.gz",
+      "raw_bytes": 486792
+    },
+    {
+      "event_id": "401858480",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858480",
+      "raw_sha256": "bf3a3e6b8be656057f71eef440441795005c5ea344ffc45f2b714e0cf800124f",
+      "gzip_file": "boxscore-401858480.json.gz",
+      "raw_bytes": 479691
+    },
+    {
+      "event_id": "401856661",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856661",
+      "raw_sha256": "d73995712b8bf07422658726d0e72e825cbe29e5482f69ab08c9c1b1e7af65aa",
+      "gzip_file": "boxscore-401856661.json.gz",
+      "raw_bytes": 667271
+    },
+    {
+      "event_id": "401856819",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856819",
+      "raw_sha256": "7cc93d618518314fc4dca975e31d076bbeacc1a8ccf9b3594baa4cc9d02bd5a5",
+      "gzip_file": "boxscore-401856819.json.gz",
+      "raw_bytes": 547667
+    },
+    {
+      "event_id": "401871052",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871052",
+      "raw_sha256": "39d43dd9d6ffeaf05713b6966009ec553860210eb1596ffb82ae7681187a4846",
+      "gzip_file": "boxscore-401871052.json.gz",
+      "raw_bytes": 468797
+    },
+    {
+      "event_id": "401862699",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862699",
+      "raw_sha256": "c666659e6c9022ef6cabc817762ba71a8b62e94f023f8d411307fc1fc76be958",
+      "gzip_file": "boxscore-401862699.json.gz",
+      "raw_bytes": 512566
+    },
+    {
+      "event_id": "401856712",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856712",
+      "raw_sha256": "6a428fc5be52743543be9997c2708a4d4d74b6d8d54720fd36fed71102f85985",
+      "gzip_file": "boxscore-401856712.json.gz",
+      "raw_bytes": 534098
+    },
+    {
+      "event_id": "401862710",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862710",
+      "raw_sha256": "e923500c892b79ef008fb8007a3e1fdb9d0cf3add1e8952e37e4079fc440c3e4",
+      "gzip_file": "boxscore-401862710.json.gz",
+      "raw_bytes": 561574
+    },
+    {
+      "event_id": "401856786",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856786",
+      "raw_sha256": "9e77a939c89f9a5ae4ec37ef6be5a7e6f01320b1bb3b0fab9ab0084f938ee824",
+      "gzip_file": "boxscore-401856786.json.gz",
+      "raw_bytes": 550889
+    },
+    {
+      "event_id": "401856717",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856717",
+      "raw_sha256": "1fad0f2c7c9d6c923c56eeb796dd182e32de11f2d98d3bfafd8199af53c639f7",
+      "gzip_file": "boxscore-401856717.json.gz",
+      "raw_bytes": 596168
+    },
+    {
+      "event_id": "401869942",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869942",
+      "raw_sha256": "3a513aacbb532445b3c8726cf083d2ad2cba8b6d5058bb452b34feb94dc33c32",
+      "gzip_file": "boxscore-401869942.json.gz",
+      "raw_bytes": 545743
+    },
+    {
+      "event_id": "401860900",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860900",
+      "raw_sha256": "0a82a529416a391ceeb6919cb71b20cd979ba1797bee1854f0e2e371731ff255",
+      "gzip_file": "boxscore-401860900.json.gz",
+      "raw_bytes": 579480
+    },
+    {
+      "event_id": "401866457",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866457",
+      "raw_sha256": "f163a433bdce3bc189d1a0cde1e6d498cb83b04a7e4b0467b06e869b4fb479cd",
+      "gzip_file": "boxscore-401866457.json.gz",
+      "raw_bytes": 451843
+    },
+    {
+      "event_id": "401862705",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862705",
+      "raw_sha256": "b6afa74f11a698815ba139a2b143446546255c09161de48258d6f30092509e4c",
+      "gzip_file": "boxscore-401862705.json.gz",
+      "raw_bytes": 584682
+    },
+    {
+      "event_id": "401858256",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858256",
+      "raw_sha256": "77b0280f33e5003504fbc9868167410d32112ee22dcb3889ad2cd2746a3bfbd6",
+      "gzip_file": "boxscore-401858256.json.gz",
+      "raw_bytes": 536034
+    },
+    {
+      "event_id": "401862778",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862778",
+      "raw_sha256": "fe4900574698e5f0200f526c807479846a0744d0356be177a146c7e8ca1083c1",
+      "gzip_file": "boxscore-401862778.json.gz",
+      "raw_bytes": 500508
+    },
+    {
+      "event_id": "401856703",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856703",
+      "raw_sha256": "fb45102389a8efd44e511c363f6214feb1f6e7f6a6128e32d4070754f4d9228a",
+      "gzip_file": "boxscore-401856703.json.gz",
+      "raw_bytes": 582759
+    },
+    {
+      "event_id": "401860895",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860895",
+      "raw_sha256": "50cdf3205f2fc4689a85ad42278c4bd1a824997d93469567550c8408bcdbf248",
+      "gzip_file": "boxscore-401860895.json.gz",
+      "raw_bytes": 467280
+    },
+    {
+      "event_id": "401862799",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862799",
+      "raw_sha256": "88b8aa9468e63733df1f30dba6e559d7512300ec7c119f5abd34a7b31231c7e5",
+      "gzip_file": "boxscore-401862799.json.gz",
+      "raw_bytes": 499841
+    },
+    {
+      "event_id": "401856816",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856816",
+      "raw_sha256": "18fcf2fbde42bf0e8ff99d8aae5a596691b00e14b40a401ca617aa8d1f78c216",
+      "gzip_file": "boxscore-401856816.json.gz",
+      "raw_bytes": 513915
+    },
+    {
+      "event_id": "401858222",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858222",
+      "raw_sha256": "c1d642ce43e1124abf77d32ee3cb503952b44f6f9d397b280d803bf9c393edc3",
+      "gzip_file": "boxscore-401858222.json.gz",
+      "raw_bytes": 570164
+    },
+    {
+      "event_id": "401866440",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866440",
+      "raw_sha256": "9e6da03303e1e97bfb75fbba0bb1bf52d5dcae82bf2b2204ac5beae2690fc648",
+      "gzip_file": "boxscore-401866440.json.gz",
+      "raw_bytes": 524326
+    },
+    {
+      "event_id": "401864495",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864495",
+      "raw_sha256": "6497fb199ac421e84648359cce2367319a0cb7857968ac8e63cf515257c6c0ee",
+      "gzip_file": "boxscore-401864495.json.gz",
+      "raw_bytes": 624920
+    },
+    {
+      "event_id": "401856827",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856827",
+      "raw_sha256": "45d5bf9efd9d1b7fb1d7b7a95b051166928c8da2fd437c7cdca7acd4d37c3d3a",
+      "gzip_file": "boxscore-401856827.json.gz",
+      "raw_bytes": 556881
+    },
+    {
+      "event_id": "401856704",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856704",
+      "raw_sha256": "ad345ea8c08197f10ba6df699cd948d3a222fb3f75a4f692cdbc69677d681aa4",
+      "gzip_file": "boxscore-401856704.json.gz",
+      "raw_bytes": 575673
+    },
+    {
+      "event_id": "401858434",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858434",
+      "raw_sha256": "01fa584fcaf07374963fb491791f0d748401e7879270eb2b8537deba37f52e82",
+      "gzip_file": "boxscore-401858434.json.gz",
+      "raw_bytes": 496959
+    },
+    {
+      "event_id": "401867866",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401867866",
+      "raw_sha256": "1193fb9f809e9d68f058b48d4b64fc4c60771df733ee45b7069a15407d3f6105",
+      "gzip_file": "boxscore-401867866.json.gz",
+      "raw_bytes": 414144
+    },
+    {
+      "event_id": "401858213",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858213",
+      "raw_sha256": "e737bd71e606c8adaca681dca0bd1c4cefefd949060c47ebf89f9aed042c4b06",
+      "gzip_file": "boxscore-401858213.json.gz",
+      "raw_bytes": 583338
+    },
+    {
+      "event_id": "401870764",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870764",
+      "raw_sha256": "401370f084f13b3ce975112f5e64cea9e432e01f04b02756b7b041e6e73083f8",
+      "gzip_file": "boxscore-401870764.json.gz",
+      "raw_bytes": 580597
+    },
+    {
+      "event_id": "401856688",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856688",
+      "raw_sha256": "a1a855811613b5fbf9693afd9fcb2e89fa65eb05aab2c82fd08b8ed9eca3e0e4",
+      "gzip_file": "boxscore-401856688.json.gz",
+      "raw_bytes": 570171
+    }
+  ]
+}

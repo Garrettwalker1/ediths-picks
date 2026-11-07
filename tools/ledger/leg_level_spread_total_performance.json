@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-06T04:45:05.771904+00:00",
+ "generated_at": "2026-11-07T20:41:49.247462+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 41,
-  "wins": 26,
-  "losses": 15,
+  "graded": 43,
+  "wins": 27,
+  "losses": 16,
   "ungraded": 17
  },
  "by_sport": {
   "CFB": {
-   "graded": 21,
-   "wins": 15,
-   "losses": 6,
+   "graded": 23,
+   "wins": 16,
+   "losses": 7,
    "ungraded": 14
   },
   "NFL": {
@@ -672,6 +672,28 @@
    "ticket_date": "2026-11-05",
    "ticket_result": "loss",
    "hit": true
+  },
+  {
+   "event": "BYU @ Utah",
+   "market": "spread",
+   "selection": "Utah Utes",
+   "line": -4.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Utah -4.5 + UConn +7.5 + Ole Miss ML + Oklahoma ML",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "North Carolina @ UConn",
+   "market": "spread",
+   "selection": "UConn Huskies",
+   "line": 7.5,
+   "sport": "CFB",
+   "ticket": "4-leg parlay: Utah -4.5 + UConn +7.5 + Ole Miss ML + Oklahoma ML",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "loss",
+   "hit": false
   }
  ]
 }

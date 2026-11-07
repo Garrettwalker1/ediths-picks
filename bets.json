@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-07T15:47:20.184742+00:00",
+  "updated_at": "2026-11-07T20:41:45.743348+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -11899,7 +11899,8 @@
       "notes": "30% profit boost +606 to +787. Actual LSU -6.5 is half-point worse than suggested -6; Tennessee -5.5 is half-point better than suggested -6; ASU -3.5 unchanged. Raw model agreement does not prove a betting edge.",
       "source_message_id": "phonemsg-01M6VB05NMSAYHHE9GT4SDE756",
       "receipt_filename": "image-d2a7a582.jpg",
-      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price."
+      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price.",
+      "leg_note": "LSU Tigers: pending; Tennessee Volunteers: pending; Arizona State Sun Devils: pending"
     },
     {
       "bet_id": "receipt-20261107-fourleg-id-obscured",
@@ -11907,8 +11908,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": null,
+      "status": "settled",
+      "result": "loss",
       "stake_usd": 10,
       "stake_units": 1.0,
       "date": "2026-11-07",
@@ -11930,8 +11931,8 @@
       "potential_profit_usd": 230.57,
       "implied_probability": 0.04158004158004158,
       "payout_implied_probability": 0.04156794280251071,
-      "net_usd": null,
-      "net_units": null,
+      "net_usd": -10,
+      "net_units": -1.0,
       "profit_boost_percent": null,
       "unboosted_price": null,
       "cashout_offer_usd": 10,
@@ -11945,12 +11946,17 @@
           "team": "UTAH",
           "line": -4.5,
           "price": -106,
-          "hit": null,
-          "result": null,
+          "hit": true,
+          "result": "win",
           "kickoff": "2026-11-07T17:00Z",
           "model_margin_home_research": 10.063397019590342,
           "model_note": "Nov7 unchanged-spec research rerun, not deployed production. No numerical injury/QB adjustment; no calibrated win/ATS probability.",
-          "model_selected_team_margin": 10.063397019590342
+          "model_selected_team_margin": 10.063397019590342,
+          "graded_at": "2026-11-07T20:41:45.743348+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856849",
+          "final_score": "Home 28, away 20",
+          "actual_home_margin": 8,
+          "stat_note": "Utah28-BYU20;Utah-4.5covers."
         },
         {
           "event": "North Carolina @ UConn",
@@ -11960,12 +11966,17 @@
           "team": "CONN",
           "line": 7.5,
           "price": -105,
-          "hit": null,
-          "result": null,
+          "hit": false,
+          "result": "loss",
           "kickoff": "2026-11-07T17:00Z",
           "model_margin_home_research": 2.6439584479360105,
           "model_note": "Nov7 unchanged-spec research rerun, not deployed production. No numerical injury/QB adjustment; no calibrated win/ATS probability.",
-          "model_selected_team_margin": 2.6439584479360105
+          "model_selected_team_margin": 2.6439584479360105,
+          "graded_at": "2026-11-07T20:41:45.743348+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858292",
+          "final_score": "Home 21, away 38",
+          "actual_home_margin": -17,
+          "stat_note": "UNC38-UConn21;UConn+7.5doesnotcover."
         },
         {
           "event": "Georgia @ Ole Miss",
@@ -12002,7 +12013,12 @@
       "source_message_id": "phonemsg-01M6VB05NMSAYHHE9GT4SDE756",
       "receipt_filename": "image-f45aed16.png",
       "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price.",
-      "receipt_id_note": "Book bet ID and placed-at footer not visible, obscured by bottom navigation. Internal source-keyed record ID is not a fabricated book ID."
+      "receipt_id_note": "Book bet ID and placed-at footer not visible, obscured by bottom navigation. Internal source-keyed record ID is not a fabricated book ID.",
+      "leg_note": "Utah Utes: win; UConn Huskies: loss; Ole Miss Rebels: pending; Oklahoma Sooners: pending",
+      "payout_usd": 0,
+      "settled_at": "2026-11-07T20:41:45.743348+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858292",
+      "settlement_note": "Stat-graded required-leg loss: UNC38-UConn21, UConn+7.5loses. Later remaining leg results still to be recorded. Latest live owner phone history checked before grade, no cashout/correction. Receipt cashout buttons were offers only."
     },
     {
       "bet_id": "us-tn:01m6vax4ffe6ytvg48mvg4hbhw",
@@ -12047,12 +12063,17 @@
           "team": "UTAH",
           "line": -4.5,
           "price": 108,
-          "hit": null,
-          "result": null,
+          "hit": true,
+          "result": "win",
           "kickoff": "2026-11-07T17:00Z",
           "model_margin_home_research": 10.063397019590342,
           "model_note": "Nov7 unchanged-spec research rerun, not deployed production. No numerical injury/QB adjustment; no calibrated win/ATS probability.",
-          "model_selected_team_margin": 10.063397019590342
+          "model_selected_team_margin": 10.063397019590342,
+          "graded_at": "2026-11-07T20:41:45.743348+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856849",
+          "final_score": "Home 28, away 20",
+          "actual_home_margin": 8,
+          "stat_note": "Utah28-BYU20;Utah-4.5covers."
         },
         {
           "event": "Georgia @ Ole Miss",
@@ -12088,7 +12109,8 @@
       "notes": "25% profit boost +1132 to +1415. ALL three legs also appear in the four-leg receipt, so one loss kills both tickets. Prices differ from the four-leg; kept exactly as shown.",
       "source_message_id": "phonemsg-01M6VB05NMSAYHHE9GT4SDE756",
       "receipt_filename": "image-01e5cc15.png",
-      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price."
+      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price.",
+      "leg_note": "Utah Utes: win; Ole Miss Rebels: pending; Oklahoma Sooners: pending"
     },
     {
       "bet_id": "us-tn:01m6vayjskfxct83f0w189cfsm",
@@ -12142,7 +12164,8 @@
       "notes": "50% profit boost -122 to +123 as displayed. Same game as separate $20 Miami ML ticket; $30 total Miami-game stake. Model favors Notre Dame by less than one point; Miami spread has model agreement, Miami outright does not.",
       "source_message_id": "phonemsg-01M6VB05NMSAYHHE9GT4SDE756",
       "receipt_filename": "image-22750d34.jpg",
-      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price."
+      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price.",
+      "leg_note": "Miami Hurricanes: pending"
     },
     {
       "bet_id": "us-tn:01m6p5sbsqedf9h2y28ad4fz5g",
@@ -12196,7 +12219,8 @@
       "notes": "Placed Nov5, first received/logged Nov7; exact bet ID absent from live ledger before insertion. Same-game $30 exposure with $10 Miami +7.5. Model slightly favors Notre Dame; Miami ML is not a model-picked outright winner.",
       "source_message_id": "phonemsg-01M6VB05NMSAYHHE9GT4SDE756",
       "receipt_filename": "image-97fae7c8.jpg",
-      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price."
+      "source": "Owner iMessage Nov7 9:45am CT; actual receipt pixels inspected. Exact displayed total payout overrides rounded displayed American price.",
+      "leg_note": "Miami Hurricanes: pending"
     }
   ]
 }

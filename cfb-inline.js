@@ -149,19 +149,25 @@ async function loadCfbWeek10(){
   const line=(g,x)=>Math.abs(x)<0.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
   const wxWatch=w=>w&&!w.venue.indoor&&(Math.abs(w.weather_delta_home_raw)>=1||w.window.rain_inches>=0.1||w.window.wind_max_mph>=15);
   host.textContent='';const note=document.createElement('p');note.className='muted';const p=d.protocol;
-  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 9 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. Week 10 injury/QB adjustments and model totals remain null. Separate WX UNPROVEN overlay uses current city forecasts and a failed-validation candidate; sealed baseline unchanged, not a bet signal.';host.appendChild(note);
+  note.textContent='Sealed '+new Date(p.sealed_at).toLocaleString()+'. '+d.games.length+' FBS-vs-FBS games, '+p.coverage.scheduled+' scheduled. Reference: no-AP, refit on all finals through Week 9 (specification unchanged). Margins rounded to half points; unrounded values in each card. Book lines are the pregame reference frozen at seal time (ESPN scoreboard odds) - comparison only, not picks, no bet signal. Week 10 injury/QB adjustments and model totals remain null. Separate WX UNPROVEN overlay uses current city forecasts and a failed-validation candidate; sealed baseline unchanged, not a bet signal.';const methodology=document.createElement('details');methodology.className='cfb-method';const noteSummary=document.createElement('summary');noteSummary.textContent='Sealed board provenance and comparison rules';methodology.append(noteSummary,note);host.appendChild(methodology);
   const bar=document.createElement('div');bar.className='cfb-filter';
-  const bAll=document.createElement('button');bAll.textContent='All games';bAll.className='active';
+  const bAll=document.createElement('button');bAll.textContent='All games';bAll.className='active';const search=document.createElement('input');search.type='search';search.placeholder='Find a team';search.setAttribute('aria-label','Find a team');search.className='cfb-search';
   const bWx=document.createElement('button');bWx.textContent='Weather watch';
-  bar.append(bAll,bWx);host.appendChild(bar);
+  bar.append(bAll,bWx);host.appendChild(search);host.appendChild(bar);
   const listWrap=document.createElement('div');host.appendChild(listWrap);
-  const cards=[];
+  const cards=[];let mode='all';
   let day='';d.games.forEach(g=>{
    const dt=new Date(g.date),k=dt.toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric',timeZone:'America/Chicago'});
    if(k!==day){day=k;const h=document.createElement('h3');h.textContent=k;h.dataset.dayhead='1';listWrap.appendChild(h);cards.push(h);}
    const m=g.predicted_margin_home,det=document.createElement('details');det.className='game';const w=wxmap[g.event_id];
    det.dataset.wxwatch=String(!!wxWatch(w));
-   const s=document.createElement('summary');s.textContent=g.away+' at '+g.home+' - Model '+line(g,m['2026_no_ap'])+(g.book&&g.book.home_line!=null?' · Book '+line(g,-g.book.home_line):'')+' ('+dt.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT)';det.appendChild(s);
+   const s=document.createElement('summary');det.dataset.search=(g.away+' '+g.home).toLowerCase();
+   const when=document.createElement('span');when.className='cfb-kick';when.textContent=dt.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT';
+   const matchup=document.createElement('span');matchup.className='cfb-matchup';matchup.textContent=g.away+' at '+g.home;
+   const values=document.createElement('span');values.className='cfb-values';
+   const model=document.createElement('span');model.className='cfb-model-value';const modelLabel=document.createElement('small');modelLabel.textContent='SEALED MODEL';const modelText=document.createElement('b');modelText.textContent=line(g,m['2026_no_ap']);model.append(modelLabel,modelText);
+   const book=document.createElement('span');const bookLabel=document.createElement('small');bookLabel.textContent='DATED BOOK';const bookText=document.createElement('b');bookText.textContent=g.book&&g.book.home_line!=null?line(g,-g.book.home_line):'Unavailable';book.append(bookLabel,bookText);values.append(model,book);
+   const more=document.createElement('span');more.className='cfb-open-hint';more.textContent='Details +';s.append(when,matchup,values,more);det.appendChild(s);
    const t=document.createElement('p');t.className='muted';t.textContent='Reference no-AP home margin '+m['2026_no_ap'].toFixed(3)+'. AP research '+m['2026_ap'].toFixed(3)+'. Historical-only fits: no-AP '+m.historical_no_ap.toFixed(3)+', AP '+m.historical_ap.toFixed(3)+'. Positive favors home'+(g.neutral_site?' (neutral site)':'')+'.';det.appendChild(t);
    if(g.book){const b=document.createElement('p');b.className='muted';b.textContent='Book reference frozen '+new Date(g.book.captured_at).toLocaleString()+': '+(g.book.home_line!=null?line(g,-g.book.home_line):'no spread')+(g.book.over_under!=null?', total '+g.book.over_under:'')+' ('+(g.book.provider||'provider unknown')+' via ESPN pregame). Comparison only - the book number is not a model input and not a recommendation.';det.appendChild(b);}
    if(w){
@@ -170,7 +176,8 @@ async function loadCfbWeek10(){
     det.appendChild(wxp);
    }
    listWrap.appendChild(det);cards.push(det);});
-  function applyFilter(mode){let lastHead=null;cards.forEach(el=>{if(el.dataset.dayhead){lastHead=el;el.hidden=false;return;}const show=mode==='all'||el.dataset.wxwatch==='true';el.hidden=!show;if(show&&lastHead)lastHead._has=true;});let head=null,any=false;cards.forEach(el=>{if(el.dataset.dayhead){if(head)head.hidden=!any;head=el;any=false;}else if(!el.hidden)any=true;});if(head)head.hidden=!any;}
+  function applyFilter(next){mode=next;let lastHead=null;cards.forEach(el=>{if(el.dataset.dayhead){lastHead=el;el.hidden=false;return;}const show=(mode==='all'||el.dataset.wxwatch==='true')&&(!search.value.trim()||el.dataset.search.includes(search.value.trim().toLowerCase()));el.hidden=!show;if(show&&lastHead)lastHead._has=true;});let head=null,any=false;cards.forEach(el=>{if(el.dataset.dayhead){if(head)head.hidden=!any;head=el;any=false;}else if(!el.hidden)any=true;});if(head)head.hidden=!any;}
+  search.oninput=()=>applyFilter(mode);
   bAll.onclick=()=>{bAll.classList.add('active');bWx.classList.remove('active');applyFilter('all');};
   bWx.onclick=()=>{bWx.classList.add('active');bAll.classList.remove('active');applyFilter('wx');};
   const a=document.createElement('a');a.href=base+'week10_sealed_research.json';a.textContent='Sealed Week 10 file';a.target='_blank';a.rel='noopener noreferrer';host.appendChild(a);

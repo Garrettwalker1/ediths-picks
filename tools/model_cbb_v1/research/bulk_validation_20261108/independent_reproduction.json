@@ -1,0 +1,66 @@
+{
+ "features": [
+  "off_eff",
+  "def_eff",
+  "efg",
+  "tov_pct",
+  "or_pct",
+  "ftr",
+  "pace",
+  "home_ind"
+ ],
+ "coef": [
+  1.6559,
+  0.5421,
+  -0.4486,
+  -8.5296,
+  -8.8314,
+  -0.0517,
+  8.0668,
+  -0.2684,
+  3.6372
+ ],
+ "train_n": 11966,
+ "eval_start": "2024-11-01",
+ "eval_end": "2025-05-01",
+ "dropped_duplicate_event_sides": 0,
+ "protected_rows_excluded": 0,
+ "sigma_frozen_from_train": 13.324,
+ "test": {
+  "n": 6285,
+  "mae": 10.601,
+  "rmse": 13.997,
+  "home_win_acc": 0.7173,
+  "brier": 0.1819,
+  "baseline_zero": {
+   "n": 6285,
+   "mae": 14.503,
+   "rmse": 19.538,
+   "home_win_acc": 0.329,
+   "brier": 0.25
+  },
+  "baseline_home_mean": {
+   "n": 6285,
+   "mae": 13.307,
+   "rmse": 17.786,
+   "home_win_acc": 0.671,
+   "brier": 0.2213
+  },
+  "segments": {
+   "regular": {
+    "n": 6162,
+    "mae": 10.606,
+    "rmse": 14.017,
+    "home_win_acc": 0.7191,
+    "brier": 0.1811
+   },
+   "postseason": {
+    "n": 123,
+    "mae": 10.346,
+    "rmse": 12.915,
+    "home_win_acc": 0.626,
+    "brier": 0.2197
+   }
+  }
+ }
+}

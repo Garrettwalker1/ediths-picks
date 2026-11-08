@@ -1,0 +1,54 @@
+{
+  "name": "cbb_v1_split_v1",
+  "created": "2026-11-08",
+  "rule": "Features for a game use only games with strictly earlier calendar dates (same-date atomic). Sigma and coefficients fit on the fit window only. Nothing here authorizes inspecting the protected window.",
+  "fit_window": {
+    "seasons": [
+      2023,
+      2024
+    ],
+    "season_types": [
+      2,
+      3
+    ],
+    "note": "2022-23 and 2023-24 complete seasons including postseason"
+  },
+  "validation_window": {
+    "seasons": [
+      2025
+    ],
+    "season_types": [
+      2,
+      3
+    ],
+    "note": "2024-25 season + 2025 postseason. Input/feature selection happens ONLY against this window. It is never described as a final independent test."
+  },
+  "protected_final_test": {
+    "seasons": [
+      2026
+    ],
+    "season_types": [
+      3
+    ],
+    "note": "2026 postseason including the NCAA tournament. FINAL TEST. Must never be loaded for fitting, selection, or evaluation until the one-time final run. The code hard-gates these rows out unless --unlock-final-test is passed; that flag is reserved for the single final evaluation."
+  },
+  "current_season_prospective": {
+    "seasons": [
+      2027
+    ],
+    "season_types": [
+      2,
+      3
+    ],
+    "note": "2026-27 in-season results accumulate via the daily durable collector; reported separately as prospective."
+  },
+  "retrospective_holdout": {
+    "seasons": [
+      2026
+    ],
+    "season_types": [
+      2
+    ],
+    "note": "2025-26 regular season. RETROSPECTIVE held-out test at best (outcomes already exist; not a genuine future frozen forecast). Not used for feature selection; scored only after model choices are fixed and audits complete."
+  }
+}

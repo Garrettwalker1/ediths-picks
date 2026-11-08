@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-07T20:41:49.247462+00:00",
+ "generated_at": "2026-11-08T05:54:58.819960+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 43,
-  "wins": 27,
-  "losses": 16,
+  "graded": 47,
+  "wins": 30,
+  "losses": 17,
   "ungraded": 17
  },
  "by_sport": {
   "CFB": {
-   "graded": 23,
-   "wins": 16,
-   "losses": 7,
+   "graded": 27,
+   "wins": 19,
+   "losses": 8,
    "ungraded": 14
   },
   "NFL": {
@@ -674,6 +674,39 @@
    "hit": true
   },
   {
+   "event": "Alabama @ LSU",
+   "market": "spread",
+   "selection": "LSU Tigers",
+   "line": -6.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: LSU -6.5 + Tennessee -5.5 + Arizona State -3.5",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Kentucky @ Tennessee",
+   "market": "spread",
+   "selection": "Tennessee Volunteers",
+   "line": -5.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: LSU -6.5 + Tennessee -5.5 + Arizona State -3.5",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Colorado @ Arizona State",
+   "market": "spread",
+   "selection": "Arizona State Sun Devils",
+   "line": -3.5,
+   "sport": "CFB",
+   "ticket": "3-leg parlay: LSU -6.5 + Tennessee -5.5 + Arizona State -3.5",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
    "event": "BYU @ Utah",
    "market": "spread",
    "selection": "Utah Utes",
@@ -694,6 +727,17 @@
    "ticket_date": "2026-11-07",
    "ticket_result": "loss",
    "hit": false
+  },
+  {
+   "event": "Miami Florida @ Notre Dame",
+   "market": "spread",
+   "selection": "Miami Hurricanes",
+   "line": 7.5,
+   "sport": "CFB",
+   "ticket": "Straight: Miami Florida +7.5",
+   "ticket_date": "2026-11-07",
+   "ticket_result": "win",
+   "hit": true
   }
  ]
 }

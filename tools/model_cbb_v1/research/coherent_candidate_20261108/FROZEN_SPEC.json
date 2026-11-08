@@ -1,0 +1,54 @@
+{
+  "name": "cbb_v1_frozen_spec_v1",
+  "created": "2026-11-08",
+  "status": "CANDIDATE - binding only after publisher commits and adversarial checks pass",
+  "features": [
+    "off_eff",
+    "def_eff",
+    "efg",
+    "tov_pct",
+    "or_pct",
+    "ftr",
+    "pace",
+    "home_ind"
+  ],
+  "feature_formulas": {
+    "poss": "FGA - OReb + TO + 0.475*FTA (box-score approximation)",
+    "off_eff": "100 * score / avg_poss",
+    "def_eff": "100 * opp_score / avg_poss",
+    "efg": "(FGM + 0.5*3PM)/FGA",
+    "tov_pct": "TO/poss",
+    "or_pct": "OReb/(OReb + opp DReb)",
+    "ftr": "FTA/FGA",
+    "features": "home team rolling value minus away team rolling value; home_ind 0 at neutral site else 1"
+  },
+  "hyperparams": {
+    "PRIOR_GAMES_EQ": 8.0,
+    "ridge_lambda": 10.0,
+    "platt_iters": 200,
+    "platt_lr": 0.05
+  },
+  "point_in_time_rules": [
+    "same-date atomic: a game never consumes a same-day result",
+    "priors: immediately preceding completed season only, keyed by stable teamId",
+    "coefficients, scaler, sigma, Platt a/b: fit-window rows only"
+  ],
+  "d1_rule": "season-specific: team carries non-null non-zero conference_id in that season's schedule (ESPN conference 43 = independents, correctly D1); --d1-only excludes games involving any non-D1 team",
+  "availability_rule": "strictly-earlier-calendar-date only; bulk assets are retro snapshots, not contemporaneous; retro corrections upstream are an acknowledged open provenance caveat",
+  "protected_set": {
+    "seasons": [
+      2026
+    ],
+    "season_types": [
+      3
+    ],
+    "enforcement": "files undeclared in manifest rejected unread; protected rows abort the run; --unlock-final-test always refuses in this trainer"
+  },
+  "file_hashes_sha256": {
+    "train_model.py": "5d16c4d6955a4be0d023153f5e85bf4909b5e646aeeedba5a5467ca22b108a0d",
+    "bulk_adapter.py": "e68e1f7a9a04afc1e60e7e606f0a38d4046fa4490ec3102204fbfd36a9fb13d8",
+    "SPLIT_MANIFEST.json": "4540ab1f5077fefe7e8d741133bb9f9028f95a16e7e08480b8f0e241bc15f938",
+    "test_model.py": "0d224bf1b110c3a3a1453fed7015529f94d47c7707e46792662ba7f52ac34840",
+    "test_enforcement.py": "40f858594766990c3ada07f5a0efda04dd2877e455b759fc79ca44428171af33"
+  }
+}

@@ -1,0 +1,23 @@
+# Coherent candidate review - November 8, 2026
+
+Experimental recovery only. No metric rerun, 2026 historical holdout or final-test evaluation. Script comments describing a review contract are author claims, not approval; actual checks below govern this report. Six supplied artifacts/dependencies preserved without silently correcting model code.
+
+## Verified
+
+- All14 supplied synthetic tests pass independently (8 enforcement/Platt,6 prior/side/sigma/scaler/date regressions). Tests establish their limited synthetic cases, not end-to-end data validity.
+- Actual SHA256 matches supplied FROZEN_SPEC for train_model.py,bulk_adapter.py,SPLIT_MANIFEST.json. It references test_model.py/test_enforcement.py, neither supplied individually. Combined tests are supplied instead, so original frozen spec is incomplete. No self-hash cycle is present. FROZEN_SPEC itself is not read/enforced by trainer.
+- Exact undeclared paths rejected before opening that data path; matching data hash required before CSV parse. Manifest mandatory in CLI. Protected row abort and unlock refusal work in supplied tests. Scaler,sigma,Platt fit use fit vectors only, not evaluation labels. This is improved leakage control, not calibrated performance proof.
+- Adapted2025 independently:12570rows,one not-completed omission,CSV hash exactly matches supplied input manifest.5759games tagged D1 by heuristic. No training run performed.2023/24 adapter CSV hashes not regenerated in this review.
+- Schedule-conference heuristic yields363/362/364teams for ending2023/2024/2025. These counts alone do not prove correct season membership. The four explicitly flagged non-D1 away teams in2025 have null conferences, consistent with exclusion, not exhaustive proof.
+
+## Remaining blockers and misleading claims
+
+1. Conference non-null/nonzero is an unverified source heuristic, not an independently grounded season-specific D1 list. Validate IDs against official season membership, including transition/independents and conference recoding. `--d1-only` is optional. Adapter docstring and FROZEN_SPEC disagree about independent handling. No D1-only validation claim yet.
+2. Files declared in a protected partition are NOT rejected before opening: admit_files checks path/hash and partition existence, never validates partition overlap with protected. Synthetic protected partition admitted. Hash validation necessarily reads declared bytes. Rows then abort only after parsing date/type. Thus 'protected files/rows never opened or parsed' remains false. Undeclared paths are protected; manifest integrity/spec lock still must be enforced independently.
+3. FROZEN_SPEC incomplete test hashes, not consumed; only a candidate, not final frozen evidence. Need coherent file set, reproducible adapter hashes for all inputs, immutable spec+manifest references, schema validation and protected partition rejection. Do not let merely committing this candidate turn status into approved/binding.
+4. Row partition name is not retained in stream; train/eval membership is by season union only. Current disjoint season partitions avoid overlap, but same-season date/type partitions would be misassigned. Validate manifest disjointness and retain exact row partition.
+5. Date check still length and year/month slicing, not real date parsing. Same-date atomicity blocks same-day result leakage but scheduled game_date still lacks verified result-availability/exception-game proof. Retro corrections and postponed/cross-midnight games remain open. No claim of independent as-of audit.
+6. Adapter improves duplicate-side/unique-team/core checks but does not verify source status state=post, schedule duplicate IDs, exact side-ID/score joins to schedule or null neutral flags itself. Its omission list only iterates team-box groups, omits schedule games with no box silently, and truncates omission details at200. 'Every omitted game audited' is false without full schedule reconciliation. A zero FGA can divide by zero; derived NaN checks and invalid dates need fail-closed tests. Actual earlier season audits do not establish generic code protection.
+7. Fit-only Platt is not out-of-sample calibration proof. Fit-residual scaling/calibration can overfit; assess validation reliability/uncertainty and stronger baselines only after membership/as-of gates. Do not inherit earlier unscaled/unfiltered metrics for this changed model. No real-game metrics rerun here.
+
+Conclusion: meaningful guard improvements and passing tests; candidate still not cleared for holdout scoring, user-facing validation claims or production forecasts. Preserve it while researcher closes a coherent milestone, not a rapid patch/claim loop.

@@ -1,0 +1,77 @@
+{
+  "name": "cbb_v1_split_v2",
+  "created": "2026-11-08",
+  "rule": "Features for a game use only games with strictly earlier calendar dates (same-date atomic). Coefficients, scaler, sigma and any calibration fit on the fit window only. Eval windows come from this manifest ONLY - the runner accepts no CLI window overrides. Any input not declared here by exact path + sha256 is rejected before parsing.",
+  "partitions": {
+    "fit": {
+      "seasons": [
+        2023,
+        2024
+      ],
+      "season_types": [
+        2,
+        3
+      ],
+      "date_range": [
+        "2022-11-01",
+        "2024-05-01"
+      ]
+    },
+    "validation": {
+      "seasons": [
+        2025
+      ],
+      "season_types": [
+        2,
+        3
+      ],
+      "date_range": [
+        "2024-11-01",
+        "2025-05-01"
+      ]
+    },
+    "retrospective_holdout": {
+      "seasons": [
+        2026
+      ],
+      "season_types": [
+        2
+      ],
+      "date_range": [
+        "2025-11-01",
+        "2026-03-14"
+      ]
+    }
+  },
+  "eval": {
+    "fit_partitions": [
+      "fit"
+    ],
+    "eval_partitions": [
+      "validation"
+    ]
+  },
+  "protected": {
+    "seasons": [
+      2026
+    ],
+    "season_types": [
+      3
+    ],
+    "rule": "2026 postseason (NCAA tournament). FINAL TEST. Files/rows in this set are never opened, parsed or evaluated by the trainer. One-time final run requires a separate reviewed runner."
+  },
+  "inputs": {
+    "data/bulk_tg_2023.csv": {
+      "partition": "fit",
+      "sha256": "ede79f03e437981073a0df483578386b944c83f70276441f36c169c3a983a32a"
+    },
+    "data/bulk_tg_2024.csv": {
+      "partition": "fit",
+      "sha256": "67f3969bfb56192d0540898258e9bd39889a1b2f25dc6fcfbdad37cd11c75e44"
+    },
+    "data/bulk_tg_2025.csv": {
+      "partition": "validation",
+      "sha256": "fe8e68cd0de9dd0794e1be4f7327f1f49633fc587a3eeb4f04d1021d6c3f3fe3"
+    }
+  }
+}

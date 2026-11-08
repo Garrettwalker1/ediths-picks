@@ -40,3 +40,7 @@ python3 tools/model_cbb_v1/collect_espn.py backfill --start 2024-11-01 --end 202
 Use only information available before each game's tip as model features. These retrospective postgame fetches do not authenticate historical pregame ranks, rosters or talent ratings. Season-final values cannot become earlier-season features. Injuries have no numerical effect until separately tested; missing status is not health clearance.
 
 Feature selection and calibration belong on validation data only. The 2026 NCAA tournament is reserved as the final test, not a feature-selection window. The 2026-27 season is a separate prospective track. Held-out loss, calibration and simple-baseline comparisons remain to be established. Market comparison requires an honestly labeled captured baseline, not an assumed close. Public recruiting, roster, advanced-stat and matchup inputs are research candidates, not implemented or validated features.
+
+## Bulk history route (November8)
+
+Use [BULK_HISTORY.md](BULK_HISTORY.md) for ending seasons2023-2026, source hashes and gap audit. Bulk assets supersede the slow daily historical backfill for these seasons; retain its partial records as provenance. Current-season daily collection and pregame odds captures remain separate. Experimental preserved code in research/experimental_20261108 has known leakage/side-mapping defects; read REVIEW.md before any use. No predictive validation or forecasts are supplied.

@@ -1,0 +1,108 @@
+{
+  "at": "2026-11-08T14:10:35.670732+00:00",
+  "warning": "ESPN-derived feed, not verified exhaustive D1-v-D1. Season-specific membership and historical as-of provenance remain open. No predictive evaluation.",
+  "seasons": {
+    "2023": {
+      "schedule_rows": 6261,
+      "duplicate_schedule_game_ids": 0,
+      "completed_unique_games": 6228,
+      "first_date": "2022-11-07",
+      "last_date": "2023-04-03",
+      "team_rows": 12440,
+      "player_rows": 196589,
+      "duplicate_team_game_rows": 0,
+      "games_two_team_rows": 6220,
+      "games_two_player_teams": 6221,
+      "games_core_team_stats_and_player_groups": 6220,
+      "missing_or_incomplete_team_ids": [
+        "401481134",
+        "401481140",
+        "401481143",
+        "401481159",
+        "401481165",
+        "401492245",
+        "401527877",
+        "401532177"
+      ],
+      "missing_two_player_group_ids": [
+        "401481134",
+        "401481140",
+        "401481143",
+        "401481159",
+        "401481165",
+        "401527877",
+        "401532177"
+      ],
+      "score_mismatch_game_ids": []
+    },
+    "2024": {
+      "schedule_rows": 6249,
+      "duplicate_schedule_game_ids": 0,
+      "completed_unique_games": 6243,
+      "first_date": "2023-11-06",
+      "last_date": "2024-04-08",
+      "team_rows": 12480,
+      "player_rows": 198586,
+      "duplicate_team_game_rows": 0,
+      "games_two_team_rows": 6240,
+      "games_two_player_teams": 6241,
+      "games_core_team_stats_and_player_groups": 6239,
+      "missing_or_incomplete_team_ids": [
+        "401587235",
+        "401594319",
+        "401603093"
+      ],
+      "missing_two_player_group_ids": [
+        "401594319",
+        "401598912"
+      ],
+      "score_mismatch_game_ids": []
+    },
+    "2025": {
+      "schedule_rows": 6299,
+      "duplicate_schedule_game_ids": 0,
+      "completed_unique_games": 6292,
+      "first_date": "2024-11-04",
+      "last_date": "2025-04-07",
+      "team_rows": 12572,
+      "player_rows": 207613,
+      "duplicate_team_game_rows": 0,
+      "games_two_team_rows": 6285,
+      "games_two_player_teams": 6289,
+      "games_core_team_stats_and_player_groups": 6283,
+      "missing_or_incomplete_team_ids": [
+        "401706980",
+        "401711714",
+        "401714520",
+        "401720999",
+        "401722003",
+        "401725735",
+        "401729957"
+      ],
+      "missing_two_player_group_ids": [
+        "401721722",
+        "401724704",
+        "401729957"
+      ],
+      "score_mismatch_game_ids": []
+    },
+    "2026": {
+      "schedule_rows": 6318,
+      "duplicate_schedule_game_ids": 0,
+      "completed_unique_games": 6300,
+      "first_date": "2025-11-03",
+      "last_date": "2026-04-06",
+      "team_rows": 12598,
+      "player_rows": 196876,
+      "duplicate_team_game_rows": 0,
+      "games_two_team_rows": 6299,
+      "games_two_player_teams": 6300,
+      "games_core_team_stats_and_player_groups": 6299,
+      "missing_or_incomplete_team_ids": [
+        "401823003"
+      ],
+      "missing_two_player_group_ids": [],
+      "score_mismatch_game_ids": []
+    }
+  }
+}

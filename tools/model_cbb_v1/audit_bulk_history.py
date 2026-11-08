@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+"""Coverage only. Never fits/evaluates a model or uses season-final ranks as features."""
+import pandas as pd,json,pathlib,datetime
+R=pathlib.Path(__file__).resolve().parent/'data/bulk';out={'at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'warning':'ESPN-derived feed, not verified exhaustive D1-v-D1. Season-specific membership and historical as-of provenance remain open. No predictive evaluation.','seasons':{}}
+for y in range(2023,2027):
+ s=pd.read_parquet(R/f'mbb_schedule_{y}.parquet');t=pd.read_parquet(R/f'team_box_{y}.parquet');p=pd.read_parquet(R/f'player_box_{y}.parquet');s['game_id']=s['game_id'].astype(str);t['game_id']=t['game_id'].astype(str);p['game_id']=p['game_id'].astype(str)
+ f=s[(s.status_type_completed==True)&(s.status_type_state=='post')].drop_duplicates('game_id');ids=set(f.game_id);ts=t.groupby('game_id').team_id.nunique();ps=p.groupby('game_id').team_id.nunique();two=set(ts[ts==2].index);players=set(ps[ps==2].index)
+ core=['field_goals_made','field_goals_attempted','three_point_field_goals_made','free_throws_attempted','offensive_rebounds','defensive_rebounds','total_turnovers','team_score'];valid=t[core].notna().all(axis=1);coreids=set(t.loc[valid].groupby('game_id').team_id.nunique().loc[lambda x:x==2].index)
+ pairscore=t.merge(f[['game_id','home_id','away_id','home_score','away_score']],on='game_id');expected=pairscore.home_score.where(pairscore.team_id==pairscore.home_id,pairscore.away_score);mismatch=pairscore[pairscore.team_score!=expected]
+ out['seasons'][str(y)]={'schedule_rows':len(s),'duplicate_schedule_game_ids':int(s.duplicated('game_id').sum()),'completed_unique_games':len(ids),'first_date':str(f.game_date.min()),'last_date':str(f.game_date.max()),'team_rows':len(t),'player_rows':len(p),'duplicate_team_game_rows':int(t.duplicated(['game_id','team_id']).sum()),'games_two_team_rows':len(ids&two),'games_two_player_teams':len(ids&players),'games_core_team_stats_and_player_groups':len(ids&two&players&coreids),'missing_or_incomplete_team_ids':sorted(ids-(two&coreids)),'missing_two_player_group_ids':sorted(ids-players),'score_mismatch_game_ids':sorted(set(mismatch.game_id))}
+(R/'coverage_audit.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=1))

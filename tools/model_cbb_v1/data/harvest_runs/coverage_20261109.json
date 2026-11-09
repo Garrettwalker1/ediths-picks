@@ -1,0 +1,68 @@
+{
+  "audit_at": "2026-11-09T12:41:22.056558+00:00",
+  "scope": "Current daily finals collection coverage, not model evaluation or exhaustive D1 membership audit",
+  "by_central_date": {
+    "20241104": {
+      "finals": 198,
+      "summary": 160,
+      "basic_complete": 157
+    },
+    "20241105": {
+      "finals": 11
+    },
+    "20241106": {
+      "finals": 37
+    },
+    "20241107": {
+      "finals": 42
+    },
+    "20241108": {
+      "finals": 80
+    },
+    "20241109": {
+      "finals": 63
+    },
+    "20241110": {
+      "finals": 29
+    },
+    "20261103": {
+      "finals": 29,
+      "summary": 29,
+      "basic_complete": 28
+    },
+    "20261104": {
+      "finals": 26,
+      "summary": 26,
+      "basic_complete": 26
+    },
+    "20261105": {
+      "finals": 65,
+      "summary": 65,
+      "basic_complete": 65
+    },
+    "20261106": {
+      "finals": 72,
+      "summary": 72,
+      "basic_complete": 72
+    },
+    "20261107": {
+      "finals": 61,
+      "summary": 61,
+      "basic_complete": 61
+    },
+    "20261108": {
+      "finals": 36,
+      "summary": 36,
+      "basic_complete": 36
+    }
+  },
+  "incomplete_ids": [
+    "401921153",
+    "401722003",
+    "401720999",
+    "401706980"
+  ],
+  "missing_count": 300,
+  "daily_failures": [],
+  "note": "Legacy partial historical rows retained; bulk archives supersede daily backfill. Incomplete records excluded from model fitting. No verified closing-line claim."
+}

@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-08T05:54:58.683856+00:00",
+  "updated_at": "2026-11-09T00:35:24.088913+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12282,6 +12282,146 @@
       "settled_at": "2026-11-08T05:54:58.683856+00:00",
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858291",
       "settlement_note": "Actual final-score grading. Latest live owner phone history checked: no later cashout/void/correction. Normal settlement per Oct9 owner instruction; receipt cashout button was an offer only."
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "game": "Tampa Bay Buccaneers @ Chicago Bears",
+      "event_ids": [
+        "401873050"
+      ],
+      "kickoff": "2026-11-09T01:20Z",
+      "line": null,
+      "net_usd": null,
+      "net_units": null,
+      "source_message_id": "phonemsg-01M6YVMWTFGWARZEREZZ6ZA1MS",
+      "source": "Owner iMessage Nov8 6:34PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "bet_id": "us-tn:01m6yvh7vwef8t4pcv6mgqd7sc",
+      "date": "2026-11-08T18:32:00-06:00",
+      "placed_at": "2026-11-08T18:32:00-06:00",
+      "stake_usd": 20,
+      "stake_units": 2,
+      "market": "sgp",
+      "bet": "3-leg SGP: Bears ML + Swift anytime TD + Under 47.5",
+      "selection": "Bears ML + Swift anytime TD + Under 47.5",
+      "price": 361,
+      "unboosted_price": 278,
+      "profit_boost_percent": 30,
+      "potential_payout_usd": 92.23,
+      "potential_profit_usd": 72.23,
+      "implied_probability": 0.21691973969631237,
+      "payout_implied_probability": 0.21684918139434023,
+      "cashout_offer_usd": 20,
+      "receipt_filename": "image-233754f5.jpg",
+      "source_receipt_sha256": "438af48994316e400973de72661ec95eea61aac9e66669c4d0ce098449acb9ec",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Chicago Bears",
+          "event_id": "401873050",
+          "kickoff": "2026-11-09T01:20Z",
+          "hit": null,
+          "result": null,
+          "market": "moneyline",
+          "selection": "Chicago Bears",
+          "team": "CHI",
+          "line": null,
+          "price": null,
+          "model_win_probability": 0.703
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Chicago Bears",
+          "event_id": "401873050",
+          "kickoff": "2026-11-09T01:20Z",
+          "hit": null,
+          "result": null,
+          "market": "anytime_touchdown",
+          "selection": "D'Andre Swift",
+          "team": "CHI",
+          "line": null,
+          "price": null,
+          "model_primary_probability": 0.6009681078069016,
+          "model_baseline_probability": 0.566
+        },
+        {
+          "event": "Tampa Bay Buccaneers @ Chicago Bears",
+          "event_id": "401873050",
+          "kickoff": "2026-11-09T01:20Z",
+          "hit": null,
+          "result": null,
+          "market": "total",
+          "selection": "Under 47.5",
+          "line": 47.5,
+          "price": null,
+          "model_total": 45,
+          "model_total_raw": 44.8
+        }
+      ],
+      "notes": "Actual TN receipt combined +278 boosted to +361 at30%; individual leg prices not shown. Total market labeled Alternate Total Points. Same-game legs correlated, no validated joint probability. Model direction agrees with CHI winner, under and top TD scorer; standalone prior reference prices were not model value. Same game as separate Burden TD ticket, $32.37 total/3.237u.",
+      "model_at_placement": {
+        "available": true,
+        "note": "Game model CHI-6.5,total45(raw44.8),win70.3%. Primary TD Swift60.1% vs baseline56.6%. No numerical injury/QB/weather adjustment, no validated SGP hit rate. Final Monangai inactive (prior4games missed), Egbuka active; no invented redistribution."
+      }
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": null,
+      "game": "Tampa Bay Buccaneers @ Chicago Bears",
+      "event_ids": [
+        "401873050"
+      ],
+      "kickoff": "2026-11-09T01:20Z",
+      "line": null,
+      "net_usd": null,
+      "net_units": null,
+      "source_message_id": "phonemsg-01M6YVMWTFGWARZEREZZ6ZA1MS",
+      "source": "Owner iMessage Nov8 6:34PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "bet_id": "us-tn:01m6yvmaz7eqf8jpjq4f4vrd1j",
+      "date": "2026-11-08T18:34:00-06:00",
+      "placed_at": "2026-11-08T18:34:00-06:00",
+      "stake_usd": 12.37,
+      "stake_units": 1.237,
+      "market": "anytime_touchdown",
+      "bet": "Straight: Luther Burden III anytime TD",
+      "selection": "Luther Burden III anytime TD",
+      "price": 165,
+      "potential_payout_usd": 32.78,
+      "potential_profit_usd": 20.41,
+      "implied_probability": 0.37735849056603776,
+      "payout_implied_probability": 0.37736424649176326,
+      "cashout_offer_usd": 12.37,
+      "receipt_filename": "image-facc12a4.jpg",
+      "source_receipt_sha256": "5714f9bd1f5732fa34ec7d77d6f2de139e6114f32bce3d5b56cf14472d448b61",
+      "legs": [
+        {
+          "event": "Tampa Bay Buccaneers @ Chicago Bears",
+          "event_id": "401873050",
+          "kickoff": "2026-11-09T01:20Z",
+          "hit": null,
+          "result": null,
+          "market": "anytime_touchdown",
+          "selection": "Luther Burden III",
+          "team": "CHI",
+          "line": null,
+          "price": 165,
+          "model_primary_probability": 0.306527141560016,
+          "model_baseline_probability": 0.255
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "note": "Primary30.7%,baseline25.5%,price+165 implies37.7%; model falls about7.1pp short. No numerical injury adjustments. Not a model-value selection."
+      },
+      "notes": "Same game as $20 Bears/Swift/Under SGP; total$32.37/3.237u. Burden TD adds pressure against SGP under. A cashout offer is not a cashout taken."
     }
   ]
 }

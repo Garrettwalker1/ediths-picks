@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-08T05:54:58.819960+00:00",
+ "generated_at": "2026-11-09T04:49:36.915112+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 47,
+  "graded": 48,
   "wins": 30,
-  "losses": 17,
+  "losses": 18,
   "ungraded": 17
  },
  "by_sport": {
@@ -16,16 +16,16 @@
    "ungraded": 14
   },
   "NFL": {
-   "graded": 20,
+   "graded": 21,
    "wins": 11,
-   "losses": 9,
+   "losses": 10,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 19,
+  "graded": 20,
   "wins": 11,
-  "losses": 8,
+  "losses": 9,
   "ungraded": 1
  },
  "nfl_standard": {
@@ -738,6 +738,17 @@
    "ticket_date": "2026-11-07",
    "ticket_result": "win",
    "hit": true
+  },
+  {
+   "event": "Tampa Bay Buccaneers @ Chicago Bears",
+   "market": "alternate_total",
+   "selection": "Under 47.5",
+   "line": 47.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Bears ML + Swift anytime TD + Under 47.5",
+   "ticket_date": "2026-11-08",
+   "ticket_result": "loss",
+   "hit": false
   }
  ]
 }

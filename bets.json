@@ -12361,7 +12361,7 @@
           "kickoff": "2026-11-09T01:20Z",
           "hit": false,
           "result": "loss",
-          "market": "total",
+          "market": "alternate_total",
           "selection": "Under 47.5",
           "line": 47.5,
           "price": null,
@@ -12370,7 +12370,8 @@
           "graded_at": "2026-11-09T04:45:30.067564+00:00",
           "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
           "final_score": "Chicago Bears27,Tampa Bay Buccaneers24",
-          "stat_note": "Final51points, Under47.5 loses."
+          "stat_note": "Final51points, Under47.5 loses.",
+          "market_note": "Receipt explicitly labels Alternate Total Points; classification correction only, grading unchanged."
         }
       ],
       "notes": "Actual TN receipt combined +278 boosted to +361 at30%; individual leg prices not shown. Total market labeled Alternate Total Points. Same-game legs correlated, no validated joint probability. Model direction agrees with CHI winner, under and top TD scorer; standalone prior reference prices were not model value. Same game as separate Burden TD ticket, $32.37 total/3.237u.",

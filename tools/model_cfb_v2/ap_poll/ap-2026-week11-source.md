@@ -1,0 +1,1 @@
+Fetched Nov 8, 2026, 9:29 PM CT via ESPN rankings endpoint. ESPN poll date is date metadata, not release timestamp. AP primary confirmation: https://apnews.com/live/top-25-college-football-poll-11-8-2026 (updated 4:02 PM CST). Georgia returns to No.1. Comparison only, no AP adoption.

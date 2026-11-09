@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-09T03:30:20.078085+00:00",
+  "scope": "Week10 sealed AP vs no-AP paired prospective outcomes. No retuning or repeated historical locked test. Week7 adoption failure unchanged.",
+  "n": 62,
+  "ap_hits": 35,
+  "no_ap_hits": 34,
+  "ap_mae": 13.751682838001498,
+  "no_ap_mae": 13.793129001551868,
+  "ap_minus_noap_winner": 0.016129032258064516,
+  "winner_ci95": [
+    -0.03225806451612903,
+    0.08064516129032258
+  ],
+  "ap_minus_noap_mae": -0.04144616355036946,
+  "mae_ci95": [
+    -0.3153541372943503,
+    0.2138267148362538
+  ],
+  "bootstrap": {
+    "unit": "game",
+    "resamples": 5000,
+    "seed": 261108
+  },
+  "adopted": false,
+  "decision": "AP remains research-only. No adoption without winner CI lower bound strictly above zero and MAE not settled worse.",
+  "sealed_predictions_sha256": "c64cb6db9dc8bd691a622b75ecdb6ebecafe59cf8e7e6097e583f9bb6e5d11b0"
+}

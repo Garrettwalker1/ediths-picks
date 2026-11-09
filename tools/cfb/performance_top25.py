@@ -21,7 +21,7 @@ calibration would require freezing this composite's own pregame outputs and
 grading them separately. Sealed fixed-coefficient forecasts and the AP research
 fit are carried from fixed_reference_ratings.json as labeled comparison columns.
 """
-import sys, json, pathlib, heapq
+import sys, json, pathlib, heapq, gzip
 import numpy as np, pandas as pd
 
 sys.setrecursionlimit(10000)
@@ -32,21 +32,22 @@ H2H_THRESHOLD = 1.5  # rating points; head-to-head applies only inside this near
 
 # Merged current boxstore: originals, then Oct16 replacements, then latest refresh.
 by = {}
-folders = ['tools/cfb/boxscores', 'tools/cfb/current_inputs_20261016/boxscores'] + sorted(str(d.relative_to(R)) for d in (R / 'tools/cfb').glob('week*_20*/boxscores'))
+folders = ['tools/cfb/boxscores', 'tools/cfb/current_inputs_20261016/boxscores', 'tools/cfb/saturday_20261107/sources'] + sorted(str(d.relative_to(R)) for d in (R / 'tools/cfb').glob('week*_20*/boxscores'))
 for folder in folders:
-    for f in (R / folder).glob('*.json'):
-        d = json.load(open(f)); by[str(d['header']['id'])] = f
+    for f in sorted(list((R / folder).glob('boxscore-*.json')) + list((R / folder).glob('boxscore-*.json.gz'))):
+        d = json.load(gzip.open(f, 'rt') if f.suffix == '.gz' else open(f)); by[str(d['header']['id'])] = f
 
 games = []
 for eid, f in sorted(by.items()):
-    d = json.load(open(f)); hd = d['header']['competitions'][0]
-    if not hd['status']['type']['completed']:
+    d = json.load(gzip.open(f, 'rt') if f.suffix == '.gz' else open(f)); hd = d['header']['competitions'][0]
+    if not hd['status']['type']['completed'] or hd['date'][:10] > AS_OF:
         continue
     comp = {c['homeAway']: c for c in hd['competitors']}
     yds = {}
     for t in d['boxscore']['teams']:
         stats = {st['name']: st['displayValue'] for st in t['statistics']}
-        yds[t['homeAway']] = float(stats.get('totalYards', 0))
+        assert 'totalYards' in stats, 'Missing total yards: ' + eid
+        yds[t['homeAway']] = float(stats['totalYards'])
     hs = float(comp['home']['score']); as_ = float(comp['away']['score'])
     games.append(dict(
         event_id=eid, date=hd['date'][:10],
@@ -197,7 +198,8 @@ out = {
                'expected margin. The AP-fit column is a separately trained research variant that failed its Week 7 gate; the '
                'fixed-reference column is the sealed Oct 11 forecast specification (which does use preseason inputs) shown '
                'for audit only. Neither is a validated betting edge.'),
-    'sources': [*[f'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week={w}&groups=80&limit=400' for w in range(1, 9)],
+    'source_game_ids': sorted(g.event_id.astype(str)),
+    'sources': [*[f'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week={w}&groups=80&limit=400' for w in range(1, int(WEEK_DIR.name.split('_')[0].replace('week','')))],
                 json.load(open(WEEK_DIR / 'fetch_audit.json'))['standings_url']],
     'teams': rows,
 }

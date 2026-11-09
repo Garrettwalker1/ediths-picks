@@ -1,0 +1,609 @@
+{
+  "sealed_at": "2026-11-09T03:31:52.922458+00:00",
+  "rule": "Model winner equals book underdog at captured selection-time reference; not closing-time bucket",
+  "games": [
+    {
+      "event_id": "401866458",
+      "name": "Western Michigan Broncos at Akron Zips",
+      "model_pick": "Western Michigan Broncos",
+      "model_margin_home": -9.642881560854168,
+      "book_home_line": 14.5,
+      "book_underdog": "Akron Zips",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401866459",
+      "name": "Kent State Golden Flashes at Bowling Green Falcons",
+      "model_pick": "Bowling Green Falcons",
+      "model_margin_home": 9.692563263676327,
+      "book_home_line": -6.0,
+      "book_underdog": "Kent State Golden Flashes",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401866460",
+      "name": "Ohio Bobcats at Miami (OH) RedHawks",
+      "model_pick": "Miami (OH) RedHawks",
+      "model_margin_home": 1.8612131985721216,
+      "book_home_line": 1.5,
+      "book_underdog": "Miami (OH) RedHawks",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401866461",
+      "name": "Buffalo Bulls at Ball State Cardinals",
+      "model_pick": "Buffalo Bulls",
+      "model_margin_home": -1.0140802300087568,
+      "book_home_line": 2.5,
+      "book_underdog": "Ball State Cardinals",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401866462",
+      "name": "Sacramento State Hornets at Central Michigan Chippewas",
+      "model_pick": "Central Michigan Chippewas",
+      "model_margin_home": 12.271880526879015,
+      "book_home_line": -17.5,
+      "book_underdog": "Sacramento State Hornets",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401866463",
+      "name": "Massachusetts Minutemen at Toledo Rockets",
+      "model_pick": "Toledo Rockets",
+      "model_margin_home": 12.263283496960362,
+      "book_home_line": -14.5,
+      "book_underdog": "Massachusetts Minutemen",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862824",
+      "name": "Memphis Tigers at South Florida Bulls",
+      "model_pick": "South Florida Bulls",
+      "model_margin_home": 5.560239808621008,
+      "book_home_line": 5.5,
+      "book_underdog": "South Florida Bulls",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401869969",
+      "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
+      "model_pick": "Louisiana Ragin' Cajuns",
+      "model_margin_home": -4.493665971463909,
+      "book_home_line": 11.5,
+      "book_underdog": "UL Monroe Warhawks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858293",
+      "name": "Florida State Seminoles at Pittsburgh Panthers",
+      "model_pick": "Pittsburgh Panthers",
+      "model_margin_home": 2.4358140934960137,
+      "book_home_line": -3.5,
+      "book_underdog": "Florida State Seminoles",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858526",
+      "name": "Illinois Fighting Illini at UCLA Bruins",
+      "model_pick": "UCLA Bruins",
+      "model_margin_home": 3.7864514415808364,
+      "book_home_line": -10.0,
+      "book_underdog": "Illinois Fighting Illini",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856860",
+      "name": "Houston Cougars at Colorado Buffaloes",
+      "model_pick": "Houston Cougars",
+      "model_margin_home": -0.8338994256320529,
+      "book_home_line": 10.5,
+      "book_underdog": "Colorado Buffaloes",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858296",
+      "name": "Duke Blue Devils at Miami Hurricanes",
+      "model_pick": "Miami Hurricanes",
+      "model_margin_home": 11.490334035398106,
+      "book_home_line": -13.5,
+      "book_underdog": "Duke Blue Devils",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858522",
+      "name": "Northwestern Wildcats at Ohio State Buckeyes",
+      "model_pick": "Ohio State Buckeyes",
+      "model_margin_home": 13.573315610347969,
+      "book_home_line": -11.5,
+      "book_underdog": "Northwestern Wildcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858301",
+      "name": "Wake Forest Demon Deacons at SMU Mustangs",
+      "model_pick": "Wake Forest Demon Deacons",
+      "model_margin_home": -4.97733308871365,
+      "book_home_line": 1.5,
+      "book_underdog": "SMU Mustangs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856859",
+      "name": "Cincinnati Bearcats at Iowa State Cyclones",
+      "model_pick": "Cincinnati Bearcats",
+      "model_margin_home": -0.15110057906546714,
+      "book_home_line": -2.5,
+      "book_underdog": "Cincinnati Bearcats",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401856886",
+      "name": "Auburn Tigers at Mississippi State Bulldogs",
+      "model_pick": "Auburn Tigers",
+      "model_margin_home": -0.6159770474263331,
+      "book_home_line": 3.0,
+      "book_underdog": "Mississippi State Bulldogs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858300",
+      "name": "Syracuse Orange at NC State Wolfpack",
+      "model_pick": "NC State Wolfpack",
+      "model_margin_home": 0.27554155367683286,
+      "book_home_line": 3.0,
+      "book_underdog": "NC State Wolfpack",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401858520",
+      "name": "Wisconsin Badgers at Maryland Terrapins",
+      "model_pick": "Wisconsin Badgers",
+      "model_margin_home": -2.532770132066722,
+      "book_home_line": 8.5,
+      "book_underdog": "Maryland Terrapins",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401861967",
+      "name": "James Madison Dukes at UConn Huskies",
+      "model_pick": "UConn Huskies",
+      "model_margin_home": 2.1605324087681037,
+      "book_home_line": 3.5,
+      "book_underdog": "UConn Huskies",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401858297",
+      "name": "Georgia Tech Yellow Jackets at Clemson Tigers",
+      "model_pick": "Clemson Tigers",
+      "model_margin_home": 24.044125461755787,
+      "book_home_line": -13.5,
+      "book_underdog": "Georgia Tech Yellow Jackets",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858525",
+      "name": "Nebraska Cornhuskers at Rutgers Scarlet Knights",
+      "model_pick": "Nebraska Cornhuskers",
+      "model_margin_home": -7.335942354724682,
+      "book_home_line": 13.5,
+      "book_underdog": "Rutgers Scarlet Knights",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856889",
+      "name": "Alabama Crimson Tide at Vanderbilt Commodores",
+      "model_pick": "Alabama Crimson Tide",
+      "model_margin_home": -7.732867004256689,
+      "book_home_line": 18.5,
+      "book_underdog": "Vanderbilt Commodores",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862825",
+      "name": "East Carolina Pirates at Charlotte 49ers",
+      "model_pick": "East Carolina Pirates",
+      "model_margin_home": -5.811861966057079,
+      "book_home_line": 11.5,
+      "book_underdog": "Charlotte 49ers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862829",
+      "name": "UAB Blazers at Temple Owls",
+      "model_pick": "Temple Owls",
+      "model_margin_home": 2.3983735301666655,
+      "book_home_line": -2.5,
+      "book_underdog": "UAB Blazers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401869937",
+      "name": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+      "model_pick": "Arkansas State Red Wolves",
+      "model_margin_home": -1.939989471188099,
+      "book_home_line": -1.5,
+      "book_underdog": "Arkansas State Red Wolves",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401856862",
+      "name": "Kansas State Wildcats at TCU Horned Frogs",
+      "model_pick": "TCU Horned Frogs",
+      "model_margin_home": 6.9968724410092396,
+      "book_home_line": -9.5,
+      "book_underdog": "Kansas State Wildcats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862828",
+      "name": "Tulane Green Wave at Rice Owls",
+      "model_pick": "Rice Owls",
+      "model_margin_home": 6.908260207609587,
+      "book_home_line": -3.0,
+      "book_underdog": "Tulane Green Wave",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401870769",
+      "name": "Kennesaw State Owls at Sam Houston Bearkats",
+      "model_pick": "Kennesaw State Owls",
+      "model_margin_home": -0.7723591221675337,
+      "book_home_line": 8.5,
+      "book_underdog": "Sam Houston Bearkats",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856888",
+      "name": "Tennessee Volunteers at Texas A&M Aggies",
+      "model_pick": "Texas A&M Aggies",
+      "model_margin_home": 2.3328675888569177,
+      "book_home_line": 2.5,
+      "book_underdog": "Texas A&M Aggies",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401870796",
+      "name": "New Mexico State Aggies at Missouri State Bears",
+      "model_pick": "Missouri State Bears",
+      "model_margin_home": 8.516806345623726,
+      "book_home_line": -1.5,
+      "book_underdog": "New Mexico State Aggies",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871060",
+      "name": "Florida International Panthers at Delaware Blue Hens",
+      "model_pick": "Delaware Blue Hens",
+      "model_margin_home": 8.291101172680426,
+      "book_home_line": -5.5,
+      "book_underdog": "Florida International Panthers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856883",
+      "name": "Missouri Tigers at Georgia Bulldogs",
+      "model_pick": "Georgia Bulldogs",
+      "model_margin_home": 11.747738424632505,
+      "book_home_line": -14.5,
+      "book_underdog": "Missouri Tigers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858518",
+      "name": "USC Trojans at Indiana Hoosiers",
+      "model_pick": "Indiana Hoosiers",
+      "model_margin_home": 6.013639945617032,
+      "book_home_line": -7.5,
+      "book_underdog": "USC Trojans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856858",
+      "name": "Baylor Bears at BYU Cougars",
+      "model_pick": "BYU Cougars",
+      "model_margin_home": 1.0468168471861041,
+      "book_home_line": -7.5,
+      "book_underdog": "Baylor Bears",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858294",
+      "name": "Boston College Eagles at Notre Dame Fighting Irish",
+      "model_pick": "Notre Dame Fighting Irish",
+      "model_margin_home": 25.976030503489806,
+      "book_home_line": -30.5,
+      "book_underdog": "Boston College Eagles",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858523",
+      "name": "Michigan Wolverines at Oregon Ducks",
+      "model_pick": "Oregon Ducks",
+      "model_margin_home": 12.774511444891353,
+      "book_home_line": -10.5,
+      "book_underdog": "Michigan Wolverines",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856857",
+      "name": "Arizona State Sun Devils at UCF Knights",
+      "model_pick": "Arizona State Sun Devils",
+      "model_margin_home": -0.2805495320188376,
+      "book_home_line": -3.0,
+      "book_underdog": "Arizona State Sun Devils",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401858295",
+      "name": "California Golden Bears at Virginia Cavaliers",
+      "model_pick": "Virginia Cavaliers",
+      "model_margin_home": 8.410481321815727,
+      "book_home_line": -12.5,
+      "book_underdog": "California Golden Bears",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862826",
+      "name": "Florida Atlantic Owls at Tulsa Golden Hurricane",
+      "model_pick": "Tulsa Golden Hurricane",
+      "model_margin_home": 12.296791517321296,
+      "book_home_line": -5.5,
+      "book_underdog": "Florida Atlantic Owls",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864536",
+      "name": "Nevada Wolf Pack at Northern Illinois Huskies",
+      "model_pick": "Northern Illinois Huskies",
+      "model_margin_home": 2.0129828724324828,
+      "book_home_line": 7.5,
+      "book_underdog": "Northern Illinois Huskies",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401869952",
+      "name": "Georgia Southern Eagles at Georgia State Panthers",
+      "model_pick": "Georgia Southern Eagles",
+      "model_margin_home": -4.730089797330812,
+      "book_home_line": 5.5,
+      "book_underdog": "Georgia State Panthers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401870752",
+      "name": "Jacksonville State Gamecocks at Western Kentucky Hilltoppers",
+      "model_pick": "Western Kentucky Hilltoppers",
+      "model_margin_home": 0.5544036026762376,
+      "book_home_line": 7.5,
+      "book_underdog": "Western Kentucky Hilltoppers",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401871061",
+      "name": "Middle Tennessee Blue Raiders at Liberty Flames",
+      "model_pick": "Liberty Flames",
+      "model_margin_home": 18.25662670306461,
+      "book_home_line": -21.5,
+      "book_underdog": "Middle Tennessee Blue Raiders",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860916",
+      "name": "Fresno State Bulldogs at Texas State Bobcats",
+      "model_pick": "Texas State Bobcats",
+      "model_margin_home": 13.056990243556594,
+      "book_home_line": -8.5,
+      "book_underdog": "Fresno State Bulldogs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856887",
+      "name": "Ole Miss Rebels at Oklahoma Sooners",
+      "model_pick": "Oklahoma Sooners",
+      "model_margin_home": 2.553600858802851,
+      "book_home_line": 1.5,
+      "book_underdog": "Oklahoma Sooners",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401858521",
+      "name": "Washington Huskies at Michigan State Spartans",
+      "model_pick": "Washington Huskies",
+      "model_margin_home": -5.11581267381318,
+      "book_home_line": 4.0,
+      "book_underdog": "Michigan State Spartans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871099",
+      "name": "Southern Miss Golden Eagles at Louisiana Tech Bulldogs",
+      "model_pick": "Louisiana Tech Bulldogs",
+      "model_margin_home": 16.134673796268842,
+      "book_home_line": -17.5,
+      "book_underdog": "Southern Miss Golden Eagles",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856861",
+      "name": "Kansas Jayhawks at West Virginia Mountaineers",
+      "model_pick": "West Virginia Mountaineers",
+      "model_margin_home": 1.9126014975414707,
+      "book_home_line": -3.0,
+      "book_underdog": "Kansas Jayhawks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860914",
+      "name": "Oregon State Beavers at Boise State Broncos",
+      "model_pick": "Boise State Broncos",
+      "model_margin_home": 15.57577180753183,
+      "book_home_line": -10.5,
+      "book_underdog": "Oregon State Beavers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401869928",
+      "name": "App State Mountaineers at Marshall Thundering Herd",
+      "model_pick": "Marshall Thundering Herd",
+      "model_margin_home": 6.549685597229721,
+      "book_home_line": 1.5,
+      "book_underdog": "Marshall Thundering Herd",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401856884",
+      "name": "Florida Gators at Kentucky Wildcats",
+      "model_pick": "Kentucky Wildcats",
+      "model_margin_home": 0.9626876515503273,
+      "book_home_line": -3.0,
+      "book_underdog": "Florida Gators",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858298",
+      "name": "Louisville Cardinals at North Carolina Tar Heels",
+      "model_pick": "Louisville Cardinals",
+      "model_margin_home": -7.511260324348542,
+      "book_home_line": 3.0,
+      "book_underdog": "North Carolina Tar Heels",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858524",
+      "name": "Minnesota Golden Gophers at Penn State Nittany Lions",
+      "model_pick": "Penn State Nittany Lions",
+      "model_margin_home": 12.1047059009822,
+      "book_home_line": -9.5,
+      "book_underdog": "Minnesota Golden Gophers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864538",
+      "name": "San Jos\u00e9 State Spartans at Air Force Falcons",
+      "model_pick": "Air Force Falcons",
+      "model_margin_home": 5.192507493321745,
+      "book_home_line": -11.5,
+      "book_underdog": "San Jos\u00e9 State Spartans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401871100",
+      "name": "Troy Trojans at South Alabama Jaguars",
+      "model_pick": "South Alabama Jaguars",
+      "model_margin_home": 8.473541305195845,
+      "book_home_line": -2.5,
+      "book_underdog": "Troy Trojans",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856864",
+      "name": "Utah Utes at Arizona Wildcats",
+      "model_pick": "Arizona Wildcats",
+      "model_margin_home": 2.027013803520627,
+      "book_home_line": 2.5,
+      "book_underdog": "Arizona Wildcats",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401856885",
+      "name": "Texas Longhorns at LSU Tigers",
+      "model_pick": "LSU Tigers",
+      "model_margin_home": 0.43075855017394904,
+      "book_home_line": -4.0,
+      "book_underdog": "Texas Longhorns",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858519",
+      "name": "Purdue Boilermakers at Iowa Hawkeyes",
+      "model_pick": "Iowa Hawkeyes",
+      "model_margin_home": 14.25600415719899,
+      "book_home_line": -17.5,
+      "book_underdog": "Purdue Boilermakers",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401858299",
+      "name": "Stanford Cardinal at Virginia Tech Hokies",
+      "model_pick": "Virginia Tech Hokies",
+      "model_margin_home": 12.954545425608533,
+      "book_home_line": -15.5,
+      "book_underdog": "Stanford Cardinal",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864539",
+      "name": "UNLV Rebels at New Mexico Lobos",
+      "model_pick": "New Mexico Lobos",
+      "model_margin_home": 11.195402297804614,
+      "book_home_line": -14.5,
+      "book_underdog": "UNLV Rebels",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856882",
+      "name": "South Carolina Gamecocks at Arkansas Razorbacks",
+      "model_pick": "South Carolina Gamecocks",
+      "model_margin_home": -6.847894175196761,
+      "book_home_line": 7.5,
+      "book_underdog": "Arkansas Razorbacks",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401862827",
+      "name": "North Texas Mean Green at UTSA Roadrunners",
+      "model_pick": "North Texas Mean Green",
+      "model_margin_home": -0.6464117460598402,
+      "book_home_line": 1.5,
+      "book_underdog": "UTSA Roadrunners",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401856863",
+      "name": "Texas Tech Red Raiders at Oklahoma State Cowboys",
+      "model_pick": "Texas Tech Red Raiders",
+      "model_margin_home": -7.293374567820464,
+      "book_home_line": -3.5,
+      "book_underdog": "Texas Tech Red Raiders",
+      "dog_bucket": true
+    },
+    {
+      "event_id": "401860915",
+      "name": "Utah State Aggies at San Diego State Aztecs",
+      "model_pick": "Utah State Aggies",
+      "model_margin_home": -0.2174746118319817,
+      "book_home_line": 1.5,
+      "book_underdog": "San Diego State Aztecs",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864540",
+      "name": "Wyoming Cowboys at UTEP Miners",
+      "model_pick": "Wyoming Cowboys",
+      "model_margin_home": -8.450421241971725,
+      "book_home_line": 9.5,
+      "book_underdog": "UTEP Miners",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401860917",
+      "name": "Colorado State Rams at Washington State Cougars",
+      "model_pick": "Washington State Cougars",
+      "model_margin_home": 9.532184598318228,
+      "book_home_line": -9.5,
+      "book_underdog": "Colorado State Rams",
+      "dog_bucket": false
+    },
+    {
+      "event_id": "401864537",
+      "name": "North Dakota State Bison at Hawai'i Rainbow Warriors",
+      "model_pick": "North Dakota State Bison",
+      "model_margin_home": -0.9579414503560226,
+      "book_home_line": 6.5,
+      "book_underdog": "Hawai'i Rainbow Warriors",
+      "dog_bucket": false
+    }
+  ]
+}

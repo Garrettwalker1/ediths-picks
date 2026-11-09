@@ -185,3 +185,16 @@ async function loadCfbWeek10(){
  }catch(e){host.textContent='Week 10 board failed to load: '+e.message;}
 }
 loadCfbWeek10();
+
+async function loadCfbWeek11(){
+ const host=document.getElementById('cfbWeek11');if(!host)return;
+ try{
+ const base='tools/cfb/week11_20261108/';const d=await fetch(base+'week11_sealed_research.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+ const half=x=>{let n=Math.round(Math.abs(x)*2)/2;return n.toFixed(n%1?1:0)};
+ const line=(g,x)=>Math.abs(x)<.25?'PK':(x>0?g.home:g.away)+' -'+half(x);
+ host.textContent='';const search=document.createElement('input');search.type='search';search.placeholder='Find a team';search.setAttribute('aria-label','Find a team');search.className='cfb-search';host.append(search);const cards=[];
+ for(const g of d.games){const det=document.createElement('details');det.className='game';det.dataset.search=(g.home+' '+g.away).toLowerCase();const s=document.createElement('summary');const when=document.createElement('span');when.className='cfb-kick';when.textContent=new Date(g.date).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/Chicago'})+' CT';const match=document.createElement('span');match.className='cfb-matchup';match.textContent=g.away+' at '+g.home;const values=document.createElement('span');values.className='cfb-values';for(const [label,value]of [['RESEARCH MODEL',line(g,g.predicted_margin_home['2026_no_ap'])],['DATED BOOK',g.book&&g.book.home_line!=null?line(g,-g.book.home_line):'Unavailable']]){const v=document.createElement('span');const l=document.createElement('small');l.textContent=label;const b=document.createElement('b');b.textContent=value;v.append(l,b);values.append(v)}const more=document.createElement('span');more.className='cfb-open-hint';more.textContent='Details +';s.append(when,match,values,more);det.append(s);const p=document.createElement('p');p.className='muted';p.textContent='Exact no-AP home margin '+g.predicted_margin_home['2026_no_ap'].toFixed(3)+'. Sealed '+new Date(d.protocol.sealed_at).toLocaleString()+'. Positive favors home. '+(g.neutral_site?'Neutral venue; indicator is not a fitted input. ':'')+'Research only; no calibrated probabilities, numerical injury/QB/weather effects or model total.';det.append(p);if(g.book){const b=document.createElement('p');b.className='muted';b.textContent='Book captured '+new Date(g.book.captured_at).toLocaleString()+': '+g.book.details+(g.book.over_under!=null?', total '+g.book.over_under:'')+' ('+g.book.provider+' via ESPN). Comparison only, not a model input or bet recommendation.';det.append(b)}host.append(det);cards.push(det)}
+ search.oninput=()=>cards.forEach(c=>c.hidden=!c.dataset.search.includes(search.value.trim().toLowerCase()));const a=document.createElement('a');a.href=base+'week11_sealed_research.json';a.textContent='Sealed Week 11 research forecast and fit provenance';host.append(a);
+ }catch(e){host.textContent='Week 11 research board failed to load: '+e.message}
+}
+loadCfbWeek11();

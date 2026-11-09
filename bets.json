@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-09T00:35:24.088913+00:00",
+  "updated_at": "2026-11-09T04:45:30.067564+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12288,16 +12288,16 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": null,
+      "status": "settled",
+      "result": "loss",
       "game": "Tampa Bay Buccaneers @ Chicago Bears",
       "event_ids": [
         "401873050"
       ],
       "kickoff": "2026-11-09T01:20Z",
       "line": null,
-      "net_usd": null,
-      "net_units": null,
+      "net_usd": -20.0,
+      "net_units": -2.0,
       "source_message_id": "phonemsg-01M6YVMWTFGWARZEREZZ6ZA1MS",
       "source": "Owner iMessage Nov8 6:34PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
       "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
@@ -12324,64 +12324,81 @@
           "event": "Tampa Bay Buccaneers @ Chicago Bears",
           "event_id": "401873050",
           "kickoff": "2026-11-09T01:20Z",
-          "hit": null,
-          "result": null,
+          "hit": true,
+          "result": "win",
           "market": "moneyline",
           "selection": "Chicago Bears",
           "team": "CHI",
           "line": null,
           "price": null,
-          "model_win_probability": 0.703
+          "model_win_probability": 0.703,
+          "graded_at": "2026-11-09T04:45:30.067564+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "final_score": "Chicago Bears27,Tampa Bay Buccaneers24",
+          "stat_note": "Bears27-Bucs24: Chicago moneyline wins."
         },
         {
           "event": "Tampa Bay Buccaneers @ Chicago Bears",
           "event_id": "401873050",
           "kickoff": "2026-11-09T01:20Z",
-          "hit": null,
-          "result": null,
+          "hit": false,
+          "result": "loss",
           "market": "anytime_touchdown",
           "selection": "D'Andre Swift",
           "team": "CHI",
           "line": null,
           "price": null,
           "model_primary_probability": 0.6009681078069016,
-          "model_baseline_probability": 0.566
+          "model_baseline_probability": 0.566,
+          "graded_at": "2026-11-09T04:45:30.067564+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "final_score": "Chicago Bears27,Tampa Bay Buccaneers24",
+          "stat_note": "Swift12carries31yards0TD;0catches0receivingTD."
         },
         {
           "event": "Tampa Bay Buccaneers @ Chicago Bears",
           "event_id": "401873050",
           "kickoff": "2026-11-09T01:20Z",
-          "hit": null,
-          "result": null,
+          "hit": false,
+          "result": "loss",
           "market": "total",
           "selection": "Under 47.5",
           "line": 47.5,
           "price": null,
           "model_total": 45,
-          "model_total_raw": 44.8
+          "model_total_raw": 44.8,
+          "graded_at": "2026-11-09T04:45:30.067564+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "final_score": "Chicago Bears27,Tampa Bay Buccaneers24",
+          "stat_note": "Final51points, Under47.5 loses."
         }
       ],
       "notes": "Actual TN receipt combined +278 boosted to +361 at30%; individual leg prices not shown. Total market labeled Alternate Total Points. Same-game legs correlated, no validated joint probability. Model direction agrees with CHI winner, under and top TD scorer; standalone prior reference prices were not model value. Same game as separate Burden TD ticket, $32.37 total/3.237u.",
       "model_at_placement": {
         "available": true,
         "note": "Game model CHI-6.5,total45(raw44.8),win70.3%. Primary TD Swift60.1% vs baseline56.6%. No numerical injury/QB/weather adjustment, no validated SGP hit rate. Final Monangai inactive (prior4games missed), Egbuka active; no invented redistribution."
-      }
+      },
+      "payout_usd": 0.0,
+      "settled_at": "2026-11-09T04:45:30.067564+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+      "settlement_note": "Final-score/scoring-play/boxscore grading. Live owner phone history rechecked10:45PMCT, no cashout/void/correction. Normal settlement per originalOct9 instruction. Receipt cashout button was an offer only.",
+      "leg_note": "Bears27-Bucs24: Chicago moneyline wins.; Swift12carries31yards0TD;0catches0receivingTD.; Final51points, Under47.5 loses."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": null,
+      "status": "settled",
+      "result": "win",
       "game": "Tampa Bay Buccaneers @ Chicago Bears",
       "event_ids": [
         "401873050"
       ],
       "kickoff": "2026-11-09T01:20Z",
       "line": null,
-      "net_usd": null,
-      "net_units": null,
+      "net_usd": 20.41,
+      "net_units": 2.041,
       "source_message_id": "phonemsg-01M6YVMWTFGWARZEREZZ6ZA1MS",
       "source": "Owner iMessage Nov8 6:34PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
       "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
@@ -12406,22 +12423,31 @@
           "event": "Tampa Bay Buccaneers @ Chicago Bears",
           "event_id": "401873050",
           "kickoff": "2026-11-09T01:20Z",
-          "hit": null,
-          "result": null,
+          "hit": true,
+          "result": "win",
           "market": "anytime_touchdown",
           "selection": "Luther Burden III",
           "team": "CHI",
           "line": null,
           "price": 165,
           "model_primary_probability": 0.306527141560016,
-          "model_baseline_probability": 0.255
+          "model_baseline_probability": 0.255,
+          "graded_at": "2026-11-09T04:45:30.067564+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "final_score": "Chicago Bears27,Tampa Bay Buccaneers24",
+          "stat_note": "Burden7catches97yards1TD,56-yard score at6:00Q1."
         }
       ],
       "model_at_placement": {
         "available": true,
         "note": "Primary30.7%,baseline25.5%,price+165 implies37.7%; model falls about7.1pp short. No numerical injury adjustments. Not a model-value selection."
       },
-      "notes": "Same game as $20 Bears/Swift/Under SGP; total$32.37/3.237u. Burden TD adds pressure against SGP under. A cashout offer is not a cashout taken."
+      "notes": "Same game as $20 Bears/Swift/Under SGP; total$32.37/3.237u. Burden TD adds pressure against SGP under. A cashout offer is not a cashout taken.",
+      "payout_usd": 32.78,
+      "settled_at": "2026-11-09T04:45:30.067564+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+      "settlement_note": "Final-score/scoring-play/boxscore grading. Live owner phone history rechecked10:45PMCT, no cashout/void/correction. Normal settlement per originalOct9 instruction. Receipt cashout button was an offer only.",
+      "leg_note": "Burden7catches97yards1TD,56-yard score at6:00Q1."
     }
   ]
 }

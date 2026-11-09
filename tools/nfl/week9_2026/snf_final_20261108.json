@@ -1,0 +1,101 @@
+{
+  "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+  "fetched_at": "2026-11-09T04:44:58.300696+00:00",
+  "status": {
+    "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+    },
+    "isTBDFlex": false
+  },
+  "score": {
+    "CHI": 27,
+    "TB": 24
+  },
+  "scoring_plays": [
+    {
+      "text": "Rome Odunze 9 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "period": 1,
+      "clock": "9:38"
+    },
+    {
+      "text": "Luther Burden III 56 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "period": 1,
+      "clock": "6:00"
+    },
+    {
+      "text": "Chase McLaughlin 27 Yd Field Goal ",
+      "period": 2,
+      "clock": "13:48"
+    },
+    {
+      "text": "Cairo Santos 25 Yd Field Goal ",
+      "period": 2,
+      "clock": "3:02"
+    },
+    {
+      "text": "Chase McLaughlin 21 Yd Field Goal ",
+      "period": 2,
+      "clock": "0:00"
+    },
+    {
+      "text": "Bucky Irving 2 Yd Rush (Chase McLaughlin Kick)",
+      "period": 3,
+      "clock": "11:37"
+    },
+    {
+      "text": "Jaylon Johnson 67 Yd Interception Return (Cairo Santos Kick)",
+      "period": 3,
+      "clock": "3:39"
+    },
+    {
+      "text": "Chase McLaughlin 35 Yd Field Goal",
+      "period": 4,
+      "clock": "11:24"
+    },
+    {
+      "text": "Bucky Irving 6 Yd Rush (Baker Mayfield Run for Two-Point Conversion)",
+      "period": 4,
+      "clock": "2:51"
+    },
+    {
+      "text": "Cairo Santos 38 Yd Field Goal ",
+      "period": 4,
+      "clock": "0:00"
+    }
+  ],
+  "players": {
+    "D'Andre Swift": {
+      "rushing": {
+        "CAR": "12",
+        "YDS": "31",
+        "AVG": "2.6",
+        "TD": "0",
+        "LONG": "6"
+      },
+      "receiving": {
+        "REC": "0",
+        "YDS": "0",
+        "AVG": "0.0",
+        "TD": "0",
+        "LONG": "0",
+        "TGTS": "1"
+      }
+    },
+    "Luther Burden III": {
+      "receiving": {
+        "REC": "7",
+        "YDS": "97",
+        "AVG": "13.9",
+        "TD": "1",
+        "LONG": "56",
+        "TGTS": "9"
+      }
+    }
+  }
+}

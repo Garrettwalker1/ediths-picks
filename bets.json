@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-09T04:45:30.067564+00:00",
+  "updated_at": "2026-11-09T23:37:33.144455+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12449,6 +12449,149 @@
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
       "settlement_note": "Final-score/scoring-play/boxscore grading. Live owner phone history rechecked10:45PMCT, no cashout/void/correction. Normal settlement per originalOct9 instruction. Receipt cashout button was an offer only.",
       "leg_note": "Burden7catches97yards1TD,56-yard score at6:00Q1."
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "game": "Buffalo Bills @ Minnesota Vikings",
+      "event_ids": [
+        "401873051"
+      ],
+      "kickoff": "2026-11-10T01:15Z",
+      "line": null,
+      "net_usd": null,
+      "net_units": null,
+      "source_message_id": "phonemsg-01M71AQ42HGXZRPCEANWSXF9X2",
+      "source": "Owner iMessage Nov9 5:36PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "bet_id": "us-tn:01m71anypvfbz822jh7ezmn5t4",
+      "date": "2026-11-09T17:35:00-06:00",
+      "placed_at": "2026-11-09T17:35:00-06:00",
+      "stake_usd": 10.0,
+      "stake_units": 1.0,
+      "market": "sgp",
+      "bet": "3-leg SGP: Vikings +7.5 / Over 40.5 / James Cook anytime TD",
+      "selection": "Minnesota Vikings +7.5 / Over 40.5 / James Cook anytime TD",
+      "price": 343,
+      "original_price": 264,
+      "boost_pct": 30,
+      "potential_payout_usd": 44.39,
+      "potential_profit_usd": 34.39,
+      "implied_probability": 0.22573363431151242,
+      "payout_implied_probability": 0.22527596305474207,
+      "cashout_offer_usd": 7.3,
+      "receipt_filename": "image-78fdd431.png",
+      "source_receipt_sha256": "00919c7f46c41a60c8d66fe1bcce983d2f7dc09893a983b0180ee436aad16b7f",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Minnesota Vikings",
+          "event_id": "401873051",
+          "kickoff": "2026-11-10T01:15Z",
+          "hit": null,
+          "result": "pending",
+          "market": "alternate_spread",
+          "selection": "Minnesota Vikings +7.5",
+          "team": "MIN",
+          "line": 7.5,
+          "price": null,
+          "model_margin_home": -0.15,
+          "model_home_win_probability": 0.491
+        },
+        {
+          "event": "Buffalo Bills @ Minnesota Vikings",
+          "event_id": "401873051",
+          "kickoff": "2026-11-10T01:15Z",
+          "hit": null,
+          "result": "pending",
+          "market": "alternate_total",
+          "selection": "Over 40.5",
+          "line": 40.5,
+          "price": null,
+          "model_total_raw": 47.4,
+          "model_total": 47.5
+        },
+        {
+          "event": "Buffalo Bills @ Minnesota Vikings",
+          "event_id": "401873051",
+          "kickoff": "2026-11-10T01:15Z",
+          "hit": null,
+          "result": "pending",
+          "market": "anytime_touchdown",
+          "selection": "James Cook",
+          "team": "BUF",
+          "line": null,
+          "price": null,
+          "model_primary_probability": 0.6059279678039939,
+          "model_baseline_probability": 0.524
+        }
+      ],
+      "notes": "Actual TN combined receipt price; standalone leg prices not shown. Exact displayed return44.39 retained instead of inferring44.30 from rounded+343. Legs correlated; no validated joint hit probability. Private ticket is distinct from VOLS release. Same-game Moore single increases total exposure to30/3u.",
+      "model_at_placement": {
+        "available": true,
+        "note": "Game baseline essentiallyPK,total47.5(raw47.4),not numerically QB/injury adjusted; Wentz starting with Murray OUT known. Cook primary60.6%,baseline52.4%,not injury-adjusted/full-slate-proven. Final inactives pending at receipt review."
+      }
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "game": "Buffalo Bills @ Minnesota Vikings",
+      "event_ids": [
+        "401873051"
+      ],
+      "kickoff": "2026-11-10T01:15Z",
+      "line": null,
+      "net_usd": null,
+      "net_units": null,
+      "source_message_id": "phonemsg-01M71AQ42HGXZRPCEANWSXF9X2",
+      "source": "Owner iMessage Nov9 5:36PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
+      "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
+      "bet_id": "us-tn:01m70rwf21e28990jwmh1p4nhv",
+      "date": "2026-11-09T12:24:00-06:00",
+      "placed_at": "2026-11-09T12:24:00-06:00",
+      "stake_usd": 20.0,
+      "stake_units": 2.0,
+      "market": "anytime_touchdown",
+      "bet": "Straight: D.J. Moore anytime TD",
+      "selection": "D.J. Moore anytime TD",
+      "price": 350,
+      "original_price": 280,
+      "boost_pct": 25,
+      "potential_payout_usd": 90.0,
+      "potential_profit_usd": 70.0,
+      "implied_probability": 0.2222222222222222,
+      "payout_implied_probability": 0.2222222222222222,
+      "cashout_offer_usd": 20.0,
+      "receipt_filename": "image-2cd8ce45.png",
+      "source_receipt_sha256": "234efc287c71e6debe379ee3343ce87cb9250d84d18c6809ff50dfad2f308c7b",
+      "legs": [
+        {
+          "event": "Buffalo Bills @ Minnesota Vikings",
+          "event_id": "401873051",
+          "kickoff": "2026-11-10T01:15Z",
+          "hit": null,
+          "result": "pending",
+          "market": "anytime_touchdown",
+          "selection": "D.J. Moore",
+          "team": "BUF",
+          "line": null,
+          "price": 350,
+          "model_primary_probability": 0.275356765450639,
+          "model_baseline_probability": 0.345
+        }
+      ],
+      "model_at_placement": {
+        "available": true,
+        "note": "Existing Nov5 primary27.54%,baseline34.5%; boosted+350implies22.22%,raw gap5.31pp;unboosted+280implies26.32%,raw gap1.22pp. Unproven point estimate,not validated edge;no numerical injury effects. Final inactives pending at receipt review."
+      },
+      "notes": "Actual25%profit boost+280to+350. Same-game SGP hasCookTD/Over40.5/Vikings+7.5;30/3ucombined exposure. MooreTD aligns with total scoring but may compete withCookTD opportunities and affectspread. No cashout recorded. Private,not part of VOLS post."
     }
   ]
 }

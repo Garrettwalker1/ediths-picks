@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-09T23:37:33.144455+00:00",
+  "updated_at": "2026-11-10T04:59:34.443326+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12455,16 +12455,16 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Buffalo Bills @ Minnesota Vikings",
       "event_ids": [
         "401873051"
       ],
       "kickoff": "2026-11-10T01:15Z",
       "line": null,
-      "net_usd": null,
-      "net_units": null,
+      "net_usd": -10.0,
+      "net_units": -1.0,
       "source_message_id": "phonemsg-01M71AQ42HGXZRPCEANWSXF9X2",
       "source": "Owner iMessage Nov9 5:36PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
       "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
@@ -12491,65 +12491,82 @@
           "event": "Buffalo Bills @ Minnesota Vikings",
           "event_id": "401873051",
           "kickoff": "2026-11-10T01:15Z",
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "market": "alternate_spread",
           "selection": "Minnesota Vikings +7.5",
           "team": "MIN",
           "line": 7.5,
           "price": null,
           "model_margin_home": -0.15,
-          "model_home_win_probability": 0.491
+          "model_home_win_probability": 0.491,
+          "graded_at": "2026-11-10T04:59:34.443326+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "final_score": "Buffalo Bills23,Minnesota Vikings6",
+          "stat_note": "Minnesota lost17points;+7.5loses."
         },
         {
           "event": "Buffalo Bills @ Minnesota Vikings",
           "event_id": "401873051",
           "kickoff": "2026-11-10T01:15Z",
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "market": "alternate_total",
           "selection": "Over 40.5",
           "line": 40.5,
           "price": null,
           "model_total_raw": 47.4,
-          "model_total": 47.5
+          "model_total": 47.5,
+          "graded_at": "2026-11-10T04:59:34.443326+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "final_score": "Buffalo Bills23,Minnesota Vikings6",
+          "stat_note": "Final29points;Over40.5loses."
         },
         {
           "event": "Buffalo Bills @ Minnesota Vikings",
           "event_id": "401873051",
           "kickoff": "2026-11-10T01:15Z",
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "market": "anytime_touchdown",
           "selection": "James Cook",
           "team": "BUF",
           "line": null,
           "price": null,
           "model_primary_probability": 0.6059279678039939,
-          "model_baseline_probability": 0.524
+          "model_baseline_probability": 0.524,
+          "graded_at": "2026-11-10T04:59:34.443326+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "final_score": "Buffalo Bills23,Minnesota Vikings6",
+          "stat_note": "Cook31carries107yards1TD,5-yardrush6:17Q4."
         }
       ],
       "notes": "Actual TN combined receipt price; standalone leg prices not shown. Exact displayed return44.39 retained instead of inferring44.30 from rounded+343. Legs correlated; no validated joint hit probability. Private ticket is distinct from VOLS release. Same-game Moore single increases total exposure to30/3u.",
       "model_at_placement": {
         "available": true,
         "note": "Game baseline essentiallyPK,total47.5(raw47.4),not numerically QB/injury adjusted; Wentz starting with Murray OUT known. Cook primary60.6%,baseline52.4%,not injury-adjusted/full-slate-proven. Final inactives pending at receipt review."
-      }
+      },
+      "payout_usd": 0.0,
+      "settled_at": "2026-11-10T04:59:34.443326+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+      "settlement_note": "Final-score/scoring-play/boxscore grading. Live owner phone history rechecked10:59PMCT,no subsequent cashout/void/correction. OriginalOct6stats-grading/Oct9normal-settlement instructions. Receipt cashout buttons were offers only.",
+      "leg_note": "Minnesota lost17points;+7.5loses.; Final29points;Over40.5loses.; Cook31carries107yards1TD,5-yardrush6:17Q4."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Buffalo Bills @ Minnesota Vikings",
       "event_ids": [
         "401873051"
       ],
       "kickoff": "2026-11-10T01:15Z",
       "line": null,
-      "net_usd": null,
-      "net_units": null,
+      "net_usd": -20.0,
+      "net_units": -2.0,
       "source_message_id": "phonemsg-01M71AQ42HGXZRPCEANWSXF9X2",
       "source": "Owner iMessage Nov9 5:36PMCT, actual FanDuel TN receipt pixels inspected; exact displayed payout preserved. Cashout buttons are offers, not transactions.",
       "cashout_offer_note": "Offer only, not a transaction. No cashout recorded.",
@@ -12576,22 +12593,31 @@
           "event": "Buffalo Bills @ Minnesota Vikings",
           "event_id": "401873051",
           "kickoff": "2026-11-10T01:15Z",
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "market": "anytime_touchdown",
           "selection": "D.J. Moore",
           "team": "BUF",
           "line": null,
           "price": 350,
           "model_primary_probability": 0.275356765450639,
-          "model_baseline_probability": 0.345
+          "model_baseline_probability": 0.345,
+          "graded_at": "2026-11-10T04:59:34.443326+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "final_score": "Buffalo Bills23,Minnesota Vikings6",
+          "stat_note": "Moore3catches25yards0TD;1carry11yards0TD."
         }
       ],
       "model_at_placement": {
         "available": true,
         "note": "Existing Nov5 primary27.54%,baseline34.5%; boosted+350implies22.22%,raw gap5.31pp;unboosted+280implies26.32%,raw gap1.22pp. Unproven point estimate,not validated edge;no numerical injury effects. Final inactives pending at receipt review."
       },
-      "notes": "Actual25%profit boost+280to+350. Same-game SGP hasCookTD/Over40.5/Vikings+7.5;30/3ucombined exposure. MooreTD aligns with total scoring but may compete withCookTD opportunities and affectspread. No cashout recorded. Private,not part of VOLS post."
+      "notes": "Actual25%profit boost+280to+350. Same-game SGP hasCookTD/Over40.5/Vikings+7.5;30/3ucombined exposure. MooreTD aligns with total scoring but may compete withCookTD opportunities and affectspread. No cashout recorded. Private,not part of VOLS post.",
+      "payout_usd": 0.0,
+      "settled_at": "2026-11-10T04:59:34.443326+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+      "settlement_note": "Final-score/scoring-play/boxscore grading. Live owner phone history rechecked10:59PMCT,no subsequent cashout/void/correction. OriginalOct6stats-grading/Oct9normal-settlement instructions. Receipt cashout buttons were offers only.",
+      "leg_note": "Moore3catches25yards0TD;1carry11yards0TD."
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "fetched_at": "2026-11-10T04:59:34.443326+00:00",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+  "event_id": "401873051",
+  "status": {
+    "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+    },
+    "isTBDFlex": false
+  },
+  "scores": {
+    "MIN": 6,
+    "BUF": 23
+  },
+  "total": 29,
+  "player_stats": {
+    "4379399": {
+      "rushing": {
+        "CAR": "31",
+        "YDS": "107",
+        "AVG": "3.5",
+        "TD": "1",
+        "LONG": "11"
+      },
+      "receiving": {
+        "REC": "0",
+        "YDS": "0",
+        "AVG": "0.0",
+        "TD": "0",
+        "LONG": "0",
+        "TGTS": "1"
+      }
+    },
+    "3915416": {
+      "rushing": {
+        "CAR": "1",
+        "YDS": "11",
+        "AVG": "11.0",
+        "TD": "0",
+        "LONG": "11"
+      },
+      "receiving": {
+        "REC": "3",
+        "YDS": "25",
+        "AVG": "8.3",
+        "TD": "0",
+        "LONG": "15",
+        "TGTS": "5"
+      }
+    }
+  },
+  "scoring_plays": [
+    {
+      "text": "Tyler Bass 39 Yd Field Goal",
+      "period": 1,
+      "clock": "1:57",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "text": "Will Reichard 43 Yd Field Goal",
+      "period": 2,
+      "clock": "4:02",
+      "homeScore": 3,
+      "awayScore": 3
+    },
+    {
+      "text": "Keleki Latu 25 Yd pass from Josh Allen (Tyler Bass Kick)",
+      "period": 2,
+      "clock": "0:44",
+      "homeScore": 3,
+      "awayScore": 10
+    },
+    {
+      "text": "Will Reichard 53 Yd Field Goal ",
+      "period": 2,
+      "clock": "0:05",
+      "homeScore": 6,
+      "awayScore": 10
+    },
+    {
+      "text": "Tyler Bass 25 Yd Field Goal ",
+      "period": 3,
+      "clock": "6:03",
+      "homeScore": 6,
+      "awayScore": 13
+    },
+    {
+      "text": "James Cook III 5 Yd Rush (Tyler Bass Kick)",
+      "period": 4,
+      "clock": "6:17",
+      "homeScore": 6,
+      "awayScore": 20
+    },
+    {
+      "text": "Tyler Bass 52 Yd Field Goal",
+      "period": 4,
+      "clock": "4:40",
+      "homeScore": 6,
+      "awayScore": 23
+    }
+  ],
+  "game_model_at_seal": {
+    "margin_home": -0.15,
+    "total": 47.4
+  },
+  "caveat": "Outcome and leg grading, not causal injury attribution or a model validation claim."
+}

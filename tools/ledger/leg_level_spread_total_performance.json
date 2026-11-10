@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-09T04:49:36.915112+00:00",
+ "generated_at": "2026-11-10T04:59:34.607894+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 48,
+  "graded": 50,
   "wins": 30,
-  "losses": 18,
+  "losses": 20,
   "ungraded": 17
  },
  "by_sport": {
@@ -16,16 +16,16 @@
    "ungraded": 14
   },
   "NFL": {
-   "graded": 21,
+   "graded": 23,
    "wins": 11,
-   "losses": 10,
+   "losses": 12,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 20,
+  "graded": 22,
   "wins": 11,
-  "losses": 9,
+  "losses": 11,
   "ungraded": 1
  },
  "nfl_standard": {
@@ -747,6 +747,28 @@
    "sport": "NFL",
    "ticket": "3-leg SGP: Bears ML + Swift anytime TD + Under 47.5",
    "ticket_date": "2026-11-08",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Buffalo Bills @ Minnesota Vikings",
+   "market": "alternate_spread",
+   "selection": "Minnesota Vikings +7.5",
+   "line": 7.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Vikings +7.5 / Over 40.5 / James Cook anytime TD",
+   "ticket_date": "2026-11-09",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "Buffalo Bills @ Minnesota Vikings",
+   "market": "alternate_total",
+   "selection": "Over 40.5",
+   "line": 40.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Vikings +7.5 / Over 40.5 / James Cook anytime TD",
+   "ticket_date": "2026-11-09",
    "ticket_result": "loss",
    "hit": false
   }

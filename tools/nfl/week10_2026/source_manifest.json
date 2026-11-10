@@ -1,0 +1,34 @@
+[
+  {
+    "file": "espn_week9.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=9",
+    "requested_at": "2026-11-10T13:14:39.435678+00:00",
+    "received_at": "2026-11-10T13:14:39.668122+00:00",
+    "sha256": "4f291e3d65e69b62fd3aebc38fdc8832a679eec7ca9bf5ee00adf3790a156a86",
+    "bytes": 259888
+  },
+  {
+    "file": "espn_week10.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=10",
+    "requested_at": "2026-11-10T13:14:39.668334+00:00",
+    "received_at": "2026-11-10T13:14:39.758926+00:00",
+    "sha256": "518312eb0d8bbf6e52839fde3dbd7e48194092ec55fee396043bb3b2c07d29b9",
+    "bytes": 254339
+  },
+  {
+    "file": "cfb_week11.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=11&groups=80&limit=400",
+    "requested_at": "2026-11-10T13:14:39.759212+00:00",
+    "received_at": "2026-11-10T13:14:39.893597+00:00",
+    "sha256": "631f11d03ed4c14cff91944efa0d8c1a0bc610bdc31a9f8d36d4c7e70a78c750",
+    "bytes": 1268412
+  },
+  {
+    "file": "pbp_2026.parquet",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.parquet",
+    "requested_at": "2026-11-10T13:14:39.894317+00:00",
+    "received_at": "2026-11-10T13:14:40.219959+00:00",
+    "sha256": "1d0cf29edb44304e9b5f099eb649332ec395a9aad541a15877101c4c3684fb77",
+    "bytes": 10122151
+  }
+]

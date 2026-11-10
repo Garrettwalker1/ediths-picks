@@ -1,0 +1,2490 @@
+{
+ "built_at": "2026-11-10T13:16:29Z",
+ "source": "Open-Meteo hourly forecast (https://open-meteo.com/en/docs), city resolution, not stadium microclimate",
+ "coefficients": {
+  "wind_pass": 0.32476128972464136,
+  "wet_pass": -13.481174317717308
+ },
+ "games": [
+  {
+   "event_id": "401866458",
+   "name": "Western Michigan Broncos at Akron Zips",
+   "date": "2026-11-11T00:00Z",
+   "venue": {
+    "id": "3768",
+    "fullName": "InfoCision Stadium",
+    "indoor": false,
+    "city": "Akron",
+    "state": "OH"
+   },
+   "location": {
+    "latitude": 41.08144,
+    "longitude": -81.51901,
+    "name": "Akron",
+    "admin1": "Ohio",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-11T00:00",
+   "temperature_f": 48.4,
+   "wind_mph_kickoff": 1.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 5.0,
+    "gust_max_mph": 6.0
+   },
+   "pass_share_diff_home": 0.1809726848767489,
+   "baseline_margin_home_raw": -9.642881560854168,
+   "weather_delta_home_raw": 0.00999139683273569,
+   "weather_margin_home_raw": -9.632890164021433,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401866459",
+   "name": "Kent State Golden Flashes at Bowling Green Falcons",
+   "date": "2026-11-11T00:00Z",
+   "venue": {
+    "id": "3700",
+    "fullName": "Doyt L. Perry Stadium",
+    "indoor": false,
+    "city": "Bowling Green",
+    "state": "OH"
+   },
+   "location": {
+    "latitude": 41.37477,
+    "longitude": -83.65132,
+    "name": "Bowling Green",
+    "admin1": "Ohio",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-11T00:00",
+   "temperature_f": 51.5,
+   "wind_mph_kickoff": 5.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 5.9,
+    "gust_max_mph": 11.0
+   },
+   "pass_share_diff_home": -0.18040734574023198,
+   "baseline_margin_home_raw": 9.692563263676327,
+   "weather_delta_home_raw": -0.03456770014425425,
+   "weather_margin_home_raw": 9.657995563532072,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401866460",
+   "name": "Ohio Bobcats at Miami (OH) RedHawks",
+   "date": "2026-11-11T01:00Z",
+   "venue": {
+    "id": "3996",
+    "fullName": "Yager Stadium",
+    "indoor": false,
+    "city": "Oxford",
+    "state": "OH"
+   },
+   "location": {
+    "latitude": 39.507,
+    "longitude": -84.74523,
+    "name": "Oxford",
+    "admin1": "Ohio",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-11T01:00",
+   "temperature_f": 51.4,
+   "wind_mph_kickoff": 3.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 4.9,
+    "gust_max_mph": 6.7
+   },
+   "pass_share_diff_home": -0.12620199952182326,
+   "baseline_margin_home_raw": 1.8612131985721216,
+   "weather_delta_home_raw": -0.01475478868699292,
+   "weather_margin_home_raw": 1.8464584098851287,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401866461",
+   "name": "Buffalo Bulls at Ball State Cardinals",
+   "date": "2026-11-12T00:30Z",
+   "venue": {
+    "id": "3919",
+    "fullName": "Scheumann Stadium",
+    "indoor": false,
+    "city": "Muncie",
+    "state": "IN"
+   },
+   "location": {
+    "latitude": 40.19338,
+    "longitude": -85.38636,
+    "name": "Muncie",
+    "admin1": "Indiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-12T00:00",
+   "temperature_f": 55.0,
+   "wind_mph_kickoff": 7.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 62,
+    "rain_inches": 0,
+    "wind_max_mph": 11.1,
+    "gust_max_mph": 20.2
+   },
+   "pass_share_diff_home": 0.05070014867395645,
+   "baseline_margin_home_raw": -1.0140802300087568,
+   "weather_delta_home_raw": 0.011690466427535464,
+   "weather_margin_home_raw": -1.0023897635812213,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401866462",
+   "name": "Sacramento State Hornets at Central Michigan Chippewas",
+   "date": "2026-11-12T00:30Z",
+   "venue": {
+    "id": "3786",
+    "fullName": "Kelly/Shorts Stadium",
+    "indoor": false,
+    "city": "Mount Pleasant",
+    "state": "MI"
+   },
+   "location": {
+    "latitude": 43.59781,
+    "longitude": -84.76751,
+    "name": "Mount Pleasant",
+    "admin1": "Michigan",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-12T00:00",
+   "temperature_f": 44.9,
+   "wind_mph_kickoff": 3.5,
+   "precip_in_kickoff": 0.016,
+   "window": {
+    "rain_chance_max": 60,
+    "rain_inches": 0.088,
+    "wind_max_mph": 7.2,
+    "gust_max_mph": 11.4
+   },
+   "pass_share_diff_home": -0.10137947502801203,
+   "baseline_margin_home_raw": 12.271880526879015,
+   "weather_delta_home_raw": 1.3551909299197025,
+   "weather_margin_home_raw": 13.627071456798717,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401866463",
+   "name": "Massachusetts Minutemen at Toledo Rockets",
+   "date": "2026-11-12T00:30Z",
+   "venue": {
+    "id": "3739",
+    "fullName": "Glass Bowl",
+    "indoor": false,
+    "city": "Toledo",
+    "state": "OH"
+   },
+   "location": {
+    "latitude": 41.66394,
+    "longitude": -83.55521,
+    "name": "Toledo",
+    "admin1": "Ohio",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-12T00:00",
+   "temperature_f": 48.4,
+   "wind_mph_kickoff": 8.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 49,
+    "rain_inches": 0.004,
+    "wind_max_mph": 9.2,
+    "gust_max_mph": 21.5
+   },
+   "pass_share_diff_home": -0.12344328110137337,
+   "baseline_margin_home_raw": 12.263283496960362,
+   "weather_delta_home_raw": -0.03487795128514141,
+   "weather_margin_home_raw": 12.228405545675221,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862824",
+   "name": "Memphis Tigers at South Florida Bulls",
+   "date": "2026-11-13T01:00Z",
+   "venue": {
+    "id": "3886",
+    "fullName": "Raymond James Stadium",
+    "indoor": false,
+    "city": "Tampa",
+    "state": "FL"
+   },
+   "location": {
+    "latitude": 27.94752,
+    "longitude": -82.45843,
+    "name": "Tampa",
+    "admin1": "Florida",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-13T01:00",
+   "temperature_f": 73.2,
+   "wind_mph_kickoff": 6.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 7.2,
+    "gust_max_mph": 14.8
+   },
+   "pass_share_diff_home": -0.07579861111111119,
+   "baseline_margin_home_raw": 5.560239808621008,
+   "weather_delta_home_raw": -0.01624686010449546,
+   "weather_margin_home_raw": 5.543992948516512,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401869969",
+   "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
+   "date": "2026-11-13T02:00Z",
+   "venue": {
+    "id": "3817",
+    "fullName": "Malone Stadium",
+    "indoor": false,
+    "city": "Monroe",
+    "state": "LA"
+   },
+   "location": {
+    "latitude": 32.50931,
+    "longitude": -92.1193,
+    "name": "Monroe",
+    "admin1": "Louisiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-13T02:00",
+   "temperature_f": 57.8,
+   "wind_mph_kickoff": 5.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 5.6,
+    "gust_max_mph": 12.5
+   },
+   "pass_share_diff_home": 0.03485959798072141,
+   "baseline_margin_home_raw": -4.493665971463909,
+   "weather_delta_home_raw": 0.006000155439735843,
+   "weather_margin_home_raw": -4.487665816024173,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858293",
+   "name": "Florida State Seminoles at Pittsburgh Panthers",
+   "date": "2026-11-14T00:00Z",
+   "venue": {
+    "id": "3752",
+    "fullName": "Acrisure Stadium",
+    "indoor": false,
+    "city": "Pittsburgh",
+    "state": "PA"
+   },
+   "location": {
+    "latitude": 40.44062,
+    "longitude": -79.99589,
+    "name": "Pittsburgh",
+    "admin1": "Pennsylvania",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T00:00",
+   "temperature_f": 40.3,
+   "wind_mph_kickoff": 6.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 28,
+    "rain_inches": 0,
+    "wind_max_mph": 7.1,
+    "gust_max_mph": 13.4
+   },
+   "pass_share_diff_home": -0.0814038461538461,
+   "baseline_margin_home_raw": 2.4358140934960137,
+   "weather_delta_home_raw": -0.01824140446517385,
+   "weather_margin_home_raw": 2.4175726890308398,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858526",
+   "name": "Illinois Fighting Illini at UCLA Bruins",
+   "date": "2026-11-14T02:00Z",
+   "venue": {
+    "id": "1056",
+    "fullName": "Rose Bowl",
+    "indoor": false,
+    "city": "Pasadena",
+    "state": "CA"
+   },
+   "location": {
+    "latitude": 34.14778,
+    "longitude": -118.14452,
+    "name": "Pasadena",
+    "admin1": "California",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T02:00",
+   "temperature_f": 66.6,
+   "wind_mph_kickoff": 7.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 39,
+    "rain_inches": 0.008,
+    "wind_max_mph": 7.6,
+    "gust_max_mph": 8.7
+   },
+   "pass_share_diff_home": 0.002538717311206251,
+   "baseline_margin_home_raw": 3.7864514415808364,
+   "weather_delta_home_raw": 0.0006266026022575481,
+   "weather_margin_home_raw": 3.787078044183094,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856860",
+   "name": "Houston Cougars at Colorado Buffaloes",
+   "date": "2026-11-14T03:15Z",
+   "venue": {
+    "id": "3726",
+    "fullName": "Folsom Field",
+    "indoor": false,
+    "city": "Boulder",
+    "state": "CO"
+   },
+   "location": {
+    "latitude": 40.01499,
+    "longitude": -105.27055,
+    "name": "Boulder",
+    "admin1": "Colorado",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T03:00",
+   "temperature_f": 48.3,
+   "wind_mph_kickoff": 6.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.1,
+    "gust_max_mph": 5.1
+   },
+   "pass_share_diff_home": 0.08011677505069581,
+   "baseline_margin_home_raw": -0.8338994256320529,
+   "weather_delta_home_raw": 0.015871484588366194,
+   "weather_margin_home_raw": -0.8180279410436867,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858296",
+   "name": "Duke Blue Devils at Miami Hurricanes",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3948",
+    "fullName": "Hard Rock Stadium",
+    "indoor": false,
+    "city": "Miami Gardens",
+    "state": "FL"
+   },
+   "location": {
+    "latitude": 25.94204,
+    "longitude": -80.2456,
+    "name": "Miami Gardens",
+    "admin1": "Florida",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 72.4,
+   "wind_mph_kickoff": 14.0,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 14.0,
+    "gust_max_mph": 13.2
+   },
+   "pass_share_diff_home": 0.04828187770625014,
+   "baseline_margin_home_raw": 11.490334035398106,
+   "weather_delta_home_raw": 0.021952118823892884,
+   "weather_margin_home_raw": 11.512286154222,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858522",
+   "name": "Northwestern Wildcats at Ohio State Buckeyes",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3861",
+    "fullName": "Ohio Stadium",
+    "indoor": false,
+    "city": "Columbus",
+    "state": "OH"
+   },
+   "location": {
+    "latitude": 39.96118,
+    "longitude": -82.99879,
+    "name": "Columbus",
+    "admin1": "Ohio",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 41.8,
+   "wind_mph_kickoff": 8.5,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 9.8,
+    "gust_max_mph": 13.0
+   },
+   "pass_share_diff_home": 0.10384920858317903,
+   "baseline_margin_home_raw": 13.573315610347969,
+   "weather_delta_home_raw": 0.028667272478903036,
+   "weather_margin_home_raw": 13.601982882826873,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858301",
+   "name": "Wake Forest Demon Deacons at SMU Mustangs",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3735",
+    "fullName": "Gerald J. Ford Stadium",
+    "indoor": false,
+    "city": "Dallas",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 32.78306,
+    "longitude": -96.80667,
+    "name": "Dallas",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 61.8,
+   "wind_mph_kickoff": 11.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 11.1,
+    "gust_max_mph": 16.3
+   },
+   "pass_share_diff_home": -0.004447108081142681,
+   "baseline_margin_home_raw": -4.97733308871365,
+   "weather_delta_home_raw": -0.001603115897134217,
+   "weather_margin_home_raw": -4.978936204610784,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856859",
+   "name": "Cincinnati Bearcats at Iowa State Cyclones",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3772",
+    "fullName": "Jack Trice Stadium",
+    "indoor": false,
+    "city": "Ames",
+    "state": "IA"
+   },
+   "location": {
+    "latitude": 42.03471,
+    "longitude": -93.61994,
+    "name": "Ames",
+    "admin1": "Iowa",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 40.1,
+   "wind_mph_kickoff": 2.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 2.7,
+    "gust_max_mph": 3.1
+   },
+   "pass_share_diff_home": 0.01190270419759909,
+   "baseline_margin_home_raw": -0.15110057906546714,
+   "weather_delta_home_raw": 0.0010436951429342596,
+   "weather_margin_home_raw": -0.15005688392253289,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856886",
+   "name": "Auburn Tigers at Mississippi State Bulldogs",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3693",
+    "fullName": "Davis Wade Stadium",
+    "indoor": false,
+    "city": "Starkville",
+    "state": "MS"
+   },
+   "location": {
+    "latitude": 33.45049,
+    "longitude": -88.81961,
+    "name": "Starkville",
+    "admin1": "Mississippi",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 51.0,
+   "wind_mph_kickoff": 6.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.9,
+    "gust_max_mph": 8.1
+   },
+   "pass_share_diff_home": -0.011719679918627102,
+   "baseline_margin_home_raw": -0.6159770474263331,
+   "weather_delta_home_raw": -0.002626207872217989,
+   "weather_margin_home_raw": -0.6186032552985511,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858300",
+   "name": "Syracuse Orange at NC State Wolfpack",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3670",
+    "fullName": "Carter-Finley Stadium",
+    "indoor": false,
+    "city": "Raleigh",
+    "state": "NC"
+   },
+   "location": {
+    "latitude": 35.7721,
+    "longitude": -78.63861,
+    "name": "Raleigh",
+    "admin1": "North Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 49.9,
+   "wind_mph_kickoff": 11.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 12.3,
+    "gust_max_mph": 19.7
+   },
+   "pass_share_diff_home": 0.09339547772857582,
+   "baseline_margin_home_raw": 0.27554155367683286,
+   "weather_delta_home_raw": 0.035487545887850115,
+   "weather_margin_home_raw": 0.311029099564683,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858520",
+   "name": "Wisconsin Badgers at Maryland Terrapins",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3665",
+    "fullName": "SECU Stadium",
+    "indoor": false,
+    "city": "College Park",
+    "state": "MD"
+   },
+   "location": {
+    "latitude": 38.98067,
+    "longitude": -76.93692,
+    "name": "College Park",
+    "admin1": "Maryland",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 46.7,
+   "wind_mph_kickoff": 13.2,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 2,
+    "rain_inches": 0,
+    "wind_max_mph": 13.9,
+    "gust_max_mph": 25.7
+   },
+   "pass_share_diff_home": 0.09909702537930853,
+   "baseline_margin_home_raw": -2.532770132066722,
+   "weather_delta_home_raw": 0.04248139865647887,
+   "weather_margin_home_raw": -2.4902887334102433,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401861967",
+   "name": "James Madison Dukes at UConn Huskies",
+   "date": "2026-11-14T17:00Z",
+   "venue": {
+    "id": "3892",
+    "fullName": "Pratt & Whitney Stadium",
+    "indoor": false,
+    "city": "East Hartford",
+    "state": "CT"
+   },
+   "location": {
+    "latitude": 41.78232,
+    "longitude": -72.61203,
+    "name": "East Hartford",
+    "admin1": "Connecticut",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 38.1,
+   "wind_mph_kickoff": 9.6,
+   "precip_in_kickoff": 0.008,
+   "window": {
+    "rain_chance_max": 18,
+    "rain_inches": 0.075,
+    "wind_max_mph": 9.6,
+    "gust_max_mph": 21.9
+   },
+   "pass_share_diff_home": -0.07365516867157007,
+   "baseline_margin_home_raw": 2.1605324087681037,
+   "weather_delta_home_raw": -0.022963533669758493,
+   "weather_margin_home_raw": 2.1375688750983453,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858297",
+   "name": "Georgia Tech Yellow Jackets at Clemson Tigers",
+   "date": "2026-11-14T17:30Z",
+   "venue": {
+    "id": "3836",
+    "fullName": "Memorial Stadium (Clemson, SC)",
+    "indoor": false,
+    "city": "Clemson",
+    "state": "SC"
+   },
+   "location": {
+    "latitude": 34.68344,
+    "longitude": -82.83737,
+    "name": "Clemson",
+    "admin1": "South Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 53.0,
+   "wind_mph_kickoff": 1.2,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.8,
+    "gust_max_mph": 9.2
+   },
+   "pass_share_diff_home": -0.19125720671114854,
+   "baseline_margin_home_raw": 24.044125461755787,
+   "weather_delta_home_raw": -0.007453552454477392,
+   "weather_margin_home_raw": 24.036671909301308,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858525",
+   "name": "Nebraska Cornhuskers at Rutgers Scarlet Knights",
+   "date": "2026-11-14T17:30Z",
+   "venue": {
+    "id": "6577",
+    "fullName": "SHI Stadium",
+    "indoor": false,
+    "city": "Piscataway",
+    "state": "NJ"
+   },
+   "location": {
+    "latitude": 40.49927,
+    "longitude": -74.39904,
+    "name": "Piscataway",
+    "admin1": "New Jersey",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T17:00",
+   "temperature_f": 43.1,
+   "wind_mph_kickoff": 11.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 5,
+    "rain_inches": 0.008,
+    "wind_max_mph": 12.0,
+    "gust_max_mph": 23.9
+   },
+   "pass_share_diff_home": -0.14502338438790763,
+   "baseline_margin_home_raw": -7.335942354724682,
+   "weather_delta_home_raw": -0.05604659781131866,
+   "weather_margin_home_raw": -7.391988952536001,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856889",
+   "name": "Alabama Crimson Tide at Vanderbilt Commodores",
+   "date": "2026-11-14T17:45Z",
+   "venue": {
+    "id": "3973",
+    "fullName": "FirstBank Stadium",
+    "indoor": false,
+    "city": "Nashville",
+    "state": "TN"
+   },
+   "location": {
+    "latitude": 36.16589,
+    "longitude": -86.78444,
+    "name": "Nashville",
+    "admin1": "Tennessee",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T18:00",
+   "temperature_f": 47.4,
+   "wind_mph_kickoff": 5.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 5.5,
+    "gust_max_mph": 7.4
+   },
+   "pass_share_diff_home": 0.001118494925266167,
+   "baseline_margin_home_raw": -7.732867004256689,
+   "weather_delta_home_raw": 0.00019251924287435056,
+   "weather_margin_home_raw": -7.732674485013814,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862825",
+   "name": "East Carolina Pirates at Charlotte 49ers",
+   "date": "2026-11-14T18:00Z",
+   "venue": {
+    "id": "4418",
+    "fullName": "Jerry Richardson Stadium",
+    "indoor": false,
+    "city": "Charlotte",
+    "state": "NC"
+   },
+   "location": {
+    "latitude": 35.22709,
+    "longitude": -80.84313,
+    "name": "Charlotte",
+    "admin1": "North Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T18:00",
+   "temperature_f": 50.9,
+   "wind_mph_kickoff": 8.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 9.0,
+    "gust_max_mph": 13.0
+   },
+   "pass_share_diff_home": 0.13729663824694505,
+   "baseline_margin_home_raw": -5.811861966057079,
+   "weather_delta_home_raw": 0.036116792982667664,
+   "weather_margin_home_raw": -5.775745173074411,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862829",
+   "name": "UAB Blazers at Temple Owls",
+   "date": "2026-11-14T18:00Z",
+   "venue": {
+    "id": "3806",
+    "fullName": "Lincoln Financial Field",
+    "indoor": false,
+    "city": "Philadelphia",
+    "state": "PA"
+   },
+   "location": {
+    "latitude": 39.95238,
+    "longitude": -75.16362,
+    "name": "Philadelphia",
+    "admin1": "Pennsylvania",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T18:00",
+   "temperature_f": 44.7,
+   "wind_mph_kickoff": 13.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 5,
+    "rain_inches": 0,
+    "wind_max_mph": 14.6,
+    "gust_max_mph": 24.8
+   },
+   "pass_share_diff_home": 0.023588375739366563,
+   "baseline_margin_home_raw": 2.3983735301666655,
+   "weather_delta_home_raw": 0.010495010118847792,
+   "weather_margin_home_raw": 2.4088685402855132,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401869937",
+   "name": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+   "date": "2026-11-14T18:00Z",
+   "venue": {
+    "id": "3654",
+    "fullName": "Brooks Stadium (SC)",
+    "indoor": false,
+    "city": "Conway",
+    "state": "SC"
+   },
+   "location": {
+    "latitude": 33.836,
+    "longitude": -79.04781,
+    "name": "Conway",
+    "admin1": "South Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T18:00",
+   "temperature_f": 55.9,
+   "wind_mph_kickoff": 12.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 14.4,
+    "gust_max_mph": 19.2
+   },
+   "pass_share_diff_home": -0.018071228751479262,
+   "baseline_margin_home_raw": -1.939989471188099,
+   "weather_delta_home_raw": -0.0072186677341744936,
+   "weather_margin_home_raw": -1.9472081389222735,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856862",
+   "name": "Kansas State Wildcats at TCU Horned Frogs",
+   "date": "2026-11-14T19:00Z",
+   "venue": {
+    "id": "3616",
+    "fullName": "Amon G. Carter Stadium",
+    "indoor": false,
+    "city": "Fort Worth",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 32.72541,
+    "longitude": -97.32085,
+    "name": "Fort Worth",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T19:00",
+   "temperature_f": 66.4,
+   "wind_mph_kickoff": 10.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 3,
+    "rain_inches": 0,
+    "wind_max_mph": 11.0,
+    "gust_max_mph": 14.5
+   },
+   "pass_share_diff_home": 0.20859655488503548,
+   "baseline_margin_home_raw": 6.9968724410092396,
+   "weather_delta_home_raw": 0.0697764087824785,
+   "weather_margin_home_raw": 7.066648849791718,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862828",
+   "name": "Tulane Green Wave at Rice Owls",
+   "date": "2026-11-14T19:00Z",
+   "venue": {
+    "id": "3895",
+    "fullName": "First Community Stadium",
+    "indoor": false,
+    "city": "Houston",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 29.76328,
+    "longitude": -95.36327,
+    "name": "Houston",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T19:00",
+   "temperature_f": 72.4,
+   "wind_mph_kickoff": 14.8,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 6,
+    "rain_inches": 0,
+    "wind_max_mph": 14.8,
+    "gust_max_mph": 21.5
+   },
+   "pass_share_diff_home": -0.375979610750695,
+   "baseline_margin_home_raw": 6.908260207609587,
+   "weather_delta_home_raw": -0.1807133624803952,
+   "weather_margin_home_raw": 6.727546845129192,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401870769",
+   "name": "Kennesaw State Owls at Sam Houston Bearkats",
+   "date": "2026-11-14T19:00Z",
+   "venue": {
+    "id": "3647",
+    "fullName": "Elliott T. Bowers Stadium",
+    "indoor": false,
+    "city": "Huntsville",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 34.7304,
+    "longitude": -86.58594,
+    "name": "Huntsville",
+    "admin1": "Alabama",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T19:00",
+   "temperature_f": 49.8,
+   "wind_mph_kickoff": 5.8,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.8,
+    "gust_max_mph": 11.0
+   },
+   "pass_share_diff_home": 0.1037620266204583,
+   "baseline_margin_home_raw": -0.7723591221675337,
+   "weather_delta_home_raw": 0.01954477596202751,
+   "weather_margin_home_raw": -0.7528143462055061,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856888",
+   "name": "Tennessee Volunteers at Texas A&M Aggies",
+   "date": "2026-11-14T20:00Z",
+   "venue": {
+    "id": "3795",
+    "fullName": "Kyle Field",
+    "indoor": false,
+    "city": "College Station",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 30.62798,
+    "longitude": -96.33441,
+    "name": "College Station",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 71.8,
+   "wind_mph_kickoff": 13.4,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 9,
+    "rain_inches": 0.004,
+    "wind_max_mph": 14.1,
+    "gust_max_mph": 22.1
+   },
+   "pass_share_diff_home": 0.08259402934727605,
+   "baseline_margin_home_raw": 2.3328675888569177,
+   "weather_delta_home_raw": 0.03594328028246418,
+   "weather_margin_home_raw": 2.3688108691393817,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401870796",
+   "name": "New Mexico State Aggies at Missouri State Bears",
+   "date": "2026-11-14T20:00Z",
+   "venue": {
+    "id": "3878",
+    "fullName": "Robert W. Plaster Stadium",
+    "indoor": false,
+    "city": "Springfield",
+    "state": "MO"
+   },
+   "location": {
+    "latitude": 37.21533,
+    "longitude": -93.29824,
+    "name": "Springfield",
+    "admin1": "Missouri",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 49.9,
+   "wind_mph_kickoff": 2.2,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 4.3,
+    "gust_max_mph": 5.6
+   },
+   "pass_share_diff_home": 0.20034909911278742,
+   "baseline_margin_home_raw": 8.516806345623726,
+   "weather_delta_home_raw": 0.014314439001068546,
+   "weather_margin_home_raw": 8.531120784624795,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401871060",
+   "name": "Florida International Panthers at Delaware Blue Hens",
+   "date": "2026-11-14T20:00Z",
+   "venue": {
+    "id": "3695",
+    "fullName": "Delaware Stadium",
+    "indoor": false,
+    "city": "Newark",
+    "state": "DE"
+   },
+   "location": {
+    "latitude": 40.73566,
+    "longitude": -74.17237,
+    "name": "Newark",
+    "admin1": "New Jersey",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 44.9,
+   "wind_mph_kickoff": 11.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 3,
+    "rain_inches": 0,
+    "wind_max_mph": 12.3,
+    "gust_max_mph": 24.8
+   },
+   "pass_share_diff_home": 0.1622680043061503,
+   "baseline_margin_home_raw": 8.291101172680426,
+   "weather_delta_home_raw": 0.06271105596781573,
+   "weather_margin_home_raw": 8.353812228648241,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856883",
+   "name": "Missouri Tigers at Georgia Bulldogs",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3917",
+    "fullName": "Sanford Stadium",
+    "indoor": false,
+    "city": "Athens",
+    "state": "GA"
+   },
+   "location": {
+    "latitude": 33.96095,
+    "longitude": -83.37794,
+    "name": "Athens",
+    "admin1": "Georgia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 55.6,
+   "wind_mph_kickoff": 5.4,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 7.1,
+    "gust_max_mph": 20.6
+   },
+   "pass_share_diff_home": -0.10270443235608917,
+   "baseline_margin_home_raw": 11.747738424632505,
+   "weather_delta_home_raw": -0.018011388912696383,
+   "weather_margin_home_raw": 11.729727035719808,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858518",
+   "name": "USC Trojans at Indiana Hoosiers",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3830",
+    "fullName": "Memorial Stadium (Bloomington, IN)",
+    "indoor": false,
+    "city": "Bloomington",
+    "state": "IN"
+   },
+   "location": {
+    "latitude": 39.16533,
+    "longitude": -86.52639,
+    "name": "Bloomington",
+    "admin1": "Indiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 45.5,
+   "wind_mph_kickoff": 8.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 8.3,
+    "gust_max_mph": 12.3
+   },
+   "pass_share_diff_home": -0.060446130761174666,
+   "baseline_margin_home_raw": 6.013639945617032,
+   "weather_delta_home_raw": -0.015900756341739354,
+   "weather_margin_home_raw": 5.9977391892752925,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856858",
+   "name": "Baylor Bears at BYU Cougars",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3801",
+    "fullName": "LaVell Edwards Stadium",
+    "indoor": false,
+    "city": "Provo",
+    "state": "UT"
+   },
+   "location": {
+    "latitude": 40.23384,
+    "longitude": -111.65853,
+    "name": "Provo",
+    "admin1": "Utah",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 47.8,
+   "wind_mph_kickoff": 6.3,
+   "precip_in_kickoff": 0.028,
+   "window": {
+    "rain_chance_max": 60,
+    "rain_inches": 0.115,
+    "wind_max_mph": 6.3,
+    "gust_max_mph": 9.8
+   },
+   "pass_share_diff_home": 0.06112830720033102,
+   "baseline_margin_home_raw": 1.0468168471861041,
+   "weather_delta_home_raw": -0.8115745371470465,
+   "weather_margin_home_raw": 0.2352423100390576,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858294",
+   "name": "Boston College Eagles at Notre Dame Fighting Irish",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3855",
+    "fullName": "Notre Dame Stadium",
+    "indoor": false,
+    "city": "Notre Dame",
+    "state": "IN"
+   },
+   "location": {
+    "latitude": 41.70019,
+    "longitude": -86.23793,
+    "name": "Notre Dame",
+    "admin1": "Indiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 38.8,
+   "wind_mph_kickoff": 9.4,
+   "precip_in_kickoff": 0.016,
+   "window": {
+    "rain_chance_max": 6,
+    "rain_inches": 0.032,
+    "wind_max_mph": 10.2,
+    "gust_max_mph": 13.9
+   },
+   "pass_share_diff_home": 0.08213470874348044,
+   "baseline_margin_home_raw": 25.976030503489806,
+   "weather_delta_home_raw": -1.0821986025996706,
+   "weather_margin_home_raw": 24.893831900890135,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858523",
+   "name": "Michigan Wolverines at Oregon Ducks",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3626",
+    "fullName": "Autzen Stadium",
+    "indoor": false,
+    "city": "Eugene",
+    "state": "OR"
+   },
+   "location": {
+    "latitude": 44.05207,
+    "longitude": -123.08675,
+    "name": "Eugene",
+    "admin1": "Oregon",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 52.9,
+   "wind_mph_kickoff": 7.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 45,
+    "rain_inches": 0.012,
+    "wind_max_mph": 8.1,
+    "gust_max_mph": 22.8
+   },
+   "pass_share_diff_home": 0.07512832911769085,
+   "baseline_margin_home_raw": 12.774511444891353,
+   "weather_delta_home_raw": 0.01732312887197421,
+   "weather_margin_home_raw": 12.791834573763326,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856857",
+   "name": "Arizona State Sun Devils at UCF Knights",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3652",
+    "fullName": "Acrisure Bounce House",
+    "indoor": false,
+    "city": "Orlando",
+    "state": "FL"
+   },
+   "location": {
+    "latitude": 28.53834,
+    "longitude": -81.37924,
+    "name": "Orlando",
+    "admin1": "Florida",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 67.7,
+   "wind_mph_kickoff": 8.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 9.0,
+    "gust_max_mph": 11.9
+   },
+   "pass_share_diff_home": -0.00972414656768561,
+   "baseline_margin_home_raw": -0.2805495320188376,
+   "weather_delta_home_raw": -0.0025580013684423485,
+   "weather_margin_home_raw": -0.28310753338727995,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858295",
+   "name": "California Golden Bears at Virginia Cavaliers",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3923",
+    "fullName": "Scott Stadium",
+    "indoor": false,
+    "city": "Charlottesville",
+    "state": "VA"
+   },
+   "location": {
+    "latitude": 38.02931,
+    "longitude": -78.47668,
+    "name": "Charlottesville",
+    "admin1": "Virginia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 49.7,
+   "wind_mph_kickoff": 11.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 11.9,
+    "gust_max_mph": 25.3
+   },
+   "pass_share_diff_home": -0.19243199365342067,
+   "baseline_margin_home_raw": 8.410481321815727,
+   "weather_delta_home_raw": -0.07436841030737099,
+   "weather_margin_home_raw": 8.336112911508355,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862826",
+   "name": "Florida Atlantic Owls at Tulsa Golden Hurricane",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3674",
+    "fullName": "H. A. Chapman Stadium",
+    "indoor": false,
+    "city": "Tulsa",
+    "state": "OK"
+   },
+   "location": {
+    "latitude": 36.15398,
+    "longitude": -95.99277,
+    "name": "Tulsa",
+    "admin1": "Oklahoma",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 55.5,
+   "wind_mph_kickoff": 5.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 5.9,
+    "gust_max_mph": 24.6
+   },
+   "pass_share_diff_home": -0.03223613522315938,
+   "baseline_margin_home_raw": 12.296791517321296,
+   "weather_delta_home_raw": -0.00586266735645426,
+   "weather_margin_home_raw": 12.29092884996484,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401864536",
+   "name": "Nevada Wolf Pack at Northern Illinois Huskies",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3764",
+    "fullName": "Huskie Stadium",
+    "indoor": false,
+    "city": "Dekalb",
+    "state": "IL"
+   },
+   "location": {
+    "latitude": 41.92947,
+    "longitude": -88.75036,
+    "name": "DeKalb",
+    "admin1": "Illinois",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 41.5,
+   "wind_mph_kickoff": 9.2,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 9.2,
+    "gust_max_mph": 11.4
+   },
+   "pass_share_diff_home": -0.11912819917446316,
+   "baseline_margin_home_raw": 2.0129828724324828,
+   "weather_delta_home_raw": -0.035593169397954795,
+   "weather_margin_home_raw": 1.977389703034528,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401869952",
+   "name": "Georgia Southern Eagles at Georgia State Panthers",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "4246",
+    "fullName": "Center Parc Stadium",
+    "indoor": false,
+    "city": "Atlanta",
+    "state": "GA"
+   },
+   "location": {
+    "latitude": 33.749,
+    "longitude": -84.38798,
+    "name": "Atlanta",
+    "admin1": "Georgia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 52.5,
+   "wind_mph_kickoff": 10.0,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 10.3,
+    "gust_max_mph": 13.6
+   },
+   "pass_share_diff_home": -0.23015858978894,
+   "baseline_margin_home_raw": -4.730089797330812,
+   "weather_delta_home_raw": -0.07474660046106082,
+   "weather_margin_home_raw": -4.804836397791872,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401870752",
+   "name": "Jacksonville State Gamecocks at Western Kentucky Hilltoppers",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3796",
+    "fullName": "Houchens Industries-L.T. Smith Stadium",
+    "indoor": false,
+    "city": "Bowling Green",
+    "state": "KY"
+   },
+   "location": {
+    "latitude": 36.99032,
+    "longitude": -86.4436,
+    "name": "Bowling Green",
+    "admin1": "Kentucky",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 47.9,
+   "wind_mph_kickoff": 8.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 8.1,
+    "gust_max_mph": 7.4
+   },
+   "pass_share_diff_home": -0.03810868715648974,
+   "baseline_margin_home_raw": 0.5544036026762376,
+   "weather_delta_home_raw": -0.010024743376430131,
+   "weather_margin_home_raw": 0.5443788592998074,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401871061",
+   "name": "Middle Tennessee Blue Raiders at Liberty Flames",
+   "date": "2026-11-14T20:30Z",
+   "venue": {
+    "id": "3992",
+    "fullName": "Williams Stadium (VA)",
+    "indoor": false,
+    "city": "Lynchburg",
+    "state": "VA"
+   },
+   "location": {
+    "latitude": 37.41375,
+    "longitude": -79.14225,
+    "name": "Lynchburg",
+    "admin1": "Virginia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T20:00",
+   "temperature_f": 49.2,
+   "wind_mph_kickoff": 12.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 12.3,
+    "gust_max_mph": 24.6
+   },
+   "pass_share_diff_home": -0.06920494136821043,
+   "baseline_margin_home_raw": 18.25662670306461,
+   "weather_delta_home_raw": -0.027644355797291593,
+   "weather_margin_home_raw": 18.22898234726732,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401860916",
+   "name": "Fresno State Bulldogs at Texas State Bobcats",
+   "date": "2026-11-14T21:00Z",
+   "venue": {
+    "id": "3644",
+    "fullName": "UFCU Stadium",
+    "indoor": false,
+    "city": "San Marcos",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 29.88327,
+    "longitude": -97.94139,
+    "name": "San Marcos",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T21:00",
+   "temperature_f": 62.9,
+   "wind_mph_kickoff": 6.4,
+   "precip_in_kickoff": 0.193,
+   "window": {
+    "rain_chance_max": 34,
+    "rain_inches": 0.571,
+    "wind_max_mph": 12.9,
+    "gust_max_mph": 18.6
+   },
+   "pass_share_diff_home": -0.22100840336134453,
+   "baseline_margin_home_raw": 13.056990243556594,
+   "weather_delta_home_raw": 2.9335168279606725,
+   "weather_margin_home_raw": 15.990507071517268,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856887",
+   "name": "Ole Miss Rebels at Oklahoma Sooners",
+   "date": "2026-11-14T21:15Z",
+   "venue": {
+    "id": "3835",
+    "fullName": "Memorial Stadium (Norman, OK)",
+    "indoor": false,
+    "city": "Norman",
+    "state": "OK"
+   },
+   "location": {
+    "latitude": 35.22257,
+    "longitude": -97.43948,
+    "name": "Norman",
+    "admin1": "Oklahoma",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T21:00",
+   "temperature_f": 59.0,
+   "wind_mph_kickoff": 11.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 22,
+    "rain_inches": 0,
+    "wind_max_mph": 11.3,
+    "gust_max_mph": 21.9
+   },
+   "pass_share_diff_home": 0.0717252133946159,
+   "baseline_margin_home_raw": 2.553600858802851,
+   "weather_delta_home_raw": 0.026321737272825965,
+   "weather_margin_home_raw": 2.579922596075677,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858521",
+   "name": "Washington Huskies at Michigan State Spartans",
+   "date": "2026-11-14T21:15Z",
+   "venue": {
+    "id": "3936",
+    "fullName": "Spartan Stadium",
+    "indoor": false,
+    "city": "East Lansing",
+    "state": "MI"
+   },
+   "location": {
+    "latitude": 42.73698,
+    "longitude": -84.48387,
+    "name": "East Lansing",
+    "admin1": "Michigan",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T21:00",
+   "temperature_f": 42.5,
+   "wind_mph_kickoff": 8.2,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 8.2,
+    "gust_max_mph": 9.4
+   },
+   "pass_share_diff_home": -0.08551732229178122,
+   "baseline_margin_home_raw": -5.11581267381318,
+   "weather_delta_home_raw": -0.022773627022646886,
+   "weather_margin_home_raw": -5.1385863008358275,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401871099",
+   "name": "Southern Miss Golden Eagles at Louisiana Tech Bulldogs",
+   "date": "2026-11-14T22:00Z",
+   "venue": {
+    "id": "3776",
+    "fullName": "Joe Aillet Stadium",
+    "indoor": false,
+    "city": "Ruston",
+    "state": "LA"
+   },
+   "location": {
+    "latitude": 32.52321,
+    "longitude": -92.63793,
+    "name": "Ruston",
+    "admin1": "Louisiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T22:00",
+   "temperature_f": 60.7,
+   "wind_mph_kickoff": 6.5,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.6,
+    "gust_max_mph": 22.4
+   },
+   "pass_share_diff_home": 0.11607250391424784,
+   "baseline_margin_home_raw": 16.134673796268842,
+   "weather_delta_home_raw": 0.02450230644729375,
+   "weather_margin_home_raw": 16.159176102716135,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856861",
+   "name": "Kansas Jayhawks at West Virginia Mountaineers",
+   "date": "2026-11-14T22:30Z",
+   "venue": {
+    "id": "3842",
+    "fullName": "Milan Puskar Stadium",
+    "indoor": false,
+    "city": "Morgantown",
+    "state": "WV"
+   },
+   "location": {
+    "latitude": 39.62953,
+    "longitude": -79.9559,
+    "name": "Morgantown",
+    "admin1": "West Virginia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T22:00",
+   "temperature_f": 37.4,
+   "wind_mph_kickoff": 8.8,
+   "precip_in_kickoff": 0.004,
+   "window": {
+    "rain_chance_max": 15,
+    "rain_inches": 0.004,
+    "wind_max_mph": 8.8,
+    "gust_max_mph": 25.1
+   },
+   "pass_share_diff_home": 0.0035026208299002715,
+   "baseline_margin_home_raw": 1.9126014975414707,
+   "weather_delta_home_raw": 0.0010010137791586291,
+   "weather_margin_home_raw": 1.9136025113206294,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401860914",
+   "name": "Oregon State Beavers at Boise State Broncos",
+   "date": "2026-11-14T23:00Z",
+   "venue": {
+    "id": "3653",
+    "fullName": "Albertsons Stadium",
+    "indoor": false,
+    "city": "Boise",
+    "state": "ID"
+   },
+   "location": {
+    "latitude": 43.6135,
+    "longitude": -116.20345,
+    "name": "Boise",
+    "admin1": "Idaho",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T23:00",
+   "temperature_f": 54.7,
+   "wind_mph_kickoff": 3.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 25,
+    "rain_inches": 0.008,
+    "wind_max_mph": 4.0,
+    "gust_max_mph": 11.6
+   },
+   "pass_share_diff_home": -0.2065229857915829,
+   "baseline_margin_home_raw": 15.57577180753183,
+   "weather_delta_home_raw": -0.024145441640444968,
+   "weather_margin_home_raw": 15.551626365891384,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401869928",
+   "name": "App State Mountaineers at Marshall Thundering Herd",
+   "date": "2026-11-14T23:00Z",
+   "venue": {
+    "id": "3775",
+    "fullName": "Joan C. Edwards Stadium",
+    "indoor": false,
+    "city": "Huntington",
+    "state": "WV"
+   },
+   "location": {
+    "latitude": 38.41925,
+    "longitude": -82.44515,
+    "name": "Huntington",
+    "admin1": "West Virginia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T23:00",
+   "temperature_f": 38.3,
+   "wind_mph_kickoff": 3.4,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 3.4,
+    "gust_max_mph": 3.1
+   },
+   "pass_share_diff_home": -0.24092584740262551,
+   "baseline_margin_home_raw": 6.549685597229721,
+   "weather_delta_home_raw": -0.026602752236362787,
+   "weather_margin_home_raw": 6.523082844993358,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856884",
+   "name": "Florida Gators at Kentucky Wildcats",
+   "date": "2026-11-14T23:15Z",
+   "venue": {
+    "id": "3683",
+    "fullName": "Kroger Field",
+    "indoor": false,
+    "city": "Lexington",
+    "state": "KY"
+   },
+   "location": {
+    "latitude": 37.98869,
+    "longitude": -84.47772,
+    "name": "Lexington",
+    "admin1": "Kentucky",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-14T23:00",
+   "temperature_f": 37.8,
+   "wind_mph_kickoff": 6.8,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.8,
+    "gust_max_mph": 6.5
+   },
+   "pass_share_diff_home": -0.044491911597174805,
+   "baseline_margin_home_raw": 0.9626876515503273,
+   "weather_delta_home_raw": -0.009825490402976986,
+   "weather_margin_home_raw": 0.9528621611473503,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858298",
+   "name": "Louisville Cardinals at North Carolina Tar Heels",
+   "date": "2026-11-15T00:00Z",
+   "venue": {
+    "id": "3787",
+    "fullName": "Kenan Stadium",
+    "indoor": false,
+    "city": "Chapel Hill",
+    "state": "NC"
+   },
+   "location": {
+    "latitude": 35.9132,
+    "longitude": -79.05584,
+    "name": "Chapel Hill",
+    "admin1": "North Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 41.7,
+   "wind_mph_kickoff": 10.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 10.1,
+    "gust_max_mph": 24.4
+   },
+   "pass_share_diff_home": 0.23370610894728328,
+   "baseline_margin_home_raw": -7.511260324348542,
+   "weather_delta_home_raw": 0.07665768433182973,
+   "weather_margin_home_raw": -7.4346026400167124,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858524",
+   "name": "Minnesota Golden Gophers at Penn State Nittany Lions",
+   "date": "2026-11-15T00:00Z",
+   "venue": {
+    "id": "3632",
+    "fullName": "Beaver Stadium",
+    "indoor": false,
+    "city": "University Park",
+    "state": "PA"
+   },
+   "location": {
+    "latitude": 37.44188,
+    "longitude": -122.14302,
+    "name": "Palo Alto",
+    "admin1": "California",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 61.1,
+   "wind_mph_kickoff": 5.0,
+   "precip_in_kickoff": 0.008,
+   "window": {
+    "rain_chance_max": 27,
+    "rain_inches": 0.008,
+    "wind_max_mph": 5.0,
+    "gust_max_mph": 11.6
+   },
+   "pass_share_diff_home": -0.08279860842674913,
+   "baseline_margin_home_raw": 12.1047059009822,
+   "weather_delta_home_raw": -0.013444891430038302,
+   "weather_margin_home_raw": 12.091261009552161,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401864538",
+   "name": "San Jos\u00e9 State Spartans at Air Force Falcons",
+   "date": "2026-11-15T00:00Z",
+   "venue": {
+    "id": "3713",
+    "fullName": "Falcon Stadium",
+    "indoor": false,
+    "city": "USAF Academy",
+    "state": "CO"
+   },
+   "location": {
+    "latitude": 38.75764,
+    "longitude": -104.30059,
+    "name": "USAF Academy Bullseye Auxiliary Airfield",
+    "admin1": "Colorado",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 48.5,
+   "wind_mph_kickoff": 6.3,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 15,
+    "rain_inches": 0,
+    "wind_max_mph": 7.7,
+    "gust_max_mph": 14.1
+   },
+   "pass_share_diff_home": -0.5162386294061051,
+   "baseline_margin_home_raw": 5.192507493321745,
+   "weather_delta_home_raw": -0.10562222354771295,
+   "weather_margin_home_raw": 5.086885269774032,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401871100",
+   "name": "Troy Trojans at South Alabama Jaguars",
+   "date": "2026-11-15T00:00Z",
+   "venue": {
+    "id": "6526",
+    "fullName": "Hancock Whitney Stadium",
+    "indoor": false,
+    "city": "Mobile",
+    "state": "AL"
+   },
+   "location": {
+    "latitude": 30.69436,
+    "longitude": -88.04305,
+    "name": "Mobile",
+    "admin1": "Alabama",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 52.9,
+   "wind_mph_kickoff": 4.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 5.4,
+    "gust_max_mph": 9.8
+   },
+   "pass_share_diff_home": -0.11229305433052506,
+   "baseline_margin_home_raw": 8.473541305195845,
+   "weather_delta_home_raw": -0.017869534204235267,
+   "weather_margin_home_raw": 8.455671770991609,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856864",
+   "name": "Utah Utes at Arizona Wildcats",
+   "date": "2026-11-15T00:30Z",
+   "venue": {
+    "id": "3619",
+    "fullName": "Casino Del Sol Stadium",
+    "indoor": false,
+    "city": "Tucson",
+    "state": "AZ"
+   },
+   "location": {
+    "latitude": 32.22174,
+    "longitude": -110.92648,
+    "name": "Tucson",
+    "admin1": "Arizona",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 66.1,
+   "wind_mph_kickoff": 14.4,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 12,
+    "rain_inches": 0,
+    "wind_max_mph": 14.4,
+    "gust_max_mph": 17.7
+   },
+   "pass_share_diff_home": 0.20908492298189252,
+   "baseline_margin_home_raw": 2.027013803520627,
+   "weather_delta_home_raw": 0.09777987251939046,
+   "weather_margin_home_raw": 2.1247936760400177,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856885",
+   "name": "Texas Longhorns at LSU Tigers",
+   "date": "2026-11-15T00:30Z",
+   "venue": {
+    "id": "3958",
+    "fullName": "Tiger Stadium (LA)",
+    "indoor": false,
+    "city": "Baton Rouge",
+    "state": "LA"
+   },
+   "location": {
+    "latitude": 30.44332,
+    "longitude": -91.18747,
+    "name": "Baton Rouge",
+    "admin1": "Louisiana",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 60.7,
+   "wind_mph_kickoff": 6.5,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 6.5,
+    "gust_max_mph": 20.4
+   },
+   "pass_share_diff_home": 0.1056356755319322,
+   "baseline_margin_home_raw": 0.43075855017394904,
+   "weather_delta_home_raw": 0.022299145847344628,
+   "weather_margin_home_raw": 0.45305769602129364,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858519",
+   "name": "Purdue Boilermakers at Iowa Hawkeyes",
+   "date": "2026-11-15T00:30Z",
+   "venue": {
+    "id": "3793",
+    "fullName": "Kinnick Stadium",
+    "indoor": false,
+    "city": "Iowa City",
+    "state": "IA"
+   },
+   "location": {
+    "latitude": 41.66113,
+    "longitude": -91.53017,
+    "name": "Iowa City",
+    "admin1": "Iowa",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 36.2,
+   "wind_mph_kickoff": 4.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 1,
+    "rain_inches": 0,
+    "wind_max_mph": 5.2,
+    "gust_max_mph": 8.5
+   },
+   "pass_share_diff_home": -0.07615129507577345,
+   "baseline_margin_home_raw": 14.25600415719899,
+   "weather_delta_home_raw": -0.010139707049234066,
+   "weather_margin_home_raw": 14.245864450149757,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401858299",
+   "name": "Stanford Cardinal at Virginia Tech Hokies",
+   "date": "2026-11-15T00:30Z",
+   "venue": {
+    "id": "3799",
+    "fullName": "Lane Stadium",
+    "indoor": false,
+    "city": "Blacksburg",
+    "state": "VA"
+   },
+   "location": {
+    "latitude": 37.22957,
+    "longitude": -80.41394,
+    "name": "Blacksburg",
+    "admin1": "Virginia",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 32.1,
+   "wind_mph_kickoff": 9.0,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 9.0,
+    "gust_max_mph": 26.6
+   },
+   "pass_share_diff_home": 0.025949775057647728,
+   "baseline_margin_home_raw": 12.954545425608533,
+   "weather_delta_home_raw": 0.0075847341742074055,
+   "weather_margin_home_raw": 12.96213015978274,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401864539",
+   "name": "UNLV Rebels at New Mexico Lobos",
+   "date": "2026-11-15T00:30Z",
+   "venue": {
+    "id": "3971",
+    "fullName": "University Stadium (NM)",
+    "indoor": false,
+    "city": "Albuquerque",
+    "state": "NM"
+   },
+   "location": {
+    "latitude": 35.08449,
+    "longitude": -106.65114,
+    "name": "Albuquerque",
+    "admin1": "New Mexico",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T00:00",
+   "temperature_f": 59.6,
+   "wind_mph_kickoff": 15.9,
+   "precip_in_kickoff": 0.008,
+   "window": {
+    "rain_chance_max": 32,
+    "rain_inches": 0.11,
+    "wind_max_mph": 15.9,
+    "gust_max_mph": 28.2
+   },
+   "pass_share_diff_home": -0.17675274706524707,
+   "baseline_margin_home_raw": 11.195402297804614,
+   "weather_delta_home_raw": -0.09126989565785991,
+   "weather_margin_home_raw": 11.104132402146755,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856882",
+   "name": "South Carolina Gamecocks at Arkansas Razorbacks",
+   "date": "2026-11-15T00:45Z",
+   "venue": {
+    "id": "3887",
+    "fullName": "Donald W. Reynolds Razorback Stadium",
+    "indoor": false,
+    "city": "Fayetteville",
+    "state": "AR"
+   },
+   "location": {
+    "latitude": 35.05266,
+    "longitude": -78.87836,
+    "name": "Fayetteville",
+    "admin1": "North Carolina",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T01:00",
+   "temperature_f": 45.1,
+   "wind_mph_kickoff": 11.7,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 0,
+    "rain_inches": 0,
+    "wind_max_mph": 11.7,
+    "gust_max_mph": 23.9
+   },
+   "pass_share_diff_home": -0.05169876951643937,
+   "baseline_margin_home_raw": -6.847894175196761,
+   "weather_delta_home_raw": -0.019644018106442913,
+   "weather_margin_home_raw": -6.867538193303204,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401862827",
+   "name": "North Texas Mean Green at UTSA Roadrunners",
+   "date": "2026-11-15T02:00Z",
+   "venue": {
+    "id": "3604",
+    "fullName": "Alamodome",
+    "indoor": true,
+    "city": "San Antonio",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 29.42412,
+    "longitude": -98.49363,
+    "name": "San Antonio",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T02:00",
+   "temperature_f": 61.5,
+   "wind_mph_kickoff": 13.4,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 33,
+    "rain_inches": 0,
+    "wind_max_mph": 15.7,
+    "gust_max_mph": 26.6
+   },
+   "pass_share_diff_home": -0.06440764535026833,
+   "baseline_margin_home_raw": -0.6464117460598402,
+   "weather_delta_home_raw": 0.0,
+   "weather_margin_home_raw": -0.6464117460598402,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401856863",
+   "name": "Texas Tech Red Raiders at Oklahoma State Cowboys",
+   "date": "2026-11-15T02:30Z",
+   "venue": {
+    "id": "3646",
+    "fullName": "Boone Pickens Stadium",
+    "indoor": false,
+    "city": "Stillwater",
+    "state": "OK"
+   },
+   "location": {
+    "latitude": 36.11561,
+    "longitude": -97.05837,
+    "name": "Stillwater",
+    "admin1": "Oklahoma",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T02:00",
+   "temperature_f": 47.7,
+   "wind_mph_kickoff": 9.6,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 15,
+    "rain_inches": 0,
+    "wind_max_mph": 10.6,
+    "gust_max_mph": 36.9
+   },
+   "pass_share_diff_home": 0.1714440011412165,
+   "baseline_margin_home_raw": -7.293374567820464,
+   "weather_delta_home_raw": 0.05345123992912738,
+   "weather_margin_home_raw": -7.239923327891336,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401860915",
+   "name": "Utah State Aggies at San Diego State Aztecs",
+   "date": "2026-11-15T02:30Z",
+   "venue": {
+    "id": "7311",
+    "fullName": "Snapdragon Stadium",
+    "indoor": false,
+    "city": "San Diego",
+    "state": "CA"
+   },
+   "location": {
+    "latitude": 32.71571,
+    "longitude": -117.16472,
+    "name": "San Diego",
+    "admin1": "California",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T02:00",
+   "temperature_f": 67.5,
+   "wind_mph_kickoff": 10.3,
+   "precip_in_kickoff": 0.004,
+   "window": {
+    "rain_chance_max": 30,
+    "rain_inches": 0.028,
+    "wind_max_mph": 10.3,
+    "gust_max_mph": 10.1
+   },
+   "pass_share_diff_home": -0.024353452688913313,
+   "baseline_margin_home_raw": -0.2174746118319817,
+   "weather_delta_home_raw": -0.008146330465634509,
+   "weather_margin_home_raw": -0.2256209422976162,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401864540",
+   "name": "Wyoming Cowboys at UTEP Miners",
+   "date": "2026-11-15T03:00Z",
+   "venue": {
+    "id": "3946",
+    "fullName": "Sun Bowl",
+    "indoor": false,
+    "city": "El Paso",
+    "state": "TX"
+   },
+   "location": {
+    "latitude": 31.75872,
+    "longitude": -106.48693,
+    "name": "El Paso",
+    "admin1": "Texas",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T03:00",
+   "temperature_f": 63.6,
+   "wind_mph_kickoff": 18.1,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 9,
+    "rain_inches": 0,
+    "wind_max_mph": 18.1,
+    "gust_max_mph": 28.4
+   },
+   "pass_share_diff_home": 0.17347230074278897,
+   "baseline_margin_home_raw": -8.450421241971725,
+   "weather_delta_home_raw": 0.10197012949851951,
+   "weather_margin_home_raw": -8.348451112473205,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401860917",
+   "name": "Colorado State Rams at Washington State Cougars",
+   "date": "2026-11-15T03:30Z",
+   "venue": {
+    "id": "3820",
+    "fullName": "Martin Stadium",
+    "indoor": false,
+    "city": "Pullman",
+    "state": "WA"
+   },
+   "location": {
+    "latitude": 46.73127,
+    "longitude": -117.17962,
+    "name": "Pullman",
+    "admin1": "Washington",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T03:00",
+   "temperature_f": 48.6,
+   "wind_mph_kickoff": 4.4,
+   "precip_in_kickoff": 0.004,
+   "window": {
+    "rain_chance_max": 25,
+    "rain_inches": 0.004,
+    "wind_max_mph": 7.0,
+    "gust_max_mph": 18.3
+   },
+   "pass_share_diff_home": 0.07386789862516652,
+   "baseline_margin_home_raw": 9.532184598318228,
+   "weather_delta_home_raw": 0.010555350971773583,
+   "weather_margin_home_raw": 9.542739949290002,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  },
+  {
+   "event_id": "401864537",
+   "name": "North Dakota State Bison at Hawai'i Rainbow Warriors",
+   "date": "2026-11-15T04:00Z",
+   "venue": {
+    "id": "7220",
+    "fullName": "Clarence T.C. Ching Athletics Complex",
+    "indoor": false,
+    "city": "Honolulu",
+    "state": "HI"
+   },
+   "location": {
+    "latitude": 21.30694,
+    "longitude": -157.85834,
+    "name": "Honolulu",
+    "admin1": "Hawaii",
+    "resolution": "city forecast, not stadium microclimate",
+    "geocoding_source": "Open-Meteo geocoding"
+   },
+   "kickoff_forecast_hour_utc": "2026-11-15T04:00",
+   "temperature_f": 76.5,
+   "wind_mph_kickoff": 12.9,
+   "precip_in_kickoff": 0.0,
+   "window": {
+    "rain_chance_max": 34,
+    "rain_inches": 0.008,
+    "wind_max_mph": 12.9,
+    "gust_max_mph": 31.8
+   },
+   "pass_share_diff_home": 0.17550253055404053,
+   "baseline_margin_home_raw": -0.9579414503560226,
+   "weather_delta_home_raw": 0.07352539234274233,
+   "weather_margin_home_raw": -0.8844160580132803,
+   "label": "WX UNPROVEN",
+   "failed_validation": true,
+   "note": "Failed 2024 validation (paired MAE delta +0.010, CI95 crosses zero); 2025 comparison inconclusive; historical fit used observed weather, not archived forecasts. Exploratory only - not a bet signal. Baseline sealed forecast unchanged."
+  }
+ ],
+ "venues_missing_coords": []
+}

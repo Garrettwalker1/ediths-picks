@@ -1,0 +1,232 @@
+{
+  "season": 2026,
+  "week": 10,
+  "completed_games": 136,
+  "slate_games": 14,
+  "fixed_parameters_sha256": "0754d43d0edd7fa9a6827e10d8dacfa4f67ba1f0a534eb18848aba95c625f266",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "path": "games.csv",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "72ff9dce6dc6d953519e9ebcb795724b6d1cca2f69aec1fd5bd06d110e83969f"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2023.csv",
+      "path": "stats_2023.csv",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "f19cb71a5de0dce7fd09376026237c9ee9d5a93fe13815a2ea3ec2d37204cb17"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2024.csv",
+      "path": "stats_2024.csv",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "3ddc45a84f759aa348ce465ae001752c530575455717657cdfe1f8abfcdb4759"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
+      "path": "stats_2025.csv",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "path": "stats_2026.csv",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "a5f6795d8f00eae7553f7a44fe6f210a3df29a457005608d6127962f6e183573"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ari/roster",
+      "path": "roster_ARI.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "8e7fc92f8b758be2c985a61f7e8bedefe60cdb3e7159286430c47aa0026aa6d5"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/atl/roster",
+      "path": "roster_ATL.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "494ecd1e06d309ea10bbc4c6dbd74db821be64d9c507e0ff0cfd13dff947f09e"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/bal/roster",
+      "path": "roster_BAL.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "2e8450926ec37a10271d47ff8d3119674d43b54e2bfed38cdbab0d3e0d5fea1b"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/buf/roster",
+      "path": "roster_BUF.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "ed81c6b17e437c44a19b94c7f55405c625844ca4cd80694a922810e0fbc6ba42"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/car/roster",
+      "path": "roster_CAR.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "f02b3aa0b497c8cfe912ff782f58410b7940c93bc185c5f9fcb3c711358a76b0"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/chi/roster",
+      "path": "roster_CHI.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "6ccb289d0fa3612884d36dc026ba6ff2417351a3c290855a2800f8d1d39c3bb3"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/cin/roster",
+      "path": "roster_CIN.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "0157177c6c7d91a0932f706e4bff93f49e725f2f006f7f883db01a5f150e80fe"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/cle/roster",
+      "path": "roster_CLE.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "68daab4af815d1a4c52f033e10ac7331af31f8ed5049ea857b2e3c0a79ed2fa7"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/dal/roster",
+      "path": "roster_DAL.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "a05032d9c5fcbfd5139924704a400c248a9bdb0a87aa61d1885bfc98ae090b53"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/den/roster",
+      "path": "roster_DEN.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "75f40859fcf719ebe7d6811d8a66e3076947f0174a092900d0590bfef3fab5f2"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/det/roster",
+      "path": "roster_DET.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "24668a6a55ee48798e597904328ed45710ebd5bb6ccd9ad7b0681cf3fce714d3"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/gb/roster",
+      "path": "roster_GB.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "7fe7337c9be9d527f1b3b92a48d20df2047f15ed036af9507f543f9463164652"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/hou/roster",
+      "path": "roster_HOU.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "3aaf3b040ce17a3188cfbe649f7f9751ca64656fcf325b76179459b6142285c4"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ind/roster",
+      "path": "roster_IND.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "262c19ff2fec8f5813cf46514b300d41498497dfd63891b180f23c46c8af5fa7"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/jax/roster",
+      "path": "roster_JAX.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "52da64dd83b3a262b666344896349ded3ddedead42876f8937ec97e2e1a5807f"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/kc/roster",
+      "path": "roster_KC.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "5c6135a0d16a744c77c16beae5a9d46aaa38d9005b2d77ecb6c1551849172f26"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/lar/roster",
+      "path": "roster_LA.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "45910526c427d605f76890b8cd10228d0990ca0e48b7d2ccd0bd386831fbb5c1"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/lac/roster",
+      "path": "roster_LAC.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "25d309b79ee25fce2a7cc5055de1e91ebacde018b310a3c8d219b816c38f9421"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/lv/roster",
+      "path": "roster_LV.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "cfe1f66de2abbc0f94c94ad1dacf72bb647183a75881b377e4c1c2172b7aaa4a"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/mia/roster",
+      "path": "roster_MIA.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "1196585c9f9f99b562f6865cf6aab15f079c40860a1d99c0e18f60f57c650a5c"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min/roster",
+      "path": "roster_MIN.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "fde8d130cd8d11d95d5d4d0f3f4eaa7372d7e8dbcdc36616b30025c24dfc30e4"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ne/roster",
+      "path": "roster_NE.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "8263a12e3265b7fc7ddfd806e22b77e5b7cab870e56fb62e458e3c00b929d05e"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/no/roster",
+      "path": "roster_NO.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "cd7a11955fc8468f3012bcae682632b871f6a810c33319f79ea0038b48abb5ea"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/nyg/roster",
+      "path": "roster_NYG.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "b33d325a5acab7240be055a48ed541186db58cb21295b47d4c47fcd56d216ee6"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/nyj/roster",
+      "path": "roster_NYJ.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "75f8dcf2f068b495f7ee798865ad1ac0fe913a39b1d27b5c030e76776f3f97aa"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/phi/roster",
+      "path": "roster_PHI.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "7c9e4dbf75b19fbbd9cb0851d1e02d12ba25ed8b8230ca94232ad07bab82650a"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/pit/roster",
+      "path": "roster_PIT.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "5a9d3e48ca5a3d1a1d1f2566f1e54b672b8c23384e205e29f0c151841c40f247"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/sea/roster",
+      "path": "roster_SEA.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "ce5e4b9db87d78d6ce9c4e086952b4c7b634382681e24910590f03d9834cefb4"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/sf/roster",
+      "path": "roster_SF.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "ee0f6e9ae0f9518444bebab5d96a52e3b72e382434e5184e2027f2ba8250be22"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/tb/roster",
+      "path": "roster_TB.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "ea510e24af4832c5ea4a26176bfbbe7466e300126f847adf74eb1693f32e1543"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ten/roster",
+      "path": "roster_TEN.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "a0cffa2f5590981cba0645310b0ded70f185405b792e8e1b8ab648976d1bd34d"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/wsh/roster",
+      "path": "roster_WSH.json",
+      "observed_at": "2026-11-10T13:14:01.791672+00:00",
+      "sha256": "80a89bff41cad92fe85b69e7332bea6e9e1d8c2543500fbddb3c361c8a276fc5"
+    }
+  ],
+  "note": "Fantasy roster input omitted from public source archive. Only dated aggregate highlight flags are published; private owning-roster snapshot retained separately."
+}

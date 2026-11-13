@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-12T23:32:30.169853+00:00",
+  "updated_at": "2026-11-13T04:43:50.561217+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12624,8 +12624,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Washington Commanders @ New York Giants",
       "kickoff": "2026-11-13T01:15:00Z",
       "line": null,
@@ -12649,7 +12649,7 @@
       "source": "Owner iMessage Nov12 5:31PMCT, actual TN receipt pixels inspected; exact displayed stake and payout retained.",
       "receipt_filename": "image-7946c55e.png",
       "source_receipt_sha256": "0426c8911b89dfa08e93b9c519abe47790c4c33d5c9341b83efc13ba52c97f2b",
-      "net_usd": null,
+      "net_usd": -20,
       "net_units": null,
       "legs": [
         {
@@ -12661,21 +12661,32 @@
           "model_primary_probability": 0.40687286649435256,
           "event": "Washington Commanders @ New York Giants",
           "event_id": "401873052",
-          "kickoff": "2026-11-13T01:15:00Z"
+          "kickoff": "2026-11-13T01:15:00Z",
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-13T04:43:50.561217+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "final_score": "Washington24,NewYorkGiants21",
+          "stat_note": "Nabers5catches44yards0TD;no scoringTD."
         }
       ],
       "notes": "All $50 tonight rides Giants offense across three tickets. No validated combined hit probability. No numerical injury/QB/workload adjustments.",
       "event_ids": [
         "401873052"
-      ]
+      ],
+      "payout_usd": 0,
+      "settled_at": "2026-11-13T04:43:50.561217+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "settlement_note": "Final game/scoring/boxscore grading, normal settlement under standing preference. Live owner conversation rechecked10:43PMCT: no later cashout, void, BetProtect or correction. Receipt cashout buttons were offers only; no confirmed protection. Units remain unspecified; exact dollar net retained.",
+      "leg_note": "Nabers5catches44yards0TD;no scoringTD."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "game": "Washington Commanders @ New York Giants",
       "kickoff": "2026-11-13T01:15:00Z",
       "line": null,
@@ -12699,7 +12710,7 @@
       "source": "Owner iMessage Nov12 5:31PMCT, actual TN receipt pixels inspected; exact displayed stake and payout retained.",
       "receipt_filename": "image-cc973fd5.png",
       "source_receipt_sha256": "9dde062966898ff8eb99685f9579fee9710a2f568180acf59765043d1fdb046a",
-      "net_usd": null,
+      "net_usd": 50,
       "net_units": null,
       "original_price": 200,
       "boost_pct": 25,
@@ -12713,21 +12724,32 @@
           "model_primary_probability": 0.3410780787974299,
           "event": "Washington Commanders @ New York Giants",
           "event_id": "401873052",
-          "kickoff": "2026-11-13T01:15:00Z"
+          "kickoff": "2026-11-13T01:15:00Z",
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-13T04:43:50.561217+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "final_score": "Washington24,NewYorkGiants21",
+          "stat_note": "9catches127yards1TD;66-yardTD8:13Q4."
         }
       ],
       "notes": "All $50 tonight rides Giants offense across three tickets. No validated combined hit probability. No numerical injury/QB/workload adjustments.",
       "event_ids": [
         "401873052"
-      ]
+      ],
+      "payout_usd": 70,
+      "settled_at": "2026-11-13T04:43:50.561217+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "settlement_note": "Final game/scoring/boxscore grading, normal settlement under standing preference. Live owner conversation rechecked10:43PMCT: no later cashout, void, BetProtect or correction. Receipt cashout buttons were offers only; no confirmed protection. Units remain unspecified; exact dollar net retained.",
+      "leg_note": "9catches127yards1TD;66-yardTD8:13Q4."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Washington Commanders @ New York Giants",
       "kickoff": "2026-11-13T01:15:00Z",
       "line": null,
@@ -12751,7 +12773,7 @@
       "source": "Owner iMessage Nov12 5:31PMCT, actual TN receipt pixels inspected; exact displayed stake and payout retained.",
       "receipt_filename": "image-c6598196.png",
       "source_receipt_sha256": "b74270742fb117ee3221be61c1827733f164669e23ff0bfd15441254cc4a2d56",
-      "net_usd": null,
+      "net_usd": -10,
       "net_units": null,
       "original_price": 276,
       "boost_pct": 30,
@@ -12765,7 +12787,13 @@
           "model_home_win_probability": 0.631,
           "event": "Washington Commanders @ New York Giants",
           "event_id": "401873052",
-          "kickoff": "2026-11-13T01:15:00Z"
+          "kickoff": "2026-11-13T01:15:00Z",
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-13T04:43:50.561217+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "final_score": "Washington24,NewYorkGiants21",
+          "stat_note": "Giants lost21-24."
         },
         {
           "market": "anytime_touchdown",
@@ -12776,7 +12804,13 @@
           "model_primary_probability": 0.4404650188969407,
           "event": "Washington Commanders @ New York Giants",
           "event_id": "401873052",
-          "kickoff": "2026-11-13T01:15:00Z"
+          "kickoff": "2026-11-13T01:15:00Z",
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-13T04:43:50.561217+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "final_score": "Washington24,NewYorkGiants21",
+          "stat_note": "18carries78yards2TD;3catches44yards."
         },
         {
           "market": "alternate_total",
@@ -12787,13 +12821,24 @@
           "model_total_raw": 44.8,
           "event": "Washington Commanders @ New York Giants",
           "event_id": "401873052",
-          "kickoff": "2026-11-13T01:15:00Z"
+          "kickoff": "2026-11-13T01:15:00Z",
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-13T04:43:50.561217+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "final_score": "Washington24,NewYorkGiants21",
+          "stat_note": "45totalpoints;Over33.5wins."
         }
       ],
       "notes": "All $50 tonight rides Giants offense across three tickets. No validated combined hit probability. No numerical injury/QB/workload adjustments. Receipt rounded +358 retained alongside exact $45.82 payout; do not recompute payout from rounded odds.",
       "event_ids": [
         "401873052"
-      ]
+      ],
+      "payout_usd": 0,
+      "settled_at": "2026-11-13T04:43:50.561217+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "settlement_note": "Final game/scoring/boxscore grading, normal settlement under standing preference. Live owner conversation rechecked10:43PMCT: no later cashout, void, BetProtect or correction. Receipt cashout buttons were offers only; no confirmed protection. Units remain unspecified; exact dollar net retained.",
+      "leg_note": "Giants lost21-24. 18carries78yards2TD;3catches44yards. 45totalpoints;Over33.5wins."
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "version": "NFL-experimental-current-season-QB-input-v1",
-  "generated_at": "2026-11-13T20:11:48.829806+00:00",
+  "generated_at": "2026-11-13T21:26:52.618220+00:00",
   "core_version": "NFL-current-season-SOS-record-player-v1-owner-requested",
   "performance_status": "Owner-directed experimental inclusion without another performance test. Accuracy improvement not established.",
-  "scope": "QB passing production only. 1 conditional game prediction; 12 games without numerical adjustment. No non-QB or CFB injury effects.",
+  "scope": "QB passing production only. 1 conditional game prediction; 12 games without numerical adjustment. Five games carry QB injury flags including three owning-team verified changes without numerical application. No non-QB or CFB injury effects.",
   "engine_cutoff": "2026-11-13",
   "full_game_injury_adjustments": 0,
   "conditional_predictions": 1,
@@ -66,9 +66,13 @@
       "game_id": "2026_10_MIA_IND",
       "baseline_raw_margin_home": 1.2654488203089462,
       "raw_home_adjustment_pts": null,
-      "status": "unknown_QB_coverage",
+      "status": "verified_QB_change_no_numeric_application",
       "conditional_scenario": null,
-      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+      "coverage_note": "(QB injury flag) Miami confirms Kyle McCord will make his first career start with Malik Willis on injured reserve. Replacement quality is not established from current-season starts. Baseline is not personnel-adjusted; no numerical QB effect applied.",
+      "source_urls": [
+        "https://www.miamidolphins.com/news/top-quotes-dolphins-travel-to-indianapolis-with-a-new-quarterback-new-captain",
+        "https://www.miamidolphins.com/news/dolphins-make-roster-moves-x8063"
+      ]
     },
     {
       "event_id": "401873055",
@@ -102,9 +106,12 @@
       "game_id": "2026_10_LA_ARI",
       "baseline_raw_margin_home": -4.363881446127508,
       "raw_home_adjustment_pts": null,
-      "status": "unknown_QB_coverage",
+      "status": "verified_QB_change_no_numeric_application",
       "conditional_scenario": null,
-      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+      "coverage_note": "(QB injury flag) Arizona confirms Carson Beck will make his first career start after Gardner Minshew's season-ending elbow injury. Jacoby Brissett was separately traded, not injured out of this roster. Replacement quality is unestablished; baseline unchanged, no numerical QB effect applied.",
+      "source_urls": [
+        "https://www.azcardinals.com/news/for-starters-carson-beck-ready-to-play-first-game-against-rams"
+      ]
     },
     {
       "event_id": "401873062",
@@ -142,9 +149,13 @@
       "game_id": "2026_10_LAC_BAL",
       "baseline_raw_margin_home": 6.644291723007991,
       "raw_home_adjustment_pts": null,
-      "status": "unknown_QB_coverage",
+      "status": "verified_QB_change_no_numeric_application",
       "conditional_scenario": null,
-      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+      "coverage_note": "(QB injury flag) Baltimore placed Lamar Jackson and Tyler Huntley on injured reserve and acquired Jacoby Brissett, slated to start Monday against the Chargers. The trade is distinct from the injuries. New-to-team role/production compatibility has not been numerically applied; baseline unchanged.",
+      "source_urls": [
+        "https://www.baltimoreravens.com/news/jacoby-brissett-ravens-trade-cardinals-finalize-2026",
+        "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody"
+      ]
     }
   ]
 }

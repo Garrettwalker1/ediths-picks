@@ -32,3 +32,7 @@ Coefficient-only bootstrap uncertainty is partial, crosses zero and excludes sta
 - https://www.packers.com/video/packers-daily-a-high-noon-qb-showdown-nov-13-2026 : current Love matchup context, not a substitute for Minnesota confirmation.
 
 Raw stats source pattern: https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv (same pattern for 2020-2025). Games: https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv . Current-core raw input hashes match the published November 13 core exactly. Player stats were retrieved for the supplied engine around November 13 14:02 CT; role checks were refreshed at 14:10 CT.
+
+## Additional factual flags, checked November 13 at 15:26 CT
+
+Miami-Indianapolis, Rams-Arizona and Chargers-Baltimore also carry `(QB injury flag)` without numerical effects. Owning-team sources confirm Willis IR/McCord first start, Minshew season-ending elbow injury/Beck first start with Brissett's departure separate, and Jackson/Huntley IR/Brissett acquired and slated to start Monday. Unknown new-starter quality and unimplemented new-to-team applications remain explicit. These facts do not replace the baseline or stack with another QB method. URLs are stored per game in the overlay. Baltimore has a separate Monday pregame check; Sunday's check is not Monday clearance.

@@ -25,8 +25,20 @@ Test syntax/parser, confirm model/seal files unchanged, inspect actual mobile pi
 
 ## Partial NFL player comparison route, November 13 afternoon
 
-`fanduel_player_comparisons.json` and `loadFanduelPlayerComparisons` add a visibly PARTIAL NE-DET player comparison board, not full 13-event restoration. All six standard categories were captured from 25 expanded accordions on the event's Same Game Parlay tab; anytime-TD Show more expanded to Show less. Read only accessible selection labels, never click price selections. The parser excludes alt/first/last/defense markets, requires exact market/name agreement, and fails duplicate/ambiguous identities. Fresh same-season ESPN rosters plus unique stable ESPN-to-GSIS IDs from the existing TD snapshot establish current team membership, not game clearance. Missing IDs remain withheld. `player_label_candidate.py`, `test_player_label_candidate.py`, and `build_player_comparison.py` implement the current partial route; the builder is pinned to the archived NE-DET capture and must be generalized before a new event/capture. It must not re-stamp old prices as fresh.
+`fanduel_player_comparisons.json` and `loadFanduelPlayerComparisons` add a visibly PARTIAL NE-DET player comparison board, not full 13-event restoration. All six standard categories were captured from 25 expanded accordions on the event's Same Game Parlay tab; anytime-TD Show more expanded to Show less. Read only accessible selection labels, never click price selections. The parser excludes alt/first/last/defense markets, requires exact market/name agreement, and fails duplicate/ambiguous identities. Fresh same-season ESPN rosters plus unique stable ESPN-to-GSIS IDs from the existing TD snapshot establish current team membership, not game clearance. Missing IDs remain withheld. `player_label_candidate.py`, `test_player_label_candidate.py`, and `build_player_comparison.py` implement the current partial route; the builder now takes an explicit archive, current-slate event ID, independently verified source URL and output path. It emits an event artifact only, never silently replaces the live board. URL, state footer, actual pregame capture time, expanded accordions, all six categories, roster provenance/hash/season, exact identity and matching over/under pairs fail closed. Replay preserves the original source time. A separate per-event publisher must merge/freeze events before wider deployment.
 
 Current archive `player_captures/20261113T214129161Z`: 72 parsed selections, 71 joined, 1 identity gap (Jackson Meeks), 47 player-market rows across six categories. TD comparisons use the existing owner-adopted Oct29 primary probability, still unvalidated and captured November 10; receiving/rushing/reception comparisons use the separately dated generic medians, no current matchup/personnel adjustment. Missing compatible passing projections and unranked players show unavailable, never fabricated model values. Books never feed the models, and no edge/EV claim is made.
 
 Next recurring source round must capture NE-DET at most hourly and own current identity/freeze checks; expand the remaining 12 events with the same fail-closed contract. Until all-game recurrence and display are verified, the full original props/TD restoration remains open. Existing game-comparison hourly route continues independently.
+
+Generalized event build (actual archive replay, not a source refresh):
+
+```sh
+python tools/fanduel_hourly/build_player_comparison.py \
+  --archive tools/fanduel_hourly/player_captures/20261113T214129161Z \
+  --event-id 401873053 \
+  --source-url https://sportsbook.fanduel.com/football/nfl/new-england-patriots-@-detroit-lions-35605986 \
+  --output /tmp/fd-player-event.json
+```
+
+`test_build_player_comparison.py` retains the first capture's comparison reference for exact replay, and rejects wrong URLs, future/post-kickoff captures, missing state, unexpanded accordions and roster hash changes. No source refresh is implied by running tests or rebuilding an archive. `merge_player_comparisons.py` prepares multi-event data with per-event timestamps and kickoff freezes; it rejects less-than-hourly replacements and post-kickoff backfills. Its replay preserves existing quotes byte-for-byte at the row level. Wider-event UI and actual recurring captures remain pending. The merge is not yet wired into the live board.

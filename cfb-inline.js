@@ -211,3 +211,16 @@ async function loadCurrentSeason(sport,hostId,path,coverage){
 }
 loadCurrentSeason('cfb','cfbCurrentSeason','tools/cfb/current_season_20261113/current_forecasts.json','FBS-vs-FBS');
 loadCurrentSeason('nfl','nflCurrentSeason','tools/nfl/current_season_20261113/current_forecasts.json','NFL REG');
+
+async function loadFanduelPlayerComparisons(){
+ const host=document.getElementById('fanduelPlayerComparisons');if(!host)return;
+ try{const r=await fetch('fanduel_player_comparisons.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error(r.status);const d=await r.json();host.textContent='';
+ const p=document.createElement('p');p.className='muted';p.textContent=d.scope+' FanDuel '+d.state+' captured '+new Date(d.checked_at).toLocaleString('en-US',{timeZone:'America/Chicago'})+' CT, not verified Tennessee. '+d.coverage.joined_selections+'/'+d.coverage.parsed_selections+' selections uniquely joined; '+d.coverage.unmatched_selections+' identity gap withheld.';host.append(p);
+ const note=document.createElement('p');note.className='muted';note.textContent=d.availability_note;host.append(note);
+ const select=document.createElement('select');select.setAttribute('aria-label','Player market');const names={anytime_td:'Anytime TD',passing_yards:'Passing yards',passing_tds:'Passing TDs',rushing_yards:'Rushing yards',receiving_yards:'Receiving yards',receptions:'Receptions'};for(const [key,label]of Object.entries(names)){const o=document.createElement('option');o.value=key;o.textContent=label;select.append(o)}host.append(select);
+ const list=document.createElement('div');list.className='fd-player-list';host.append(list);const cards=[];
+ for(const row of d.rows){const card=document.createElement('article');card.className='fd-player-card';const title=document.createElement('h4');title.textContent=row.player_name+' · '+row.team_id;const market=document.createElement('p');market.textContent=names[row.market];const book=document.createElement('p');book.className='fd-player-quote';book.textContent='FanDuel IL: '+row.selections.map(s=>(s.side==='yes'?'Anytime TD':s.side+' '+s.line)+' '+(s.price>0?'+':'')+s.price).join(' / ');const model=document.createElement('p');model.textContent='Model: '+(row.model_value==null?'Unavailable':row.model_kind==='probability'?(row.model_value*100).toFixed(1)+'%':(Math.round(row.model_value*2)/2)+' median');const source=document.createElement('p');source.className='muted';source.textContent=row.model_label+(row.model_captured_at?' · '+new Date(row.model_captured_at).toLocaleString('en-US',{timeZone:'America/Chicago'})+' CT':'');card.append(title,market,book,model,source);list.append(card);cards.push([card,row.market])}
+ const apply=()=>cards.forEach(([c,k])=>c.hidden=k!==select.value);select.onchange=apply;apply();
+ }catch(e){host.textContent='Player comparisons unavailable: '+e.message}
+}
+loadFanduelPlayerComparisons();

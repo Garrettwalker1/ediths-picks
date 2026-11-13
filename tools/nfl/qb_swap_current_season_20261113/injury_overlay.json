@@ -1,0 +1,150 @@
+{
+  "version": "NFL-experimental-current-season-QB-input-v1",
+  "generated_at": "2026-11-13T20:11:48.829806+00:00",
+  "core_version": "NFL-current-season-SOS-record-player-v1-owner-requested",
+  "performance_status": "Owner-directed experimental inclusion without another performance test. Accuracy improvement not established.",
+  "scope": "QB passing production only. 1 conditional game prediction; 12 games without numerical adjustment. No non-QB or CFB injury effects.",
+  "engine_cutoff": "2026-11-13",
+  "full_game_injury_adjustments": 0,
+  "conditional_predictions": 1,
+  "games": [
+    {
+      "event_id": "401873053",
+      "game_id": "2026_10_NE_DET",
+      "baseline_raw_margin_home": 1.0966942482876747,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873058",
+      "game_id": "2026_10_KC_ATL",
+      "baseline_raw_margin_home": -5.0058095209493425,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873056",
+      "game_id": "2026_10_HOU_CLE",
+      "baseline_raw_margin_home": 0.7242666889819744,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873060",
+      "game_id": "2026_10_MIN_GB",
+      "baseline_raw_margin_home": 0.2676371150190574,
+      "raw_home_adjustment_pts": null,
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": -1.2855315118612216,
+        "display_margin_home": -1.5,
+        "min_team_swing_raw": 1.553168626880279,
+        "display_min_team_swing": 1.5,
+        "assumptions": "If Kirk Cousins starts for Minnesota and Green Bay stays at its baseline-embedded QB production. The Green Bay unchanged-production assumption is not verified health, confirmed starter status, or a measured zero injury effect.",
+        "role_status": "Minnesota starter not announced in the owning-team source checked Nov13 14:10CT. Cousins is a scenario, not confirmed.",
+        "source_urls": [
+          "https://www.vikings.com/news/nfl-expert-picks-packers-rivalry-renews-week-10",
+          "https://www.packers.com/news/packers-defense-ready-for-another-round-with-kirk-cousins-nov-13-2026"
+        ],
+        "season_dropbacks": 326,
+        "shrink_weight_on_data": 0.542,
+        "coefficient_only_team_swing_ci95": [
+          -0.67,
+          3.81
+        ],
+        "uncertainty": "Coefficient-only interval crosses zero and is NOT full predictive uncertainty. It excludes player-quality, role, embedded-proxy and confounding uncertainty. Association, not causal injury effect. Non-QB injuries not included."
+      }
+    },
+    {
+      "event_id": "401873059",
+      "game_id": "2026_10_MIA_IND",
+      "baseline_raw_margin_home": 1.2654488203089462,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873055",
+      "game_id": "2026_10_CAR_NO",
+      "baseline_raw_margin_home": 0.9609836217762322,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873054",
+      "game_id": "2026_10_BUF_NYJ",
+      "baseline_raw_margin_home": -5.274199295467587,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873057",
+      "game_id": "2026_10_JAX_TEN",
+      "baseline_raw_margin_home": -11.109325259765058,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873061",
+      "game_id": "2026_10_LA_ARI",
+      "baseline_raw_margin_home": -4.363881446127508,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873062",
+      "game_id": "2026_10_SEA_LV",
+      "baseline_raw_margin_home": -3.0510612889067397,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "Darnold ruled out; Lock expected, not confirmed. Mendoza named by Raiders. Lock 78 current-season dropbacks, data weight 22.1%; Mendoza 8, weight 2.8%. League-mean prior dominates both. No numerical replacement-quality claim or adjusted spread.",
+      "source_urls": [
+        "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders",
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+      ]
+    },
+    {
+      "event_id": "401873063",
+      "game_id": "2026_10_SF_DAL",
+      "baseline_raw_margin_home": -5.4253443661037775,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873064",
+      "game_id": "2026_10_PIT_CIN",
+      "baseline_raw_margin_home": 4.522847767277712,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    },
+    {
+      "event_id": "401873065",
+      "game_id": "2026_10_LAC_BAL",
+      "baseline_raw_margin_home": 6.644291723007991,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Current QB roles and replacement coverage not verified. Unknown is not healthy or zero effect. Baseline only."
+    }
+  ]
+}

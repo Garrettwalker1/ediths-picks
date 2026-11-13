@@ -1,0 +1,34 @@
+{
+ "purpose": "Reusable current-season NFL QB-swap engine; partial implementation (QB only, all game adjustments null); not injury goal completion",
+ "run_order": [
+  "build_cs.py",
+  "evaluate_cs.py",
+  "audit_cs.py",
+  "deploy_cs.py"
+ ],
+ "requires_fresh": "roles_input.json primary-source recheck + latest stats/games.csv refresh before each use",
+ "files": {
+  "./deploy_cs.py": "d62de96f39e99c4a7b5cb702ec1920a52622b11831ea8d24f2db799a717cd79b",
+  "./evaluate_cs.py": "dd15b4566b113f76a5df6b2a77be8bfb33faed8e80e55dcf235a5e5eafa191d0",
+  "./build_cs.py": "f8b9776a8935a19f7ad0d19914c508c068f3afb849ea118f01b19b7ebb0bd2db",
+  "./roles_input.json": "aa416383c7fd5e301d9ad755bd3631db622442df68d644c6365b0fcb4b649c5c",
+  "./audit_cs.py": "0e26ea31a8e2bdaccbad2928a2d28ddcd2dc6ba9b4d2a4b053e98908f9360325",
+  "./raw/sp2021.csv": "41915fb49238902ad1f129ebf0405b11a1e710454ae0fe8f7b3e4f9145875f48",
+  "./raw/feature_provenance.json": "fd31e1f4ab7a56b86da94b3656fc7cc8f26de7e0097d1cd76b9ce670862613c7",
+  "./raw/training_features.json": "b186ae47fc9d42cedd0713850ce85e6dd53d7b2ea01e6ed565a6170c102e2e34",
+  "./raw/games.csv": "bf5b9637aab88faccc946643842a072725411195a015a1c149f74bb5a474f59a",
+  "./raw/current_forecasts.json": "20f1fb2fe79584875e689a6c3e19c4ea977e73682b7da5f8879b4a003d7a1bdb",
+  "./raw/sp2024.csv": "3ddc45a84f759aa348ce465ae001752c530575455717657cdfe1f8abfcdb4759",
+  "./raw/sp2023.csv": "f19cb71a5de0dce7fd09376026237c9ee9d5a93fe13815a2ea3ec2d37204cb17",
+  "./raw/sp2026.csv": "a7f51400624ae41f38db1395122115ff653231789ed0a840a3a7fae9e3bc977a",
+  "./raw/sp2020.csv": "05b992676faccc8940efbf6242cb76358069372d31d7c2e02c1a4acdcd3cbe18",
+  "./raw/sp2025.csv": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
+  "./raw/sp2022.csv": "ad426c3fe5bf1cc30c3f137fdfe96d054e19d400879ee4413129da49fa7b54be",
+  "./out/audit_cs.json": "f09803a0aa9468f59a9c2e3e74966e62254c239e7c334588ce8754b538379c6d",
+  "./out/eval_cs_output.txt": "f432cae0ed59c02f75bf0809bc8b2c19f892ba3fb762d061f43847f9ca57cd44",
+  "./out/integration_artifact_cs.json": "ca77d5d5857422760e4a68f09e75f156e7255ec03545ca747b4df78615726f72",
+  "./out/build_log.txt": "d5314d5a10d64148fe9c592173ffafa2bc16c351d66c89c9d88c5823b1710d95",
+  "./out/eb_cs_params.json": "9b7d406117fb3b29ba991052d7f6382fb0015cdfdb40dd123358e73a98249014",
+  "./out/qbswap_cs_rows.csv": "5a3175bd57c0a1404a180caab26b5e1970ec4ebfd0b7324e7c98c99a03f9f9fd"
+ }
+}

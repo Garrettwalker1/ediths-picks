@@ -1,0 +1,32 @@
+{
+  "retrieved_cst": "2026-11-13 14:10",
+  "note": "role evidence checked by web_search/web_fetch tool on 11/13; deployment must recheck before use",
+  "SEA": {
+    "starter": "Drew Lock",
+    "role_status": "expected_starter_team_source_not_confirmed",
+    "evidence": "Darnold ruled out Week 10 (team injury report 11/12); Lock EXPECTED starter (practicing, Friday designation unverified), not confirmed",
+    "urls": [
+      "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders"
+    ],
+    "player_id": "00-0035704"
+  },
+  "LV": {
+    "starter": "Fernando Mendoza",
+    "role_status": "named_starter_team_source",
+    "evidence": "Named starter 11/10 after Cousins trade",
+    "urls": [
+      "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+    ],
+    "player_id": "00-0041562"
+  },
+  "MIN": {
+    "starter": "Kirk Cousins",
+    "role_status": "conditional_unconfirmed_team_source",
+    "evidence": "Minnesota owning-team Nov12 article explicitly says starter not announced. Packers Nov13 article calls Cousins expected, not official. Scenario only, not a confirmed starter.",
+    "urls": [
+      "https://www.vikings.com/news/nfl-expert-picks-packers-rivalry-renews-week-10",
+      "https://www.packers.com/news/packers-defense-ready-for-another-round-with-kirk-cousins-nov-13-2026"
+    ],
+    "player_id": "00-0029604"
+  }
+}

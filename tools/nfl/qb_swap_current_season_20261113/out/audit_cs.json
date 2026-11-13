@@ -1,0 +1,40 @@
+{
+ "reg_rows": 116893,
+ "passer_rows_db>0_epa_notna": 4327,
+ "nonQB_position_rows": 300,
+ "nonQB_dropback_share": 0.00467668814125507,
+ "nonQB_by_position": {
+  "WR": 147,
+  "TE": 57,
+  "P": 49,
+  "RB": 38,
+  "DB": 3,
+  "LB": 2,
+  "K": 1,
+  "FB": 1,
+  "SAF": 1,
+  "OT": 1
+ },
+ "dup_player_season_week_team": 0,
+ "merge_rows_before": 4327,
+ "merge_rows_after": 4327,
+ "merge_unmatched": 0,
+ "unmatched_team_codes": [],
+ "unmatched_dropbacks": 0.0,
+ "M_duplicate_keys": 0,
+ "team_games_without_qb_rows": 270,
+ "team_games_without_qb_rows_completed_only": 0,
+ "raw_sha256": {
+  "current_forecasts.json": "20f1fb2fe79584875e689a6c3e19c4ea977e73682b7da5f8879b4a003d7a1bdb",
+  "feature_provenance.json": "fd31e1f4ab7a56b86da94b3656fc7cc8f26de7e0097d1cd76b9ce670862613c7",
+  "games.csv": "bf5b9637aab88faccc946643842a072725411195a015a1c149f74bb5a474f59a",
+  "sp2020.csv": "05b992676faccc8940efbf6242cb76358069372d31d7c2e02c1a4acdcd3cbe18",
+  "sp2021.csv": "41915fb49238902ad1f129ebf0405b11a1e710454ae0fe8f7b3e4f9145875f48",
+  "sp2022.csv": "ad426c3fe5bf1cc30c3f137fdfe96d054e19d400879ee4413129da49fa7b54be",
+  "sp2023.csv": "f19cb71a5de0dce7fd09376026237c9ee9d5a93fe13815a2ea3ec2d37204cb17",
+  "sp2024.csv": "3ddc45a84f759aa348ce465ae001752c530575455717657cdfe1f8abfcdb4759",
+  "sp2025.csv": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
+  "sp2026.csv": "a7f51400624ae41f38db1395122115ff653231789ed0a840a3a7fae9e3bc977a",
+  "training_features.json": "b186ae47fc9d42cedd0713850ce85e6dd53d7b2ea01e6ed565a6170c102e2e34"
+ }
+}

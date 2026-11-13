@@ -2,7 +2,7 @@
  "contract": {
   "b": -7.08,
   "coefficient_se": 5.2005,
-  "display_note": "all margins here are raw unrounded decimals; publisher applies standard half-point favorite-minus headline formatting",
+  "display_note": "all margins here are raw unrounded decimals; Display uses standard half-point favorite-minus headline formatting",
   "coefficient_source": "residual_coefs.csv d_injOut_SKILL (chronological core-refit residuals, mixed realized-history reference, 2021-26 n=1208, t=-1.36; OBSERVATIONAL, CI crosses zero)",
   "formula": "corrected_home_margin = raw_margin_home + b*(home_out_share - away_out_share); b only, no other terms",
   "event_definition": "same-week explicitly Out established RB/WR/TE; established = >=2 prior apps AND >=2% trailing team volume share through Nov 12; nflverse gsis identity",
@@ -151,7 +151,7 @@
   "game": "2026_10_MIN_GB",
   "home": "GB",
   "away": "MIN",
-  "state": "WITHHELD pending GB owning-source reconciliation (per Main): no one-sided adjustment",
+  "state": "WITHHELD pending GB owning-source reconciliation: no one-sided adjustment",
   "verified_events": [
    {
     "team": "MIN",

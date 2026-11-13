@@ -5,7 +5,7 @@ P=pathlib.Path(__file__).resolve().parent
 R=P.parents[2]
 core_path=R/'tools/nfl/current_season_20261113/current_forecasts.json'
 stats_path=core_path.parent/'sources/player_stats_2026.csv'
-core=json.loads(core_path.read_text());initial=json.loads((P/'review_sources/initial_bundle.json').read_text())
+core=json.loads(core_path.read_text());initial=json.loads((P/'review_sources/current_bundle.json').read_text())
 coef=pd.read_csv(P/'review_sources/residual_coefs.csv').set_index('term').loc['d_injOut_SKILL']
 b,se=float(coef.coef),float(coef.se)
 assert b==-7.08 and se==5.2005

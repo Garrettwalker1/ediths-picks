@@ -1,0 +1,15 @@
+# Owner-requested current-season CFB version, Nov13
+
+This is a new current forecast, not a rewrite of old seals and not a validated accuracy claim. Requested Nov13: include strength of schedule/record, use current in-season players instead of preseason talent, account for injuries. Inclusion does not require another performance test. Source/calculation checks still apply.
+
+Inputs: regular-season FBS-versus-FBS only. This-season means for team points/yards, this-season player passing/rushing/receiving production aggregated into rate features, explicit Colley record strength, mean past opponent Colley schedule strength, ridge opponent-adjusted score/yard ratings, venue indicator. No preseason or prior-season statistic profile, talent, returning production, portal/QB continuity, AP, odds or numerical injury penalty. Minimum three earlier FBS games per side, otherwise withhold. Empty/missing player denominators withhold, never prior-season impute.
+
+Colley is our transparent schedule-adjusted record-strength proxy, not ESPN SOR. Rankings are not mechanically converted to points. Fit mirrored StandardScaler+Ridge alpha10 no intercept on correctly reconstructed same-season past-only features. No outcome/current-game input or forced coefficient sign. 2022 warmup, train2023+ throughNov12. All development history previously examined. No performance result or calibrated confidence implied by correctness checks.
+
+Current2026stats include eight newly final midweek games and their boxes, fetchedNov13. Current118rosters fetched with limit500 after detecting default100cap. Season player participants not in the current roster remain flagged, not presumed active or used for arbitrary penalties. Team production is realized this-season performance, not a projection of who will play. Current available-talent adjustment remains incomplete.
+
+Injuries: numeric adjustment null pending separately authorized identifiable injury work. Availability and current-contributor coverage are explicit context/gates, not an injury-adjusted spread. Unknown is not healthy. No terminal QB/CMP reuse. No college props.
+
+`build.py` rebuilds version in its own directory using EDITH_ROOT to find source repository (default /tmp/edith). Never run it inside old sealed directories. `verify.py` checks joins, chronology, coefficient rebuild, half-points, mirror symmetry, roster seasons and old seal hashes. It does not test predictive skill. Read source manifests and exact immutable bytes for provenance. `canonical_input.json` is the frozen preexisting Nov9 team-game corpus; `sources/` carries new final/game/roster evidence. Historical per-player source CSV hashes are in historical_input_manifest.json.
+
+Old Week11 seal, old historical record and Nov9 winner challenger remain separate and unchanged. New version issued after eight games finished, so only 59 pregame games get new predictions. Do not grade finished games as if this version existed before them. Dec7 original forward experiment remains untouched.

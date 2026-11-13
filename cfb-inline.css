@@ -34,22 +34,23 @@
 #cfbtab .cfb-method[open] summary:before{content:'−'}
 #cfbtab .cfb-method p{font-size:13px;line-height:1.6;color:#b9c6d6;margin:8px 0 14px}
 #cfbtab a{color:var(--cyan);overflow-wrap:anywhere}
-:is(#cfbWeek10,#cfbWeek11) .cfb-search{box-sizing:border-box;display:block;width:100%;padding:14px 16px;min-height:48px;background:#0d1828;color:#f1f5fa;border:1px solid #35475f;border-radius:10px;font:inherit;margin:16px 0 10px}
-:is(#cfbWeek10,#cfbWeek11) .cfb-filter{display:flex;gap:8px;margin:0 0 18px}
-:is(#cfbWeek10,#cfbWeek11) .cfb-filter button{min-height:44px;border-radius:8px;padding:10px 16px}
-:is(#cfbWeek10,#cfbWeek11) h3{font-size:14px;color:#a9b9cb;margin:26px 0 12px;letter-spacing:.02em}
-:is(#cfbWeek10,#cfbWeek11) details.game{border:1px solid #2a3a51;border-radius:12px;background:#101c2d;margin:10px 0;overflow:hidden;box-shadow:none}
-:is(#cfbWeek10,#cfbWeek11) details.game>summary{list-style:none;cursor:pointer;padding:16px;display:flex;flex-direction:column;gap:9px;min-height:44px;font-size:14px;line-height:1.4}
-:is(#cfbWeek10,#cfbWeek11) details.game>summary::-webkit-details-marker{display:none}
-:is(#cfbWeek10,#cfbWeek11) .cfb-kick{font-size:11px;color:#9eafc5;font-weight:500}
-:is(#cfbWeek10,#cfbWeek11) .cfb-matchup{font-size:16px;color:#edf3fa;font-weight:700;overflow-wrap:anywhere}
-:is(#cfbWeek10,#cfbWeek11) .cfb-values{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;border-top:1px solid #29394f;padding-top:12px}
-:is(#cfbWeek10,#cfbWeek11) .cfb-values>span{display:flex;flex-direction:column;gap:5px;min-width:0}
-:is(#cfbWeek10,#cfbWeek11) .cfb-values small{font-size:10px;color:#9eafc5;letter-spacing:.07em;font-weight:600}
-:is(#cfbWeek10,#cfbWeek11) .cfb-values b{font-size:14px;font-weight:650;color:#dce6f3;overflow-wrap:anywhere}
-:is(#cfbWeek10,#cfbWeek11) .cfb-model-value b{color:#75e2df}
-:is(#cfbWeek10,#cfbWeek11) .cfb-open-hint{font-size:11px;color:#9eafc5;margin-top:1px}
-:is(#cfbWeek10,#cfbWeek11) details.game[open]{border-color:#527087}
-:is(#cfbWeek10,#cfbWeek11) details.game>p{margin:0 16px 14px;font-size:12px;line-height:1.65}
-:is(#cfbWeek10,#cfbWeek11)> a{display:block;font-size:12px;line-height:1.6;margin:12px 0}
-@media(min-width:760px){:is(#cfbWeek10,#cfbWeek11) details.game>summary{display:grid;grid-template-columns:75px minmax(200px,1.3fr) minmax(260px,1.4fr) 58px;align-items:center;gap:18px}:is(#cfbWeek10,#cfbWeek11) .cfb-values{border:0;padding:0}:is(#cfbWeek10,#cfbWeek11) .cfb-open-hint{text-align:right}:is(#cfbWeek10,#cfbWeek11) .cfb-search{max-width:440px}}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-search{box-sizing:border-box;display:block;width:100%;padding:14px 16px;min-height:48px;background:#0d1828;color:#f1f5fa;border:1px solid #35475f;border-radius:10px;font:inherit;margin:16px 0 10px}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-filter{display:flex;gap:8px;margin:0 0 18px}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-filter button{min-height:44px;border-radius:8px;padding:10px 16px}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) h3{font-size:14px;color:#a9b9cb;margin:26px 0 12px;letter-spacing:.02em}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game{border:1px solid #2a3a51;border-radius:12px;background:#101c2d;margin:10px 0;overflow:hidden;box-shadow:none}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game>summary{list-style:none;cursor:pointer;padding:16px;display:flex;flex-direction:column;gap:9px;min-height:44px;font-size:14px;line-height:1.4}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game>summary::-webkit-details-marker{display:none}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-kick{font-size:11px;color:#9eafc5;font-weight:500}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-matchup{font-size:16px;color:#edf3fa;font-weight:700;overflow-wrap:anywhere}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-values{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;border-top:1px solid #29394f;padding-top:12px}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-values>span{display:flex;flex-direction:column;gap:5px;min-width:0}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-values small{font-size:10px;color:#9eafc5;letter-spacing:.07em;font-weight:600}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-values b{font-size:14px;font-weight:650;color:#dce6f3;overflow-wrap:anywhere}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-model-value b{color:#75e2df}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-open-hint{font-size:11px;color:#9eafc5;margin-top:1px}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game[open]{border-color:#527087}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game>p{margin:0 16px 14px;font-size:12px;line-height:1.65}
+:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason)> a{display:block;font-size:12px;line-height:1.6;margin:12px 0}
+@media(min-width:760px){:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) details.game>summary{display:grid;grid-template-columns:75px minmax(200px,1.3fr) minmax(260px,1.4fr) 58px;align-items:center;gap:18px}:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-values{border:0;padding:0}:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-open-hint{text-align:right}:is(#cfbWeek10,#cfbWeek11,#cfbCurrentSeason) .cfb-search{max-width:440px}}
+#cfbCurrentSeason .cfb-values>small{grid-column:1/-1;letter-spacing:0;font-size:11px;line-height:1.5;font-weight:400}#cfbCurrentSeason .cfb-game-body{padding:0 16px 16px;font-size:12px;line-height:1.6;color:#adbed1}#cfbCurrentSeason .cfb-values strong{overflow-wrap:anywhere;font-size:14px}#cfbCurrentSeason .cfb-more{font-size:11px;color:#9eafc5}

@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-11-13T22:00:02.321620+00:00",
+  "source_checked_at": "2026-11-13T21:58:30Z",
+  "contract": {
+    "b": -7.08,
+    "coefficient_se": 5.2005,
+    "deployment_precision": "Reviewed four-decimal CSV precision chosen explicitly; shares/baselines/deltas not rounded",
+    "formula": "core home margin + b * (home_out_share - away_out_share)",
+    "scope": "Experimental observational same-week explicitly Out established RB/WR/TE only; >=2 prior stat-row appearances, >=2% trailing team attempts+carries+receptions share; strictly pregame same-season team history",
+    "fit": "2021-26 chronological core-refit residuals n=1208; mixed realized-history reference, not healthy baseline",
+    "weak_signal": "Coefficient-only 95% interval includes zero. Every displayed correction is consistent with zero effect. Not causal or proof of improved accuracy.",
+    "uncertainty": "Bands are coefficient-only, not predictive intervals; exclude status, role, replacement and confounding uncertainty.",
+    "exclusions": "IR/reserve-only, pending/unknown, Doubtful/Questionable, departures, unestablished players, QB, OL and defense are outside scope, not zero actual effect. No QB-scenario stacking.",
+    "core_sha256": "20f1fb2fe79584875e689a6c3e19c4ea977e73682b7da5f8879b4a003d7a1bdb",
+    "stats_sha256": "a7f51400624ae41f38db1395122115ff653231789ed0a840a3a7fae9e3bc977a"
+  },
+  "games": [
+    {
+      "game_id": "2026_10_NE_DET",
+      "event_id": "401873053",
+      "home": "DET",
+      "away": "NE",
+      "kickoff": "2026-11-15T14:30Z",
+      "raw_baseline_home_margin": 1.0966942482876747,
+      "baseline_display_margin_home": 1.0,
+      "home_out_share": 0.0,
+      "away_out_share": 0.07916666666666666,
+      "d_share": -0.07916666666666666,
+      "delta_home_margin": 0.5605,
+      "corrected_home_margin": 1.6571942482876747,
+      "display_margin_home": 1.5,
+      "coefficient_only_delta_band": [
+        -0.24644425000000003,
+        1.3674442500000001
+      ],
+      "coefficient_only_corrected_home_band": [
+        0.8502499982876747,
+        2.464138498287675
+      ],
+      "included": [
+        {
+          "team": "NE",
+          "name": "TreVeyon Henderson",
+          "gsis": "00-0040734",
+          "pos": "RB",
+          "url": "https://www.patriots.com/news/week-10-injury-report-patriots-at-lions",
+          "note": "Patriots official Friday injury report (Nov 13): OUT, illness. Also Out in nflverse week-10 file (fitted source).",
+          "prior_appearances": 6,
+          "player_volume": 57.0,
+          "team_volume": 720.0,
+          "trailing_share": 0.07916666666666666,
+          "status": "Out"
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "event_id": "401873057",
+      "home": "TEN",
+      "away": "JAX",
+      "kickoff": "2026-11-15T18:00Z",
+      "raw_baseline_home_margin": -11.109325259765058,
+      "baseline_display_margin_home": -11.0,
+      "home_out_share": 0.057432432432432436,
+      "away_out_share": 0.0,
+      "d_share": 0.057432432432432436,
+      "delta_home_margin": -0.40662162162162163,
+      "corrected_home_margin": -11.515946881386679,
+      "display_margin_home": -11.5,
+      "coefficient_only_delta_band": [
+        -0.9920292567567568,
+        0.17878601351351353
+      ],
+      "coefficient_only_corrected_home_band": [
+        -12.101354516521814,
+        -10.930539246251543
+      ],
+      "included": [
+        {
+          "team": "TEN",
+          "name": "Carnell Tate",
+          "gsis": "00-0041438",
+          "pos": "WR",
+          "url": "https://www.tennesseetitans.com/news/week-10-injury-report-titans-vs-jaguars",
+          "note": "Titans official injury report, updated Nov 13 2:30 PM: game status OUT (shoulder).",
+          "prior_appearances": 7,
+          "player_volume": 34.0,
+          "team_volume": 592.0,
+          "trailing_share": 0.057432432432432436,
+          "status": "Out"
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "event_id": "401873055",
+      "home": "NO",
+      "away": "CAR",
+      "kickoff": "2026-11-15T18:00Z",
+      "raw_baseline_home_margin": 0.9609836217762322,
+      "baseline_display_margin_home": 1.0,
+      "home_out_share": 0.02937062937062937,
+      "away_out_share": 0.0,
+      "d_share": 0.02937062937062937,
+      "delta_home_margin": -0.20794405594405593,
+      "corrected_home_margin": 0.7530395658321762,
+      "display_margin_home": 1.0,
+      "coefficient_only_delta_band": [
+        -0.5073182937062937,
+        0.09143018181818183
+      ],
+      "coefficient_only_corrected_home_band": [
+        0.4536653280699385,
+        1.052413803594414
+      ],
+      "included": [
+        {
+          "team": "NO",
+          "name": "CJ Donaldson",
+          "gsis": "00-0041326",
+          "pos": "RB",
+          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday",
+          "note": "Saints official Friday injury report (Nov 13): OUT (shoulder).",
+          "prior_appearances": 6,
+          "player_volume": 21.0,
+          "team_volume": 715.0,
+          "trailing_share": 0.02937062937062937,
+          "status": "Out"
+        }
+      ]
+    }
+  ],
+  "withheld": [
+    {
+      "game_id": "2026_10_MIN_GB",
+      "event_id": "401873060",
+      "reason": "Whole skill scenario withheld: Vikings opponent table lists Josh Jacobs Out, but GB owning report has Friday blank / Game Status UNSPECIFIED. Known possible cancellation with Hockenson. Existing separate QB conditional unchanged.",
+      "sources": [
+        "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+        "https://www.packers.com/team/injury-report/"
+      ]
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "event_id": "401873063",
+      "reason": "Formal same-week owning-source Out designation not established for Ferguson/Goodson; no zero-effect scenario published."
+    }
+  ]
+}

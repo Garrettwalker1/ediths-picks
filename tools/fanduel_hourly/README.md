@@ -52,3 +52,7 @@ NE-DET has two actual source rounds more than60minutes apart. Other12events have
 ## Second full round verified (Nov13 17:59-18:07CT)
 
 All13events have a second actual rendered source capture, minimum per-event spacing4,421seconds (more than60minutes).1,178parsed selections,1,080strict joins,98selection-level gaps withheld,693player-marketrows. CAR-NO gained5joined selections. This verifies full-slate recurrence of the six-category capture route, not complete identities, current matchup-adjusted player models, edge estimates or guaranteed future collection. Reuse source manifests and per-event freeze rules; never restamp an old source.
+
+## Third full round (Nov 13, 19:11-19:19 CT)
+
+All 13 events captured again, with original per-event source times. 1,178 parsed / 1,080 strict joins / 98 withheld gaps / 693 rows. No model or availability changes. Game captures 19:10 CT: 13 NFL and 55 CFB current; three missing CFB retain old times and one newly-started CFB freezes its prior capture. Earlier partial-stage descriptions above are historical, superseded by full-event recurrence. Identity coverage remains partial.

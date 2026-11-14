@@ -2,7 +2,7 @@
  "contract": {
   "b": -7.08,
   "coefficient_se": 5.2005,
-  "display_note": "all margins here are raw unrounded decimals; Display uses standard half-point favorite-minus headline formatting",
+  "display_note": "all margins here are raw unrounded decimals; publisher applies standard half-point favorite-minus headline formatting",
   "coefficient_source": "residual_coefs.csv d_injOut_SKILL (chronological core-refit residuals, mixed realized-history reference, 2021-26 n=1208, t=-1.36; OBSERVATIONAL, CI crosses zero)",
   "formula": "corrected_home_margin = raw_margin_home + b*(home_out_share - away_out_share); b only, no other terms",
   "event_definition": "same-week explicitly Out established RB/WR/TE; established = >=2 prior apps AND >=2% trailing team volume share through Nov 12; nflverse gsis identity",
@@ -33,6 +33,39 @@
      "pos": "RB",
      "url": "https://www.patriots.com/news/week-10-injury-report-patriots-at-lions",
      "note": "Patriots official Friday injury report (Nov 13): OUT, illness. Also Out in nflverse week-10 file (fitted source)."
+    }
+   ]
+  },
+  "2026_10_MIN_GB": {
+   "home": "GB",
+   "away": "MIN",
+   "label": "verified-only",
+   "raw_baseline_home_margin": 0.2676371150190574,
+   "home_out_share": 0.0620052770448548,
+   "away_out_share": 0.0610820244328097,
+   "d_share": 0.0009232526120450946,
+   "delta_home_margin": -0.00653662849327927,
+   "corrected_home_margin": 0.2611004865257781,
+   "coef_only_95_band": [
+    0.2516897911162547,
+    0.2705111819353015
+   ],
+   "included": [
+    {
+     "team": "MIN",
+     "name": "T.J. Hockenson",
+     "gsis": "00-0035229",
+     "pos": "TE",
+     "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+     "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest)."
+    },
+    {
+     "team": "GB",
+     "name": "Josh Jacobs",
+     "gsis": "00-0035700",
+     "pos": "RB",
+     "url": "https://www.packers.com/team/injury-report/",
+     "note": "RESOLVED 6:17 PM CT: owning packers.com injury report now lists Jacobs DNP/DNP/DNP, game status OUT (finger). Previously withheld as conflict; Vikings opponent table had listed him OUT earlier."
     }
    ]
   },
@@ -88,31 +121,6 @@
   }
  },
  "pending_not_applied": {
-  "2026_10_MIN_GB": {
-   "home": "GB",
-   "away": "MIN",
-   "label": "pending-formal-designation (shown for flagging, NOT applied)",
-   "raw_baseline_home_margin": 0.2676371150190574,
-   "home_out_share": 0.0620052770448548,
-   "away_out_share": 0,
-   "d_share": 0.0620052770448548,
-   "delta_home_margin": -0.43899736147757196,
-   "corrected_home_margin": -0.17136024645851455,
-   "coef_only_95_band": [
-    -0.8033787952711786,
-    0.4606583023541495
-   ],
-   "included": [
-    {
-     "team": "GB",
-     "name": "Josh Jacobs",
-     "gsis": "00-0035700",
-     "pos": "RB",
-     "url": "https://www.nfl.com/news/packers-rb-josh-jacobs-to-undergo-surgery-on-finger-this-week",
-     "note": "Finger surgery Fri Nov 13 (nfl.com). Vikings official final report opponent table lists Jacobs OUT (vikings.com, corroborating, non-owning). Owning source packers.com Week-10 report page still shows Friday column blank / Game Status UNSPECIFIED as of 3:58 PM CT. Formal Out designation pending owning-source posting."
-    }
-   ]
-  },
   "2026_10_SF_DAL": {
    "home": "DAL",
    "away": "SF",
@@ -151,7 +159,7 @@
   "game": "2026_10_MIN_GB",
   "home": "GB",
   "away": "MIN",
-  "state": "WITHHELD pending GB owning-source reconciliation: no one-sided adjustment",
+  "state": "RESOLVED 6:17 PM CT: owning packers.com report now lists Jacobs OUT; both events verified and applied in verified_applied. Kept for audit trail.",
   "verified_events": [
    {
     "team": "MIN",
@@ -176,9 +184,8 @@
     ]
    }
   ],
-  "hypothetical_not_applied": {
-   "hockenson_only": "d_share=-0.0610820244328097, delta=+0.4325, corrected=+0.7001 (NOT deployable: one-sided)",
-   "if_jacobs_also_out": "combined d_share=+0.0009232526120451, delta=-0.0065, corrected=+0.2611 (absences nearly cancel)"
+  "resolution": {
+   "applied": "both events in verified_applied; combined d_share=+0.0009232526120451, delta=-0.006537, corrected=+0.261100 (absences nearly cancel)"
   }
  },
  "pending_source_requirements": [

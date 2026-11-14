@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T22:01:31.768283+00:00",
-  "source_checked_at": "2026-11-13T21:58:30Z",
+  "generated_at": "2026-11-14T00:18:46.199210+00:00",
+  "source_checked_at": "2026-11-14T00:17:00Z",
   "contract": {
     "b": -7.08,
     "coefficient_se": 5.2005,
@@ -49,6 +49,57 @@
           "player_volume": 57.0,
           "team_volume": 720.0,
           "trailing_share": 0.07916666666666666,
+          "status": "Out"
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "event_id": "401873060",
+      "home": "GB",
+      "away": "MIN",
+      "kickoff": "2026-11-15T18:00Z",
+      "raw_baseline_home_margin": 0.2676371150190574,
+      "baseline_display_margin_home": 0.5,
+      "home_out_share": 0.06200527704485488,
+      "away_out_share": 0.06108202443280977,
+      "d_share": 0.0009232526120451084,
+      "delta_home_margin": -0.006536628493279368,
+      "corrected_home_margin": 0.26110048652577805,
+      "display_margin_home": 0.5,
+      "coefficient_only_delta_band": [
+        -0.01594732390280292,
+        0.0028740669162441827
+      ],
+      "coefficient_only_corrected_home_band": [
+        0.2516897911162545,
+        0.2705111819353016
+      ],
+      "included": [
+        {
+          "team": "MIN",
+          "name": "T.J. Hockenson",
+          "gsis": "00-0035229",
+          "pos": "TE",
+          "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+          "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest).",
+          "prior_appearances": 8,
+          "player_volume": 35.0,
+          "team_volume": 573.0,
+          "trailing_share": 0.06108202443280977,
+          "status": "Out"
+        },
+        {
+          "team": "GB",
+          "name": "Josh Jacobs",
+          "gsis": "00-0035700",
+          "pos": "RB",
+          "url": "https://www.packers.com/team/injury-report/",
+          "note": "RESOLVED 6:17 PM CT: owning packers.com injury report now lists Jacobs DNP/DNP/DNP, game status OUT (finger). Previously withheld as conflict; Vikings opponent table had listed him OUT earlier.",
+          "prior_appearances": 3,
+          "player_volume": 47.0,
+          "team_volume": 758.0,
+          "trailing_share": 0.06200527704485488,
           "status": "Out"
         }
       ]
@@ -130,16 +181,40 @@
       ]
     }
   ],
+  "resolved_status_audit": {
+    "game": "2026_10_MIN_GB",
+    "home": "GB",
+    "away": "MIN",
+    "state": "RESOLVED 6:17 PM CT: owning packers.com report now lists Jacobs OUT; both events verified and applied in verified_applied. Kept for audit trail.",
+    "verified_events": [
+      {
+        "team": "MIN",
+        "name": "T.J. Hockenson",
+        "gsis": "00-0035229",
+        "pos": "TE",
+        "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+        "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest). VERIFIED."
+      }
+    ],
+    "conflicting_events": [
+      {
+        "team": "GB",
+        "name": "Josh Jacobs",
+        "gsis": "00-0035700",
+        "pos": "RB",
+        "conflict": "Vikings official final report OPPONENT TABLE lists Jacobs OUT (non-owning, corroborating) vs owning packers.com Week-10 report page Friday column blank / Game Status UNSPECIFIED as of 3:58 PM CT",
+        "urls": [
+          "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+          "https://www.packers.com/team/injury-report/week/reg-10",
+          "https://www.nfl.com/news/packers-rb-josh-jacobs-to-undergo-surgery-on-finger-this-week"
+        ]
+      }
+    ],
+    "resolution": {
+      "applied": "both events in verified_applied; combined d_share=+0.0009232526120451, delta=-0.006537, corrected=+0.261100 (absences nearly cancel)"
+    }
+  },
   "withheld": [
-    {
-      "game_id": "2026_10_MIN_GB",
-      "event_id": "401873060",
-      "reason": "Whole skill scenario withheld: Vikings opponent table lists Josh Jacobs Out, but GB owning report has Friday blank / Game Status UNSPECIFIED. Known possible cancellation with Hockenson. Existing separate QB conditional unchanged.",
-      "sources": [
-        "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
-        "https://www.packers.com/team/injury-report/"
-      ]
-    },
     {
       "game_id": "2026_10_SF_DAL",
       "event_id": "401873063",

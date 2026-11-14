@@ -8,6 +8,12 @@ class Tests(unittest.TestCase):
  def test_dates(self):
   q={'captured_at':'2026-11-13T16:04:00Z','kickoff_text':'SAT 11:00AM CT'}
   self.assertTrue(u.validday(q,'2026-11-14T17:00Z'));self.assertFalse(u.validday(q,'2026-11-21T17:00Z'));self.assertFalse(u.validday(q,'2026-11-15T17:00Z'))
+ def test_current_schedule(self):
+  sched={'events':{'1':{'kickoff':'2026-11-15T18:00Z'}}}
+  self.assertEqual(u.current_kickoff('1','2026-11-14T21:15Z',sched),'2026-11-15T18:00Z')
+  self.assertEqual(u.current_kickoff('2','2026-11-14T21:15Z',sched),'2026-11-14T21:15Z')
+  q={'captured_at':'2026-11-14T13:07:00Z','kickoff_text':'SAT 3:15PM CT'}
+  self.assertFalse(u.validday(q,u.current_kickoff('1','2026-11-14T21:15Z',sched)))
  def test_pairs(self):
   self.assertFalse(u.match('Ohio','Ohio State Buckeyes') and u.match('Ball State','Northwestern Wildcats'))
 if __name__=='__main__':unittest.main()

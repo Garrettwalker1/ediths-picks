@@ -36,6 +36,9 @@ def validday(q,kick):
  if re.match(r'^\d',t):return dt.date()==cap.date()
  return False
 
+def current_kickoff(event_id,sealed_date,schedule):
+ return schedule.get('events',{}).get(str(event_id),{}).get('kickoff',sealed_date)
+
 def main(nfl,cfb):
  docs={s:load(p) for s,p in [('NFL',nfl),('CFB',cfb)]};parsed={s:parse(d) for s,d in docs.items()};now=max(d['at'] for d in docs.values());outpath=R/'fanduel_comparisons.json';old=json.load(open(outpath)) if outpath.exists() else {'nfl':{},'cfb':{}}
  out={'checked_at':now,'state':'IL','scope':'NFL/CFB game sides, moneylines and totals only. Public signed-out Illinois; not Tennessee. No player-market hourly coverage. Model/sealed evaluation references unchanged.','nfl':{},'cfb':{},'coverage':{}}
@@ -45,7 +48,8 @@ def main(nfl,cfb):
  root=(R/'index.html').read_text();current=json.JSONDecoder().raw_decode(root.split('const D=',1)[1])[0]['current']
  assert {x[2] for x in sched}=={g['matchup'] for g in current},'NFL slate changed: validate new source schedule before running'
  cg=json.load(open(R/'tools/cfb/week11_20261108/week11_sealed_research.json'))['games']
- for sport,games,key in [('NFL',sched,'nfl'),('CFB',[(g['away'],g['home'],g['event_id'],g['date'],g['event_id']) for g in cg],'cfb')]:
+ cfb_schedule=json.load(open(R/'cfb_schedule_verified.json'))
+ for sport,games,key in [('NFL',sched,'nfl'),('CFB',[(g['away'],g['home'],g['event_id'],current_kickoff(g['event_id'],g['date'],cfb_schedule),g['event_id']) for g in cg],'cfb')]:
   counts={'matched':0,'missing':0,'frozen':0,'unrestorable_started':0}
   for a,h,k,kick,eid in games:
    if datetime.datetime.fromisoformat(kick.replace('Z','+00:00'))<=datetime.datetime.fromisoformat(now.replace('Z','+00:00')):

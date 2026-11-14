@@ -1,6 +1,6 @@
 {
-  "version": "NFL-experimental-current-season-QB-input-v1",
-  "generated_at": "2026-11-13T21:26:52.618220+00:00",
+  "version": "NFL-experimental-current-season-QB-input-v2-role-update",
+  "generated_at": "2026-11-14T16:17:28.439017+00:00",
   "core_version": "NFL-current-season-SOS-record-player-v1-owner-requested",
   "performance_status": "Owner-directed experimental inclusion without another performance test. Accuracy improvement not established.",
   "scope": "QB passing production only. 1 conditional game prediction; 12 games without numerical adjustment. Five games carry QB injury flags including three owning-team verified changes without numerical application. No non-QB or CFB injury effects.",
@@ -46,11 +46,12 @@
         "display_margin_home": -1.5,
         "min_team_swing_raw": 1.553168626880279,
         "display_min_team_swing": 1.5,
-        "assumptions": "If Kirk Cousins starts for Minnesota and Green Bay stays at its baseline-embedded QB production. The Green Bay unchanged-production assumption is not verified health, confirmed starter status, or a measured zero injury effect.",
-        "role_status": "Minnesota starter not announced in the owning-team source checked Nov13 14:10CT. Cousins is a scenario, not confirmed.",
+        "assumptions": "Kirk Cousins is announced to start for Minnesota. Numerical scenario still assumes Green Bay stays at its baseline-embedded QB production. That assumption is not verified health, a measured zero injury effect or a full-game available-roster forecast.",
+        "role_status": "Kirk Cousins confirmed as Minnesota starter by owning-team Nov13 15:11CT announcement, rechecked Nov14 10:17CT. Remaining unchanged-production assumption for Green Bay is not a measured zero injury effect. No new numeric adjustment.",
         "source_urls": [
           "https://www.vikings.com/news/nfl-expert-picks-packers-rivalry-renews-week-10",
-          "https://www.packers.com/news/packers-defense-ready-for-another-round-with-kirk-cousins-nov-13-2026"
+          "https://www.packers.com/news/packers-defense-ready-for-another-round-with-kirk-cousins-nov-13-2026",
+          "https://www.vikings.com/news/kirk-cousins-starting-packers-week-10-game-2026"
         ],
         "season_dropbacks": 326,
         "shrink_weight_on_data": 0.542,
@@ -59,7 +60,8 @@
           3.81
         ],
         "uncertainty": "Coefficient-only interval crosses zero and is NOT full predictive uncertainty. It excludes player-quality, role, embedded-proxy and confounding uncertainty. Association, not causal injury effect. Non-QB injuries not included."
-      }
+      },
+      "source_checked_at": "2026-11-14T16:17:00Z"
     },
     {
       "event_id": "401873059",
@@ -72,7 +74,8 @@
       "source_urls": [
         "https://www.miamidolphins.com/news/top-quotes-dolphins-travel-to-indianapolis-with-a-new-quarterback-new-captain",
         "https://www.miamidolphins.com/news/dolphins-make-roster-moves-x8063"
-      ]
+      ],
+      "source_checked_at": "2026-11-14T16:17:00Z"
     },
     {
       "event_id": "401873055",
@@ -111,7 +114,8 @@
       "coverage_note": "(QB injury flag) Arizona confirms Carson Beck will make his first career start after Gardner Minshew's season-ending elbow injury. Jacoby Brissett was separately traded, not injured out of this roster. Replacement quality is unestablished; baseline unchanged, no numerical QB effect applied.",
       "source_urls": [
         "https://www.azcardinals.com/news/for-starters-carson-beck-ready-to-play-first-game-against-rams"
-      ]
+      ],
+      "source_checked_at": "2026-11-14T16:17:00Z"
     },
     {
       "event_id": "401873062",
@@ -120,11 +124,13 @@
       "raw_home_adjustment_pts": null,
       "status": "withheld_prior_dominated_replacement_quality",
       "conditional_scenario": null,
-      "coverage_note": "Darnold ruled out; Lock expected, not confirmed. Mendoza named by Raiders. Lock 78 current-season dropbacks, data weight 22.1%; Mendoza 8, weight 2.8%. League-mean prior dominates both. No numerical replacement-quality claim or adjusted spread.",
+      "coverage_note": "(QB injury flag) Darnold ruled Out; owning Friday coach update describes Drew Lock preparing to start with limited practice from right-elbow/oblique injuries and no final game designation. Not a claim of full health. Mendoza named by Raiders. Lock 78 current-season dropbacks, data weight22.1%; Mendoza8, weight2.8%. League-mean prior dominates both. No numerical replacement-quality claim or adjusted spread.",
       "source_urls": [
         "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders",
-        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
-      ]
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback",
+        "https://www.seahawks.com/news/drew-lock-confident-and-optimistic-heading-into-sunday-s-game-other-seahawks-updates"
+      ],
+      "source_checked_at": "2026-11-14T16:17:00Z"
     },
     {
       "event_id": "401873063",
@@ -155,7 +161,9 @@
       "source_urls": [
         "https://www.baltimoreravens.com/news/jacoby-brissett-ravens-trade-cardinals-finalize-2026",
         "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody"
-      ]
+      ],
+      "source_checked_at": "2026-11-14T16:17:00Z"
     }
-  ]
+  ],
+  "source_checked_at": "2026-11-14T16:17:00Z"
 }

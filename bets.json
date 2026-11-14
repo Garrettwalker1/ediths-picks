@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-14T14:14:00Z",
+  "updated_at": "2026-11-14T22:41:05.797988+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -13023,6 +13023,54 @@
         "available": true,
         "note": "Baseline current-season projected margins only, not injury-adjusted available-roster forecasts or validated betting edge. Late final reports publish after first legs start."
       }
+    },
+    {
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "game": "Tennessee Volunteers @ Texas A&M Aggies",
+      "kickoff": "2026-11-14T20:00Z",
+      "line": null,
+      "bet_id": "us-tn:01m7dyh7sbe7wsy77p081a9zda",
+      "date": "2026-11-14T15:13:00-06:00",
+      "placed_at": "2026-11-14T15:13:00-06:00",
+      "stake_usd": 20,
+      "stake_units": null,
+      "stake_units_note": "No explicit units supplied with this receipt; dollars are authoritative.",
+      "bet": "Straight: Tennessee ML",
+      "selection": "Straight: Tennessee ML",
+      "market": "moneyline",
+      "price": 116,
+      "potential_payout_usd": 43.2,
+      "potential_profit_usd": 23.2,
+      "cashout_offer_usd": 38.28,
+      "cashout_offer_note": "Offer visible on receipt only, not a transaction. No cashout recorded.",
+      "source_message_id": "phonemsg-01M7E3FY6HTQQ0SQM59G7KFWZR",
+      "source": "Owner iMessage Nov14 16:40CT. Actual placed FanDuel TN receipt pixels inspected, including exact bet ID and placement time. Exact displayed stake/price/payout retained.",
+      "receipt_filename": "image-4a12c76b.png",
+      "source_receipt_sha256": "41ff42a31fcf7d348c5ad17346724eebfdeab20c132e7fba6f0e81161f71c435",
+      "net_usd": null,
+      "net_units": null,
+      "event_ids": [
+        "401856888"
+      ],
+      "legs": [
+        {
+          "event_id": "401856888",
+          "event": "Tennessee Volunteers @ Texas A&M Aggies",
+          "kickoff": "2026-11-14T20:00Z",
+          "market": "moneyline",
+          "selection": "Tennessee",
+          "line": null,
+          "price": 116,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Placed at15:13CT after scheduled14:00CT kickoff. No sealed pregame or in-play model probability assigned. Screenshot score16-7Q4 9:38 is receipt context, not a settlement. Cashout offer is not a transaction. No VOLS sharing or original account image upload."
     }
   ]
 }

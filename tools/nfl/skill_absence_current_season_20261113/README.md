@@ -11,3 +11,5 @@ Four source-confirmed same-week Out game scenarios include NE Henderson, MIN Hoc
 The coefficient-only95% band crosses zero for every correction. Corrected-home bands are not full predictive intervals and need not themselves cross zero. Status, role, replacement and confounding uncertainty are excluded. Continuing absences and replacement production are mixed into the core reference, not a healthy-roster baseline; this contract cannot guarantee removal of individual-game double counting.
 
 `apply.py` rebuilds this dated bounded overlay from core data and source-verified event records. `review_sources` preserves the coefficient and current football input bundle; this is not a portable end-to-end historical fit. Do not run a dated rebuild as a fresh status check. New weeks/cutoffs require current source and event-contract checks first.
+
+Puka Nacua is on Injured Reserve per the Rams November 12 transaction (https://www.therams.com/team/transactions/), not a pending Friday DNP. This is outside this component, not zero effect. TD/current-player candidacy is withheld separately; the four game numeric payload is unchanged.

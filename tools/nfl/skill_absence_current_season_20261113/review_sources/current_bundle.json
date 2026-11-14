@@ -1,199 +1,199 @@
 {
- "contract": {
-  "b": -7.08,
-  "coefficient_se": 5.2005,
-  "display_note": "all margins here are raw unrounded decimals; publisher applies standard half-point favorite-minus headline formatting",
-  "coefficient_source": "residual_coefs.csv d_injOut_SKILL (chronological core-refit residuals, mixed realized-history reference, 2021-26 n=1208, t=-1.36; OBSERVATIONAL, CI crosses zero)",
-  "formula": "corrected_home_margin = raw_margin_home + b*(home_out_share - away_out_share); b only, no other terms",
-  "event_definition": "same-week explicitly Out established RB/WR/TE; established = >=2 prior apps AND >=2% trailing team volume share through Nov 12; nflverse gsis identity",
-  "exclusions": "IR/reserve-only, Doubtful, Questionable, pending/missing statuses, departures, OL/defense, QB effects are OUTSIDE the component (not zero actual effect). No QB-scenario stacking.",
-  "generated_at_ct": "2026-11-13 16:00",
-  "established_share_source": "wk10_established_skill_shares.csv"
- },
- "verified_applied": {
-  "2026_10_NE_DET": {
-   "home": "DET",
-   "away": "NE",
-   "label": "verified-only",
-   "raw_baseline_home_margin": 1.0966942482876747,
-   "home_out_share": 0,
-   "away_out_share": 0.0791666666666666,
-   "d_share": -0.0791666666666666,
-   "delta_home_margin": 0.5604999999999994,
-   "corrected_home_margin": 1.657194248287674,
-   "coef_only_95_band": [
-    0.8502499982876748,
-    2.4641384982876735
-   ],
-   "included": [
-    {
-     "team": "NE",
-     "name": "TreVeyon Henderson",
-     "gsis": "00-0040734",
-     "pos": "RB",
-     "url": "https://www.patriots.com/news/week-10-injury-report-patriots-at-lions",
-     "note": "Patriots official Friday injury report (Nov 13): OUT, illness. Also Out in nflverse week-10 file (fitted source)."
-    }
-   ]
+  "contract": {
+    "b": -7.08,
+    "coefficient_se": 5.2005,
+    "display_note": "all margins here are raw unrounded decimals; publisher applies standard half-point favorite-minus headline formatting",
+    "coefficient_source": "residual_coefs.csv d_injOut_SKILL (chronological core-refit residuals, mixed realized-history reference, 2021-26 n=1208, t=-1.36; OBSERVATIONAL, CI crosses zero)",
+    "formula": "corrected_home_margin = raw_margin_home + b*(home_out_share - away_out_share); b only, no other terms",
+    "event_definition": "same-week explicitly Out established RB/WR/TE; established = >=2 prior apps AND >=2% trailing team volume share through Nov 12; nflverse gsis identity",
+    "exclusions": "IR/reserve-only, Doubtful, Questionable, pending/missing statuses, departures, OL/defense, QB effects are OUTSIDE the component (not zero actual effect). No QB-scenario stacking.",
+    "generated_at_ct": "2026-11-13 16:00",
+    "established_share_source": "wk10_established_skill_shares.csv"
   },
-  "2026_10_MIN_GB": {
-   "home": "GB",
-   "away": "MIN",
-   "label": "verified-only",
-   "raw_baseline_home_margin": 0.2676371150190574,
-   "home_out_share": 0.0620052770448548,
-   "away_out_share": 0.0610820244328097,
-   "d_share": 0.0009232526120450946,
-   "delta_home_margin": -0.00653662849327927,
-   "corrected_home_margin": 0.2611004865257781,
-   "coef_only_95_band": [
-    0.2516897911162547,
-    0.2705111819353015
-   ],
-   "included": [
-    {
-     "team": "MIN",
-     "name": "T.J. Hockenson",
-     "gsis": "00-0035229",
-     "pos": "TE",
-     "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
-     "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest)."
+  "verified_applied": {
+    "2026_10_NE_DET": {
+      "home": "DET",
+      "away": "NE",
+      "label": "verified-only",
+      "raw_baseline_home_margin": 1.0966942482876747,
+      "home_out_share": 0,
+      "away_out_share": 0.0791666666666666,
+      "d_share": -0.0791666666666666,
+      "delta_home_margin": 0.5604999999999994,
+      "corrected_home_margin": 1.657194248287674,
+      "coef_only_95_band": [
+        0.8502499982876748,
+        2.4641384982876735
+      ],
+      "included": [
+        {
+          "team": "NE",
+          "name": "TreVeyon Henderson",
+          "gsis": "00-0040734",
+          "pos": "RB",
+          "url": "https://www.patriots.com/news/week-10-injury-report-patriots-at-lions",
+          "note": "Patriots official Friday injury report (Nov 13): OUT, illness. Also Out in nflverse week-10 file (fitted source)."
+        }
+      ]
     },
-    {
-     "team": "GB",
-     "name": "Josh Jacobs",
-     "gsis": "00-0035700",
-     "pos": "RB",
-     "url": "https://www.packers.com/team/injury-report/",
-     "note": "RESOLVED 6:17 PM CT: owning packers.com injury report now lists Jacobs DNP/DNP/DNP, game status OUT (finger). Previously withheld as conflict; Vikings opponent table had listed him OUT earlier."
-    }
-   ]
-  },
-  "2026_10_JAX_TEN": {
-   "home": "TEN",
-   "away": "JAX",
-   "label": "verified-only",
-   "raw_baseline_home_margin": -11.109325259765058,
-   "home_out_share": 0.0574324324324324,
-   "away_out_share": 0,
-   "d_share": 0.0574324324324324,
-   "delta_home_margin": -0.4066216216216214,
-   "corrected_home_margin": -11.515946881386679,
-   "coef_only_95_band": [
-    -12.101354516521814,
-    -10.930539246251543
-   ],
-   "included": [
-    {
-     "team": "TEN",
-     "name": "Carnell Tate",
-     "gsis": "00-0041438",
-     "pos": "WR",
-     "url": "https://www.tennesseetitans.com/news/week-10-injury-report-titans-vs-jaguars",
-     "note": "Titans official injury report, updated Nov 13 2:30 PM: game status OUT (shoulder)."
-    }
-   ]
-  },
-  "2026_10_CAR_NO": {
-   "home": "NO",
-   "away": "CAR",
-   "label": "verified-only",
-   "raw_baseline_home_margin": 0.9609836217762322,
-   "home_out_share": 0.0293706293706293,
-   "away_out_share": 0,
-   "d_share": 0.0293706293706293,
-   "delta_home_margin": -0.20794405594405546,
-   "corrected_home_margin": 0.7530395658321767,
-   "coef_only_95_band": [
-    0.45366532806993964,
-    1.0524138035944137
-   ],
-   "included": [
-    {
-     "team": "NO",
-     "name": "CJ Donaldson",
-     "gsis": "00-0041326",
-     "pos": "RB",
-     "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday",
-     "note": "Saints official Friday injury report (Nov 13): OUT (shoulder)."
-    }
-   ]
-  }
- },
- "pending_not_applied": {
-  "2026_10_SF_DAL": {
-   "home": "DAL",
-   "away": "SF",
-   "label": "pending-formal-designation (shown for flagging, NOT applied)",
-   "raw_baseline_home_margin": -5.4253443661037775,
-   "home_out_share": 0.0800508259212198,
-   "away_out_share": 0,
-   "d_share": 0.0800508259212198,
-   "delta_home_margin": -0.5667598475222362,
-   "corrected_home_margin": -5.992104213626014,
-   "coef_only_95_band": [
-    -6.8080606812244895,
-    -5.176147746027539
-   ],
-   "included": [
-    {
-     "team": "DAL",
-     "name": "Jake Ferguson",
-     "gsis": "00-0038041",
-     "pos": "TE",
-     "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
-     "note": "Cowboys official site Nov 9: Ferguson out \"multiple weeks\". dallascowboys.com Week-10 report page Friday game-status column still UNSPECIFIED at fetch time. Formal designation pending."
+    "2026_10_MIN_GB": {
+      "home": "GB",
+      "away": "MIN",
+      "label": "verified-only",
+      "raw_baseline_home_margin": 0.2676371150190574,
+      "home_out_share": 0.0620052770448548,
+      "away_out_share": 0.0610820244328097,
+      "d_share": 0.0009232526120450946,
+      "delta_home_margin": -0.00653662849327927,
+      "corrected_home_margin": 0.2611004865257781,
+      "coef_only_95_band": [
+        0.2516897911162547,
+        0.2705111819353015
+      ],
+      "included": [
+        {
+          "team": "MIN",
+          "name": "T.J. Hockenson",
+          "gsis": "00-0035229",
+          "pos": "TE",
+          "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+          "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest)."
+        },
+        {
+          "team": "GB",
+          "name": "Josh Jacobs",
+          "gsis": "00-0035700",
+          "pos": "RB",
+          "url": "https://www.packers.com/team/injury-report/",
+          "note": "RESOLVED 6:17 PM CT: owning packers.com injury report now lists Jacobs DNP/DNP/DNP, game status OUT (finger). Previously withheld as conflict; Vikings opponent table had listed him OUT earlier."
+        }
+      ]
     },
-    {
-     "team": "DAL",
-     "name": "Tyler Goodson",
-     "gsis": "00-0037120",
-     "pos": "RB",
-     "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
-     "note": "Cowboys official site Nov 9: Goodson out \"multiple weeks\". Formal Friday designation pending as above."
+    "2026_10_JAX_TEN": {
+      "home": "TEN",
+      "away": "JAX",
+      "label": "verified-only",
+      "raw_baseline_home_margin": -11.109325259765058,
+      "home_out_share": 0.0574324324324324,
+      "away_out_share": 0,
+      "d_share": 0.0574324324324324,
+      "delta_home_margin": -0.4066216216216214,
+      "corrected_home_margin": -11.515946881386679,
+      "coef_only_95_band": [
+        -12.101354516521814,
+        -10.930539246251543
+      ],
+      "included": [
+        {
+          "team": "TEN",
+          "name": "Carnell Tate",
+          "gsis": "00-0041438",
+          "pos": "WR",
+          "url": "https://www.tennesseetitans.com/news/week-10-injury-report-titans-vs-jaguars",
+          "note": "Titans official injury report, updated Nov 13 2:30 PM: game status OUT (shoulder)."
+        }
+      ]
+    },
+    "2026_10_CAR_NO": {
+      "home": "NO",
+      "away": "CAR",
+      "label": "verified-only",
+      "raw_baseline_home_margin": 0.9609836217762322,
+      "home_out_share": 0.0293706293706293,
+      "away_out_share": 0,
+      "d_share": 0.0293706293706293,
+      "delta_home_margin": -0.20794405594405546,
+      "corrected_home_margin": 0.7530395658321767,
+      "coef_only_95_band": [
+        0.45366532806993964,
+        1.0524138035944137
+      ],
+      "included": [
+        {
+          "team": "NO",
+          "name": "CJ Donaldson",
+          "gsis": "00-0041326",
+          "pos": "RB",
+          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday",
+          "note": "Saints official Friday injury report (Nov 13): OUT (shoulder)."
+        }
+      ]
     }
-   ]
-  }
- },
- "withheld_conflict": {
-  "game": "2026_10_MIN_GB",
-  "home": "GB",
-  "away": "MIN",
-  "state": "RESOLVED 6:17 PM CT: owning packers.com report now lists Jacobs OUT; both events verified and applied in verified_applied. Kept for audit trail.",
-  "verified_events": [
-   {
-    "team": "MIN",
-    "name": "T.J. Hockenson",
-    "gsis": "00-0035229",
-    "pos": "TE",
-    "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
-    "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest). VERIFIED."
-   }
+  },
+  "pending_not_applied": {
+    "2026_10_SF_DAL": {
+      "home": "DAL",
+      "away": "SF",
+      "label": "pending-formal-designation (shown for flagging, NOT applied)",
+      "raw_baseline_home_margin": -5.4253443661037775,
+      "home_out_share": 0.0800508259212198,
+      "away_out_share": 0,
+      "d_share": 0.0800508259212198,
+      "delta_home_margin": -0.5667598475222362,
+      "corrected_home_margin": -5.992104213626014,
+      "coef_only_95_band": [
+        -6.8080606812244895,
+        -5.176147746027539
+      ],
+      "included": [
+        {
+          "team": "DAL",
+          "name": "Jake Ferguson",
+          "gsis": "00-0038041",
+          "pos": "TE",
+          "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
+          "note": "Cowboys official site Nov 9: Ferguson out \"multiple weeks\". dallascowboys.com Week-10 report page Friday game-status column still UNSPECIFIED at fetch time. Formal designation pending."
+        },
+        {
+          "team": "DAL",
+          "name": "Tyler Goodson",
+          "gsis": "00-0037120",
+          "pos": "RB",
+          "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
+          "note": "Cowboys official site Nov 9: Goodson out \"multiple weeks\". Formal Friday designation pending as above."
+        }
+      ]
+    }
+  },
+  "withheld_conflict": {
+    "game": "2026_10_MIN_GB",
+    "home": "GB",
+    "away": "MIN",
+    "state": "RESOLVED 6:17 PM CT: owning packers.com report now lists Jacobs OUT; both events verified and applied in verified_applied. Kept for audit trail.",
+    "verified_events": [
+      {
+        "team": "MIN",
+        "name": "T.J. Hockenson",
+        "gsis": "00-0035229",
+        "pos": "TE",
+        "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+        "note": "Vikings official final Week 10 report (Nov 13): ruled OUT (wrist/chest). VERIFIED."
+      }
+    ],
+    "conflicting_events": [
+      {
+        "team": "GB",
+        "name": "Josh Jacobs",
+        "gsis": "00-0035700",
+        "pos": "RB",
+        "conflict": "Vikings official final report OPPONENT TABLE lists Jacobs OUT (non-owning, corroborating) vs owning packers.com Week-10 report page Friday column blank / Game Status UNSPECIFIED as of 3:58 PM CT",
+        "urls": [
+          "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+          "https://www.packers.com/team/injury-report/week/reg-10",
+          "https://www.nfl.com/news/packers-rb-josh-jacobs-to-undergo-surgery-on-finger-this-week"
+        ]
+      }
+    ],
+    "resolution": {
+      "applied": "both events in verified_applied; combined d_share=+0.0009232526120451, delta=-0.006537, corrected=+0.261100 (absences nearly cancel)"
+    }
+  },
+  "pending_source_requirements": [
+    "DAL Ferguson/Goodson formal Friday game-status still UNSPECIFIED on dallascowboys.com report page (owning-site Nov 9 \"multiple weeks\" statement supports Out)",
+    "MNF LAC@BAL: no game-status designations until Saturday",
+    "Watch items (established, DNP Friday, no Out designation yet): Bhayshul Tuten JAX (22.68%), Denzel Boston CLE (4.56%), Mike Evans SF (4.27%); Amon-Ra St. Brown DET Questionable (outside component unless upgraded to Out)",
+    "IR/reserve exclusions (established but IR-only, outside same-week Out component, NOT zero actual effect): Puka Nacua LA (0.0936 share) - placed on Injured Reserve 11/12 per owning https://www.therams.com/team/transactions/ (user correction 6:23 PM CT, publisher primary check confirmed; supersedes Nov 11 no-IR-decision)",
+    "Excluded as not established: Jauan Jennings MIN (ruled out), Zachariah Branch ATL, Mo Alie-Cox IND, Brevin Jordan HOU, Marvin Harrison Jr. HOU (mid-season arrival, <2% HOU trailing share), Brandon Aiyuk SF (reserve-exempt, not established)"
   ],
-  "conflicting_events": [
-   {
-    "team": "GB",
-    "name": "Josh Jacobs",
-    "gsis": "00-0035700",
-    "pos": "RB",
-    "conflict": "Vikings official final report OPPONENT TABLE lists Jacobs OUT (non-owning, corroborating) vs owning packers.com Week-10 report page Friday column blank / Game Status UNSPECIFIED as of 3:58 PM CT",
-    "urls": [
-     "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
-     "https://www.packers.com/team/injury-report/week/reg-10",
-     "https://www.nfl.com/news/packers-rb-josh-jacobs-to-undergo-surgery-on-finger-this-week"
-    ]
-   }
-  ],
-  "resolution": {
-   "applied": "both events in verified_applied; combined d_share=+0.0009232526120451, delta=-0.006537, corrected=+0.261100 (absences nearly cancel)"
-  }
- },
- "pending_source_requirements": [
-  "GB Josh Jacobs formal Friday Out designation not yet posted on packers.com report page at fetch time",
-  "DAL Ferguson/Goodson formal Friday game-status still UNSPECIFIED on dallascowboys.com report page (owning-site Nov 9 \"multiple weeks\" statement supports Out)",
-  "MNF LAC@BAL: no game-status designations until Saturday",
-  "Watch items (established, DNP Friday, no Out designation yet): Bhayshul Tuten JAX (22.68%), Puka Nacua LA (9.36%), Denzel Boston CLE (4.56%), Mike Evans SF (4.27%); Amon-Ra St. Brown DET Questionable (outside component unless upgraded to Out)",
-  "Excluded as not established: Jauan Jennings MIN (ruled out), Zachariah Branch ATL, Mo Alie-Cox IND, Brevin Jordan HOU, Marvin Harrison Jr. HOU (mid-season arrival, <2% HOU trailing share), Brandon Aiyuk SF (reserve-exempt, not established)"
- ],
- "uncertainty_note": "Band is coefficient-only (1.96 x 5.20 x |d_share|). Excludes status, role, replacement, and confounding uncertainty. The underlying coefficient is not statistically separated from zero; every correction shown is consistent with zero effect."
+  "uncertainty_note": "Band is coefficient-only (1.96 x 5.20 x |d_share|). Excludes status, role, replacement, and confounding uncertainty. The underlying coefficient is not statistically separated from zero; every correction shown is consistent with zero effect."
 }

@@ -118,22 +118,20 @@
           "note": "Saints official Friday injury report (Nov 13): OUT (shoulder)."
         }
       ]
-    }
-  },
-  "pending_not_applied": {
+    },
     "2026_10_SF_DAL": {
       "home": "DAL",
       "away": "SF",
-      "label": "pending-formal-designation (shown for flagging, NOT applied)",
+      "label": "verified-only",
       "raw_baseline_home_margin": -5.4253443661037775,
       "home_out_share": 0.0800508259212198,
-      "away_out_share": 0,
-      "d_share": 0.0800508259212198,
-      "delta_home_margin": -0.5667598475222362,
-      "corrected_home_margin": -5.992104213626014,
+      "away_out_share": 0.0426540284360189,
+      "d_share": 0.0373967974852009,
+      "delta_home_margin": -0.2647693261952224,
+      "corrected_home_margin": -5.690113692299,
       "coef_only_95_band": [
-        -6.8080606812244895,
-        -5.176147746027539
+        -6.071298501129703,
+        -5.308928883468297
       ],
       "included": [
         {
@@ -141,20 +139,31 @@
           "name": "Jake Ferguson",
           "gsis": "00-0038041",
           "pos": "TE",
-          "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
-          "note": "Cowboys official site Nov 9: Ferguson out \"multiple weeks\". dallascowboys.com Week-10 report page Friday game-status column still UNSPECIFIED at fetch time. Formal designation pending."
+          "url": "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+          "note": "Formal same-week Out verified on current NFL league Week10 report Nov14 10:12CT. Team injury table still shows Friday blank/UNSPECIFIED and is stale; older team absence article only corroborates.",
+          "corroborating_url": "https://www.nfl.com/injuries/league/2026/reg"
         },
         {
           "team": "DAL",
           "name": "Tyler Goodson",
           "gsis": "00-0037120",
           "pos": "RB",
-          "url": "https://www.dallascowboys.com/news/cowboys-injury-roundup-tough-decisions-ahead-as-ferguson-locke-others-get-bad-news",
-          "note": "Cowboys official site Nov 9: Goodson out \"multiple weeks\". Formal Friday designation pending as above."
+          "url": "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+          "note": "Formal same-week Out verified on current NFL league Week10 report Nov14 10:12CT. Team injury table still shows Friday blank/UNSPECIFIED and is stale; older team absence article only corroborates.",
+          "corroborating_url": "https://www.nfl.com/injuries/league/2026/reg"
+        },
+        {
+          "team": "SF",
+          "name": "Mike Evans",
+          "gsis": "00-0031408",
+          "pos": "WR",
+          "url": "https://www.49ers.com/team/injury-report/",
+          "note": "VERIFIED Sat: owning 49ers injury report shows Evans DNP/DNP/DNP, game status OUT (Achilles); also formal Out in nflverse week-10 file. Was Friday watch item."
         }
       ]
     }
   },
+  "pending_not_applied": {},
   "withheld_conflict": {
     "game": "2026_10_MIN_GB",
     "home": "GB",
@@ -189,11 +198,13 @@
     }
   },
   "pending_source_requirements": [
-    "DAL Ferguson/Goodson formal Friday game-status still UNSPECIFIED on dallascowboys.com report page (owning-site Nov 9 \"multiple weeks\" statement supports Out)",
-    "MNF LAC@BAL: no game-status designations until Saturday",
-    "Watch items (established, DNP Friday, no Out designation yet): Bhayshul Tuten JAX (22.68%), Denzel Boston CLE (4.56%), Mike Evans SF (4.27%); Amon-Ra St. Brown DET Questionable (outside component unless upgraded to Out)",
+    "MNF LAC@BAL: no game-status designations in nflverse week-10 file as of Sat 10:10 AM CT; Saturday afternoon report expected - check before 3:14 PM task expiry, else successor owns",
+    "Watch items resolved Sat: Tuten JAX NOT designated (JAX report has no Out for him - presumed active); Evans SF now OUT (applied); Boston CLE Questionable (outside component); St. Brown DET Questionable (outside component); Chris Bell MIA Doubtful but established (0.0256) - outside component",
+    "Saturday note: GB Jacobs still OUT (confirmed in refreshed nflverse file); Micah Parsons GB LB Out (defense, outside component); Sam Darnold SEA QB Out (QB lane, publisher owns)",
     "IR/reserve exclusions (established but IR-only, outside same-week Out component, NOT zero actual effect): Puka Nacua LA (0.0936 share) - placed on Injured Reserve 11/12 per owning https://www.therams.com/team/transactions/ (user correction 6:23 PM CT, publisher primary check confirmed; supersedes Nov 11 no-IR-decision)",
     "Excluded as not established: Jauan Jennings MIN (ruled out), Zachariah Branch ATL, Mo Alie-Cox IND, Brevin Jordan HOU, Marvin Harrison Jr. HOU (mid-season arrival, <2% HOU trailing share), Brandon Aiyuk SF (reserve-exempt, not established)"
   ],
-  "uncertainty_note": "Band is coefficient-only (1.96 x 5.20 x |d_share|). Excludes status, role, replacement, and confounding uncertainty. The underlying coefficient is not statistically separated from zero; every correction shown is consistent with zero effect."
+  "uncertainty_note": "Band is coefficient-only (1.96 x 5.20 x |d_share|). Excludes status, role, replacement, and confounding uncertainty. The underlying coefficient is not statistically separated from zero; every correction shown is consistent with zero effect.",
+  "source_checked_at": "2026-11-14T16:12:00Z",
+  "publisher_verification_note": "DAL formal Out confirmed on current league primary report and injury table; Cowboys team table stale. SF Evans owning report explicit Out. Other four game source checks remain dated November13."
 }

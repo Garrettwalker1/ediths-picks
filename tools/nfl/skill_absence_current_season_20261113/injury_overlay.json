@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T00:18:46.199210+00:00",
-  "source_checked_at": "2026-11-14T00:17:00Z",
+  "generated_at": "2026-11-14T16:12:32.462165+00:00",
+  "source_checked_at": "2026-11-14T16:12:00Z",
   "contract": {
     "b": -7.08,
     "coefficient_se": 5.2005,
@@ -51,7 +51,8 @@
           "trailing_share": 0.07916666666666666,
           "status": "Out"
         }
-      ]
+      ],
+      "source_checked_at": "2026-11-14T00:17:00Z"
     },
     {
       "game_id": "2026_10_MIN_GB",
@@ -102,7 +103,8 @@
           "trailing_share": 0.06200527704485488,
           "status": "Out"
         }
-      ]
+      ],
+      "source_checked_at": "2026-11-14T00:17:00Z"
     },
     {
       "game_id": "2026_10_JAX_TEN",
@@ -140,7 +142,8 @@
           "trailing_share": 0.057432432432432436,
           "status": "Out"
         }
-      ]
+      ],
+      "source_checked_at": "2026-11-14T00:17:00Z"
     },
     {
       "game_id": "2026_10_CAR_NO",
@@ -178,7 +181,75 @@
           "trailing_share": 0.02937062937062937,
           "status": "Out"
         }
-      ]
+      ],
+      "source_checked_at": "2026-11-14T00:17:00Z"
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "event_id": "401873063",
+      "home": "DAL",
+      "away": "SF",
+      "kickoff": "2026-11-15T21:25Z",
+      "raw_baseline_home_margin": -5.4253443661037775,
+      "baseline_display_margin_home": -5.5,
+      "home_out_share": 0.08005082592121981,
+      "away_out_share": 0.04265402843601896,
+      "d_share": 0.037396797485200854,
+      "delta_home_margin": -0.26476932619522203,
+      "corrected_home_margin": -5.690113692299,
+      "display_margin_home": -5.5,
+      "coefficient_only_delta_band": [
+        -0.6459541350259246,
+        0.11641548263548057
+      ],
+      "coefficient_only_corrected_home_band": [
+        -6.071298501129702,
+        -5.3089288834682975
+      ],
+      "included": [
+        {
+          "team": "DAL",
+          "name": "Jake Ferguson",
+          "gsis": "00-0038041",
+          "pos": "TE",
+          "url": "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+          "note": "Formal same-week Out verified on current NFL league Week10 report Nov14 10:12CT. Team injury table still shows Friday blank/UNSPECIFIED and is stale; older team absence article only corroborates.",
+          "corroborating_url": "https://www.nfl.com/injuries/league/2026/reg",
+          "prior_appearances": 8,
+          "player_volume": 19.0,
+          "team_volume": 787.0,
+          "trailing_share": 0.0241423125794155,
+          "status": "Out"
+        },
+        {
+          "team": "DAL",
+          "name": "Tyler Goodson",
+          "gsis": "00-0037120",
+          "pos": "RB",
+          "url": "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
+          "note": "Formal same-week Out verified on current NFL league Week10 report Nov14 10:12CT. Team injury table still shows Friday blank/UNSPECIFIED and is stale; older team absence article only corroborates.",
+          "corroborating_url": "https://www.nfl.com/injuries/league/2026/reg",
+          "prior_appearances": 6,
+          "player_volume": 44.0,
+          "team_volume": 787.0,
+          "trailing_share": 0.05590851334180432,
+          "status": "Out"
+        },
+        {
+          "team": "SF",
+          "name": "Mike Evans",
+          "gsis": "00-0031408",
+          "pos": "WR",
+          "url": "https://www.49ers.com/team/injury-report/",
+          "note": "VERIFIED Sat: owning 49ers injury report shows Evans DNP/DNP/DNP, game status OUT (Achilles); also formal Out in nflverse week-10 file. Was Friday watch item.",
+          "prior_appearances": 6,
+          "player_volume": 27.0,
+          "team_volume": 633.0,
+          "trailing_share": 0.04265402843601896,
+          "status": "Out"
+        }
+      ],
+      "source_checked_at": "2026-11-14T16:12:00Z"
     }
   ],
   "resolved_status_audit": {
@@ -214,11 +285,6 @@
       "applied": "both events in verified_applied; combined d_share=+0.0009232526120451, delta=-0.006537, corrected=+0.261100 (absences nearly cancel)"
     }
   },
-  "withheld": [
-    {
-      "game_id": "2026_10_SF_DAL",
-      "event_id": "401873063",
-      "reason": "Formal same-week owning-source Out designation not established for Ferguson/Goodson; no zero-effect scenario published."
-    }
-  ]
+  "withheld": [],
+  "source_coverage_note": "Latest status check applies to SF-DAL only. Other four game source checks remain dated November13 18:17CT, not a full refresh."
 }

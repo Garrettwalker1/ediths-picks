@@ -15,3 +15,10 @@ The coefficient-only95% band crosses zero for every correction. Corrected-home b
 Puka Nacua is on Injured Reserve per the Rams November 12 transaction (https://www.therams.com/team/transactions/), not a pending Friday DNP. This is outside this component, not zero effect. TD/current-player candidacy is withheld separately; the original four game numeric payloads are unchanged.
 
 Henderson status review Nov15 07:18CT: owning Friday Nov13 report explicitly designated Out for this game, before Saturday Nov14 IR placement. Current roster status is IR. The original dated same-week Out scenario, source scenario timestamp, and all numeric values remain unchanged. Review time is separate from forecast time. Sources: https://www.patriots.com/news/week-10-injury-report-patriots-at-lions and https://www.espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness .
+
+## Goodson status-source review, November 15 at 14:08 CT
+
+The NFL Week 10 report still explicitly lists Tyler Goodson Out (ankle, knee), originally checked November 14 at 10:12 CT. The owning Cowboys November 14 transaction subsequently placed him on injured reserve. The overlay now distinguishes the dated same-week Out scenario from current IR roster status. No baseline, share, coefficient, correction, interval, scenario time or display margin changed. This source review is not a fresh forecast.
+
+- https://www.nfl.com/news/nfl-week-10-injury-report-2026-season
+- https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured

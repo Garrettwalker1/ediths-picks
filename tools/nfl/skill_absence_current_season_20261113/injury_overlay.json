@@ -230,13 +230,16 @@
           "gsis": "00-0037120",
           "pos": "RB",
           "url": "https://www.nfl.com/news/nfl-week-10-injury-report-2026-season",
-          "note": "Formal same-week Out verified on current NFL league Week10 report Nov14 10:12CT. Team injury table still shows Friday blank/UNSPECIFIED and is stale; older team absence article only corroborates.",
+          "note": "Formal same-week Out remains on the NFL Week 10 report, originally verified Nov14 10:12CT. Owning Cowboys transaction dated Nov14 subsequently placed Goodson on injured reserve. Current roster status is IR; original dated same-week skill-Out scenario and numeric correction are unchanged. Status sources reviewed Nov15 14:08CT; this review is not a fresh forecast.",
           "corroborating_url": "https://www.nfl.com/injuries/league/2026/reg",
           "prior_appearances": 6,
           "player_volume": 44.0,
           "team_volume": 787.0,
           "trailing_share": 0.05590851334180432,
-          "status": "Out"
+          "status": "Out",
+          "roster_status": "Injured Reserve",
+          "status_reviewed_at": "2026-11-15T20:08:00Z",
+          "roster_source_url": "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured"
         },
         {
           "team": "SF",

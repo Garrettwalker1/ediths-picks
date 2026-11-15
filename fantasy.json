@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-15T17:51:47+00:00",
-  "refresh_note": "Eight-league Week 10 roster snapshot. Sleeper read 11:49 AM CT; ESPN read 11:50-11:52 AM CT, November 15. Provider injury tags are not official inactives. Matchup scores and projections unavailable in this refresh. No lineup changes made. The separate shared-player feed has its own older timestamp and was not refreshed.",
+  "refresh_note": "Eight-league Week 10 roster snapshot. Sleeper read 11:49 AM CT; ESPN read 11:50-11:52 AM CT, November 15. Provider injury tags are not official inactives. Matchup scores and projections unavailable in this refresh. No lineup changes made. The separate shared-player feed has its own older timestamp and was not refreshed. A.J. Brown and Rhamondre Stevenson were verified active and played; contrary provider injury tags below are stale, not current absence.",
   "providers": [
     {
       "name": "ESPN",
@@ -1075,11 +1075,18 @@
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
           "observed_at": "2026-11-15T17:49:16+00:00",
           "provider_updated_at": null,
-          "injury_status": "Out",
+          "injury_status": "Active",
           "injury_checked": true,
-          "injury_source": "Sleeper roster tag (not official game clearance)",
+          "injury_source": "Verified active and played; captured Sleeper tag: Out (stale)",
           "injury_observed_at": "2026-11-15T17:49:16+00:00",
-          "bye_this_week": false
+          "bye_this_week": false,
+          "captured_provider_injury_status": "Out",
+          "game_status_verified_at": "2026-11-15T17:54:48Z",
+          "game_status_source_urls": [
+            "https://apnews.com/article/patriots-lions-inactives-munich-6c680798bf77a8193d753f6a17ba71a2",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+          ],
+          "game_status_detail": "Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets."
         },
         {
           "id": "8148",
@@ -1595,7 +1602,7 @@
           "bye_this_week": false
         }
       ],
-      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. Player points are the provider values at this read, not final results. A.J. Brown is in the recorded starting lineup; provider tags differ across leagues. No zero-point or available-fix claim is made. "
+      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. Player points are the provider values at this read, not final results. A.J. Brown was officially active and played. Captured provider tag Out is preserved in the player note and is not current absence. Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets. "
     },
     {
       "id": "espn-184489982",
@@ -1930,11 +1937,18 @@
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
           "observed_at": "2026-11-15T17:50:45+00:00",
           "provider_updated_at": null,
-          "injury_status": "Questionable",
+          "injury_status": "Active",
           "injury_checked": true,
-          "injury_source": "ESPN roster tag (not official game clearance)",
+          "injury_source": "Verified active and played; captured ESPN tag: Questionable (stale)",
           "injury_observed_at": "2026-11-15T17:50:45+00:00",
-          "bye_this_week": false
+          "bye_this_week": false,
+          "captured_provider_injury_status": "Questionable",
+          "game_status_verified_at": "2026-11-15T17:54:48Z",
+          "game_status_source_urls": [
+            "https://apnews.com/article/patriots-lions-inactives-munich-6c680798bf77a8193d753f6a17ba71a2",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+          ],
+          "game_status_detail": "Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets."
         },
         {
           "id": "4575131",
@@ -1956,7 +1970,7 @@
           "bye_this_week": false
         }
       ],
-      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. "
+      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. A.J. Brown was officially active and played. Captured provider tag Questionable is preserved in the player note and is not current absence. Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets. "
     },
     {
       "id": "espn-1242450525",
@@ -2407,9 +2421,16 @@
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
-          "injury_source": "ESPN roster tag (not official game clearance)",
+          "injury_source": "Verified active and played; ESPN tag: Active",
           "injury_observed_at": "2026-11-15T17:50:45+00:00",
-          "bye_this_week": false
+          "bye_this_week": false,
+          "captured_provider_injury_status": "Active",
+          "game_status_verified_at": "2026-11-15T17:54:48Z",
+          "game_status_source_urls": [
+            "https://apnews.com/article/patriots-lions-inactives-munich-6c680798bf77a8193d753f6a17ba71a2",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+          ],
+          "game_status_detail": "Final ESPN box confirms participation: 6 rushes and 1 reception."
         },
         {
           "id": "4361050",
@@ -2659,7 +2680,7 @@
           "bye_this_week": false
         }
       ],
-      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. "
+      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. Rhamondre Stevenson was officially active and played. Captured provider tag Active is preserved in the player note and is not current absence. Final ESPN box confirms participation: 6 rushes and 1 reception. "
     },
     {
       "id": "espn-14911042",
@@ -2690,11 +2711,18 @@
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
           "observed_at": "2026-11-15T17:50:45+00:00",
           "provider_updated_at": null,
-          "injury_status": "Questionable",
+          "injury_status": "Active",
           "injury_checked": true,
-          "injury_source": "ESPN roster tag (not official game clearance)",
+          "injury_source": "Verified active and played; captured ESPN tag: Questionable (stale)",
           "injury_observed_at": "2026-11-15T17:50:45+00:00",
-          "bye_this_week": false
+          "bye_this_week": false,
+          "captured_provider_injury_status": "Questionable",
+          "game_status_verified_at": "2026-11-15T17:54:48Z",
+          "game_status_source_urls": [
+            "https://apnews.com/article/patriots-lions-inactives-munich-6c680798bf77a8193d753f6a17ba71a2",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+          ],
+          "game_status_detail": "Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets."
         },
         {
           "id": "4882093",
@@ -2982,7 +3010,7 @@
           "bye_this_week": false
         }
       ],
-      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. A.J. Brown is in the recorded starting lineup; provider tags differ across leagues. No zero-point or available-fix claim is made. "
+      "roster_note": "Provider roster and injury tags only, not official game clearance. Read time is not provider update time. Scores, opponent and projections not included in this refresh; previous matchup figures removed. Team label retained from prior snapshot. NFL team IDs retained without guessing abbreviations. A.J. Brown was officially active and played. Captured provider tag Questionable is preserved in the player note and is not current absence. Final ESPN box confirms participation. Brown: 2 receptions, 27 receiving yards, 0 TD, 6 targets. "
     }
   ]
 }

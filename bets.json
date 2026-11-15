@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-15T05:59:59.939641+00:00",
+  "updated_at": "2026-11-15T08:29:53.825007+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -12845,8 +12845,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Multiple CFB games - November 14, 2026",
       "kickoff": "2026-11-14T20:30Z",
       "line": null,
@@ -12869,7 +12869,7 @@
       "source": "Owner iMessage Nov14 08:13CT. Actual placed FanDuel TN receipt pixels inspected, including bet ID and placement time. Exact displayed stake/price/payout retained.",
       "receipt_filename": "image-999c9850.png",
       "source_receipt_sha256": "f0529ad8c060e66164004a115b3839a9a586f96392603b60f0b58740d5cdb543",
-      "net_usd": null,
+      "net_usd": -10,
       "net_units": null,
       "legs": [
         {
@@ -12880,10 +12880,13 @@
           "selection": "Jacksonville State",
           "line": null,
           "price": -230,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_raw_margin_home": -13.824853165964297,
-          "model_display_margin_home": -14.0
+          "model_display_margin_home": -14.0,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870752",
+          "final_score": "Western Kentucky Hilltoppers 34, Jacksonville State Gamecocks 24"
         },
         {
           "event_id": "401856863",
@@ -12893,10 +12896,13 @@
           "selection": "Oklahoma State",
           "line": null,
           "price": -135,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_raw_margin_home": 7.2991566389313025,
-          "model_display_margin_home": 7.5
+          "model_display_margin_home": 7.5,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+          "final_score": "Oklahoma State Cowboys 27, Texas Tech Red Raiders 52"
         },
         {
           "event_id": "401864537",
@@ -12906,10 +12912,13 @@
           "selection": "North Dakota State",
           "line": null,
           "price": -223,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_raw_margin_home": -13.27575591091132,
-          "model_display_margin_home": -13.5
+          "model_display_margin_home": -13.5,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864537",
+          "final_score": "Hawai'i Rainbow Warriors 13, North Dakota State Bison 21"
         }
       ],
       "event_ids": [
@@ -12925,15 +12934,24 @@
       "original_price": 202,
       "boost_pct": 30,
       "receipt_schedule_note": "Receipt NDSU display 10:00PMCT retained as book schedule window; owning actual kickoff10:10PMCT used for support.",
-      "receipt_base_price_note": "Receipt shows crossed-out+202/30%profitboost/+263 and exact$36.30payout. Displayed individual legs multiply differently; preserve receipt values without inferring why."
+      "receipt_base_price_note": "Receipt shows crossed-out+202/30%profitboost/+263 and exact$36.30payout. Displayed individual legs multiply differently; preserve receipt values without inferring why.",
+      "payout_usd": 0,
+      "settled_at": "2026-11-15T08:29:53.825007+00:00",
+      "settlement_source": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401870752",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864537"
+      ],
+      "settlement_note": "Graded from ESPN final scores, all six required events completed=true. Live owner phone history rechecked Nov15 02:29CT: no subsequent cashout, void, protection or correction. Standing Oct6 stats-grading instruction applied. Receipt $10 cashout buttons were offers only, not transactions. Units remain unspecified; exact dollar net retained.",
+      "leg_note": "Jacksonville State loss (Western Kentucky Hilltoppers 34, Jacksonville State Gamecocks 24); Oklahoma State loss (Oklahoma State Cowboys 27, Texas Tech Red Raiders 52); North Dakota State win (Hawai'i Rainbow Warriors 13, North Dakota State Bison 21)"
     },
     {
       "sport": "CFB",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Multiple CFB games - November 14, 2026",
       "kickoff": "2026-11-14T20:00Z",
       "line": null,
@@ -12956,7 +12974,7 @@
       "source": "Owner iMessage Nov14 08:13CT. Actual placed FanDuel TN receipt pixels inspected, including bet ID and placement time. Exact displayed stake/price/payout retained.",
       "receipt_filename": "image-51cdc889.png",
       "source_receipt_sha256": "8ee11e6fafd56a2f451a8e2a726b812d4d2aeb578d25488558b1ea8056884be4",
-      "net_usd": null,
+      "net_usd": -10,
       "net_units": null,
       "legs": [
         {
@@ -12967,10 +12985,13 @@
           "selection": "FIU",
           "line": null,
           "price": 146,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_raw_margin_home": -3.420480563912363,
-          "model_display_margin_home": -3.5
+          "model_display_margin_home": -3.5,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871060",
+          "final_score": "Delaware Blue Hens 24, Florida International Panthers 16"
         },
         {
           "event_id": "401856861",
@@ -12980,10 +13001,13 @@
           "selection": "Kansas",
           "line": null,
           "price": 110,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_raw_margin_home": -1.5682730744680327,
-          "model_display_margin_home": -1.5
+          "model_display_margin_home": -1.5,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856861",
+          "final_score": "West Virginia Mountaineers 14, Kansas Jayhawks 37"
         },
         {
           "event_id": "401858521",
@@ -12993,10 +13017,13 @@
           "selection": "Michigan State",
           "line": null,
           "price": 114,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_raw_margin_home": 3.180059247997818,
-          "model_display_margin_home": 3.0
+          "model_display_margin_home": 3.0,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521",
+          "final_score": "Michigan State Spartans 14, Washington Huskies 21"
         },
         {
           "event_id": "401856863",
@@ -13006,10 +13033,13 @@
           "selection": "Oklahoma State",
           "line": null,
           "price": -156,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_raw_margin_home": 7.2991566389313025,
-          "model_display_margin_home": 7.5
+          "model_display_margin_home": 7.5,
+          "graded_at": "2026-11-15T08:29:53.825007+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863",
+          "final_score": "Oklahoma State Cowboys 27, Texas Tech Red Raiders 52"
         }
       ],
       "event_ids": [
@@ -13022,7 +13052,17 @@
       "model_at_placement": {
         "available": true,
         "note": "Baseline current-season projected margins only, not injury-adjusted available-roster forecasts or validated betting edge. Late final reports publish after first legs start."
-      }
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-11-15T08:29:53.825007+00:00",
+      "settlement_source": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871060",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856861",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858521",
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856863"
+      ],
+      "settlement_note": "Graded from ESPN final scores, all six required events completed=true. Live owner phone history rechecked Nov15 02:29CT: no subsequent cashout, void, protection or correction. Standing Oct6 stats-grading instruction applied. Receipt $10 cashout buttons were offers only, not transactions. Units remain unspecified; exact dollar net retained.",
+      "leg_note": "FIU loss (Delaware Blue Hens 24, Florida International Panthers 16); Kansas win (West Virginia Mountaineers 14, Kansas Jayhawks 37); Michigan State loss (Michigan State Spartans 14, Washington Huskies 21); Oklahoma State loss (Oklahoma State Cowboys 27, Texas Tech Red Raiders 52)"
     },
     {
       "sport": "CFB",

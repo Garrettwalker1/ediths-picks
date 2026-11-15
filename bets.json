@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-15T16:26:11.175874+00:00",
+  "updated_at": "2026-11-15T23:03:53.141861+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -13179,8 +13179,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Multiple NFL games - November 15, 2026",
       "kickoff": "2026-11-15T18:00Z",
       "line": null,
@@ -13202,7 +13202,7 @@
       "source": "Owner iMessage Nov15 08:35CT. Actual placed TN receipt pixels inspected, including exact ID/placement time/individual prices/boost/stake/payout. Not inferred from research suggestions.",
       "receipt_filename": "image-1498312e.png",
       "source_receipt_sha256": "2c33f3235429448772b17c77cfffab4cc4e48bffed2e290a1284c7b4b9cd8fa2",
-      "net_usd": null,
+      "net_usd": -10,
       "net_units": null,
       "legs": [
         {
@@ -13214,11 +13214,29 @@
           "player": "Justin Jefferson",
           "line": 0.5,
           "price": 150,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_probability": 0.21991041142171502,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060",
+          "own_rushing_receiving_tds": 0,
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "9",
+                "YDS": "74",
+                "AVG": "8.2",
+                "TD": "0",
+                "LONG": "17",
+                "TGTS": "13"
+              }
+            }
+          ],
+          "scoring_plays": [],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873054",
@@ -13229,11 +13247,31 @@
           "player": "Josh Allen",
           "line": 0.5,
           "price": -165,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.32331853287278195,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+          "own_rushing_receiving_tds": 2,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "5",
+                "YDS": "5",
+                "AVG": "1.0",
+                "TD": "2",
+                "LONG": "2"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Josh Allen 1 Yd Run (Tyler Bass Kick)",
+            "Josh Allen 1 Yd Rush (Tyler Bass Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873058",
@@ -13244,11 +13282,29 @@
           "player": "Rashee Rice",
           "line": 0.5,
           "price": 170,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_probability": 0.3007532459993453,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+          "own_rushing_receiving_tds": 0,
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "5",
+                "YDS": "82",
+                "AVG": "16.4",
+                "TD": "0",
+                "LONG": "50",
+                "TGTS": "6"
+              }
+            }
+          ],
+          "scoring_plays": [],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873062",
@@ -13276,7 +13332,15 @@
       "model_at_placement": {
         "available": true,
         "note": "Dated unvalidated model probabilities are references only, not current clearance or proven edge. Actual tickets differ from requested research builds; receipt terms control."
-      }
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-11-15T23:03:53.141861+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060"
+      ],
+      "settlement_note": "Normal settlement under standing owner instruction. Current phone history checked for cashout/void/corrections; none after receipt. At least one completed-Final own-TD leg lost; later unfinished legs remain ungraded."
     },
     {
       "sport": "NFL",
@@ -13318,11 +13382,42 @@
           "player": "Chuba Hubbard",
           "line": 0.5,
           "price": -155,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.5574450050141847,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055",
+          "own_rushing_receiving_tds": 2,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "27",
+                "YDS": "92",
+                "AVG": "3.4",
+                "TD": "2",
+                "LONG": "17"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "5",
+                "YDS": "80",
+                "AVG": "16.0",
+                "TD": "0",
+                "LONG": "34",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Chuba Hubbard 2 Yd Rush (Ryan Fitzgerald Kick)",
+            "Chuba Hubbard 1 Yd Rush (Ryan Fitzgerald Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873058",
@@ -13333,11 +13428,41 @@
           "player": "Bijan Robinson",
           "line": 0.5,
           "price": -220,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.5685963171809723,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+          "own_rushing_receiving_tds": 1,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "16",
+                "YDS": "71",
+                "AVG": "4.4",
+                "TD": "1",
+                "LONG": "17"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "4",
+                "YDS": "6",
+                "AVG": "1.5",
+                "TD": "0",
+                "LONG": "6",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Bijan Robinson 3 Yd Rush (Jake Moody Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873062",
@@ -13387,8 +13512,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "game": "Multiple NFL games - November 15, 2026",
       "kickoff": "2026-11-15T18:00Z",
       "line": null,
@@ -13410,7 +13535,7 @@
       "source": "Owner iMessage Nov15 08:35CT. Actual placed TN receipt pixels inspected, including exact ID/placement time/individual prices/boost/stake/payout. Not inferred from research suggestions.",
       "receipt_filename": "image-2e996550.png",
       "source_receipt_sha256": "5ec103a4afc80dfc16cc604db06b32fc9b37d4ad3182a6e00cf7987cb873e6fd",
-      "net_usd": null,
+      "net_usd": -10,
       "net_units": null,
       "legs": [
         {
@@ -13422,11 +13547,41 @@
           "player": "Tony Pollard",
           "line": 0.5,
           "price": 125,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.5321258527410969,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057",
+          "own_rushing_receiving_tds": 1,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "9",
+                "YDS": "33",
+                "AVG": "3.7",
+                "TD": "0",
+                "LONG": "15"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "8",
+                "YDS": "66",
+                "AVG": "8.3",
+                "TD": "1",
+                "LONG": "32",
+                "TGTS": "9"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Tony Pollard 32 Yd pass from Cam Ward (Joey Slye Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873056",
@@ -13437,11 +13592,39 @@
           "player": "Woody Marks",
           "line": 0.5,
           "price": 125,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "model_probability": 0.4065749073444868,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
+          "own_rushing_receiving_tds": 0,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "12",
+                "YDS": "50",
+                "AVG": "4.2",
+                "TD": "0",
+                "LONG": "11"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "1",
+                "YDS": "15",
+                "AVG": "15.0",
+                "TD": "0",
+                "LONG": "15",
+                "TGTS": "1"
+              }
+            }
+          ],
+          "scoring_plays": [],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873062",
@@ -13484,15 +13667,22 @@
       "model_at_placement": {
         "available": true,
         "note": "Dated unvalidated model probabilities are references only, not current clearance or proven edge. Actual tickets differ from requested research builds; receipt terms control."
-      }
+      },
+      "payout_usd": 0,
+      "settled_at": "2026-11-15T23:03:53.141861+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057"
+      ],
+      "settlement_note": "Normal settlement under standing owner instruction. Current phone history checked for cashout/void/corrections; none after receipt. At least one completed-Final own-TD leg lost; later unfinished legs remain ungraded."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "open",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "game": "Multiple NFL games - November 15, 2026",
       "kickoff": "2026-11-15T14:30Z",
       "line": null,
@@ -13514,7 +13704,7 @@
       "source": "Owner iMessage Nov15 08:35CT. Actual placed TN receipt pixels inspected, including exact ID/placement time/individual prices/boost/stake/payout. Not inferred from research suggestions.",
       "receipt_filename": "image-33c54ae4.png",
       "source_receipt_sha256": "1e3cea77ac5c6f1e44e7f718ceb8734cf85d903f55659831a5c976b386d3af1f",
-      "net_usd": null,
+      "net_usd": 29.55,
       "net_units": null,
       "legs": [
         {
@@ -13526,11 +13716,42 @@
           "player": "Jahmyr Gibbs",
           "line": 0.5,
           "price": -211,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.7916303482702773,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053",
+          "own_rushing_receiving_tds": 2,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "22",
+                "YDS": "153",
+                "AVG": "7.0",
+                "TD": "2",
+                "LONG": "28"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "7",
+                "YDS": "99",
+                "AVG": "14.1",
+                "TD": "0",
+                "LONG": "50",
+                "TGTS": "8"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Jahmyr Gibbs 5 Yd Rush (Jake Bates Kick)",
+            "Jahmyr Gibbs 28 Yd Rush (Jake Bates Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873058",
@@ -13541,11 +13762,41 @@
           "player": "Bijan Robinson",
           "line": 0.5,
           "price": -183,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": 0.5685963171809723,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+          "own_rushing_receiving_tds": 1,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "16",
+                "YDS": "71",
+                "AVG": "4.4",
+                "TD": "1",
+                "LONG": "17"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "4",
+                "YDS": "6",
+                "AVG": "1.5",
+                "TD": "0",
+                "LONG": "6",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "Bijan Robinson 3 Yd Rush (Jake Moody Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         },
         {
           "event_id": "401873054",
@@ -13556,11 +13807,41 @@
           "player": "James Cook",
           "line": 0.5,
           "price": -137,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "model_probability": null,
           "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
-          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge."
+          "model_note": "Frozen owner-adopted Oct29 workload/matchup model, unvalidated, Nov10 snapshot throughWeek9. No current injury/QB/workload adjustment; not a calibrated betting edge.",
+          "graded_at": "2026-11-15T23:03:53.141861+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+          "own_rushing_receiving_tds": 1,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "stats": {
+                "CAR": "18",
+                "YDS": "157",
+                "AVG": "8.7",
+                "TD": "1",
+                "LONG": "74"
+              }
+            },
+            {
+              "category": "receiving",
+              "stats": {
+                "REC": "0",
+                "YDS": "0",
+                "AVG": "0.0",
+                "TD": "0",
+                "LONG": "0",
+                "TGTS": "1"
+              }
+            }
+          ],
+          "scoring_plays": [
+            "James Cook III 74 Yd Rush (Tyler Bass Kick)"
+          ],
+          "grading_note": "Completed Final scoring summary and own rushing/receiving TDs verified. Passing TDs do not count toward scorer market."
         }
       ],
       "event_ids": [
@@ -13575,7 +13856,15 @@
       },
       "original_price": 227,
       "boost_pct": 30,
-      "price_note": "30% profit boost shown; original +227 crossed out, displayed +295. Exact total payout39.55 retained."
+      "price_note": "30% profit boost shown; original +227 crossed out, displayed +295. Exact total payout39.55 retained.",
+      "payout_usd": 39.55,
+      "settled_at": "2026-11-15T23:03:53.141861+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058"
+      ],
+      "settlement_note": "Normal settlement under standing owner instruction. Current phone history checked for cashout/void/corrections; none after receipt. Exact receipt payout retained, not recomputed from rounded boosted odds."
     },
     {
       "sport": "NFL",

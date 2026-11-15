@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-14T23:27:06.308021+00:00",
+  "updated_at": "2026-11-15T05:59:59.939641+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -13078,6 +13078,61 @@
       "settled_at": "2026-11-14T23:27:06.308021+00:00",
       "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856888",
       "settlement_note": "Normal final-score grading from verified ESPN completed Final Tennessee22-TexasA&M7. Live owner conversation checked17:26CT: no later cashout, void or correction. Receipt38.28was offer only, not execution. No bookmaker balance or payout-posting confirmation claimed. Exact receipt payout retained; units remain unspecified."
+    },
+    {
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "settled",
+      "result": "win",
+      "game": "Texas Longhorns @ LSU Tigers",
+      "kickoff": "2026-11-15T00:30Z",
+      "line": 4.5,
+      "bet_id": "us-tn:01m7dzzwa9f9grz98tm4fmfyj7",
+      "date": "2026-11-14T15:39:00-06:00",
+      "placed_at": "2026-11-14T15:39:00-06:00",
+      "stake_usd": 10,
+      "stake_units": null,
+      "stake_units_note": "No explicit units supplied with this receipt; dollars are authoritative.",
+      "bet": "Straight: Texas +4.5",
+      "selection": "Straight: Texas +4.5",
+      "market": "spread",
+      "price": 137,
+      "original_price": -110,
+      "boost_pct": 50,
+      "potential_payout_usd": 23.7,
+      "potential_profit_usd": 13.7,
+      "payout_usd": 23.7,
+      "net_usd": 13.7,
+      "net_units": null,
+      "source_message_id": "phonemsg-01M7EWM00X2Y1Y4G20B9JXCZAT",
+      "source": "Owner iMessage Nov14 23:59CT. Actual settled receipt pixels inspected, including exact ID, placement time,50%profitboost,displayed+137and23.70won.",
+      "receipt_filename": "image-633f3610.png",
+      "source_receipt_sha256": "6338947c040dddc2aa467fe8c4ae73b00a22b327e8c46fa4b7d6c99cf835ddbd",
+      "event_ids": [
+        "401856885"
+      ],
+      "settled_at": "2026-11-15T05:59:59.939641+00:00",
+      "settlement_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261114&limit=1000&groups=80",
+      "settlement_note": "Owner settled receipt says Finished Texas22-LSU21 and23.70won. Independently verified ESPN completed Final22-21. Spread+4.5wins. Exact displayed payout authoritative; do not recompute from crossed-out price or rounded boosted odds.",
+      "notes": "Original settled receipt retained privately, not uploaded. No model probability assigned. Dollars preserved; no units supplied. Boost50%,original-110,displayed+137andexact23.70return retained. NoVOLSsharing.",
+      "legs": [
+        {
+          "event_id": "401856885",
+          "event": "Texas Longhorns @ LSU Tigers",
+          "kickoff": "2026-11-15T00:30Z",
+          "market": "spread",
+          "selection": "Texas +4.5",
+          "line": 4.5,
+          "price": 137,
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-15T05:59:59.939641+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261114&limit=1000&groups=80",
+          "final_score": "Texas22,LSU21"
+        }
+      ]
     }
   ]
 }

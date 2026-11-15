@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-15T14:37:51.366449+00:00",
+  "updated_at": "2026-11-15T16:26:11.175874+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -13576,6 +13576,97 @@
       "original_price": 227,
       "boost_pct": 30,
       "price_note": "30% profit boost shown; original +227 crossed out, displayed +295. Exact total payout39.55 retained."
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "open",
+      "result": "pending",
+      "game": "Multiple NFL games - November 15, 2026",
+      "kickoff": "2026-11-15T21:05Z",
+      "line": null,
+      "bet_id": "us-tn:01m7g0e5njeferfq2e0k424v8p",
+      "date": "2026-11-15T10:25:00-06:00",
+      "placed_at": "2026-11-15T10:25:00-06:00",
+      "stake_usd": 10,
+      "stake_units": null,
+      "stake_units_note": "No explicit units supplied; dollars authoritative.",
+      "bet": "3-leg anytime TD parlay: Jaxon Smith-Njigba / Tyler Allgeier / George Kittle",
+      "selection": "Jaxon Smith-Njigba anytime TD / Tyler Allgeier anytime TD / George Kittle anytime TD",
+      "market": "parlay - anytime touchdown scorers",
+      "price": 1433,
+      "potential_payout_usd": 153.34,
+      "potential_profit_usd": 143.34,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Visible offer only, not an execution. No cashout recorded.",
+      "source_message_id": "phonemsg-01M7G0ETTQFDE927XGP8EJHPX7",
+      "source": "Owner iMessage Nov15 10:25CT. Actual placed FanDuel TN receipt pixels inspected including exact ID,10:25placement,all3prices,10stake,153.34potential return. Tyler Allgeier shown as Arizona, not older Atlanta roster.",
+      "receipt_filename": "image-c8fc72ba.png",
+      "source_receipt_sha256": "00bbfe4baae8ae1c972c85be89c0e26f6f861ec58d1d1e0ccb178f07a6aa48e4",
+      "net_usd": null,
+      "net_units": null,
+      "legs": [
+        {
+          "event_id": "401873062",
+          "event": "Seattle Seahawks @ Las Vegas Raiders",
+          "kickoff": "2026-11-15T21:05Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Jaxon Smith-Njigba anytime TD",
+          "player": "Jaxon Smith-Njigba",
+          "team": "SEA",
+          "line": 0.5,
+          "price": 105,
+          "hit": null,
+          "result": "pending",
+          "model_probability": 0.4282324126856394,
+          "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
+          "model_note": "Dated Nov10 frozen owner-adopted TD model, unvalidated; no current injury/QB/workload adjustment."
+        },
+        {
+          "event_id": "401873061",
+          "event": "Los Angeles Rams @ Arizona Cardinals",
+          "kickoff": "2026-11-15T21:05Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Tyler Allgeier anytime TD",
+          "player": "Tyler Allgeier",
+          "team": "ARI",
+          "line": 0.5,
+          "price": 240,
+          "hit": null,
+          "result": "pending",
+          "model_probability": 0.33061955496332657,
+          "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
+          "model_note": "Dated Nov10 frozen owner-adopted TD model, unvalidated; no current injury/QB/workload adjustment."
+        },
+        {
+          "event_id": "401873063",
+          "event": "San Francisco 49ers @ Dallas Cowboys",
+          "kickoff": "2026-11-15T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "George Kittle anytime TD",
+          "player": "George Kittle",
+          "team": "SF",
+          "line": 0.5,
+          "price": 120,
+          "hit": null,
+          "result": "pending",
+          "model_probability": 0.38900297668114514,
+          "model_generated_at": "2026-11-10T13:16:19.483662+00:00",
+          "model_note": "Dated Nov10 frozen owner-adopted TD model, unvalidated; no current injury/QB/workload adjustment."
+        }
+      ],
+      "event_ids": [
+        "401873062",
+        "401873061",
+        "401873063"
+      ],
+      "notes": "Original private receipt not uploaded. Exact displayed combined price and payout retained, no inferred units. Cashout10 is offer only. JSN TD now on two tickets,20combinedstake; SEA-LV across4tickets,40combinedstake; SF-DAL across2tickets,20combinedstake via CMC and Kittle. No group sharing.",
+      "model_at_placement": {
+        "available": true,
+        "note": "Dated unvalidated model probabilities are references only, not current clearance or proven edge. Actual tickets differ from requested research builds; receipt terms control."
+      }
     }
   ]
 }

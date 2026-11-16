@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T00:10:24.173Z",
+  "checked_at": "2026-11-16T01:11:41.156Z",
   "state": "IL",
   "scope": "NFL/CFB game sides, moneylines and totals only. Public signed-out Illinois; not Tennessee. Six-category NFL player comparisons are published separately with per-event source times. Model/sealed evaluation references unchanged.",
   "nfl": {
@@ -259,19 +259,19 @@
     "PIT at CIN": {
       "away": "Pittsburgh Steelers",
       "home": "Cincinnati Bengals",
-      "captured_at": "2026-11-16T00:09:40.166Z",
+      "captured_at": "2026-11-16T01:11:31.282Z",
       "state": "IL",
       "provider": "FanDuel",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "kickoff_text": "7:21PM CT",
       "away_line": 3.5,
-      "away_price": -105,
-      "away_ml": 172,
+      "away_price": 100,
+      "away_ml": 176,
       "total": 49.5,
       "over_price": -105,
       "home_line": -3.5,
-      "home_price": -115,
-      "home_ml": -205,
+      "home_price": -120,
+      "home_ml": -210,
       "under_total": 49.5,
       "under_price": -115,
       "kickoff": "2026-11-16T01:20Z",
@@ -282,7 +282,7 @@
     "LAC at BAL": {
       "away": "Los Angeles Chargers",
       "home": "Baltimore Ravens",
-      "captured_at": "2026-11-16T00:09:40.166Z",
+      "captured_at": "2026-11-16T01:11:31.282Z",
       "state": "IL",
       "provider": "FanDuel",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
@@ -1599,8 +1599,8 @@
       "missing": 0,
       "frozen": 11,
       "unrestorable_started": 1,
-      "returned": 16,
-      "parsed": 16
+      "returned": 15,
+      "parsed": 15
     },
     "CFB": {
       "matched": 0,

@@ -1,6 +1,6 @@
 {
-  "assembled_at": "2026-11-16T00:09:54.944970+00:00",
-  "checked_at": "2026-11-16T00:09:21.094Z",
+  "assembled_at": "2026-11-16T01:13:23.068630+00:00",
+  "checked_at": "2026-11-16T01:13:19.334Z",
   "scope": "2 remaining upcoming NFL events refreshed across six standard categories; 11 started events frozen at their previously published pre-kickoff snapshots. Actual hourly intervals verified. Identity coverage remains partial; source times and pregame freezes are per event.",
   "state": "IL",
   "model_inputs_changed": false,
@@ -16540,7 +16540,7 @@
       "frozen": true
     },
     {
-      "checked_at": "2026-11-16T00:08:44.323Z",
+      "checked_at": "2026-11-16T01:12:35.699Z",
       "state": "IL",
       "event_id": "401873064",
       "matchup": "Pittsburgh Steelers at Cincinnati Bengals",
@@ -16570,7 +16570,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16593,7 +16593,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16616,7 +16616,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16639,7 +16639,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16654,29 +16654,6 @@
           "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
         },
         {
-          "player_id": "00-0036139",
-          "espn_id": "4038815",
-          "team_id": "PIT",
-          "player_name": "Rico Dowdle",
-          "market": "anytime_td",
-          "event_id": "401873064",
-          "kickoff": "2026-11-16T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 185
-            }
-          ],
-          "model_value": 0.2643639060010441,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
-        },
-        {
           "player_id": "00-0035640",
           "espn_id": "4047650",
           "team_id": "PIT",
@@ -16685,16 +16662,39 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 195
+              "price": 185
             }
           ],
           "model_value": 0.24711335824664601,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+        },
+        {
+          "player_id": "00-0036139",
+          "espn_id": "4038815",
+          "team_id": "PIT",
+          "player_name": "Rico Dowdle",
+          "market": "anytime_td",
+          "event_id": "401873064",
+          "kickoff": "2026-11-16T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T01:12:35.699Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 190
+            }
+          ],
+          "model_value": 0.2643639060010441,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
@@ -16708,7 +16708,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16731,7 +16731,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16754,7 +16754,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16777,7 +16777,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16800,13 +16800,13 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 290
+              "price": 300
             }
           ],
           "model_value": 0.2152170386972142,
@@ -16823,7 +16823,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16844,13 +16844,13 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 460
+              "price": 480
             }
           ],
           "model_value": 0.17115699215316496,
@@ -16867,7 +16867,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16888,55 +16888,13 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
               "price": 1000
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0036775",
-          "espn_id": "4240577",
-          "team_id": "PIT",
-          "player_name": "Brandon Smith",
-          "market": "anytime_td",
-          "event_id": "401873064",
-          "kickoff": "2026-11-16T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 1500
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0023459",
-          "espn_id": "8439",
-          "team_id": "PIT",
-          "player_name": "Aaron Rodgers",
-          "market": "anytime_td",
-          "event_id": "401873064",
-          "kickoff": "2026-11-16T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 1600
             }
           ],
           "model_value": null,
@@ -16951,7 +16909,93 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1400
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
+        },
+        {
+          "player_id": "00-0036775",
+          "espn_id": "4240577",
+          "team_id": "PIT",
+          "player_name": "Brandon Smith",
+          "market": "anytime_td",
+          "event_id": "401873064",
+          "kickoff": "2026-11-16T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T01:12:35.699Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1600
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
+        },
+        {
+          "player_id": "00-0023459",
+          "espn_id": "8439",
+          "team_id": "PIT",
+          "player_name": "Aaron Rodgers",
+          "market": "anytime_td",
+          "event_id": "401873064",
+          "kickoff": "2026-11-16T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T01:12:35.699Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1600
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
+        },
+        {
+          "player_id": "00-0038839",
+          "espn_id": "4690070",
+          "team_id": "CIN",
+          "player_name": "Mitchell Tinsley",
+          "market": "anytime_td",
+          "event_id": "401873064",
+          "kickoff": "2026-11-16T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T01:12:35.699Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1700
+            }
+          ],
+          "model_value": 0.18445653740495382,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+        },
+        {
+          "player_id": "00-0041069",
+          "espn_id": "5092508",
+          "team_id": "CIN",
+          "player_name": "Colbie Young",
+          "market": "anytime_td",
+          "event_id": "401873064",
+          "kickoff": "2026-11-16T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16972,7 +17016,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -16993,57 +17037,13 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
               "price": 2200
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0038839",
-          "espn_id": "4690070",
-          "team_id": "CIN",
-          "player_name": "Mitchell Tinsley",
-          "market": "anytime_td",
-          "event_id": "401873064",
-          "kickoff": "2026-11-16T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 2700
-            }
-          ],
-          "model_value": 0.18445653740495382,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
-        },
-        {
-          "player_id": "00-0041069",
-          "espn_id": "5092508",
-          "team_id": "CIN",
-          "player_name": "Colbie Young",
-          "market": "anytime_td",
-          "event_id": "401873064",
-          "kickoff": "2026-11-16T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 2700
             }
           ],
           "model_value": null,
@@ -17058,7 +17058,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17079,13 +17079,13 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 3300
+              "price": 4000
             }
           ],
           "model_value": null,
@@ -17100,7 +17100,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17121,7 +17121,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17147,7 +17147,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17173,18 +17173,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": -102
+              "price": 100
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -128
+              "price": -130
             }
           ],
           "model_value": null,
@@ -17199,18 +17199,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": 175
+              "price": 168
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": -235
+              "price": -225
             }
           ],
           "model_value": null,
@@ -17225,17 +17225,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 64.5,
+              "line": 65.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 64.5,
+              "line": 65.5,
               "price": -113
             }
           ],
@@ -17253,7 +17253,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17281,7 +17281,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17309,7 +17309,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17335,7 +17335,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17361,17 +17361,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 17.5,
+              "line": 20.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 17.5,
+              "line": 20.5,
               "price": -113
             }
           ],
@@ -17389,7 +17389,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17417,7 +17417,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17445,7 +17445,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17473,7 +17473,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17501,7 +17501,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17529,17 +17529,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 30.5,
+              "line": 31.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 30.5,
+              "line": 31.5,
               "price": -113
             }
           ],
@@ -17557,7 +17557,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17585,17 +17585,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 25.5,
+              "line": 26.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 25.5,
+              "line": 26.5,
               "price": -113
             }
           ],
@@ -17613,7 +17613,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17641,17 +17641,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 4.5,
+              "line": 3.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 4.5,
+              "line": 3.5,
               "price": -113
             }
           ],
@@ -17669,7 +17669,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17697,7 +17697,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17725,17 +17725,17 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 21.5,
+              "line": 22.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 21.5,
+              "line": 22.5,
               "price": -113
             }
           ],
@@ -17753,7 +17753,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17781,7 +17781,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17809,7 +17809,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17837,7 +17837,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17865,18 +17865,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": -132
+              "price": -148
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": 100
+              "price": 112
             }
           ],
           "model_value": 2.5,
@@ -17893,18 +17893,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": -112
+              "price": -120
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": -118
+              "price": -110
             }
           ],
           "model_value": 2.6,
@@ -17921,18 +17921,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": 116
+              "price": 102
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": -154
+              "price": -136
             }
           ],
           "model_value": 2.2,
@@ -17949,7 +17949,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -17977,7 +17977,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -18005,7 +18005,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -18033,7 +18033,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -18061,7 +18061,7 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
@@ -18089,18 +18089,18 @@
           "event_id": "401873064",
           "kickoff": "2026-11-16T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:08:44.323Z",
+          "captured_at": "2026-11-16T01:12:35.699Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
           "selections": [
             {
               "side": "over",
-              "line": 1.5,
-              "price": 182
+              "line": 0.5,
+              "price": -205
             },
             {
               "side": "under",
-              "line": 1.5,
-              "price": -250
+              "line": 0.5,
+              "price": 152
             }
           ],
           "model_value": 0.9,
@@ -18115,7 +18115,7 @@
           "market": "anytime_td",
           "side": "yes",
           "line": 0.5,
-          "price": 3500,
+          "price": 4000,
           "reason": "missing_identity"
         },
         {
@@ -18123,14 +18123,14 @@
           "market": "anytime_td",
           "side": "yes",
           "line": 0.5,
-          "price": 4000,
+          "price": 5500,
           "reason": "missing_identity"
         }
       ],
       "frozen": false
     },
     {
-      "checked_at": "2026-11-16T00:09:21.094Z",
+      "checked_at": "2026-11-16T01:13:19.334Z",
       "state": "IL",
       "event_id": "401873065",
       "matchup": "Los Angeles Chargers at Baltimore Ravens",
@@ -18160,7 +18160,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18183,7 +18183,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18206,7 +18206,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18229,7 +18229,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18252,7 +18252,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18273,7 +18273,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18296,7 +18296,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18319,7 +18319,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18342,7 +18342,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18365,7 +18365,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18388,7 +18388,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18411,7 +18411,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18432,7 +18432,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18455,7 +18455,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18478,7 +18478,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18499,7 +18499,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18522,7 +18522,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18543,7 +18543,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18564,7 +18564,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18585,7 +18585,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18606,7 +18606,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18627,7 +18627,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18648,7 +18648,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18669,7 +18669,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18690,7 +18690,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18716,7 +18716,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18742,7 +18742,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18768,7 +18768,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18794,7 +18794,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18822,7 +18822,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18850,7 +18850,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18876,7 +18876,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18904,7 +18904,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18930,7 +18930,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18958,7 +18958,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18986,7 +18986,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19014,7 +19014,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19042,7 +19042,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19070,7 +19070,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19098,7 +19098,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19126,7 +19126,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19154,7 +19154,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19182,7 +19182,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19210,7 +19210,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19238,7 +19238,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19266,7 +19266,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19294,7 +19294,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19322,7 +19322,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19350,7 +19350,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19378,7 +19378,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19406,7 +19406,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19434,7 +19434,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19462,7 +19462,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19490,7 +19490,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19518,7 +19518,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19546,7 +19546,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T00:09:21.094Z",
+          "captured_at": "2026-11-16T01:13:19.334Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -34936,7 +34936,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -34959,7 +34959,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -34982,7 +34982,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35005,7 +35005,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35020,29 +35020,6 @@
       "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
     },
     {
-      "player_id": "00-0036139",
-      "espn_id": "4038815",
-      "team_id": "PIT",
-      "player_name": "Rico Dowdle",
-      "market": "anytime_td",
-      "event_id": "401873064",
-      "kickoff": "2026-11-16T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 185
-        }
-      ],
-      "model_value": 0.2643639060010441,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
-    },
-    {
       "player_id": "00-0035640",
       "espn_id": "4047650",
       "team_id": "PIT",
@@ -35051,16 +35028,39 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 195
+          "price": 185
         }
       ],
       "model_value": 0.24711335824664601,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+    },
+    {
+      "player_id": "00-0036139",
+      "espn_id": "4038815",
+      "team_id": "PIT",
+      "player_name": "Rico Dowdle",
+      "market": "anytime_td",
+      "event_id": "401873064",
+      "kickoff": "2026-11-16T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T01:12:35.699Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 190
+        }
+      ],
+      "model_value": 0.2643639060010441,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
@@ -35074,7 +35074,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35097,7 +35097,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35120,7 +35120,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35143,7 +35143,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35166,13 +35166,13 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 290
+          "price": 300
         }
       ],
       "model_value": 0.2152170386972142,
@@ -35189,7 +35189,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35210,13 +35210,13 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 460
+          "price": 480
         }
       ],
       "model_value": 0.17115699215316496,
@@ -35233,7 +35233,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35254,55 +35254,13 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
           "price": 1000
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0036775",
-      "espn_id": "4240577",
-      "team_id": "PIT",
-      "player_name": "Brandon Smith",
-      "market": "anytime_td",
-      "event_id": "401873064",
-      "kickoff": "2026-11-16T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 1500
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0023459",
-      "espn_id": "8439",
-      "team_id": "PIT",
-      "player_name": "Aaron Rodgers",
-      "market": "anytime_td",
-      "event_id": "401873064",
-      "kickoff": "2026-11-16T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 1600
         }
       ],
       "model_value": null,
@@ -35317,7 +35275,93 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1400
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
+    },
+    {
+      "player_id": "00-0036775",
+      "espn_id": "4240577",
+      "team_id": "PIT",
+      "player_name": "Brandon Smith",
+      "market": "anytime_td",
+      "event_id": "401873064",
+      "kickoff": "2026-11-16T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T01:12:35.699Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1600
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
+    },
+    {
+      "player_id": "00-0023459",
+      "espn_id": "8439",
+      "team_id": "PIT",
+      "player_name": "Aaron Rodgers",
+      "market": "anytime_td",
+      "event_id": "401873064",
+      "kickoff": "2026-11-16T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T01:12:35.699Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1600
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
+    },
+    {
+      "player_id": "00-0038839",
+      "espn_id": "4690070",
+      "team_id": "CIN",
+      "player_name": "Mitchell Tinsley",
+      "market": "anytime_td",
+      "event_id": "401873064",
+      "kickoff": "2026-11-16T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T01:12:35.699Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1700
+        }
+      ],
+      "model_value": 0.18445653740495382,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+    },
+    {
+      "player_id": "00-0041069",
+      "espn_id": "5092508",
+      "team_id": "CIN",
+      "player_name": "Colbie Young",
+      "market": "anytime_td",
+      "event_id": "401873064",
+      "kickoff": "2026-11-16T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35338,7 +35382,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35359,57 +35403,13 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
           "price": 2200
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0038839",
-      "espn_id": "4690070",
-      "team_id": "CIN",
-      "player_name": "Mitchell Tinsley",
-      "market": "anytime_td",
-      "event_id": "401873064",
-      "kickoff": "2026-11-16T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 2700
-        }
-      ],
-      "model_value": 0.18445653740495382,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
-    },
-    {
-      "player_id": "00-0041069",
-      "espn_id": "5092508",
-      "team_id": "CIN",
-      "player_name": "Colbie Young",
-      "market": "anytime_td",
-      "event_id": "401873064",
-      "kickoff": "2026-11-16T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 2700
         }
       ],
       "model_value": null,
@@ -35424,7 +35424,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35445,13 +35445,13 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 3300
+          "price": 4000
         }
       ],
       "model_value": null,
@@ -35466,7 +35466,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35487,7 +35487,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35513,7 +35513,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35539,18 +35539,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": -102
+          "price": 100
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -128
+          "price": -130
         }
       ],
       "model_value": null,
@@ -35565,18 +35565,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": 175
+          "price": 168
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": -235
+          "price": -225
         }
       ],
       "model_value": null,
@@ -35591,17 +35591,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 64.5,
+          "line": 65.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 64.5,
+          "line": 65.5,
           "price": -113
         }
       ],
@@ -35619,7 +35619,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35647,7 +35647,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35675,7 +35675,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35701,7 +35701,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35727,17 +35727,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 17.5,
+          "line": 20.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 17.5,
+          "line": 20.5,
           "price": -113
         }
       ],
@@ -35755,7 +35755,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35783,7 +35783,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35811,7 +35811,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35839,7 +35839,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35867,7 +35867,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35895,17 +35895,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 30.5,
+          "line": 31.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 30.5,
+          "line": 31.5,
           "price": -113
         }
       ],
@@ -35923,7 +35923,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -35951,17 +35951,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 25.5,
+          "line": 26.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 25.5,
+          "line": 26.5,
           "price": -113
         }
       ],
@@ -35979,7 +35979,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36007,17 +36007,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 4.5,
+          "line": 3.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 4.5,
+          "line": 3.5,
           "price": -113
         }
       ],
@@ -36035,7 +36035,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36063,7 +36063,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36091,17 +36091,17 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 21.5,
+          "line": 22.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 21.5,
+          "line": 22.5,
           "price": -113
         }
       ],
@@ -36119,7 +36119,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36147,7 +36147,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36175,7 +36175,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36203,7 +36203,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36231,18 +36231,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": -132
+          "price": -148
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": 100
+          "price": 112
         }
       ],
       "model_value": 2.5,
@@ -36259,18 +36259,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": -112
+          "price": -120
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": -118
+          "price": -110
         }
       ],
       "model_value": 2.6,
@@ -36287,18 +36287,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": 116
+          "price": 102
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": -154
+          "price": -136
         }
       ],
       "model_value": 2.2,
@@ -36315,7 +36315,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36343,7 +36343,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36371,7 +36371,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36399,7 +36399,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36427,7 +36427,7 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
@@ -36455,18 +36455,18 @@
       "event_id": "401873064",
       "kickoff": "2026-11-16T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:08:44.323Z",
+      "captured_at": "2026-11-16T01:12:35.699Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/pittsburgh-steelers-@-cincinnati-bengals-36275765",
       "selections": [
         {
           "side": "over",
-          "line": 1.5,
-          "price": 182
+          "line": 0.5,
+          "price": -205
         },
         {
           "side": "under",
-          "line": 1.5,
-          "price": -250
+          "line": 0.5,
+          "price": 152
         }
       ],
       "model_value": 0.9,
@@ -36483,7 +36483,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36506,7 +36506,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36529,7 +36529,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36552,7 +36552,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36575,7 +36575,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36596,7 +36596,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36619,7 +36619,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36642,7 +36642,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36665,7 +36665,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36688,7 +36688,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36711,7 +36711,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36734,7 +36734,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36755,7 +36755,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36778,7 +36778,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36801,7 +36801,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36822,7 +36822,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36845,7 +36845,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36866,7 +36866,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36887,7 +36887,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36908,7 +36908,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36929,7 +36929,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36950,7 +36950,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36971,7 +36971,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36992,7 +36992,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37013,7 +37013,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37039,7 +37039,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37065,7 +37065,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37091,7 +37091,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37117,7 +37117,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37145,7 +37145,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37173,7 +37173,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37199,7 +37199,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37227,7 +37227,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37253,7 +37253,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37281,7 +37281,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37309,7 +37309,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37337,7 +37337,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37365,7 +37365,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37393,7 +37393,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37421,7 +37421,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37449,7 +37449,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37477,7 +37477,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37505,7 +37505,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37533,7 +37533,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37561,7 +37561,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37589,7 +37589,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37617,7 +37617,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37645,7 +37645,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37673,7 +37673,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37701,7 +37701,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37729,7 +37729,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37757,7 +37757,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37785,7 +37785,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37813,7 +37813,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37841,7 +37841,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37869,7 +37869,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T00:09:21.094Z",
+      "captured_at": "2026-11-16T01:13:19.334Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38930,7 +38930,7 @@
       "market": "anytime_td",
       "side": "yes",
       "line": 0.5,
-      "price": 3500,
+      "price": 4000,
       "reason": "missing_identity",
       "event_id": "401873064"
     },
@@ -38939,7 +38939,7 @@
       "market": "anytime_td",
       "side": "yes",
       "line": 0.5,
-      "price": 4000,
+      "price": 5500,
       "reason": "missing_identity",
       "event_id": "401873064"
     },

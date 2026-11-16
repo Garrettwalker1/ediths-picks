@@ -1,0 +1,5 @@
+# Sunday November 15 CFB refresh
+
+67 Week11 finals and 70 upcoming Week12 events verified from ESPN limit400 scoreboards. 752 season FBS-involving final IDs covered, 59 new summaries fetched without failures. No limit1000 completeness claim: that request returned only25. Top25 fixed75%Colley/25%score-yard/H2H method uses all752, including eight midweek finals absent from the older Top25 loader. No methodology retuning. Current AP endpoint only returns Coaches; AP comparison explicitly unavailable, never inferred.
+
+Old Nov8 no-AP seal graded45/67 winners vs47/67 selection-time book,33W33L1push spread; dogbucket6/14. Separate Nov13 current-season core38/59winners/14.74MAE. No accuracy improvement/adoption claim. Prior seals and older grades unchanged. No private challenger files in this repository. New primary66pregame forecasts in ../current_season_20261115 with own raw byte seal and selection-time dog classification. Book inputs remain comparison-only, no closing claims, no college props.

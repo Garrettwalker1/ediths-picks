@@ -47,10 +47,15 @@ def main(nfl,cfb):
   c=e['competitions'][0]['competitors'];a=next(x for x in c if x['homeAway']=='away');h=next(x for x in c if x['homeAway']=='home');sched.append((a['team']['displayName'],h['team']['displayName'],a['team']['abbreviation'].replace('LAR','LA')+' at '+h['team']['abbreviation'].replace('LAR','LA'),e['date'],e['id']))
  root=(R/'index.html').read_text();current=json.JSONDecoder().raw_decode(root.split('const D=',1)[1])[0]['current']
  assert {x[2] for x in sched}=={g['matchup'] for g in current},'NFL slate changed: validate new source schedule before running'
- cg=json.load(open(R/'tools/cfb/week11_20261108/week11_sealed_research.json'))['games']
+ cg=json.load(open(R/'tools/cfb/current_season_20261115/current_forecasts.json'))['games']
  cfb_schedule=json.load(open(R/'cfb_schedule_verified.json'))
  for sport,games,key in [('NFL',sched,'nfl'),('CFB',[(g['away'],g['home'],g['event_id'],current_kickoff(g['event_id'],g['date'],cfb_schedule),g['event_id']) for g in cg],'cfb')]:
-  counts={'matched':0,'missing':0,'frozen':0,'unrestorable_started':0}
+  prior_slate_frozen=0
+  if key=='cfb':
+   active_ids={str(g[4])for g in games}
+   for oid,oq in old[key].items():
+    if str(oq.get('event_id',oid))not in active_ids and oq.get('kickoff') and oq['captured_at']<oq['kickoff']<=now:out[key][oid]=dict(oq,frozen=True);prior_slate_frozen+=1
+  counts={'matched':0,'missing':0,'frozen':0,'unrestorable_started':0,'prior_slate_frozen_preserved':prior_slate_frozen}
   for a,h,k,kick,eid in games:
    if datetime.datetime.fromisoformat(kick.replace('Z','+00:00'))<=datetime.datetime.fromisoformat(now.replace('Z','+00:00')):
     if k in old[key] and old[key][k]['captured_at'] < kick:out[key][k]=dict(old[key][k],frozen=True);counts['frozen']+=1

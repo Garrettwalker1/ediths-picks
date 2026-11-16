@@ -1,0 +1,69 @@
+{
+  "player_id": "00-0033119",
+  "sample_rows": 8,
+  "season_dropbacks": 324.0,
+  "data_weight": 0.5402677997905031,
+  "quality": -0.0191227994173959,
+  "embedded": 0.06120253478831562,
+  "k": 275.7025921693572,
+  "beta": 13.93681885692365,
+  "beta_ci95": [
+    -6.300055612381383,
+    34.36014846468121
+  ],
+  "delta": -0.08032533420571152,
+  "swing": -1.1194796324468546,
+  "swing_coef_only_ci95": [
+    -2.7599904087833838,
+    0.5060540725791032
+  ],
+  "baseline_raw": 6.644291723007991,
+  "scenario_raw": 5.524812090561136,
+  "scenario_display": 5.5,
+  "embedded_history": [
+    {
+      "player_id": "00-0032764",
+      "player_display_name": "Derrick Henry",
+      "db": 1,
+      "epa": -1.20085718773771
+    },
+    {
+      "player_id": "00-0034796",
+      "player_display_name": "Lamar Jackson",
+      "db": 104,
+      "epa": 36.76730596660534
+    },
+    {
+      "player_id": "00-0035993",
+      "player_display_name": "Tyler Huntley",
+      "db": 121,
+      "epa": 2.4154691627971765
+    },
+    {
+      "player_id": "00-0039064",
+      "player_display_name": "Zay Flowers",
+      "db": 1,
+      "epa": -0.719498782767914
+    },
+    {
+      "player_id": "00-0040981",
+      "player_display_name": "Joe Fagnano",
+      "db": 43,
+      "epa": -25.8570984028315
+    }
+  ],
+  "core_history_game_ids": [
+    "2026_01_BAL_IND",
+    "2026_02_NO_BAL",
+    "2026_03_BAL_DAL",
+    "2026_04_TEN_BAL",
+    "2026_05_BAL_ATL",
+    "2026_06_BAL_CLE",
+    "2026_07_CIN_BAL",
+    "2026_08_BAL_BUF",
+    "2026_09_JAX_BAL"
+  ],
+  "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+  "fresh_stats_sha256": "6e7ccdf7c215867e43a65b720c88a79a1aaa571d159b8afb957e5b03a7e253a5",
+  "fresh_Brissett_rows_equal_original": true
+}

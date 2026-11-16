@@ -3,10 +3,10 @@
   "generated_at": "2026-11-14T16:17:28.439017+00:00",
   "core_version": "NFL-current-season-SOS-record-player-v1-owner-requested",
   "performance_status": "Owner-directed experimental inclusion without another performance test. Accuracy improvement not established.",
-  "scope": "QB passing production only. 1 conditional game prediction; 12 games without numerical adjustment. Five games carry QB injury flags including three owning-team verified changes without numerical application. No non-QB or CFB injury effects.",
+  "scope": "QB passing production only. Two separately dated conditional predictions; 11 games without numerical adjustment. No full-game injury adjustment, QB/skill stacking, non-QB or CFB effects.",
   "engine_cutoff": "2026-11-13",
   "full_game_injury_adjustments": 0,
-  "conditional_predictions": 1,
+  "conditional_predictions": 2,
   "games": [
     {
       "event_id": "401873053",
@@ -155,9 +155,35 @@
       "game_id": "2026_10_LAC_BAL",
       "baseline_raw_margin_home": 6.644291723007991,
       "raw_home_adjustment_pts": null,
-      "status": "verified_QB_change_no_numeric_application",
-      "conditional_scenario": null,
-      "coverage_note": "(QB injury flag) Baltimore placed Lamar Jackson and Tyler Huntley on injured reserve and acquired Jacoby Brissett, slated to start Monday against the Chargers. The trade is distinct from the injuries. New-to-team role/production compatibility has not been numerically applied; baseline unchanged.",
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": 5.524812090561136,
+        "display_margin_home": 5.5,
+        "bal_team_swing_raw": -1.1194796324468546,
+        "display_bal_team_swing": -1.0,
+        "scenario_issued_at": "2026-11-16T21:51:37.613999+00:00",
+        "source_checked_at": "2026-11-16T21:50:05Z",
+        "summary_note": "(QB injury flag) Brissett season-passing marker; LAC unchanged-production assumption. No skill-Out stacking or full injury adjustment.",
+        "assumptions": "If Brissett reproduces his shrunk 2026 Arizona passing production in Baltimore and the Chargers stay at their baseline-embedded QB production. Arizona-to-Baltimore portability is an assumption: new scheme, receivers, line and short preparation are not numerically modeled. LAC unchanged production is not verified health or a measured zero injury effect. QB rushing and McConkey skill-Out effects are excluded; do not stack these scenarios.",
+        "role_status": "Ravens owning-team November 16 11:00 AM preview confirms Brissett will make his first Baltimore start. NFL/team season statistics verify eight Arizona starts, 193/305 passing, 1719 yards, 10 TD, 7 INT and 19 sacks (324 passing dropbacks).",
+        "source_urls": [
+          "https://www.baltimoreravens.com/news/game-preview-jacoby-brissett-ravens-first-start-week-10-against-chargers-monday-night-football",
+          "https://www.nfl.com/players/jacoby-brissett/stats/",
+          "https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/",
+          "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv"
+        ],
+        "season_dropbacks": 324,
+        "shrink_weight_on_data": 0.5402677997905031,
+        "starter_q": -0.0191227994173959,
+        "embedded_proxy_q": 0.06120253478831562,
+        "beta_pts_per_epa_db": 13.93681885692365,
+        "coefficient_only_team_swing_ci95": [
+          -2.7599904087833838,
+          0.5060540725791032
+        ],
+        "uncertainty": "Weak observational association, not a causal injury estimate or proven accuracy gain. Data weight 54.03%, only just above the prior-dominated cutoff. Coefficient-only BAL swing 95% band [-2.760, +0.506] includes zero; not a predictive interval, excludes player-quality, transfer/context, role, embedded-proxy and confounding uncertainty. Original November 13 core/cutoff preserved: raw BAL margin 6.6443 plus QB-only swing -1.1195 = 5.5248 (BAL -5.5). Baseline-embedded passing proxy is the whole BAL season mix, not Lamar alone or last game alone."
+      },
+      "coverage_note": "(QB injury flag) Brissett confirmed starter. His eight Arizona starts provide a current-season passing marker; not a full injury adjustment.",
       "source_urls": [
         "https://www.baltimoreravens.com/news/jacoby-brissett-ravens-trade-cardinals-finalize-2026",
         "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody"
@@ -165,5 +191,6 @@
       "source_checked_at": "2026-11-14T16:17:00Z"
     }
   ],
-  "source_checked_at": "2026-11-14T16:17:00Z"
+  "source_checked_at": "2026-11-14T16:17:00Z",
+  "revision_note": "November 16 Brissett season-marker scenario appended only to LAC-BAL; original generated_at and all 12 other game payloads preserved. New scenario carries its own issuance/source-check time."
 }

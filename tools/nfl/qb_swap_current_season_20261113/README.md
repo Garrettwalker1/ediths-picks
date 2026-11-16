@@ -36,3 +36,19 @@ Raw stats source pattern: https://github.com/nflverse/nflverse-data/releases/dow
 ## Additional factual flags, checked November 13 at 15:26 CT
 
 Miami-Indianapolis, Rams-Arizona and Chargers-Baltimore also carry `(QB injury flag)` without numerical effects. Owning-team sources confirm Willis IR/McCord first start, Minshew season-ending elbow injury/Beck first start with Brissett's departure separate, and Jackson/Huntley IR/Brissett acquired and slated to start Monday. Unknown new-starter quality and unimplemented new-to-team applications remain explicit. These facts do not replace the baseline or stack with another QB method. URLs are stored per game in the overlay. Baltimore has a separate Monday pregame check; Sunday's check is not Monday clearance.
+
+## November 16 Brissett season-passing marker
+
+At the owner's request, the LAC-BAL card now has a separate experimental QB-passing-only scenario of BAL -5.5 beside the unchanged BAL -6.5 baseline. It does not add the McConkey skill-only correction. Brissett is a confirmed starter, not a hypothetical starter; the conditional part is transferring his Arizona production into Baltimore and holding LAC at baseline-embedded QB production.
+
+NFL and owning-team stats checked November 16 verify eight Arizona starts: 193/305, 1,719 yards, 10 TD, 7 INT, 19 sacks. All eight Brissett rows, and every passing-EPA row through the original November 13 cutoff, match the fresh nflverse feed. No new accuracy-adoption test or historical rebuild was run. Same frozen coefficient and current-season quality method as the original QB component:
+
+- 324 dropbacks, data weight 0.5402677997905031. Just above the structural 50% prior-dominance cutoff, not a high-confidence estimate.
+- Shrunk Brissett passing EPA/dropback -0.0191227994173959 vs BAL embedded proxy +0.06120253478831562.
+- Delta -0.08032533420571152 times fitted coefficient 13.93681885692365 = BAL team swing -1.1194796324468546.
+- Original raw home margin 6.644291723007991 + swing = 5.524812090561136, displayed BAL -5.5.
+- Coefficient-only swing band [-2.7599904087833838, +0.5060540725791032] includes zero. Not a predictive interval or causal effect.
+
+BAL's embedded passing proxy is the whole-season QB mix (104 Jackson, 121 Huntley, 43 Fagnano dropbacks, plus two trick-play dropbacks), not Lamar alone or only last week's rookie. A comparison with Fagnano alone would answer a different question. New receivers/line/scheme and short preparation have no invented numerical penalty; their transfer uncertainty remains explicit. QB rushing is outside this input. The EPA proxy differs from the core's conventional-rate inputs. The original core, all 12 other QB game payloads, old scenario times, skill-only scenario and frozen seals remain unchanged. New scenario issuance is shown per event; top-level generated_at is retained as the original artifact time.
+
+Sources: https://www.nfl.com/players/jacoby-brissett/stats/ ; https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/ ; https://www.baltimoreravens.com/news/game-preview-jacoby-brissett-ravens-first-start-week-10-against-chargers-monday-night-football ; https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv . Evidence and independent aggregate checks are in review_sources/brissett_20261116_*.

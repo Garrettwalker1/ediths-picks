@@ -164,6 +164,33 @@
           "note": "VERIFIED Sat: owning 49ers injury report shows Evans DNP/DNP/DNP, game status OUT (Achilles); also formal Out in nflverse week-10 file. Was Friday watch item."
         }
       ]
+    },
+    "2026_10_LAC_BAL": {
+      "home": "BAL",
+      "away": "LAC",
+      "label": "verified-only",
+      "raw_baseline_home_margin": 6.644291723007991,
+      "home_out_share": 0.0,
+      "away_out_share": 0.02773246329526917,
+      "d_share": -0.02773246329526917,
+      "delta_home_margin": 0.1963458401305057,
+      "corrected_home_margin": 6.840637563138497,
+      "coef_only_95_band": [
+        6.557961119419084,
+        7.1233140068579095
+      ],
+      "included": [
+        {
+          "team": "LAC",
+          "name": "Ladd McConkey",
+          "gsis": "00-0039915",
+          "pos": "WR",
+          "url": "https://www.chargers.com/news/chargers-vs-ravens-injury-report-ladd-mcconkey-daiyan-henley-2026",
+          "note": "OWNING Chargers Week-10 injury report (published Nov 15): game status downgraded from Questionable to OUT for MNF at Baltimore; did not travel. Verified Nov 16 3:44 PM CT. nflverse week-10 fitted file lags (still Questionable); owning announcement governs per contract evidence standard. Established: 6 prior 2026 stat rows incl. one zero-touch row, 17/613 = 0.02773246329526917 trailing team volume share from the original sealed Nov 13 production stats (publisher evidence, stats sha256 a7f51400624ae41f38db1395122115ff653231789ed0a840a3a7fae9e3bc977a), not a current-stat regeneration.",
+          "status_reviewed_at": "2026-11-16T21:44:00Z",
+          "corroborating_url": "https://www.baltimoreravens.com/team/injury-report/"
+        }
+      ]
     }
   },
   "pending_not_applied": {},
@@ -201,7 +228,7 @@
     }
   },
   "pending_source_requirements": [
-    "MNF LAC@BAL: no game-status designations in nflverse week-10 file as of Sat 10:10 AM CT; Saturday afternoon report expected - check before 3:14 PM task expiry, else successor owns",
+    "MNF LAC@BAL RESOLVED Nov 16 3:44 PM CT: Ladd McConkey LAC WR formally designated Out by owning Chargers report (downgraded from Questionable Nov 15, did not travel); established and applied above. No other LAC/BAL skill designations (Thompson Doubtful not established; Njoku/Perryman/Pipkins/Awosika/Eboigbe Questionable; Taylor/Waxter/Williamson Out all non-skill; BAL Hawkins S Out non-skill).",
     "Watch items resolved Sat: Tuten JAX NOT designated (JAX report has no Out for him - presumed active); Evans SF now OUT (applied); Boston CLE Questionable (outside component); St. Brown DET Questionable (outside component); Chris Bell MIA Doubtful but established (0.0256) - outside component",
     "Saturday note: GB Jacobs still OUT (confirmed in refreshed nflverse file); Micah Parsons GB LB Out (defense, outside component); Sam Darnold SEA QB Out (QB lane, publisher owns)",
     "IR/reserve exclusions (established but IR-only, outside same-week Out component, NOT zero actual effect): Puka Nacua LA (0.0936 share) - placed on Injured Reserve 11/12 per owning https://www.therams.com/team/transactions/ (user correction 6:23 PM CT, publisher primary check confirmed; supersedes Nov 11 no-IR-decision)",

@@ -1,0 +1,111 @@
+{
+  "source": "Original Nov13 sealed core production file, not a current fetch",
+  "cutoff": "completed REG gameday<2026-11-13; season2026",
+  "name": [
+    "Ladd McConkey"
+  ],
+  "id": [
+    "00-0039915"
+  ],
+  "position": [
+    "WR"
+  ],
+  "appearances": 6,
+  "numerator_attempts_carries_receptions": 17,
+  "denominator_LAC_attempts_carries_receptions": 613,
+  "share": 0.02773246329526917,
+  "delta_home": 0.1963458401305057,
+  "core_raw_home": 6.644291723007991,
+  "skill_only_corrected_home": 6.840637563138497,
+  "coef_only_delta_band": [
+    -0.08633060358890704,
+    0.47902228384991846
+  ],
+  "stats_sha256": "a7f51400624ae41f38db1395122115ff653231789ed0a840a3a7fae9e3bc977a",
+  "game_source_sha256": "6984935c1281fe1e12bf9ef3053d41e8796081807498b7eca3d07076b7438653",
+  "rows": [
+    {
+      "game_id": "2026_01_ARI_LAC",
+      "week": 1,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 5,
+      "volume": 5
+    },
+    {
+      "game_id": "2026_02_LV_LAC",
+      "week": 2,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 3,
+      "volume": 3
+    },
+    {
+      "game_id": "2026_03_LAC_BUF",
+      "week": 3,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 4,
+      "volume": 4
+    },
+    {
+      "game_id": "2026_04_LAC_SEA",
+      "week": 4,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 0,
+      "volume": 0
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "week": 6,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 1,
+      "volume": 1
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "week": 8,
+      "player_id": "00-0039915",
+      "player_display_name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "attempts": 0,
+      "carries": 0,
+      "receptions": 4,
+      "volume": 4
+    }
+  ],
+  "team_denominator_by_week": {
+    "1": 65,
+    "2": 74,
+    "3": 82,
+    "4": 83,
+    "5": 72,
+    "6": 81,
+    "8": 81,
+    "9": 75
+  },
+  "scope": "Independent source arithmetic, not a new model forecast or clearance; no QB stacking. Other missing effects remain unknown."
+}

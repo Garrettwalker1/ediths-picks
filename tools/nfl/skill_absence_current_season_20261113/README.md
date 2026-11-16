@@ -22,3 +22,7 @@ The NFL Week 10 report still explicitly lists Tyler Goodson Out (ankle, knee), o
 
 - https://www.nfl.com/news/nfl-week-10-injury-report-2026-season
 - https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured
+
+## LAC-BAL skill-only scenario, November16 15:46CT
+Owning Chargers Nov15 update formally downgraded Ladd McConkey(back)toOut; he did not travel. Original Nov13 production share17/613,6priorstat-rowappearances,GSIS00-0039915. Added separate skill-only correction+0.1963458401305057homepoints to original raw6.644291723007991, yielding6.840637563138497(headlineBAL-7). OriginalcoreBAL-6.5unchanged. Correction coefficient-only95%band[-0.08633060358890704,0.47902228384991846]includeszero,notpredictiveorcausal. Brissettstarterchange remains flagged with no numericQBapplication;noQBstacking. Existingfiveoverlaypayloadsandtheirsource/scenario times unchanged; globaloriginalissue time retained, new event carries its own scenario_issued_at/source_checked_at. No other absences assumed healthy. Final inactive check remains separate.
+Source:https://www.chargers.com/news/chargers-vs-ravens-injury-report-ladd-mcconkey-daiyan-henley-2026

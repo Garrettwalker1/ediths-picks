@@ -1,6 +1,6 @@
 {
-  "assembled_at": "2026-11-16T19:56:21.531620+00:00",
-  "checked_at": "2026-11-16T19:56:17.566Z",
+  "assembled_at": "2026-11-16T21:02:37.779029+00:00",
+  "checked_at": "2026-11-16T21:02:31.888Z",
   "scope": "1 remaining upcoming NFL event refreshed across six standard categories; 12 started events frozen at their previously published pre-kickoff snapshots. Actual hourly intervals verified. Identity coverage remains partial; source times and pregame freezes are per event.",
   "state": "IL",
   "model_inputs_changed": false,
@@ -18130,7 +18130,7 @@
       "frozen": true
     },
     {
-      "checked_at": "2026-11-16T19:56:17.566Z",
+      "checked_at": "2026-11-16T21:02:31.888Z",
       "state": "IL",
       "event_id": "401873065",
       "matchup": "Los Angeles Chargers at Baltimore Ravens",
@@ -18160,13 +18160,13 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": -140
+              "price": -145
             }
           ],
           "model_value": 0.5428469292037904,
@@ -18183,13 +18183,13 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 165
+              "price": 170
             }
           ],
           "model_value": 0.3654190867320748,
@@ -18206,7 +18206,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18229,7 +18229,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18252,7 +18252,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18275,7 +18275,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18296,7 +18296,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18319,19 +18319,40 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 480
+              "price": 490
             }
           ],
           "model_value": 0.17520970190916038,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+        },
+        {
+          "player_id": "00-0033119",
+          "espn_id": "2578570",
+          "team_id": "BAL",
+          "player_name": "Jacoby Brissett",
+          "market": "anytime_td",
+          "event_id": "401873065",
+          "kickoff": "2026-11-17T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-16T21:02:31.888Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 500
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
         },
         {
           "player_id": "00-0036550",
@@ -18342,7 +18363,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18357,27 +18378,6 @@
           "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
         },
         {
-          "player_id": "00-0033119",
-          "espn_id": "2578570",
-          "team_id": "BAL",
-          "player_name": "Jacoby Brissett",
-          "market": "anytime_td",
-          "event_id": "401873065",
-          "kickoff": "2026-11-17T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 500
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
           "player_id": "00-0038454",
           "espn_id": "4596334",
           "team_id": "LAC",
@@ -18386,7 +18386,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18409,7 +18409,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18432,7 +18432,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18455,7 +18455,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18478,13 +18478,13 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 700
+              "price": 750
             }
           ],
           "model_value": 0.1149909759755372,
@@ -18501,7 +18501,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18522,7 +18522,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18543,7 +18543,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18564,13 +18564,13 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1900
+              "price": 1800
             }
           ],
           "model_value": null,
@@ -18585,7 +18585,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18606,7 +18606,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18627,7 +18627,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18648,7 +18648,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18669,17 +18669,17 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "over",
-              "line": 213.5,
+              "line": 209.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 213.5,
+              "line": 209.5,
               "price": -113
             }
           ],
@@ -18695,7 +18695,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18721,18 +18721,18 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": 148
+              "price": 146
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -196
+              "price": -192
             }
           ],
           "model_value": null,
@@ -18747,18 +18747,18 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "over",
               "line": 0.5,
-              "price": -250
+              "price": -255
             },
             {
               "side": "under",
               "line": 0.5,
-              "price": 185
+              "price": 188
             }
           ],
           "model_value": null,
@@ -18773,7 +18773,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18801,7 +18801,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18829,7 +18829,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18855,17 +18855,17 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
               "side": "over",
-              "line": 34.5,
+              "line": 33.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 34.5,
+              "line": 33.5,
               "price": -113
             }
           ],
@@ -18883,7 +18883,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18909,7 +18909,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18937,7 +18937,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18965,7 +18965,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -18993,7 +18993,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19021,7 +19021,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19049,7 +19049,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19077,7 +19077,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19105,7 +19105,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19133,7 +19133,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19161,7 +19161,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19189,7 +19189,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19217,7 +19217,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19245,7 +19245,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19273,7 +19273,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19301,7 +19301,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19329,7 +19329,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19357,7 +19357,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19385,7 +19385,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19413,7 +19413,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19441,7 +19441,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19469,7 +19469,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19497,7 +19497,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19525,7 +19525,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19553,7 +19553,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19581,7 +19581,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19609,7 +19609,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19637,7 +19637,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19665,7 +19665,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19693,7 +19693,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19721,7 +19721,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19749,7 +19749,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19777,7 +19777,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19805,7 +19805,7 @@
           "event_id": "401873065",
           "kickoff": "2026-11-17T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-16T19:56:17.566Z",
+          "captured_at": "2026-11-16T21:02:31.888Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
           "selections": [
             {
@@ -19831,7 +19831,7 @@
           "market": "anytime_td",
           "side": "yes",
           "line": 0.5,
-          "price": 340,
+          "price": 330,
           "reason": "missing_identity"
         },
         {
@@ -19870,7 +19870,7 @@
           "player_name": "Matthew Hibner",
           "market": "receiving_yards",
           "side": "over",
-          "line": 4.5,
+          "line": 3.5,
           "price": -113,
           "reason": "missing_identity"
         },
@@ -19878,7 +19878,7 @@
           "player_name": "Matthew Hibner",
           "market": "receiving_yards",
           "side": "under",
-          "line": 4.5,
+          "line": 3.5,
           "price": -113,
           "reason": "missing_identity"
         },
@@ -19903,7 +19903,7 @@
           "market": "receptions",
           "side": "over",
           "line": 0.5,
-          "price": -188,
+          "price": -138,
           "reason": "missing_identity"
         },
         {
@@ -19911,7 +19911,7 @@
           "market": "receptions",
           "side": "under",
           "line": 0.5,
-          "price": 140,
+          "price": 104,
           "reason": "missing_identity"
         }
       ],
@@ -36774,13 +36774,13 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": -140
+          "price": -145
         }
       ],
       "model_value": 0.5428469292037904,
@@ -36797,13 +36797,13 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 165
+          "price": 170
         }
       ],
       "model_value": 0.3654190867320748,
@@ -36820,7 +36820,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36843,7 +36843,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36866,7 +36866,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36889,7 +36889,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36910,7 +36910,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36933,19 +36933,40 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 480
+          "price": 490
         }
       ],
       "model_value": 0.17520970190916038,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
+    },
+    {
+      "player_id": "00-0033119",
+      "espn_id": "2578570",
+      "team_id": "BAL",
+      "player_name": "Jacoby Brissett",
+      "market": "anytime_td",
+      "event_id": "401873065",
+      "kickoff": "2026-11-17T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-16T21:02:31.888Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 500
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
     },
     {
       "player_id": "00-0036550",
@@ -36956,7 +36977,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -36971,27 +36992,6 @@
       "model_captured_at": "2026-11-10T13:16:19.483662+00:00"
     },
     {
-      "player_id": "00-0033119",
-      "espn_id": "2578570",
-      "team_id": "BAL",
-      "player_name": "Jacoby Brissett",
-      "market": "anytime_td",
-      "event_id": "401873065",
-      "kickoff": "2026-11-17T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 500
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
       "player_id": "00-0038454",
       "espn_id": "4596334",
       "team_id": "LAC",
@@ -37000,7 +37000,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37023,7 +37023,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37046,7 +37046,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37069,7 +37069,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37092,13 +37092,13 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 700
+          "price": 750
         }
       ],
       "model_value": 0.1149909759755372,
@@ -37115,7 +37115,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37136,7 +37136,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37157,7 +37157,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37178,13 +37178,13 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1900
+          "price": 1800
         }
       ],
       "model_value": null,
@@ -37199,7 +37199,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37220,7 +37220,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37241,7 +37241,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37262,7 +37262,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37283,17 +37283,17 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "over",
-          "line": 213.5,
+          "line": 209.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 213.5,
+          "line": 209.5,
           "price": -113
         }
       ],
@@ -37309,7 +37309,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37335,18 +37335,18 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": 148
+          "price": 146
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -196
+          "price": -192
         }
       ],
       "model_value": null,
@@ -37361,18 +37361,18 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "over",
           "line": 0.5,
-          "price": -250
+          "price": -255
         },
         {
           "side": "under",
           "line": 0.5,
-          "price": 185
+          "price": 188
         }
       ],
       "model_value": null,
@@ -37387,7 +37387,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37415,7 +37415,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37443,7 +37443,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37469,17 +37469,17 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
           "side": "over",
-          "line": 34.5,
+          "line": 33.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 34.5,
+          "line": 33.5,
           "price": -113
         }
       ],
@@ -37497,7 +37497,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37523,7 +37523,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37551,7 +37551,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37579,7 +37579,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37607,7 +37607,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37635,7 +37635,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37663,7 +37663,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37691,7 +37691,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37719,7 +37719,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37747,7 +37747,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37775,7 +37775,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37803,7 +37803,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37831,7 +37831,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37859,7 +37859,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37887,7 +37887,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37915,7 +37915,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37943,7 +37943,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37971,7 +37971,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -37999,7 +37999,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38027,7 +38027,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38055,7 +38055,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38083,7 +38083,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38111,7 +38111,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38139,7 +38139,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38167,7 +38167,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38195,7 +38195,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38223,7 +38223,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38251,7 +38251,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38279,7 +38279,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38307,7 +38307,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38335,7 +38335,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38363,7 +38363,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38391,7 +38391,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -38419,7 +38419,7 @@
       "event_id": "401873065",
       "kickoff": "2026-11-17T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-16T19:56:17.566Z",
+      "captured_at": "2026-11-16T21:02:31.888Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/los-angeles-chargers-@-baltimore-ravens-36275768",
       "selections": [
         {
@@ -39498,7 +39498,7 @@
       "market": "anytime_td",
       "side": "yes",
       "line": 0.5,
-      "price": 340,
+      "price": 330,
       "reason": "missing_identity",
       "event_id": "401873065"
     },
@@ -39542,7 +39542,7 @@
       "player_name": "Matthew Hibner",
       "market": "receiving_yards",
       "side": "over",
-      "line": 4.5,
+      "line": 3.5,
       "price": -113,
       "reason": "missing_identity",
       "event_id": "401873065"
@@ -39551,7 +39551,7 @@
       "player_name": "Matthew Hibner",
       "market": "receiving_yards",
       "side": "under",
-      "line": 4.5,
+      "line": 3.5,
       "price": -113,
       "reason": "missing_identity",
       "event_id": "401873065"
@@ -39579,7 +39579,7 @@
       "market": "receptions",
       "side": "over",
       "line": 0.5,
-      "price": -188,
+      "price": -138,
       "reason": "missing_identity",
       "event_id": "401873065"
     },
@@ -39588,7 +39588,7 @@
       "market": "receptions",
       "side": "under",
       "line": 0.5,
-      "price": 140,
+      "price": 104,
       "reason": "missing_identity",
       "event_id": "401873065"
     }

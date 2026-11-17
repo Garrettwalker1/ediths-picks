@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-11-16T23:26:59.113819+00:00",
+ "updated_at": "2026-11-17T04:42:51.237416+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -14491,8 +14491,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "game": "Los Angeles Chargers @ Baltimore Ravens",
    "kickoff": "2026-11-17T01:15Z",
    "line": null,
@@ -14516,7 +14516,7 @@
    "source": "Owner iMessage Nov16 17:25:59CT; both original placed-receipt pixels and enlarged IDs inspected. Displayed prices/boost/stake/payout retained.",
    "receipt_filename": "image-07fea885.png",
    "source_receipt_sha256": "014e3733c80fd3e01136cfbee72ee1814e97002d4dc5256fc7e07f28f9aec295",
-   "net_usd": null,
+   "net_usd": -20,
    "net_units": null,
    "legs": [
     {
@@ -14526,26 +14526,61 @@
      "market": "anytime touchdown scorer",
      "selection": "Zay Flowers anytime TD",
      "price": null,
-     "hit": null,
-     "result": "pending",
+     "hit": false,
+     "result": "loss",
      "player": "Zay Flowers",
      "team": "BAL",
-     "line": 0.5
+     "line": 0.5,
+     "graded_at": "2026-11-17T04:42:51.237416+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+     "final_boxscore": [
+      {
+       "category": "receiving",
+       "stats": {
+        "receptions": "6",
+        "receivingYards": "74",
+        "yardsPerReception": "12.3",
+        "receivingTouchdowns": "0",
+        "longReception": "17",
+        "receivingTargets": "7"
+       },
+       "player_id": "4429615"
+      },
+      {
+       "category": "fumbles",
+       "stats": {
+        "fumbles": "1",
+        "fumblesLost": "1",
+        "fumblesRecovered": "0"
+       },
+       "player_id": "4429615"
+      }
+     ],
+     "own_rushing_receiving_tds": 0,
+     "scoring_plays": [],
+     "grading_note": "Completed Final own scorer statistics checked against full scoring summary. No return/recovery touchdown by this player; passing TDs excluded."
     }
    ],
    "event_ids": [
     "401873065"
    ],
-   "notes": "Original receipt private, not uploaded. Actual Flowers SINGLE, not Henry/Flowers TD parlay. Actual Hampton 30+ alternate rushing yards, not recommended over33.5. All legs pending; cashout button is an offer only. Exact displayed returns authoritative despite rounded boosted odds. No inferred individual SGP prices or joint hit probability. $30 total new open exposure across two tickets. Different TD scorer dependencies: single Flowers, parlay Henry. Hampton alt rushing is excluded from separate ALT SPREAD/TOTAL performance scope.",
-   "price_note": "Receipt base +170, +214 after 25% profit boost. Displayed payout exact, not recomputed from rounded odds."
+   "notes": "Original receipt private, not uploaded. Actual Flowers SINGLE, not Henry/Flowers TD parlay. Actual Hampton 30+ alternate rushing yards, not recommended over33.5. All legs graded from completed Final; cashout button was an offer only. Exact displayed returns authoritative despite rounded boosted odds. No inferred individual SGP prices or joint hit probability. $30 total recorded stake across these two settled losses; $0 return, net -$30. Different TD scorer dependencies: single Flowers, parlay Henry. Hampton alt rushing is excluded from separate ALT SPREAD/TOTAL performance scope.",
+   "price_note": "Receipt base +170, +214 after 25% profit boost. Displayed payout exact, not recomputed from rounded odds.",
+   "payout_usd": 0,
+   "settled_at": "2026-11-17T04:42:51.237416+00:00",
+   "final_leg_check_at": "2026-11-17T04:42:51.237416+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065"
+   ],
+   "settlement_note": "Graded from completed Final. Live phone history checked22:42CT; no later owner cashout, void or correction. Standing normal-settlement rule; visible cashout buttons were offers only. No units inferred."
   },
   {
    "sport": "NFL",
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "game": "Los Angeles Chargers @ Baltimore Ravens",
    "kickoff": "2026-11-17T01:15Z",
    "line": null,
@@ -14569,7 +14604,7 @@
    "source": "Owner iMessage Nov16 17:25:59CT; both original placed-receipt pixels and enlarged IDs inspected. Displayed prices/boost/stake/payout retained.",
    "receipt_filename": "image-5530c78c.png",
    "source_receipt_sha256": "22be373552aebf5ef83e136e0f0b5a4a5fb026e485ec0b6a376033edd91c3476",
-   "net_usd": null,
+   "net_usd": -10,
    "net_units": null,
    "legs": [
     {
@@ -14579,11 +14614,44 @@
      "market": "anytime touchdown scorer",
      "selection": "Derrick Henry anytime TD",
      "price": null,
-     "hit": null,
-     "result": "pending",
+     "hit": true,
+     "result": "win",
      "player": "Derrick Henry",
      "team": "BAL",
-     "line": 0.5
+     "line": 0.5,
+     "graded_at": "2026-11-17T04:42:51.237416+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+     "final_boxscore": [
+      {
+       "category": "rushing",
+       "stats": {
+        "rushingAttempts": "10",
+        "rushingYards": "10",
+        "yardsPerRushAttempt": "1.0",
+        "rushingTouchdowns": "2",
+        "longRushing": "6"
+       },
+       "player_id": "3043078"
+      },
+      {
+       "category": "receiving",
+       "stats": {
+        "receptions": "5",
+        "receivingYards": "10",
+        "yardsPerReception": "2.0",
+        "receivingTouchdowns": "0",
+        "longReception": "5",
+        "receivingTargets": "5"
+       },
+       "player_id": "3043078"
+      }
+     ],
+     "own_rushing_receiving_tds": 2,
+     "scoring_plays": [
+      "Derrick Henry 2 Yd Rush (Riley Patterson Kick)",
+      "Derrick Henry 1 Yd Rush (Riley Patterson Kick)"
+     ],
+     "grading_note": "Completed Final own scorer statistics checked against full scoring summary. No return/recovery touchdown by this player; passing TDs excluded."
     },
     {
      "event_id": "401873065",
@@ -14592,9 +14660,14 @@
      "market": "moneyline",
      "selection": "Baltimore Ravens moneyline",
      "price": null,
-     "hit": null,
-     "result": "pending",
-     "team": "BAL"
+     "hit": false,
+     "result": "loss",
+     "team": "BAL",
+     "graded_at": "2026-11-17T04:42:51.237416+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+     "final_score": "LAC 23; BAL 20",
+     "final_team_margin": -3,
+     "grading_note": "Completed Final team result, Baltimore lost23-20."
     },
     {
      "event_id": "401873065",
@@ -14603,18 +14676,63 @@
      "market": "alternate_rushing_yards",
      "selection": "Omarion Hampton 30+ rushing yards",
      "price": null,
-     "hit": null,
-     "result": "pending",
+     "hit": true,
+     "result": "win",
      "player": "Omarion Hampton",
      "team": "LAC",
-     "line": 30
+     "line": 30,
+     "graded_at": "2026-11-17T04:42:51.237416+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+     "final_boxscore": [
+      {
+       "category": "rushing",
+       "stats": {
+        "rushingAttempts": "22",
+        "rushingYards": "105",
+        "yardsPerRushAttempt": "4.8",
+        "rushingTouchdowns": "1",
+        "longRushing": "19"
+       },
+       "player_id": "4685382"
+      },
+      {
+       "category": "receiving",
+       "stats": {
+        "receptions": "1",
+        "receivingYards": "0",
+        "yardsPerReception": "0.0",
+        "receivingTouchdowns": "0",
+        "longReception": "0",
+        "receivingTargets": "2"
+       },
+       "player_id": "4685382"
+      },
+      {
+       "category": "fumbles",
+       "stats": {
+        "fumbles": "1",
+        "fumblesLost": "0",
+        "fumblesRecovered": "1"
+       },
+       "player_id": "4685382"
+      }
+     ],
+     "actual_rushing_yards": 105,
+     "grading_note": "Actual30+ alternate rushing threshold preserved, not over33.5.105finalrushingyards. Outside ALT SPREAD/TOTAL performance scope."
     }
    ],
    "event_ids": [
     "401873065"
    ],
-   "notes": "Original receipt private, not uploaded. Actual Flowers SINGLE, not Henry/Flowers TD parlay. Actual Hampton 30+ alternate rushing yards, not recommended over33.5. All legs pending; cashout button is an offer only. Exact displayed returns authoritative despite rounded boosted odds. No inferred individual SGP prices or joint hit probability. $30 total new open exposure across two tickets. Different TD scorer dependencies: single Flowers, parlay Henry. Hampton alt rushing is excluded from separate ALT SPREAD/TOTAL performance scope.",
-   "price_note": "Receipt base +309, +402 after 30% profit boost. Displayed payout exact, not recomputed from rounded odds."
+   "notes": "Original receipt private, not uploaded. Actual Flowers SINGLE, not Henry/Flowers TD parlay. Actual Hampton 30+ alternate rushing yards, not recommended over33.5. All legs graded from completed Final; cashout button was an offer only. Exact displayed returns authoritative despite rounded boosted odds. No inferred individual SGP prices or joint hit probability. $30 total recorded stake across these two settled losses; $0 return, net -$30. Different TD scorer dependencies: single Flowers, parlay Henry. Hampton alt rushing is excluded from separate ALT SPREAD/TOTAL performance scope.",
+   "price_note": "Receipt base +309, +402 after 30% profit boost. Displayed payout exact, not recomputed from rounded odds.",
+   "payout_usd": 0,
+   "settled_at": "2026-11-17T04:42:51.237416+00:00",
+   "final_leg_check_at": "2026-11-17T04:42:51.237416+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065"
+   ],
+   "settlement_note": "Graded from completed Final. Live phone history checked22:42CT; no later owner cashout, void or correction. Standing normal-settlement rule; visible cashout buttons were offers only. No units inferred."
   }
  ]
 }

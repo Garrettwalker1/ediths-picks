@@ -23,7 +23,7 @@ def norm(s):
  s=''.join(c for c in unicodedata.normalize('NFKD',s) if not unicodedata.combining(c))
  s=s.lower().replace('&','').replace("'",'').replace('.','').replace('state','st')
  aliases={'connecticut':'uconn','miami ohio':'miami oh','appalachian st':'app st','hawaii':'hawaii','florida international':'fiu','sam houston st':'sam houston','massachusetts':'umass','louisiana monroe':'ul monroe'}
- s=s.replace('florida international','fiu').replace('miami florida','miami')
+ s=s.replace('florida international','fiu').replace('miami florida','miami').replace('miami (oh)','miami oh')
  return aliases.get(s,s)
 def match(short,long):
  a,b=norm(short),norm(long);return a==b or b.startswith(a+' ')

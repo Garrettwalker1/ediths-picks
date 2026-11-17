@@ -1,0 +1,7 @@
+# November17 hourly player capture81
+
+Eight NFL events priced: seven all six standard categories, LV-DEN newly four (TD/passyds/passTD/rushyds). LV-DEN final full-DOM after-bottom-scroll event inventory has no receiving/receptions. Five other event inventories no targetheaders/prop tabs observed; bounded dated observations, not permanent unavailability.600parsed598exact stable-ID joins2JAXTDgapswithheld,403player-marketrows. Added explicit exact roster/crosswalk identity evidence for Adam Prentice/Connor Heyward and punctuation alias C.J. Williams to roster CJ Williams. Crosswalk/source times predate capture, no fuzzy identity or availability inference. Old evidence preserved, new evidence appended.
+
+CFB17:30:18.824CTlasteligibleobservedpregamefor18:00BallStateOhioandMiamiOHKent. EMU-WMU excluded from price extraction and entire16:15quoteobjectfrozenunchanged. RawNFL29CFB66,currentNFL13/13CFB61pregame+1frozen,4missing. Explicit Miami(OH)RedHawks vs MiamiOhio alias repair joins alreadycapturedexactmatchup/date; previous5thCFBgapwas a name-normalization defect, not source unavailability. No future/inplayprices accepted. Closingline status not verified.18:00booleanfreeze followthrough separately scheduled.
+
+NOhelper overall120sinterruption and INDtooltransportEOF handled by read current expanded state and click onlyremainingheaders, no reload or subhour price recapture. Alloldrefreshgaps>=3600sec; models/seals/ledger/fantasy/32a656aTuesdaycompanionunchanged. BookcomparisononlyILnotTN; no wager/collegeprop. Tests and actualpixels verified separately.

@@ -1,0 +1,56 @@
+{
+  "prepared_at": "2026-11-17T17:04:31.035468+00:00",
+  "crosswalk_source_sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+  "crosswalk_source_url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+  "crosswalk_received_at": "2026-11-17T13:14:43.482938+00:00",
+  "identities": [
+    {
+      "book_name": "J.J McCarthy",
+      "roster_name": "J.J. McCarthy",
+      "team_id": "NYG",
+      "espn_id": "4433970",
+      "player_id": "00-0039923",
+      "crosswalk_espn_id": "4433970",
+      "crosswalk_gsis_id": "00-0039923",
+      "evidence_note": "Exact roster ESPN ID and preserved source crosswalk; J.J punctuation alias explicitly reviewed. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "J.J. McCarthy",
+        "first_name": "Jonathan",
+        "last_name": "McCarthy",
+        "football_name": "J.J."
+      }
+    },
+    {
+      "book_name": "Travis Hunter",
+      "roster_name": "Travis Hunter",
+      "team_id": "JAX",
+      "espn_id": "4685415",
+      "player_id": "00-0040718",
+      "crosswalk_espn_id": "4685415",
+      "crosswalk_gsis_id": "00-0040718",
+      "evidence_note": "Exact roster ESPN ID and preserved source crosswalk; J.J punctuation alias explicitly reviewed. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "Travis Hunter",
+        "first_name": "Travis",
+        "last_name": "Hunter",
+        "football_name": "Travis"
+      }
+    },
+    {
+      "book_name": "Patrick Ricard",
+      "roster_name": "Patrick Ricard",
+      "team_id": "NYG",
+      "espn_id": "2975417",
+      "player_id": "00-0033376",
+      "crosswalk_espn_id": "2975417",
+      "crosswalk_gsis_id": "00-0033376",
+      "evidence_note": "Exact roster ESPN ID and preserved source crosswalk; J.J punctuation alias explicitly reviewed. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "Patrick Ricard",
+        "first_name": "Patrick",
+        "last_name": "Ricard",
+        "football_name": "Patrick"
+      }
+    }
+  ]
+}

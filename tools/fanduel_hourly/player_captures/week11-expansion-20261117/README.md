@@ -1,0 +1,11 @@
+# November17 Week11 player coverage expansion
+
+MIA-BUF, MIN-SF and CIN-WAS add all six standard categories. JAX-NYG adds four categories, with receiving yards/receptions explicitly not observed in its final checked full-DOM header/tab inventory. IND-HOU remains byte-equivalent as an event to the earlier capture. Five captured events are not thirteen fully covered events.
+
+The other twelve current event inventories were inspected at their individual times. Seven had no target standard headers/prop tabs in the checked loaded full-DOM inventories after bottom scroll. TEN-DAL had an expanded Touchdown Scorers accordion with only LAST scorer quotes, not anytime TD, so those out-of-scope quotes are not published. Earlier abbreviated inventory snapshots were superseded by the saved final checks; no inferred permanence of absence. This is not a claim about later availability.
+
+Exact event-local roster snapshots, hashes and source dates precede captures. Supplemental identity evidence uses explicit reviewed source names/aliases plus the original full nflverse ESPN-to-GSIS crosswalk hash, not fuzzy matching. WAS core abbreviation maps explicitly to WSH roster/TD/generic source abbreviation without altering core forecasts. Players missing from the TD model can still have a verified roster/crosswalk identity; that does not create a model value. JAX-NYG has two withheld TD identity gaps: Gregory Desrosiers and Chris Manhertz. Neither has the required exact ESPN-to-GSIS binding in the preserved source crosswalk. No inferred identities.
+
+Actual price snapshots: CIN-WAS10:54:43.823CT, MIN-SF10:55:47.242CT (see raw for exact time), MIA-BUF10:56:40.711CT, JAX-NYG11:02:44.605CT. All timestamps come from the actual rendered browser snapshot, never the board rebuild. No NFL/CFB forecast, TD probability, generic projection, historical seal, old Week10 player snapshot or wager changed.
+
+Replay each event with build_player_comparison.py against this archive. Its normal six-category gate stays strict; a partial event requires a hashed, same-event, bounded-time, full-DOM after-bottom-scroll audit and cannot omit another standard category observed there. Test coverage includes default rejection, observed-category omission, identity hash/ID mismatch and exact replay.

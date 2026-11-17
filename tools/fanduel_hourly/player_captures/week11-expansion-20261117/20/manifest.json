@@ -1,0 +1,25 @@
+[
+  {
+    "kind": "availability_audit",
+    "sha256": "793b1244914b4d57aea60ac74eabccdb6dc6245dd3f62c49ecd8026194787738"
+  },
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T17:04:31.035468+00:00",
+    "sha256": "5d72a950f0366933f77c066f467052988fb2e323dad5403940dbab827f74d0d1",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "JAX",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/jax/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "bcae4899c3e803211f03a0158dcc03305a3f85de488bab2925ae532b0cda41d7"
+  },
+  {
+    "team": "NYG",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/nyg/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "8867487392d50e3d591bc3ce6dc8a82f4b796793c2352578f8a3799a99e14eab"
+  }
+]

@@ -31,7 +31,15 @@ def merge(previous, incoming, slate, as_of):
             gap=(stamp(event['checked_at'])-stamp(old['checked_at'])).total_seconds()
             if gap<3600:
                 raise ValueError('event refresh is not at least 60 minutes after previous capture')
-        if any(r['event_id']!=eid or r['captured_at']!=event['checked_at'] or r['source_url']!=event['source_url'] for r in event['rows']):
+        if event.get('tabbed_capture'):
+            first,last=stamp(event['capture_window_start']),stamp(event['capture_window_end'])
+            if last!=stamp(event['checked_at']) or not 0<=(last-first).total_seconds()<=600:
+                raise ValueError('invalid bounded tabbed capture window')
+            if not event['source_urls'] or any(not (url==event['source_url'] or url.startswith(event['source_url']+'?tab='))for url in event['source_urls']):
+                raise ValueError('tabbed URL differs from verified event')
+            if any(r['event_id']!=eid or not first<=stamp(r['captured_at'])<=last or r['source_url']not in event['source_urls']for r in event['rows']):
+                raise ValueError('row provenance differs from tabbed event')
+        elif any(r['event_id']!=eid or r['captured_at']!=event['checked_at'] or r['source_url']!=event['source_url'] for r in event['rows']):
             raise ValueError('row provenance differs from event')
         events[eid]=event
     ordered=[]

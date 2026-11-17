@@ -1,0 +1,9 @@
+# November17 hourly player capture77
+
+Seven current events have captured prices, six across all six standard categories. NO-CHI and TEN-DAL newly offer all six categories; both fully expanded captures are retained. IND-HOU, MIA-BUF, MIN-SF and CIN-WAS refreshed. JAX-NYG still has four standard categories; receiving yards/receptions were not observed in its final full-DOM after-bottom-scroll and event-tab inventory. Six other inventories had no target headers/prop tabs observed at their dated check. No permanent-availability claim.
+
+480 parsed selections,478 exact stable-ID joins,2withheldJAXTDidentity gaps. Travis Etienne's explicit suffix alias and Hunter Luepke's exact roster identity use pre-capture roster ESPN IDs plus the preserved full crosswalk hash. Prior reviewed identity evidence is carried forward without altering its original source times. No guessed identities. Crosswalk lacks exact ESPN-to-GSIS bindings for Gregory Desrosiers/Chris Manhertz, who stay withheld. Book listing is not availability clearance. Model/projection source times and values remain unchanged.
+
+Initial browser session was stuck in its own page JavaScript; empty/no-state responses were rejected. One fresh-session recovery succeeded. Accepted game captures12:16CT; player captures12:18-12:25CT. Exact source times travel with every row/event. All previous per-event refresh gaps exceed3600seconds; no started game backfills. OldWeek10playerarchive and prior historical seals untouched. All prior frozen game objects unchanged. NFL13/13andCFB61/66current game prices,5CFBgaps.
+
+Rebuild using build_player_comparison.py with each event archive and the preserved Nov17 model sources, then merge_player_comparisons.py. Partial-category audit is explicit and hashed, never a bypass for omitted observed categories. All35offline tests pass; visual verification separate. No injury/QB/forecast/TD/generic/fantasy/ledger change or wager.

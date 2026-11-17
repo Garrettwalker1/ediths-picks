@@ -1,0 +1,349 @@
+{
+  "checked_at": "2026-11-17T13:25:16.805995+00:00",
+  "roles": {
+    "BAL": {
+      "player_id": "00-0033119",
+      "starter": "Jacoby Brissett",
+      "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+      "evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+      "urls": [
+        "https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/"
+      ]
+    },
+    "MIN": {
+      "player_id": "00-0029604",
+      "starter": "Kirk Cousins",
+      "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+      "evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+      "urls": [
+        "https://www.vikings.com/news/kirk-cousins-starting-packers-week-10-game-2026"
+      ]
+    },
+    "MIA": {
+      "player_id": "00-0040014",
+      "starter": "Kyle McCord",
+      "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+      "evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+      "urls": [
+        "https://www.miamidolphins.com/news/game-recap-dolphins-fall-to-colts-24-22"
+      ]
+    },
+    "ARI": {
+      "player_id": "00-0041561",
+      "starter": "Carson Beck",
+      "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+      "evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+      "urls": [
+        "https://www.azcardinals.com/news/carson-beck-gets-first-start-but-cardinals-can-t-get-win-against-rams"
+      ]
+    },
+    "LV": {
+      "player_id": "00-0041562",
+      "starter": "Fernando Mendoza",
+      "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+      "evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+      "urls": [
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+      ]
+    }
+  },
+  "availability": [
+    {
+      "player_id": "00-0038559",
+      "team": "ARI",
+      "player": "Michael Wilson",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.azcardinals.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803421+00:00"
+    },
+    {
+      "player_id": "00-0041027",
+      "team": "ARI",
+      "player": "Jeremiyah Love",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.azcardinals.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803439+00:00"
+    },
+    {
+      "player_id": "00-0038128",
+      "team": "MIA",
+      "player": "Malik Willis",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.miamidolphins.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803450+00:00"
+    },
+    {
+      "player_id": "00-0035993",
+      "team": "BAL",
+      "player": "Tyler Huntley",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.baltimoreravens.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803454+00:00"
+    },
+    {
+      "player_id": "00-0034796",
+      "team": "BAL",
+      "player": "Lamar Jackson",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.baltimoreravens.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803456+00:00"
+    },
+    {
+      "player_id": "00-0033307",
+      "team": "ARI",
+      "player": "Kendrick Bourne",
+      "reason": "Owning-team current transaction log records Injured Reserve placement and no later activation through this check. ESPN roster tag alone was not treated as clearance.",
+      "url": "https://www.azcardinals.com/team/transactions/",
+      "source_checked_at": "2026-11-17T13:17:40.803458+00:00"
+    },
+    {
+      "player_id": "00-0040242",
+      "team": "WSH",
+      "player": "Jacory Croskey-Merritt",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-16T20:18Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/wsh/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0040730",
+      "team": "DEN",
+      "player": "RJ Harvey",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-31T20:18Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/den/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0039040",
+      "team": "MIA",
+      "player": "De'Von Achane",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-09-28T20:10Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/mia/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0038041",
+      "team": "DAL",
+      "player": "Jake Ferguson",
+      "source_status": "Out",
+      "source_status_date": "2026-11-16T19:09Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/dal/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Out. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0038104",
+      "team": "KC",
+      "player": "Tyquan Thornton",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-13T18:29Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/kc/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0035659",
+      "team": "WSH",
+      "player": "Terry McLaurin",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-30T17:12Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/wsh/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0040138",
+      "team": "HOU",
+      "player": "Jaylin Noel",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-28T22:30Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/hou/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0040691",
+      "team": "NYG",
+      "player": "Jaxson Dart",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-09-30T20:35Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/nyg/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0039384",
+      "team": "NYG",
+      "player": "Tyrone Tracy Jr.",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-27T21:04Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/nyg/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0039739",
+      "team": "PIT",
+      "player": "Roman Wilson",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-16T20:37Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/pit/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0037120",
+      "team": "DAL",
+      "player": "Tyler Goodson",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-14T18:50Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/dal/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0036252",
+      "team": "PIT",
+      "player": "Michael Pittman Jr.",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-16T20:39Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/pit/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0039344",
+      "team": "CAR",
+      "player": "Jonathon Brooks",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-14T19:01Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/car/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0038994",
+      "team": "MIN",
+      "player": "Jordan Addison",
+      "source_status": "Out",
+      "source_status_date": "2026-11-16T18:45Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Out. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0038555",
+      "team": "PHI",
+      "player": "Tank Bigsby",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-06T23:17Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/phi/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0037664",
+      "team": "IND",
+      "player": "Alec Pierce",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-11T17:38Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ind/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0036389",
+      "team": "PHI",
+      "player": "Jalen Hurts",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-19T14:18Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/phi/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0039746",
+      "team": "PHI",
+      "player": "Will Shipley",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-16T20:55Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/phi/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0040078",
+      "team": "KC",
+      "player": "Brashard Smith",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-10-24T18:05Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/kc/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0033955",
+      "team": "WSH",
+      "player": "Jeremy McNichols",
+      "source_status": "Injured Reserve",
+      "source_status_date": "2026-11-04T17:09Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/wsh/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Injured Reserve. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    },
+    {
+      "player_id": "00-0035228",
+      "team": "MIN",
+      "player": "Kyler Murray",
+      "source_status": "Out",
+      "source_status_date": "2026-11-16T18:39Z",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min/roster",
+      "note": "Dated ESPN roster injury tag, not formal Week11 final game designation or proof of participation.",
+      "reason": "Withheld: ESPN currently reports Out. A stale or conflicting tag is not treated as clearance. Check owning-team update before restoring.",
+      "source_checked_at": "2026-11-17T13:15:45.870566+00:00"
+    }
+  ],
+  "public_source_summaries": [
+    {
+      "url": "https://www.baltimoreravens.com/team/transactions/",
+      "fact": "Nov5 Jackson and Huntley placed IR; no later activation in latest inspected log."
+    },
+    {
+      "url": "https://www.miamidolphins.com/team/transactions/",
+      "fact": "Nov10 Malik Willis placed IR."
+    },
+    {
+      "url": "https://www.azcardinals.com/team/transactions/",
+      "fact": "Nov10 Minshew/Wilson IR; Nov3 Love/Bourne IR. No later activation in latest inspected log."
+    },
+    {
+      "url": "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback",
+      "fact": "Nov10 announcement names Mendoza for Week10, not Week11clearance. Later Week10postgame material on page."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-17T13:29:57.962486+00:00",
+  "nfl_week": 11,
+  "nfl_games": 13,
+  "all_prior_games_final": 150,
+  "core_training_rows": 1429,
+  "new_current_season_version": true,
+  "old_seals_preserved": 28,
+  "qb_conditional": 2,
+  "qb_thin_samples_withheld": 3,
+  "full_game_injury_adjustment_count": 0,
+  "td_model_sha256": "3cb7f10419eb0fa2aacd39d3e0d0cf295ec668f8fe7c415281b6908de063084b",
+  "td_ranked": 206,
+  "td_unranked": 322,
+  "td_availability_withheld": 27,
+  "generic_players": 474,
+  "generic_matchups": 389,
+  "generic_offline_tests": 10,
+  "book_contract_tests": 24,
+  "model_retrained_or_accuracy_claim": "Core/QB same-method coefficients refit on new completed rows; TD/generic frozen parameters unchanged; no new accuracy/adoption claim.",
+  "weather": {
+    "rows": 79,
+    "weather_forecasts": 75,
+    "indoor": 4,
+    "missing": 0
+  },
+  "book_game_coverage": {
+    "NFL": {
+      "matched": 13,
+      "missing": 0,
+      "frozen": 0,
+      "unrestorable_started": 0,
+      "prior_slate_frozen_preserved": 13,
+      "returned": 13,
+      "parsed": 13
+    },
+    "CFB": {
+      "matched": 61,
+      "missing": 5,
+      "frozen": 0,
+      "unrestorable_started": 0,
+      "prior_slate_frozen_preserved": 56,
+      "returned": 67,
+      "parsed": 67
+    }
+  },
+  "player_book_scope": "Archived Week10unchanged; Week11notyetcollected. No fresh player capture claim.",
+  "tests_only_correctness": true
+}

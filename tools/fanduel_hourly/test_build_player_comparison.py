@@ -10,7 +10,7 @@ class EventContract(unittest.TestCase):
   cls.url='https://sportsbook.fanduel.com/football/nfl/new-england-patriots-@-detroit-lions-35605986'
   cls.td=load(R/'tools/nfl/week10_2026/td_projection_snapshot.json')
   cls.primary=load(R/'tools/nfl/week10_2026/td_week10_primary.json')
-  cls.generic=load(R/'player_projections.json')
+  cls.generic=load(cls.archive/'generic_reference.json')
   cls.now=stamp('2026-11-13T22:00:00Z')
  def run_build(self,archive=None,game=None,url=None,now=None):
   return build_event(archive or self.archive,game or self.game,url or self.url,self.td,self.primary,self.generic,now or self.now)

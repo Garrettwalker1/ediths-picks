@@ -1,0 +1,30 @@
+[
+  {
+    "file": "games.csv",
+    "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+    "requested_at": "2026-11-17T13:11:23.950662+00:00",
+    "received_at": "2026-11-17T13:11:24.620239+00:00",
+    "sha256": "53b603a570d8452124f53219ce3ad7b3a9734969b777860ff28d69a0cdc3414d"
+  },
+  {
+    "file": "player_stats_2026.csv",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "requested_at": "2026-11-17T13:11:24.621748+00:00",
+    "received_at": "2026-11-17T13:11:24.949989+00:00",
+    "sha256": "83d428787dab3467e07f8587956bc1ac8df4a788f27ffc4746adba4136399e5e"
+  },
+  {
+    "file": "current_scoreboard.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+    "requested_at": "2026-11-17T13:11:24.952993+00:00",
+    "received_at": "2026-11-17T13:11:25.019422+00:00",
+    "sha256": "4c4813cc17aa592c1886f5da1a0dbf01e1875d5ba35b9e17b4c18b1186ac5144"
+  },
+  {
+    "file": "cfb_current_scoreboard.json",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
+    "requested_at": "2026-11-17T13:11:25.022006+00:00",
+    "received_at": "2026-11-17T13:11:25.125472+00:00",
+    "sha256": "7f53f9e30f267a5d8e7830a6ef74bf609bfcbb699dec8c25efa38c49c2ca252e"
+  }
+]

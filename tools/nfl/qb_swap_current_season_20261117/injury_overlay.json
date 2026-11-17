@@ -1,0 +1,174 @@
+{
+  "version": "NFL-experimental-current-season-QB-input-20261117",
+  "generated_at": "2026-11-17T13:18:06.782913+00:00",
+  "core_version": "NFL-current-season-SOS-record-player-20261117-owner-requested",
+  "performance_status": "Owner-directed experimental inclusion. Same method refit with new completed rows, not proof of improved accuracy.",
+  "scope": "2 conditional QB-passing-only predictions; 3 prior-dominated changes withheld. PriorWeek10role evidence is not Week11clearance. No full-game/non-QB/CFB injury effect.",
+  "engine_cutoff": "2026-11-17",
+  "full_game_injury_adjustments": 0,
+  "conditional_predictions": 2,
+  "games": [
+    {
+      "event_id": "401873066",
+      "game_id": "2026_11_IND_HOU",
+      "baseline_raw_margin_home": 6.549619046252752,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873070",
+      "game_id": "2026_11_MIA_BUF",
+      "baseline_raw_margin_home": 13.786754943690841,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Kyle McCord is a prior-week starter, not Week11 clearance. 35 current-season dropbacks, data weight 11.3%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.miamidolphins.com/news/game-recap-dolphins-fall-to-colts-24-22"
+      ]
+    },
+    {
+      "event_id": "401873068",
+      "game_id": "2026_11_BAL_CAR",
+      "baseline_raw_margin_home": 1.9480993526806933,
+      "raw_home_adjustment_pts": null,
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": 2.758297308762603,
+        "display_margin_home": 3.0,
+        "team": "BAL",
+        "team_swing_raw": -0.8101979560819094,
+        "summary_note": "(QB injury flag) Jacoby Brissett-start / opponent unchanged-production scenario only. Week11 role not confirmed; not full injury coverage.",
+        "assumptions": "If Jacoby Brissett starts for BAL and Carolina Panthers stays at baseline-embedded QB production. Latest inspected source establishes prior Week10 role, NOT Week11 game clearance. Transfer of this-season production across teams/scheme remains an assumption. Opponent unchanged production is not verified health or measured zero injury effect. QB passing only; do not stack with skill-only or other injury scenarios.",
+        "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+        "source_urls": [
+          "https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/"
+        ],
+        "season_dropbacks": 375,
+        "shrink_weight_on_data": 0.576,
+        "coefficient_only_team_swing_ci95": [
+          -2.0,
+          0.34
+        ],
+        "uncertainty": "Coefficient-only bootstrap interval. Partial uncertainty: excludes uncertainty in starter quality (posterior_sd), embedded-proxy error, role/starter uncertainty and selection/confounding. Not a full predictive interval. Association, not causal injury effect. QB rushing and non-QB injuries excluded."
+      },
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873071",
+      "game_id": "2026_11_NO_CHI",
+      "baseline_raw_margin_home": 9.370764814380422,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873073",
+      "game_id": "2026_11_TEN_DAL",
+      "baseline_raw_margin_home": 6.426593400041734,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873072",
+      "game_id": "2026_11_TB_DET",
+      "baseline_raw_margin_home": 5.829129211156585,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873067",
+      "game_id": "2026_11_ARI_KC",
+      "baseline_raw_margin_home": 13.270211491755996,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Carson Beck is a prior-week starter, not Week11 clearance. 23 current-season dropbacks, data weight 7.7%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.azcardinals.com/news/carson-beck-gets-first-start-but-cardinals-can-t-get-win-against-rams"
+      ]
+    },
+    {
+      "event_id": "401873069",
+      "game_id": "2026_11_JAX_NYG",
+      "baseline_raw_margin_home": -5.847848647838934,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873074",
+      "game_id": "2026_11_NYJ_LAC",
+      "baseline_raw_margin_home": -1.7936117300524073,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873075",
+      "game_id": "2026_11_LV_DEN",
+      "baseline_raw_margin_home": 4.982290357126459,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Fernando Mendoza is a prior-week starter, not Week11 clearance. 43 current-season dropbacks, data weight 13.5%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+      ]
+    },
+    {
+      "event_id": "401873076",
+      "game_id": "2026_11_PIT_PHI",
+      "baseline_raw_margin_home": -7.507491007585093,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873077",
+      "game_id": "2026_11_MIN_SF",
+      "baseline_raw_margin_home": 3.267776564108564,
+      "raw_home_adjustment_pts": null,
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": 2.0549827501680777,
+        "display_margin_home": 2.0,
+        "team": "MIN",
+        "team_swing_raw": 1.212793813940486,
+        "summary_note": "(QB injury flag) Kirk Cousins-start / opponent unchanged-production scenario only. Week11 role not confirmed; not full injury coverage.",
+        "assumptions": "If Kirk Cousins starts for MIN and San Francisco 49ers stays at baseline-embedded QB production. Latest inspected source establishes prior Week10 role, NOT Week11 game clearance. Transfer of this-season production across teams/scheme remains an assumption. Opponent unchanged production is not verified health or measured zero injury effect. QB passing only; do not stack with skill-only or other injury scenarios.",
+        "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+        "source_urls": [
+          "https://www.vikings.com/news/kirk-cousins-starting-packers-week-10-game-2026"
+        ],
+        "season_dropbacks": 360,
+        "shrink_weight_on_data": 0.566,
+        "coefficient_only_team_swing_ci95": [
+          -0.51,
+          3.0
+        ],
+        "uncertainty": "Coefficient-only bootstrap interval. Partial uncertainty: excludes uncertainty in starter quality (posterior_sd), embedded-proxy error, role/starter uncertainty and selection/confounding. Not a full predictive interval. Association, not causal injury effect. QB rushing and non-QB injuries excluded."
+      },
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873078",
+      "game_id": "2026_11_CIN_WAS",
+      "baseline_raw_margin_home": -7.387267405306449,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week11 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    }
+  ]
+}

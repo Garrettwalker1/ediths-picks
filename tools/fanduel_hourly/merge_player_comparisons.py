@@ -52,7 +52,7 @@ def merge(previous, incoming, slate, as_of):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--previous',required=True,type=pathlib.Path);p.add_argument('--event',action='append',default=[],type=pathlib.Path);p.add_argument('--output',required=True,type=pathlib.Path);p.add_argument('--as-of')
     args=p.parse_args();now=stamp(args.as_of) if args.as_of else datetime.datetime.now(datetime.timezone.utc)
-    result=merge(load(args.previous),[load(path) for path in args.event],load(R/'tools/nfl/current_season_20261113/current_forecasts.json')['games'],now)
+    result=merge(load(args.previous),[load(path) for path in args.event],load(R/'tools/nfl/current_season_20261117/current_forecasts.json')['games'],now)
     args.output.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result['coverage'],indent=2))
 
 if __name__=='__main__':main()

@@ -1,0 +1,520 @@
+[
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=25.94204&longitude=-80.2456&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "b739c60cbd02527068.json",
+    "received_at": "2026-11-17T13:28:49.687454+00:00",
+    "sha256": "adc4ad2bbb5aa911f26d0d5b83c28f634369e863854852c8fe02f1f6c75cdf83",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=26.35869&longitude=-80.0831&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "efdfd45884a3eeb687.json",
+    "received_at": "2026-11-17T13:28:49.687744+00:00",
+    "sha256": "967ce44c4e8f422164da3e79f21654e64a7d22179c26cacc1e74ee0370ea834b",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=28.53834&longitude=-81.37924&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "4f358a0e81a5dad83e.json",
+    "received_at": "2026-11-17T13:28:49.687987+00:00",
+    "sha256": "bbd807a5db27eff032631228c004ebb264013594d0897cff9e2baa0923e053eb",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.65163&longitude=-82.32483&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a79e7a8767cbf3b1ea.json",
+    "received_at": "2026-11-17T13:28:49.688210+00:00",
+    "sha256": "33c80c0795e8007a9dee2c8fc62430ed25aab9cf2d0a048a7dd720ea06c6aaf5",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.88327&longitude=-97.94139&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "d59b41810c7f5c5b34.json",
+    "received_at": "2026-11-17T13:28:49.688426+00:00",
+    "sha256": "b4edb30abedef55bcb1fa71dc1af8d4bbcca7b3bbfb15c392ab155664e609e1f",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.95465&longitude=-90.07507&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a41ceb2049b4b954d3.json",
+    "received_at": "2026-11-17T13:28:49.688771+00:00",
+    "sha256": "c446ad9d07232d4c75bc5e8916c406285355cfee95ee01efd8b972ec98c64b2e",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.22409&longitude=-92.01984&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "748ff12a17dfc2db99.json",
+    "received_at": "2026-11-17T13:28:49.689067+00:00",
+    "sha256": "dc0fe575b8b67452168f1b631548d61d0aed442da84f2cfd8f6dd5fd3d443231",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.26715&longitude=-97.74306&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8ab05d050a915f83ac.json",
+    "received_at": "2026-11-17T13:28:49.689290+00:00",
+    "sha256": "820c37d205b76acf3a667e5c14d94cb3455908b88fcf4945fafd679668c08f81",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.33218&longitude=-81.65565&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "15271eba9e6448b296.json",
+    "received_at": "2026-11-17T13:28:49.689511+00:00",
+    "sha256": "3ded0715774f40841f998003ed3ccaa9ac14bee33ba7719427897b1f8b90a1ab",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.43826&longitude=-84.28073&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "1214e053ce2c9e6e63.json",
+    "received_at": "2026-11-17T13:28:49.689736+00:00",
+    "sha256": "0b9f770472c0a6d624e2372f96865588c577c2ae2984c72bf2a785859e998823",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=31.32712&longitude=-89.29034&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "e5e111b9dd12dafab3.json",
+    "received_at": "2026-11-17T13:28:49.690084+00:00",
+    "sha256": "06ec9925a22cffa61acbaa41dfb3711a40967ff65e1b5609eb5ad0e4a2a1d65c",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=31.54933&longitude=-97.14667&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "caf991e55eb0353f6f.json",
+    "received_at": "2026-11-17T13:28:49.690308+00:00",
+    "sha256": "905b7972e0833dfba01739bb738bae01f3ef91d007d07d2e2c36c1a60485f543",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.31232&longitude=-106.77834&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "d3d98c86bc05e056f5.json",
+    "received_at": "2026-11-17T13:28:49.690531+00:00",
+    "sha256": "d06dabccdaaa6a41bd80204f56f95a3b40b67776608f539172ddeb7e0e9582e1",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.52321&longitude=-92.63793&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "571095d7ab1ff9553a.json",
+    "received_at": "2026-11-17T13:28:49.690751+00:00",
+    "sha256": "e372177b71bb05e78e131f56374fa4d45e2001857f760368e465d53d716b0e34",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.72541&longitude=-97.32085&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "e982e0cc1abcc99fbc.json",
+    "received_at": "2026-11-17T13:28:49.690988+00:00",
+    "sha256": "207f3bde060f5453e808c0cf19d7b72d81ff587ca0fa85783c1351a75d8b6f59",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.41477&longitude=-111.90931&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "f1bcf186d6bd0a1c5b.json",
+    "received_at": "2026-11-17T13:28:49.691326+00:00",
+    "sha256": "9c6604154fec9b6886a9532f93d8d5c8c0b55df7a0696188b1838cdce83181c7",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.52066&longitude=-86.80249&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "43c940b41f33f3e29a.json",
+    "received_at": "2026-11-17T13:28:49.691551+00:00",
+    "sha256": "bc1c6f4b9e085bca36939c45dfa4fe74f731b8d7e80b2655bc0f35fe06e4ffcc",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.749&longitude=-84.38798&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8a1148edf33ee8b1aa.json",
+    "received_at": "2026-11-17T13:28:49.691778+00:00",
+    "sha256": "4687f2934c378e4a693b028ba519670b77e2d239c68c90fba240478d7383e044",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.96168&longitude=-118.35313&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "fdea0364097724063b.json",
+    "received_at": "2026-11-17T13:28:49.692012+00:00",
+    "sha256": "de2799ede5d656ebb1ca5962990d7342deb55fca2620622769e6af9cc63ec40a",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.00071&longitude=-81.03481&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "f367903b4de80cc93e.json",
+    "received_at": "2026-11-17T13:28:49.692242+00:00",
+    "sha256": "b7d5ad69c8a0712ad14dafb926ee7acd77cb2e8d8eb5e2d513ae523aaba0f41e",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.02343&longitude=-84.61549&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "5db576586cbc6ff0fd.json",
+    "received_at": "2026-11-17T13:28:49.692539+00:00",
+    "sha256": "e94db5d2ad83d9e700cf42049f173825d191ddac33fcad1af8f72989f113bbf3",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.05223&longitude=-118.24368&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "43adb44c32c317a7f4.json",
+    "received_at": "2026-11-17T13:28:49.692764+00:00",
+    "sha256": "d00f8f5a7dc72c1f1a5f03894070d53b794fc7802af2ad957c79541bcfe318c7",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.7304&longitude=-86.58594&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "40c5c073d55941578c.json",
+    "received_at": "2026-11-17T13:28:49.693022+00:00",
+    "sha256": "ff2ba616c7155fe356c07e7f75949855d71f9e3fcea936e7483f661aeb725843",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.22257&longitude=-97.43948&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "f95c57eddd1285c619.json",
+    "received_at": "2026-11-17T13:28:49.693240+00:00",
+    "sha256": "1357eaaeaeda905f174baa9391a6714c3692ba2ce5928de5135bb3aac6895b21",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "9576ec448109a4f466.json",
+    "received_at": "2026-11-17T13:28:49.693455+00:00",
+    "sha256": "f0e6ca2fd664f95d3618b6383eae63069ed8e62fdc45bc53d42c3e44ff2f2468",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.96064&longitude=-83.92074&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "eb7bbd56c81af3d475.json",
+    "received_at": "2026-11-17T13:28:49.693794+00:00",
+    "sha256": "b0785a3f055bfa88f8691ec6529638fcc862bbb5f4884b494013658d4fb798ec",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.99403&longitude=-78.89862&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8ab6d69fe19f62e14f.json",
+    "received_at": "2026-11-17T13:28:49.694031+00:00",
+    "sha256": "f2fa2f616d050ebb2f22fc7b58a37d3f604d58c82c916ba06cf940db81959ae3",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.15398&longitude=-95.99277&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "d2a4b83d3b73e6a17c.json",
+    "received_at": "2026-11-17T13:28:49.694248+00:00",
+    "sha256": "17acf7d213d2cf8f726545006824ad20b578b26112340cf7cbe6bdc0619c1e1a",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.21679&longitude=-81.67455&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "03fa8fc19ec0ca92f4.json",
+    "received_at": "2026-11-17T13:28:49.694463+00:00",
+    "sha256": "de6a799d57c65679b8b170295333193e8cad30f54b143e7f734403ecc9bfa8fc",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.74773&longitude=-119.77237&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "e9813a7343feb8d3ef.json",
+    "received_at": "2026-11-17T13:28:49.694687+00:00",
+    "sha256": "fc431f32a0ec3a759e3b8ae891a26e0c25d1c23344038c4d92380cad695328f0",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.33939&longitude=-121.89496&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a3c5f118143094f795.json",
+    "received_at": "2026-11-17T13:28:49.695001+00:00",
+    "sha256": "10eadd7e0140236a5de45a2164dd191aca4ca2de15a0ed4dce3f278aa4d0032a",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.41375&longitude=-79.14225&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "4a989c65578399e381.json",
+    "received_at": "2026-11-17T13:28:49.695215+00:00",
+    "sha256": "c11d6a4f1f45e2c44f929473905f243157403da98a2a258fefbae1bf06930e8a",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.44188&longitude=-122.14302&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "408812c7e92e5e6253.json",
+    "received_at": "2026-11-17T13:28:49.695438+00:00",
+    "sha256": "519265f9e3f8ad3ddde178c551dd81d062c15a60fbd261604b528116c0d70a93",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.87159&longitude=-122.27275&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8bd51994c38297c27a.json",
+    "received_at": "2026-11-17T13:28:49.695661+00:00",
+    "sha256": "5f8f345861d6e52f3dd45a41a8165a884fa65b0c104468c8639e14cb90248c40",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.02931&longitude=-78.47668&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "d7611b2f04fa670183.json",
+    "received_at": "2026-11-17T13:28:49.695895+00:00",
+    "sha256": "2de56e7ff14512f8bbac589e7477c9f733cdfc044812a752c75769c8117db6ef",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.25424&longitude=-85.75941&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a6d21481718f7fb1d8.json",
+    "received_at": "2026-11-17T13:28:49.696216+00:00",
+    "sha256": "597d7443dcb7cbe068fc092a78e9084d6805b280bd603db26c3ae65f940277fb",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.41925&longitude=-82.44515&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "918ff7ba83d73c9549.json",
+    "received_at": "2026-11-17T13:28:49.696439+00:00",
+    "sha256": "ec3cd78b7275c07b2359a109ec9e528c0f2e933379744f2d354839cdf1af4871",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.75764&longitude=-104.30059&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8bea4614adb8be27d1.json",
+    "received_at": "2026-11-17T13:28:49.696661+00:00",
+    "sha256": "a699cedaae2b10c2dc27ef5e0b896247e8a750f3ffb74ba6ed1f0abe88052c10",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.934&longitude=-76.89664&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "4d1118dffcf7a1fbdf.json",
+    "received_at": "2026-11-17T13:28:49.696892+00:00",
+    "sha256": "3b8dfba59a76b826280f24e8914650d3e67260335f84656d5a3a75752cab1e1f",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.97167&longitude=-95.23525&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "6b9a893e400b60dce8.json",
+    "received_at": "2026-11-17T13:28:49.697502+00:00",
+    "sha256": "1bc2449f5d9b64461dae66a1f4c4f01ae61a16d5020f378daf67587c4f72e618",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.97859&longitude=-76.49184&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a0c9a8c918dc96d0f4.json",
+    "received_at": "2026-11-17T13:28:49.697898+00:00",
+    "sha256": "599918eda456621876560d9dba3c66ffc5b9b4e1de2965248c97c9a567bf0672",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.09973&longitude=-94.57857&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "2b14a14a19a4931d9e.json",
+    "received_at": "2026-11-17T13:28:49.698124+00:00",
+    "sha256": "889b7bbfa6df636c1fcc83e59f4d158ea027fe2c7f4653c9efd328f7c2a4ef91",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.12711&longitude=-84.51439&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "9f084c0d89389fd58d.json",
+    "received_at": "2026-11-17T13:28:49.698355+00:00",
+    "sha256": "d1dbca7b288b0aa09c21235262c3cbdf933c659b827ed8afae6daff68543ba38",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.18361&longitude=-96.57167&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "bf9970666535ad4cd1.json",
+    "received_at": "2026-11-17T13:28:49.698575+00:00",
+    "sha256": "d89f6d589a9eab72d5d44853ca0c91931ff2d6c09c74777a2bb412b1ccf96528",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.32924&longitude=-82.10126&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "76e2212f52ee19054a.json",
+    "received_at": "2026-11-17T13:28:49.698799+00:00",
+    "sha256": "75e159b5e01d1c5c62d4b4457cf916d253e1f5bbc85b83f227c03cc8bb934a74",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.52963&longitude=-119.8138&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a03d93dd6b81c44596.json",
+    "received_at": "2026-11-17T13:28:49.699108+00:00",
+    "sha256": "62023df2a8439d4f89b8d6cecfd2b0e78efa94963408492683e85c664a895a6e",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.62953&longitude=-79.9559&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "e56b4c490276e6c2f7.json",
+    "received_at": "2026-11-17T13:28:49.699330+00:00",
+    "sha256": "32debd1052f78839ba170d83ac1d44b1f25b19fbca677336fd98fe937b831e3c",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.73915&longitude=-104.9847&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "73d8da482eb76fa475.json",
+    "received_at": "2026-11-17T13:28:49.699546+00:00",
+    "sha256": "43d2c5878427b35c0f03122b692f14052b67ee57c2e47a804de3ee493c4117b9",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.95238&longitude=-75.16362&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "3503ec3242bcdd6a82.json",
+    "received_at": "2026-11-17T13:28:49.699772+00:00",
+    "sha256": "3a3e53422b57a2af383a3ac0a8862a8780380ac5607c1f659312338a0c993dee",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.11642&longitude=-88.24338&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "615224ab2dfae3a21a.json",
+    "received_at": "2026-11-17T13:28:49.700003+00:00",
+    "sha256": "2422e39a8541c237034ff01ebc2f14fb525b2a6a9ecedb6f9e9039b2e4059ebd",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.42587&longitude=-86.90807&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "c7801d8cf63caff4ba.json",
+    "received_at": "2026-11-17T13:28:49.700358+00:00",
+    "sha256": "8393ff54004fd9314b112d2f117703cd572462f78e21cea1d117b6aa97f1b731",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.8&longitude=-96.66696&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "ce5cfc79ed63ffe588.json",
+    "received_at": "2026-11-17T13:28:49.700590+00:00",
+    "sha256": "e8358c1f8464337ea17fa40afce9fa9ff3be459a2498ca42a425ea05859520a7",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.15367&longitude=-81.35789&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "4b8f53a8e9ddff7f2f.json",
+    "received_at": "2026-11-17T13:28:49.700827+00:00",
+    "sha256": "f67967e9ef0547a940b8b46f8590c17b341dfdf9ca0d34af3f4ff56f21d3ae2e",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.31137&longitude=-105.5911&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "686a4ed87df18b8050.json",
+    "received_at": "2026-11-17T13:28:49.701081+00:00",
+    "sha256": "39a1eac56fbf61e9e438075cc1d32b95fba6b0fc9adbb8f8ebb4aa7aaf801655",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.39148&longitude=-73.95597&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "3e013d01222db0b9fb.json",
+    "received_at": "2026-11-17T13:28:49.701243+00:00",
+    "sha256": "86b1a3955ddd78b5bcd518831bff5fb56973f49eca3cd51a8e6b8380ff979672",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.66394&longitude=-83.55521&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "19c7dd5707eecb138e.json",
+    "received_at": "2026-11-17T13:28:49.701538+00:00",
+    "sha256": "542757c8d424008c609d2c223aaa91932350dde60d656527c9170492adcb1ef0",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.70019&longitude=-86.23793&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a6c8f8ed21f727c309.json",
+    "received_at": "2026-11-17T13:28:49.701764+00:00",
+    "sha256": "560fdc543316ec99e5e501c1c96bba6f7bce386e879ceef545b6ccfe0848c485",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.78232&longitude=-72.61203&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "cba995008dcbe96ebd.json",
+    "received_at": "2026-11-17T13:28:49.701996+00:00",
+    "sha256": "da1f72d1019db17caac01728a0d94d516f30b23599fe27745dcf90a7dc77b8cd",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.85003&longitude=-87.65005&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a7b8cb68b5c6687fe9.json",
+    "received_at": "2026-11-17T13:28:49.702211+00:00",
+    "sha256": "32ae28c9941bb91a634ee7ace3832db2abef9fb3fc03477fa629f9390ceefc00",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.27756&longitude=-83.74088&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "ecbca62ee01b91ebf0.json",
+    "received_at": "2026-11-17T13:28:49.702425+00:00",
+    "sha256": "24e1bd15f20006e22610cde57e4c75b8423901e16614c944e1dfb1587978bac9",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.29171&longitude=-85.58723&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "eb9f52c8cfefdc8f1b.json",
+    "received_at": "2026-11-17T13:28:49.702745+00:00",
+    "sha256": "b45de32dc1e0fa55c9580efbfd21d93e63220bc54d0feafb25354555cc12b78f",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.33065&longitude=-71.16616&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "30c79272f02c567d71.json",
+    "received_at": "2026-11-17T13:28:49.702976+00:00",
+    "sha256": "d2512bcc89f2d34faef178d45fc2953a9f9e7f6c6d53bc484aaaa10fa07da16b",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.72841&longitude=-73.69179&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "bf78aa85f57a341128.json",
+    "received_at": "2026-11-17T13:28:49.703196+00:00",
+    "sha256": "e98406444a5e27b4eb31f1e40099890b3870acd77113f029b6ae168a37f5d8a2",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.73698&longitude=-84.48387&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "2acec5749d8d203fbc.json",
+    "received_at": "2026-11-17T13:28:49.703419+00:00",
+    "sha256": "907436ddea14e1a4168315cdd1766410c7c46efe0344dfa848022d210b2287e3",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.88645&longitude=-78.87837&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "262f5fd879b9658efc.json",
+    "received_at": "2026-11-17T13:28:49.703647+00:00",
+    "sha256": "9adeeccd2142331979257d22c4c3622648f0e682dc1d8a9320699a831fa8c5b5",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.97839&longitude=-78.79976&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "6cb61f66a193f29619.json",
+    "received_at": "2026-11-17T13:28:49.703991+00:00",
+    "sha256": "a3d5b7cd4af2a259dd71b808e304ff6af19c04d5aaf17af4b76fe4eb3db8d902",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=43.6135&longitude=-116.20345&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "625286e1b29d7f32ff.json",
+    "received_at": "2026-11-17T13:28:49.704211+00:00",
+    "sha256": "6b1fd53c388149bf1d8e438bd04e3c2489bf3efe603051cc3b7575fb74d5c6e1",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=44.56457&longitude=-123.26204&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "df21570490fa3f8010.json",
+    "received_at": "2026-11-17T13:28:49.704423+00:00",
+    "sha256": "18331c7e5a03033be9a2f24cc053135397114c3927adaf3d6f2132bb689d0727",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=44.97997&longitude=-93.26384&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "ed0df231d570df0217.json",
+    "received_at": "2026-11-17T13:28:49.704644+00:00",
+    "sha256": "a7ac93872d0fb1508b4ece09932a57d939425b665fc95f41348dd421bc97a6cf",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=47.60621&longitude=-122.33207&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "d573ed376e7a43d292.json",
+    "received_at": "2026-11-17T13:28:49.704878+00:00",
+    "sha256": "ca71d156e107f85309e6b374ba45be804083f9834515fb3cc86b7d8719aab6f0",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.76756&longitude=-78.74392&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "8d54a2959fb53185d6.json",
+    "received_at": "2026-11-17T13:28:49.705211+00:00",
+    "sha256": "781c74ffe88888c983bcfceb36df4ed517d199e372151a0aee6312b831a86a6e",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.83399&longitude=-74.09709&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "a27deb1017f17faf45.json",
+    "received_at": "2026-11-17T13:28:49.705339+00:00",
+    "sha256": "cb8fa03783bf064cb50be780292172b01f7594a5c951798969dad3b0c86f4671",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=19.42847&longitude=-99.12766&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "file": "4fdeb916ed4a19e626.json",
+    "received_at": "2026-11-17T13:28:49.705464+00:00",
+    "sha256": "f3e8d609fdaa67268374343b9ae07c3b86c89ab99bc398608af9230e904c9db8",
+    "route": "alternate provider read"
+  },
+  {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.934&longitude=-76.89664&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC&forecast_days=8",
+    "file": "bbfb7a56849b77ce5e.json",
+    "received_at": "2026-11-17T13:28:49.705603+00:00",
+    "sha256": "3d83c6692e17e500b0f0134a4442721f9f5edd845386bcad1872699f9e1cbca3",
+    "route": "alternate provider read"
+  }
+]

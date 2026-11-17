@@ -1,0 +1,594 @@
+{
+ "version": "NFL-QB-swap-currentseason-v1-REVIEW-DRAFT",
+ "cutoff": "2026-11-17",
+ "spec": {
+  "quality": "same-season prior passing EPA/dropback (dropbacks=attempts+sacks, all passers with epa, incl 0.47% non-QB-position dropbacks) shrunk to same-season league mean before cutoff",
+  "k_dropbacks": 275.7025921693572,
+  "s2": 2.823423192356507,
+  "tau2": 0.010240829330404513,
+  "k_source": "variance components from 2020..2025 within-season data (seasons < 2026)",
+  "beta_pts_per_epa_db": 14.39,
+  "beta_coefficient_ci95": [
+   -6.01,
+   35.61
+  ],
+  "ci_caveat": "Coefficient-only bootstrap interval. Partial uncertainty: excludes uncertainty in starter quality (posterior_sd), embedded-proxy error, role/starter uncertainty and selection/confounding. Not a full predictive interval.",
+  "beta_basis": "all rows 2021..11/16/2026 with date<cutoff, chronological core residuals, bootstrap 2000 draws seed per-index",
+  "prior_dominated_rule": "shrink weight on data <0.5 (prior outweighs data), structural not tuned"
+ },
+ "limits": [
+  "QB passing only",
+  "association not causal",
+  "embedded QB is EPA proxy not core conventional-rate input",
+  "non-QB, CFB null",
+  "recheck roles at deployment"
+ ],
+ "games": [
+  {
+   "game_id": "2026_11_IND_HOU",
+   "home": "HOU",
+   "away": "IND",
+   "core_raw_margin_home": 6.549619046252752,
+   "home_side": {
+    "team": "HOU",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "IND",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_MIA_BUF",
+   "home": "BUF",
+   "away": "MIA",
+   "core_raw_margin_home": 13.786754943690841,
+   "home_side": {
+    "team": "BUF",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "MIA",
+    "status": "informational_prior_dominated_no_adjustment",
+    "starter": "Kyle McCord",
+    "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+    "role_evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+    "role_urls": [
+     "https://www.miamidolphins.com/news/game-recap-dolphins-fall-to-colts-24-22"
+    ],
+    "season_dropbacks": 35,
+    "shrink_weight_on_data": 0.113,
+    "prior_dominated": true,
+    "posterior_sd_epa_per_db": 0.0953,
+    "starter_q": 0.0052,
+    "embedded_proxy_q": -0.0051,
+    "embedded_qbs_per_history_game_name_dropbacks": [
+     [
+      "Malik Willis",
+      37
+     ],
+     [
+      "Malik Willis",
+      36
+     ],
+     [
+      "Kyle McCord",
+      35
+     ],
+     [
+      "Malik Willis",
+      32
+     ],
+     [
+      "Malik Willis",
+      30
+     ],
+     [
+      "Malik Willis",
+      28
+     ],
+     [
+      "Malik Willis",
+      27
+     ],
+     [
+      "Malik Willis",
+      23
+     ],
+     [
+      "Malik Willis",
+      19
+     ],
+     [
+      "Bradley Pinion",
+      1
+     ],
+     [
+      "Malik Washington",
+      1
+     ]
+    ],
+    "delta_epa_per_db": 0.0103,
+    "unilateral_team_swing_pts": 0.15,
+    "unilateral_team_swing_pts_raw": 0.14838125953244427,
+    "unilateral_swing_coefficient_only_ci95": [
+     -0.06,
+     0.37
+    ]
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_BAL_CAR",
+   "home": "CAR",
+   "away": "BAL",
+   "core_raw_margin_home": 1.9480993526806933,
+   "home_side": {
+    "team": "CAR",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "BAL",
+    "status": "conditional_scenario_unilateral",
+    "starter": "Jacoby Brissett",
+    "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+    "role_evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+    "role_urls": [
+     "https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/"
+    ],
+    "season_dropbacks": 375,
+    "shrink_weight_on_data": 0.576,
+    "prior_dominated": false,
+    "posterior_sd_epa_per_db": 0.0659,
+    "starter_q": -0.0054,
+    "embedded_proxy_q": 0.0509,
+    "embedded_qbs_per_history_game_name_dropbacks": [
+     [
+      "Jacoby Brissett",
+      51
+     ],
+     [
+      "Tyler Huntley",
+      38
+     ],
+     [
+      "Tyler Huntley",
+      35
+     ],
+     [
+      "Lamar Jackson",
+      34
+     ],
+     [
+      "Tyler Huntley",
+      34
+     ],
+     [
+      "Lamar Jackson",
+      27
+     ],
+     [
+      "Joe Fagnano",
+      24
+     ],
+     [
+      "Lamar Jackson",
+      22
+     ],
+     [
+      "Lamar Jackson",
+      20
+     ],
+     [
+      "Joe Fagnano",
+      19
+     ],
+     [
+      "Tyler Huntley",
+      9
+     ],
+     [
+      "Tyler Huntley",
+      5
+     ],
+     [
+      "Derrick Henry",
+      1
+     ],
+     [
+      "Lamar Jackson",
+      1
+     ],
+     [
+      "Zay Flowers",
+      1
+     ]
+    ],
+    "delta_epa_per_db": -0.0563,
+    "unilateral_team_swing_pts": -0.81,
+    "unilateral_team_swing_pts_raw": -0.8101979560819094,
+    "unilateral_swing_coefficient_only_ci95": [
+     -2.0,
+     0.34
+    ]
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_NO_CHI",
+   "home": "CHI",
+   "away": "NO",
+   "core_raw_margin_home": 9.370764814380422,
+   "home_side": {
+    "team": "CHI",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "NO",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_TEN_DAL",
+   "home": "DAL",
+   "away": "TEN",
+   "core_raw_margin_home": 6.426593400041734,
+   "home_side": {
+    "team": "DAL",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "TEN",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_TB_DET",
+   "home": "DET",
+   "away": "TB",
+   "core_raw_margin_home": 5.829129211156585,
+   "home_side": {
+    "team": "DET",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "TB",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_ARI_KC",
+   "home": "KC",
+   "away": "ARI",
+   "core_raw_margin_home": 13.270211491755996,
+   "home_side": {
+    "team": "KC",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "ARI",
+    "status": "informational_prior_dominated_no_adjustment",
+    "starter": "Carson Beck",
+    "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+    "role_evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+    "role_urls": [
+     "https://www.azcardinals.com/news/carson-beck-gets-first-start-but-cardinals-can-t-get-win-against-rams"
+    ],
+    "season_dropbacks": 23,
+    "shrink_weight_on_data": 0.077,
+    "prior_dominated": true,
+    "posterior_sd_epa_per_db": 0.0972,
+    "starter_q": -0.0031,
+    "embedded_proxy_q": 0.0043,
+    "embedded_qbs_per_history_game_name_dropbacks": [
+     [
+      "Jacoby Brissett",
+      54
+     ],
+     [
+      "Jacoby Brissett",
+      52
+     ],
+     [
+      "Jacoby Brissett",
+      51
+     ],
+     [
+      "Jacoby Brissett",
+      38
+     ],
+     [
+      "Jacoby Brissett",
+      37
+     ],
+     [
+      "Jacoby Brissett",
+      35
+     ],
+     [
+      "Gardner Minshew",
+      33
+     ],
+     [
+      "Jacoby Brissett",
+      30
+     ],
+     [
+      "Jacoby Brissett",
+      27
+     ],
+     [
+      "Gardner Minshew",
+      24
+     ],
+     [
+      "Carson Beck",
+      23
+     ],
+     [
+      "Michael Wilson",
+      1
+     ]
+    ],
+    "delta_epa_per_db": -0.0074,
+    "unilateral_team_swing_pts": -0.11,
+    "unilateral_team_swing_pts_raw": -0.10688572822994565,
+    "unilateral_swing_coefficient_only_ci95": [
+     -0.26,
+     0.04
+    ]
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_JAX_NYG",
+   "home": "NYG",
+   "away": "JAX",
+   "core_raw_margin_home": -5.847848647838934,
+   "home_side": {
+    "team": "NYG",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "JAX",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_NYJ_LAC",
+   "home": "LAC",
+   "away": "NYJ",
+   "core_raw_margin_home": -1.7936117300524073,
+   "home_side": {
+    "team": "LAC",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "NYJ",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_LV_DEN",
+   "home": "DEN",
+   "away": "LV",
+   "core_raw_margin_home": 4.982290357126459,
+   "home_side": {
+    "team": "DEN",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "LV",
+    "status": "informational_prior_dominated_no_adjustment",
+    "starter": "Fernando Mendoza",
+    "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+    "role_evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+    "role_urls": [
+     "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+    ],
+    "season_dropbacks": 43,
+    "shrink_weight_on_data": 0.135,
+    "prior_dominated": true,
+    "posterior_sd_epa_per_db": 0.0941,
+    "starter_q": 0.0175,
+    "embedded_proxy_q": 0.0949,
+    "embedded_qbs_per_history_game_name_dropbacks": [
+     [
+      "Kirk Cousins",
+      52
+     ],
+     [
+      "Kirk Cousins",
+      46
+     ],
+     [
+      "Kirk Cousins",
+      41
+     ],
+     [
+      "Kirk Cousins",
+      36
+     ],
+     [
+      "Fernando Mendoza",
+      35
+     ],
+     [
+      "Kirk Cousins",
+      32
+     ],
+     [
+      "Kirk Cousins",
+      31
+     ],
+     [
+      "Kirk Cousins",
+      30
+     ],
+     [
+      "Kirk Cousins",
+      27
+     ],
+     [
+      "Fernando Mendoza",
+      8
+     ],
+     [
+      "AJ Cole",
+      1
+     ]
+    ],
+    "delta_epa_per_db": -0.0775,
+    "unilateral_team_swing_pts": -1.11,
+    "unilateral_team_swing_pts_raw": -1.114917955834546,
+    "unilateral_swing_coefficient_only_ci95": [
+     -2.76,
+     0.47
+    ]
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_PIT_PHI",
+   "home": "PHI",
+   "away": "PIT",
+   "core_raw_margin_home": -7.507491007585093,
+   "home_side": {
+    "team": "PHI",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "PIT",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_MIN_SF",
+   "home": "SF",
+   "away": "MIN",
+   "core_raw_margin_home": 3.267776564108564,
+   "home_side": {
+    "team": "SF",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "MIN",
+    "status": "conditional_scenario_unilateral",
+    "starter": "Kirk Cousins",
+    "role_status": "conditional_prior_week_starter_not_week11_confirmation",
+    "role_evidence": "Freshly inspected owning-team source establishes the prior Week10 starter/change, not Week11 gameday clearance or a current Week11 formal role announcement. Upcoming scenario is explicitly conditional on this player starting; opponent unchanged-production assumption is not verified health.",
+    "role_urls": [
+     "https://www.vikings.com/news/kirk-cousins-starting-packers-week-10-game-2026"
+    ],
+    "season_dropbacks": 360,
+    "shrink_weight_on_data": 0.566,
+    "prior_dominated": false,
+    "posterior_sd_epa_per_db": 0.0666,
+    "starter_q": 0.1053,
+    "embedded_proxy_q": 0.021,
+    "embedded_qbs_per_history_game_name_dropbacks": [
+     [
+      "Kyler Murray",
+      41
+     ],
+     [
+      "Kirk Cousins",
+      34
+     ],
+     [
+      "Kyler Murray",
+      32
+     ],
+     [
+      "Kyler Murray",
+      27
+     ],
+     [
+      "Carson Wentz",
+      26
+     ],
+     [
+      "Carson Wentz",
+      23
+     ],
+     [
+      "Carson Wentz",
+      22
+     ],
+     [
+      "Max Brosmer",
+      8
+     ],
+     [
+      "Kyler Murray",
+      5
+     ]
+    ],
+    "delta_epa_per_db": 0.0843,
+    "unilateral_team_swing_pts": 1.21,
+    "unilateral_team_swing_pts_raw": 1.212793813940486,
+    "unilateral_swing_coefficient_only_ci95": [
+     -0.51,
+     3.0
+    ]
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  },
+  {
+   "game_id": "2026_11_CIN_WAS",
+   "home": "WAS",
+   "away": "CIN",
+   "core_raw_margin_home": -7.387267405306449,
+   "home_side": {
+    "team": "WAS",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "away_side": {
+    "team": "CIN",
+    "status": "unknown_no_confirmed_change_not_verified",
+    "swing_pts": null
+   },
+   "raw_home_adjustment_pts": null,
+   "game_adjustment_note": "Not computed: a full-game adjustment would need a verified role status for BOTH sides; unknown other side is not zero. Unilateral per-team scenarios only."
+  }
+ ]
+}

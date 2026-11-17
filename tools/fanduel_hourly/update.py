@@ -42,16 +42,16 @@ def current_kickoff(event_id,sealed_date,schedule):
 def main(nfl,cfb):
  docs={s:load(p) for s,p in [('NFL',nfl),('CFB',cfb)]};parsed={s:parse(d) for s,d in docs.items()};now=max(d['at'] for d in docs.values());outpath=R/'fanduel_comparisons.json';old=json.load(open(outpath)) if outpath.exists() else {'nfl':{},'cfb':{}}
  out={'checked_at':now,'state':'IL','scope':'NFL/CFB game sides, moneylines and totals only. Public signed-out Illinois; not Tennessee. No player-market hourly coverage. Model/sealed evaluation references unchanged.','nfl':{},'cfb':{},'coverage':{}}
- sd=json.load(open(R/'tools/nfl/week10_2026/espn_week10.json'));sched=[]
+ sd=json.load(open(R/'tools/nfl/current_season_20261117/sources/week11.json'));sched=[]
  for e in sd['events']:
   c=e['competitions'][0]['competitors'];a=next(x for x in c if x['homeAway']=='away');h=next(x for x in c if x['homeAway']=='home');sched.append((a['team']['displayName'],h['team']['displayName'],a['team']['abbreviation'].replace('LAR','LA')+' at '+h['team']['abbreviation'].replace('LAR','LA'),e['date'],e['id']))
- root=(R/'index.html').read_text();current=json.JSONDecoder().raw_decode(root.split('const D=',1)[1])[0]['current']
- assert {x[2] for x in sched}=={g['matchup'] for g in current},'NFL slate changed: validate new source schedule before running'
+ active=json.load(open(R/'tools/nfl/current_season_20261117/current_forecasts.json'))['games']
+ assert {str(x[4])for x in sched}=={g['event_id']for g in active},'NFL current model/schedule mismatch'
  cg=json.load(open(R/'tools/cfb/current_season_20261115/current_forecasts.json'))['games']
  cfb_schedule=json.load(open(R/'cfb_schedule_verified.json'))
  for sport,games,key in [('NFL',sched,'nfl'),('CFB',[(g['away'],g['home'],g['event_id'],current_kickoff(g['event_id'],g['date'],cfb_schedule),g['event_id']) for g in cg],'cfb')]:
   prior_slate_frozen=0
-  if key=='cfb':
+  if key in ['nfl','cfb']:
    active_ids={str(g[4])for g in games}
    for oid,oq in old[key].items():
     if str(oq.get('event_id',oid))not in active_ids and oq.get('kickoff') and oq['captured_at']<oq['kickoff']<=now:out[key][oid]=dict(oq,frozen=True);prior_slate_frozen+=1

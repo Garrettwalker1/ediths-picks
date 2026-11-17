@@ -1,0 +1,7 @@
+# November17 Week11 experimental QB-passing scenarios
+
+New season-only core, latest completed rows through Nov16. Same existing shrinkage/residual method, coefficient refit with new rows. No earned performance claim. beta=14.39, coefficient-only95%interval[-6.01,35.61];1221chronological residual rows; league-prior effective sample275.703dropbacks. Quality uses only this season. Historical seasons estimate shrinkage variance and regression coefficients, not preseason player profiles.
+
+BAL Brissett and MIN Cousins are conditional on starting. Sources verify Week10roles, NOT Week11game clearance. BAL375dropbacks(.576dataweight), MIN360(.566). MIA35,ARI23,LV43dropbacks are prior-dominated, so numeric application is withheld. Opponent unchanged-production assumption is explicit and is not verified health or zero injury effect. Full-game injury adjustment is null for all13games. QB rushing, non-QB and CFB remain uncovered. No stale Week10skill-Out status transferred.
+
+Run build_cs.py, deploy_cs.py --cutoff2026-11-17 --season2026 (with spaces after each option), apply_scenarios.py, verify_integration.py. Raw historical sp2020..2025 are relative symlinks to preserved Nov13source copies and work in a full repository clone. No stacking with other injury scenarios. Coefficient-only intervals omit starter-quality, embedded-proxy, role and confounding uncertainty. Association, not causal injury effects.

@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+    "requested_at": "2026-11-17T13:14:43.164630+00:00",
+    "received_at": "2026-11-17T13:14:43.482938+00:00",
+    "sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+    "manifest_file": "tools/nfl/current_season_20261117/sources/players.csv.source.json"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=10",
+    "received_at": "2026-11-17T13:11:52.073678+00:00",
+    "sha256": "ced250e96a35e8bb0302a4a2de5fb1a8aef3c6fb2a436f229e24b670bf6f5ff9",
+    "manifest_file": "tools/nfl/current_season_20261117/sources/week10_source.json"
+  },
+  {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.parquet",
+    "requested_at": "2026-11-17T13:14:42.675958+00:00",
+    "received_at": "2026-11-17T13:14:43.156932+00:00",
+    "sha256": "9df7dc74e302097d9917014220df842e91ef863bceded957f5ae612ded34137b",
+    "manifest_file": "tools/nfl/current_season_20261117/sources/pbp_2026.parquet.source.json"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=11",
+    "received_at": "2026-11-17T13:11:52.173488+00:00",
+    "sha256": "3d274b52b44fa7388d5e5c91a2dcdb1bc5bca2532ef05167ff976428868a18d4",
+    "manifest_file": "tools/nfl/current_season_20261117/sources/week11_source.json"
+  }
+]

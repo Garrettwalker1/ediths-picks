@@ -1,0 +1,13 @@
+# November 17 weekly refresh
+
+13 Week 11 NFL forecasts, after all150completed2026regular-season games and14Week10finals. New current-season core uses same-season schedule strength, record strength and realized player production. No preseason profiles or book inputs. 1429past-only historical training rows, chronological provenance, half-point display. Historical seasons train coefficients, not current player profiles. MIN-SF Mexico City has home_field=0.
+
+QB passing-only scenarios: BAL Brissett / MIN Cousins conditional on starting, opponent unchanged-production assumptions explicit. Week10role evidence is NOT Week11clearance. Three thin samples (MIA/ARI/LV) are withheld. All full-game injury effects remain null. Prior-week skill-Out status is not carried forward. This does not finish injury coverage.
+
+TD: frozen Oct29adopted model,492historical-rate baselines,206ranked and322unranked. Current27IR/Out tags withheld separately, leaving179ranked candidates. Six tags corroborated by current owning-team transaction logs. Other tags are dated ESPN roster information, not verified formalWeek11designations. No injury, teammate, QB or return-workload probability rewrite. Exact deterministic inference replay passed,528unique cohort rows. 150/150completedPBPgameIDs, noWeek11plays.
+
+Generic: fixed2023-25trained RB/WR/TE specification,474players,389descriptive matchup rows,68unranked. 10offline tests. Fresh32team rosters;8league Nov15snapshot for roster highlights only, not live ownership. No raw private roster package republished. Historical2023-25source bytes match prior inputs. Current2026data upstream revisions are logged separately. No new fit/tuning, opponent/injury adjustment or validation.
+
+Prior Nov13current-season core:10/13winner forecasts, marginMAE10.93. Separately compared with real retained pregamedatedFanDuelILcaptures, not selection-time or verifiedclosinglines. LegacyWeek10marginElo vs originalNov10DraftKings/ESPNreference:8model/5book/1tie; running70/77/1over148eligible games. Version records never blended. Older forecasts and seals preserved.
+
+Current weather:75city forecasts plus4indoor venue records across79NFL/CFBgames. Alternate provider reads recovered directTLSfailures. Facts only; no failed-weather-candidate correction transferred to new core. All66CFBWeek12forecasts fromNov15remain unchanged, fresh schedule recheck allpregame. Current game-book comparisons13/13NFLand61/66CFB, IL not verifiedTN; fivecurrentCFBgaps. Old13NFL/56CFBpregamequotes preserved frozen. Week10player prices remain untouched; Week11player prices not yet collected. No book-as-input, in-playbackfill, wager or ticket-accounting change.

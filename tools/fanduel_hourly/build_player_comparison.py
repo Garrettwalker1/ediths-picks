@@ -92,11 +92,11 @@ def main():
     p.add_argument('--output', required=True, type=pathlib.Path)
     p.add_argument('--as-of', help='Explicit timestamp for reproducible archive replay, not a new capture time')
     args = p.parse_args()
-    slate = load(R/'tools/nfl/current_season_20261113/current_forecasts.json')['games']
+    slate = load(R/'tools/nfl/current_season_20261117/current_forecasts.json')['games']
     games = [g for g in slate if str(g['event_id'])==args.event_id]
     if len(games)!=1:
         raise ValueError('event not unique in current core slate')
-    event = build_event(args.archive,games[0],args.source_url,load(R/'tools/nfl/week10_2026/td_projection_snapshot.json'),load(R/'tools/nfl/week10_2026/td_week10_primary.json'),load(R/'player_projections.json'),stamp(args.as_of) if args.as_of else datetime.datetime.now(datetime.timezone.utc))
+    event = build_event(args.archive,games[0],args.source_url,load(R/'tools/nfl/week11_2026/td_projection_snapshot.json'),load(R/'tools/nfl/week11_2026/td_week11_primary.json'),load(R/'player_projections.json'),stamp(args.as_of) if args.as_of else datetime.datetime.now(datetime.timezone.utc))
     # Event output only. A separate publisher must merge with per-event freezes.
     args.output.write_text(json.dumps(event,indent=2)+'\n')
     print(json.dumps(event['coverage'],indent=2))

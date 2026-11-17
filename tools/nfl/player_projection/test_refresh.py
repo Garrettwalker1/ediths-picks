@@ -24,7 +24,7 @@ class RepairTests(unittest.TestCase):
  def test_no_current_week_leak(self):
   season,week,_,prior=resolve(self.games,dt.datetime.fromisoformat('2026-11-03T07:00:00-06:00'));raw=prepare(self.raw,self.games,season,week,prior);self.assertEqual(raw[raw.season==2026].week.max(),8)
  def test_fixed_current_numeric_replay(self):
-  old=json.loads((R/'player_projections.json').read_text());fantasy=json.loads((R/'fantasy.json').read_text());rost=json.loads((R/'tools/nfl/player_projection_refresh_20261103/current_rosters.json').read_text())
+  old=json.loads((R/'tools/nfl/player_projection_refresh_20261103/nov3_published_fixture.json').read_text());fantasy=json.loads((R/'fantasy.json').read_text());rost=json.loads((R/'tools/nfl/player_projection_refresh_20261103/current_rosters.json').read_text())
   slate=self.games[(self.games.season==2026)&(self.games.week==9)];opp={}
   for x in slate.itertuples():opp[team(x.home_team)]=team(x.away_team);opp[team(x.away_team)]=team(x.home_team)
   raw=self.raw[(self.raw.season_type=='REG')&((self.raw.season<2026)|(self.raw.week<=8))].copy();players,_,match=build(raw,rost,fantasy,opp,2026,9)

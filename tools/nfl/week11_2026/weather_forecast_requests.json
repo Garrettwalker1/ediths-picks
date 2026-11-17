@@ -1,0 +1,818 @@
+{
+  "401866465": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.29171&longitude=-85.58723&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.29171,
+      "longitude": -85.58723,
+      "name": "Kalamazoo",
+      "admin1": "Michigan",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401866464": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.32924&longitude=-82.10126&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Athens",
+      "latitude": 39.32924,
+      "longitude": -82.10126,
+      "admin1": "Ohio",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Athens&count=100&language=en&format=json"
+    }
+  },
+  "401866466": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.15367&longitude=-81.35789&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Kent",
+      "latitude": 41.15367,
+      "longitude": -81.35789,
+      "admin1": "Ohio",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kent&count=100&language=en&format=json"
+    }
+  },
+  "401866467": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.97839&longitude=-78.79976&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.97839,
+      "longitude": -78.79976,
+      "name": "Amherst",
+      "admin1": "New York",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401866469": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.88645&longitude=-78.87837&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.88645,
+      "longitude": -78.87837,
+      "name": "Buffalo",
+      "admin1": "New York",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862830": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.95238&longitude=-75.16362&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.95238,
+      "longitude": -75.16362,
+      "name": "Philadelphia",
+      "admin1": "Pennsylvania",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856869": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=28.53834&longitude=-81.37924&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 28.53834,
+      "longitude": -81.37924,
+      "name": "Orlando",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858303": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.99403&longitude=-78.89862&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 35.99403,
+      "longitude": -78.89862,
+      "name": "Durham",
+      "admin1": "North Carolina",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401866468": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.66394&longitude=-83.55521&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 41.66394,
+      "longitude": -83.55521,
+      "name": "Toledo",
+      "admin1": "Ohio",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858529": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.73698&longitude=-84.48387&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.73698,
+      "longitude": -84.48387,
+      "name": "East Lansing",
+      "admin1": "Michigan",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401864545": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.75764&longitude=-104.30059&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.75764,
+      "longitude": -104.30059,
+      "name": "USAF Academy Bullseye Auxiliary Airfield",
+      "admin1": "Colorado",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401864542": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.31137&longitude=-105.5911&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 41.31137,
+      "longitude": -105.5911,
+      "name": "Laramie",
+      "admin1": "Wyoming",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856866": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.97167&longitude=-95.23525&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.97167,
+      "longitude": -95.23525,
+      "name": "Lawrence",
+      "admin1": "Kansas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858310": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.749&longitude=-84.38798&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 33.749,
+      "longitude": -84.38798,
+      "name": "Atlanta",
+      "admin1": "Georgia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858531": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.8&longitude=-96.66696&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 40.8,
+      "longitude": -96.66696,
+      "name": "Lincoln",
+      "admin1": "Nebraska",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856748": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.65163&longitude=-82.32483&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 29.65163,
+      "longitude": -82.32483,
+      "name": "Gainesville",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856867": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.12711&longitude=-84.51439&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.12711,
+      "longitude": -84.51439,
+      "name": "Cincinnati",
+      "admin1": "Ohio",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858309": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.33065&longitude=-71.16616&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.33065,
+      "longitude": -71.16616,
+      "name": "Chestnut Hill",
+      "admin1": "Massachusetts",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858530": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=44.97997&longitude=-93.26384&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 44.97997,
+      "longitude": -93.26384,
+      "name": "Minneapolis",
+      "admin1": "Minnesota",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858533": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.42587&longitude=-86.90807&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 40.42587,
+      "longitude": -86.90807,
+      "name": "West Lafayette",
+      "admin1": "Indiana",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862831": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.39148&longitude=-73.95597&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 41.39148,
+      "longitude": -73.95597,
+      "name": "West Point",
+      "admin1": "New York",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862834": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.97859&longitude=-76.49184&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.97859,
+      "longitude": -76.49184,
+      "name": "Annapolis",
+      "admin1": "Maryland",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862835": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.95465&longitude=-90.07507&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 29.95465,
+      "longitude": -90.07507,
+      "name": "New Orleans",
+      "admin1": "Louisiana",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858305": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.02931&longitude=-78.47668&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.02931,
+      "longitude": -78.47668,
+      "name": "Charlottesville",
+      "admin1": "Virginia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856868": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.62953&longitude=-79.9559&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.62953,
+      "longitude": -79.9559,
+      "name": "Morgantown",
+      "admin1": "West Virginia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871080": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.41375&longitude=-79.14225&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 37.41375,
+      "longitude": -79.14225,
+      "name": "Lynchburg",
+      "admin1": "Virginia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862832": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.15398&longitude=-95.99277&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 36.15398,
+      "longitude": -95.99277,
+      "name": "Tulsa",
+      "admin1": "Oklahoma",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871079": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.33218&longitude=-81.65565&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 30.33218,
+      "longitude": -81.65565,
+      "name": "Jacksonville",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871081": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.7304&longitude=-86.58594&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 34.7304,
+      "longitude": -86.58594,
+      "name": "Huntsville",
+      "admin1": "Alabama",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858527": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.11642&longitude=-88.24338&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 40.11642,
+      "longitude": -88.24338,
+      "name": "Champaign",
+      "admin1": "Illinois",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862833": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=26.35869&longitude=-80.0831&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 26.35869,
+      "longitude": -80.0831,
+      "name": "Boca Raton",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401869929": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.21679&longitude=-81.67455&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 36.21679,
+      "longitude": -81.67455,
+      "name": "Boone",
+      "admin1": "North Carolina",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401869946": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.22409&longitude=-92.01984&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 30.22409,
+      "longitude": -92.01984,
+      "name": "Lafayette",
+      "admin1": "Louisiana",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871077": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.31232&longitude=-106.77834&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 32.31232,
+      "longitude": -106.77834,
+      "name": "Las Cruces",
+      "admin1": "New Mexico",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871078": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.02343&longitude=-84.61549&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 34.02343,
+      "longitude": -84.61549,
+      "name": "Kennesaw",
+      "admin1": "Georgia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858528": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.27756&longitude=-83.74088&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.27756,
+      "longitude": -83.74088,
+      "name": "Ann Arbor",
+      "admin1": "Michigan",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856755": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.26715&longitude=-97.74306&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 30.26715,
+      "longitude": -97.74306,
+      "name": "Austin",
+      "admin1": "Texas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856754": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.96064&longitude=-83.92074&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 35.96064,
+      "longitude": -83.92074,
+      "name": "Knoxville",
+      "admin1": "Tennessee",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858535": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=47.60621&longitude=-122.33207&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 47.60621,
+      "longitude": -122.33207,
+      "name": "Seattle",
+      "admin1": "Washington",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856871": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=31.54933&longitude=-97.14667&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 31.54933,
+      "longitude": -97.14667,
+      "name": "Waco",
+      "admin1": "Texas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858304": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=30.43826&longitude=-84.28073&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 30.43826,
+      "longitude": -84.28073,
+      "name": "Tallahassee",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858532": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.44188&longitude=-122.14302&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 37.44188,
+      "longitude": -122.14302,
+      "name": "Palo Alto",
+      "admin1": "California",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401861968": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.78232&longitude=-72.61203&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 41.78232,
+      "longitude": -72.61203,
+      "name": "East Hartford",
+      "admin1": "Connecticut",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856752": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.22257&longitude=-97.43948&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 35.22257,
+      "longitude": -97.43948,
+      "name": "Norman",
+      "admin1": "Oklahoma",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401869953": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.72841&longitude=-73.69179&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 42.72841,
+      "longitude": -73.69179,
+      "name": "Troy",
+      "admin1": "New York",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401869958": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.41925&longitude=-82.44515&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.41925,
+      "longitude": -82.44515,
+      "name": "Huntington",
+      "admin1": "West Virginia",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401871101": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=31.32712&longitude=-89.29034&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 31.32712,
+      "longitude": -89.29034,
+      "name": "Hattiesburg",
+      "admin1": "Mississippi",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401860920": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=29.88327&longitude=-97.94139&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 29.88327,
+      "longitude": -97.94139,
+      "name": "San Marcos",
+      "admin1": "Texas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858534": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.05223&longitude=-118.24368&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 34.05223,
+      "longitude": -118.24368,
+      "name": "Los Angeles",
+      "admin1": "California",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858302": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=25.94204&longitude=-80.2456&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 25.94204,
+      "longitude": -80.2456,
+      "name": "Miami Gardens",
+      "admin1": "Florida",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856865": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.18361&longitude=-96.57167&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.18361,
+      "longitude": -96.57167,
+      "name": "Manhattan",
+      "admin1": "Kansas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401864544": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.33939&longitude=-121.89496&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 37.33939,
+      "longitude": -121.89496,
+      "name": "San Jose",
+      "admin1": "California",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401869938": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.52321&longitude=-92.63793&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 32.52321,
+      "longitude": -92.63793,
+      "name": "Ruston",
+      "admin1": "Louisiana",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856753": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.00071&longitude=-81.03481&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 34.00071,
+      "longitude": -81.03481,
+      "name": "Columbia",
+      "admin1": "South Carolina",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858307": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.70019&longitude=-86.23793&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 41.70019,
+      "longitude": -86.23793,
+      "name": "Notre Dame",
+      "admin1": "Indiana",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856751": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=34.00071&longitude=-81.03481&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 34.00071,
+      "longitude": -81.03481,
+      "name": "Columbia",
+      "admin1": "South Carolina",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858306": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.25424&longitude=-85.75941&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 38.25424,
+      "longitude": -85.75941,
+      "name": "Louisville",
+      "admin1": "Kentucky",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401858308": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=37.87159&longitude=-122.27275&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 37.87159,
+      "longitude": -122.27275,
+      "name": "Berkeley",
+      "admin1": "California",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401860918": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.74773&longitude=-119.77237&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 36.74773,
+      "longitude": -119.77237,
+      "name": "Fresno",
+      "admin1": "California",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401862836": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.52066&longitude=-86.80249&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 33.52066,
+      "longitude": -86.80249,
+      "name": "Birmingham",
+      "admin1": "Alabama",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856872": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=32.72541&longitude=-97.32085&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 32.72541,
+      "longitude": -97.32085,
+      "name": "Fort Worth",
+      "admin1": "Texas",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401860925": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=43.6135&longitude=-116.20345&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 43.6135,
+      "longitude": -116.20345,
+      "name": "Boise",
+      "admin1": "Idaho",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401856870": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.41477&longitude=-111.90931&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 33.41477,
+      "longitude": -111.90931,
+      "name": "Tempe",
+      "admin1": "Arizona",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401860919": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=44.56457&longitude=-123.26204&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 44.56457,
+      "longitude": -123.26204,
+      "name": "Corvallis",
+      "admin1": "Oregon",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401864541": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.52963&longitude=-119.8138&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.52963,
+      "longitude": -119.8138,
+      "name": "Reno",
+      "admin1": "Nevada",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401873071": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=41.85003&longitude=-87.65005&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Chicago",
+      "latitude": 41.85003,
+      "longitude": -87.65005,
+      "admin1": "Illinois",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Chicago&count=100&language=en&format=json"
+    }
+  },
+  "401873067": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.09973&longitude=-94.57857&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Kansas City",
+      "latitude": 39.09973,
+      "longitude": -94.57857,
+      "admin1": "Missouri",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kansas%20City&count=100&language=en&format=json"
+    }
+  },
+  "401873076": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.95238&longitude=-75.16362&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "latitude": 39.95238,
+      "longitude": -75.16362,
+      "name": "Philadelphia",
+      "admin1": "Pennsylvania",
+      "resolution": "city forecast, not stadium microclimate",
+      "geocoding_source": "Open-Meteo geocoding"
+    }
+  },
+  "401873068": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Charlotte",
+      "latitude": 35.22709,
+      "longitude": -80.84313,
+      "admin1": "North Carolina",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Charlotte&count=100&language=en&format=json"
+    }
+  },
+  "401873074": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=33.96168&longitude=-118.35313&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Inglewood",
+      "latitude": 33.96168,
+      "longitude": -118.35313,
+      "admin1": "California",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Inglewood&count=100&language=en&format=json"
+    }
+  },
+  "401873075": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=39.73915&longitude=-104.9847&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Denver",
+      "latitude": 39.73915,
+      "longitude": -104.9847,
+      "admin1": "Colorado",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Denver&count=100&language=en&format=json"
+    }
+  },
+  "401873078": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=38.934&longitude=-76.89664&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC&forecast_days=8",
+    "coords": {
+      "name": "Landover",
+      "latitude": 38.934,
+      "longitude": -76.89664,
+      "admin1": "Maryland",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Landover&count=100&language=en&format=json"
+    }
+  },
+  "401873070": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=42.76756&longitude=-78.74392&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Orchard Park",
+      "latitude": 42.76756,
+      "longitude": -78.74392,
+      "admin1": "New York",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Orchard%20Park&count=100&language=en&format=json",
+      "county_resolution_source": "https://www.buffalobills.com/stadium/parking",
+      "county": "Erie"
+    }
+  },
+  "401873069": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=40.83399&longitude=-74.09709&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "East Rutherford",
+      "latitude": 40.83399,
+      "longitude": -74.09709,
+      "admin1": "New Jersey",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=East%20Rutherford&count=100&language=en&format=json"
+    }
+  },
+  "401873077": {
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=19.42847&longitude=-99.12766&hourly=temperature_2m%2Cprecipitation_probability%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=UTC",
+    "coords": {
+      "name": "Mexico City",
+      "latitude": 19.42847,
+      "longitude": -99.12766,
+      "admin1": "Mexico City",
+      "source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Mexico%20City&count=100&language=en&format=json"
+    }
+  }
+}

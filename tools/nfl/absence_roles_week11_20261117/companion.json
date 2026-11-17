@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:00:03.313416+00:00",
+  "generated_at": "2026-11-17T20:45:32.874446+00:00",
   "scope": "Week11 IND-HOU only. 25 Monday practice-estimate entries plus 2 owning-source IR entries. Not a league-wide injury clearance.",
   "event_id": "401873066",
   "game_id": "2026_11_IND_HOU",
@@ -57,8 +57,12 @@
       "game_status": null,
       "status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
       "status_checked_at": "2026-11-17T15:57:59.497906+00:00",
-      "eligibility_reason": "No formal Week11 Out designation in this source. Practice nonparticipation or roster tag is not a game-status designation.",
-      "absence_timing": "Not established by the checked Week11 practice report."
+      "eligibility_reason": "Linebacker and IR absence outside the existing skill-only numerical contract; effect unknown, not zero.",
+      "absence_timing": "Not established by the checked Week11 practice report. Subsequent owning Nov17 transaction confirms Reserve/Injured.",
+      "availability": "Reserve/Injured confirmed by owning Nov17 transaction",
+      "availability_source_url": "https://www.houstontexans.com/news/houston-texans-transactions-11-17-2026",
+      "availability_checked_at": "2026-11-17T20:45:31.013742+00:00",
+      "numeric_eligibility": false
     },
     {
       "name": "Marvin Harrison Jr.",
@@ -718,9 +722,14 @@
       "game_status": null,
       "status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
       "status_checked_at": "2026-11-17T15:57:59.497906+00:00",
-      "eligibility_reason": "No formal Week11 Out designation in this source. Practice nonparticipation or roster tag is not a game-status designation.",
+      "eligibility_reason": "Linebacker and IR absence outside the existing skill-only numerical contract; effect unknown, not zero.",
       "source_context_url": "https://www.colts.com/news/practice-notebook-colts-conduct-monday-walkthrough",
-      "absence_timing": "Missed Week10 per owning Monday notebook; upcoming participation unknown."
+      "absence_timing": "Missed Week10 per owning Monday notebook; upcoming participation unknown. Subsequent owning Nov17 transaction confirms Reserve/Injured.",
+      "availability": "Reserve/Injured confirmed by owning Nov17 transaction",
+      "availability_source_url": "https://www.colts.com/news/colts-sign-wr-quez-watkins-to-53-man-roster-from-practice-squad-place-lb-jaylon-carlies-on-injured-reserve",
+      "availability_checked_at": "2026-11-17T20:45:31.196249+00:00",
+      "numeric_eligibility": false,
+      "source_date_caveat": "Article headline/subtitle and publication identify Tuesday Nov17; final boilerplate says Monday. IR placement itself is stated explicitly in the transaction body; exact transaction day not independently resolved."
     },
     {
       "name": "Sauce Gardner",
@@ -1335,7 +1344,7 @@
     "future_workload_share": null
   },
   "limits": [
-    "No formal current-week skill-Out event established by the checked practice report.",
+    "No formal current-week skill-Out event established by the checked practice report. Two later linebacker IR transactions are factual updates, not numerical skill scenarios.",
     "DNP does not mean Out; FP does not mean cleared.",
     "IR-only, OL, defense and special teams are outside the existing numerical skill contract, not zero effects.",
     "No numeric replacement or return-workload model.",
@@ -1401,6 +1410,34 @@
         "checked_at": "2026-11-17T15:58:29.575815+00:00",
         "sha256": "cd19f5065d9776b1c68ddd9eca5b728e87353e94e3b11740a8ca2a9b368a9e0e",
         "path": "sources/roster_IND.json.gz"
+      },
+      {
+        "url": "https://www.houstontexans.com/news/houston-texans-transactions-11-17-2026",
+        "checked_at": "2026-11-17T20:45:31.013742+00:00",
+        "sha256": "1680d8b5a14df35ae4eb38426c6f84e96b9e405999d3c8847a153bc104d31abd",
+        "path": "sources/7.html.gz",
+        "title": "The Houston Texans made a roster move."
+      },
+      {
+        "url": "https://www.colts.com/news/colts-sign-wr-quez-watkins-to-53-man-roster-from-practice-squad-place-lb-jaylon-carlies-on-injured-reserve",
+        "checked_at": "2026-11-17T20:45:31.196249+00:00",
+        "sha256": "7449751ae044f6f01a57c7e52e75311bc7def9306196a3c17c1cbe806f3ce1fb",
+        "path": "sources/8.html.gz",
+        "title": "Colts sign WR Quez Watkins to 53-man roster from practice squad, place LB Jaylon Carlies on injured reserve"
+      },
+      {
+        "url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-17T20:45:31.353320+00:00",
+        "sha256": "a603192e3ce5949d576a7405b1c51d90a5083a150ac59e9dfa0644437dcc93b5",
+        "path": "sources/9.html.gz",
+        "title": "Injury Report | Week 11"
+      },
+      {
+        "url": "https://www.colts.com/news/practice-notebook-colts-conduct-monday-walkthrough",
+        "checked_at": "2026-11-17T20:45:31.647331+00:00",
+        "sha256": "1dbf8df9ec54758ea60c8d981bfe17839b7dcc331f4bb7489a7c360c5fdf823e",
+        "path": "sources/10.html.gz",
+        "title": "Practice Notebook: Colts conduct Monday walkthrough"
       }
     ]
   }

@@ -29,6 +29,11 @@ class CompanionTests(unittest.TestCase):
    self.assertEqual(hashlib.sha256(data).hexdigest(),s['sha256'])
  def test_practice_not_game_status(self):
   self.assertTrue(all(r['game_status'] is None for r in D['register']))
+ def test_new_ir_transactions(self):
+  rows=[r for r in D['register'] if r['reported_name'] in ['Azeez Al-Shaair','Jaylon Carlies']]
+  self.assertEqual(len(rows),2)
+  self.assertTrue(all('Reserve/Injured' in r['availability'] and not r['numeric_eligibility'] for r in rows))
+  self.assertTrue(all(r['practice_estimate']=='DNP' and r['game_status'] is None for r in rows))
  def test_role_limits(self):
   self.assertEqual(len(D['replacement_role_evidence']),2)
   self.assertIsNone(D['conditional_return_context']['future_workload_share'])

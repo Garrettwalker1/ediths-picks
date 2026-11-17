@@ -1,0 +1,7 @@
+# November17 hourly player capture80
+
+Seven current events have all six standard categories captured. Six other loaded full-DOM after-bottom-scroll event inventories had no targetheaders/prop tabs observed. Dated observation, not permanent unavailability. Source times16:15-16:25CT travel with event/row. Counts are in comparison.json. No guessed identities. Supplemental exact roster/crosswalk identity evidence copied unchanged from capture79, original source times retained. Prior models/projections unchanged and not availability clearances.
+
+Initial NFL navigation timed out and first extracts were empty. Those were rejected. Ordinary Illinois fee dialog dismissed, populated event anchors waited, then full bottom scroll. Accepted CFB16:15:43.308 and NFL16:15:49.129CT. NFL29anchors13currentmatched; remaining16upcoming unused. CFB67anchors61/66currentmatched,5not observed. Older missing quotes retain actual old price time plus unavailable_at, neverfreshened.
+
+EMU-WMU17:00CT this is its last eligible hourly pregame observation, not a closingline claim. NextCFBcapture >=17:15:44 for18:00CTgames, freezes at kickoff. No in-play refreshed quote accepted. Offline tests, oldfrozenbyteequality, hourlygaps and actualpixelschecked separately. No model/seal/TD/generic/ledger/fantasy/injury/wager changes. ILnotTN. Current factual injury companion51d70b2 stays unchanged, not a new numerical adjustment.

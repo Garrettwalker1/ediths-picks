@@ -1,6 +1,6 @@
 # Week11 IND-HOU absence and role companion
 
-Prepared November 17, 2026. This is factual context, not an injury-adjusted forecast. Coverage is only the Thursday IND-HOU game: 25 Monday practice-estimate entries and two additional owning-source IR entries. No league-wide clearance is claimed.
+Prepared November 17, 2026. This is factual context, not an injury-adjusted forecast. Coverage is only the Thursday IND-HOU game: 25 preserved Monday practice-estimate entries, two additional owning-source IR entries and one new Tuesday player (28 total). Tuesday participation is stored separately. No league-wide clearance is claimed.
 
 ## What the sources establish
 
@@ -9,7 +9,7 @@ Prepared November 17, 2026. This is factual context, not an injury-adjusted fore
 - The owning Colts Week11 depth chart confirms Alie-Cox and Davis-Gaither on IR. Ogletree moves up one TE place; CJ Allen is listed MLB1. The depth chart is explicitly unofficial, and it supplies no workload percentage.
 - Montgomery's owning player log lists his last rushing appearance in Week5. The Nov14 transaction confirms Week10 Out; the new FP estimate does not confirm a Week11 return or assign him Marks's work.
 
-All 27 entries join by exact ESPN ID to the preserved ESPN/GSIS crosswalk. The three name aliases are explicit in build.py. Current roster status and injury tags are preserved separately from owning-source facts. In particular, a roster's generic status can lag a dated IR announcement.
+All 28 entries join by exact ESPN ID to the preserved ESPN/GSIS crosswalk. The three name aliases are explicit in build.py. Current roster status and injury tags are preserved separately from owning-source facts. In particular, a roster's generic status can lag a dated IR announcement.
 
 ## What can and cannot change
 
@@ -32,3 +32,7 @@ No old forecast, seal, existing scenario, player/TD probability, or comparison p
 The owning Texans Nov17 transaction confirms Azeez Al-Shaair on Reserve/Injured. The owning Colts Nov17 transaction confirms Jaylon Carlies on Injured Reserve and Quez Watkins signed to the 53-man roster. Both linebackers were already in the Monday estimate register; those original estimates and their source times remain. Availability confirmation and its later source time are separate fields. No source-grounded replacement workload or numerical defensive effect is supplied. The Colts article has a day-label conflict: Tuesday subtitle/Nov17 publication, Monday final boilerplate. We rely on the explicit IR action, not an exact transaction-day conclusion.
 
 Fresh checks of the dated Week11 Texans report and Colts Monday notebook still showed only Monday estimates. Marks is not promoted to formal Out; Montgomery FP is not clearance. The generic Texans week/11 injury page shows a Browns opponent and is rejected for this Colts matchup. No change to any forecast/seal or numerical scenario. Original morning build, companion and manifest are retained under archive_morning. Original fitted panel bytes remain unavailable; recovered builders are not executed or reconstructed.
+
+## Tuesday report check (Nov17, 17:17 CT)
+
+28 exact-ID entries now retain the original 25 Monday estimates and IR context, plus Charlie Heck. 24 Tuesday participation observations are separate fields: Lassiter FP to DNP, Rhodes DNP to LP, Heck new personal DNP. Marks DNP and Montgomery FP continue, with no formal game status or workload clearance implied. Colts Tuesday notebook explicitly calls its participation estimates and says game designations arrive Wednesday. It also confirms Carlies IR earlier Tuesday, resolving prior transaction boilerplate day conflict. Houston table participation labels are retained without assuming whether physical practice versus estimate. No new role or numerical scenario, core/seals unchanged. Prior 14:45 version retained under archive_1445.

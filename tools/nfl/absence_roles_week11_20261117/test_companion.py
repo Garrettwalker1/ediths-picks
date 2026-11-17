@@ -4,7 +4,7 @@ R=P.parents[2]
 D=json.loads((P/'companion.json').read_text())
 class CompanionTests(unittest.TestCase):
  def test_scope(self):
-  self.assertEqual((D['event_id'],D['game_id'],len(D['register'])),('401873066','2026_11_IND_HOU',27))
+  self.assertEqual((D['event_id'],D['game_id'],len(D['register'])),('401873066','2026_11_IND_HOU',28))
   self.assertEqual(sum('practice_estimate' in r for r in D['register']),25)
  def test_ids(self):
   ids=[(r['team'],r['gsis_id']) for r in D['register']]
@@ -34,6 +34,12 @@ class CompanionTests(unittest.TestCase):
   self.assertEqual(len(rows),2)
   self.assertTrue(all('Reserve/Injured' in r['availability'] and not r['numeric_eligibility'] for r in rows))
   self.assertTrue(all(r['practice_estimate']=='DNP' and r['game_status'] is None for r in rows))
+ def test_tuesday(self):
+  self.assertEqual(sum('tuesday_practice' in r for r in D['register']),24)
+  for name,value in [('Kamari Lassiter','DNP'),('Luke Rhodes','LP'),('Charlie Heck','DNP')]:
+   r=next(r for r in D['register'] if r['reported_name']==name)
+   self.assertEqual(r['tuesday_practice']['participation'],value)
+   self.assertIsNone(r['tuesday_practice']['game_status'])
  def test_role_limits(self):
   self.assertEqual(len(D['replacement_role_evidence']),2)
   self.assertIsNone(D['conditional_return_context']['future_workload_share'])

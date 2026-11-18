@@ -1,0 +1,24 @@
+{
+  "prepared_at": "2026-11-17T18:25:52.117707+00:00",
+  "crosswalk_source_sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+  "crosswalk_source_url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+  "crosswalk_received_at": "2026-11-17T13:14:43.482938+00:00",
+  "identities": [
+    {
+      "book_name": "Hunter Luepke",
+      "roster_name": "Hunter Luepke",
+      "team_id": "DAL",
+      "espn_id": "4383396",
+      "player_id": "00-0038738",
+      "crosswalk_espn_id": "4383396",
+      "crosswalk_gsis_id": "00-0038738",
+      "evidence_note": "Exact roster ESPN ID and preserved source crosswalk. Travis Etienne book name matches crosswalk; roster adds Jr suffix. Hunter Luepke exact roster name. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "Hunter Luepke",
+        "first_name": "Hunter",
+        "last_name": "Luepke",
+        "football_name": "Hunter"
+      }
+    }
+  ]
+}

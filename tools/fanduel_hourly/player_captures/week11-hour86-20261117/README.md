@@ -1,0 +1,3 @@
+# Hour86 Nov17-18 comparison snapshot
+
+8validfreshcaptures23:50-00:01,includingnewBALfullsixafterpriorfailedstatecaptureandMIArestoredfresh. TB23:51/TEN23:58missingfooterrejected,prioractualtimestampsretained. 10/13priced9fullsix+LV4.752parsed745joined7gaps510rows.NewBALMatthewHibnerTDgap,same6TB/JAXgaps.3negativeinventories.13NFLfresh59CFBfresh3wholeunchangedfrozen4missing. AllstartedCFBexcludedbeforeDOMpriceextraction.Models/seals/oldarchives/32a656acompunchanged.ILnotTNcomparisononlynocollegeprops/wagers.Nextcapture>=01:01:45.920Nov18CT.

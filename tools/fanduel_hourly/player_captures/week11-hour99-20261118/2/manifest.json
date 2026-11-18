@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T18:25:52.109065+00:00",
+    "sha256": "0361a63d34c60e1501ca8030ed6f6126429b147998fd54901bf92207c9df66e6",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "NO",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/no/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "aed82b7901d3040ae814e37ef1cbcf8003e1a71d7647815df22a6162e8388d0f"
+  },
+  {
+    "team": "CHI",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/chi/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "497d9660a44d5a3e637e441e2f1cde93d48b637866c91d3fc77bcf0b029c908d"
+  }
+]

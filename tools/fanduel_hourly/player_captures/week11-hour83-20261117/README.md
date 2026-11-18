@@ -1,0 +1,5 @@
+# Hour83 November17 comparison snapshot
+
+Eight fresh player events20:01-20:10CT,includingNO-CHInowactualIllinoisfooterverified(18:48failedcapturestaysrejected).5negativeinventorieschecked20:11. Coverage8/13events,7fullsix-category+LVfour.600parsed598joined2sameJAXTDidentitygapswithheld,403marketrows;TENgained1TDrowversushour82. Exactprioridentityevidenceunchanged, noavailabilityinference.
+
+Gamequotes20:00CT13NFLcurrent;59CFBcurrent+3frozen,4missing. RawCFB70rows64parsed:unmatched/unparsedrowsdonotbecomeprices. All3TuesdayCFBURLs excluded BEFORE DOMpriceextraction. Entirepriorfrozenobjectsunchanged;noinplaypricesorclosingclaim. Models/seals/oldarchives/32a656acompunchanged. Bookscomparisononly,ILnotTN,nocollegeprops/wagers. Nextcapture>=21:10:53.784CT.

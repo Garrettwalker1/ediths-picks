@@ -1,7 +1,7 @@
 {
-  "assembled_at": "2026-11-18T14:22:27.709426+00:00",
-  "checked_at": "2026-11-18T14:22:05.053Z",
-  "scope": "PARTIAL Week11: 11 of 13 events have captured player prices: 10 across all six standard categories, LV-DEN across four (no receiving yards/receptions observed). Nov18 08:14-08:23 CT round refreshed all 11 priced events with individual Illinois footers verified, including TB-DET and TEN-DAL. Remaining 2 inventories had no target quotes observed. Actual capture times are per event and row, not continuous or full-slate six-category coverage.",
+  "assembled_at": "2026-11-18T15:41:41.111286+00:00",
+  "checked_at": "2026-11-18T15:40:55.476Z",
+  "scope": "PARTIAL Week11: 11 of 13 events have captured player prices: 10 across all six standard categories, LV-DEN across four. Nov18 09:34-09:40 CT round refreshed BAL-CAR and IND-HOU only with individual Illinois footers. Other 9 priced events retain actual Nov18 08:14-08:22 CT quotes; LV expansion did not finish. Remaining 2 inventories retain their earlier no-target-quotes observation, not a new absence check. Actual capture times are per event and row, not continuous or full-slate fresh coverage.",
   "state": "IL",
   "model_inputs_changed": false,
   "availability_note": "Book listing and roster membership are not game clearance. Model figures retain their own older source times and have no new injury/workload adjustment. Book prices are comparisons only; no betting edge or current TN offer claimed.",
@@ -21,16 +21,17 @@
     "events_captured": 11,
     "events_total": 13,
     "other_events_not_captured": 2,
-    "events_inventory_checked": 13,
+    "events_inventory_checked_this_round": 2,
     "events_all_six_categories": 10,
     "events_partial_categories": 1,
     "events_no_target_quotes_observed": 2,
-    "events_refreshed_this_round": 11,
+    "events_refreshed_this_round": 2,
+    "events_retained_this_round": 9,
     "events_failed_state_validation": 0
   },
   "events": [
     {
-      "checked_at": "2026-11-18T14:16:51.403Z",
+      "checked_at": "2026-11-18T15:40:55.476Z",
       "state": "IL",
       "event_id": "401873066",
       "matchup": "Indianapolis Colts at Houston Texans",
@@ -60,7 +61,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -83,7 +84,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -106,7 +107,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -129,7 +130,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -152,7 +153,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -175,7 +176,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -198,7 +199,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -221,7 +222,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -244,7 +245,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -267,7 +268,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -290,7 +291,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -311,7 +312,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -332,7 +333,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -355,7 +356,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -376,7 +377,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -399,7 +400,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -420,7 +421,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -441,7 +442,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -462,7 +463,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -483,7 +484,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -504,7 +505,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -525,7 +526,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -546,7 +547,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -567,7 +568,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -588,7 +589,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -609,7 +610,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -635,7 +636,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -661,7 +662,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -687,7 +688,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -713,7 +714,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -741,7 +742,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -769,17 +770,17 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
               "side": "over",
-              "line": 30.5,
+              "line": 29.5,
               "price": -114
             },
             {
               "side": "under",
-              "line": 30.5,
+              "line": 29.5,
               "price": -114
             }
           ],
@@ -797,7 +798,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -823,7 +824,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -851,7 +852,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -877,7 +878,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -905,7 +906,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -933,7 +934,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -961,7 +962,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -989,7 +990,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1017,7 +1018,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1045,7 +1046,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1073,7 +1074,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1101,7 +1102,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1129,7 +1130,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1157,7 +1158,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1185,7 +1186,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1213,7 +1214,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1241,7 +1242,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1269,7 +1270,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1297,7 +1298,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1325,7 +1326,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1353,7 +1354,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1381,7 +1382,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1409,7 +1410,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1437,7 +1438,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1465,7 +1466,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1493,7 +1494,7 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
@@ -1521,18 +1522,18 @@
           "event_id": "401873066",
           "kickoff": "2026-11-20T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:16:51.403Z",
+          "captured_at": "2026-11-18T15:40:55.476Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": 102
+              "price": 112
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -136
+              "price": -148
             }
           ],
           "model_value": 1.1,
@@ -2690,7 +2691,7 @@
       "frozen": false
     },
     {
-      "checked_at": "2026-11-18T14:15:54.214Z",
+      "checked_at": "2026-11-18T15:34:28.434Z",
       "state": "IL",
       "event_id": "401873068",
       "matchup": "Baltimore Ravens at Carolina Panthers",
@@ -2720,7 +2721,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2743,7 +2744,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2766,7 +2767,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2789,7 +2790,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2812,7 +2813,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2835,7 +2836,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2858,7 +2859,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2881,7 +2882,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2904,7 +2905,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2927,7 +2928,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2950,7 +2951,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2973,7 +2974,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -2994,7 +2995,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3017,7 +3018,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3038,7 +3039,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3059,7 +3060,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3080,7 +3081,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3101,7 +3102,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3122,7 +3123,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3143,7 +3144,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3166,7 +3167,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3187,7 +3188,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3208,7 +3209,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3229,7 +3230,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3250,7 +3251,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3271,7 +3272,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3292,7 +3293,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3313,7 +3314,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3334,7 +3335,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3360,7 +3361,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3386,7 +3387,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3412,7 +3413,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3438,7 +3439,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3466,7 +3467,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3494,7 +3495,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3520,7 +3521,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3548,7 +3549,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3574,7 +3575,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3602,7 +3603,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3630,7 +3631,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3658,7 +3659,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3686,7 +3687,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3714,7 +3715,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3742,7 +3743,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3770,7 +3771,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3798,7 +3799,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3826,7 +3827,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3854,7 +3855,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3882,7 +3883,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3910,7 +3911,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3938,7 +3939,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3966,7 +3967,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -3994,7 +3995,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -4022,7 +4023,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -4050,7 +4051,7 @@
           "event_id": "401873068",
           "kickoff": "2026-11-22T18:00Z",
           "state": "IL",
-          "captured_at": "2026-11-18T14:15:54.214Z",
+          "captured_at": "2026-11-18T15:34:28.434Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
           "selections": [
             {
@@ -14132,7 +14133,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14155,7 +14156,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14178,7 +14179,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14201,7 +14202,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14224,7 +14225,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14247,7 +14248,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14270,7 +14271,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14293,7 +14294,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14316,7 +14317,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14339,7 +14340,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14362,7 +14363,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14383,7 +14384,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14404,7 +14405,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14427,7 +14428,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14448,7 +14449,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14471,7 +14472,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14492,7 +14493,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14513,7 +14514,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14534,7 +14535,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14555,7 +14556,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14576,7 +14577,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14597,7 +14598,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14618,7 +14619,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14639,7 +14640,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14660,7 +14661,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14681,7 +14682,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14707,7 +14708,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14733,7 +14734,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14759,7 +14760,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14785,7 +14786,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14813,7 +14814,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14841,17 +14842,17 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
           "side": "over",
-          "line": 30.5,
+          "line": 29.5,
           "price": -114
         },
         {
           "side": "under",
-          "line": 30.5,
+          "line": 29.5,
           "price": -114
         }
       ],
@@ -14869,7 +14870,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14895,7 +14896,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14923,7 +14924,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14949,7 +14950,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -14977,7 +14978,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15005,7 +15006,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15033,7 +15034,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15061,7 +15062,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15089,7 +15090,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15117,7 +15118,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15145,7 +15146,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15173,7 +15174,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15201,7 +15202,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15229,7 +15230,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15257,7 +15258,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15285,7 +15286,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15313,7 +15314,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15341,7 +15342,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15369,7 +15370,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15397,7 +15398,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15425,7 +15426,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15453,7 +15454,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15481,7 +15482,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15509,7 +15510,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15537,7 +15538,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15565,7 +15566,7 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
@@ -15593,18 +15594,18 @@
       "event_id": "401873066",
       "kickoff": "2026-11-20T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:16:51.403Z",
+      "captured_at": "2026-11-18T15:40:55.476Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": 102
+          "price": 112
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -136
+          "price": -148
         }
       ],
       "model_value": 1.1,
@@ -16740,7 +16741,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16763,7 +16764,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16786,7 +16787,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16809,7 +16810,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16832,7 +16833,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16855,7 +16856,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16878,7 +16879,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16901,7 +16902,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16924,7 +16925,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16947,7 +16948,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16970,7 +16971,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -16993,7 +16994,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17014,7 +17015,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17037,7 +17038,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17058,7 +17059,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17079,7 +17080,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17100,7 +17101,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17121,7 +17122,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17142,7 +17143,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17163,7 +17164,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17186,7 +17187,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17207,7 +17208,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17228,7 +17229,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17249,7 +17250,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17270,7 +17271,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17291,7 +17292,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17312,7 +17313,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17333,7 +17334,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17354,7 +17355,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17380,7 +17381,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17406,7 +17407,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17432,7 +17433,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17458,7 +17459,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17486,7 +17487,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17514,7 +17515,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17540,7 +17541,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17568,7 +17569,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17594,7 +17595,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17622,7 +17623,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17650,7 +17651,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17678,7 +17679,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17706,7 +17707,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17734,7 +17735,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17762,7 +17763,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17790,7 +17791,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17818,7 +17819,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17846,7 +17847,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17874,7 +17875,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17902,7 +17903,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17930,7 +17931,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17958,7 +17959,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -17986,7 +17987,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -18014,7 +18015,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -18042,7 +18043,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -18070,7 +18071,7 @@
       "event_id": "401873068",
       "kickoff": "2026-11-22T18:00Z",
       "state": "IL",
-      "captured_at": "2026-11-18T14:15:54.214Z",
+      "captured_at": "2026-11-18T15:34:28.434Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
       "selections": [
         {
@@ -27923,12 +27924,13 @@
       "event_id": "401873069"
     }
   ],
+  "archive_url": "tools/nfl/week11_2026/archived_week10_player_comparisons.json",
   "coverage_checks": [
     {
       "event_id": "401873066",
       "matchup": "Indianapolis Colts at Houston Texans",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/indianapolis-colts-@-houston-texans-36305232",
-      "inventory_checked_at": "2026-11-18T14:16:52.329Z",
+      "inventory_checked_at": "2026-11-18T15:41:02.896Z",
       "full_dom_header_count": 124,
       "event_prop_tabs": [
         "Passing Props",
@@ -27946,7 +27948,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories freshly captured this round."
     },
     {
       "event_id": "401873071",
@@ -27970,14 +27972,14 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873068",
       "matchup": "Baltimore Ravens at Carolina Panthers",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/baltimore-ravens-@-carolina-panthers-36305234",
-      "inventory_checked_at": "2026-11-18T14:15:55.034Z",
-      "full_dom_header_count": 101,
+      "inventory_checked_at": "2026-11-18T15:35:01.245Z",
+      "full_dom_header_count": 102,
       "event_prop_tabs": [
         "Passing Props",
         "Receiving Props",
@@ -27993,7 +27995,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories freshly captured this round."
     },
     {
       "event_id": "401873070",
@@ -28016,7 +28018,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873073",
@@ -28040,7 +28042,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873067",
@@ -28064,7 +28066,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873072",
@@ -28087,7 +28089,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873076",
@@ -28098,7 +28100,7 @@
       "event_prop_tabs": [],
       "status": "no_target_quotes_observed",
       "categories": [],
-      "note": "No target standard-category headers/player-prop tabs observed; bounded observation, not guaranteed later absence."
+      "note": "No target standard-category headers/player-prop tabs observed; bounded observation, not guaranteed later absence. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873074",
@@ -28109,7 +28111,7 @@
       "event_prop_tabs": [],
       "status": "no_target_quotes_observed",
       "categories": [],
-      "note": "No target standard-category headers/player-prop tabs observed; bounded observation, not guaranteed later absence."
+      "note": "No target standard-category headers/player-prop tabs observed; bounded observation, not guaranteed later absence. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873075",
@@ -28130,7 +28132,7 @@
         "passing_yards",
         "rushing_yards"
       ],
-      "note": "Four categories; receiving yards/receptions not observed in full-DOM bottom inventory."
+      "note": "Four categories; receiving yards/receptions not observed in full-DOM bottom inventory. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873069",
@@ -28154,7 +28156,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873077",
@@ -28178,7 +28180,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     },
     {
       "event_id": "401873078",
@@ -28202,8 +28204,7 @@
         "receptions",
         "rushing_yards"
       ],
-      "note": "All six categories captured."
+      "note": "All six categories captured. Retained prior source inventory, not rechecked in this round."
     }
-  ],
-  "archive_url": "tools/nfl/week11_2026/archived_week10_player_comparisons.json"
+  ]
 }

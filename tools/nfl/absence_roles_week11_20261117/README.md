@@ -2,7 +2,7 @@
 
 Prepared November 17, 2026. This is factual context, not an injury-adjusted forecast. Coverage is only the Thursday IND-HOU game: 25 preserved Monday practice-estimate entries, two additional owning-source IR entries and one new Tuesday player (28 total). Tuesday participation is stored separately. No league-wide clearance is claimed.
 
-## What the sources establish
+## What Monday sources established (preserved history)
 
 - The dated Texans Week11 report supplies Monday practice estimates, not final game statuses. Marks is DNP and Montgomery FP. Neither is a formal Out/cleared decision.
 - The Colts Monday notebook identifies new Week10 in-game exits for Gardner, Ward and Raimann, and continuing missed-game context for Carlies, Mallory, Travis, Rhodes and Tillery. These facts do not settle Thursday participation.
@@ -15,7 +15,7 @@ All 28 entries join by exact ESPN ID to the preserved ESPN/GSIS crosswalk. The t
 
 There are zero numerical scenarios in this companion. HOU's raw core home margin remains 6.549619046252752, displayed HOU -6.5. The core injury adjustment remains null. Every future workload and replacement point effect remains null.
 
-The old separate skill-only contract requires same-week formally Out established RB/WR/TE players, at least two prior stat-row appearances and at least 2% trailing team attempts+carries+receptions. Only Marks and Montgomery pass that volume gate among this register's entries; a volume gate alone does not establish eligibility. No qualifying formal Week11 Out event is established here.
+The old separate skill-only contract requires same-week formally Out established RB/WR/TE players, at least two prior stat-row appearances and at least 2% trailing team attempts+carries+receptions. Only Marks and Montgomery pass that volume gate among this register's entries; a volume gate alone does not establish eligibility. No qualifying formal Week11 Out event was established by those Monday/Tuesday observations. See the final Wednesday update below.
 
 IR-only absences, OL, defense and special teams fall outside that contract, not at zero actual effect. The old observational skill coefficient cannot establish replacement-specific effects, and its coefficient-only interval includes zero. Do not stack it with the separate QB passing scenario. The core is a mixed realized-history reference, not a healthy-roster counterfactual.
 
@@ -36,3 +36,9 @@ Fresh checks of the dated Week11 Texans report and Colts Monday notebook still s
 ## Tuesday report check (Nov17, 17:17 CT)
 
 28 exact-ID entries now retain the original 25 Monday estimates and IR context, plus Charlie Heck. 24 Tuesday participation observations are separate fields: Lassiter FP to DNP, Rhodes DNP to LP, Heck new personal DNP. Marks DNP and Montgomery FP continue, with no formal game status or workload clearance implied. Colts Tuesday notebook explicitly calls its participation estimates and says game designations arrive Wednesday. It also confirms Carlies IR earlier Tuesday, resolving prior transaction boilerplate day conflict. Houston table participation labels are retained without assuming whether physical practice versus estimate. No new role or numerical scenario, core/seals unchanged. Prior 14:45 version retained under archive_1445.
+
+## Final Wednesday check (Nov18, 16:41 CT)
+
+Monday and Tuesday observations remain historical fields, including their null game statuses. `wednesday_practice` and `latest_game_status` supply the later final report separately. Houston has four formal Out designations (Marks, Harrison, Jordan, Hunter), three questionable, and seven without game designation. Indianapolis has five Out, four questionable and Tucker without designation. The owning Colts Wednesday notebook and table corroborate its statuses. Neither no designation nor FP claims medical clearance or replacement workload.
+
+Marks alone now meets formal Out plus the preserved historical skill-volume gate. This does not release a numerical application: original fitted panel/method bytes remain missing and new panel-only work is parked. `current_numeric_eligibility` remains false and every effect/share remains null. No old forecast, core, seal or scenario is changed. Previous Tuesday builder/companion/manifest are preserved under `archive_tuesday`. Historical Monday eligibility prose remains attached to the Monday observation, not the final Wednesday decision.

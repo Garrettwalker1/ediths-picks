@@ -47,4 +47,17 @@ class CompanionTests(unittest.TestCase):
   eligible=[r for r in D['register'] if r['established_skill_volume_gate']]
   self.assertEqual(len(eligible),2)
   self.assertTrue(all(r['game_status'] is None for r in eligible))
+ def test_final_wednesday(self):
+  rows=[r for r in D['register'] if 'wednesday_practice' in r]
+  self.assertEqual(len(rows),24)
+  self.assertEqual(sum(r['formal_out_confirmed'] for r in rows),9)
+  self.assertEqual(sum(r['latest_game_status']=='QUESTIONABLE' for r in rows),7)
+  self.assertEqual([r['reported_name'] for r in rows if r['formal_out_volume_gate']],['Woody Marks'])
+  self.assertTrue(all(not r['current_numeric_eligibility'] for r in rows))
+  self.assertTrue(all(r['game_status'] is None for r in D['register']))
+ def test_prior_observations_preserved(self):
+  prior=json.loads((P/'archive_tuesday/companion.json').read_text())
+  for old in prior['register']:
+   new=next(r for r in D['register'] if r['gsis_id']==old['gsis_id'])
+   for k,v in old.items():self.assertEqual(new[k],v,(old['reported_name'],k))
 if __name__=='__main__': unittest.main()

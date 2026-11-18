@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T23:17:04.262274+00:00",
-  "scope": "Week11 IND-HOU only. 25 preserved Monday practice-estimate entries, 2 additional owning-source IR entries, and 1 new Tuesday player; Tuesday participation observations kept separately. Not a league-wide injury clearance.",
+  "generated_at": "2026-11-18T22:41:42.430712+00:00",
+  "scope": "Week11 IND-HOU only. 25 preserved Monday practice-estimate entries, 2 additional owning-source IR entries, and 1 new Tuesday player; Monday/Tuesday observations preserved separately; 24 final Wednesday participation/game-status observations appended. Not a league-wide injury clearance.",
   "event_id": "401873066",
   "game_id": "2026_11_IND_HOU",
   "kickoff": "2026-11-20T01:15Z",
@@ -120,7 +120,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Hamstring",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Danielle Hunter",
@@ -178,7 +196,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Hamstring",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Brevin Jordan",
@@ -236,7 +272,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Foot / Illness",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Woody Marks",
@@ -294,7 +348,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Concussion",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": true,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Formal Out plus historical volume gate now met, but original fitted panel/method artifacts unavailable and new panel-only audit parked. No application or effect authorized."
     },
     {
       "name": "Jake Hummel",
@@ -352,7 +424,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Groin",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Reed Blankenship",
@@ -405,7 +495,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Hand",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Tank Dell",
@@ -458,7 +566,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Hand / Shoulder",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Blake Fisher",
@@ -501,7 +627,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Thumb",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Kamari Lassiter",
@@ -554,7 +698,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Wrist",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "David Montgomery",
@@ -608,6 +770,24 @@
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
       },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Groin",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
       "source_context_url": "https://www.houstontexans.com/news/houston-texans-transactions-11-14-2026"
     },
     {
@@ -661,7 +841,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Knee",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Keylan Rutledge",
@@ -714,7 +912,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Shoulder",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Jaylin Smith",
@@ -772,7 +988,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Hamstring",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Wyatt Teller",
@@ -815,7 +1049,25 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Back",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero."
     },
     {
       "name": "Jaylon Carlies",
@@ -929,7 +1181,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Calf",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Will Mallory",
@@ -988,7 +1262,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Hamstring",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Bernhard Raimann",
@@ -1047,7 +1343,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Concussion",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Luke Rhodes",
@@ -1106,7 +1424,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "LP",
+        "injury": "Hamstring",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Jerry Tillery",
@@ -1165,7 +1505,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Calf",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Jalen Travis",
@@ -1214,7 +1576,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Knee",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Charvarius Ward",
@@ -1273,7 +1657,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Knee",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "OUT",
+        "game_status_label": "OUT"
+      },
+      "latest_game_status": "OUT",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": true,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Anthony Gould",
@@ -1332,7 +1738,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Toe",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Dalton Tucker",
@@ -1386,7 +1814,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "FP",
+        "injury": "Shoulder",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": null,
+        "game_status_label": "(-)"
+      },
+      "latest_game_status": null,
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     },
     {
       "name": "Mo Alie-Cox",
@@ -1512,7 +1962,29 @@
         "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
         "checked_at": "2026-11-17T23:17:02.210199+00:00",
         "game_status": null
-      }
+      },
+      "wednesday_practice": {
+        "date": "2026-11-18",
+        "participation": "DNP",
+        "injury": "Not Injury Related - Personal",
+        "is_estimate": null,
+        "estimate_note": "Table participation retained without claiming physical practice or medical clearance.",
+        "source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "game_status": "QUESTIONABLE",
+        "game_status_label": "QUESTIONABLE"
+      },
+      "latest_game_status": "QUESTIONABLE",
+      "latest_game_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+      "latest_game_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
+      "formal_out_confirmed": false,
+      "formal_out_volume_gate": false,
+      "current_numeric_eligibility": false,
+      "current_numeric_limit": "Not a qualifying established skill-Out event, or outside skill-only contract. Effect unknown, not zero.",
+      "wednesday_owning_confirmation_urls": [
+        "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "https://www.colts.com/team/injury-report/week/reg-11"
+      ]
     }
   ],
   "replacement_role_evidence": [
@@ -1602,6 +2074,9 @@
     }
   ],
   "conditional_return_context": {
+    "latest_status_note": "Wednesday FP with no game designation, not a workload allocation or medical clearance.",
+    "latest_status_source_url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+    "latest_status_checked_at": "2026-11-18T22:41:40.721128+00:00",
     "player": "00-0035685",
     "owning_player_log_url": "https://www.houstontexans.com/team/players-roster/david-montgomery/",
     "owning_player_log_last_rushing_week": 5,
@@ -1611,7 +2086,7 @@
     "future_workload_share": null
   },
   "limits": [
-    "No formal current-week skill-Out event established by the checked practice report. Two later linebacker IR transactions are factual updates, not numerical skill scenarios.",
+    "Final Wednesday report confirms nine formal Out designations. Marks alone also passes the preserved skill-volume gate; unavailable original fitted artifacts and parked new panel prevent numerical application. IR transactions remain distinct.",
     "DNP does not mean Out; FP does not mean cleared.",
     "IR-only, OL, defense and special teams are outside the existing numerical skill contract, not zero effects.",
     "No numeric replacement or return-workload model.",
@@ -1719,6 +2194,24 @@
         "sha256": "03b34bcdac663e81dd57449e41ddcf9540cfd4f70afc154d5779650ad345526d",
         "path": "sources/12.html.gz",
         "title": "Practice Notebook: Both Colts starting tackles, cornerbacks listed as DNP for second consecutive day ahead of Week 11 game vs. Texans"
+      },
+      {
+        "url": "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+        "checked_at": "2026-11-18T22:41:40.721128+00:00",
+        "sha256": "ac7be92d5e698feb2cdd42c724930a75879c156ff2de487749188648168a53a6",
+        "path": "sources/13.html.gz"
+      },
+      {
+        "url": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans",
+        "checked_at": "2026-11-18T22:41:40.876452+00:00",
+        "sha256": "e712a860089f679dc6c6638b9bb40b1442b66e8744a68073d0299db3e9902766",
+        "path": "sources/14.html.gz"
+      },
+      {
+        "url": "https://www.colts.com/team/injury-report/week/reg-11",
+        "checked_at": "2026-11-18T22:41:41.017163+00:00",
+        "sha256": "6df90ad9d18cbad67c2232cc027d05b35e48fb2bdb5f21270d6dee61e79f35b5",
+        "path": "sources/15.html.gz"
       }
     ]
   }

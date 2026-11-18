@@ -1,0 +1,40 @@
+{
+  "prepared_at": "2026-11-17T23:40:24.551139+00:00",
+  "crosswalk_source_sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+  "crosswalk_source_url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+  "crosswalk_received_at": "2026-11-17T13:14:43.482938+00:00",
+  "identities": [
+    {
+      "book_name": "Adam Prentice",
+      "roster_name": "Adam Prentice",
+      "team_id": "DEN",
+      "espn_id": "3929914",
+      "player_id": "00-0036727",
+      "crosswalk_espn_id": "3929914",
+      "crosswalk_gsis_id": "00-0036727",
+      "evidence_note": "Exact roster ESPN ID and preserved pre-capture full source crosswalk. Explicit punctuation alias for CJ Williams, otherwise exact names. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "Adam Prentice",
+        "first_name": "Adam",
+        "last_name": "Prentice",
+        "football_name": "Adam"
+      }
+    },
+    {
+      "book_name": "Connor Heyward",
+      "roster_name": "Connor Heyward",
+      "team_id": "LV",
+      "espn_id": "4241961",
+      "player_id": "00-0037304",
+      "crosswalk_espn_id": "4241961",
+      "crosswalk_gsis_id": "00-0037304",
+      "evidence_note": "Exact roster ESPN ID and preserved pre-capture full source crosswalk. Explicit punctuation alias for CJ Williams, otherwise exact names. No fuzzy matching or availability inference.",
+      "crosswalk_names": {
+        "display_name": "Connor Heyward",
+        "first_name": "Connor",
+        "last_name": "Heyward",
+        "football_name": "Connor"
+      }
+    }
+  ]
+}

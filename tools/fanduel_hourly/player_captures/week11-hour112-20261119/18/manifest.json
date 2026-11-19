@@ -1,0 +1,25 @@
+[
+  {
+    "kind": "availability_audit",
+    "sha256": "e4f72e9f9aad26095c7ded48ed6fa6bf39669dce1cdba1ecd925135410a53ee3"
+  },
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T23:40:24.551139+00:00",
+    "sha256": "284e5a0d0054e00d57fec74b6665ef36bdc5ec26d329abd9941231847b6441ec",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "LV",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/lv/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "f69819fcb8849ac956d0087bf3761ef39c2deb2a1172de2447e10a6de9b1ef90"
+  },
+  {
+    "team": "DEN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/den/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "6888c2a827c088330e701814aba6e954f56024d0f865593e04a32e616d68b755"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "sources/injuries/ACC-official-public.json.gz",
+    "original_response_sha256": "96130cc5cbd1a58d5e3c96d54b0f89032c0c4baf68e58413e2ce126095e102ea",
+    "normalized_data_sha256": "6e406a2a2311101f51596400fa14c8e20508ee932d0e5a8437c1ae21f68c31b1",
+    "stored_sha256": "fc23220138ee2caccb98788e39be1efade6bada88da91dfcc5b6afaea3d52240",
+    "normalization": "Only image/logo/font/color/style fields omitted. All report/game/team/player/status/date/time data retained. Not a raw-byte archive."
+  },
+  {
+    "path": "sources/injuries/SEC-official-public.json.gz",
+    "original_response_sha256": "49de315b13686b827d7ff89b81ad7cbd3bd6dc19aa377f5541dc221f3d06efd3",
+    "normalized_data_sha256": "b2e5e0be1e3bad84edda8ff1b880a6eaf23143bf9305c15fd09fd00a39fe3f29",
+    "stored_sha256": "e012123ee47bb60eea56e3f94fa061c84ec46d8e4b9755596084f89a2adad3ec",
+    "normalization": "Only image/logo/font/color/style fields omitted. All report/game/team/player/status/date/time data retained. Not a raw-byte archive."
+  }
+]

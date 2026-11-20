@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-20T01:46:31.797341+00:00",
+  "event_id": "401862830",
+  "event": "Rice at Temple",
+  "verified_kickoff": "2026-11-20T00:30Z",
+  "capture_at": "2026-11-20T01:44:17.785Z",
+  "classification": "postkickoff quote excluded from pregame evidence",
+  "raw_capture_path": "tools/fanduel_hourly/captures/20261120T014417785Z/cfb.json",
+  "raw_capture_sha256": "3f55745ad48465e447db59894114641db043d6d8415ff7b4100fb5b5e587ab17",
+  "published_result": "Prior actual pregame quote preserved exactly except frozen flag; postkickoff value was rejected by merge.",
+  "cause": "Game route absent from earlier manually maintained DOM exclusion list.",
+  "correction": "Fail-closed route map generated offline from existing verified kickoffs and frozen state; unknown, conflicting, missing, invalid and started kickoffs rejected before quote text or parent traversal.",
+  "local_boundary_tests": 10,
+  "new_source_requests": 0
+}

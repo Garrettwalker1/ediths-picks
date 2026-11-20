@@ -322,7 +322,7 @@
       "under_price": -115,
       "kickoff": "2026-11-20T01:15Z",
       "event_id": "401873066",
-      "frozen": false,
+      "frozen": true,
       "display": "Houston Texans -12.5 \u00b7 O/U 44.5"
     },
     "MIA at BUF": {
@@ -3320,9 +3320,9 @@
   },
   "coverage": {
     "NFL": {
-      "matched": 13,
+      "matched": 12,
       "missing": 0,
-      "frozen": 0,
+      "frozen": 1,
       "unrestorable_started": 0,
       "prior_slate_frozen_preserved": 13,
       "returned": 29,

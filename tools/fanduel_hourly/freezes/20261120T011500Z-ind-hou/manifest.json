@@ -1,0 +1,35 @@
+{
+  "event_id": "401873066",
+  "game_id": "2026_11_IND_HOU",
+  "kickoff": "2026-11-20T01:15Z",
+  "freeze_observed_at": "2026-11-20T01:16:11.923262+00:00",
+  "input_commit": "76ef4a22edd114931e754df7d7639bccb0369b7c",
+  "book_request_performed": false,
+  "last_actual_game_capture": "2026-11-20T00:27:08.359Z",
+  "last_actual_player_capture": "2026-11-20T00:21:41.215Z",
+  "objects": [
+    {
+      "path": "tools/fanduel_hourly/freezes/20261120T011500Z-ind-hou/game-last-actual-pregame.json",
+      "sha256": "e43006f70baa317d20e5e97f057d46a889cafec81cbfcf3d92fb1fdfaf129ad3",
+      "bytes": 631
+    },
+    {
+      "path": "tools/fanduel_hourly/freezes/20261120T011500Z-ind-hou/player-event-last-actual-pregame.json",
+      "sha256": "0a7bf1b38558cae6e762b4a7ce8a9f91fcf7ca5e1df1a99ebba89b075a943f1d",
+      "bytes": 49233
+    }
+  ],
+  "inputs": {
+    "fanduel_comparisons.json": "2d1180b4d352a572e07e1d2bbed65daa7abf9e8fdc899affa17711b1e3f4e84e",
+    "fanduel_player_comparisons.json": "304ebae690884d7fb3a4f31ddde10c2e409f5ae028707f1e175873e4613a5ee8"
+  },
+  "outputs": {
+    "fanduel_comparisons.json": "94a69283352e85bf9ccf079cb27c1b0815c43be2aace606b44bde54f83567700",
+    "fanduel_player_comparisons.json": "8c7a77593fb6d46b5cc67b75c58b570eb7e24c75eb15e429e599a36e3b2b9b90"
+  },
+  "scope": "Freeze existing actual Illinois pregame source objects only. Not verified closing prices. No model changes or postkickoff replacement.",
+  "player_rows": 63,
+  "player_identity_gaps": 0,
+  "all_source_times_before_kickoff": true,
+  "exact_prior_objects_preserved_except_frozen_flags": true
+}

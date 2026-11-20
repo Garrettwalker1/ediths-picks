@@ -1,0 +1,88 @@
+{
+  "prepared_at": "2026-11-17T16:58:41.325743+00:00",
+  "crosswalk_source_sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+  "crosswalk_source_url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+  "crosswalk_received_at": "2026-11-17T13:14:43.482938+00:00",
+  "identities": [
+    {
+      "book_name": "Aaron Jones",
+      "roster_name": "Aaron Jones Sr.",
+      "espn_id": "3042519",
+      "player_id": "00-0033293",
+      "team_id": "MIN",
+      "crosswalk_espn_id": "3042519",
+      "crosswalk_gsis_id": "00-0033293",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Aaron Jones",
+        "first_name": "Aaron",
+        "last_name": "Jones",
+        "football_name": "Aaron"
+      }
+    },
+    {
+      "book_name": "Deebo Samuel",
+      "roster_name": "Deebo Samuel Sr.",
+      "espn_id": "3126486",
+      "player_id": "00-0035719",
+      "team_id": "SF",
+      "crosswalk_espn_id": "3126486",
+      "crosswalk_gsis_id": "00-0035719",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Deebo Samuel Sr.",
+        "first_name": "Tyshun",
+        "last_name": "Samuel",
+        "football_name": "Deebo"
+      }
+    },
+    {
+      "book_name": "DeMarcus Robinson",
+      "roster_name": "Demarcus Robinson",
+      "espn_id": "3043116",
+      "player_id": "00-0032775",
+      "team_id": "SF",
+      "crosswalk_espn_id": "3043116",
+      "crosswalk_gsis_id": "00-0032775",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Demarcus Robinson",
+        "first_name": "Demarcus",
+        "last_name": "Robinson",
+        "football_name": "Demarcus"
+      }
+    },
+    {
+      "book_name": "Kyle Juszczyk",
+      "roster_name": "Kyle Juszczyk",
+      "espn_id": "16002",
+      "player_id": "00-0029892",
+      "team_id": "SF",
+      "crosswalk_espn_id": "16002",
+      "crosswalk_gsis_id": "00-0029892",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Kyle Juszczyk",
+        "first_name": "Kyle",
+        "last_name": "Juszczyk",
+        "football_name": "Kyle"
+      }
+    },
+    {
+      "book_name": "Max Bredeson",
+      "roster_name": "Max Bredeson",
+      "espn_id": "4878695",
+      "player_id": "00-0041081",
+      "team_id": "MIN",
+      "crosswalk_espn_id": "4878695",
+      "crosswalk_gsis_id": "00-0041081",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Max Bredeson",
+        "first_name": "Max",
+        "last_name": "Bredeson",
+        "football_name": "Max"
+      }
+    }
+  ]
+}

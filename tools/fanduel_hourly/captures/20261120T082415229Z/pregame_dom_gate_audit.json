@@ -1,0 +1,91 @@
+{
+  "known_routes": 144,
+  "conflicts": [],
+  "boundary_cases_passed": 11,
+  "minimum_player_spacing_seconds": 4732.183,
+  "minimum_game_spacing_seconds": 4727.209,
+  "cfb_bounded_capture_rows": 48,
+  "cfb_matched": 44,
+  "cfb_missing": 16,
+  "cfb_caveat": "Bounded rendered page had 48 rows versus 61 last round. This is incomplete current coverage, not evidence of market removal. Prior prices retained with unavailable_at; no early source retry.",
+  "retained_unavailable": [
+    {
+      "sport": "cfb",
+      "event_id": "401856865",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/arizona-@-kansas-state-36313694",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401856753",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/georgia-@-south-carolina-36310153",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401858307",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/smu-@-notre-dame-36310152",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401856751",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/kentucky-@-missouri-36310154",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401858306",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/pittsburgh-@-louisville-36313705",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401858308",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/stanford-@-california-36313674",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401860918",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/colorado-state-@-fresno-state-36313668",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401862836",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/utsa-@-uab-36313706",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401856872",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/utah-@-tcu-36313695",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401860925",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/san-diego-state-@-boise-state-36313676",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401856870",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/oklahoma-state-@-arizona-state-36313679",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401860919",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/utah-state-@-oregon-state-36313685",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    },
+    {
+      "sport": "cfb",
+      "event_id": "401864541",
+      "source_url": "https://sportsbook.fanduel.com/football/ncaa-football-games/hawaii-@-nevada-36313684",
+      "captured_at": "2026-11-20T07:05:28.020Z"
+    }
+  ]
+}

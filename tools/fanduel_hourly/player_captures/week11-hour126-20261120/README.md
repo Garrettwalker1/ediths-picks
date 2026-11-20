@@ -1,0 +1,3 @@
+# Hour126 November20 comparison snapshot
+
+12 future player events captured 02:17:33-02:23:56 CT with individual Illinois footers. 1094/1124 joined,30 gaps withheld,716 rows. All13 historical events six categories. IND-HOU exact Nov19 pregame frozen object never requested. Game NFL12 fresh; CFB44 fresh,16 missing,5 frozen,1 started missing. Rendered CFB page bounded capture48 rows versus61 previously, not proof of market removal; prior prices retain timestamps and unavailable_at. No early retry. Offline generalized schedule gate144 known routes,11 boundary cases passed. Models,seals,companion,fantasy,graded201ticket1pending ledger unchanged. Comparisons only.

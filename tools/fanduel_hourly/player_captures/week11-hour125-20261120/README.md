@@ -1,0 +1,3 @@
+# Hour125 November20 comparison snapshot
+
+12 future player events captured 00:58:18-01:05:04 CT. Each Illinois footer verified. 1094/1124 joined selections, 30 identity gaps withheld, 716 player-market rows. All 13 historical events have six categories; IND-HOU remains its exact Nov19 pregame frozen object and was never requested. Regenerated offline generalized schedule gate rejects started, frozen, unknown and conflicting event routes before quote text; broad multi-event ancestors excluded. Models, seals, companion, fantasy and graded ledger unchanged. Comparisons only, no wagers or college props.

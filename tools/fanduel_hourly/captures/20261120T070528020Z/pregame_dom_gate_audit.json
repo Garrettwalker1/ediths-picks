@@ -1,0 +1,12 @@
+{
+  "known_routes": 144,
+  "conflicts": [],
+  "boundary_cases_passed": 11,
+  "player_min_spacing_seconds": 4930.742,
+  "game_min_spacing_seconds": 4946.771,
+  "initial_nfl_dom_ready": false,
+  "initial_nfl_quote_rows": 0,
+  "final_nfl_link_readiness": true,
+  "final_nfl_quote_rows": 12,
+  "notes": "Initial footer-only DOM result contained no quotes and was discarded; continued bounded readiness on same loaded page, no navigation repeat. IND-HOU never requested; previous frozen objects unchanged."
+}

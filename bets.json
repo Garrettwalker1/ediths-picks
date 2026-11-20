@@ -1,7 +1,7 @@
 {
  "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
  "unit_value_usd": 10,
- "updated_at": "2026-11-19T23:38:33.196500+00:00",
+ "updated_at": "2026-11-20T05:09:28.766727+00:00",
  "bets": [
   {
    "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -14789,8 +14789,8 @@
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "stake_units": null,
    "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
    "source_message_id": "phonemsg-01M7V2Q52YK5KSDMSJN85Q79MF",
@@ -14827,19 +14827,56 @@
      "team": "IND",
      "line": 0.5,
      "price": 310,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "player_id": "4431459",
+     "final_boxscore": [
+      {
+       "category": "receiving",
+       "player_id": "4431459",
+       "stats": {
+        "receptions": "1",
+        "receivingYards": "22",
+        "yardsPerReception": "22.0",
+        "receivingTouchdowns": "0",
+        "longReception": "22",
+        "receivingTargets": "5"
+       }
+      }
+     ],
+     "own_rushing_receiving_tds": 0,
+     "scoring_plays": [
+      "Spencer Shrader 34 Yd Field Goal ",
+      "Nico Collins 42 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Kayshon Boutte 24 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Ka'imi Fairbairn 27 Yd Field Goal",
+      "Daniel Jones Sacked by Will Anderson Jr. For 7 Yd Loss for Safety",
+      "Marlin Klein 13 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)"
+     ],
+     "grading_note": "Zero own rushing/receiving touchdowns. Full scoring summary has no return/recovery touchdown by this player. Passing touchdowns excluded."
     }
    ],
-   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display."
+   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display.",
+   "payout_usd": 0,
+   "net_usd": -20,
+   "net_units": null,
+   "settled_at": "2026-11-20T05:09:28.766727+00:00",
+   "final_leg_check_at": "2026-11-20T05:09:28.766727+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066"
+   ],
+   "settlement_note": "Graded from completed Final box score and full scoring plays. Live phone history checked Nov19 23:09CT; no later owner cashout, void or correction. All named players participated with official stat entries. Standing normal settlement rule; receipt cashout buttons were offers only. No units inferred."
   },
   {
    "sport": "NFL",
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "stake_units": null,
    "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
    "source_message_id": "phonemsg-01M7V2Q52YK5KSDMSJN85Q79MF",
@@ -14878,8 +14915,28 @@
      "team": "IND",
      "line": 37.5,
      "price": null,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "player_id": "4431459",
+     "final_boxscore": [
+      {
+       "category": "receiving",
+       "player_id": "4431459",
+       "stats": {
+        "receptions": "1",
+        "receivingYards": "22",
+        "yardsPerReception": "22.0",
+        "receivingTouchdowns": "0",
+        "longReception": "22",
+        "receivingTargets": "5"
+       }
+      }
+     ],
+     "actual_receiving_yards": 22,
+     "grading_note": "22 final receiving yards is below over37.5."
     },
     {
      "event_id": "401873066",
@@ -14891,8 +14948,39 @@
      "team": "IND",
      "line": 51.5,
      "price": null,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "player_id": "4242335",
+     "final_boxscore": [
+      {
+       "category": "rushing",
+       "player_id": "4242335",
+       "stats": {
+        "rushingAttempts": "11",
+        "rushingYards": "21",
+        "yardsPerRushAttempt": "1.9",
+        "rushingTouchdowns": "0",
+        "longRushing": "6"
+       }
+      },
+      {
+       "category": "receiving",
+       "player_id": "4242335",
+       "stats": {
+        "receptions": "4",
+        "receivingYards": "6",
+        "yardsPerReception": "1.5",
+        "receivingTouchdowns": "0",
+        "longReception": "5",
+        "receivingTargets": "5"
+       }
+      }
+     ],
+     "actual_rushing_yards": 21,
+     "grading_note": "21 final rushing yards is below over51.5."
     },
     {
      "event_id": "401873066",
@@ -14903,8 +14991,13 @@
      "team": "IND",
      "line": 12.5,
      "price": null,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "final_team_margin": -23,
+     "grading_note": "Indianapolis lost by23, fails actual +12.5 standard spread. Not an alternate spread sample."
     }
    ],
    "minimum_price_check": {
@@ -14914,15 +15007,24 @@
     "meets_floor": true
    },
    "overlap_note": "Warren receiving leg overlaps $20 Warren ATD single. Combined Warren-dependent stakes $30, not independent. All four NFL tickets share game environment. Standard +12.5 spread is not an alternate spread performance sample.",
-   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display."
+   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display.",
+   "payout_usd": 0,
+   "net_usd": -10,
+   "net_units": null,
+   "settled_at": "2026-11-20T05:09:28.766727+00:00",
+   "final_leg_check_at": "2026-11-20T05:09:28.766727+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066"
+   ],
+   "settlement_note": "Graded from completed Final box score and full scoring plays. Live phone history checked Nov19 23:09CT; no later owner cashout, void or correction. All named players participated with official stat entries. Standing normal settlement rule; receipt cashout buttons were offers only. No units inferred."
   },
   {
    "sport": "NFL",
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "stake_units": null,
    "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
    "source_message_id": "phonemsg-01M7V2Q52YK5KSDMSJN85Q79MF",
@@ -14961,19 +15063,69 @@
      "team": "HOU",
      "line": 0.5,
      "price": 300,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "player_id": "4366031",
+     "final_boxscore": [
+      {
+       "category": "receiving",
+       "player_id": "4366031",
+       "stats": {
+        "receptions": "3",
+        "receivingYards": "27",
+        "yardsPerReception": "9.0",
+        "receivingTouchdowns": "0",
+        "longReception": "10",
+        "receivingTargets": "4"
+       }
+      },
+      {
+       "category": "defensive",
+       "player_id": "4366031",
+       "stats": {
+        "totalTackles": "1",
+        "soloTackles": "1",
+        "sacks": "0",
+        "tacklesForLoss": "0",
+        "passesDefended": "0",
+        "QBHits": "0",
+        "defensiveTouchdowns": "0"
+       }
+      }
+     ],
+     "own_rushing_receiving_tds": 0,
+     "scoring_plays": [
+      "Spencer Shrader 34 Yd Field Goal ",
+      "Nico Collins 42 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Kayshon Boutte 24 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Ka'imi Fairbairn 27 Yd Field Goal",
+      "Daniel Jones Sacked by Will Anderson Jr. For 7 Yd Loss for Safety",
+      "Marlin Klein 13 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)"
+     ],
+     "grading_note": "Zero own rushing/receiving touchdowns. Full scoring summary has no return/recovery touchdown by this player. Passing touchdowns excluded."
     }
    ],
-   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display."
+   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display.",
+   "payout_usd": 0,
+   "net_usd": -10,
+   "net_units": null,
+   "settled_at": "2026-11-20T05:09:28.766727+00:00",
+   "final_leg_check_at": "2026-11-20T05:09:28.766727+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066"
+   ],
+   "settlement_note": "Graded from completed Final box score and full scoring plays. Live phone history checked Nov19 23:09CT; no later owner cashout, void or correction. All named players participated with official stat entries. Standing normal settlement rule; receipt cashout buttons were offers only. No units inferred."
   },
   {
    "sport": "NFL",
    "book": "FanDuel",
    "state": "TN",
    "stake_type": "cash",
-   "status": "pending",
-   "result": "pending",
+   "status": "settled",
+   "result": "loss",
    "stake_units": null,
    "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
    "source_message_id": "phonemsg-01M7V2Q52YK5KSDMSJN85Q79MF",
@@ -15010,11 +15162,48 @@
      "team": "IND",
      "line": 0.5,
      "price": 500,
-     "hit": null,
-     "result": "pending"
+     "hit": false,
+     "result": "loss",
+     "graded_at": "2026-11-20T05:09:28.766727+00:00",
+     "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+     "final_score": "HOU 26; IND 3",
+     "player_id": "3051889",
+     "final_boxscore": [
+      {
+       "category": "receiving",
+       "player_id": "3051889",
+       "stats": {
+        "receptions": "0",
+        "receivingYards": "0",
+        "yardsPerReception": "0.0",
+        "receivingTouchdowns": "0",
+        "longReception": "0",
+        "receivingTargets": "1"
+       }
+      }
+     ],
+     "own_rushing_receiving_tds": 0,
+     "scoring_plays": [
+      "Spencer Shrader 34 Yd Field Goal ",
+      "Nico Collins 42 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Kayshon Boutte 24 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+      "Ka'imi Fairbairn 27 Yd Field Goal",
+      "Daniel Jones Sacked by Will Anderson Jr. For 7 Yd Loss for Safety",
+      "Marlin Klein 13 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)"
+     ],
+     "grading_note": "Zero own rushing/receiving touchdowns. Full scoring summary has no return/recovery touchdown by this player. Passing touchdowns excluded."
     }
    ],
-   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display."
+   "schedule_note": "Receipt displays 7:16PM CT. Official verified game schedule retained at Nov19 7:15PM CT; no schedule change inferred from book display.",
+   "payout_usd": 0,
+   "net_usd": -10,
+   "net_units": null,
+   "settled_at": "2026-11-20T05:09:28.766727+00:00",
+   "final_leg_check_at": "2026-11-20T05:09:28.766727+00:00",
+   "settlement_sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066"
+   ],
+   "settlement_note": "Graded from completed Final box score and full scoring plays. Live phone history checked Nov19 23:09CT; no later owner cashout, void or correction. All named players participated with official stat entries. Standing normal settlement rule; receipt cashout buttons were offers only. No units inferred."
   }
  ]
 }

@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T16:58:41.294609+00:00",
+    "sha256": "0a4d15a09bf8f51f17ac1448ebbd86906b7f320ecd03a0f033abda573236af90",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "MIA",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/mia/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "589a8bb11031346cc668c04e6f636b616071c5c0400b1c00386584cf29050d66"
+  },
+  {
+    "team": "BUF",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/buf/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "5f4c0930cbf6de9d5c8f3b6c85a514ceff25bce9fa8d3b57cd96da0f4fee0aeb"
+  }
+]

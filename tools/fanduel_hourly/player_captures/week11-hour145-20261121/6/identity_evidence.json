@@ -1,0 +1,72 @@
+{
+  "prepared_at": "2026-11-17T16:58:41.294609+00:00",
+  "crosswalk_source_sha256": "be3dcc21cf76a7c5117519b931601e4a506044653568ad78cc8d71b96a6bd532",
+  "crosswalk_source_url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+  "crosswalk_received_at": "2026-11-17T13:14:43.482938+00:00",
+  "identities": [
+    {
+      "book_name": "James Cook",
+      "roster_name": "James Cook III",
+      "espn_id": "4379399",
+      "player_id": "00-0037248",
+      "team_id": "BUF",
+      "crosswalk_espn_id": "4379399",
+      "crosswalk_gsis_id": "00-0037248",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "James Cook",
+        "first_name": "James",
+        "last_name": "Cook",
+        "football_name": "James"
+      }
+    },
+    {
+      "book_name": "D.J. Moore",
+      "roster_name": "DJ Moore",
+      "espn_id": "3915416",
+      "player_id": "00-0034827",
+      "team_id": "BUF",
+      "crosswalk_espn_id": "3915416",
+      "crosswalk_gsis_id": "00-0034827",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "DJ Moore",
+        "first_name": "Denniston",
+        "last_name": "Moore",
+        "football_name": ""
+      }
+    },
+    {
+      "book_name": "Justin Joly",
+      "roster_name": "Justin Joly",
+      "espn_id": "4912052",
+      "player_id": "00-0041077",
+      "team_id": "MIA",
+      "crosswalk_espn_id": "4912052",
+      "crosswalk_gsis_id": "00-0041077",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "Justin Joly",
+        "first_name": "Justin",
+        "last_name": "Joly",
+        "football_name": "Justin"
+      }
+    },
+    {
+      "book_name": "DJ Herman",
+      "roster_name": "DJ Herman",
+      "espn_id": "4685116",
+      "player_id": "00-0041436",
+      "team_id": "MIA",
+      "crosswalk_espn_id": "4685116",
+      "crosswalk_gsis_id": "00-0041436",
+      "evidence_note": "Explicit reviewed book-name alias or exact roster name, tied to exact ESPN ID and nflverse GSIS crosswalk. No fuzzy matching. Source display/first/football names and roster retained.",
+      "crosswalk_names": {
+        "display_name": "DJ Herman",
+        "first_name": "David",
+        "last_name": "Herman",
+        "football_name": "D.J."
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T16:58:41.336824+00:00",
+    "sha256": "6d9d96d0ab2e2ca1f7faf0ac1874fcb5417c3d6d8bfc1674d08d46f3923d0616",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "CIN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/cin/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "02ab2ed9897c076978a19c5ad5e060ed59cb40123628638817ac2e966d7d54a7"
+  },
+  {
+    "team": "WSH",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/wsh/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "8aeebde7d6a23a8fe177394e7a80a2dee397c50f0e6b07ddb031419b2e2baf70"
+  }
+]

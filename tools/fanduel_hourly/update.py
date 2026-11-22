@@ -39,6 +39,14 @@ def validday(q,kick):
 def current_kickoff(event_id,sealed_date,schedule):
  return schedule.get('events',{}).get(str(event_id),{}).get('kickoff',sealed_date)
 
+def current_cfb_forecasts(repo):
+ repo=Path(repo).resolve()
+ pointer=json.loads((repo/'cfb_current_release.json').read_text())
+ path=(repo/pointer['forecast_path']).resolve()
+ if not path.is_relative_to(repo/'tools/cfb') or path.name!='current_forecasts.json':
+  raise ValueError('Invalid current CFB forecast path')
+ return json.loads(path.read_text())['games']
+
 def main(nfl,cfb):
  docs={s:load(p) for s,p in [('NFL',nfl),('CFB',cfb)]};parsed={s:parse(d) for s,d in docs.items()};now=max(d['at'] for d in docs.values());outpath=R/'fanduel_comparisons.json';old=json.load(open(outpath)) if outpath.exists() else {'nfl':{},'cfb':{}}
  out={'checked_at':now,'state':'IL','scope':'NFL/CFB game sides, moneylines and totals only. Public signed-out Illinois; not Tennessee. Player-price coverage is partial and reported separately. Model/sealed evaluation references unchanged.','nfl':{},'cfb':{},'coverage':{}}
@@ -47,7 +55,7 @@ def main(nfl,cfb):
   c=e['competitions'][0]['competitors'];a=next(x for x in c if x['homeAway']=='away');h=next(x for x in c if x['homeAway']=='home');sched.append((a['team']['displayName'],h['team']['displayName'],a['team']['abbreviation'].replace('LAR','LA')+' at '+h['team']['abbreviation'].replace('LAR','LA'),e['date'],e['id']))
  active=json.load(open(R/'tools/nfl/current_season_20261117/current_forecasts.json'))['games']
  assert {str(x[4])for x in sched}=={g['event_id']for g in active},'NFL current model/schedule mismatch'
- cg=json.load(open(R/'tools/cfb/current_season_20261115/current_forecasts.json'))['games']
+ cg=current_cfb_forecasts(R)
  cfb_schedule=json.load(open(R/'cfb_schedule_verified.json'))
  for sport,games,key in [('NFL',sched,'nfl'),('CFB',[(g['away'],g['home'],g['event_id'],current_kickoff(g['event_id'],g['date'],cfb_schedule),g['event_id']) for g in cg],'cfb')]:
   prior_slate_frozen=0

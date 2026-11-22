@@ -56,3 +56,5 @@ All13events have a second actual rendered source capture, minimum per-event spac
 ## Third full round (Nov 13, 19:11-19:19 CT)
 
 All 13 events captured again, with original per-event source times. 1,178 parsed / 1,080 strict joins / 98 withheld gaps / 693 rows. No model or availability changes. Game captures 19:10 CT: 13 NFL and 55 CFB current; three missing CFB retain old times and one newly-started CFB freezes its prior capture. Earlier partial-stage descriptions above are historical, superseded by full-event recurrence. Identity coverage remains partial.
+
+Current CFB comparator uses current release pointer; missing current games stay missing. Old-slate frozen rows remain separate.

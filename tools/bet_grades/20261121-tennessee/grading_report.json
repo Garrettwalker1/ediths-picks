@@ -1,0 +1,86 @@
+{
+  "graded_at": "2026-11-22T00:44:23.412972+00:00",
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&groups=80&limit=400",
+  "event_id": "401856754",
+  "status": {
+    "clock": 0.0,
+    "displayClock": "0:00",
+    "period": 4,
+    "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+    }
+  },
+  "final_score": "Tennessee 27; LSU 13",
+  "settlement_rule_source_message": "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S",
+  "source_sha256": "7ab6656414b1588e077b88b6c52bad8b28245546bb779de64c6976f2ce1e963f",
+  "bet": {
+    "sport": "CFB",
+    "book": "FanDuel",
+    "state": "TN",
+    "stake_type": "cash",
+    "status": "settled",
+    "result": "win",
+    "stake_units": null,
+    "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+    "source_message_id": "phonemsg-01M7V2Q52YK5KSDMSJN85Q79MF",
+    "source": "Owner iMessage Nov19 17:36:53CT. All five original placed-receipt pixels including exact IDs and placement footers inspected.",
+    "cashout_offer_note": "Visible offer only, not executed. No cashout recorded.",
+    "notes": "Actual placed TN terms, not assumed model selections. Exact displayed return authoritative despite rounded boosted odds. No units inferred. Original receipt kept private.",
+    "bet_id": "us-tn:01m7tgmtahfqjv6s93xjkamk27",
+    "date": "2026-11-19T12:21:00-06:00",
+    "placed_at": "2026-11-19T12:21:00-06:00",
+    "stake_usd": 10,
+    "price": 139,
+    "potential_payout_usd": 23.9,
+    "potential_profit_usd": 13.9,
+    "receipt_filename": "image-d820ba8f.png",
+    "source_receipt_sha256": "3796b0a2ca1123309c032fded397ab26da34935e06edd9a99981b8ed89f086f9",
+    "cashout_offer_usd": 10,
+    "game": "LSU Tigers @ Tennessee Volunteers",
+    "kickoff": "2026-11-21T20:30Z",
+    "bet": "Tennessee moneyline (50% profit boost)",
+    "selection": "Tennessee moneyline",
+    "market": "moneyline",
+    "line": null,
+    "original_price": -108,
+    "boost_pct": 50,
+    "event_ids": [
+      "401856754"
+    ],
+    "legs": [
+      {
+        "event_id": "401856754",
+        "event": "LSU Tigers @ Tennessee Volunteers",
+        "kickoff": "2026-11-21T20:30Z",
+        "market": "moneyline",
+        "selection": "Tennessee Volunteers moneyline",
+        "team": "Tennessee Volunteers",
+        "line": null,
+        "price": -108,
+        "hit": true,
+        "result": "win",
+        "graded_at": "2026-11-22T00:44:23.412972+00:00",
+        "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&groups=80&limit=400",
+        "final_score": "Tennessee 27; LSU 13",
+        "final_team_margin": 14,
+        "grading_note": "Tennessee won outright. Standard full-game moneyline settled normally under owner standing rule."
+      }
+    ],
+    "schedule_source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&groups=80&limit=400",
+    "payout_usd": 23.9,
+    "net_usd": 13.9,
+    "net_units": null,
+    "settled_at": "2026-11-22T00:44:23.412972+00:00",
+    "final_leg_check_at": "2026-11-22T00:44:23.412972+00:00",
+    "settlement_sources": [
+      "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261121&groups=80&limit=400"
+    ],
+    "settlement_note": "Graded from completed Final scoreboard. Live owner phone history checked Nov21 18:44CT; no later cashout, void or correction. Standing normal settlement rule applies. Exact receipt payout used, not rounded boosted-odds arithmetic. No units inferred."
+  }
+}

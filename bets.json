@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-22T17:07:03.628239+00:00",
+  "updated_at": "2026-11-22T20:33:16.903686+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -15672,6 +15672,224 @@
       "selection": "Jahmyr Gibbs anytime touchdown / James Cook anytime touchdown / Christian McCaffrey anytime touchdown",
       "bet": "3-leg ATD parlay: Jahmyr Gibbs anytime touchdown / James Cook anytime touchdown / Christian McCaffrey anytime touchdown",
       "schedule_note": "Receipt game display times can be one minute later than official schedule. Verified official event kickoffs retained; all three legs Sunday Nov22."
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M82FB7651EV9NE3Q3TDA5KW0",
+      "source": "Owner iMessage Nov22 2:32PM CT. Original placed-receipt pixels and placement footers inspected.",
+      "cashout_offer_note": "Visible offer only, not executed. No cashout recorded.",
+      "notes": "Actual placed TN receipt terms, distinct from earlier recommendations. Receipt total return is authoritative, not recomputed from rounded displayed odds. No boost shown. Original receipt remains private.",
+      "logged_at": "2026-11-22T20:33:16.903686+00:00",
+      "line": 0.5,
+      "bet_id": "us-tn:01m82fafmyfm5rvcsb395ynv5j",
+      "receipt_filename": "image-b60c6400.png",
+      "placed_at": "2026-11-22T14:31:00-06:00",
+      "date": "2026-11-22T14:31:00-06:00",
+      "stake_usd": 20,
+      "price": 240,
+      "potential_payout_usd": 68,
+      "potential_profit_usd": 48,
+      "cashout_offer_usd": 20,
+      "rewards_points_pending": 80,
+      "source_receipt_sha256": "3727492d8a5584811e253b82f4b29a37d1ab14d2ab1805ce4ad0b0b5b17eebd8",
+      "legs": [
+        {
+          "event_id": "401873069",
+          "event": "JAX @ NYG",
+          "kickoff": "2026-11-22T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Isaiah Likely anytime touchdown",
+          "player": "Isaiah Likely",
+          "team": "NYG",
+          "line": 0.5,
+          "price": 240,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "event_ids": [
+        "401873069"
+      ],
+      "game": "JAX @ NYG",
+      "kickoff": "2026-11-22T21:25Z",
+      "selection": "Isaiah Likely anytime touchdown",
+      "market": "anytime touchdown scorer",
+      "schedule_note": "Receipt displays JAX-NYG 3:26PM CT; official schedule 3:25PM CT retained separately. SF 7:20PM CT. Receipt display time does not replace official kickoff.",
+      "bet": "Straight: Isaiah Likely anytime touchdown"
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M82FB7651EV9NE3Q3TDA5KW0",
+      "source": "Owner iMessage Nov22 2:32PM CT. Original placed-receipt pixels and placement footers inspected.",
+      "cashout_offer_note": "Visible offer only, not executed. No cashout recorded.",
+      "notes": "Actual placed TN receipt terms, distinct from earlier recommendations. Receipt total return is authoritative, not recomputed from rounded displayed odds. No boost shown. Original receipt remains private. Tuten/Skattebo group +325 preserved; neither individual price inferred.",
+      "logged_at": "2026-11-22T20:33:16.903686+00:00",
+      "line": 0.5,
+      "bet_id": "us-tn:01m82f85h9fxca654dshghxxt8",
+      "receipt_filename": "image-5f4c4445.png",
+      "placed_at": "2026-11-22T14:30:00-06:00",
+      "date": "2026-11-22T14:30:00-06:00",
+      "stake_usd": 10,
+      "price": 592,
+      "potential_payout_usd": 69.22,
+      "potential_profit_usd": 59.22,
+      "cashout_offer_usd": 10,
+      "rewards_points_pending": 40,
+      "source_receipt_sha256": "7a5a8f955ed92d51d21d03619f1c98012ab2e8592a632327ebf2e8b237da5cf9",
+      "legs": [
+        {
+          "event_id": "401873069",
+          "event": "JAX @ NYG",
+          "kickoff": "2026-11-22T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Bhayshul Tuten anytime touchdown",
+          "player": "Bhayshul Tuten",
+          "team": "JAX",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873069",
+          "event": "JAX @ NYG",
+          "kickoff": "2026-11-22T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Cam Skattebo anytime touchdown",
+          "player": "Cam Skattebo",
+          "team": "NYG",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873077",
+          "event": "MIN VS SF",
+          "kickoff": "2026-11-23T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Christian McCaffrey anytime touchdown",
+          "player": "Christian McCaffrey",
+          "team": "SF",
+          "line": 0.5,
+          "price": -160,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "event_ids": [
+        "401873069",
+        "401873077"
+      ],
+      "game": "JAX @ NYG / MIN VS SF",
+      "kickoff": "2026-11-22T21:25Z",
+      "selection": "Bhayshul Tuten anytime touchdown / Cam Skattebo anytime touchdown / Christian McCaffrey anytime touchdown",
+      "market": "parlay",
+      "schedule_note": "Receipt displays JAX-NYG 3:26PM CT; official schedule 3:25PM CT retained separately. SF 7:20PM CT. Receipt display time does not replace official kickoff.",
+      "bet": "3-leg ATD SGP+: Bhayshul Tuten anytime touchdown / Cam Skattebo anytime touchdown / Christian McCaffrey anytime touchdown (Tuten/Skattebo SGP group +325; McCaffrey -160)",
+      "sgp_groups": [
+        {
+          "event_id": "401873069",
+          "price": 325,
+          "players": [
+            "Bhayshul Tuten",
+            "Cam Skattebo"
+          ],
+          "note": "Displayed combined same-game group price; individual leg prices not shown."
+        }
+      ]
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M82FB7651EV9NE3Q3TDA5KW0",
+      "source": "Owner iMessage Nov22 2:32PM CT. Original placed-receipt pixels and placement footers inspected.",
+      "cashout_offer_note": "Visible offer only, not executed. No cashout recorded.",
+      "notes": "Actual placed TN receipt terms, distinct from earlier recommendations. Receipt total return is authoritative, not recomputed from rounded displayed odds. No boost shown. Original receipt remains private. Parker Washington/Likely individual leg prices not shown, left null.",
+      "logged_at": "2026-11-22T20:33:16.903686+00:00",
+      "line": 0.5,
+      "bet_id": "us-tn:01m82f97qqew39r9a72w6msaqb",
+      "receipt_filename": "image-9a5ce975.png",
+      "placed_at": "2026-11-22T14:31:00-06:00",
+      "date": "2026-11-22T14:31:00-06:00",
+      "stake_usd": 10,
+      "price": 661,
+      "potential_payout_usd": 76.2,
+      "potential_profit_usd": 66.2,
+      "cashout_offer_usd": 10,
+      "rewards_points_pending": 40,
+      "source_receipt_sha256": "7a9cbf0bb3e28bb2b96f17499e430ceca838866a846729d8db6bd52132f218c6",
+      "legs": [
+        {
+          "event_id": "401873069",
+          "event": "JAX @ NYG",
+          "kickoff": "2026-11-22T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Parker Washington anytime touchdown",
+          "player": "Parker Washington",
+          "team": "JAX",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873069",
+          "event": "JAX @ NYG",
+          "kickoff": "2026-11-22T21:25Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Isaiah Likely anytime touchdown",
+          "player": "Isaiah Likely",
+          "team": "NYG",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "event_ids": [
+        "401873069"
+      ],
+      "game": "JAX @ NYG",
+      "kickoff": "2026-11-22T21:25Z",
+      "selection": "Parker Washington anytime touchdown / Isaiah Likely anytime touchdown",
+      "market": "parlay",
+      "schedule_note": "Receipt displays JAX-NYG 3:26PM CT; official schedule 3:25PM CT retained separately. SF 7:20PM CT. Receipt display time does not replace official kickoff.",
+      "bet": "2-leg ATD SGP: Parker Washington anytime touchdown / Isaiah Likely anytime touchdown",
+      "sgp_groups": [
+        {
+          "event_id": "401873069",
+          "price": 661,
+          "players": [
+            "Parker Washington",
+            "Isaiah Likely"
+          ],
+          "note": "Displayed whole same-game receipt price; individual leg prices not shown."
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "assembled_at": "2026-11-22T22:26:18.997135+00:00",
-  "checked_at": "2026-11-22T22:25:51.175Z",
-  "scope": "Week 11: 13 of 13 events have captured player prices, all 13 across all six standard categories. Nov. 22 4:25 PM CT round refreshed two strictly future events only, MIN-SF and CIN-WSH. All eleven started events are frozen at exact pregame prices: IND-HOU Nov. 19 6:21:41 PM CT, seven noon Sunday events Nov. 22 11:37-11:42 AM CT, NYJ-LAC 2:09:20 PM CT, LV-DEN 3:16:28 PM CT and JAX-NYG 3:17:15 PM CT. Actual prices and times are per event and row; Illinois only, not continuous or full-slate current coverage.",
+  "assembled_at": "2026-11-22T23:32:30.149599+00:00",
+  "checked_at": "2026-11-22T23:32:03.990Z",
+  "scope": "Week 11: 13 of 13 events have captured player prices, all 13 across all six standard categories. Nov. 22 5:31-5:32 PM CT round refreshed two strictly future events only, MIN-SF and CIN-WSH. All eleven started events are frozen at exact pregame prices: IND-HOU Nov. 19 6:21:41 PM CT, seven noon Sunday events Nov. 22 11:37-11:42 AM CT, NYJ-LAC 2:09:20 PM CT, LV-DEN 3:16:28 PM CT and JAX-NYG 3:17:15 PM CT. Actual prices and times are per event and row; Illinois only, not continuous or full-slate current coverage.",
   "state": "IL",
   "model_inputs_changed": false,
   "availability_note": "Book listing and roster membership are not game clearance. Model figures retain their own older source times and have no new injury/workload adjustment. Book prices are comparisons only; no betting edge or current TN offer claimed.",
@@ -17201,7 +17201,7 @@
       "frozen": true
     },
     {
-      "checked_at": "2026-11-22T22:25:11.985Z",
+      "checked_at": "2026-11-22T23:31:27.436Z",
       "state": "IL",
       "event_id": "401873077",
       "matchup": "Minnesota Vikings at San Francisco 49ers",
@@ -17231,7 +17231,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17254,7 +17254,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17269,6 +17269,29 @@
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
         },
         {
+          "player_id": "00-0033288",
+          "espn_id": "3040151",
+          "team_id": "SF",
+          "player_name": "George Kittle",
+          "market": "anytime_td",
+          "event_id": "401873077",
+          "kickoff": "2026-11-23T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-22T23:31:27.436Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 185
+            }
+          ],
+          "model_value": 0.41537378857341095,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
           "player_id": "00-0033293",
           "espn_id": "3042519",
           "team_id": "MIN",
@@ -17277,7 +17300,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17292,29 +17315,6 @@
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
         },
         {
-          "player_id": "00-0033288",
-          "espn_id": "3040151",
-          "team_id": "SF",
-          "player_name": "George Kittle",
-          "market": "anytime_td",
-          "event_id": "401873077",
-          "kickoff": "2026-11-23T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 190
-            }
-          ],
-          "model_value": 0.41537378857341095,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
           "player_id": "00-0031408",
           "espn_id": "16737",
           "team_id": "SF",
@@ -17323,7 +17323,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17338,6 +17338,29 @@
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
         },
         {
+          "player_id": "00-0035229",
+          "espn_id": "4036133",
+          "team_id": "MIN",
+          "player_name": "T.J. Hockenson",
+          "market": "anytime_td",
+          "event_id": "401873077",
+          "kickoff": "2026-11-23T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-22T23:31:27.436Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 220
+            }
+          ],
+          "model_value": 0.1722664566514873,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
           "player_id": "00-0037525",
           "espn_id": "4360569",
           "team_id": "MIN",
@@ -17346,7 +17369,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17361,29 +17384,6 @@
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
         },
         {
-          "player_id": "00-0035229",
-          "espn_id": "4036133",
-          "team_id": "MIN",
-          "player_name": "T.J. Hockenson",
-          "market": "anytime_td",
-          "event_id": "401873077",
-          "kickoff": "2026-11-23T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 250
-            }
-          ],
-          "model_value": 0.1722664566514873,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
           "player_id": "00-0035719",
           "espn_id": "3126486",
           "team_id": "SF",
@@ -17392,7 +17392,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17415,7 +17415,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17436,7 +17436,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17459,7 +17459,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17482,13 +17482,13 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 480
+              "price": 500
             }
           ],
           "model_value": null,
@@ -17503,28 +17503,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 700
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0040154",
-          "espn_id": "4565185",
-          "team_id": "MIN",
-          "player_name": "Tai Felton",
-          "market": "anytime_td",
-          "event_id": "401873077",
-          "kickoff": "2026-11-23T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17545,7 +17524,28 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 700
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
+        },
+        {
+          "player_id": "00-0040154",
+          "espn_id": "4565185",
+          "team_id": "MIN",
+          "player_name": "Tai Felton",
+          "market": "anytime_td",
+          "event_id": "401873077",
+          "kickoff": "2026-11-23T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17566,7 +17566,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17589,7 +17589,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17602,29 +17602,6 @@
           "model_label": "Unavailable: no compatible published player projection"
         },
         {
-          "player_id": "00-0040215",
-          "espn_id": "4708049",
-          "team_id": "MIN",
-          "player_name": "Gavin Bartholomew",
-          "market": "anytime_td",
-          "event_id": "401873077",
-          "kickoff": "2026-11-23T01:20Z",
-          "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 1200
-            }
-          ],
-          "model_value": 0.13016450651138253,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
           "player_id": "00-0029892",
           "espn_id": "16002",
           "team_id": "SF",
@@ -17633,7 +17610,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17654,7 +17631,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17667,6 +17644,29 @@
           "model_label": "Unavailable: no compatible published player projection"
         },
         {
+          "player_id": "00-0040215",
+          "espn_id": "4708049",
+          "team_id": "MIN",
+          "player_name": "Gavin Bartholomew",
+          "market": "anytime_td",
+          "event_id": "401873077",
+          "kickoff": "2026-11-23T01:20Z",
+          "state": "IL",
+          "captured_at": "2026-11-22T23:31:27.436Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1300
+            }
+          ],
+          "model_value": 0.13016450651138253,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
           "player_id": "00-0040509",
           "espn_id": "4433959",
           "team_id": "MIN",
@@ -17675,13 +17675,13 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1400
+              "price": 1600
             }
           ],
           "model_value": null,
@@ -17696,13 +17696,13 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1800
+              "price": 1900
             }
           ],
           "model_value": null,
@@ -17717,7 +17717,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17738,7 +17738,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17759,7 +17759,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17780,7 +17780,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17801,7 +17801,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17822,7 +17822,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17848,7 +17848,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17874,18 +17874,18 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": -118
+              "price": -120
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -110
+              "price": -108
             }
           ],
           "model_value": null,
@@ -17900,7 +17900,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17926,7 +17926,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17954,7 +17954,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -17982,7 +17982,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18010,7 +18010,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18038,7 +18038,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18064,7 +18064,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18090,7 +18090,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18118,7 +18118,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18146,7 +18146,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18172,7 +18172,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18200,17 +18200,17 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "over",
-              "line": 18.5,
+              "line": 19.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 18.5,
+              "line": 19.5,
               "price": -113
             }
           ],
@@ -18228,7 +18228,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18256,7 +18256,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18284,7 +18284,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18312,7 +18312,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18340,7 +18340,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18368,7 +18368,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18396,7 +18396,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18424,7 +18424,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18452,17 +18452,17 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "over",
-              "line": 9.5,
+              "line": 8.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 9.5,
+              "line": 8.5,
               "price": -113
             }
           ],
@@ -18480,7 +18480,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18508,7 +18508,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18534,7 +18534,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18562,7 +18562,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18590,7 +18590,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18618,7 +18618,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18646,7 +18646,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18674,7 +18674,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18702,7 +18702,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18730,7 +18730,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18758,7 +18758,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18786,18 +18786,18 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
               "side": "over",
               "line": 0.5,
-              "price": -148
+              "price": -136
             },
             {
               "side": "under",
               "line": 0.5,
-              "price": 112
+              "price": 102
             }
           ],
           "model_value": 2.2,
@@ -18814,7 +18814,7 @@
           "event_id": "401873077",
           "kickoff": "2026-11-23T01:20Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:11.985Z",
+          "captured_at": "2026-11-22T23:31:27.436Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
           "selections": [
             {
@@ -18838,7 +18838,7 @@
       "frozen": false
     },
     {
-      "checked_at": "2026-11-22T22:25:51.175Z",
+      "checked_at": "2026-11-22T23:32:03.990Z",
       "state": "IL",
       "event_id": "401873078",
       "matchup": "Cincinnati Bengals at Washington Commanders",
@@ -18868,7 +18868,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18891,7 +18891,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18914,7 +18914,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18937,7 +18937,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18960,7 +18960,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18983,7 +18983,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19006,7 +19006,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19029,7 +19029,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19052,7 +19052,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19075,7 +19075,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19098,7 +19098,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19121,7 +19121,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19144,7 +19144,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19167,7 +19167,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19190,7 +19190,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19211,7 +19211,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19232,7 +19232,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19253,7 +19253,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19274,7 +19274,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19297,7 +19297,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19318,7 +19318,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19339,7 +19339,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19360,7 +19360,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19383,7 +19383,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19404,7 +19404,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19425,7 +19425,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19446,7 +19446,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19467,7 +19467,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19493,7 +19493,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19519,7 +19519,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19545,7 +19545,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19571,7 +19571,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19599,7 +19599,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19625,7 +19625,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19651,7 +19651,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19679,7 +19679,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19707,7 +19707,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19735,7 +19735,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19763,7 +19763,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19791,7 +19791,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19819,7 +19819,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19847,7 +19847,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19875,7 +19875,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19903,7 +19903,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19931,7 +19931,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19959,7 +19959,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19987,7 +19987,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20015,7 +20015,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20043,7 +20043,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20071,7 +20071,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20099,7 +20099,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20127,7 +20127,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20155,7 +20155,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20183,7 +20183,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20211,7 +20211,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20239,7 +20239,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20267,7 +20267,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20295,7 +20295,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20323,7 +20323,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-22T22:25:51.175Z",
+          "captured_at": "2026-11-22T23:32:03.990Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -36939,7 +36939,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -36962,7 +36962,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -36977,6 +36977,29 @@
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
     },
     {
+      "player_id": "00-0033288",
+      "espn_id": "3040151",
+      "team_id": "SF",
+      "player_name": "George Kittle",
+      "market": "anytime_td",
+      "event_id": "401873077",
+      "kickoff": "2026-11-23T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-22T23:31:27.436Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 185
+        }
+      ],
+      "model_value": 0.41537378857341095,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
       "player_id": "00-0033293",
       "espn_id": "3042519",
       "team_id": "MIN",
@@ -36985,7 +37008,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37000,29 +37023,6 @@
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
     },
     {
-      "player_id": "00-0033288",
-      "espn_id": "3040151",
-      "team_id": "SF",
-      "player_name": "George Kittle",
-      "market": "anytime_td",
-      "event_id": "401873077",
-      "kickoff": "2026-11-23T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 190
-        }
-      ],
-      "model_value": 0.41537378857341095,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
       "player_id": "00-0031408",
       "espn_id": "16737",
       "team_id": "SF",
@@ -37031,7 +37031,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37046,6 +37046,29 @@
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
     },
     {
+      "player_id": "00-0035229",
+      "espn_id": "4036133",
+      "team_id": "MIN",
+      "player_name": "T.J. Hockenson",
+      "market": "anytime_td",
+      "event_id": "401873077",
+      "kickoff": "2026-11-23T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-22T23:31:27.436Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 220
+        }
+      ],
+      "model_value": 0.1722664566514873,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
       "player_id": "00-0037525",
       "espn_id": "4360569",
       "team_id": "MIN",
@@ -37054,7 +37077,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37069,29 +37092,6 @@
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
     },
     {
-      "player_id": "00-0035229",
-      "espn_id": "4036133",
-      "team_id": "MIN",
-      "player_name": "T.J. Hockenson",
-      "market": "anytime_td",
-      "event_id": "401873077",
-      "kickoff": "2026-11-23T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 250
-        }
-      ],
-      "model_value": 0.1722664566514873,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
       "player_id": "00-0035719",
       "espn_id": "3126486",
       "team_id": "SF",
@@ -37100,7 +37100,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37123,7 +37123,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37144,7 +37144,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37167,7 +37167,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37190,13 +37190,13 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 480
+          "price": 500
         }
       ],
       "model_value": null,
@@ -37211,28 +37211,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 700
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0040154",
-      "espn_id": "4565185",
-      "team_id": "MIN",
-      "player_name": "Tai Felton",
-      "market": "anytime_td",
-      "event_id": "401873077",
-      "kickoff": "2026-11-23T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37253,7 +37232,28 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 700
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
+    },
+    {
+      "player_id": "00-0040154",
+      "espn_id": "4565185",
+      "team_id": "MIN",
+      "player_name": "Tai Felton",
+      "market": "anytime_td",
+      "event_id": "401873077",
+      "kickoff": "2026-11-23T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37274,7 +37274,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37297,7 +37297,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37310,29 +37310,6 @@
       "model_label": "Unavailable: no compatible published player projection"
     },
     {
-      "player_id": "00-0040215",
-      "espn_id": "4708049",
-      "team_id": "MIN",
-      "player_name": "Gavin Bartholomew",
-      "market": "anytime_td",
-      "event_id": "401873077",
-      "kickoff": "2026-11-23T01:20Z",
-      "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 1200
-        }
-      ],
-      "model_value": 0.13016450651138253,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
       "player_id": "00-0029892",
       "espn_id": "16002",
       "team_id": "SF",
@@ -37341,7 +37318,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37362,7 +37339,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37375,6 +37352,29 @@
       "model_label": "Unavailable: no compatible published player projection"
     },
     {
+      "player_id": "00-0040215",
+      "espn_id": "4708049",
+      "team_id": "MIN",
+      "player_name": "Gavin Bartholomew",
+      "market": "anytime_td",
+      "event_id": "401873077",
+      "kickoff": "2026-11-23T01:20Z",
+      "state": "IL",
+      "captured_at": "2026-11-22T23:31:27.436Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1300
+        }
+      ],
+      "model_value": 0.13016450651138253,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
       "player_id": "00-0040509",
       "espn_id": "4433959",
       "team_id": "MIN",
@@ -37383,13 +37383,13 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1400
+          "price": 1600
         }
       ],
       "model_value": null,
@@ -37404,13 +37404,13 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1800
+          "price": 1900
         }
       ],
       "model_value": null,
@@ -37425,7 +37425,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37446,7 +37446,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37467,7 +37467,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37488,7 +37488,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37509,7 +37509,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37530,7 +37530,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37556,7 +37556,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37582,18 +37582,18 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": -118
+          "price": -120
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -110
+          "price": -108
         }
       ],
       "model_value": null,
@@ -37608,7 +37608,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37634,7 +37634,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37662,7 +37662,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37690,7 +37690,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37718,7 +37718,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37746,7 +37746,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37772,7 +37772,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37798,7 +37798,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37826,7 +37826,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37854,7 +37854,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37880,7 +37880,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37908,17 +37908,17 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "over",
-          "line": 18.5,
+          "line": 19.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 18.5,
+          "line": 19.5,
           "price": -113
         }
       ],
@@ -37936,7 +37936,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37964,7 +37964,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -37992,7 +37992,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38020,7 +38020,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38048,7 +38048,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38076,7 +38076,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38104,7 +38104,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38132,7 +38132,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38160,17 +38160,17 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "over",
-          "line": 9.5,
+          "line": 8.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 9.5,
+          "line": 8.5,
           "price": -113
         }
       ],
@@ -38188,7 +38188,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38216,7 +38216,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38242,7 +38242,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38270,7 +38270,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38298,7 +38298,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38326,7 +38326,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38354,7 +38354,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38382,7 +38382,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38410,7 +38410,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38438,7 +38438,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38466,7 +38466,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38494,18 +38494,18 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
           "side": "over",
           "line": 0.5,
-          "price": -148
+          "price": -136
         },
         {
           "side": "under",
           "line": 0.5,
-          "price": 112
+          "price": 102
         }
       ],
       "model_value": 2.2,
@@ -38522,7 +38522,7 @@
       "event_id": "401873077",
       "kickoff": "2026-11-23T01:20Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:11.985Z",
+      "captured_at": "2026-11-22T23:31:27.436Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
       "selections": [
         {
@@ -38550,7 +38550,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38573,7 +38573,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38596,7 +38596,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38619,7 +38619,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38642,7 +38642,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38665,7 +38665,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38688,7 +38688,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38711,7 +38711,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38734,7 +38734,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38757,7 +38757,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38780,7 +38780,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38803,7 +38803,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38826,7 +38826,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38849,7 +38849,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38872,7 +38872,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38893,7 +38893,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38914,7 +38914,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38935,7 +38935,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38956,7 +38956,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38979,7 +38979,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39000,7 +39000,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39021,7 +39021,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39042,7 +39042,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39065,7 +39065,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39086,7 +39086,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39107,7 +39107,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39128,7 +39128,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39149,7 +39149,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39175,7 +39175,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39201,7 +39201,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39227,7 +39227,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39253,7 +39253,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39281,7 +39281,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39307,7 +39307,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39333,7 +39333,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39361,7 +39361,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39389,7 +39389,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39417,7 +39417,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39445,7 +39445,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39473,7 +39473,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39501,7 +39501,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39529,7 +39529,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39557,7 +39557,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39585,7 +39585,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39613,7 +39613,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39641,7 +39641,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39669,7 +39669,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39697,7 +39697,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39725,7 +39725,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39753,7 +39753,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39781,7 +39781,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39809,7 +39809,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39837,7 +39837,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39865,7 +39865,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39893,7 +39893,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39921,7 +39921,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39949,7 +39949,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39977,7 +39977,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40005,7 +40005,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-22T22:25:51.175Z",
+      "captured_at": "2026-11-22T23:32:03.990Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40365,7 +40365,7 @@
       "event_id": "401873077",
       "matchup": "Minnesota Vikings at San Francisco 49ers",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/minnesota-vikings-@-san-francisco-49ers-35605987",
-      "inventory_checked_at": "2026-11-22T22:25:12.467Z",
+      "inventory_checked_at": "2026-11-22T23:31:28.038Z",
       "full_dom_header_count": 154,
       "event_prop_tabs": [
         "Passing Props",
@@ -40389,7 +40389,7 @@
       "event_id": "401873078",
       "matchup": "Cincinnati Bengals at Washington Commanders",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "inventory_checked_at": "2026-11-22T22:25:51.650Z",
+      "inventory_checked_at": "2026-11-22T23:32:04.554Z",
       "full_dom_header_count": 136,
       "event_prop_tabs": [
         "Passing Props",

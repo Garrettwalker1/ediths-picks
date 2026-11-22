@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T16:58:41.325743+00:00",
+    "sha256": "bd4435a6a48b62569ce3865a7988fc73d9ec504e807802bd34d03ecea8e4d0ae",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "MIN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/min/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "a28c91f96f07eddc9c24f01a1dff2953eadba5c908f0fb1c42141e326680c5b4"
+  },
+  {
+    "team": "SF",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/sf/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "2add284b97bf2a7fde765545de72cf06457fe820d1dfda19a071306dfbc30bce"
+  }
+]

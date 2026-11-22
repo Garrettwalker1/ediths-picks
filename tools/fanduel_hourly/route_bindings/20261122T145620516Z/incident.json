@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-11-22T14:56:15Z",
+  "type": "prevalidation_diagnostic_price_attribute_exposure",
+  "affected_matchup": "Kent State at Eastern Michigan",
+  "summary": "A structural diagnostic stripped visible text but retained price-bearing attributes while locating the clock. Response excluded from pricing pipeline. Later metadata-only team/time match passed; only subsequent gated capture used for prices.",
+  "recovery": "Select only team aria-labels and time datetime attributes; no aggregate markup inspection before route verification."
+}

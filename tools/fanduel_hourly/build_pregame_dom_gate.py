@@ -15,6 +15,15 @@ def build(repo):
    rec={'event_id':eid,'kickoff':kickoff,'frozen':bool(row.get('frozen')),'conflict':conflict}
    if route in routes and routes[route]!=rec:rec['conflict']=True;conflicts.append(eid)
    routes[route]=rec
+ # Optional current-slate bindings are re-derived from metadata, never blindly trusted.
+ for metadata_path in sorted((repo/'tools/fanduel_hourly/route_bindings').glob('*/metadata.json')):
+  from bind_current_cfb_routes import bind
+  metadata=json.loads(metadata_path.read_text())
+  for row in bind(repo,metadata)['accepted']:
+   route='/'+'/'.join(row['url'].split('/')[3:]).split('?')[0].rstrip('/')
+   rec={'event_id':str(row['event_id']),'kickoff':row['kickoff'],'frozen':False,'conflict':False}
+   if route in routes and routes[route]!=rec:rec['conflict']=True;conflicts.append(str(row['event_id']))
+   routes[route]=rec
  return routes,conflicts
 JS=r'''
 const rows=[],excluded=[];

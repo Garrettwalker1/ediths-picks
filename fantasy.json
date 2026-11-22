@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-22T17:19:09+00:00",
-  "refresh_note": "Week 11 own-roster snapshot. ESPN read Nov. 22, 11:17-11:18 AM CT; Sleeper 11:19 AM CT. Bengals now start in Horndogs and 49ers in Not a Dell; Seattle is benched in both. No starting byes or Out/IR/Doubtful provider tags. At 11:09 AM CT, none of 26 noon starters was listed inactive. Later-game clearance is unverified. Boutte's Questionable tag is stale after Thursday participation. Matchups, scores and projections are unavailable, not zero. No lineup changes made by Instinct. The shared-player feed has its own older timestamp. Chicago plays this week.",
+  "updated_at": "2026-11-22T21:00:13+00:00",
+  "refresh_note": "Eight-league Week 11 roster snapshot, November22: ESPN3:00:00-3:00:25PM CT, Sleeper3:00:13PM CT. Both former bye-defense starts are fixed: Bengals in Horndogs,49ers in Not a Dell; Seattle benched in both. No starting byes or Out/IR/Doubtful provider tags. Official3:01:14PM CT afternoon check found none of10 unique individual players across15 starter appearances inactive. Two Broncos D/ST starts make17 total afternoon starter appearances, not17 individual players. Earlier noon check remains separate; SNF/Monday not cleared by these checks. Boutte's Questionable provider tag is stale after Thursday participation. Current matchup opponents, scores and projections unavailable; missing values are not zero. Chicago plays this week. No lineup changes made by Instinct. Shared-player feed retains its separate older timestamp.",
   "providers": [
     {
       "name": "ESPN",
       "status": "rosters_and_provider_tags_only",
-      "observed_at": "2026-11-22T17:17:53+00:00"
+      "observed_at": "2026-11-22T21:00:00+00:00"
     },
     {
       "name": "Sleeper",
       "status": "rosters_and_provider_tags_only",
-      "observed_at": "2026-11-22T17:19:09+00:00"
+      "observed_at": "2026-11-22T21:00:13+00:00"
     }
   ],
   "injury_check": {
     "status": "partial",
-    "checked_at": "2026-11-22T17:19:09+00:00",
-    "source": "League-provider roster tags; separate official noon inactive check",
-    "coverage": "All eight own rosters read. Official noon check found none of 26 starters inactive as of 11:09 AM CT. Provider tags may be stale and do not establish later-game clearance, final points or available lineup changes."
+    "checked_at": "2026-11-22T21:00:13+00:00",
+    "source": "League-provider roster tags; separate official noon and afternoon inactive checks",
+    "coverage": "All eight own rosters read. Afternoon official3:01:14PM CT check found none of10 unique individual players across15 starter appearances inactive; two Broncos D/ST starts bring afternoon appearances to17. Earlier noon check separate. Provider tags may be stale; no SNF/Monday clearance, final points or lineup-change eligibility established."
   },
   "bye_verification": {
     "checked_at": "2026-11-18T15:05:00+00:00",
@@ -41,6 +41,17 @@
     "starters_checked": 26,
     "starters_inactive": 0
   },
+  "official_afternoon_check": {
+    "verified_at": "2026-11-22T21:01:14+00:00",
+    "source": "https://www.nfl.com/news/nfl-week-11-inactives-players-ruled-out-sunday-2026-season",
+    "scope": "official inactives, NYJ@LAC 3:05 PM CT, LV@DEN and JAX@NYG 3:25 PM CT",
+    "unique_individual_players_checked": 10,
+    "individual_player_starter_appearances_checked": 15,
+    "individual_players_inactive": 0,
+    "team_defense_starter_appearances": 2,
+    "total_afternoon_starter_appearances": 17,
+    "note": "Broncos D/ST counted as a scheduled team defense, not an individually cleared player. SNF/Monday checks separate."
+  },
   "known_official_corrections": [
     {
       "player": "Kayshon Boutte (WR HOU)",
@@ -63,7 +74,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:19:09+00:00",
+      "observed_at": "2026-11-22T21:00:13+00:00",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
       "players": [
@@ -78,12 +89,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -97,12 +108,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -116,12 +127,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -135,12 +146,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -154,12 +165,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -173,12 +184,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -192,12 +203,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -211,12 +222,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -230,12 +241,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -249,12 +260,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -268,12 +279,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -287,12 +298,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -306,12 +317,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -325,12 +336,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -344,12 +355,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -363,12 +374,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1387915755609157632/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         }
       ],
@@ -386,7 +397,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:19:09+00:00",
+      "observed_at": "2026-11-22T21:00:13+00:00",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
       "players": [
@@ -401,12 +412,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -420,12 +431,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -439,12 +450,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -458,12 +469,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -477,12 +488,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -496,12 +507,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -515,12 +526,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -534,12 +545,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -553,12 +564,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -572,12 +583,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -591,12 +602,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -610,12 +621,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -629,12 +640,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -648,12 +659,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -667,12 +678,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1395822791856525312/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         }
       ],
@@ -690,7 +701,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:19:09+00:00",
+      "observed_at": "2026-11-22T21:00:13+00:00",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
       "players": [
@@ -705,12 +716,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -724,12 +735,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -743,12 +754,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -762,12 +773,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -781,12 +792,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -800,12 +811,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -819,12 +830,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -838,12 +849,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -857,12 +868,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -876,12 +887,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -895,12 +906,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -914,12 +925,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -933,12 +944,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -952,12 +963,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -971,12 +982,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -990,12 +1001,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1389357500502917120/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         }
       ],
@@ -1013,7 +1024,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:19:09+00:00",
+      "observed_at": "2026-11-22T21:00:13+00:00",
       "source": "Sleeper",
       "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
       "players": [
@@ -1028,12 +1039,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1047,12 +1058,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1066,12 +1077,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1085,12 +1096,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1104,12 +1115,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1123,12 +1134,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1142,12 +1153,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1161,12 +1172,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1180,12 +1191,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1199,12 +1210,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1218,12 +1229,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1237,12 +1248,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1256,12 +1267,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1275,12 +1286,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1294,12 +1305,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1313,12 +1324,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1332,12 +1343,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1351,12 +1362,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1370,12 +1381,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1389,12 +1400,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Out",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1408,12 +1419,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1427,12 +1438,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1446,12 +1457,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1465,12 +1476,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1484,12 +1495,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1503,12 +1514,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1522,12 +1533,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1541,12 +1552,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1560,12 +1571,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "IR",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1579,12 +1590,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Out",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         },
         {
@@ -1598,12 +1609,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": true
         },
         {
@@ -1617,12 +1628,12 @@
           "projected": null,
           "source": "Sleeper",
           "source_url": "https://api.sleeper.app/v1/league/1386111628138782720/rosters",
-          "observed_at": "2026-11-22T17:19:09+00:00",
+          "observed_at": "2026-11-22T21:00:13+00:00",
           "provider_updated_at": null,
           "injury_status": "Out",
           "injury_checked": true,
           "injury_source": "Sleeper roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:19:09+00:00",
+          "injury_observed_at": "2026-11-22T21:00:13+00:00",
           "bye_this_week": false
         }
       ],
@@ -1640,7 +1651,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:17:53+00:00",
+      "observed_at": "2026-11-22T21:00:00+00:00",
       "source": "ESPN",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
       "players": [
@@ -1655,12 +1666,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1674,12 +1685,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1693,12 +1704,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1712,12 +1723,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1731,12 +1742,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1750,12 +1761,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1769,12 +1780,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1788,12 +1799,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1807,12 +1818,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1826,12 +1837,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Doubtful",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -1845,12 +1856,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -1864,12 +1875,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -1883,12 +1894,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1902,12 +1913,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1921,12 +1932,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -1940,12 +1951,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -1959,12 +1970,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=184489982&teamId=1&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         }
       ],
@@ -1982,7 +1993,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:17:53+00:00",
+      "observed_at": "2026-11-22T21:00:00+00:00",
       "source": "ESPN",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
       "players": [
@@ -1997,12 +2008,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2016,12 +2027,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2035,12 +2046,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2054,12 +2065,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2073,12 +2084,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2092,12 +2103,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2111,12 +2122,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2130,12 +2141,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2149,12 +2160,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2168,12 +2179,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2187,12 +2198,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2206,12 +2217,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2225,12 +2236,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2244,12 +2255,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2263,12 +2274,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2282,12 +2293,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2301,12 +2312,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2320,12 +2331,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2339,12 +2350,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=1242450525&teamId=8&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         }
       ],
@@ -2362,7 +2373,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:17:53+00:00",
+      "observed_at": "2026-11-22T21:00:00+00:00",
       "source": "ESPN",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
       "players": [
@@ -2377,12 +2388,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2396,12 +2407,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2415,12 +2426,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2434,12 +2445,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2453,12 +2464,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2472,12 +2483,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2491,12 +2502,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2510,12 +2521,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2529,12 +2540,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2548,12 +2559,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2567,12 +2578,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2586,12 +2597,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2605,12 +2616,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2624,12 +2635,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2643,12 +2654,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2662,12 +2673,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2681,12 +2692,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=416480692&teamId=7&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         }
       ],
@@ -2704,7 +2715,7 @@
       "status": "roster snapshot",
       "season": "2026",
       "week": 11,
-      "observed_at": "2026-11-22T17:17:53+00:00",
+      "observed_at": "2026-11-22T21:00:00+00:00",
       "source": "ESPN",
       "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
       "players": [
@@ -2719,12 +2730,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2738,12 +2749,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2757,12 +2768,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2776,12 +2787,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2795,12 +2806,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2814,12 +2825,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2833,14 +2844,14 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Questionable",
           "injury_checked": true,
           "injury_source": "ESPN roster tag, stale after Thursday participation",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false,
-          "injury_detail": "Provider Questionable tag is stale: participated Thursday Nov. 19 against Indianapolis (2 receptions, 40 yards). That game is complete; no lineup move is possible for that game."
+          "injury_detail": "Provider Questionable tag is stale: participated Thursday Nov19 against Indianapolis (2 receptions,40 yards). That game is complete; no lineup move is possible for that game."
         },
         {
           "id": "4686728",
@@ -2853,12 +2864,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2872,12 +2883,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2891,12 +2902,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -2910,12 +2921,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Doubtful",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2929,12 +2940,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2948,12 +2959,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2967,12 +2978,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": null,
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": true
         },
         {
@@ -2986,12 +2997,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -3005,12 +3016,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Active",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         },
         {
@@ -3024,12 +3035,12 @@
           "projected": null,
           "source": "ESPN",
           "source_url": "https://fantasy.espn.com/football/team?leagueId=14911042&teamId=10&seasonId=2026",
-          "observed_at": "2026-11-22T17:17:53+00:00",
+          "observed_at": "2026-11-22T21:00:00+00:00",
           "provider_updated_at": null,
           "injury_status": "Injured Reserve",
           "injury_checked": true,
           "injury_source": "ESPN roster tag (not official game clearance)",
-          "injury_observed_at": "2026-11-22T17:17:53+00:00",
+          "injury_observed_at": "2026-11-22T21:00:00+00:00",
           "bye_this_week": false
         }
       ],

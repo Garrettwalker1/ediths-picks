@@ -44,7 +44,7 @@ for(const a of document.querySelectorAll('a[href]')){
   if(eventPaths.size>1){excluded.push({url:a.href,reason:'ambiguous multi-event ancestor'});break;}
   const t=p.innerText;if(/\nO \d/.test(t)&&/\nU \d/.test(t)&&/\d+:\d+.*CT/.test(t)){rows.push({teams:a.innerText,text:t,url:a.href});break;}}
 }
-return{at:new Date().toISOString(),url:location.href,state_evidence:document.body.innerText.split('\n').filter(x=>x.includes('Illinois Gaming Board')),rows,excluded,schedule_gate:'known verified kickoff strictly future, no frozen/conflicting state'};
+return{at:new Date().toISOString(),url:location.href,state_evidence:(()=>{const x=document.evaluate("//text()[contains(.,'authorized by the Illinois Gaming Board')]",document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null);return Array.from({length:x.snapshotLength},(_,i)=>x.snapshotItem(i).textContent)})(),rows,excluded,schedule_gate:'known verified kickoff strictly future, no frozen/conflicting state'};
 '''
 def generate(repo):
  routes,conflicts=build(repo)

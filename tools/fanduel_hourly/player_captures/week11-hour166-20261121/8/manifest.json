@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "identity_evidence",
+    "retrieved_at": "2026-11-17T13:14:43.482938+00:00",
+    "prepared_at": "2026-11-17T18:25:52.117707+00:00",
+    "sha256": "1fbe80d26b9b2caae129a79cd3e96488856c6d5bc65853ceb656266439df84b7",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv"
+  },
+  {
+    "team": "TEN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/ten/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "36ecd144d34989fc580be58f73e4f093ba4c5ccf2d45d7dc4fe57eff2f1b743f"
+  },
+  {
+    "team": "DAL",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/dal/roster",
+    "retrieved_at": "2026-11-17T13:13:02.933339+00:00",
+    "sha256": "cee35117dc7fc4d1b682db397e43133f0b8d8ade99c39d2d1e1f64cb0e25267c"
+  }
+]

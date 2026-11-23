@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-22T20:33:16.903686+00:00",
+  "updated_at": "2026-11-23T00:33:26.447311+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -15232,8 +15232,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
       "source_message_id": "phonemsg-01M8227QXP7GK4DCD0Y7AE2JHS",
@@ -15257,8 +15257,53 @@
           "team": "NO",
           "line": 0.5,
           "price": 330,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873071",
+          "player_id": "4880281",
+          "final_boxscore": [
+            {
+              "category": "passing",
+              "player_id": "4880281",
+              "stats": {
+                "C/ATT": "0/1",
+                "YDS": "0",
+                "AVG": "0.0",
+                "TD": "0",
+                "INT": "0",
+                "SACKS": "0-0",
+                "QBR": "16.4",
+                "RTG": "39.6"
+              }
+            },
+            {
+              "category": "rushing",
+              "player_id": "4880281",
+              "stats": {
+                "CAR": "1",
+                "YDS": "4",
+                "AVG": "4.0",
+                "TD": "0",
+                "LONG": "4"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4880281",
+              "stats": {
+                "REC": "1",
+                "YDS": "6",
+                "AVG": "6.0",
+                "TD": "0",
+                "LONG": "6",
+                "TGTS": "2"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "CHI 21; NO 13",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873067",
@@ -15270,8 +15315,39 @@
           "team": "ARI",
           "line": 0.5,
           "price": 290,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873067",
+          "player_id": "4361307",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4361307",
+              "stats": {
+                "CAR": "1",
+                "YDS": "4",
+                "AVG": "4.0",
+                "TD": "0",
+                "LONG": "4"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4361307",
+              "stats": {
+                "REC": "9",
+                "YDS": "54",
+                "AVG": "6.0",
+                "TD": "0",
+                "LONG": "9",
+                "TGTS": "14"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "KC 34; ARI 7",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -15283,7 +15359,17 @@
       "selection": "Jordyn Tyson anytime touchdown / Trey McBride anytime touchdown",
       "bet": "2-leg ATD parlay: Jordyn Tyson anytime touchdown / Trey McBride anytime touchdown",
       "schedule_note": "Receipt displays noon games at12:01PMCT and LV-DEN3:26PMCT. Official schedule retained at12:00/3:25PMCT; no schedule change inferred. Chase leg is MondayNov23, so four-leg ticket can remain open through Monday.",
-      "stake_display": "usd"
+      "stake_display": "usd",
+      "payout_usd": 0,
+      "net_usd": -10,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:33:26.447311+00:00",
+      "final_leg_check_at": "2026-11-23T00:33:26.447311+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873071",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873067"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "bet_id": "us-tn:01m81p4pgge9hv2jwv5a2fe1pf",
@@ -15298,8 +15384,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
       "source_message_id": "phonemsg-01M8227QXP7GK4DCD0Y7AE2JHS",
@@ -15323,8 +15409,28 @@
           "team": "DAL",
           "line": 0.5,
           "price": -165,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873073",
+          "player_id": "4241389",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4241389",
+              "stats": {
+                "REC": "11",
+                "YDS": "132",
+                "AVG": "12.0",
+                "TD": "1",
+                "LONG": "29",
+                "TGTS": "12"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "DAL 51; TEN 30",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873067",
@@ -15336,8 +15442,39 @@
           "team": "KC",
           "line": 0.5,
           "price": -210,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873067",
+          "player_id": "4832955",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4832955",
+              "stats": {
+                "CAR": "23",
+                "YDS": "105",
+                "AVG": "4.6",
+                "TD": "1",
+                "LONG": "16"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4832955",
+              "stats": {
+                "REC": "4",
+                "YDS": "38",
+                "AVG": "9.5",
+                "TD": "0",
+                "LONG": "12",
+                "TGTS": "4"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "KC 34; ARI 7",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873068",
@@ -15349,8 +15486,39 @@
           "team": "BAL",
           "line": 0.5,
           "price": 180,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873068",
+          "player_id": "4429615",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4429615",
+              "stats": {
+                "CAR": "1",
+                "YDS": "-13",
+                "AVG": "-13.0",
+                "TD": "0",
+                "LONG": "-13"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4429615",
+              "stats": {
+                "REC": "8",
+                "YDS": "97",
+                "AVG": "12.1",
+                "TD": "0",
+                "LONG": "26",
+                "TGTS": "11"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "CAR 35; BAL 33",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -15363,7 +15531,18 @@
       "selection": "CeeDee Lamb anytime touchdown / Emmett Johnson anytime touchdown / Zay Flowers anytime touchdown",
       "bet": "3-leg ATD parlay: CeeDee Lamb anytime touchdown / Emmett Johnson anytime touchdown / Zay Flowers anytime touchdown",
       "schedule_note": "Receipt displays noon games at12:01PMCT and LV-DEN3:26PMCT. Official schedule retained at12:00/3:25PMCT; no schedule change inferred. Chase leg is MondayNov23, so four-leg ticket can remain open through Monday.",
-      "stake_display": "usd"
+      "stake_display": "usd",
+      "payout_usd": 0,
+      "net_usd": -10,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:33:26.447311+00:00",
+      "final_leg_check_at": "2026-11-23T00:33:26.447311+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873073",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873067",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873068"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "bet_id": "us-tn:01m81p6r9xefyb8n3hrj5pf876",
@@ -15405,8 +15584,39 @@
           "team": "BUF",
           "line": 0.5,
           "price": -159,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873070",
+          "player_id": "4379399",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4379399",
+              "stats": {
+                "CAR": "22",
+                "YDS": "89",
+                "AVG": "4.0",
+                "TD": "1",
+                "LONG": "13"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4379399",
+              "stats": {
+                "REC": "2",
+                "YDS": "3",
+                "AVG": "1.5",
+                "TD": "0",
+                "LONG": "2",
+                "TGTS": "2"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "BUF 26; MIA 9",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873075",
@@ -15474,8 +15684,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_units": null,
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
       "source_message_id": "phonemsg-01M8227QXP7GK4DCD0Y7AE2JHS",
@@ -15499,8 +15709,41 @@
           "team": "TEN",
           "line": 0.5,
           "price": 190,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873073",
+          "player_id": "4871023",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4871023",
+              "stats": {
+                "REC": "2",
+                "YDS": "58",
+                "AVG": "29.0",
+                "TD": "1",
+                "LONG": "59",
+                "TGTS": "5"
+              }
+            },
+            {
+              "category": "defensive",
+              "player_id": "4871023",
+              "stats": {
+                "TOT": "1",
+                "SOLO": "1",
+                "SACKS": "0",
+                "TFL": "0",
+                "PD": "0",
+                "QB HTS": "0",
+                "TD": "0"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "DAL 51; TEN 30",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -15511,7 +15754,16 @@
       "selection": "Carnell Tate anytime touchdown",
       "bet": "Carnell Tate anytime touchdown",
       "schedule_note": "Receipt displays noon games at12:01PMCT and LV-DEN3:26PMCT. Official schedule retained at12:00/3:25PMCT; no schedule change inferred. Chase leg is MondayNov23, so four-leg ticket can remain open through Monday.",
-      "stake_display": "usd"
+      "stake_display": "usd",
+      "payout_usd": 40.31,
+      "net_usd": 26.41,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:33:26.447311+00:00",
+      "final_leg_check_at": "2026-11-23T00:33:26.447311+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873073"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "bet_id": "us-tn:01m823fv0qetgbtegz4ntcse76",
@@ -15526,8 +15778,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -15552,8 +15804,39 @@
           "team": "NYJ",
           "line": 0.5,
           "price": 270,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873074",
+          "player_id": "4685247",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4685247",
+              "stats": {
+                "CAR": "16",
+                "YDS": "75",
+                "AVG": "4.7",
+                "TD": "0",
+                "LONG": "15"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4685247",
+              "stats": {
+                "REC": "1",
+                "YDS": "9",
+                "AVG": "9.0",
+                "TD": "0",
+                "LONG": "9",
+                "TGTS": "1"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "LAC 24; NYJ 27",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873075",
@@ -15591,7 +15874,16 @@
       "kickoff": "2026-11-22T21:05Z",
       "selection": "Braelon Allen anytime touchdown / Ashton Jeanty anytime touchdown / Malik Nabers anytime touchdown",
       "bet": "3-leg ATD parlay: Braelon Allen anytime touchdown / Ashton Jeanty anytime touchdown / Malik Nabers anytime touchdown",
-      "schedule_note": "Receipt game display times can be one minute later than official schedule. Verified official event kickoffs retained; all three legs Sunday Nov22."
+      "schedule_note": "Receipt game display times can be one minute later than official schedule. Verified official event kickoffs retained; all three legs Sunday Nov22.",
+      "payout_usd": 0,
+      "net_usd": -10,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:33:26.447311+00:00",
+      "final_leg_check_at": "2026-11-23T00:33:26.447311+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873074"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "bet_id": "us-tn:01m823gjghfb986g28nm1wtb0d",
@@ -15632,8 +15924,39 @@
           "team": "DET",
           "line": 0.5,
           "price": -270,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873072",
+          "player_id": "4429795",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4429795",
+              "stats": {
+                "CAR": "23",
+                "YDS": "98",
+                "AVG": "4.3",
+                "TD": "2",
+                "LONG": "26"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4429795",
+              "stats": {
+                "REC": "4",
+                "YDS": "20",
+                "AVG": "5.0",
+                "TD": "0",
+                "LONG": "10",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 2,
+          "final_score": "DET 31; TB 21",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873070",
@@ -15645,8 +15968,39 @@
           "team": "BUF",
           "line": 0.5,
           "price": -190,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:33:26.447311+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873070",
+          "player_id": "4379399",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4379399",
+              "stats": {
+                "CAR": "22",
+                "YDS": "89",
+                "AVG": "4.0",
+                "TD": "1",
+                "LONG": "13"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4379399",
+              "stats": {
+                "REC": "2",
+                "YDS": "3",
+                "AVG": "1.5",
+                "TD": "0",
+                "LONG": "2",
+                "TGTS": "2"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "BUF 26; MIA 9",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873077",

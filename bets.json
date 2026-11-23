@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-23T00:33:26.447311+00:00",
+  "updated_at": "2026-11-23T00:54:56.697169+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -15628,8 +15628,39 @@
           "team": "DEN",
           "line": 0.5,
           "price": -123,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873075",
+          "player_id": "4702555",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4702555",
+              "stats": {
+                "CAR": "24",
+                "YDS": "111",
+                "AVG": "4.6",
+                "TD": "3",
+                "LONG": "14"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4702555",
+              "stats": {
+                "REC": "4",
+                "YDS": "18",
+                "AVG": "4.5",
+                "TD": "0",
+                "LONG": "7",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 3,
+          "final_score": "DEN 38; LV 24",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873077",
@@ -15848,8 +15879,39 @@
           "team": "LV",
           "line": 0.5,
           "price": 200,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873075",
+          "player_id": "4890973",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4890973",
+              "stats": {
+                "CAR": "11",
+                "YDS": "79",
+                "AVG": "7.2",
+                "TD": "0",
+                "LONG": "46"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4890973",
+              "stats": {
+                "REC": "5",
+                "YDS": "90",
+                "AVG": "18.0",
+                "TD": "1",
+                "LONG": "68",
+                "TGTS": "8"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "DEN 38; LV 24",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873069",
@@ -15861,8 +15923,28 @@
           "team": "NYG",
           "line": 0.5,
           "price": 195,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4595348",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4595348",
+              "stats": {
+                "REC": "7",
+                "YDS": "55",
+                "AVG": "7.9",
+                "TD": "1",
+                "LONG": "11",
+                "TGTS": "12"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -16032,8 +16114,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16065,8 +16147,28 @@
           "team": "NYG",
           "line": 0.5,
           "price": 240,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4361050",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4361050",
+              "stats": {
+                "REC": "1",
+                "YDS": "35",
+                "AVG": "35.0",
+                "TD": "0",
+                "LONG": "35",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -16077,15 +16179,24 @@
       "selection": "Isaiah Likely anytime touchdown",
       "market": "anytime touchdown scorer",
       "schedule_note": "Receipt displays JAX-NYG 3:26PM CT; official schedule 3:25PM CT retained separately. SF 7:20PM CT. Receipt display time does not replace official kickoff.",
-      "bet": "Straight: Isaiah Likely anytime touchdown"
+      "bet": "Straight: Isaiah Likely anytime touchdown",
+      "payout_usd": 0,
+      "net_usd": -20,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:54:56.697169+00:00",
+      "final_leg_check_at": "2026-11-23T00:54:56.697169+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16117,8 +16228,39 @@
           "team": "JAX",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4882093",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4882093",
+              "stats": {
+                "CAR": "10",
+                "YDS": "33",
+                "AVG": "3.3",
+                "TD": "0",
+                "LONG": "11"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4882093",
+              "stats": {
+                "REC": "3",
+                "YDS": "20",
+                "AVG": "6.7",
+                "TD": "0",
+                "LONG": "11",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873069",
@@ -16130,8 +16272,48 @@
           "team": "NYG",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4696981",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4696981",
+              "stats": {
+                "CAR": "14",
+                "YDS": "34",
+                "AVG": "2.4",
+                "TD": "0",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4696981",
+              "stats": {
+                "REC": "3",
+                "YDS": "14",
+                "AVG": "4.7",
+                "TD": "0",
+                "LONG": "11",
+                "TGTS": "7"
+              }
+            },
+            {
+              "category": "fumbles",
+              "player_id": "4696981",
+              "stats": {
+                "FUM": "1",
+                "LOST": "1",
+                "REC": "0"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873077",
@@ -16167,15 +16349,24 @@
           ],
           "note": "Displayed combined same-game group price; individual leg prices not shown."
         }
-      ]
+      ],
+      "payout_usd": 0,
+      "net_usd": -10,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:54:56.697169+00:00",
+      "final_leg_check_at": "2026-11-23T00:54:56.697169+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16207,8 +16398,28 @@
           "team": "JAX",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4432620",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4432620",
+              "stats": {
+                "REC": "8",
+                "YDS": "103",
+                "AVG": "12.9",
+                "TD": "0",
+                "LONG": "21",
+                "TGTS": "17"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         },
         {
           "event_id": "401873069",
@@ -16220,8 +16431,28 @@
           "team": "NYG",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-23T00:54:56.697169+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "player_id": "4361050",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4361050",
+              "stats": {
+                "REC": "1",
+                "YDS": "35",
+                "AVG": "35.0",
+                "TD": "0",
+                "LONG": "35",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "final_score": "NYG 23; JAX 18",
+          "grading_note": "Final box score and complete scoring-play list checked. Only own rushing/receiving/return/recovery touchdowns count. Passing touchdowns excluded."
         }
       ],
       "event_ids": [
@@ -16243,7 +16474,16 @@
           ],
           "note": "Displayed whole same-game receipt price; individual leg prices not shown."
         }
-      ]
+      ],
+      "payout_usd": 0,
+      "net_usd": -10,
+      "net_units": null,
+      "settled_at": "2026-11-23T00:54:56.697169+00:00",
+      "final_leg_check_at": "2026-11-23T00:54:56.697169+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069"
+      ],
+      "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
     }
   ]
 }

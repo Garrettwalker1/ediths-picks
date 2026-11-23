@@ -1,0 +1,26 @@
+{
+  "status": "Research ledger, not model admission",
+  "games": 695,
+  "ledger_rows": 124406,
+  "accepted_nonquarantined_plays": 85082,
+  "quarantined_games": 9,
+  "games_with_score_decrease": 313,
+  "counts": {
+    "separate:special_teams_not_offense_efficiency": 14472,
+    "accept:ordinary_regulation_scrimmage": 85760,
+    "quarantine:penalty_requires_adjudication": 3045,
+    "exclude:non_selected_play_type": 10592,
+    "quarantine:missing_down_distance_yardage": 24,
+    "quarantine:fumble_scrimmage_vs_return_yards_unresolved": 1223,
+    "exclude:current_no_play_or_nullified": 6494,
+    "quarantine:review_requires_reconciliation": 1016,
+    "accept:verified_failed_fourth_down": 422,
+    "exclude:clock_spike": 102,
+    "exclude:clock_kneel": 839,
+    "quarantine:safety_unit_attribution_unresolved": 26,
+    "separate:overtime_or_missing_period": 301,
+    "quarantine:ordinary_play_changes_possession": 3,
+    "accept:structured_failed_fourth_down": 1,
+    "quarantine:drive_start_possession_mismatch": 86
+  }
+}

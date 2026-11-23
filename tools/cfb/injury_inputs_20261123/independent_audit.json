@@ -1,0 +1,134 @@
+{
+  "unt": {
+    "games": 11,
+    "rows": 695,
+    "raw_rows_exact": true
+  },
+  "houston": {
+    "games": 11,
+    "rows": 667,
+    "raw_rows_exact": true
+  },
+  "249": {
+    "rows": 695,
+    "matched": 695,
+    "unresolved": [],
+    "quality": [
+      {
+        "boxscore_id": "7208",
+        "off_count": 11,
+        "def_count": 10,
+        "admit_complete_unit_state": false
+      }
+    ]
+  },
+  "248": {
+    "rows": 667,
+    "matched": 663,
+    "unresolved": [
+      {
+        "source_url": "https://uhcougars.com/sports/football/stats/2026/kansas-state/boxscore/16247",
+        "boxscore_id": "16247",
+        "table": "Houston Player Participation Statistics",
+        "jersey": "50",
+        "name": "Egodogbare,Ejiroghene",
+        "position": null,
+        "athlete_source_url": null,
+        "espn_id": null,
+        "join_method": "UNRESOLVED"
+      },
+      {
+        "source_url": "https://uhcougars.com/sports/football/stats/2026/oklahoma-state/boxscore/16248",
+        "boxscore_id": "16248",
+        "table": "Houston Player Participation Statistics",
+        "jersey": "50",
+        "name": "Egodogbare,Ejiroghene",
+        "position": null,
+        "athlete_source_url": null,
+        "espn_id": null,
+        "join_method": "UNRESOLVED"
+      },
+      {
+        "source_url": "https://uhcougars.com/sports/football/stats/2026/southern/boxscore/16243",
+        "boxscore_id": "16243",
+        "table": "Houston Player Participation Statistics",
+        "jersey": "40",
+        "name": "Roberson, Kvion",
+        "position": null,
+        "athlete_source_url": "https://uhcougars.com/sports/football/roster/kvion-roberson/10168",
+        "espn_id": null,
+        "join_method": "UNRESOLVED"
+      },
+      {
+        "source_url": "https://uhcougars.com/sports/football/stats/2026/southern/boxscore/16243",
+        "boxscore_id": "16243",
+        "table": "Houston Player Participation Statistics",
+        "jersey": "50",
+        "name": "Egodogbare,Ejiroghene",
+        "position": null,
+        "athlete_source_url": null,
+        "espn_id": null,
+        "join_method": "UNRESOLVED"
+      }
+    ],
+    "quality": []
+  },
+  "baseline_exact_live": true,
+  "role_override_event_scope": [
+    {
+      "team_id": "249",
+      "event_id": "401862835",
+      "athlete_id": "5159360",
+      "role": "QB_EMERGENCY",
+      "source_url": "https://meangreensports.com/news/2026/11/21/football-mean-green-drop-heartbreaker-at-tulane"
+    }
+  ],
+  "rush_phase": {
+    "event_id": "401862835",
+    "last_jimerson_snap_id": "401862835412",
+    "last_jimerson_source_order": 94,
+    "boundary_play_status": "quarantine",
+    "note": "Boundary pass includes interference and is not counted as a valid pass-attempt/stat-rate observation",
+    "run_phase_play_ids": [
+      "401862835416",
+      "401862835420",
+      "401862835424",
+      "401862835450",
+      "401862835454",
+      "401862835461",
+      "401862835494",
+      "401862835498",
+      "401862835502",
+      "401862835521",
+      "401862835525",
+      "401862835529",
+      "401862835539",
+      "401862835545",
+      "401862835549",
+      "401862835553",
+      "401862835557",
+      "401862835561",
+      "401862835565",
+      "401862835570",
+      "401862835574",
+      "401862835578",
+      "401862835582",
+      "401862835586",
+      "401862835590",
+      "401862835617",
+      "401862835621",
+      "401862835625",
+      "401862835629"
+    ],
+    "run_phase_accepted_rushes": 29,
+    "run_phase_carrier_jerseys": {
+      "29": 11,
+      "1": 12,
+      "16": 6
+    },
+    "first_tyre_pass_play_id": "401862835633",
+    "ordering": "source_order not clock sorting",
+    "quarterback_snap_attribution": "UNKNOWN for individual RB carries; official recap confirms multiple direct snaps but does not identify all snap-takers",
+    "prospective": "UNRESOLVED: do not convert emergency phase into UAB usage forecast"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "official_lineup_rows": 695,
+  "espn_unique_identity_matches": 695,
+  "quality_flags": [
+    {
+      "boxscore_id": "7208",
+      "offensive_starters": 11,
+      "defensive_starters": 10,
+      "status": "INCOMPLETE_SOURCE_LINEUP_DO_NOT_IMPUTE_MISSING_PLAYER"
+    }
+  ],
+  "ol_transitions": [
+    {
+      "date": "09/12/2026",
+      "boxscore_id": "7178",
+      "prior_boxscore_id": "7177",
+      "added_ol": [
+        "5043473"
+      ],
+      "removed_ol": [
+        "5108224"
+      ],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "09/19/2026",
+      "boxscore_id": "7179",
+      "prior_boxscore_id": "7178",
+      "added_ol": [],
+      "removed_ol": [],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "09/26/2026",
+      "boxscore_id": "7180",
+      "prior_boxscore_id": "7179",
+      "added_ol": [
+        "5108224"
+      ],
+      "removed_ol": [
+        "5043473"
+      ],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "10/01/2026",
+      "boxscore_id": "7202",
+      "prior_boxscore_id": "7180",
+      "added_ol": [],
+      "removed_ol": [],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "10/10/2026",
+      "boxscore_id": "7203",
+      "prior_boxscore_id": "7202",
+      "added_ol": [],
+      "removed_ol": [],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "10/24/2026",
+      "boxscore_id": "7204",
+      "prior_boxscore_id": "7203",
+      "added_ol": [
+        "5207660"
+      ],
+      "removed_ol": [
+        "5108224"
+      ],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "10/29/2026",
+      "boxscore_id": "7205",
+      "prior_boxscore_id": "7204",
+      "added_ol": [],
+      "removed_ol": [],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "11/07/2026",
+      "boxscore_id": "7206",
+      "prior_boxscore_id": "7205",
+      "added_ol": [],
+      "removed_ol": [],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "11/14/2026",
+      "boxscore_id": "7207",
+      "prior_boxscore_id": "7206",
+      "added_ol": [
+        "5108224"
+      ],
+      "removed_ol": [
+        "5207660"
+      ],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    },
+    {
+      "date": "11/21/2026",
+      "boxscore_id": "7208",
+      "prior_boxscore_id": "7207",
+      "added_ol": [
+        "5207660"
+      ],
+      "removed_ol": [
+        "5108224"
+      ],
+      "interpretation": "observed starting-five transition, no injury cause assigned"
+    }
+  ],
+  "baseline_passing": [
+    {
+      "team": "North Texas Mean Green",
+      "forecast_event_id": "401862843",
+      "cutoff": "2026-11-22",
+      "history_event_ids": [
+        "401858425",
+        "401862705",
+        "401860889",
+        "401862786",
+        "401862796",
+        "401862810",
+        "401862812",
+        "401862821",
+        "401862827",
+        "401862835"
+      ],
+      "passing_total": 347.0,
+      "passers": [
+        {
+          "espn_id": "4801307",
+          "name": "Tayven Jackson",
+          "pass_att": 300.0,
+          "pass_cmp": 205.0,
+          "pass_yds": 2735.0,
+          "pass_td": 22.0,
+          "pass_int": 6.0,
+          "baseline_share": 0.8645533141210374
+        },
+        {
+          "espn_id": "5215310",
+          "name": "Chaston Ditta",
+          "pass_att": 11.0,
+          "pass_cmp": 7.0,
+          "pass_yds": 84.0,
+          "pass_td": 0.0,
+          "pass_int": 0.0,
+          "baseline_share": 0.03170028818443804
+        },
+        {
+          "espn_id": "5175092",
+          "name": "Chris Jimerson Jr.",
+          "pass_att": 29.0,
+          "pass_cmp": 15.0,
+          "pass_yds": 194.0,
+          "pass_td": 1.0,
+          "pass_int": 1.0,
+          "baseline_share": 0.08357348703170028
+        },
+        {
+          "espn_id": "5159360",
+          "name": "James Tyre",
+          "pass_att": 7.0,
+          "pass_cmp": 4.0,
+          "pass_yds": 63.0,
+          "pass_td": 0.0,
+          "pass_int": 1.0,
+          "baseline_share": 0.020172910662824207
+        }
+      ]
+    },
+    {
+      "team": "Houston Cougars",
+      "forecast_event_id": "401856874",
+      "cutoff": "2026-11-22",
+      "history_event_ids": [
+        "401856778",
+        "401856811",
+        "401856806",
+        "401856819",
+        "401856825",
+        "401856831",
+        "401856837",
+        "401856851",
+        "401856860",
+        "401856868"
+      ],
+      "passing_total": 316.0,
+      "passers": [
+        {
+          "espn_id": "4685574",
+          "name": "Conner Weigman",
+          "pass_att": 287.0,
+          "pass_cmp": 187.0,
+          "pass_yds": 2432.0,
+          "pass_td": 22.0,
+          "pass_int": 3.0,
+          "baseline_share": 0.9082278481012658
+        },
+        {
+          "espn_id": "5159035",
+          "name": "Keisean Henderson",
+          "pass_att": 29.0,
+          "pass_cmp": 18.0,
+          "pass_yds": 268.0,
+          "pass_td": 1.0,
+          "pass_int": 0.0,
+          "baseline_share": 0.09177215189873418
+        }
+      ]
+    }
+  ],
+  "emergency_phase": {
+    "event_id": "401862835",
+    "last_jimerson_snap_id": "401862835412",
+    "last_jimerson_source_order": 94,
+    "boundary_play_status": "quarantine",
+    "note": "Boundary pass includes interference and is not counted as a valid pass-attempt/stat-rate observation",
+    "run_phase_play_ids": [
+      "401862835416",
+      "401862835420",
+      "401862835424",
+      "401862835450",
+      "401862835454",
+      "401862835461",
+      "401862835494",
+      "401862835498",
+      "401862835502",
+      "401862835521",
+      "401862835525",
+      "401862835529",
+      "401862835539",
+      "401862835545",
+      "401862835549",
+      "401862835553",
+      "401862835557",
+      "401862835561",
+      "401862835565",
+      "401862835570",
+      "401862835574",
+      "401862835578",
+      "401862835582",
+      "401862835586",
+      "401862835590",
+      "401862835617",
+      "401862835621",
+      "401862835625",
+      "401862835629"
+    ],
+    "run_phase_accepted_rushes": 29,
+    "run_phase_carrier_jerseys": {
+      "29": 11,
+      "1": 12,
+      "16": 6
+    },
+    "first_tyre_pass_play_id": "401862835633",
+    "ordering": "source_order not clock sorting",
+    "quarterback_snap_attribution": "UNKNOWN for individual RB carries; official recap confirms multiple direct snaps but does not identify all snap-takers",
+    "prospective": "UNRESOLVED: do not convert emergency phase into UAB usage forecast"
+  },
+  "admission": "DESCRIPTIVE_DATA_ONLY_NO_PRODUCTION_CHANGE",
+  "critical_role_rule": "James Tyre is a roster WR who actually played emergency QB. Fixed roster-position filtering is insufficient. Use event-scoped, explicitly sourced role overrides; do not recast all WR passes as QB or preserve this emergency role as ordinary trick-play share.",
+  "limitations": [
+    "Official postgame observed starts and participation, not snap counts, injury cause, clearance or pregame publication proof",
+    "Team-local roster URL is stable local identity; no guessed ESPN join",
+    "Participation list may separate starters from reserves; do not infer absent from one table",
+    "Season includes FCS game; caller must preserve exact model FBS history scope"
+  ]
+}
+unresolved []

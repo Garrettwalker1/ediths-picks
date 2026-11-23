@@ -1,0 +1,6 @@
+This package is a research adapter, not a production deploy.
+Offline checks from this directory:
+CFB_CURRENT_ROOT="$PWD/baseline" python3 official_lineup_adapter.py
+CFB_CURRENT_ROOT="$PWD/baseline" python3 build_verified_lineup_roles.py
+Harvest scripts reuse cached official HTML, or retrieve missing pages from exact schedule links.
+Subset baseline intentionally contains only the two studied teams.

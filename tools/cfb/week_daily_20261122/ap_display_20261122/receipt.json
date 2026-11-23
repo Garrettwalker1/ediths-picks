@@ -1,0 +1,40 @@
+{
+  "retrieved_at": "2026-11-23T03:30:10.442562+00:00",
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings?season=2026&seasontype=2&week=13",
+  "corroboration": [
+    "https://www.cbssports.com/college-football/rankings/ap/",
+    "https://apnews.com/article/college-football-rankings-9ebfeb2e878b23a35c6562dcb5b2d938"
+  ],
+  "source_sha256": "ce59547f15b665b815600720fb3776f1752bc617d9bb37e9abe1f2edb0106c12",
+  "poll_date": "2026-11-22T08:00Z",
+  "poll_last_updated": "2026-11-22T22:11Z",
+  "ranks": {
+    "Georgia Bulldogs": 1,
+    "Utah Utes": 2,
+    "Notre Dame Fighting Irish": 3,
+    "Miami Hurricanes": 4,
+    "Texas Longhorns": 5,
+    "Alabama Crimson Tide": 6,
+    "Tennessee Volunteers": 7,
+    "Wake Forest Demon Deacons": 8,
+    "Texas Tech Red Raiders": 9,
+    "UCLA Bruins": 10,
+    "BYU Cougars": 11,
+    "Indiana Hoosiers": 12,
+    "Iowa Hawkeyes": 13,
+    "Oregon Ducks": 14,
+    "USC Trojans": 15,
+    "Arizona Wildcats": 16,
+    "Houston Cougars": 17,
+    "Louisville Cardinals": 18,
+    "Oklahoma Sooners": 19,
+    "Florida Gators": 20,
+    "Liberty Flames": 21,
+    "Boise State Broncos": 22,
+    "Ole Miss Rebels": 23,
+    "Missouri Tigers": 24,
+    "Ohio State Buckeyes": 25
+  },
+  "scope": "AP display only, no training/forecast/rating changes; previous display archived.",
+  "current_forecasts_sha256": "cf0b07f575ac13726018c6e7ce155dd461119265586f76fc7cf3f1fa95557761"
+}

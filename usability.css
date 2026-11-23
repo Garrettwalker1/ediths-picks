@@ -11,3 +11,11 @@
 #cbbtab .cbb-plan{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0}
 #cbbtab .card{padding:20px}#cbbtab .card h3{font-size:19px;margin:10px 0}#cbbtab .card p{font-size:14px;color:#aabdd3;line-height:1.7;margin:0}#cbbtab .cbb-step{font-size:11px;color:var(--cyan);font-weight:700;letter-spacing:.08em}#cbbtab details{border:1px solid #293b51;border-radius:10px;padding:14px}#cbbtab summary{min-height:44px;cursor:pointer;font-size:14px}#cbbtab details p{font-size:13px;line-height:1.7;color:#aabdd3}
 @media(max-width:700px){#cbbtab .cbb-plan{grid-template-columns:1fr}#cbbtab h2{font-size:25px}}
+
+/* Keep dashboard and NFL section controls within reach on long mobile boards. */
+.tabs{position:sticky;top:0;z-index:60;background:#0b1524;border-bottom:1px solid #30475d}.nfl-section-nav{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:68px;z-index:50;background:#0b1524;padding:10px 0;border-bottom:1px solid #30475d}.nfl-section-nav a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 12px;border:1px solid #40566f;border-radius:8px;text-decoration:none;font-size:13px;font-weight:700;background:#102336}.nfl-quick-board{margin-top:8px}.nfl-fold{border:1px solid #30475d;border-radius:12px;padding:12px;margin:18px 0}.nfl-fold>summary{cursor:pointer;min-height:44px;display:list-item;align-content:center;font-weight:700;color:#dceaf6}#nflPredictions,#nflRankings,#nflPlayerLines,#nflArchive{scroll-margin-top:142px}#nflPredictions>h2{margin-top:15px}#nflRankings #nflEfficiency{margin:12px 0 0;border:0;padding:8px 0}.nfl-quick-board #nflPlayerLines{margin-top:24px}
+@media(max-width:700px){.nfl-section-nav{top:105px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.nfl-section-nav a{font-size:11px;padding:0 3px}.tabs{margin-top:0}#nflPredictions,#nflRankings,#nflPlayerLines,#nflArchive{scroll-margin-top:175px}.nfl-fold{padding:10px}.nfl-quick-board{margin-top:0}}
+/* Clip horizontal overflow without creating a false vertical sticky container. */
+html,body{overflow-x:clip!important;overflow-y:visible!important}
+
+#nflPredictions,#nflRankings,#nflPlayerLines,#nflArchive{scroll-margin-top:var(--nfl-anchor-offset,180px)}

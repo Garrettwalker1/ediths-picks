@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-23T04:29:05.564121+00:00",
+  "updated_at": "2026-11-23T23:08:48.594193+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -16715,6 +16715,139 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077"
       ],
       "settlement_note": "Graded from Final box scores and scoring plays. Mixed spread/total markets evaluated against final team scores. Normal settlement per owner standing rule. Latest phone history checked, no later cashout/void/correction receipt. Cashout offers are not executions. Exact placed receipt payout retained; units not inferred."
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M85AKQY3997ASDKQJDQ6VPFC",
+      "source": "Owner iMessage Nov23 17:07CT; original placed receipt pixels and footers inspected.",
+      "logged_at": "2026-11-23T23:08:48.594193+00:00",
+      "game": "CIN @ WSH",
+      "event_ids": [
+        "401873078"
+      ],
+      "kickoff": "2026-11-24T01:15Z",
+      "rewards_points_pending": 40,
+      "cashout_offer_note": "Visible offer only, not executed; no cashout recorded.",
+      "notes": "Actual placed TN receipt, separate from model recommendation and VOLS release. Receipt total payout authoritative, not reconstructed from rounded odds. Original images remain private.",
+      "bet_id": "us-tn:01m85a2k7weactbkxj1d0cc0wk",
+      "receipt_filename": "image-6cd0138c.png",
+      "placed_at": "2026-11-23T16:57:00-06:00",
+      "date": "2026-11-23T16:57:00-06:00",
+      "stake_usd": 20,
+      "price": 238,
+      "unboosted_price": 190,
+      "profit_boost_percent": 25,
+      "potential_payout_usd": 67.6,
+      "potential_profit_usd": 47.6,
+      "cashout_offer_usd": 20,
+      "market": "anytime touchdown scorer",
+      "selection": "Stefon Diggs anytime touchdown",
+      "player": "Stefon Diggs",
+      "team": "WSH",
+      "line": 0.5,
+      "bet": "Straight: Stefon Diggs anytime touchdown (25% profit boost)",
+      "legs": [
+        {
+          "event_id": "401873078",
+          "event": "CIN @ WSH",
+          "kickoff": "2026-11-24T01:15Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Stefon Diggs anytime touchdown",
+          "player": "Stefon Diggs",
+          "player_id": "2976212",
+          "team": "WSH",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "source_receipt_sha256": "d104da003f3e7bc17c64901f10febaf12b61ee4755de5846edb7294a123d5f18"
+    },
+    {
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M85AKQY3997ASDKQJDQ6VPFC",
+      "source": "Owner iMessage Nov23 17:07CT; original placed receipt pixels and footers inspected.",
+      "logged_at": "2026-11-23T23:08:48.594193+00:00",
+      "game": "CIN @ WSH",
+      "event_ids": [
+        "401873078"
+      ],
+      "kickoff": "2026-11-24T01:15Z",
+      "rewards_points_pending": 40,
+      "cashout_offer_note": "Visible offer only, not executed; no cashout recorded.",
+      "notes": "Actual placed TN receipt, separate from model recommendation and VOLS release. Receipt total payout authoritative, not reconstructed from rounded odds. Original images remain private.",
+      "bet_id": "us-tn:01m85ajznseghb7kzs6j03bjwm",
+      "receipt_filename": "image-4dff5019.png",
+      "placed_at": "2026-11-23T17:06:00-06:00",
+      "date": "2026-11-23T17:06:00-06:00",
+      "stake_usd": 10,
+      "price": 653,
+      "unboosted_price": 503,
+      "profit_boost_percent": 30,
+      "potential_payout_usd": 75.35,
+      "potential_profit_usd": 65.35,
+      "cashout_offer_usd": 10,
+      "market": "parlay",
+      "selection": "Cincinnati Bengals -6.5 spread / Under 53.5 alternate total / Chase Brown anytime touchdown",
+      "bet": "3-leg SGP: CIN -6.5 / Under 53.5 alternate total / Chase Brown anytime touchdown (30% profit boost)",
+      "legs": [
+        {
+          "event_id": "401873078",
+          "event": "CIN @ WSH",
+          "kickoff": "2026-11-24T01:15Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "spread",
+          "selection": "Cincinnati Bengals -6.5 spread",
+          "team": "CIN",
+          "line": -6.5
+        },
+        {
+          "event_id": "401873078",
+          "event": "CIN @ WSH",
+          "kickoff": "2026-11-24T01:15Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "alternate total points",
+          "selection": "Under 53.5 alternate total points",
+          "side": "under",
+          "line": 53.5
+        },
+        {
+          "event_id": "401873078",
+          "event": "CIN @ WSH",
+          "kickoff": "2026-11-24T01:15Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "anytime touchdown scorer",
+          "selection": "Chase Brown anytime touchdown",
+          "player": "Chase Brown",
+          "player_id": "4362238",
+          "team": "CIN",
+          "line": 0.5
+        }
+      ],
+      "source_receipt_sha256": "f3afdefba04d35ce9ff8c430e598715faeccb0f8b1f994e6b198878da010add8"
     }
   ]
 }

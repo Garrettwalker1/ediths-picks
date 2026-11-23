@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-23T00:59:45.781684+00:00",
+  "updated_at": "2026-11-23T04:29:05.564121+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -15672,8 +15672,39 @@
           "team": "SF",
           "line": 0.5,
           "price": -139,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "player_id": "3117251",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "3117251",
+              "stats": {
+                "CAR": "12",
+                "YDS": "49",
+                "AVG": "4.1",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "3117251",
+              "stats": {
+                "REC": "2",
+                "YDS": "13",
+                "AVG": "6.5",
+                "TD": "0",
+                "LONG": "13",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final rushing/receiving and return box scores plus full scoring plays checked. One own rushing TD; passing touchdowns excluded.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         },
         {
           "event_id": "401873078",
@@ -15980,8 +16011,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16094,8 +16125,39 @@
           "team": "SF",
           "line": 0.5,
           "price": -160,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "player_id": "3117251",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "3117251",
+              "stats": {
+                "CAR": "12",
+                "YDS": "49",
+                "AVG": "4.1",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "3117251",
+              "stats": {
+                "REC": "2",
+                "YDS": "13",
+                "AVG": "6.5",
+                "TD": "0",
+                "LONG": "13",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final rushing/receiving and return box scores plus full scoring plays checked. One own rushing TD; passing touchdowns excluded.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         }
       ],
       "event_ids": [
@@ -16107,7 +16169,18 @@
       "kickoff": "2026-11-22T18:00Z",
       "selection": "Jahmyr Gibbs anytime touchdown / James Cook anytime touchdown / Christian McCaffrey anytime touchdown",
       "bet": "3-leg ATD parlay: Jahmyr Gibbs anytime touchdown / James Cook anytime touchdown / Christian McCaffrey anytime touchdown",
-      "schedule_note": "Receipt game display times can be one minute later than official schedule. Verified official event kickoffs retained; all three legs Sunday Nov22."
+      "schedule_note": "Receipt game display times can be one minute later than official schedule. Verified official event kickoffs retained; all three legs Sunday Nov22.",
+      "payout_usd": 33.99,
+      "net_usd": 23.99,
+      "net_units": null,
+      "settled_at": "2026-11-23T04:29:05.564121+00:00",
+      "final_leg_check_at": "2026-11-23T04:29:05.564121+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873072",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873070",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077"
+      ],
+      "settlement_note": "Graded from Final box scores and scoring plays. Mixed spread/total markets evaluated against final team scores. Normal settlement per owner standing rule. Latest phone history checked, no later cashout/void/correction receipt. Cashout offers are not executions. Exact placed receipt payout retained; units not inferred."
     },
     {
       "sport": "NFL",
@@ -16325,8 +16398,39 @@
           "team": "SF",
           "line": 0.5,
           "price": -160,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "player_id": "3117251",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "3117251",
+              "stats": {
+                "CAR": "12",
+                "YDS": "49",
+                "AVG": "4.1",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "3117251",
+              "stats": {
+                "REC": "2",
+                "YDS": "13",
+                "AVG": "6.5",
+                "TD": "0",
+                "LONG": "13",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final rushing/receiving and return box scores plus full scoring plays checked. One own rushing TD; passing touchdowns excluded.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         }
       ],
       "event_ids": [
@@ -16491,8 +16595,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "win",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16517,37 +16621,79 @@
           "event": "MIN VS SF",
           "kickoff": "2026-11-23T01:20Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "market": "alternate spread",
           "selection": "San Francisco 49ers -3.5 alternate spread",
           "team": "SF",
-          "line": -3.5
+          "line": -3.5,
+          "final_team_margin": 25,
+          "spread_adjusted_margin": 21.5,
+          "grading_note": "SF won by25; SF-3.5 covers.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         },
         {
           "event_id": "401873077",
           "event": "MIN VS SF",
           "kickoff": "2026-11-23T01:20Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "market": "alternate total points",
           "selection": "Under 45.5 alternate total points",
           "side": "under",
-          "line": 45.5
+          "line": 45.5,
+          "final_combined_points": 45,
+          "grading_note": "Final combined45points is below45.5, under wins by0.5.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         },
         {
           "event_id": "401873077",
           "event": "MIN VS SF",
           "kickoff": "2026-11-23T01:20Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "market": "anytime touchdown scorer",
           "selection": "Christian McCaffrey anytime touchdown",
           "player": "Christian McCaffrey",
           "team": "SF",
-          "line": 0.5
+          "line": 0.5,
+          "player_id": "3117251",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "3117251",
+              "stats": {
+                "CAR": "12",
+                "YDS": "49",
+                "AVG": "4.1",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "3117251",
+              "stats": {
+                "REC": "2",
+                "YDS": "13",
+                "AVG": "6.5",
+                "TD": "0",
+                "LONG": "13",
+                "TGTS": "3"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final rushing/receiving and return box scores plus full scoring plays checked. One own rushing TD; passing touchdowns excluded.",
+          "graded_at": "2026-11-23T04:29:05.564121+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "final_score": "SF35; MIN10"
         }
       ],
       "event_ids": [
@@ -16559,7 +16705,16 @@
       "market": "parlay",
       "bet": "3-leg SGP: SF -3.5 alternate spread / Under45.5 alternate total / Christian McCaffrey anytime touchdown (30% profit boost)",
       "notes": "Actual TN placed receipt: displayed +524 boosted from +403 with30% profit boost, $10 cash stake, $62.42 total payout. Receipt payout authoritative, not recomputed from rounded odds. Individual leg prices not shown and left null. Cashout offer is not an execution. Original receipt stays private.",
-      "logged_at": "2026-11-23T00:59:45.781684+00:00"
+      "logged_at": "2026-11-23T00:59:45.781684+00:00",
+      "payout_usd": 62.42,
+      "net_usd": 52.42,
+      "net_units": null,
+      "settled_at": "2026-11-23T04:29:05.564121+00:00",
+      "final_leg_check_at": "2026-11-23T04:29:05.564121+00:00",
+      "settlement_sources": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077"
+      ],
+      "settlement_note": "Graded from Final box scores and scoring plays. Mixed spread/total markets evaluated against final team scores. Normal settlement per owner standing rule. Latest phone history checked, no later cashout/void/correction receipt. Cashout offers are not executions. Exact placed receipt payout retained; units not inferred."
     }
   ]
 }

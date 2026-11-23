@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2026-11-23T16:38:01+00:00",
+  "builder": "build_current_rankings_nfl.py v2",
+  "kind": "provisional_descriptive_rankings_not_validated_predictors",
+  "team_count": 32,
+  "source": {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.parquet",
+    "sha256": "c4039af2dae2355c852973c6f058bbba3045bdd9c842f9fec90952d21f31ca35",
+    "source_last_updated": "2026-11-23 11:21:44 EST",
+    "license": "CC BY 4.0 (nflverse)"
+  },
+  "coverage": {
+    "total_pbp_rows": 28296,
+    "accepted_plays_pass_run": 19850,
+    "games_by_week": {
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 15,
+      "6": 14,
+      "7": 14,
+      "8": 14,
+      "9": 15,
+      "10": 14,
+      "11": 12
+    },
+    "games_total": 162,
+    "note": "Derived from the input file at build time. Games not final in the source are absent; check nflverse schedules for pending games at integration time."
+  },
+  "excluded_from_accepted": {
+    "play_type_not_pass_run": 8372,
+    "two_point_attempt": 74
+  },
+  "classification_checks": {
+    "qb_kneel_or_spike_flags_inside_pass_run": [
+      0,
+      0
+    ],
+    "qb_scramble_by_play_type": {
+      "run": 587,
+      "no_play": 42
+    },
+    "note": "Sacks are pass; scrambles are run and excluded from pass split. No-play rows excluded; live scrimmage penalties retained."
+  },
+  "definitions": {
+    "accepted_plays": "play_type in {pass, run}; two_point_attempt excluded; kneels/spikes are distinct play_type values removed by that filter; sacks are pass; scrambles are run",
+    "success": "distance-based: 1st down >=50% of ydstogo, 2nd >=70%, 3rd/4th >=100%",
+    "epa": "nflfastR modeled epa; null epa excluded from EPA metrics only",
+    "garbage_time": "no adjustment (stated limit)",
+    "opponent_adjustment": "one weighted ridge per metric over team-game rows; features intercept + home + offense dummy + defense dummy; penalty 20 on team effects only; adjusted = intercept + effect",
+    "rank_direction": "offense descending (higher better); defense ascending (lower allowed better)",
+    "denominators": "per side: offensive columns use posteam plays, defensive columns use defteam plays; they differ by team",
+    "splits": "pass/run filters computed separately with own regressions and per-side play counts"
+  },
+  "play_type_counts": {
+    "None": 826,
+    "kickoff": 1685,
+    "pass": 11458,
+    "run": 8466,
+    "no_play": 2892,
+    "extra_point": 754,
+    "field_goal": 678,
+    "punt": 1229,
+    "qb_kneel": 249,
+    "qb_spike": 59
+  }
+}

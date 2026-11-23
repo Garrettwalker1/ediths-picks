@@ -1,0 +1,14 @@
+{
+  "source_identity": "Exact source hash matches independently downloaded live asset",
+  "current_schedule_finals": 162,
+  "pbp_games": 162,
+  "final_score_mismatches": 0,
+  "pending_20261123": [
+    "2026_11_CIN_WAS"
+  ],
+  "schedule_source": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+  "scoreboard_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261123",
+  "rates_ranks_checked": 384,
+  "side_denominators_checked": 384,
+  "source_labels_clarified": "Sacks pass; scrambles run; no claim all dropbacks; play_type_counts metadata key corrected"
+}

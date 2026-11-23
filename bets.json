@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-23T00:54:56.697169+00:00",
+  "updated_at": "2026-11-23T00:59:45.781684+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -16484,6 +16484,82 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069"
       ],
       "settlement_note": "Graded from completed Final box scores and full scoring plays. One final losing leg settles a parlay loss while unfinished legs remain pending individually. Normal win settlement per standing owner rule; phone history checked for later cashout/void/correction, none found. Cashout offers are not executions. No units inferred."
+    },
+    {
+      "bet_id": "us-tn:01m82yjx54fnxaeyx7nvka7234",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
+      "source_message_id": "phonemsg-01M82YKS9899JYJA5E81M6200V",
+      "source": "Owner iMessage November22 6:59PM CT; original placed-receipt image including footer inspected.",
+      "receipt_filename": "image-49e4189d.png",
+      "source_receipt_sha256": "241da666c0db7b38166b21d7e4e14b897c1795fc91537f813638e3c0aace464a",
+      "placed_at": "2026-11-22T18:58:00-06:00",
+      "date": "2026-11-22T18:58:00-06:00",
+      "stake_usd": 10,
+      "price": 524,
+      "unboosted_price": 403,
+      "profit_boost_percent": 30,
+      "potential_payout_usd": 62.42,
+      "potential_profit_usd": 52.42,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Visible offer only, not executed. No cashout recorded.",
+      "rewards_points_pending": 40,
+      "legs": [
+        {
+          "event_id": "401873077",
+          "event": "MIN VS SF",
+          "kickoff": "2026-11-23T01:20Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "alternate spread",
+          "selection": "San Francisco 49ers -3.5 alternate spread",
+          "team": "SF",
+          "line": -3.5
+        },
+        {
+          "event_id": "401873077",
+          "event": "MIN VS SF",
+          "kickoff": "2026-11-23T01:20Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "alternate total points",
+          "selection": "Under 45.5 alternate total points",
+          "side": "under",
+          "line": 45.5
+        },
+        {
+          "event_id": "401873077",
+          "event": "MIN VS SF",
+          "kickoff": "2026-11-23T01:20Z",
+          "price": null,
+          "hit": null,
+          "result": "pending",
+          "market": "anytime touchdown scorer",
+          "selection": "Christian McCaffrey anytime touchdown",
+          "player": "Christian McCaffrey",
+          "team": "SF",
+          "line": 0.5
+        }
+      ],
+      "event_ids": [
+        "401873077"
+      ],
+      "game": "MIN VS SF",
+      "kickoff": "2026-11-23T01:20Z",
+      "selection": "San Francisco 49ers -3.5 alternate spread / Under 45.5 alternate total points / Christian McCaffrey anytime touchdown",
+      "market": "parlay",
+      "bet": "3-leg SGP: SF -3.5 alternate spread / Under45.5 alternate total / Christian McCaffrey anytime touchdown (30% profit boost)",
+      "notes": "Actual TN placed receipt: displayed +524 boosted from +403 with30% profit boost, $10 cash stake, $62.42 total payout. Receipt payout authoritative, not recomputed from rounded odds. Individual leg prices not shown and left null. Cashout offer is not an execution. Original receipt stays private.",
+      "logged_at": "2026-11-23T00:59:45.781684+00:00"
     }
   ]
 }

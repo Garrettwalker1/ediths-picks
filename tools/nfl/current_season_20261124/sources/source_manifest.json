@@ -1,0 +1,38 @@
+{
+  "games.csv": {
+    "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+    "requested_at": "2026-11-24T13:11:06.993285+00:00",
+    "received_at": "2026-11-24T13:11:07.075727+00:00",
+    "sha256": "c7fa36828f57a3a17d3cbcd26f2b53b04ae0ecbaa9ce4cebbebb9255644b0f70"
+  },
+  "player_stats_2026.csv": {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+    "requested_at": "2026-11-24T13:11:07.077610+00:00",
+    "received_at": "2026-11-24T13:11:07.353133+00:00",
+    "sha256": "dc291e36a48e166edb660637df5ec3f30af47875e10bea1ec5ed64344ef6ca08"
+  },
+  "players.csv": {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
+    "requested_at": "2026-11-24T13:11:07.357482+00:00",
+    "received_at": "2026-11-24T13:11:08.756298+00:00",
+    "sha256": "6841de1b685d478b4cbe3da2ab533d9e19438e347f4a25e060d5921d7dd2e47b"
+  },
+  "week11.json": {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=11",
+    "requested_at": "2026-11-24T13:11:08.762678+00:00",
+    "received_at": "2026-11-24T13:11:09.122833+00:00",
+    "sha256": "276c5c0f5d1e5b7abb957b101494573eef97661ca5ea6ed6c8197c00a9529631"
+  },
+  "week12.json": {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=12",
+    "requested_at": "2026-11-24T13:11:09.123119+00:00",
+    "received_at": "2026-11-24T13:11:10.168519+00:00",
+    "sha256": "0ed4841983e01a2c5a60a3815a09a63f64785dfb803fbc04d08359f0a4e6bbd0"
+  },
+  "pbp_2026.parquet": {
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.parquet",
+    "sha256": "d4f6b89cb2d993e54f957a34d52dcd92f46eb659274581908aa7b54dcb1be41f",
+    "source_last_updated": "2026-11-24 05:02:48 EST",
+    "received_via": "post-MNF researcher source snapshot; separately verified163games/19968acceptedplays"
+  }
+}

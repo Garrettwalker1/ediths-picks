@@ -1,0 +1,201 @@
+{
+  "version": "NFL-experimental-current-season-QB-input-20261124",
+  "generated_at": "2026-11-24T13:14:45.906223+00:00",
+  "core_version": "NFL-current-season-SOS-record-player-20261124-owner-requested",
+  "performance_status": "Owner-directed experimental inclusion. Same method refit with new completed rows, not proof of improved accuracy.",
+  "scope": "2 conditional QB-passing-only predictions; 3 prior-dominated changes withheld. PriorWeek11role evidence is not Week12clearance. No full-game/non-QB/CFB injury effect.",
+  "engine_cutoff": "2026-11-24",
+  "full_game_injury_adjustments": 0,
+  "conditional_predictions": 2,
+  "games": [
+    {
+      "event_id": "401873079",
+      "game_id": "2026_12_GB_LA",
+      "baseline_raw_margin_home": 5.709425171311231,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873081",
+      "game_id": "2026_12_CHI_DET",
+      "baseline_raw_margin_home": 2.2395104344321837,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873080",
+      "game_id": "2026_12_PHI_DAL",
+      "baseline_raw_margin_home": 8.442197802193004,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873082",
+      "game_id": "2026_12_KC_BUF",
+      "baseline_raw_margin_home": 1.0192475136071972,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873083",
+      "game_id": "2026_12_DEN_PIT",
+      "baseline_raw_margin_home": 2.6418246395903173,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873087",
+      "game_id": "2026_12_NO_CIN",
+      "baseline_raw_margin_home": 11.815255042647696,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873085",
+      "game_id": "2026_12_BAL_HOU",
+      "baseline_raw_margin_home": 5.430988283847427,
+      "raw_home_adjustment_pts": null,
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": 6.003223332599173,
+        "display_margin_home": 6.0,
+        "team": "BAL",
+        "team_swing_raw": -0.5722350487517462,
+        "summary_note": "(QB injury flag) Jacoby Brissett-start / opponent unchanged-production scenario only. Week12 role not confirmed; not full injury coverage.",
+        "assumptions": "If Jacoby Brissett starts for BAL and Houston Texans stays at baseline-embedded QB production. Latest inspected source establishes prior Week11 role, NOT Week12 game clearance. Transfer of this-season production across teams/scheme remains an assumption. Opponent unchanged production is not verified health or measured zero injury effect. QB passing only; do not stack with skill-only or other injury scenarios.",
+        "role_status": "conditional_current_roster_not_week12_starter_confirmation",
+        "source_urls": [
+          "https://www.baltimoreravens.com/team/players-roster/jacoby-brissett/"
+        ],
+        "season_dropbacks": 414,
+        "shrink_weight_on_data": 0.6,
+        "coefficient_only_team_swing_ci95": [
+          -1.38,
+          0.3
+        ],
+        "uncertainty": "Coefficient-only bootstrap interval. Partial uncertainty: excludes uncertainty in starter quality (posterior_sd), embedded-proxy error, role/starter uncertainty and selection/confounding. Not a full predictive interval. Association, not causal injury effect. QB rushing and non-QB injuries excluded."
+      },
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873088",
+      "game_id": "2026_12_NYG_IND",
+      "baseline_raw_margin_home": -5.407649354364964,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873090",
+      "game_id": "2026_12_TEN_JAX",
+      "baseline_raw_margin_home": 15.574274685973776,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873089",
+      "game_id": "2026_12_NYJ_MIA",
+      "baseline_raw_margin_home": -3.3960867588566304,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Kyle McCord is a prior-week starter, not Week12 clearance. 70 current-season dropbacks, data weight 20.2%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.miamidolphins.com/news/game-recap-dolphins-fall-to-colts-24-22"
+      ]
+    },
+    {
+      "event_id": "401873084",
+      "game_id": "2026_12_ATL_MIN",
+      "baseline_raw_margin_home": 7.114673383401579,
+      "raw_home_adjustment_pts": null,
+      "status": "experimental_conditional_QB_input",
+      "conditional_scenario": {
+        "raw_margin_home": 8.05460368195003,
+        "display_margin_home": 8.0,
+        "team": "MIN",
+        "team_swing_raw": 0.9399302985484521,
+        "summary_note": "(QB injury flag) Kirk Cousins-start / opponent unchanged-production scenario only. Week12 role not confirmed; not full injury coverage.",
+        "assumptions": "If Kirk Cousins starts for MIN and Atlanta Falcons stays at baseline-embedded QB production. Latest inspected source establishes prior Week11 role, NOT Week12 game clearance. Transfer of this-season production across teams/scheme remains an assumption. Opponent unchanged production is not verified health or measured zero injury effect. QB passing only; do not stack with skill-only or other injury scenarios.",
+        "role_status": "conditional_current_roster_not_week12_starter_confirmation",
+        "source_urls": [
+          "https://www.vikings.com/news/kirk-cousins-starting-packers-week-10-game-2026"
+        ],
+        "season_dropbacks": 399,
+        "shrink_weight_on_data": 0.591,
+        "coefficient_only_team_swing_ci95": [
+          -0.5,
+          2.27
+        ],
+        "uncertainty": "Coefficient-only bootstrap interval. Partial uncertainty: excludes uncertainty in starter quality (posterior_sd), embedded-proxy error, role/starter uncertainty and selection/confounding. Not a full predictive interval. Association, not causal injury effect. QB rushing and non-QB injuries excluded."
+      },
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873093",
+      "game_id": "2026_12_NE_LAC",
+      "baseline_raw_margin_home": -4.8920216892422275,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873092",
+      "game_id": "2026_12_WAS_ARI",
+      "baseline_raw_margin_home": -4.1126820514904505,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Carson Beck is a prior-week starter, not Week12 clearance. 23 current-season dropbacks, data weight 7.7%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.azcardinals.com/news/carson-beck-gets-first-start-but-cardinals-can-t-get-win-against-rams"
+      ]
+    },
+    {
+      "event_id": "401873091",
+      "game_id": "2026_12_SEA_SF",
+      "baseline_raw_margin_home": 7.11096419826294,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    },
+    {
+      "event_id": "401873086",
+      "game_id": "2026_12_LV_CLE",
+      "baseline_raw_margin_home": 4.689862995098001,
+      "raw_home_adjustment_pts": null,
+      "status": "withheld_prior_dominated_replacement_quality",
+      "conditional_scenario": null,
+      "coverage_note": "(QB injury flag) Fernando Mendoza is a prior-week starter, not Week12 clearance. 85 current-season dropbacks, data weight 23.6%; prior dominates. Numerical replacement effect withheld.",
+      "source_urls": [
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback"
+      ]
+    },
+    {
+      "event_id": "401873094",
+      "game_id": "2026_12_CAR_TB",
+      "baseline_raw_margin_home": 3.038695941580029,
+      "raw_home_adjustment_pts": null,
+      "status": "unknown_QB_coverage",
+      "conditional_scenario": null,
+      "coverage_note": "Week12 role and availability coverage not fully verified. Unknown is not healthy or zero. No full-game or non-QB adjustment."
+    }
+  ]
+}

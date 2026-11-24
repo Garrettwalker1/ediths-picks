@@ -50,10 +50,10 @@ def current_cfb_forecasts(repo):
 def main(nfl,cfb):
  docs={s:load(p) for s,p in [('NFL',nfl),('CFB',cfb)]};parsed={s:parse(d) for s,d in docs.items()};now=max(d['at'] for d in docs.values());outpath=R/'fanduel_comparisons.json';old=json.load(open(outpath)) if outpath.exists() else {'nfl':{},'cfb':{}}
  out={'checked_at':now,'state':'IL','scope':'NFL/CFB game sides, moneylines and totals only. Public signed-out Illinois; not Tennessee. Player-price coverage is partial and reported separately. Model/sealed evaluation references unchanged.','nfl':{},'cfb':{},'coverage':{}}
- sd=json.load(open(R/'tools/nfl/current_season_20261117/sources/week11.json'));sched=[]
+ sd=json.load(open(R/'tools/nfl/current_season_20261124/sources/week12.json'));sched=[]
  for e in sd['events']:
   c=e['competitions'][0]['competitors'];a=next(x for x in c if x['homeAway']=='away');h=next(x for x in c if x['homeAway']=='home');sched.append((a['team']['displayName'],h['team']['displayName'],a['team']['abbreviation'].replace('LAR','LA')+' at '+h['team']['abbreviation'].replace('LAR','LA'),e['date'],e['id']))
- active=json.load(open(R/'tools/nfl/current_season_20261117/current_forecasts.json'))['games']
+ active=json.load(open(R/'tools/nfl/current_season_20261124/current_forecasts.json'))['games']
  assert {str(x[4])for x in sched}=={g['event_id']for g in active},'NFL current model/schedule mismatch'
  cg=current_cfb_forecasts(R)
  cfb_schedule=json.load(open(R/'cfb_schedule_verified.json'))

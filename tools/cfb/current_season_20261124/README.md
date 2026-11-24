@@ -1,0 +1,1 @@
+DailyCFB Nov24:822finals unchanged,0new. Exact prior fit2068past-onlyrows and69futureforecastvalues carried forward, no needless refit.138currentrosters; availability0issuedprimary/24officialpending/109secondary/5unmatched.18secondarydesignations onTCU/TexasTech,othersunknown. No numericinjury effects. November22AP displayonly. Earlierissues/sealsunchanged.

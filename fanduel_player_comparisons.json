@@ -1,21 +1,21 @@
 {
-  "assembled_at": "2026-11-23T23:56:07.071638+00:00",
-  "checked_at": "2026-11-23T23:55:15.502Z",
+  "assembled_at": "2026-11-24T01:04:41.664284+00:00",
+  "checked_at": "2026-11-24T01:04:11.807Z",
   "scope": "Week11:13 of 13 events have captured player prices, all 13 across six standard categories. This round refreshed only strictly future CIN-WSH. Twelve started events retain exact earlier pregame prices, not current live quotes. Actual capture times/sources per event and row; Illinois comparison only, not Tennessee availability or continuous full-slate coverage.",
   "state": "IL",
   "model_inputs_changed": false,
   "availability_note": "Book listing and roster membership are not game clearance. Model figures retain their own older source times and have no new injury/workload adjustment. Book prices are comparisons only; no betting edge or current TN offer claimed.",
   "coverage": {
-    "rendered_target_accordions": 485,
-    "parsed_selections": 1280,
-    "joined_selections": 1243,
+    "rendered_target_accordions": 484,
+    "parsed_selections": 1278,
+    "joined_selections": 1241,
     "unmatched_selections": 37,
     "market_player_rows": {
       "anytime_td": 321,
       "passing_yards": 25,
       "passing_tds": 25,
       "rushing_yards": 76,
-      "receiving_yards": 169,
+      "receiving_yards": 168,
       "receptions": 166
     },
     "events_captured": 13,
@@ -18815,23 +18815,23 @@
       "frozen": true
     },
     {
-      "checked_at": "2026-11-23T23:55:15.502Z",
+      "checked_at": "2026-11-24T01:04:11.807Z",
       "state": "IL",
       "event_id": "401873078",
       "matchup": "Cincinnati Bengals at Washington Commanders",
       "kickoff": "2026-11-24T01:15Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "coverage": {
-        "rendered_target_accordions": 40,
-        "parsed_selections": 103,
-        "joined_selections": 103,
+        "rendered_target_accordions": 39,
+        "parsed_selections": 101,
+        "joined_selections": 101,
         "unmatched_selections": 0,
         "market_player_rows": {
           "anytime_td": 25,
           "passing_yards": 2,
           "passing_tds": 2,
           "rushing_yards": 7,
-          "receiving_yards": 15,
+          "receiving_yards": 14,
           "receptions": 13
         }
       },
@@ -18845,7 +18845,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18868,7 +18868,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -18891,16 +18891,39 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 100
+              "price": -105
             }
           ],
           "model_value": 0.3834955736521412,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
+          "player_id": "00-0031588",
+          "espn_id": "2976212",
+          "team_id": "WSH",
+          "player_name": "Stefon Diggs",
+          "market": "anytime_td",
+          "event_id": "401873078",
+          "kickoff": "2026-11-24T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-24T01:04:11.807Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 175
+            }
+          ],
+          "model_value": 0.2958900625996868,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -18914,13 +18937,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 170
+              "price": 165
             }
           ],
           "model_value": 0.23505399995305218,
@@ -18937,39 +18960,16 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 180
+              "price": 185
             }
           ],
           "model_value": 0.28508177276262087,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
-          "player_id": "00-0031588",
-          "espn_id": "2976212",
-          "team_id": "WSH",
-          "player_name": "Stefon Diggs",
-          "market": "anytime_td",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 190
-            }
-          ],
-          "model_value": 0.2958900625996868,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -18983,13 +18983,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 210
+              "price": 230
             }
           ],
           "model_value": 0.2559570707929361,
@@ -19006,7 +19006,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19029,7 +19029,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19052,39 +19052,16 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 260
+              "price": 250
             }
           ],
           "model_value": 0.2148996060007916,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
-          "player_id": "00-0041040",
-          "espn_id": "5081432",
-          "team_id": "WSH",
-          "player_name": "Antonio Williams",
-          "market": "anytime_td",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 290
-            }
-          ],
-          "model_value": 0.2141118459756111,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -19098,16 +19075,39 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 290
+              "price": 310
             }
           ],
           "model_value": 0.18657970782627353,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
+          "player_id": "00-0041040",
+          "espn_id": "5081432",
+          "team_id": "WSH",
+          "player_name": "Antonio Williams",
+          "market": "anytime_td",
+          "event_id": "401873078",
+          "kickoff": "2026-11-24T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-24T01:04:11.807Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 310
+            }
+          ],
+          "model_value": 0.2141118459756111,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -19121,39 +19121,16 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 370
+              "price": 360
             }
           ],
           "model_value": 0.18007440182455783,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-        },
-        {
-          "player_id": "00-0033699",
-          "espn_id": "3068267",
-          "team_id": "WSH",
-          "player_name": "Austin Ekeler",
-          "market": "anytime_td",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 380
-            }
-          ],
-          "model_value": 0.18263396440043284,
           "model_label": "Owner-adopted Oct29 TD model; unvalidated",
           "model_kind": "probability",
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -19167,7 +19144,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19180,6 +19157,29 @@
           "model_label": "Unavailable: no compatible published player projection"
         },
         {
+          "player_id": "00-0033699",
+          "espn_id": "3068267",
+          "team_id": "WSH",
+          "player_name": "Austin Ekeler",
+          "market": "anytime_td",
+          "event_id": "401873078",
+          "kickoff": "2026-11-24T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-24T01:04:11.807Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 450
+            }
+          ],
+          "model_value": 0.18263396440043284,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
           "player_id": "00-0035631",
           "espn_id": "3127310",
           "team_id": "CIN",
@@ -19188,7 +19188,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19209,34 +19209,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 750
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0039912",
-          "espn_id": "4690923",
-          "team_id": "WSH",
-          "player_name": "Ben Sinnott",
-          "market": "anytime_td",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 900
+              "price": 650
             }
           ],
           "model_value": null,
@@ -19251,13 +19230,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1000
+              "price": 750
             }
           ],
           "model_value": 0.15746183431271238,
@@ -19266,27 +19245,25 @@
           "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
         },
         {
-          "player_id": "00-0038839",
-          "espn_id": "4690070",
-          "team_id": "CIN",
-          "player_name": "Mitchell Tinsley",
+          "player_id": "00-0039912",
+          "espn_id": "4690923",
+          "team_id": "WSH",
+          "player_name": "Ben Sinnott",
           "market": "anytime_td",
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1400
+              "price": 1100
             }
           ],
-          "model_value": 0.16631227237090077,
-          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-          "model_kind": "probability",
-          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
         },
         {
           "player_id": "00-0041069",
@@ -19297,7 +19274,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19318,13 +19295,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1900
+              "price": 1500
             }
           ],
           "model_value": null,
@@ -19339,13 +19316,57 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1900
+              "price": 1700
+            }
+          ],
+          "model_value": null,
+          "model_label": "Unavailable: no compatible published player projection"
+        },
+        {
+          "player_id": "00-0038839",
+          "espn_id": "4690070",
+          "team_id": "CIN",
+          "player_name": "Mitchell Tinsley",
+          "market": "anytime_td",
+          "event_id": "401873078",
+          "kickoff": "2026-11-24T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-24T01:04:11.807Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 1800
+            }
+          ],
+          "model_value": 0.16631227237090077,
+          "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+          "model_kind": "probability",
+          "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+        },
+        {
+          "player_id": "00-0040208",
+          "espn_id": "4429299",
+          "team_id": "CIN",
+          "player_name": "Tahj Brooks",
+          "market": "anytime_td",
+          "event_id": "401873078",
+          "kickoff": "2026-11-24T01:15Z",
+          "state": "IL",
+          "captured_at": "2026-11-24T01:04:11.807Z",
+          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+          "selections": [
+            {
+              "side": "yes",
+              "line": 0.5,
+              "price": 2700
             }
           ],
           "model_value": null,
@@ -19360,34 +19381,13 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "yes",
               "line": 0.5,
-              "price": 1900
-            }
-          ],
-          "model_value": null,
-          "model_label": "Unavailable: no compatible published player projection"
-        },
-        {
-          "player_id": "00-0040208",
-          "espn_id": "4429299",
-          "team_id": "CIN",
-          "player_name": "Tahj Brooks",
-          "market": "anytime_td",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "yes",
-              "line": 0.5,
-              "price": 2700
+              "price": 2500
             }
           ],
           "model_value": null,
@@ -19402,17 +19402,17 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
-              "line": 219.5,
+              "line": 221.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 219.5,
+              "line": 221.5,
               "price": -113
             }
           ],
@@ -19428,7 +19428,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19454,18 +19454,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": -104
+              "price": -106
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -125
+              "price": -122
             }
           ],
           "model_value": null,
@@ -19480,18 +19480,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": -128
+              "price": -130
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": -102
+              "price": 100
             }
           ],
           "model_value": null,
@@ -19506,7 +19506,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19534,7 +19534,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19560,7 +19560,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19588,7 +19588,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19616,7 +19616,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19642,7 +19642,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19670,7 +19670,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19698,7 +19698,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19726,7 +19726,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19754,17 +19754,17 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
-              "line": 27.5,
+              "line": 28.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 27.5,
+              "line": 28.5,
               "price": -113
             }
           ],
@@ -19782,7 +19782,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19810,7 +19810,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19838,17 +19838,17 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
-              "line": 41.5,
+              "line": 40.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 41.5,
+              "line": 40.5,
               "price": -113
             }
           ],
@@ -19866,7 +19866,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19894,7 +19894,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -19922,49 +19922,21 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
-              "line": 35.5,
+              "line": 34.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 35.5,
+              "line": 34.5,
               "price": -113
             }
           ],
           "model_value": 37.3,
-          "model_label": "Dated generic median, not current matchup/personnel adjusted",
-          "model_kind": "median",
-          "model_captured_at": "2026-11-17T13:13:02.933339+00:00"
-        },
-        {
-          "player_id": "00-0039912",
-          "espn_id": "4690923",
-          "team_id": "WSH",
-          "player_name": "Ben Sinnott",
-          "market": "receiving_yards",
-          "event_id": "401873078",
-          "kickoff": "2026-11-24T01:15Z",
-          "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
-          "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-          "selections": [
-            {
-              "side": "over",
-              "line": 2.5,
-              "price": 108
-            },
-            {
-              "side": "under",
-              "line": 2.5,
-              "price": -138
-            }
-          ],
-          "model_value": 14.5,
           "model_label": "Dated generic median, not current matchup/personnel adjusted",
           "model_kind": "median",
           "model_captured_at": "2026-11-17T13:13:02.933339+00:00"
@@ -19978,7 +19950,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20006,7 +19978,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20034,7 +20006,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20062,17 +20034,17 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
-              "line": 5.5,
+              "line": 6.5,
               "price": -113
             },
             {
               "side": "under",
-              "line": 5.5,
+              "line": 6.5,
               "price": -113
             }
           ],
@@ -20090,7 +20062,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20118,7 +20090,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20146,7 +20118,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20174,18 +20146,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 4.5,
-              "price": 104
+              "price": -102
             },
             {
               "side": "under",
               "line": 4.5,
-              "price": -138
+              "price": -130
             }
           ],
           "model_value": 4.8,
@@ -20202,7 +20174,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20230,18 +20202,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 4.5,
-              "price": 108
+              "price": 120
             },
             {
               "side": "under",
               "line": 4.5,
-              "price": -144
+              "price": -160
             }
           ],
           "model_value": 3.7,
@@ -20258,7 +20230,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20286,18 +20258,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 4.5,
-              "price": -138
+              "price": -122
             },
             {
               "side": "under",
               "line": 4.5,
-              "price": 104
+              "price": -108
             }
           ],
           "model_value": 4.2,
@@ -20314,18 +20286,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 3.5,
-              "price": 100
+              "price": 106
             },
             {
               "side": "under",
               "line": 3.5,
-              "price": -132
+              "price": -140
             }
           ],
           "model_value": 3.2,
@@ -20342,18 +20314,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 2.5,
-              "price": 130
+              "price": 140
             },
             {
               "side": "under",
               "line": 2.5,
-              "price": -174
+              "price": -188
             }
           ],
           "model_value": 2.7,
@@ -20370,18 +20342,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": -154
+              "price": -138
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": 116
+              "price": 104
             }
           ],
           "model_value": 1.7,
@@ -20398,7 +20370,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20426,7 +20398,7 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
@@ -20454,18 +20426,18 @@
           "event_id": "401873078",
           "kickoff": "2026-11-24T01:15Z",
           "state": "IL",
-          "captured_at": "2026-11-23T23:55:15.502Z",
+          "captured_at": "2026-11-24T01:04:11.807Z",
           "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
           "selections": [
             {
               "side": "over",
               "line": 1.5,
-              "price": 168
+              "price": 158
             },
             {
               "side": "under",
               "line": 1.5,
-              "price": -230
+              "price": -215
             }
           ],
           "model_value": 1.3,
@@ -38658,7 +38630,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38681,7 +38653,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38704,16 +38676,39 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 100
+          "price": -105
         }
       ],
       "model_value": 0.3834955736521412,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
+      "player_id": "00-0031588",
+      "espn_id": "2976212",
+      "team_id": "WSH",
+      "player_name": "Stefon Diggs",
+      "market": "anytime_td",
+      "event_id": "401873078",
+      "kickoff": "2026-11-24T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-24T01:04:11.807Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 175
+        }
+      ],
+      "model_value": 0.2958900625996868,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -38727,13 +38722,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 170
+          "price": 165
         }
       ],
       "model_value": 0.23505399995305218,
@@ -38750,39 +38745,16 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 180
+          "price": 185
         }
       ],
       "model_value": 0.28508177276262087,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
-      "player_id": "00-0031588",
-      "espn_id": "2976212",
-      "team_id": "WSH",
-      "player_name": "Stefon Diggs",
-      "market": "anytime_td",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 190
-        }
-      ],
-      "model_value": 0.2958900625996868,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -38796,13 +38768,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 210
+          "price": 230
         }
       ],
       "model_value": 0.2559570707929361,
@@ -38819,7 +38791,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38842,7 +38814,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38865,39 +38837,16 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 260
+          "price": 250
         }
       ],
       "model_value": 0.2148996060007916,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
-      "player_id": "00-0041040",
-      "espn_id": "5081432",
-      "team_id": "WSH",
-      "player_name": "Antonio Williams",
-      "market": "anytime_td",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 290
-        }
-      ],
-      "model_value": 0.2141118459756111,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -38911,16 +38860,39 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 290
+          "price": 310
         }
       ],
       "model_value": 0.18657970782627353,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
+      "player_id": "00-0041040",
+      "espn_id": "5081432",
+      "team_id": "WSH",
+      "player_name": "Antonio Williams",
+      "market": "anytime_td",
+      "event_id": "401873078",
+      "kickoff": "2026-11-24T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-24T01:04:11.807Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 310
+        }
+      ],
+      "model_value": 0.2141118459756111,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -38934,39 +38906,16 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 370
+          "price": 360
         }
       ],
       "model_value": 0.18007440182455783,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
-    },
-    {
-      "player_id": "00-0033699",
-      "espn_id": "3068267",
-      "team_id": "WSH",
-      "player_name": "Austin Ekeler",
-      "market": "anytime_td",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 380
-        }
-      ],
-      "model_value": 0.18263396440043284,
       "model_label": "Owner-adopted Oct29 TD model; unvalidated",
       "model_kind": "probability",
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
@@ -38980,7 +38929,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -38993,6 +38942,29 @@
       "model_label": "Unavailable: no compatible published player projection"
     },
     {
+      "player_id": "00-0033699",
+      "espn_id": "3068267",
+      "team_id": "WSH",
+      "player_name": "Austin Ekeler",
+      "market": "anytime_td",
+      "event_id": "401873078",
+      "kickoff": "2026-11-24T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-24T01:04:11.807Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 450
+        }
+      ],
+      "model_value": 0.18263396440043284,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
       "player_id": "00-0035631",
       "espn_id": "3127310",
       "team_id": "CIN",
@@ -39001,7 +38973,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39022,34 +38994,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 750
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0039912",
-      "espn_id": "4690923",
-      "team_id": "WSH",
-      "player_name": "Ben Sinnott",
-      "market": "anytime_td",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 900
+          "price": 650
         }
       ],
       "model_value": null,
@@ -39064,13 +39015,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1000
+          "price": 750
         }
       ],
       "model_value": 0.15746183431271238,
@@ -39079,27 +39030,25 @@
       "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
     },
     {
-      "player_id": "00-0038839",
-      "espn_id": "4690070",
-      "team_id": "CIN",
-      "player_name": "Mitchell Tinsley",
+      "player_id": "00-0039912",
+      "espn_id": "4690923",
+      "team_id": "WSH",
+      "player_name": "Ben Sinnott",
       "market": "anytime_td",
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1400
+          "price": 1100
         }
       ],
-      "model_value": 0.16631227237090077,
-      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
-      "model_kind": "probability",
-      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
     },
     {
       "player_id": "00-0041069",
@@ -39110,7 +39059,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39131,13 +39080,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1900
+          "price": 1500
         }
       ],
       "model_value": null,
@@ -39152,13 +39101,57 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1900
+          "price": 1700
+        }
+      ],
+      "model_value": null,
+      "model_label": "Unavailable: no compatible published player projection"
+    },
+    {
+      "player_id": "00-0038839",
+      "espn_id": "4690070",
+      "team_id": "CIN",
+      "player_name": "Mitchell Tinsley",
+      "market": "anytime_td",
+      "event_id": "401873078",
+      "kickoff": "2026-11-24T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-24T01:04:11.807Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 1800
+        }
+      ],
+      "model_value": 0.16631227237090077,
+      "model_label": "Owner-adopted Oct29 TD model; unvalidated",
+      "model_kind": "probability",
+      "model_captured_at": "2026-11-17T13:28:56.381405+00:00"
+    },
+    {
+      "player_id": "00-0040208",
+      "espn_id": "4429299",
+      "team_id": "CIN",
+      "player_name": "Tahj Brooks",
+      "market": "anytime_td",
+      "event_id": "401873078",
+      "kickoff": "2026-11-24T01:15Z",
+      "state": "IL",
+      "captured_at": "2026-11-24T01:04:11.807Z",
+      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
+      "selections": [
+        {
+          "side": "yes",
+          "line": 0.5,
+          "price": 2700
         }
       ],
       "model_value": null,
@@ -39173,34 +39166,13 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "yes",
           "line": 0.5,
-          "price": 1900
-        }
-      ],
-      "model_value": null,
-      "model_label": "Unavailable: no compatible published player projection"
-    },
-    {
-      "player_id": "00-0040208",
-      "espn_id": "4429299",
-      "team_id": "CIN",
-      "player_name": "Tahj Brooks",
-      "market": "anytime_td",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "yes",
-          "line": 0.5,
-          "price": 2700
+          "price": 2500
         }
       ],
       "model_value": null,
@@ -39215,17 +39187,17 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
-          "line": 219.5,
+          "line": 221.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 219.5,
+          "line": 221.5,
           "price": -113
         }
       ],
@@ -39241,7 +39213,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39267,18 +39239,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": -104
+          "price": -106
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -125
+          "price": -122
         }
       ],
       "model_value": null,
@@ -39293,18 +39265,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": -128
+          "price": -130
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": -102
+          "price": 100
         }
       ],
       "model_value": null,
@@ -39319,7 +39291,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39347,7 +39319,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39373,7 +39345,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39401,7 +39373,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39429,7 +39401,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39455,7 +39427,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39483,7 +39455,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39511,7 +39483,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39539,7 +39511,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39567,17 +39539,17 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
-          "line": 27.5,
+          "line": 28.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 27.5,
+          "line": 28.5,
           "price": -113
         }
       ],
@@ -39595,7 +39567,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39623,7 +39595,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39651,17 +39623,17 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
-          "line": 41.5,
+          "line": 40.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 41.5,
+          "line": 40.5,
           "price": -113
         }
       ],
@@ -39679,7 +39651,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39707,7 +39679,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39735,49 +39707,21 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
-          "line": 35.5,
+          "line": 34.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 35.5,
+          "line": 34.5,
           "price": -113
         }
       ],
       "model_value": 37.3,
-      "model_label": "Dated generic median, not current matchup/personnel adjusted",
-      "model_kind": "median",
-      "model_captured_at": "2026-11-17T13:13:02.933339+00:00"
-    },
-    {
-      "player_id": "00-0039912",
-      "espn_id": "4690923",
-      "team_id": "WSH",
-      "player_name": "Ben Sinnott",
-      "market": "receiving_yards",
-      "event_id": "401873078",
-      "kickoff": "2026-11-24T01:15Z",
-      "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
-      "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "selections": [
-        {
-          "side": "over",
-          "line": 2.5,
-          "price": 108
-        },
-        {
-          "side": "under",
-          "line": 2.5,
-          "price": -138
-        }
-      ],
-      "model_value": 14.5,
       "model_label": "Dated generic median, not current matchup/personnel adjusted",
       "model_kind": "median",
       "model_captured_at": "2026-11-17T13:13:02.933339+00:00"
@@ -39791,7 +39735,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39819,7 +39763,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39847,7 +39791,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39875,17 +39819,17 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
-          "line": 5.5,
+          "line": 6.5,
           "price": -113
         },
         {
           "side": "under",
-          "line": 5.5,
+          "line": 6.5,
           "price": -113
         }
       ],
@@ -39903,7 +39847,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39931,7 +39875,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39959,7 +39903,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -39987,18 +39931,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 4.5,
-          "price": 104
+          "price": -102
         },
         {
           "side": "under",
           "line": 4.5,
-          "price": -138
+          "price": -130
         }
       ],
       "model_value": 4.8,
@@ -40015,7 +39959,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40043,18 +39987,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 4.5,
-          "price": 108
+          "price": 120
         },
         {
           "side": "under",
           "line": 4.5,
-          "price": -144
+          "price": -160
         }
       ],
       "model_value": 3.7,
@@ -40071,7 +40015,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40099,18 +40043,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 4.5,
-          "price": -138
+          "price": -122
         },
         {
           "side": "under",
           "line": 4.5,
-          "price": 104
+          "price": -108
         }
       ],
       "model_value": 4.2,
@@ -40127,18 +40071,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 3.5,
-          "price": 100
+          "price": 106
         },
         {
           "side": "under",
           "line": 3.5,
-          "price": -132
+          "price": -140
         }
       ],
       "model_value": 3.2,
@@ -40155,18 +40099,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 2.5,
-          "price": 130
+          "price": 140
         },
         {
           "side": "under",
           "line": 2.5,
-          "price": -174
+          "price": -188
         }
       ],
       "model_value": 2.7,
@@ -40183,18 +40127,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": -154
+          "price": -138
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": 116
+          "price": 104
         }
       ],
       "model_value": 1.7,
@@ -40211,7 +40155,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40239,7 +40183,7 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
@@ -40267,18 +40211,18 @@
       "event_id": "401873078",
       "kickoff": "2026-11-24T01:15Z",
       "state": "IL",
-      "captured_at": "2026-11-23T23:55:15.502Z",
+      "captured_at": "2026-11-24T01:04:11.807Z",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
       "selections": [
         {
           "side": "over",
           "line": 1.5,
-          "price": 168
+          "price": 158
         },
         {
           "side": "under",
           "line": 1.5,
-          "price": -230
+          "price": -215
         }
       ],
       "model_value": 1.3,
@@ -40627,8 +40571,8 @@
       "event_id": "401873078",
       "matchup": "Cincinnati Bengals at Washington Commanders",
       "source_url": "https://sportsbook.fanduel.com/football/nfl/cincinnati-bengals-@-washington-commanders-36305242",
-      "inventory_checked_at": "2026-11-23T23:55:15.796Z",
-      "full_dom_header_count": 157,
+      "inventory_checked_at": "2026-11-24T01:04:12.141Z",
+      "full_dom_header_count": 156,
       "event_prop_tabs": [
         "Passing Props",
         "Receiving Props",

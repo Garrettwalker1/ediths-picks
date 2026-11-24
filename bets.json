@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-23T23:08:48.594193+00:00",
+  "updated_at": "2026-11-24T04:57:01.804984+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -15559,8 +15559,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
       "source_message_id": "phonemsg-01M8227QXP7GK4DCD0Y7AE2JHS",
@@ -15716,8 +15716,28 @@
           "team": "CIN",
           "line": 0.5,
           "price": -139,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "player_id": "4362628",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4362628",
+              "stats": {
+                "REC": "5",
+                "YDS": "31",
+                "AVG": "6.2",
+                "TD": "0",
+                "LONG": "10",
+                "TGTS": "9"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "grading_note": "Final boxscore and complete scoring-play list checked. No own rushing/receiving/return/recovery TD. Passing touchdowns excluded.",
+          "graded_at": "2026-11-24T04:57:01.804984+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "final_score": "WSH22;CIN20"
         }
       ],
       "event_ids": [
@@ -15731,7 +15751,17 @@
       "selection": "James Cook anytime touchdown / Jonah Coleman anytime touchdown / Christian McCaffrey anytime touchdown / Ja'Marr Chase anytime touchdown",
       "bet": "4-leg ATD parlay: James Cook anytime touchdown / Jonah Coleman anytime touchdown / Christian McCaffrey anytime touchdown / Ja'Marr Chase anytime touchdown (30% profit boost)",
       "schedule_note": "Receipt displays noon games at12:01PMCT and LV-DEN3:26PMCT. Official schedule retained at12:00/3:25PMCT; no schedule change inferred. Chase leg is MondayNov23, so four-leg ticket can remain open through Monday.",
-      "stake_display": "usd"
+      "stake_display": "usd",
+      "net_usd": -10,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-24T04:57:01.804984+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+        "graded_at": "2026-11-24T04:57:01.804984+00:00",
+        "final_score": "Washington22,Cincinnati20 (Final)",
+        "detail": "Standard sporting-result settlement from verified final; no cashout, void, or protection reported. Dollar stakes authoritative; units not inferred."
+      }
     },
     {
       "bet_id": "us-tn:01m8226jcvek5a5xzjcrdt74ws",
@@ -16721,8 +16751,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16766,19 +16796,48 @@
           "team": "WSH",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "2976212",
+              "stats": {
+                "REC": "4",
+                "YDS": "45",
+                "AVG": "11.3",
+                "TD": "0",
+                "LONG": "29",
+                "TGTS": "6"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "grading_note": "Final boxscore and complete scoring-play list checked. No own rushing/receiving/return/recovery TD. Passing touchdowns excluded.",
+          "graded_at": "2026-11-24T04:57:01.804984+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "final_score": "WSH22;CIN20"
         }
       ],
-      "source_receipt_sha256": "d104da003f3e7bc17c64901f10febaf12b61ee4755de5846edb7294a123d5f18"
+      "source_receipt_sha256": "d104da003f3e7bc17c64901f10febaf12b61ee4755de5846edb7294a123d5f18",
+      "net_usd": -20,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-24T04:57:01.804984+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+        "graded_at": "2026-11-24T04:57:01.804984+00:00",
+        "final_score": "Washington22,Cincinnati20 (Final)",
+        "detail": "Standard sporting-result settlement from verified final; no cashout, void, or protection reported. Dollar stakes authoritative; units not inferred."
+      }
     },
     {
       "sport": "NFL",
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "No explicit units supplied; dollar stake authoritative.",
@@ -16813,41 +16872,89 @@
           "event": "CIN @ WSH",
           "kickoff": "2026-11-24T01:15Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "market": "spread",
           "selection": "Cincinnati Bengals -6.5 spread",
           "team": "CIN",
-          "line": -6.5
+          "line": -6.5,
+          "grading_note": "CIN20,WSH22; Cincinnati lost outright and did not cover -6.5.",
+          "graded_at": "2026-11-24T04:57:01.804984+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "final_score": "WSH22;CIN20"
         },
         {
           "event_id": "401873078",
           "event": "CIN @ WSH",
           "kickoff": "2026-11-24T01:15Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": true,
+          "result": "win",
           "market": "alternate total points",
           "selection": "Under 53.5 alternate total points",
           "side": "under",
-          "line": 53.5
+          "line": 53.5,
+          "grading_note": "42 total points, Under53.5 wins. Explicit alternate total graded independently of losing ticket.",
+          "graded_at": "2026-11-24T04:57:01.804984+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "final_score": "WSH22;CIN20"
         },
         {
           "event_id": "401873078",
           "event": "CIN @ WSH",
           "kickoff": "2026-11-24T01:15Z",
           "price": null,
-          "hit": null,
-          "result": "pending",
+          "hit": false,
+          "result": "loss",
           "market": "anytime touchdown scorer",
           "selection": "Chase Brown anytime touchdown",
           "player": "Chase Brown",
           "player_id": "4362238",
           "team": "CIN",
-          "line": 0.5
+          "line": 0.5,
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4362238",
+              "stats": {
+                "CAR": "6",
+                "YDS": "6",
+                "AVG": "1.0",
+                "TD": "0",
+                "LONG": "3"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4362238",
+              "stats": {
+                "REC": "5",
+                "YDS": "30",
+                "AVG": "6.0",
+                "TD": "0",
+                "LONG": "9",
+                "TGTS": "8"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "grading_note": "Final boxscore and complete scoring-play list checked. No own rushing/receiving/return/recovery TD. Passing touchdowns excluded.",
+          "graded_at": "2026-11-24T04:57:01.804984+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "final_score": "WSH22;CIN20"
         }
       ],
-      "source_receipt_sha256": "f3afdefba04d35ce9ff8c430e598715faeccb0f8b1f994e6b198878da010add8"
+      "source_receipt_sha256": "f3afdefba04d35ce9ff8c430e598715faeccb0f8b1f994e6b198878da010add8",
+      "net_usd": -10,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-24T04:57:01.804984+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+        "graded_at": "2026-11-24T04:57:01.804984+00:00",
+        "final_score": "Washington22,Cincinnati20 (Final)",
+        "detail": "Standard sporting-result settlement from verified final; no cashout, void, or protection reported. Dollar stakes authoritative; units not inferred."
+      }
     }
   ]
 }

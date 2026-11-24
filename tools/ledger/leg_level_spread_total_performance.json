@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-16T04:49:01.047891+00:00",
+ "generated_at": "2026-11-24T04:57:01.891666+00:00",
  "scope": "Legs on settled logged tickets whose market mentions spread or total (alt and standard). Legs count only with an explicit per-leg hit flag; ticket outcomes never imputed; duplicate legs across tickets counted once.",
  "caveat": "Small, self-selected sample of legs Garrett played. Performance context, not a validated edge or model-quality proof.",
  "totals": {
-  "graded": 53,
-  "wins": 33,
-  "losses": 20,
+  "graded": 58,
+  "wins": 36,
+  "losses": 22,
   "ungraded": 17
  },
  "by_sport": {
@@ -16,22 +16,22 @@
    "ungraded": 14
   },
   "NFL": {
-   "graded": 25,
-   "wins": 13,
-   "losses": 12,
+   "graded": 30,
+   "wins": 16,
+   "losses": 14,
    "ungraded": 3
   }
  },
  "nfl_alt": {
-  "graded": 24,
-  "wins": 13,
+  "graded": 27,
+  "wins": 16,
   "losses": 11,
   "ungraded": 1
  },
  "nfl_standard": {
-  "graded": 1,
+  "graded": 3,
   "wins": 0,
-  "losses": 1,
+  "losses": 3,
   "ungraded": 2
  },
  "legs": [
@@ -802,6 +802,61 @@
    "sport": "NFL",
    "ticket": "3-leg SGP: Chase Brown anytime TD / Jaylen Warren over 65.5 rushing yards / Cincinnati -3.5 alternate spread",
    "ticket_date": "2026-11-15",
+   "ticket_result": "loss",
+   "hit": true
+  },
+  {
+   "event": "Indianapolis Colts @ Houston Texans",
+   "market": "spread",
+   "selection": "Indianapolis Colts +12.5",
+   "line": 12.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: Tyler Warren over 37.5 receiving yards / Jonathan Taylor over 51.5 rushing yards / Indianapolis Colts +12.5",
+   "ticket_date": "2026-11-19",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "MIN VS SF",
+   "market": "alternate spread",
+   "selection": "San Francisco 49ers -3.5 alternate spread",
+   "line": -3.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: SF -3.5 alternate spread / Under45.5 alternate total / Christian McCaffrey anytime touchdown (30% profit boost)",
+   "ticket_date": "2026-11-22",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "MIN VS SF",
+   "market": "alternate total points",
+   "selection": "Under 45.5 alternate total points",
+   "line": 45.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: SF -3.5 alternate spread / Under45.5 alternate total / Christian McCaffrey anytime touchdown (30% profit boost)",
+   "ticket_date": "2026-11-22",
+   "ticket_result": "win",
+   "hit": true
+  },
+  {
+   "event": "CIN @ WSH",
+   "market": "spread",
+   "selection": "Cincinnati Bengals -6.5 spread",
+   "line": -6.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: CIN -6.5 / Under 53.5 alternate total / Chase Brown anytime touchdown (30% profit boost)",
+   "ticket_date": "2026-11-23",
+   "ticket_result": "loss",
+   "hit": false
+  },
+  {
+   "event": "CIN @ WSH",
+   "market": "alternate total points",
+   "selection": "Under 53.5 alternate total points",
+   "line": 53.5,
+   "sport": "NFL",
+   "ticket": "3-leg SGP: CIN -6.5 / Under 53.5 alternate total / Chase Brown anytime touchdown (30% profit boost)",
+   "ticket_date": "2026-11-23",
    "ticket_result": "loss",
    "hit": true
   }

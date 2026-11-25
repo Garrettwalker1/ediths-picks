@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-24T04:57:01.804984+00:00",
+  "updated_at": "2026-11-25T23:46:01.034101+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -16955,6 +16955,412 @@
         "final_score": "Washington22,Cincinnati20 (Final)",
         "detail": "Standard sporting-result settlement from verified final; no cashout, void, or protection reported. Dollar stakes authoritative; units not inferred."
       }
+    },
+    {
+      "bet_id": "us-tn:01m8ahesh2e919sxv9zpvkffjj",
+      "placed_at": "2026-11-25T17:43:00-06:00",
+      "date": "2026-11-25T17:43:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 472,
+      "potential_payout_usd": 57.28,
+      "potential_profit_usd": 47.28,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": 30,
+      "profit_boost_percent": 30,
+      "original_price": 364,
+      "unboosted_price": 364,
+      "source_message_id": "phonemsg-01M8AHGDT65H1G0TZHEXG31MG6",
+      "source": "Owner placed-ticket screenshots received Nov25 2026; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-207c4aa3.png"
+      ],
+      "source_receipt_sha256": [
+        "18d2fbf130ac8bbd291d2b60e2f604a629ee1f23d1f01bba12c59d3c386c81fe"
+      ],
+      "logged_at": "2026-11-25T23:46:01.034101+00:00",
+      "game": "Green Bay Packers @ Los Angeles Rams",
+      "event_ids": [
+        "401873079"
+      ],
+      "kickoff": "2026-11-26T01:00Z",
+      "bet": "3-leg SGP: Rams -2.5 / Matthew Golden 60+ receiving yards / Kyren Williams anytime touchdown (30% profit boost)",
+      "selection": "Los Angeles Rams -2.5 spread / Matthew Golden 60+ receiving yards / Kyren Williams anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "spread",
+          "selection": "Los Angeles Rams -2.5 spread",
+          "team": "LA",
+          "line": -2.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "alternate receiving yards",
+          "selection": "Matthew Golden 60+ receiving yards",
+          "player": "Matthew Golden",
+          "team": "GB",
+          "line": 60,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Kyren Williams anytime touchdown",
+          "player": "Kyren Williams",
+          "team": "LA",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
+      ]
+    },
+    {
+      "bet_id": "us-tn:01m89y2rpbfjvta5jf5et0ae86",
+      "placed_at": "2026-11-25T12:04:00-06:00",
+      "date": "2026-11-25T12:04:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 20,
+      "price": 175,
+      "potential_payout_usd": 55,
+      "potential_profit_usd": 35,
+      "cashout_offer_usd": 20,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8AHGDT65H1G0TZHEXG31MG6",
+      "source": "Owner placed-ticket screenshots received Nov25 2026; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-0ec72e94.png"
+      ],
+      "source_receipt_sha256": [
+        "5325fe7999094d0acf3862dd2b21f607a72f765ff19916e3ba8bdd2156a0c2d1"
+      ],
+      "logged_at": "2026-11-25T23:46:01.034101+00:00",
+      "game": "Green Bay Packers @ Los Angeles Rams",
+      "event_ids": [
+        "401873079"
+      ],
+      "kickoff": "2026-11-26T01:00Z",
+      "bet": "Straight: Matthew Golden anytime touchdown",
+      "selection": "Matthew Golden anytime touchdown",
+      "market": "anytime touchdown scorer",
+      "legs": [
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Matthew Golden anytime touchdown",
+          "player": "Matthew Golden",
+          "team": "GB",
+          "line": 0.5,
+          "price": 175,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
+      ]
+    },
+    {
+      "bet_id": "us-tn:01m89y2f9gee2bagb2tvmpx2k",
+      "placed_at": "2026-11-25T12:04:00-06:00",
+      "date": "2026-11-25T12:04:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 2739,
+      "potential_payout_usd": 283.94,
+      "potential_profit_usd": 273.94,
+      "cashout_offer_usd": 6.95,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8AHGDT65H1G0TZHEXG31MG6",
+      "source": "Owner placed-ticket screenshots received Nov25 2026; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-a028a47a.png"
+      ],
+      "source_receipt_sha256": [
+        "ed8a6051716ce54fcc45be6f6e7dcf9e1333cf23f305dd409fbd7d967a752d22"
+      ],
+      "logged_at": "2026-11-25T23:46:01.034101+00:00",
+      "game": "Green Bay Packers @ Los Angeles Rams / Chicago Bears @ Detroit Lions / Kansas City Chiefs @ Buffalo Bills",
+      "event_ids": [
+        "401873079",
+        "401873081",
+        "401873082"
+      ],
+      "kickoff": "2026-11-26T01:00Z",
+      "bet": "3-leg TD parlay: Matthew Golden / Jameson Williams / D.J. Moore",
+      "selection": "Matthew Golden anytime touchdown / Jameson Williams anytime touchdown / D.J. Moore anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Matthew Golden anytime touchdown",
+          "player": "Matthew Golden",
+          "team": "GB",
+          "line": 0.5,
+          "price": 175,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Jameson Williams anytime touchdown",
+          "player": "Jameson Williams",
+          "team": "DET",
+          "line": 0.5,
+          "price": 195,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "D.J. Moore anytime touchdown",
+          "player": "D.J. Moore",
+          "team": "BUF",
+          "line": 0.5,
+          "price": 250,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "schedule_note": "Receipt shows KC-BUF Thu7:15PM CT; live ESPN Nov25 reports Thu7:20PM CT. Both retained; kickoff field uses ESPN, not an alteration to ticket selections.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
+      ]
+    },
+    {
+      "bet_id": "us-tn:01m87pxp8wf02rzcqzav6ndbhf",
+      "placed_at": "2026-11-24T15:20:00-06:00",
+      "date": "2026-11-24T15:20:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 19554,
+      "potential_payout_usd": 1965.4,
+      "potential_profit_usd": 1955.4,
+      "cashout_offer_usd": 5.16,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": 25,
+      "profit_boost_percent": 25,
+      "original_price": 15640,
+      "unboosted_price": 15640,
+      "source_message_id": "phonemsg-01M8AHGXMST3Z2G487YYQ6GT74",
+      "source": "Owner placed-ticket screenshots received Nov25 2026; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-09d6d770.png",
+        "image-1eda28c5.png"
+      ],
+      "source_receipt_sha256": [
+        "140a7dd7cd7c8ca946a5e7663f482bee97618b78de26fdaa43a4c8b1a765730c",
+        "5d4df010d9afa3552d92154334dffbc4618404226f38fb02e4f52a4cbedb1f1c"
+      ],
+      "logged_at": "2026-11-25T23:46:01.034101+00:00",
+      "game": "Chicago Bears @ Detroit Lions / Kansas City Chiefs @ Buffalo Bills / Green Bay Packers @ Los Angeles Rams / Philadelphia Eagles @ Dallas Cowboys / Denver Broncos @ Pittsburgh Steelers",
+      "event_ids": [
+        "401873081",
+        "401873082",
+        "401873079",
+        "401873080",
+        "401873083"
+      ],
+      "kickoff": "2026-11-26T01:00Z",
+      "bet": "7-leg SGP+ TD parlay: D'Andre Swift / Amon-Ra St. Brown / Josh Allen / James Cook / Kyren Williams / DeVonta Smith / Jonah Coleman (25% profit boost)",
+      "selection": "D'Andre Swift anytime touchdown / Amon-Ra St. Brown anytime touchdown / Josh Allen anytime touchdown / James Cook anytime touchdown / Kyren Williams anytime touchdown / DeVonta Smith anytime touchdown / Jonah Coleman anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "D'Andre Swift anytime touchdown",
+          "player": "D'Andre Swift",
+          "team": "CHI",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Amon-Ra St. Brown anytime touchdown",
+          "player": "Amon-Ra St. Brown",
+          "team": "DET",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Josh Allen anytime touchdown",
+          "player": "Josh Allen",
+          "team": "BUF",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "James Cook anytime touchdown",
+          "player": "James Cook",
+          "team": "BUF",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873079",
+          "event": "Green Bay Packers @ Los Angeles Rams",
+          "kickoff": "2026-11-26T01:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Kyren Williams anytime touchdown",
+          "player": "Kyren Williams",
+          "team": "LA",
+          "line": 0.5,
+          "price": 121,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873080",
+          "event": "Philadelphia Eagles @ Dallas Cowboys",
+          "kickoff": "2026-11-26T21:30Z",
+          "market": "anytime touchdown scorer",
+          "selection": "DeVonta Smith anytime touchdown",
+          "player": "DeVonta Smith",
+          "team": "PHI",
+          "line": 0.5,
+          "price": 209,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873083",
+          "event": "Denver Broncos @ Pittsburgh Steelers",
+          "kickoff": "2026-11-27T20:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Jonah Coleman anytime touchdown",
+          "player": "Jonah Coleman",
+          "team": "DEN",
+          "line": 0.5,
+          "price": -108,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "same_game_group_prices": [
+        {
+          "event_id": "401873081",
+          "players": [
+            "D'Andre Swift",
+            "Amon-Ra St. Brown"
+          ],
+          "price": 235
+        },
+        {
+          "event_id": "401873082",
+          "players": [
+            "Josh Allen",
+            "James Cook"
+          ],
+          "price": 288
+        }
+      ],
+      "source_message_note": "Owner explicitly confirms two screenshots are one ticket.",
+      "schedule_note": "Receipt shows KC-BUF Thu7:15PM CT; live ESPN Nov25 reports Thu7:20PM CT. Both retained; kickoff field uses ESPN, not an alteration to ticket selections. Receipt DEN-PIT Fri2:01PM CT differs from ESPN2:00PM CT.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
+      ]
     }
   ]
 }

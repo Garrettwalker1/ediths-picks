@@ -57,6 +57,20 @@ for g in games:
  for t in g['teams']:
   t['explicit_available_count']=sum(x['status']=='Available'for x in t['rows']);t['exempt_count_not_health_clearance']=sum(x['status']=='Exempt'for x in t['rows']);t['rows']=[x for x in t['rows']if x['status']not in ['Available','Exempt']]
 by={t['team']:t for g in games for t in g['teams']};out['coverage']['teams_with_designations']=sum(bool(x['rows'])for x in by.values());out['coverage']['no_designations']=sum(not x['rows']for x in by.values());out['coverage']['listed_nonavailable_players']=sum(len(x['rows'])for x in by.values());
+# Pending schedules are not issued reports, and future publication times carry no clearance.
+for g in games:
+ for t in g['teams']:
+  if t.get('report_id'):
+   conf=t['public_read_parameters']['conference'];t['raw_source_path']='sources/injuries/'+conf+'-official-public.json.gz'
+   zone=ZoneInfo('America/Chicago' if t['report_timezone']=='CT' else 'America/New_York')
+   posted=datetime.datetime.fromisoformat(t['report_date']+'T'+t['report_time']).replace(tzinfo=zone)
+   if 'pending' in t['report_type'].lower() or posted>datetime.datetime.fromisoformat(t['checked_at']):
+    assert not t['rows'],'Pending/future report unexpectedly has rows'
+    t.update(evidence_level='unavailable',coverage='official_report_pending_not_issued_not_health_clearance',primary_schedule_pending=True)
+  if not t['rows'] and not t.get('primary_schedule_pending'):
+   t['coverage']='no_current_listed_designations_not_health_clearance'
+by={t['team']:t for g in games for t in g['teams']}
+out['coverage'].update(primary_teams=sum(t['evidence_level'].startswith('primary')for t in by.values()),official_pending_teams=sum(bool(t.get('primary_schedule_pending'))for t in by.values()),status_counts=dict(collections.Counter(r['status']for t in by.values()for r in t['rows'])))
 (P/'injury_designations.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out['coverage'],indent=2));print('status counts',collections.Counter(r['status']for x in by.values()for r in x['rows']));print('pending',[x['team']for x in by.values()if not x['rows']])
 
 (P/'injury_primary_source_receipts.json').write_text(json.dumps(primary_receipts,indent=2)+'\n')

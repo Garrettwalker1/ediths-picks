@@ -11,7 +11,15 @@ if P.exists():raise SystemExit('Dated release already exists; inspect it, never 
 P.mkdir();W.mkdir();(W/'sources').mkdir();(W/'boxscores').mkdir();(P/'sources').mkdir();manifest=[]
 def fetch(url,path):
  start=datetime.datetime.now(datetime.timezone.utc).isoformat();raw=urllib.request.urlopen(url,timeout=30).read();path.write_bytes(raw);manifest.append(dict(url=url,requested_at=start,received_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),sha256=hashlib.sha256(raw).hexdigest(),file=str(path.relative_to(R))));return json.loads(raw)
-probe=fetch('https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates='+tag+'&groups=80&limit=400',W/'sources/date-probe.json');week=int(probe['week']['number']);year=int((probe.get('season') or probe['leagues'][0]['season'])['year']);assert year==2026,'Season change requires review, not silent reuse.'
+probe=fetch('https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates='+tag+'&groups=80&limit=400',W/'sources/date-probe.json');year=int((probe.get('season') or probe['leagues'][0]['season'])['year']);assert year==2026,'Season change requires review, not silent reuse.'
+if probe.get('week',{}).get('number') is not None:
+ week=int(probe['week']['number'])
+else:
+ # Empty date scoreboards omit week. Use only the provider's explicit season calendar.
+ anchor=datetime.datetime.combine(day,datetime.time(12),ZoneInfo('America/Chicago')).astimezone(datetime.timezone.utc)
+ entries=[e for c in probe['leagues'][0]['calendar'] if c['value']=='2' for e in c['entries'] if datetime.datetime.fromisoformat(e['startDate'].replace('Z','+00:00'))<=anchor<=datetime.datetime.fromisoformat(e['endDate'].replace('Z','+00:00'))]
+ assert len(entries)==1,'No unique provider calendar week for date; manual review required.'
+ week=int(entries[0]['value'])
 # A full remaining-week slate. If this week is finished, prepare the next week.
 score={w:fetch(f'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year={year}&seasontype=2&week={w}&groups=80&limit=400',W/f'sources/week{w}.json')for w in range(1,week+1)}
 slate=score[week]

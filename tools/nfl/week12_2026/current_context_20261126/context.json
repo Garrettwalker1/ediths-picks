@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T23:46:40.085894401Z",
+  "updated_at": "2026-11-26T23:58:02.928469+00:00",
   "kind": "Current factual overlay, not a numerical model refit",
   "model_source": "../td_week12_primary.json",
   "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
@@ -41,9 +41,9 @@
       "player_id": "00-0037248",
       "team": "BUF",
       "player": "James Cook III",
-      "checked_at": "2026-11-26T08:57:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-chiefs-week-12-thanksgiving"
+      "checked_at": "2026-11-26T17:57:00-06:00",
+      "note": "Not on the complete official Bills game-day inactive list vs KC. Not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-chiefs-nfl-thanksgiving"
     },
     {
       "player_id": "00-0037240",
@@ -65,9 +65,9 @@
       "player_id": "00-0034857",
       "team": "BUF",
       "player": "Josh Allen",
-      "checked_at": "2026-11-26T09:07:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-chiefs-week-12-thanksgiving"
+      "checked_at": "2026-11-26T17:57:00-06:00",
+      "note": "Not on the complete official Bills game-day inactive list vs KC. Not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-chiefs-nfl-thanksgiving"
     },
     {
       "player_id": "00-0040735",
@@ -124,6 +124,14 @@
       "checked_at": "2026-11-26T14:38:00-06:00",
       "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12",
       "note": "Not on the complete official game-day inactive list for PHI at DAL. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0034827",
+      "team": "BUF",
+      "player": "DJ Moore",
+      "checked_at": "2026-11-26T17:57:00-06:00",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-chiefs-nfl-thanksgiving",
+      "note": "Not on the complete official Bills game-day inactive list vs KC. Not a promise of snaps or health. No numerical injury or workload adjustment."
     }
   ],
   "receipt_prices": [
@@ -306,5 +314,24 @@
       "Jonathan Bullard"
     ],
     "note": "Official article identifies Barham and Bullard as healthy inactives; Mitchell explicitly active. No numerical effect estimated; frozen raw forecast unchanged."
+  },
+  "final_inactives_buf": {
+    "url": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-chiefs-nfl-thanksgiving",
+    "checked_at": "2026-11-26T17:57:00-06:00",
+    "inactive": [
+      "Skyler Bell",
+      "Jalon Kilgore",
+      "Christian Benford",
+      "Mike Danna",
+      "Jude Bowry",
+      "Greg Gaines"
+    ],
+    "explicit_active": [
+      "Dalton Kincaid",
+      "Dorian Williams",
+      "O'Cyrus Torrence",
+      "T.J. Sanders"
+    ],
+    "chiefs_final_list": "Pending, not verified"
   }
 }

@@ -43,38 +43,35 @@
       "indoor": false,
       "status": "weather_risk_numeric_effect_unavailable",
       "adjustment": null,
-      "checked_at": "2026-11-25T22:03:38Z",
+      "checked_at": "2026-11-26T23:46:40.085894401Z",
       "weather_risk": true,
       "numeric_adjustment_status": "unavailable_not_zero",
       "summary_warning": "WEATHER RISK: rain and strong winds forecast. Buffalo -1 is weather-unadjusted, not a weather-aware edge.",
       "assessment": "Weather risk is recorded, but its effect on margin, total and player production is not quantified. No compatible fitted weather method exists in the current core. Numerical adjustment is unavailable, not zero.",
-      "forecast_timezone": "America/New_York",
+      "forecast_timezone": "UTC",
       "kickoff_local": "2026-11-26T20:20:00",
-      "forecast_resolution": "Orchard Park city forecast, not stadium microclimate. Hourly samples bracket kickoff; no interpolation.",
+      "forecast_resolution": "Exact requested BUF00 venue coordinates, returned grid42.764954,-78.79994. UTC hourly samples bracket kickoff; no interpolation. Exact model run unavailable.",
       "forecast_samples": [
         {
-          "time": "2026-11-26T20:00",
-          "temperature_f": 36.7,
-          "wind_mph": 22.9,
-          "gust_mph": 49.4,
-          "precip_in": 0.185,
+          "time": "2026-11-27T01:00",
+          "temperature_f": 35.6,
+          "wind_mph": 23.4,
+          "gust_mph": 45.6,
           "precip_probability": 100
         },
         {
-          "time": "2026-11-26T21:00",
-          "temperature_f": 37.5,
-          "wind_mph": 23.4,
-          "gust_mph": 43.8,
-          "precip_in": 0.24,
-          "precip_probability": 88
+          "time": "2026-11-27T02:00",
+          "temperature_f": 36.7,
+          "wind_mph": 8.8,
+          "gust_mph": 28,
+          "precip_probability": 100
         }
       ],
-      "raw_source_path": "tools/nfl/week12_2026/weather_sources_20261125/orchard_park_native.json",
+      "raw_source_path": "tools/nfl/week12_2026/weather_sources_20261126/buf_1746_gfs.json",
       "source_urls": [
-        "https://www.wgrz.com/article/weather/weather-impact/weather-impact-alert-soggy-conditions-for-thanksgiving-day/71-45c66566-1a92-4650-9d29-bbdccab31be1",
-        "https://www.accuweather.com/en/sports/heavy-rain-strong-winds-could-be-game-changers-in-buffalo-kansas-city-thanksgiving-showdown/1963997"
+        "https://open-meteo.com/"
       ],
-      "source_distinction": "Native hourly forecast and separate public meteorologist reports are different forecasts. WGRZ regional peak gusts30-40mph do not validate native49.4mph hourly gust sample."
+      "source_distinction": "Updated venue-grid GFS forecast. Earlier city and venue issues retained separately; not averaged."
     },
     {
       "event_id": "401873083",
@@ -209,5 +206,5 @@
       "checked_at": "2026-11-24T13:16:17.827686+00:00"
     }
   ],
-  "updated_at": "2026-11-25T22:08:01.618273+00:00"
+  "updated_at": "2026-11-26T23:46:40.085894401Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T20:38:15.331425+00:00",
+  "updated_at": "2026-11-26T23:46:40.085894401Z",
   "kind": "Current factual overlay, not a numerical model refit",
   "model_source": "../td_week12_primary.json",
   "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
@@ -202,10 +202,33 @@
   ],
   "weather": {
     "game": "KC at BUF",
-    "captured_at": "2026-11-26T08:29:30-06:00",
-    "note": "Cold rain and gusty wind in venue-grid forecast. Near kickoff01UTC:3C,100%rain probability,19mphwind,gust39.1mph; next hour3.1C,95%,13.5mphwind,gust29.8mph. Grid/hourly values are uncertain, not exact kickoff conditions. No numerical TD adjustment.",
+    "captured_at": "2026-11-26T23:46:40.085894401Z",
+    "note": "Venue-grid GFS-seamless forecast: 01UTC 2C, 100% precipitation probability, 2.9mm rain, wind23.4mph/gust45.6mph; 02UTC 2.6C,100%,5mm rain,wind8.8mph/gust28mph. Hourly grid forecast, not exact kickoff conditions. No numerical TD adjustment.",
     "source": "Open-Meteo gfs_seamless forecast at venue42.773753,-78.786954,UTC; exact model run unavailable.",
-    "numeric_effect": null
+    "numeric_effect": null,
+    "samples": [
+      {
+        "precipitation": 2.9,
+        "precipitation_probability": 100,
+        "rain": 2.9,
+        "snowfall": 0,
+        "temperature_2m": 2,
+        "time": "2026-11-27T01:00",
+        "wind_gusts_10m": 45.6,
+        "wind_speed_10m": 23.4
+      },
+      {
+        "precipitation": 5,
+        "precipitation_probability": 100,
+        "rain": 5,
+        "snowfall": 0,
+        "temperature_2m": 2.6,
+        "time": "2026-11-27T02:00",
+        "wind_gusts_10m": 28,
+        "wind_speed_10m": 8.8
+      }
+    ],
+    "raw_source_path": "tools/nfl/week12_2026/weather_sources_20261126/buf_1746_gfs.json"
   },
   "judgment": {
     "main": [

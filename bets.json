@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-26T04:36:56.412271+00:00",
+  "updated_at": "2026-11-26T15:11:16.486871+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -17516,6 +17516,254 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
       ]
+    },
+    {
+      "bet_id": "us-tn:01m8c6d8kvf7tsersrav8fnm5s",
+      "placed_at": "2026-11-26T09:08:00-06:00",
+      "date": "2026-11-26T09:08:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 948,
+      "potential_payout_usd": 104.86,
+      "potential_profit_usd": 94.86,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8C6E77HDBDNYF4W0RJGJN0C",
+      "source": "Owner placed-ticket screenshots received Nov26 2026 09:09CT; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-1dbbd9f1.png"
+      ],
+      "source_receipt_sha256": [
+        "07b52110e0052b12217fcddcab2e42b683b154dc5d032ce41f35dfdaac8a8c9e"
+      ],
+      "logged_at": "2026-11-26T15:11:16.486871+00:00",
+      "game": "Chicago Bears @ Detroit Lions / Philadelphia Eagles @ Dallas Cowboys / Kansas City Chiefs @ Buffalo Bills",
+      "event_ids": [
+        "401873081",
+        "401873080",
+        "401873082"
+      ],
+      "kickoff": "2026-11-26T18:00Z",
+      "bet": "3-leg TD parlay: Jameson Williams / George Pickens / Josh Allen",
+      "selection": "Jameson Williams anytime touchdown / George Pickens anytime touchdown / Josh Allen anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Jameson Williams anytime touchdown",
+          "player": "Jameson Williams",
+          "team": "DET",
+          "line": 0.5,
+          "price": 200,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873080",
+          "event": "Philadelphia Eagles @ Dallas Cowboys",
+          "kickoff": "2026-11-26T21:30Z",
+          "market": "anytime touchdown scorer",
+          "selection": "George Pickens anytime touchdown",
+          "player": "George Pickens",
+          "team": "DAL",
+          "line": 0.5,
+          "price": -115,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Josh Allen anytime touchdown",
+          "player": "Josh Allen",
+          "team": "BUF",
+          "line": 0.5,
+          "price": -115,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "source_received_at": "2026-11-26T09:09:00-06:00",
+      "cashout_offer_as_of": "2026-11-26T09:08:00-06:00",
+      "schedule_note": "Receipt KC-BUF7:15PM CT differs from live ESPN7:20PM CT; exact receipt retained, kickoff field uses ESPN."
+    },
+    {
+      "bet_id": "us-tn:01m8b3dqppfwdatp1m477t8bn6",
+      "placed_at": "2026-11-25T22:57:00-06:00",
+      "date": "2026-11-25T22:57:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 777,
+      "potential_payout_usd": 87.74,
+      "potential_profit_usd": 77.74,
+      "cashout_offer_usd": 7.53,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": 50,
+      "profit_boost_percent": 50,
+      "original_price": 518,
+      "unboosted_price": 518,
+      "source_message_id": "phonemsg-01M8C6E77HDBDNYF4W0RJGJN0C",
+      "source": "Owner placed-ticket screenshots received Nov26 2026 09:09CT; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-deeb733a.png"
+      ],
+      "source_receipt_sha256": [
+        "274712137b49c377a0df5e7ad1c23a2e65cf9358b21aef56e518e21371f79a97"
+      ],
+      "logged_at": "2026-11-26T15:11:16.486871+00:00",
+      "game": "Chicago Bears @ Detroit Lions",
+      "event_ids": [
+        "401873081"
+      ],
+      "kickoff": "2026-11-26T18:00Z",
+      "bet": "2-leg SGP: Luther Burden III / Sam LaPorta anytime touchdowns (50% profit boost)",
+      "selection": "Luther Burden III anytime touchdown / Sam LaPorta anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Luther Burden III anytime touchdown",
+          "player": "Luther Burden III",
+          "team": "CHI",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Sam LaPorta anytime touchdown",
+          "player": "Sam LaPorta",
+          "team": "DET",
+          "line": 0.5,
+          "price": null,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "source_received_at": "2026-11-26T09:09:00-06:00",
+      "cashout_offer_as_of": "2026-11-26T09:09:00-06:00"
+    },
+    {
+      "bet_id": "us-tn:01m8c5wd1gfactrw77jz5m1q0z",
+      "placed_at": "2026-11-26T08:59:00-06:00",
+      "date": "2026-11-26T08:59:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 312,
+      "potential_payout_usd": 41.22,
+      "potential_profit_usd": 31.22,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8C6E77HDBDNYF4W0RJGJN0C",
+      "source": "Owner placed-ticket screenshots received Nov26 2026 09:09CT; original pixels and receipt footers inspected.",
+      "receipt_filenames": [
+        "image-cd9b274f.png"
+      ],
+      "source_receipt_sha256": [
+        "bf1db18b21efafac4a0370e863e09a089a27888e04a92b3348ef7fa9229df608"
+      ],
+      "logged_at": "2026-11-26T15:11:16.486871+00:00",
+      "game": "Chicago Bears @ Detroit Lions / Philadelphia Eagles @ Dallas Cowboys / Kansas City Chiefs @ Buffalo Bills",
+      "event_ids": [
+        "401873081",
+        "401873080",
+        "401873082"
+      ],
+      "kickoff": "2026-11-26T18:00Z",
+      "bet": "3-leg TD parlay: Jahmyr Gibbs / Javonte Williams / James Cook",
+      "selection": "Jahmyr Gibbs anytime touchdown / Javonte Williams anytime touchdown / James Cook anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Jahmyr Gibbs anytime touchdown",
+          "player": "Jahmyr Gibbs",
+          "team": "DET",
+          "line": 0.5,
+          "price": -280,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873080",
+          "event": "Philadelphia Eagles @ Dallas Cowboys",
+          "kickoff": "2026-11-26T21:30Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Javonte Williams anytime touchdown",
+          "player": "Javonte Williams",
+          "team": "DAL",
+          "line": 0.5,
+          "price": -180,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "James Cook anytime touchdown",
+          "player": "James Cook",
+          "team": "BUF",
+          "line": 0.5,
+          "price": -105,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "source_received_at": "2026-11-26T09:09:00-06:00",
+      "cashout_offer_as_of": "2026-11-26T09:08:00-06:00",
+      "schedule_note": "Receipt KC-BUF7:15PM CT differs from live ESPN7:20PM CT; exact receipt retained, kickoff field uses ESPN."
     }
   ]
 }

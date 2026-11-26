@@ -1,0 +1,190 @@
+{
+  "updated_at": "2026-11-26T15:11:44.843123+00:00",
+  "kind": "Current factual overlay, not a numerical model refit",
+  "model_source": "../td_week12_primary.json",
+  "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
+  "stats_through": "2026 Week11 finals; all163completedgameIDs verified in freshPBP and stats; noWeek12plays.",
+  "withheld": [
+    {
+      "player": "Kenneth Walker III",
+      "player_id": "00-0038134",
+      "team": "KC",
+      "reason": "OUT on official Nov25 report, confirmed by Chiefs preview.",
+      "url": "https://www.chiefs.com/news/five-things-to-watch-on-thursday-chiefs-vs-bills"
+    },
+    {
+      "player": "Jake Ferguson",
+      "player_id": "00-0038041",
+      "team": "DAL",
+      "reason": "OUT on official Nov25 final injury report.",
+      "url": "https://www.dallascowboys.com/team/injury-report/"
+    }
+  ],
+  "availability": [
+    {
+      "player_id": "00-0039139",
+      "team": "DET",
+      "player": "Jahmyr Gibbs",
+      "checked_at": "2026-11-26T08:57:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+    },
+    {
+      "player_id": "00-0036997",
+      "team": "DAL",
+      "player": "Javonte Williams",
+      "checked_at": "2026-11-26T08:57:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.dallascowboys.com/team/injury-report/"
+    },
+    {
+      "player_id": "00-0037248",
+      "team": "BUF",
+      "player": "James Cook III",
+      "checked_at": "2026-11-26T08:57:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-chiefs-week-12-thanksgiving"
+    },
+    {
+      "player_id": "00-0037240",
+      "team": "DET",
+      "player": "Jameson Williams",
+      "checked_at": "2026-11-26T09:00:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+    },
+    {
+      "player_id": "00-0037247",
+      "team": "DAL",
+      "player": "George Pickens",
+      "checked_at": "2026-11-26T09:00:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.dallascowboys.com/team/injury-report/"
+    },
+    {
+      "player_id": "00-0034857",
+      "team": "BUF",
+      "player": "Josh Allen",
+      "checked_at": "2026-11-26T09:07:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-chiefs-week-12-thanksgiving"
+    },
+    {
+      "player_id": "00-0040735",
+      "team": "CHI",
+      "player": "Luther Burden III",
+      "checked_at": "2026-11-26T09:10:00-06:00",
+      "note": "ESPN roster Active, empty injury array. Not final game clearance; official current Bears report not rechecked in this pass.",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/chi/roster"
+    },
+    {
+      "player_id": "00-0039065",
+      "team": "DET",
+      "player": "Sam LaPorta",
+      "checked_at": "2026-11-26T09:10:00-06:00",
+      "note": "Roster Active; no final game clearance. Official final injury report has no game designation. Ankle: full estimated participation Tue/Wed, after limited Monday.",
+      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+    }
+  ],
+  "receipt_prices": [
+    {
+      "player": "Jameson Williams",
+      "player_id": "00-0037240",
+      "team": "DET",
+      "price": 200,
+      "implied_probability": 0.3333333333333333,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T09:08:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-26T18:00Z"
+    },
+    {
+      "player": "George Pickens",
+      "player_id": "00-0037247",
+      "team": "DAL",
+      "price": -115,
+      "implied_probability": 0.5348837209302325,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T09:08:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-26T21:30Z"
+    },
+    {
+      "player": "Josh Allen",
+      "player_id": "00-0034857",
+      "team": "BUF",
+      "price": -115,
+      "implied_probability": 0.5348837209302325,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T09:08:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-27T01:20Z"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "player_id": "00-0039139",
+      "team": "DET",
+      "price": -280,
+      "implied_probability": 0.7368421052631579,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T08:59:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-26T18:00Z"
+    },
+    {
+      "player": "Javonte Williams",
+      "player_id": "00-0036997",
+      "team": "DAL",
+      "price": -180,
+      "implied_probability": 0.6428571428571429,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T08:59:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-26T21:30Z"
+    },
+    {
+      "player": "James Cook III",
+      "player_id": "00-0037248",
+      "team": "BUF",
+      "price": -105,
+      "implied_probability": 0.5121951219512195,
+      "state": "TN",
+      "captured_at": "2026-11-26T09:08:00-06:00",
+      "placed_at": "2026-11-26T08:59:00-06:00",
+      "source": "Owner-supplied placed-ticket screenshot received Nov26 09:09CT. Dated receipt reference, not live quote.",
+      "kickoff": "2026-11-27T01:20Z"
+    }
+  ],
+  "weather": {
+    "game": "KC at BUF",
+    "captured_at": "2026-11-26T08:29:30-06:00",
+    "note": "Cold rain and gusty wind in venue-grid forecast. Near kickoff01UTC:3C,100%rain probability,19mphwind,gust39.1mph; next hour3.1C,95%,13.5mphwind,gust29.8mph. Grid/hourly values are uncertain, not exact kickoff conditions. No numerical TD adjustment.",
+    "source": "Open-Meteo gfs_seamless forecast at venue42.773753,-78.786954,UTC; exact model run unavailable.",
+    "numeric_effect": null
+  },
+  "judgment": {
+    "main": [
+      "Jahmyr Gibbs",
+      "Javonte Williams",
+      "James Cook III"
+    ],
+    "longshot": [
+      "Jameson Williams",
+      "George Pickens",
+      "Josh Allen"
+    ],
+    "note": "One scorer per Thanksgiving game. Josh Allen replaces Kelce qualitatively because his existing rushing/goal-line role does not require a catch. Not evidence of a rain boost. Long-shot build is lower likelihood, not model favorites or verified value. Allen and Cook overlap existing exposure. Passing TDs do not count for Allen ATD."
+  },
+  "limitations": [
+    "Raw model probabilities remain unchanged and uncalibrated.",
+    "No injury/QB/teammate redistribution or numerical weather effect.",
+    "Receipt prices are Tennessee references, not current live prices; implied probabilities include bookmaker margin.",
+    "No calibrated joint parlay probability or proven betting edge.",
+    "Week12 partial results do not enter the completed-week frozen forecast."
+  ]
+}

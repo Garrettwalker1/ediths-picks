@@ -1,0 +1,41 @@
+{
+  "event_id": "401873079",
+  "frozen_at": "2026-11-26T01:00:51.445346+00:00",
+  "source_check_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+  "source_status": {
+    "type": {
+      "id": "1",
+      "name": "STATUS_SCHEDULED",
+      "state": "pre",
+      "completed": false,
+      "description": "Scheduled",
+      "detail": "Wed, November 25th at 8:00 PM EST",
+      "shortDetail": "11/25 - 8:00 PM EST"
+    },
+    "isTBDFlex": false
+  },
+  "last_actual_pregame": {
+    "away": "Green Bay Packers",
+    "home": "Los Angeles Rams",
+    "captured_at": "2026-11-26T00:44:56.686Z",
+    "state": "IL",
+    "provider": "FanDuel",
+    "source_url": "https://sportsbook.fanduel.com/football/nfl/green-bay-packers-@-los-angeles-rams-35607031",
+    "kickoff_text": "7:00PM CT",
+    "away_line": 2.5,
+    "away_price": -105,
+    "away_ml": 120,
+    "total": 43.5,
+    "over_price": -105,
+    "home_line": -2.5,
+    "home_price": -115,
+    "home_ml": -142,
+    "under_total": 43.5,
+    "under_price": -115,
+    "kickoff": "2026-11-26T01:00Z",
+    "event_id": "401873079",
+    "frozen": true,
+    "display": "Los Angeles Rams -2.5 \u00b7 O/U 43.5"
+  },
+  "note": "Retained last actual pregame capture. No new book collection, no claimed closing price."
+}

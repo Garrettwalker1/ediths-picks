@@ -1,0 +1,1 @@
+Nov26 daily: 824 finals, no new finals; unchanged 2070 training rows and 67 future forecasts. 134 rosters refreshed, 136 participant/roster gaps retained. Availability: 24 primary teams,105 secondary,5 unmatched;870 designations on82 teams,52 without designations remain unknown. No numerical injury effects. Prior issues unchanged.

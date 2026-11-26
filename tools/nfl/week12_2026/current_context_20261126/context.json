@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:11:44.843123+00:00",
+  "updated_at": "2026-11-26T17:02:21.614520+00:00",
   "kind": "Current factual overlay, not a numerical model refit",
   "model_source": "../td_week12_primary.json",
   "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
@@ -25,9 +25,9 @@
       "player_id": "00-0039139",
       "team": "DET",
       "player": "Jahmyr Gibbs",
-      "checked_at": "2026-11-26T08:57:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills"
     },
     {
       "player_id": "00-0036997",
@@ -49,9 +49,9 @@
       "player_id": "00-0037240",
       "team": "DET",
       "player": "Jameson Williams",
-      "checked_at": "2026-11-26T09:00:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills"
     },
     {
       "player_id": "00-0037247",
@@ -73,17 +73,41 @@
       "player_id": "00-0040735",
       "team": "CHI",
       "player": "Luther Burden III",
-      "checked_at": "2026-11-26T09:10:00-06:00",
-      "note": "ESPN roster Active, empty injury array. Not final game clearance; official current Bears report not rechecked in this pass.",
-      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/chi/roster"
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills"
     },
     {
       "player_id": "00-0039065",
       "team": "DET",
       "player": "Sam LaPorta",
-      "checked_at": "2026-11-26T09:10:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation. Ankle: full estimated participation Tue/Wed, after limited Monday.",
-      "url": "https://www.detroitlions.com/news/lions-vs-bears-injury-report-nov-25-wonnum-clark-laporta"
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills"
+    },
+    {
+      "player_id": "00-0036275",
+      "team": "CHI",
+      "player": "D'Andre Swift",
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0036963",
+      "team": "DET",
+      "player": "Amon-Ra St. Brown",
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0040126",
+      "team": "CHI",
+      "player": "Colston Loveland",
+      "checked_at": "2026-11-26T11:01:00-06:00",
+      "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills",
+      "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
     }
   ],
   "receipt_prices": [
@@ -197,5 +221,28 @@
       "url": "https://www.chiefs.com/news/five-things-to-watch-on-thursday-chiefs-vs-bills",
       "note": "Official Chiefs preview: Johnson rushed for 100+ yards in each of two games filling in for Ken Walker, who is out for a third straight game. His recent replacement role is established. Exact forward carries, goal-line share and any injury/weather TD adjustment remain unmodeled. Raw estimate stays39.8%."
     }
-  ]
+  ],
+  "final_inactives": {
+    "game": "CHI at DET",
+    "event_id": "401873081",
+    "checked_at": "2026-11-26T11:01:00-06:00",
+    "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills",
+    "CHI": [
+      "Case Keenum (emergency third QB)",
+      "Kyler Gordon",
+      "Isaac Yiadom",
+      "Elijah Hicks",
+      "Roschon Johnson",
+      "Jordan McFadden",
+      "Jayden Loving"
+    ],
+    "DET": [
+      "Chuck Clark",
+      "DJ Wonnum",
+      "Ennis Rakestraw Jr.",
+      "Keith Abney II",
+      "Tyrus Wheat"
+    ],
+    "note": "Clark and Wonnum confirmed inactive after questionable designations. No numerical effect estimated; frozen raw forecast unchanged."
+  }
 }

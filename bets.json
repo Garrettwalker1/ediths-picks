@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-25T23:46:01.034101+00:00",
+  "updated_at": "2026-11-26T04:36:56.412271+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -16964,8 +16964,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
@@ -17006,8 +17006,12 @@
           "team": "LA",
           "line": -2.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "grading_note": "Rams won 26-13 and covered -2.5."
         },
         {
           "event_id": "401873079",
@@ -17019,8 +17023,27 @@
           "team": "GB",
           "line": 60,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4701936",
+              "stats": {
+                "REC": "1",
+                "YDS": "39",
+                "AVG": "39.0",
+                "TD": "0",
+                "LONG": "39",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "player_id": "4701936",
+          "grading_note": "Matthew Golden finished with 1 reception for 39 yards, below 60+."
         },
         {
           "event_id": "401873079",
@@ -17032,8 +17055,39 @@
           "team": "LA",
           "line": 0.5,
           "price": null,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "player_id": "4430737",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4430737",
+              "stats": {
+                "CAR": "12",
+                "YDS": "46",
+                "AVG": "3.8",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4430737",
+              "stats": {
+                "REC": "4",
+                "YDS": "19",
+                "AVG": "4.8",
+                "TD": "0",
+                "LONG": "9",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final boxscore and complete scoring-play list checked. Kyren Williams scored a 7-yard rushing touchdown."
         }
       ],
       "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
@@ -17041,7 +17095,17 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
-      ]
+      ],
+      "net_usd": -10,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-26T04:36:56.412271+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+        "graded_at": "2026-11-26T04:36:56.412271+00:00",
+        "final_score": "Los Angeles Rams26,Green Bay13 (Final)",
+        "detail": "Standard sporting-result settlement from verified final boxscore and scoring plays. No cashout, void or protection reported in latest owner conversation. Future legs retain pending status; ticket loss established only by failed final leg. Dollar stakes authoritative; units not inferred."
+      }
     },
     {
       "bet_id": "us-tn:01m89y2rpbfjvta5jf5et0ae86",
@@ -17051,8 +17115,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
@@ -17094,8 +17158,28 @@
           "team": "GB",
           "line": 0.5,
           "price": 175,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "player_id": "4701936",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4701936",
+              "stats": {
+                "REC": "1",
+                "YDS": "39",
+                "AVG": "39.0",
+                "TD": "0",
+                "LONG": "39",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "grading_note": "Final boxscore and complete scoring-play list checked. Matthew Golden had no own rushing, receiving, return or recovery touchdown. Passing touchdowns excluded."
         }
       ],
       "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
@@ -17103,7 +17187,17 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
-      ]
+      ],
+      "net_usd": -20,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-26T04:36:56.412271+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+        "graded_at": "2026-11-26T04:36:56.412271+00:00",
+        "final_score": "Los Angeles Rams26,Green Bay13 (Final)",
+        "detail": "Standard sporting-result settlement from verified final boxscore and scoring plays. No cashout, void or protection reported in latest owner conversation. Future legs retain pending status; ticket loss established only by failed final leg. Dollar stakes authoritative; units not inferred."
+      }
     },
     {
       "bet_id": "us-tn:01m89y2f9gee2bagb2tvmpx2k",
@@ -17113,8 +17207,8 @@
       "book": "FanDuel",
       "state": "TN",
       "stake_type": "cash",
-      "status": "pending",
-      "result": "pending",
+      "status": "settled",
+      "result": "loss",
       "stake_units": null,
       "stake_display": "usd",
       "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
@@ -17158,8 +17252,28 @@
           "team": "GB",
           "line": 0.5,
           "price": 175,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "player_id": "4701936",
+          "final_boxscore": [
+            {
+              "category": "receiving",
+              "player_id": "4701936",
+              "stats": {
+                "REC": "1",
+                "YDS": "39",
+                "AVG": "39.0",
+                "TD": "0",
+                "LONG": "39",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "grading_note": "Final boxscore and complete scoring-play list checked. Matthew Golden had no own rushing, receiving, return or recovery touchdown. Passing touchdowns excluded."
         },
         {
           "event_id": "401873081",
@@ -17194,7 +17308,17 @@
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261125&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
         "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100"
-      ]
+      ],
+      "net_usd": -10,
+      "net_units": null,
+      "actual_payout_usd": 0,
+      "settled_at": "2026-11-26T04:36:56.412271+00:00",
+      "grading": {
+        "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+        "graded_at": "2026-11-26T04:36:56.412271+00:00",
+        "final_score": "Los Angeles Rams26,Green Bay13 (Final)",
+        "detail": "Standard sporting-result settlement from verified final boxscore and scoring plays. No cashout, void or protection reported in latest owner conversation. Future legs retain pending status; ticket loss established only by failed final leg. Dollar stakes authoritative; units not inferred."
+      }
     },
     {
       "bet_id": "us-tn:01m87pxp8wf02rzcqzav6ndbhf",
@@ -17305,8 +17429,39 @@
           "team": "LA",
           "line": 0.5,
           "price": 121,
-          "hit": null,
-          "result": "pending"
+          "hit": true,
+          "result": "win",
+          "graded_at": "2026-11-26T04:36:56.412271+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+          "final_score": "LAR26;GB13",
+          "player_id": "4430737",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4430737",
+              "stats": {
+                "CAR": "12",
+                "YDS": "46",
+                "AVG": "3.8",
+                "TD": "1",
+                "LONG": "10"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4430737",
+              "stats": {
+                "REC": "4",
+                "YDS": "19",
+                "AVG": "4.8",
+                "TD": "0",
+                "LONG": "9",
+                "TGTS": "5"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 1,
+          "grading_note": "Final boxscore and complete scoring-play list checked. Kyren Williams scored a 7-yard rushing touchdown."
         },
         {
           "event_id": "401873080",

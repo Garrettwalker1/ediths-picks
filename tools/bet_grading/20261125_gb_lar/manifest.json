@@ -1,0 +1,118 @@
+{
+  "event_id": "401873079",
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873079",
+  "retrieved_at": "2026-11-26T04:36:56.412271+00:00",
+  "sha256": "728a507a54a8486a47bcd4dbcfcfc3d8a506b4703d3fc4c6106c8031243918e1",
+  "status": {
+    "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "Final",
+      "detail": "Final",
+      "shortDetail": "Final"
+    },
+    "isTBDFlex": false
+  },
+  "scores": {
+    "LAR": 26,
+    "GB": 13
+  },
+  "player_stats": {
+    "Matthew Golden": [
+      {
+        "category": "receiving",
+        "player_id": "4701936",
+        "stats": {
+          "REC": "1",
+          "YDS": "39",
+          "AVG": "39.0",
+          "TD": "0",
+          "LONG": "39",
+          "TGTS": "5"
+        }
+      }
+    ],
+    "Kyren Williams": [
+      {
+        "category": "rushing",
+        "player_id": "4430737",
+        "stats": {
+          "CAR": "12",
+          "YDS": "46",
+          "AVG": "3.8",
+          "TD": "1",
+          "LONG": "10"
+        }
+      },
+      {
+        "category": "receiving",
+        "player_id": "4430737",
+        "stats": {
+          "REC": "4",
+          "YDS": "19",
+          "AVG": "4.8",
+          "TD": "0",
+          "LONG": "9",
+          "TGTS": "5"
+        }
+      }
+    ]
+  },
+  "scoring_plays": [
+    {
+      "id": "401873079344",
+      "type": "Field Goal Good",
+      "text": "Brandon McManus 43 Yd Field Goal"
+    },
+    {
+      "id": "401873079764",
+      "type": "Field Goal Good",
+      "text": "Brandon McManus 41 Yd Field Goal"
+    },
+    {
+      "id": "401873079947",
+      "type": "Field Goal Good",
+      "text": "Trey Smack 54 Yd Field Goal"
+    },
+    {
+      "id": "4018730791209",
+      "type": "Rushing Touchdown",
+      "text": "Kyren Williams 7 Yd Rush (Brandon McManus Kick)"
+    },
+    {
+      "id": "4018730791424",
+      "type": "Passing Touchdown",
+      "text": "Christian Watson 6 Yd pass from Jordan Love (Trey Smack Kick)"
+    },
+    {
+      "id": "4018730791916",
+      "type": "Field Goal Good",
+      "text": "Trey Smack 48 Yd Field Goal"
+    },
+    {
+      "id": "4018730792509",
+      "type": "Rushing Touchdown",
+      "text": "Blake Corum 1 Yd Rush (Brandon McManus Kick)"
+    },
+    {
+      "id": "4018730793560",
+      "type": "Field Goal Good",
+      "text": "Brandon McManus 40 Yd Field Goal"
+    },
+    {
+      "id": "4018730794163",
+      "type": "Field Goal Good",
+      "text": "Brandon McManus 30 Yd Field Goal "
+    }
+  ],
+  "authority_message_ids": [
+    "phonemsg-01M1FWGC59C8QPERC711BS2NYV",
+    "phonemsg-01M48J67T8SJA6P0XF5MBY5T54",
+    "phonemsg-01M4G9DPKW13BJ6T349S1ZX95S"
+  ],
+  "latest_owner_check_at": "2026-11-26T04:36:56.412271+00:00",
+  "latest_owner_message_id": "phonemsg-01M8AHGXMST3Z2G487YYQ6GT74",
+  "cashout_or_protection_reported": false
+}

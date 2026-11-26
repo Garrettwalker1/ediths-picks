@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-26T15:11:16.486871+00:00",
+  "updated_at": "2026-11-26T15:22:31.240468+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -17764,6 +17764,94 @@
       "source_received_at": "2026-11-26T09:09:00-06:00",
       "cashout_offer_as_of": "2026-11-26T09:08:00-06:00",
       "schedule_note": "Receipt KC-BUF7:15PM CT differs from live ESPN7:20PM CT; exact receipt retained, kickoff field uses ESPN."
+    },
+    {
+      "bet_id": "us-tn:01m8c75b1yej4v8b18fqdn15q5",
+      "placed_at": "2026-11-26T09:21:00-06:00",
+      "date": "2026-11-26T09:21:00-06:00",
+      "sport": "NFL",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Dollar stake authoritative; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 692,
+      "potential_payout_usd": 79.26,
+      "potential_profit_usd": 69.26,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Offer visible only, not an executed cashout.",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8C75VZ9X76DW27HVQTPBMDQ",
+      "source": "Owner placed-ticket screenshot received Nov26 09:21:55CT; exact pixels and footer inspected.",
+      "receipt_filenames": [
+        "image-87347140.png"
+      ],
+      "source_receipt_sha256": [
+        "061092a5e19815df5bffb31426f4be022aa561a2edc4f4ade1d21658d83103e7"
+      ],
+      "logged_at": "2026-11-26T15:22:31.240468+00:00",
+      "game": "Chicago Bears @ Detroit Lions / Philadelphia Eagles @ Dallas Cowboys / Kansas City Chiefs @ Buffalo Bills",
+      "event_ids": [
+        "401873081",
+        "401873080",
+        "401873082"
+      ],
+      "kickoff": "2026-11-26T18:00Z",
+      "bet": "3-leg TD parlay: Colston Loveland / Saquon Barkley / Emmett Johnson",
+      "selection": "Colston Loveland anytime touchdown / Saquon Barkley anytime touchdown / Emmett Johnson anytime touchdown",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401873081",
+          "event": "Chicago Bears @ Detroit Lions",
+          "kickoff": "2026-11-26T18:00Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Colston Loveland anytime touchdown",
+          "player": "Colston Loveland",
+          "team": "CHI",
+          "line": 0.5,
+          "price": 135,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873080",
+          "event": "Philadelphia Eagles @ Dallas Cowboys",
+          "kickoff": "2026-11-26T21:30Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Saquon Barkley anytime touchdown",
+          "player": "Saquon Barkley",
+          "team": "PHI",
+          "line": 0.5,
+          "price": 105,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401873082",
+          "event": "Kansas City Chiefs @ Buffalo Bills",
+          "kickoff": "2026-11-27T01:20Z",
+          "market": "anytime touchdown scorer",
+          "selection": "Emmett Johnson anytime touchdown",
+          "player": "Emmett Johnson",
+          "team": "KC",
+          "line": 0.5,
+          "price": -155,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",
+      "source_received_at": "2026-11-26T09:21:55-06:00",
+      "cashout_offer_as_of": "2026-11-26T09:21:00-06:00",
+      "schedule_note": "Receipt KC-BUF7:15PM CT differs from ESPN7:20PM CT; receipt retained, kickoff uses ESPN."
     }
   ]
 }

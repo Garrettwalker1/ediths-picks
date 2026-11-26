@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T17:02:21.614520+00:00",
+  "updated_at": "2026-11-26T20:38:15.331425+00:00",
   "kind": "Current factual overlay, not a numerical model refit",
   "model_source": "../td_week12_primary.json",
   "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
@@ -33,9 +33,9 @@
       "player_id": "00-0036997",
       "team": "DAL",
       "player": "Javonte Williams",
-      "checked_at": "2026-11-26T08:57:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.dallascowboys.com/team/injury-report/"
+      "checked_at": "2026-11-26T14:38:00-06:00",
+      "note": "Not on the complete official game-day inactive list for PHI at DAL. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12"
     },
     {
       "player_id": "00-0037248",
@@ -57,9 +57,9 @@
       "player_id": "00-0037247",
       "team": "DAL",
       "player": "George Pickens",
-      "checked_at": "2026-11-26T09:00:00-06:00",
-      "note": "Roster Active; no final game clearance. Official final injury report has no game designation.",
-      "url": "https://www.dallascowboys.com/team/injury-report/"
+      "checked_at": "2026-11-26T14:38:00-06:00",
+      "note": "Not on the complete official game-day inactive list for PHI at DAL. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment.",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12"
     },
     {
       "player_id": "00-0034857",
@@ -108,6 +108,22 @@
       "checked_at": "2026-11-26T11:01:00-06:00",
       "url": "https://www.nfl.com/news/week-12-thanksgiving-inactives-chicago-bears-at-detroit-lions-philadelphia-eagles-at-dallas-cowboys-kansas-city-chiefs-at-buffalo-bills",
       "note": "Not on the complete official game-day inactive list for CHI at DET. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0034844",
+      "team": "PHI",
+      "player": "Saquon Barkley",
+      "checked_at": "2026-11-26T14:38:00-06:00",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12",
+      "note": "Not on the complete official game-day inactive list for PHI at DAL. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0036912",
+      "team": "PHI",
+      "player": "DeVonta Smith",
+      "checked_at": "2026-11-26T14:38:00-06:00",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12",
+      "note": "Not on the complete official game-day inactive list for PHI at DAL. This confirms no inactive designation, not a promise of snaps or health. No numerical injury or workload adjustment."
     }
   ],
   "receipt_prices": [
@@ -244,5 +260,28 @@
       "Tyrus Wheat"
     ],
     "note": "Clark and Wonnum confirmed inactive after questionable designations. No numerical effect estimated; frozen raw forecast unchanged."
+  },
+  "final_inactives_phi_dal": {
+    "game": "PHI at DAL",
+    "event_id": "401873080",
+    "checked_at": "2026-11-26T14:38:00-06:00",
+    "url": "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-inactives-thanksgiving-2026-nfl-week-12",
+    "PHI": [
+      "Arnold Ebiketie",
+      "Cole Payton (emergency third QB)",
+      "Jonathan Jones",
+      "A.J. Epenesa",
+      "Ajani Cornelius",
+      "Grant Calcaterra"
+    ],
+    "DAL": [
+      "P.J. Locke",
+      "Jonathan Mingo",
+      "Tyler Booker",
+      "Jaishawn Barham",
+      "Jake Ferguson",
+      "Jonathan Bullard"
+    ],
+    "note": "Official article identifies Barham and Bullard as healthy inactives; Mitchell explicitly active. No numerical effect estimated; frozen raw forecast unchanged."
   }
 }

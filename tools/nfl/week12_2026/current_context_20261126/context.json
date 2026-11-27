@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T23:58:02.928469+00:00",
+  "updated_at": "2026-11-27T00:21:41.836379+00:00",
   "kind": "Current factual overlay, not a numerical model refit",
   "model_source": "../td_week12_primary.json",
   "frozen_model_sha256": "d17d254aa1521c09e679facab1a78ed7e01637628efde42f755e66f59c4ba078",
@@ -132,6 +132,14 @@
       "checked_at": "2026-11-26T17:57:00-06:00",
       "url": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-chiefs-nfl-thanksgiving",
       "note": "Not on the complete official Bills game-day inactive list vs KC. Not a promise of snaps or health. No numerical injury or workload adjustment."
+    },
+    {
+      "player_id": "00-0041013",
+      "team": "KC",
+      "player": "Emmett Johnson",
+      "checked_at": "2026-11-26T18:21:00-06:00",
+      "url": "https://www.chiefs.com/news/week-12-inactive-players-chiefs-vs-bills",
+      "note": "Not on the complete official Chiefs game-day inactive list vs BUF. Not a promise of snaps or health. No numerical injury or workload adjustment."
     }
   ],
   "receipt_prices": [
@@ -332,6 +340,25 @@
       "O'Cyrus Torrence",
       "T.J. Sanders"
     ],
-    "chiefs_final_list": "Pending, not verified"
+    "chiefs_final_list": "Verified in final_inactives_kc"
+  },
+  "final_inactives_kc": {
+    "url": "https://www.chiefs.com/news/week-12-inactive-players-chiefs-vs-bills",
+    "checked_at": "2026-11-26T18:21:00-06:00",
+    "inactive": [
+      "9 RB Kenneth Walker",
+      "19 QB Garrett Nussmeier (3rd QB)",
+      "39 CB Melvin Smith",
+      "55 DT Omarr Norman-Lott",
+      "61 T Diego Pounds",
+      "77 OL Jaylon Moore",
+      "96 DT Marcus Harris"
+    ],
+    "not_inactive": [
+      "Emmett Johnson",
+      "Noah Gray",
+      "Peter Woods"
+    ],
+    "note": "Complete official list resolves prior final-status gap. No numerical adjustment; no promise of snaps or health."
   }
 }

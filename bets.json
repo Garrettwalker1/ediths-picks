@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-27T04:52:22.724576+00:00",
+  "updated_at": "2026-11-28T00:11:08.998731+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -17633,8 +17633,40 @@
           "team": "DEN",
           "line": 0.5,
           "price": -108,
-          "hit": null,
-          "result": "pending"
+          "hit": false,
+          "result": "loss",
+          "graded_at": "2026-11-28T00:11:08.998731+00:00",
+          "grading_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873083",
+          "final_score": "DEN5;PIT27",
+          "player_id": "4702555",
+          "final_boxscore": [
+            {
+              "category": "rushing",
+              "player_id": "4702555",
+              "stats": {
+                "CAR": "15",
+                "YDS": "26",
+                "AVG": "1.7",
+                "TD": "0",
+                "LONG": "9"
+              }
+            },
+            {
+              "category": "receiving",
+              "player_id": "4702555",
+              "stats": {
+                "REC": "8",
+                "YDS": "46",
+                "AVG": "5.8",
+                "TD": "0",
+                "LONG": "17",
+                "TGTS": "10"
+              }
+            }
+          ],
+          "own_rushing_receiving_return_recovery_tds": 0,
+          "scoring_play_ids": [],
+          "grading_note": "Verified Final boxscore and complete scoring-play list. No own rushing, receiving, return or recovery touchdown. Passing touchdowns excluded."
         }
       ],
       "notes": "Actual placed receipt, independent of model recommendations and group posts. Exact receipt total payout retained, not recomputed from rounded odds. Original images remain private. No new wager or cashout executed.",

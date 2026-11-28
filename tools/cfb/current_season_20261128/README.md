@@ -1,0 +1,1 @@
+Daily CFB Nov28:838finals,13new summaries,2084past-only training rows,53future forecasts,106rosters,108participant/roster mismatches.20primary81secondary5unmatched,36unknown no-designation teams,730listed nonavailable players. No numerical injury adjustment. Prior issues unchanged.

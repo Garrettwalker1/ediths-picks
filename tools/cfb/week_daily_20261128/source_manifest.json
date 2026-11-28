@@ -1,0 +1,263 @@
+[
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:11.574153+00:00",
+    "received_at": "2026-11-28T13:14:13.632789+00:00",
+    "sha256": "d9d3b9ab104b4274366f1dc41638e60b659f92b0602398eeaf0f55d1f2818afd",
+    "file": "tools/cfb/week_daily_20261128/sources/date-probe.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/date-probe.json.gz",
+    "stored_sha256": "e2a97b9400078ebee46d0457b601d6bdeb38a45706e3dcca020f7300278dfbac"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=1&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:13.643132+00:00",
+    "received_at": "2026-11-28T13:14:14.800702+00:00",
+    "sha256": "6145d7596d210529981e08a3f1f01c6a0563e8e4e3715ae7ddb0c9a96cd86bbb",
+    "file": "tools/cfb/week_daily_20261128/sources/week1.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week1.json.gz",
+    "stored_sha256": "6b6899a87f27a680a79acf7219b797a827aa2a50e8cd75f05b5d083d8c93deda"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=2&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:14.817830+00:00",
+    "received_at": "2026-11-28T13:14:14.939295+00:00",
+    "sha256": "6bc245aa0ac0cab86da0c109bd3cfc3f2fdd9bcd050c911a1294da97ac97ef4c",
+    "file": "tools/cfb/week_daily_20261128/sources/week2.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week2.json.gz",
+    "stored_sha256": "3e290bd561ead524a64f23a94fcd20d60771781872146c57f388e39c9803ec28"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=3&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:14.957998+00:00",
+    "received_at": "2026-11-28T13:14:15.086194+00:00",
+    "sha256": "6e381b9d89c80183015b8547847b3ec55f4f7189eafa3826cfcd4fec72c16b64",
+    "file": "tools/cfb/week_daily_20261128/sources/week3.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week3.json.gz",
+    "stored_sha256": "ca7136538998e5017bf47072d007a6273aa34b6b9ceca5320b021c258be17f2d"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=4&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:15.098854+00:00",
+    "received_at": "2026-11-28T13:14:15.240293+00:00",
+    "sha256": "3f0083c53f8e0cc358c78f4e933d572c4d2d8bbe9d12c41da33db08b9cc7553f",
+    "file": "tools/cfb/week_daily_20261128/sources/week4.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week4.json.gz",
+    "stored_sha256": "9dd68a2f06b105ff3e99ebd22bf7fc06c9c00a6c7d4f8e130de335818f5a8b91"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=5&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:15.262885+00:00",
+    "received_at": "2026-11-28T13:14:15.402613+00:00",
+    "sha256": "3be1a20655a0f41f5a57ac8afc1d4f142cc9367d5a94f660c4039735e5169d17",
+    "file": "tools/cfb/week_daily_20261128/sources/week5.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week5.json.gz",
+    "stored_sha256": "577352339b0ff9c4926ede846ecd987c001b80e3c21f140f92555787c466e92f"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=6&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:15.435328+00:00",
+    "received_at": "2026-11-28T13:14:15.578112+00:00",
+    "sha256": "d2bd40f4e149041354d15ee98d0009dffaeab4ac7eca9bddd8441b3fa286a250",
+    "file": "tools/cfb/week_daily_20261128/sources/week6.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week6.json.gz",
+    "stored_sha256": "b4282b5ff27726185153f597d91967274c97a8340e96677aee3c9e61e42a0d20"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=7&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:15.599586+00:00",
+    "received_at": "2026-11-28T13:14:16.000421+00:00",
+    "sha256": "bb75972cfd12945bcf2e3d4b9b600605fe02f2706dfa46661d5bcc42af50e776",
+    "file": "tools/cfb/week_daily_20261128/sources/week7.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week7.json.gz",
+    "stored_sha256": "2ff16a638386c3705f6f932a7ce50b6aca4682f42c27301168d20b9c5069c3b8"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=8&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.010166+00:00",
+    "received_at": "2026-11-28T13:14:16.162300+00:00",
+    "sha256": "8d1cc126201b05f49b09762ef1359ff50135d72475d94b9dba65d376b04feddc",
+    "file": "tools/cfb/week_daily_20261128/sources/week8.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week8.json.gz",
+    "stored_sha256": "4c7c17242f4b7016cd59d8652ce0692cf35a2dc63129e28826160c2ac442da49"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=9&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.171482+00:00",
+    "received_at": "2026-11-28T13:14:16.267043+00:00",
+    "sha256": "558a83c5b542b71976808f9a45c631dafd84fb50be1303915260a5edeefdfbbb",
+    "file": "tools/cfb/week_daily_20261128/sources/week9.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week9.json.gz",
+    "stored_sha256": "f11a016a7814c6d23fbea6a92f3c39b9498b8ed35bd90e88bd06a9846e4ba13b"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=10&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.277011+00:00",
+    "received_at": "2026-11-28T13:14:16.418150+00:00",
+    "sha256": "f8346fdd44baf4f2e78f60bd3312432f5f446bdbc4e5e1d81266573ca250f801",
+    "file": "tools/cfb/week_daily_20261128/sources/week10.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week10.json.gz",
+    "stored_sha256": "748b3e09b750ca03c225a59491fc404519ded21c4472dafad65e38b1add9e925"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=11&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.428490+00:00",
+    "received_at": "2026-11-28T13:14:16.625884+00:00",
+    "sha256": "8872b1944f43a6744caaa56575a9cb78f5ae9a8a264ddf00b846713737de6f32",
+    "file": "tools/cfb/week_daily_20261128/sources/week11.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week11.json.gz",
+    "stored_sha256": "e12cbc15ad95b0a22820b9f27f769fdfda2e92b25d17d47ce9833c96a0b10650"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=12&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.636867+00:00",
+    "received_at": "2026-11-28T13:14:16.756736+00:00",
+    "sha256": "c8a9d8a7149c4dd350c7fa2d1b82784cf9f9a3923efe5c5aca36d819c10fd004",
+    "file": "tools/cfb/week_daily_20261128/sources/week12.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week12.json.gz",
+    "stored_sha256": "e269d8052e9282f7421097dac102848e8788a6ad1fa16f18d1df825b91be662b"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?year=2026&seasontype=2&week=13&groups=80&limit=400",
+    "requested_at": "2026-11-28T13:14:16.798273+00:00",
+    "received_at": "2026-11-28T13:14:17.243828+00:00",
+    "sha256": "cc75f59bff77592f9da03a58b529c966d3e84e7a395d3bef6371b21da962e15e",
+    "file": "tools/cfb/week_daily_20261128/sources/week13.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/week13.json.gz",
+    "stored_sha256": "eb589bdf38cef3eb62f46786bf040299d498c76c0eeb4a5ff96f5ae8fe6dd151"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings?season=2026&type=0&level=3",
+    "requested_at": "2026-11-28T13:14:17.304488+00:00",
+    "received_at": "2026-11-28T13:14:17.575435+00:00",
+    "sha256": "def26b4287b2899cf21baeaaee319dc4c41e006134619979e997265b193a4b72",
+    "file": "tools/cfb/week_daily_20261128/sources/standings.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/standings.json.gz",
+    "stored_sha256": "97ae65b28529494f7c87428f05f6dd027eb3271ef002c9c227c8cf06ae619387"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings?season=2026&seasontype=2&week=13",
+    "requested_at": "2026-11-28T13:14:17.619538+00:00",
+    "received_at": "2026-11-28T13:14:17.738373+00:00",
+    "sha256": "04bdd51b60c1f7bdda3886e26ce206412cc1318128d0a4df4b2b577223cd27aa",
+    "file": "tools/cfb/week_daily_20261128/sources/ap_rankings.json",
+    "storage_path": "tools/cfb/week_daily_20261128/sources/ap_rankings.json.gz",
+    "stored_sha256": "670006919e7bf1208fc90f21a2c6e4db97a0257a369d9b6487c2b4eeadbb887a"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856762",
+    "requested_at": "2026-11-28T13:14:17.747102+00:00",
+    "received_at": "2026-11-28T13:14:17.839319+00:00",
+    "sha256": "dbc96ba65e10f92466ba7b621f0efe502e54ad166faf57d1228a077a35892e1a",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856762.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856762.json.gz",
+    "stored_sha256": "13d720d17eb893995a8673b86c4e292d3b203e054f595331d18f47ef7d989a9d"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856880",
+    "requested_at": "2026-11-28T13:14:17.747968+00:00",
+    "received_at": "2026-11-28T13:14:17.863232+00:00",
+    "sha256": "fda75f5b99b17b4035634a6a6773677b2bc90a8894ace21c202c23a9cf52b9c3",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856880.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856880.json.gz",
+    "stored_sha256": "31e1988f2c443462565aab0695e35e36b8cfe7d7bacbd74cbc713060f767a4ba"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856756",
+    "requested_at": "2026-11-28T13:14:17.746548+00:00",
+    "received_at": "2026-11-28T13:14:17.869915+00:00",
+    "sha256": "bae9f62c12657595cd5aad2dfe13086043880e9454609f0fafbcb1dcae25fb92",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856756.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856756.json.gz",
+    "stored_sha256": "5feb966c60ffe531517b1a8952fff5b5cbdad6faf27668d1d19bfaf2b81e42e0"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856759",
+    "requested_at": "2026-11-28T13:14:17.746851+00:00",
+    "received_at": "2026-11-28T13:14:17.897512+00:00",
+    "sha256": "716d4ce6ae32326a0024193ebdf0bf5df0fdd338b2a3d178dd9f4d8652782749",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856759.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401856759.json.gz",
+    "stored_sha256": "5c37898633ee88dabe79d640f1cde00f6251a56e17b215455aa49b3d840f93ee"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858536",
+    "requested_at": "2026-11-28T13:14:17.846395+00:00",
+    "received_at": "2026-11-28T13:14:17.928715+00:00",
+    "sha256": "f36994252053f3eb67c777568f6387c4eca8ab503c8e9499d3d00c2a7bf2cfd3",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401858536.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401858536.json.gz",
+    "stored_sha256": "1ef5dede494750e16b399745321aed7f16912acf7ff12dab01208e459ae50456"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862838",
+    "requested_at": "2026-11-28T13:14:17.875289+00:00",
+    "received_at": "2026-11-28T13:14:17.969202+00:00",
+    "sha256": "0dd00a8d1806c883a5a3e1de3b4e1c988a642b81968ef3318d95d0ad62b77f2d",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401862838.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401862838.json.gz",
+    "stored_sha256": "b1f8ca7744cad21b4d6e5fc8dde3989d51693086f9d216685912d792364e9821"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858544",
+    "requested_at": "2026-11-28T13:14:17.868638+00:00",
+    "received_at": "2026-11-28T13:14:17.996043+00:00",
+    "sha256": "26bbc2037302fa2e06f501328c6e9ae4b60c7e6e4ae4337d7b2415698cf29e62",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401858544.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401858544.json.gz",
+    "stored_sha256": "44dfcdee32ddf07e00609e2ad4c7e9ad9395ca4cdb7dddb11d698f2b56966231"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862840",
+    "requested_at": "2026-11-28T13:14:17.903422+00:00",
+    "received_at": "2026-11-28T13:14:18.043865+00:00",
+    "sha256": "b08574e92a70b2d16bfe263b6870fc8cee898e69e0d00dae85a5ad28935d97c7",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401862840.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401862840.json.gz",
+    "stored_sha256": "5f64dd473fe982a94eed2bcd7ca540d09424cf194e03bb2a536e50727d63524f"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864546",
+    "requested_at": "2026-11-28T13:14:17.935197+00:00",
+    "received_at": "2026-11-28T13:14:18.061858+00:00",
+    "sha256": "26babe7c773715a0516f92724a11c015190be34d11a60ddbf3d5e0e96ad34294",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401864546.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401864546.json.gz",
+    "stored_sha256": "6e1183d115b62009027c5d91a9f9b876e22d2c514d117d2ed70832da46ebbec7"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864549",
+    "requested_at": "2026-11-28T13:14:17.975059+00:00",
+    "received_at": "2026-11-28T13:14:18.125137+00:00",
+    "sha256": "72f0a43370ebc33a0557d8b9fac7074c5737477da966b84d80beb46342c6cd91",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401864549.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401864549.json.gz",
+    "stored_sha256": "89b8f430a541a8b969f12e8d09540cb06a759462af1bed32cf97d444f9ab3ad8"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866472",
+    "requested_at": "2026-11-28T13:14:18.000375+00:00",
+    "received_at": "2026-11-28T13:14:18.146861+00:00",
+    "sha256": "550c69043b35d615b2e72ae216c96413a93ef886daff515b17cf8bf4a8db867a",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401866472.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401866472.json.gz",
+    "stored_sha256": "243bff1ff6b40c774a639c4e051fc465aeb522ae81bcfcba0d8ae2dfdffd3e25"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866473",
+    "requested_at": "2026-11-28T13:14:18.050518+00:00",
+    "received_at": "2026-11-28T13:14:18.146993+00:00",
+    "sha256": "444c6fcfc2b6a262598103685dbdebfca9137f40f9a2199a8f7d6ed5e05244f2",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401866473.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401866473.json.gz",
+    "stored_sha256": "c47b5acd31ea926e4a889d8aa29c65e972fc4d2b2097fc3b4df0bdcdd0a6808e"
+  },
+  {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869930",
+    "requested_at": "2026-11-28T13:14:18.066027+00:00",
+    "received_at": "2026-11-28T13:14:18.220608+00:00",
+    "sha256": "8ac230f60459388116f920611f8c599b8625c8e7d6cdd998b40c8d985d795207",
+    "file": "tools/cfb/week_daily_20261128/boxscores/boxscore-401869930.json",
+    "storage_path": "tools/cfb/week_daily_20261128/boxscores/boxscore-401869930.json.gz",
+    "stored_sha256": "86d6aa9811829fa9207cab2a4cc4582dc675644b5a31620b0d35eec8420b5fd7"
+  }
+]

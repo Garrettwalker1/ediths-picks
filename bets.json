@@ -1,7 +1,7 @@
 {
   "unit_definition": "1 unit = $10.00 (effective 2026-09-21; already-settled history retains recorded $5-era units)",
   "unit_value_usd": 10,
-  "updated_at": "2026-11-28T00:11:08.998731+00:00",
+  "updated_at": "2026-11-28T15:21:14.014164+00:00",
   "bets": [
     {
       "bet_id": "us-tn:01m26teetbf3tbchq6gnwnkm2d",
@@ -18426,6 +18426,202 @@
         ],
         "detail": "Standard sporting-result settlement from verified Final boxscores and complete scoring plays. No cashout, void or protection reported in latest owner conversation. Future legs remain pending. Exact receipt payout used for winner; units not inferred."
       }
+    },
+    {
+      "bet_id": "us-tn:01m8hbrdk5ere8ggs0r74t5qgm",
+      "placed_at": "2026-11-28T09:18:00-06:00",
+      "date": "2026-11-28T09:18:00-06:00",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Exact dollar stake shown; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 197,
+      "potential_payout_usd": 29.8,
+      "potential_profit_usd": 19.8,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Visible offer only, no executed cashout.",
+      "cashout_offer_as_of": "2026-11-28T09:19:00-06:00",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8HBVB6RDT1KXA0TW2VEP292",
+      "source_received_at": "2026-11-28T09:19:07-06:00",
+      "source": "Owner placed-ticket screenshot, pixels and footer independently inspected.",
+      "receipt_filenames": [
+        "image-d17720d6.png"
+      ],
+      "source_receipt_sha256": [
+        "fd3a52054a63ffe815c334eae935d5077e842e56019c3a9a06b9de37c26d2ab5"
+      ],
+      "logged_at": "2026-11-28T15:21:14.014164+00:00",
+      "game": "Penn State Nittany Lions @ Maryland Terrapins / SMU Mustangs @ Stanford Cardinal / Baylor Bears @ Houston Cougars",
+      "event_ids": [
+        "401858539",
+        "401858316",
+        "401856874"
+      ],
+      "kickoff": "2026-11-28T20:30Z",
+      "bet": "3-leg parlay: Penn State ML / SMU ML / Houston ML",
+      "selection": "Penn State ML / SMU ML / Houston ML",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401858539",
+          "event": "Penn State Nittany Lions @ Maryland Terrapins",
+          "kickoff": "2026-11-28T20:30Z",
+          "market": "moneyline",
+          "selection": "Penn State ML",
+          "team": "Penn State",
+          "team_id": "213",
+          "line": null,
+          "price": -275,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401858316",
+          "event": "SMU Mustangs @ Stanford Cardinal",
+          "kickoff": "2026-11-28T20:30Z",
+          "market": "moneyline",
+          "selection": "SMU ML",
+          "team": "SMU",
+          "team_id": "2567",
+          "line": null,
+          "price": -275,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401856874",
+          "event": "Baylor Bears @ Houston Cougars",
+          "kickoff": "2026-11-29T02:30Z",
+          "market": "moneyline",
+          "selection": "Houston ML",
+          "team": "Houston",
+          "team_id": "248",
+          "line": null,
+          "price": -166,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Exact placed receipt odds and payout retained without recalculation. Separate from IL reference build and VOLS post. No new wager/cashout executed. Rewards pending are not a profit boost.",
+      "reference_difference": "Placed3leg+197 not reference+201; SMU-275 not-265. Below prior+200recommendation floor; log actual ticket unchanged.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=400&groups=80"
+      ]
+    },
+    {
+      "bet_id": "us-tn:01m8hbsz9aen6b4e8rnj5jgtjc",
+      "placed_at": "2026-11-28T09:19:00-06:00",
+      "date": "2026-11-28T09:19:00-06:00",
+      "sport": "CFB",
+      "book": "FanDuel",
+      "state": "TN",
+      "stake_type": "cash",
+      "status": "pending",
+      "result": "pending",
+      "stake_units": null,
+      "stake_display": "usd",
+      "stake_units_note": "Exact dollar stake shown; no explicit unit count supplied.",
+      "stake_usd": 10,
+      "price": 1038,
+      "potential_payout_usd": 113.89,
+      "potential_profit_usd": 103.89,
+      "cashout_offer_usd": 10,
+      "cashout_offer_note": "Visible offer only, no executed cashout.",
+      "cashout_offer_as_of": "2026-11-28T09:19:00-06:00",
+      "boost_pct": null,
+      "profit_boost_percent": null,
+      "original_price": null,
+      "unboosted_price": null,
+      "source_message_id": "phonemsg-01M8HBVB6RDT1KXA0TW2VEP292",
+      "source_received_at": "2026-11-28T09:19:07-06:00",
+      "source": "Owner placed-ticket screenshot, pixels and footer independently inspected.",
+      "receipt_filenames": [
+        "image-6767e45f.png"
+      ],
+      "source_receipt_sha256": [
+        "b82cbe36e44d48d92f214ca49941266a627ff79fde5b200478698da87d7c6508"
+      ],
+      "logged_at": "2026-11-28T15:21:14.014164+00:00",
+      "game": "Louisville Cardinals @ Kentucky Wildcats / Kansas State Wildcats @ Iowa State Cyclones / Kansas Jayhawks @ Oklahoma State Cowboys / Arizona State Sun Devils @ Arizona Wildcats",
+      "event_ids": [
+        "401856761",
+        "401856878",
+        "401856877",
+        "401856873"
+      ],
+      "kickoff": "2026-11-28T17:00Z",
+      "bet": "4-leg parlay: Louisville ML / Iowa State -3.5 / Oklahoma State -6.5 / Arizona -8.5",
+      "selection": "Louisville ML / Iowa State -3.5 / Oklahoma State -6.5 / Arizona -8.5",
+      "market": "parlay",
+      "legs": [
+        {
+          "event_id": "401856761",
+          "event": "Louisville Cardinals @ Kentucky Wildcats",
+          "kickoff": "2026-11-28T17:00Z",
+          "market": "moneyline",
+          "selection": "Louisville ML",
+          "team": "Louisville",
+          "team_id": "97",
+          "line": null,
+          "price": -150,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401856878",
+          "event": "Kansas State Wildcats @ Iowa State Cyclones",
+          "kickoff": "2026-11-28T19:00Z",
+          "market": "spread",
+          "selection": "Iowa State -3.5",
+          "team": "Iowa State",
+          "team_id": "66",
+          "line": -3.5,
+          "price": -120,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401856877",
+          "event": "Kansas Jayhawks @ Oklahoma State Cowboys",
+          "kickoff": "2026-11-28T23:15Z",
+          "market": "spread",
+          "selection": "Oklahoma State -6.5",
+          "team": "Oklahoma State",
+          "team_id": "197",
+          "line": -6.5,
+          "price": -105,
+          "hit": null,
+          "result": "pending"
+        },
+        {
+          "event_id": "401856873",
+          "event": "Arizona State Sun Devils @ Arizona Wildcats",
+          "kickoff": "2026-11-29T02:00Z",
+          "market": "spread",
+          "selection": "Arizona -8.5",
+          "team": "Arizona",
+          "team_id": "12",
+          "line": -8.5,
+          "price": -110,
+          "hit": null,
+          "result": "pending"
+        }
+      ],
+      "notes": "Exact placed receipt odds and payout retained without recalculation. Separate from IL reference build and VOLS post. No new wager/cashout executed. Rewards pending are not a profit boost.",
+      "reference_difference": "Placed4leg+1038 not reference+1023; OklahomaState-105 not-108. Exact receipt payout113.89 authoritative.",
+      "schedule_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261128&limit=400&groups=80"
+      ]
     }
   ]
 }
